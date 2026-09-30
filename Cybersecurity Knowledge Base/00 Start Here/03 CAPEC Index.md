@@ -1,0 +1,575 @@
+# CAPEC Index
+
+Einträge: 571. Quelle und Datensatzstand stehen in jeder Einzelnote.
+
+- [[03 Attack Patterns CAPEC/CAPEC-1 - Accessing Functionality Not Properly Constrained by ACLs|CAPEC-1: Accessing Functionality Not Properly Constrained by ACLs]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-10 - Buffer Overflow via Environment Variables|CAPEC-10: Buffer Overflow via Environment Variables]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-100 - Overflow Buffers|CAPEC-100: Overflow Buffers]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-101 - Server Side Include (SSI) Injection|CAPEC-101: Server Side Include (SSI) Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-102 - Session Sidejacking|CAPEC-102: Session Sidejacking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-103 - Clickjacking|CAPEC-103: Clickjacking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-104 - Cross Zone Scripting|CAPEC-104: Cross Zone Scripting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-106 - DEPRECATED- XSS through Log Files|CAPEC-106: DEPRECATED: XSS through Log Files]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-107 - Cross Site Tracing|CAPEC-107: Cross Site Tracing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-108 - Command Line Execution through SQL Injection|CAPEC-108: Command Line Execution through SQL Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-109 - Object Relational Mapping Injection|CAPEC-109: Object Relational Mapping Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-11 - Cause Web Server Misclassification|CAPEC-11: Cause Web Server Misclassification]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-110 - SQL Injection through SOAP Parameter Tampering|CAPEC-110: SQL Injection through SOAP Parameter Tampering]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-111 - JSON Hijacking (aka JavaScript Hijacking)|CAPEC-111: JSON Hijacking (aka JavaScript Hijacking)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-112 - Brute Force|CAPEC-112: Brute Force]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-113 - Interface Manipulation|CAPEC-113: Interface Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-114 - Authentication Abuse|CAPEC-114: Authentication Abuse]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-115 - Authentication Bypass|CAPEC-115: Authentication Bypass]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-116 - Excavation|CAPEC-116: Excavation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-117 - Interception|CAPEC-117: Interception]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-12 - Choosing Message Identifier|CAPEC-12: Choosing Message Identifier]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-120 - Double Encoding|CAPEC-120: Double Encoding]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-122 - Privilege Abuse|CAPEC-122: Privilege Abuse]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-123 - Buffer Manipulation|CAPEC-123: Buffer Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-124 - Shared Resource Manipulation|CAPEC-124: Shared Resource Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-125 - Flooding|CAPEC-125: Flooding]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-126 - Path Traversal|CAPEC-126: Path Traversal]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-127 - Directory Indexing|CAPEC-127: Directory Indexing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-128 - Integer Attacks|CAPEC-128: Integer Attacks]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-129 - Pointer Manipulation|CAPEC-129: Pointer Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-13 - Subverting Environment Variable Values|CAPEC-13: Subverting Environment Variable Values]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-130 - Excessive Allocation|CAPEC-130: Excessive Allocation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-131 - Resource Leak Exposure|CAPEC-131: Resource Leak Exposure]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-132 - Symlink Attack|CAPEC-132: Symlink Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-133 - Try All Common Switches|CAPEC-133: Try All Common Switches]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-134 - Email Injection|CAPEC-134: Email Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-135 - Format String Injection|CAPEC-135: Format String Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-136 - LDAP Injection|CAPEC-136: LDAP Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-137 - Parameter Injection|CAPEC-137: Parameter Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-138 - Reflection Injection|CAPEC-138: Reflection Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-139 - Relative Path Traversal|CAPEC-139: Relative Path Traversal]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-14 - Client-side Injection-induced Buffer Overflow|CAPEC-14: Client-side Injection-induced Buffer Overflow]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-140 - Bypassing of Intermediate Forms in Multiple-Form Sets|CAPEC-140: Bypassing of Intermediate Forms in Multiple-Form Sets]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-141 - Cache Poisoning|CAPEC-141: Cache Poisoning]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-142 - DNS Cache Poisoning|CAPEC-142: DNS Cache Poisoning]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-143 - Detect Unpublicized Web Pages|CAPEC-143: Detect Unpublicized Web Pages]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-144 - Detect Unpublicized Web Services|CAPEC-144: Detect Unpublicized Web Services]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-145 - Checksum Spoofing|CAPEC-145: Checksum Spoofing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-146 - XML Schema Poisoning|CAPEC-146: XML Schema Poisoning]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-147 - XML Ping of the Death|CAPEC-147: XML Ping of the Death]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-148 - Content Spoofing|CAPEC-148: Content Spoofing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-149 - Explore for Predictable Temporary File Names|CAPEC-149: Explore for Predictable Temporary File Names]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-15 - Command Delimiters|CAPEC-15: Command Delimiters]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-150 - Collect Data from Common Resource Locations|CAPEC-150: Collect Data from Common Resource Locations]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-151 - Identity Spoofing|CAPEC-151: Identity Spoofing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-153 - Input Data Manipulation|CAPEC-153: Input Data Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-154 - Resource Location Spoofing|CAPEC-154: Resource Location Spoofing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-155 - Screen Temporary Files for Sensitive Information|CAPEC-155: Screen Temporary Files for Sensitive Information]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-157 - Sniffing Attacks|CAPEC-157: Sniffing Attacks]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-158 - Sniffing Network Traffic|CAPEC-158: Sniffing Network Traffic]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-159 - Redirect Access to Libraries|CAPEC-159: Redirect Access to Libraries]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-160 - Exploit Script-Based APIs|CAPEC-160: Exploit Script-Based APIs]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-161 - Infrastructure Manipulation|CAPEC-161: Infrastructure Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-162 - Manipulating Hidden Fields|CAPEC-162: Manipulating Hidden Fields]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-163 - Spear Phishing|CAPEC-163: Spear Phishing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-164 - Mobile Phishing|CAPEC-164: Mobile Phishing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-165 - File Manipulation|CAPEC-165: File Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-166 - Force the System to Reset Values|CAPEC-166: Force the System to Reset Values]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-167 - White Box Reverse Engineering|CAPEC-167: White Box Reverse Engineering]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-168 - Windows --DATA Alternate Data Stream|CAPEC-168: Windows ::DATA Alternate Data Stream]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-169 - Footprinting|CAPEC-169: Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-17 - Using Malicious Files|CAPEC-17: Using Malicious Files]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-170 - Web Application Fingerprinting|CAPEC-170: Web Application Fingerprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-171 - DEPRECATED- Variable Manipulation|CAPEC-171: DEPRECATED: Variable Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-173 - Action Spoofing|CAPEC-173: Action Spoofing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-174 - Flash Parameter Injection|CAPEC-174: Flash Parameter Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-175 - Code Inclusion|CAPEC-175: Code Inclusion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-176 - Configuration-Environment Manipulation|CAPEC-176: Configuration/Environment Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-177 - Create files with the same name as files protected with a higher classification|CAPEC-177: Create files with the same name as files protected with a higher classification]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-178 - Cross-Site Flashing|CAPEC-178: Cross-Site Flashing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-179 - Calling Micro-Services Directly|CAPEC-179: Calling Micro-Services Directly]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-18 - XSS Targeting Non-Script Elements|CAPEC-18: XSS Targeting Non-Script Elements]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-180 - Exploiting Incorrectly Configured Access Control Security Levels|CAPEC-180: Exploiting Incorrectly Configured Access Control Security Levels]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-181 - Flash File Overlay|CAPEC-181: Flash File Overlay]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-182 - Flash Injection|CAPEC-182: Flash Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-183 - IMAP-SMTP Command Injection|CAPEC-183: IMAP/SMTP Command Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-184 - Software Integrity Attack|CAPEC-184: Software Integrity Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-185 - Malicious Software Download|CAPEC-185: Malicious Software Download]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-186 - Malicious Software Update|CAPEC-186: Malicious Software Update]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-187 - Malicious Automated Software Update via Redirection|CAPEC-187: Malicious Automated Software Update via Redirection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-188 - Reverse Engineering|CAPEC-188: Reverse Engineering]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-189 - Black Box Reverse Engineering|CAPEC-189: Black Box Reverse Engineering]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-19 - Embedding Scripts within Scripts|CAPEC-19: Embedding Scripts within Scripts]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-190 - Reverse Engineer an Executable to Expose Assumed Hidden Functionality|CAPEC-190: Reverse Engineer an Executable to Expose Assumed Hidden Functionality]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-192 - Protocol Analysis|CAPEC-192: Protocol Analysis]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-193 - PHP Remote File Inclusion|CAPEC-193: PHP Remote File Inclusion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-194 - Fake the Source of Data|CAPEC-194: Fake the Source of Data]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-195 - Principal Spoof|CAPEC-195: Principal Spoof]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-196 - Session Credential Falsification through Forging|CAPEC-196: Session Credential Falsification through Forging]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-197 - Exponential Data Expansion|CAPEC-197: Exponential Data Expansion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-198 - XSS Targeting Error Pages|CAPEC-198: XSS Targeting Error Pages]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-199 - XSS Using Alternate Syntax|CAPEC-199: XSS Using Alternate Syntax]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-2 - Inducing Account Lockout|CAPEC-2: Inducing Account Lockout]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-20 - Encryption Brute Forcing|CAPEC-20: Encryption Brute Forcing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-200 - Removal of filters- Input filters, output filters, data masking|CAPEC-200: Removal of filters: Input filters, output filters, data masking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-201 - Serialized Data External Linking|CAPEC-201: Serialized Data External Linking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-202 - Create Malicious Client|CAPEC-202: Create Malicious Client]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-203 - Manipulate Registry Information|CAPEC-203: Manipulate Registry Information]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-204 - Lifting Sensitive Data Embedded in Cache|CAPEC-204: Lifting Sensitive Data Embedded in Cache]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-205 - DEPRECATED- Lifting credential(s)-key material embedded in client distributions (thick or thin)|CAPEC-205: DEPRECATED: Lifting credential(s)/key material embedded in client distributions (thick or thin)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-206 - Signing Malicious Code|CAPEC-206: Signing Malicious Code]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-207 - Removing Important Client Functionality|CAPEC-207: Removing Important Client Functionality]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-208 - Removing-short-circuiting 'Purse' logic- removing-mutating 'cash' decrements|CAPEC-208: Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-209 - XSS Using MIME Type Mismatch|CAPEC-209: XSS Using MIME Type Mismatch]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-211 - DEPRECATED- Leveraging web tools (e.g. Mozilla's GreaseMonkey, Firebug) to change application behavi|CAPEC-211: DEPRECATED: Leveraging web tools (e.g. Mozilla's GreaseMonkey, Firebug) to change application behavior]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-212 - Functionality Misuse|CAPEC-212: Functionality Misuse]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-213 - DEPRECATED- Directory Traversal|CAPEC-213: DEPRECATED: Directory Traversal]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-214 - DEPRECATED- Fuzzing for garnering J2EE-.NET-based stack traces, for application mapping|CAPEC-214: DEPRECATED: Fuzzing for garnering J2EE/.NET-based stack traces, for application mapping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-215 - Fuzzing for application mapping|CAPEC-215: Fuzzing for application mapping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-216 - Communication Channel Manipulation|CAPEC-216: Communication Channel Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-217 - Exploiting Incorrectly Configured SSL-TLS|CAPEC-217: Exploiting Incorrectly Configured SSL/TLS]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-218 - Spoofing of UDDI-ebXML Messages|CAPEC-218: Spoofing of UDDI/ebXML Messages]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-219 - XML Routing Detour Attacks|CAPEC-219: XML Routing Detour Attacks]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-22 - Exploiting Trust in Client|CAPEC-22: Exploiting Trust in Client]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-220 - Client-Server Protocol Manipulation|CAPEC-220: Client-Server Protocol Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-221 - Data Serialization External Entities Blowup|CAPEC-221: Data Serialization External Entities Blowup]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-222 - iFrame Overlay|CAPEC-222: iFrame Overlay]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-224 - Fingerprinting|CAPEC-224: Fingerprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-226 - Session Credential Falsification through Manipulation|CAPEC-226: Session Credential Falsification through Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-227 - Sustained Client Engagement|CAPEC-227: Sustained Client Engagement]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-228 - DTD Injection|CAPEC-228: DTD Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-229 - Serialized Data Parameter Blowup|CAPEC-229: Serialized Data Parameter Blowup]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-23 - File Content Injection|CAPEC-23: File Content Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-230 - Serialized Data with Nested Payloads|CAPEC-230: Serialized Data with Nested Payloads]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-231 - Oversized Serialized Data Payloads|CAPEC-231: Oversized Serialized Data Payloads]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-233 - Privilege Escalation|CAPEC-233: Privilege Escalation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-234 - Hijacking a privileged process|CAPEC-234: Hijacking a privileged process]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-235 - DEPRECATED- Implementing a callback to system routine (old AWT Queue)|CAPEC-235: DEPRECATED: Implementing a callback to system routine (old AWT Queue)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-236 - DEPRECATED- Catching exception throw-signal from privileged block|CAPEC-236: DEPRECATED: Catching exception throw/signal from privileged block]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-237 - Escaping a Sandbox by Calling Code in Another Language|CAPEC-237: Escaping a Sandbox by Calling Code in Another Language]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-238 - DEPRECATED- Using URL-codebase - G.A.C. (code source) to convince sandbox of privilege|CAPEC-238: DEPRECATED: Using URL/codebase / G.A.C. (code source) to convince sandbox of privilege]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-239 - DEPRECATED- Subversion of Authorization Checks- Cache Filtering, Programmatic Security, etc|CAPEC-239: DEPRECATED: Subversion of Authorization Checks: Cache Filtering, Programmatic Security, etc.]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-24 - Filter Failure through Buffer Overflow|CAPEC-24: Filter Failure through Buffer Overflow]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-240 - Resource Injection|CAPEC-240: Resource Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-241 - DEPRECATED- Code Injection|CAPEC-241: DEPRECATED: Code Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-242 - Code Injection|CAPEC-242: Code Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-243 - XSS Targeting HTML Attributes|CAPEC-243: XSS Targeting HTML Attributes]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-244 - XSS Targeting URI Placeholders|CAPEC-244: XSS Targeting URI Placeholders]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-245 - XSS Using Doubled Characters|CAPEC-245: XSS Using Doubled Characters]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-246 - DEPRECATED- XSS Using Flash|CAPEC-246: DEPRECATED: XSS Using Flash]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-247 - XSS Using Invalid Characters|CAPEC-247: XSS Using Invalid Characters]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-248 - Command Injection|CAPEC-248: Command Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-249 - DEPRECATED- Linux Terminal Injection|CAPEC-249: DEPRECATED: Linux Terminal Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-25 - Forced Deadlock|CAPEC-25: Forced Deadlock]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-250 - XML Injection|CAPEC-250: XML Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-251 - Local Code Inclusion|CAPEC-251: Local Code Inclusion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-252 - PHP Local File Inclusion|CAPEC-252: PHP Local File Inclusion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-253 - Remote Code Inclusion|CAPEC-253: Remote Code Inclusion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-254 - DEPRECATED- DTD Injection in a SOAP Message|CAPEC-254: DEPRECATED: DTD Injection in a SOAP Message]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-256 - SOAP Array Overflow|CAPEC-256: SOAP Array Overflow]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-257 - DEPRECATED- Abuse of Transaction Data Structure|CAPEC-257: DEPRECATED: Abuse of Transaction Data Structure]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-258 - DEPRECATED- Passively Sniffing and Capturing Application Code Bound for an Authorized Client During |CAPEC-258: DEPRECATED: Passively Sniffing and Capturing Application Code Bound for an Authorized Client During Dynamic Update]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-259 - DEPRECATED- Passively Sniffing and Capturing Application Code Bound for an Authorized Client During |CAPEC-259: DEPRECATED: Passively Sniffing and Capturing Application Code Bound for an Authorized Client During Patching]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-26 - Leveraging Race Conditions|CAPEC-26: Leveraging Race Conditions]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-260 - DEPRECATED- Passively Sniffing and Capturing Application Code Bound for an Authorized Client During |CAPEC-260: DEPRECATED: Passively Sniffing and Capturing Application Code Bound for an Authorized Client During Initial Distribution]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-261 - Fuzzing for garnering other adjacent user-sensitive data|CAPEC-261: Fuzzing for garnering other adjacent user/sensitive data]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-263 - Force Use of Corrupted Files|CAPEC-263: Force Use of Corrupted Files]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-264 - DEPRECATED- Environment Variable Manipulation|CAPEC-264: DEPRECATED: Environment Variable Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-265 - DEPRECATED- Global variable manipulation|CAPEC-265: DEPRECATED: Global variable manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-266 - DEPRECATED- Manipulate Canonicalization|CAPEC-266: DEPRECATED: Manipulate Canonicalization]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-267 - Leverage Alternate Encoding|CAPEC-267: Leverage Alternate Encoding]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-268 - Audit Log Manipulation|CAPEC-268: Audit Log Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-269 - DEPRECATED- Registry Manipulation|CAPEC-269: DEPRECATED: Registry Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-27 - Leveraging Race Conditions via Symbolic Links|CAPEC-27: Leveraging Race Conditions via Symbolic Links]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-270 - Modification of Registry Run Keys|CAPEC-270: Modification of Registry Run Keys]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-271 - Schema Poisoning|CAPEC-271: Schema Poisoning]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-272 - Protocol Manipulation|CAPEC-272: Protocol Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-274 - HTTP Verb Tampering|CAPEC-274: HTTP Verb Tampering]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-275 - DNS Rebinding|CAPEC-275: DNS Rebinding]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-276 - Inter-component Protocol Manipulation|CAPEC-276: Inter-component Protocol Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-277 - Data Interchange Protocol Manipulation|CAPEC-277: Data Interchange Protocol Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-278 - Web Services Protocol Manipulation|CAPEC-278: Web Services Protocol Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-279 - SOAP Manipulation|CAPEC-279: SOAP Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-28 - Fuzzing|CAPEC-28: Fuzzing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-280 - DEPRECATED- SOAP Parameter Tampering|CAPEC-280: DEPRECATED: SOAP Parameter Tampering]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-285 - ICMP Echo Request Ping|CAPEC-285: ICMP Echo Request Ping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-287 - TCP SYN Scan|CAPEC-287: TCP SYN Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-288 - DEPRECATED- ICMP Echo Request Ping|CAPEC-288: DEPRECATED: ICMP Echo Request Ping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-289 - DEPRECATED- Infrastructure-based footprinting|CAPEC-289: DEPRECATED: Infrastructure-based footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-29 - Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions|CAPEC-29: Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-290 - Enumerate Mail Exchange (MX) Records|CAPEC-290: Enumerate Mail Exchange (MX) Records]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-291 - DNS Zone Transfers|CAPEC-291: DNS Zone Transfers]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-292 - Host Discovery|CAPEC-292: Host Discovery]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-293 - Traceroute Route Enumeration|CAPEC-293: Traceroute Route Enumeration]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-294 - ICMP Address Mask Request|CAPEC-294: ICMP Address Mask Request]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-295 - Timestamp Request|CAPEC-295: Timestamp Request]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-296 - ICMP Information Request|CAPEC-296: ICMP Information Request]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-297 - TCP ACK Ping|CAPEC-297: TCP ACK Ping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-298 - UDP Ping|CAPEC-298: UDP Ping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-299 - TCP SYN Ping|CAPEC-299: TCP SYN Ping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-3 - Using Leading 'Ghost' Character Sequences to Bypass Input Filters|CAPEC-3: Using Leading 'Ghost' Character Sequences to Bypass Input Filters]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-30 - Hijacking a Privileged Thread of Execution|CAPEC-30: Hijacking a Privileged Thread of Execution]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-300 - Port Scanning|CAPEC-300: Port Scanning]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-301 - TCP Connect Scan|CAPEC-301: TCP Connect Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-302 - TCP FIN Scan|CAPEC-302: TCP FIN Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-303 - TCP Xmas Scan|CAPEC-303: TCP Xmas Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-304 - TCP Null Scan|CAPEC-304: TCP Null Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-305 - TCP ACK Scan|CAPEC-305: TCP ACK Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-306 - TCP Window Scan|CAPEC-306: TCP Window Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-307 - TCP RPC Scan|CAPEC-307: TCP RPC Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-308 - UDP Scan|CAPEC-308: UDP Scan]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-309 - Network Topology Mapping|CAPEC-309: Network Topology Mapping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-31 - Accessing-Intercepting-Modifying HTTP Cookies|CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-310 - Scanning for Vulnerable Software|CAPEC-310: Scanning for Vulnerable Software]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-311 - DEPRECATED- OS Fingerprinting|CAPEC-311: DEPRECATED: OS Fingerprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-312 - Active OS Fingerprinting|CAPEC-312: Active OS Fingerprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-313 - Passive OS Fingerprinting|CAPEC-313: Passive OS Fingerprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-314 - DEPRECATED- IP Fingerprinting Probes|CAPEC-314: DEPRECATED: IP Fingerprinting Probes]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-315 - DEPRECATED- TCP-IP Fingerprinting Probes|CAPEC-315: DEPRECATED: TCP/IP Fingerprinting Probes]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-316 - DEPRECATED- ICMP Fingerprinting Probes|CAPEC-316: DEPRECATED: ICMP Fingerprinting Probes]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-317 - IP ID Sequencing Probe|CAPEC-317: IP ID Sequencing Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-318 - IP 'ID' Echoed Byte-Order Probe|CAPEC-318: IP 'ID' Echoed Byte-Order Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-319 - IP (DF) 'Don't Fragment Bit' Echoing Probe|CAPEC-319: IP (DF) 'Don't Fragment Bit' Echoing Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-32 - XSS Through HTTP Query Strings|CAPEC-32: XSS Through HTTP Query Strings]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-320 - TCP Timestamp Probe|CAPEC-320: TCP Timestamp Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-321 - TCP Sequence Number Probe|CAPEC-321: TCP Sequence Number Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-322 - TCP (ISN) Greatest Common Divisor Probe|CAPEC-322: TCP (ISN) Greatest Common Divisor Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-323 - TCP (ISN) Counter Rate Probe|CAPEC-323: TCP (ISN) Counter Rate Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-324 - TCP (ISN) Sequence Predictability Probe|CAPEC-324: TCP (ISN) Sequence Predictability Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-325 - TCP Congestion Control Flag (ECN) Probe|CAPEC-325: TCP Congestion Control Flag (ECN) Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-326 - TCP Initial Window Size Probe|CAPEC-326: TCP Initial Window Size Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-327 - TCP Options Probe|CAPEC-327: TCP Options Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-328 - TCP 'RST' Flag Checksum Probe|CAPEC-328: TCP 'RST' Flag Checksum Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-329 - ICMP Error Message Quoting Probe|CAPEC-329: ICMP Error Message Quoting Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-330 - ICMP Error Message Echoing Integrity Probe|CAPEC-330: ICMP Error Message Echoing Integrity Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-331 - ICMP IP Total Length Field Probe|CAPEC-331: ICMP IP Total Length Field Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-332 - ICMP IP 'ID' Field Error Message Probe|CAPEC-332: ICMP IP 'ID' Field Error Message Probe]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-35 - Leverage Executable Code in Non-Executable Files|CAPEC-35: Leverage Executable Code in Non-Executable Files]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-36 - Using Unpublished Interfaces or Functionality|CAPEC-36: Using Unpublished Interfaces or Functionality]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-37 - Retrieve Embedded Sensitive Data|CAPEC-37: Retrieve Embedded Sensitive Data]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-38 - Leveraging-Manipulating Configuration File Search Paths|CAPEC-38: Leveraging/Manipulating Configuration File Search Paths]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-383 - Harvesting Information via API Event Monitoring|CAPEC-383: Harvesting Information via API Event Monitoring]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-384 - Application API Message Manipulation via Man-in-the-Middle|CAPEC-384: Application API Message Manipulation via Man-in-the-Middle]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-385 - Transaction or Event Tampering via Application API Manipulation|CAPEC-385: Transaction or Event Tampering via Application API Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-386 - Application API Navigation Remapping|CAPEC-386: Application API Navigation Remapping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-387 - Navigation Remapping To Propagate Malicious Content|CAPEC-387: Navigation Remapping To Propagate Malicious Content]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-388 - Application API Button Hijacking|CAPEC-388: Application API Button Hijacking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-389 - Content Spoofing Via Application API Manipulation|CAPEC-389: Content Spoofing Via Application API Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-39 - Manipulating Opaque Client-based Data Tokens|CAPEC-39: Manipulating Opaque Client-based Data Tokens]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-390 - Bypassing Physical Security|CAPEC-390: Bypassing Physical Security]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-391 - Bypassing Physical Locks|CAPEC-391: Bypassing Physical Locks]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-392 - Lock Bumping|CAPEC-392: Lock Bumping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-393 - Lock Picking|CAPEC-393: Lock Picking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-394 - Using a Snap Gun Lock to Force a Lock|CAPEC-394: Using a Snap Gun Lock to Force a Lock]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-395 - Bypassing Electronic Locks and Access Controls|CAPEC-395: Bypassing Electronic Locks and Access Controls]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-396 - DEPRECATED- Bypassing Card or Badge-Based Systems|CAPEC-396: DEPRECATED: Bypassing Card or Badge-Based Systems]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-397 - Cloning Magnetic Strip Cards|CAPEC-397: Cloning Magnetic Strip Cards]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-398 - Magnetic Strip Card Brute Force Attacks|CAPEC-398: Magnetic Strip Card Brute Force Attacks]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-399 - Cloning RFID Cards or Chips|CAPEC-399: Cloning RFID Cards or Chips]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-4 - Using Alternative IP Address Encodings|CAPEC-4: Using Alternative IP Address Encodings]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-40 - Manipulating Writeable Terminal Devices|CAPEC-40: Manipulating Writeable Terminal Devices]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-400 - RFID Chip Deactivation or Destruction|CAPEC-400: RFID Chip Deactivation or Destruction]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-401 - Physically Hacking Hardware|CAPEC-401: Physically Hacking Hardware]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-402 - Bypassing ATA Password Security|CAPEC-402: Bypassing ATA Password Security]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-404 - DEPRECATED- Social Information Gathering Attacks|CAPEC-404: DEPRECATED: Social Information Gathering Attacks]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-405 - DEPRECATED- Social Information Gathering via Research|CAPEC-405: DEPRECATED: Social Information Gathering via Research]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-406 - Dumpster Diving|CAPEC-406: Dumpster Diving]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-407 - Pretexting|CAPEC-407: Pretexting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-408 - DEPRECATED- Information Gathering from Traditional Sources|CAPEC-408: DEPRECATED: Information Gathering from Traditional Sources]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-409 - DEPRECATED- Information Gathering from Non-Traditional Sources|CAPEC-409: DEPRECATED: Information Gathering from Non-Traditional Sources]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-41 - Using Meta-characters in E-mail Headers to Inject Malicious Payloads|CAPEC-41: Using Meta-characters in E-mail Headers to Inject Malicious Payloads]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-410 - Information Elicitation|CAPEC-410: Information Elicitation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-411 - DEPRECATED- Pretexting|CAPEC-411: DEPRECATED: Pretexting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-412 - Pretexting via Customer Service|CAPEC-412: Pretexting via Customer Service]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-413 - Pretexting via Tech Support|CAPEC-413: Pretexting via Tech Support]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-414 - Pretexting via Delivery Person|CAPEC-414: Pretexting via Delivery Person]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-415 - Pretexting via Phone|CAPEC-415: Pretexting via Phone]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-416 - Manipulate Human Behavior|CAPEC-416: Manipulate Human Behavior]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-417 - Influence Perception|CAPEC-417: Influence Perception]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-418 - Influence Perception of Reciprocation|CAPEC-418: Influence Perception of Reciprocation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-419 - DEPRECATED- Target Influence via Perception of Concession|CAPEC-419: DEPRECATED: Target Influence via Perception of Concession]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-42 - MIME Conversion|CAPEC-42: MIME Conversion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-420 - Influence Perception of Scarcity|CAPEC-420: Influence Perception of Scarcity]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-421 - Influence Perception of Authority|CAPEC-421: Influence Perception of Authority]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-422 - Influence Perception of Commitment and Consistency|CAPEC-422: Influence Perception of Commitment and Consistency]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-423 - Influence Perception of Liking|CAPEC-423: Influence Perception of Liking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-424 - Influence Perception of Consensus or Social Proof|CAPEC-424: Influence Perception of Consensus or Social Proof]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-425 - Target Influence via Framing|CAPEC-425: Target Influence via Framing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-426 - Influence via Incentives|CAPEC-426: Influence via Incentives]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-427 - Influence via Psychological Principles|CAPEC-427: Influence via Psychological Principles]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-428 - Influence via Modes of Thinking|CAPEC-428: Influence via Modes of Thinking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-429 - Target Influence via Eye Cues|CAPEC-429: Target Influence via Eye Cues]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-43 - Exploiting Multiple Input Interpretation Layers|CAPEC-43: Exploiting Multiple Input Interpretation Layers]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-430 - DEPRECATED- Target Influence via Micro-Expressions|CAPEC-430: DEPRECATED:  Target Influence via Micro-Expressions]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-431 - DEPRECATED- Target Influence via Neuro-Linguistic Programming (NLP)|CAPEC-431: DEPRECATED:  Target Influence via Neuro-Linguistic Programming (NLP)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-432 - DEPRECATED- Target Influence via Voice in NLP|CAPEC-432: DEPRECATED:  Target Influence via Voice in NLP]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-433 - Target Influence via The Human Buffer Overflow|CAPEC-433: Target Influence via The Human Buffer Overflow]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-438 - Modification During Manufacture|CAPEC-438: Modification During Manufacture]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-439 - Manipulation During Distribution|CAPEC-439: Manipulation During Distribution]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-44 - Overflow Binary Resource File|CAPEC-44: Overflow Binary Resource File]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-440 - Hardware Integrity Attack|CAPEC-440: Hardware Integrity Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-441 - Malicious Logic Insertion|CAPEC-441: Malicious Logic Insertion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-442 - Infected Software|CAPEC-442: Infected Software]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-443 - Malicious Logic Inserted Into Product by Authorized Developer|CAPEC-443: Malicious Logic Inserted Into Product by Authorized Developer]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-444 - Development Alteration|CAPEC-444: Development Alteration]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-447 - Design Alteration|CAPEC-447: Design Alteration]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-448 - Embed Virus into DLL|CAPEC-448: Embed Virus into DLL]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-449 - DEPRECATED- Malware Propagation via USB Stick|CAPEC-449: DEPRECATED: Malware Propagation via USB Stick]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-45 - Buffer Overflow via Symbolic Links|CAPEC-45: Buffer Overflow via Symbolic Links]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-450 - DEPRECATED- Malware Propagation via USB U3 Autorun|CAPEC-450: DEPRECATED: Malware Propagation via USB U3 Autorun]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-451 - DEPRECATED- Malware Propagation via Infected Peripheral Device|CAPEC-451: DEPRECATED: Malware Propagation via Infected Peripheral Device]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-452 - Infected Hardware|CAPEC-452: Infected Hardware]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-453 - DEPRECATED- Malicious Logic Insertion via Counterfeit Hardware|CAPEC-453: DEPRECATED: Malicious Logic Insertion via Counterfeit Hardware]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-454 - DEPRECATED- Modification of Existing Components with Counterfeit Hardware|CAPEC-454: DEPRECATED: Modification of Existing Components with Counterfeit Hardware]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-455 - DEPRECATED- Malicious Logic Insertion via Inclusion of Counterfeit Hardware Components|CAPEC-455: DEPRECATED: Malicious Logic Insertion via Inclusion of Counterfeit Hardware Components]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-456 - Infected Memory|CAPEC-456: Infected Memory]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-457 - USB Memory Attacks|CAPEC-457: USB Memory Attacks]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-458 - Flash Memory Attacks|CAPEC-458: Flash Memory Attacks]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-459 - Creating a Rogue Certification Authority Certificate|CAPEC-459: Creating a Rogue Certification Authority Certificate]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-46 - Overflow Variables and Tags|CAPEC-46: Overflow Variables and Tags]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-460 - HTTP Parameter Pollution (HPP)|CAPEC-460: HTTP Parameter Pollution (HPP)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-461 - Web Services API Signature Forgery Leveraging Hash Function Extension Weakness|CAPEC-461: Web Services API Signature Forgery Leveraging Hash Function Extension Weakness]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-462 - Cross-Domain Search Timing|CAPEC-462: Cross-Domain Search Timing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-463 - Padding Oracle Crypto Attack|CAPEC-463: Padding Oracle Crypto Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-464 - Evercookie|CAPEC-464: Evercookie]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-465 - Transparent Proxy Abuse|CAPEC-465: Transparent Proxy Abuse]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-466 - Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy|CAPEC-466: Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-467 - Cross Site Identification|CAPEC-467: Cross Site Identification]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-468 - Generic Cross-Browser Cross-Domain Theft|CAPEC-468: Generic Cross-Browser Cross-Domain Theft]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-469 - HTTP DoS|CAPEC-469: HTTP DoS]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-47 - Buffer Overflow via Parameter Expansion|CAPEC-47: Buffer Overflow via Parameter Expansion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-470 - Expanding Control over the Operating System from the Database|CAPEC-470: Expanding Control over the Operating System from the Database]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-471 - Search Order Hijacking|CAPEC-471: Search Order Hijacking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-472 - Browser Fingerprinting|CAPEC-472: Browser Fingerprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-473 - Signature Spoof|CAPEC-473: Signature Spoof]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-474 - Signature Spoofing by Key Theft|CAPEC-474: Signature Spoofing by Key Theft]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-475 - Signature Spoofing by Improper Validation|CAPEC-475: Signature Spoofing by Improper Validation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-476 - Signature Spoofing by Misrepresentation|CAPEC-476: Signature Spoofing by Misrepresentation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-477 - Signature Spoofing by Mixing Signed and Unsigned Content|CAPEC-477: Signature Spoofing by Mixing Signed and Unsigned Content]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-478 - Modification of Windows Service Configuration|CAPEC-478: Modification of Windows Service Configuration]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-479 - Malicious Root Certificate|CAPEC-479: Malicious Root Certificate]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-48 - Passing Local Filenames to Functions That Expect a URL|CAPEC-48: Passing Local Filenames to Functions That Expect a URL]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-480 - Escaping Virtualization|CAPEC-480: Escaping Virtualization]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-481 - Contradictory Destinations in Traffic Routing Schemes|CAPEC-481: Contradictory Destinations in Traffic Routing Schemes]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-482 - TCP Flood|CAPEC-482: TCP Flood]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-484 - DEPRECATED- XML Client-Side Attack|CAPEC-484: DEPRECATED: XML Client-Side Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-485 - Signature Spoofing by Key Recreation|CAPEC-485: Signature Spoofing by Key Recreation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-486 - UDP Flood|CAPEC-486: UDP Flood]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-487 - ICMP Flood|CAPEC-487: ICMP Flood]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-488 - HTTP Flood|CAPEC-488: HTTP Flood]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-489 - SSL Flood|CAPEC-489: SSL Flood]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-49 - Password Brute Forcing|CAPEC-49: Password Brute Forcing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-490 - Amplification|CAPEC-490: Amplification]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-491 - Quadratic Data Expansion|CAPEC-491: Quadratic Data Expansion]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-492 - Regular Expression Exponential Blowup|CAPEC-492: Regular Expression Exponential Blowup]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-493 - SOAP Array Blowup|CAPEC-493: SOAP Array Blowup]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-494 - TCP Fragmentation|CAPEC-494: TCP Fragmentation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-495 - UDP Fragmentation|CAPEC-495: UDP Fragmentation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-496 - ICMP Fragmentation|CAPEC-496: ICMP Fragmentation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-497 - File Discovery|CAPEC-497: File Discovery]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-498 - Probe iOS Screenshots|CAPEC-498: Probe iOS Screenshots]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-499 - Android Intent Intercept|CAPEC-499: Android Intent Intercept]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-50 - Password Recovery Exploitation|CAPEC-50: Password Recovery Exploitation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-500 - WebView Injection|CAPEC-500: WebView Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-501 - Android Activity Hijack|CAPEC-501: Android Activity Hijack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-502 - Intent Spoof|CAPEC-502: Intent Spoof]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-503 - WebView Exposure|CAPEC-503: WebView Exposure]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-504 - Task Impersonation|CAPEC-504: Task Impersonation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-505 - Scheme Squatting|CAPEC-505: Scheme Squatting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-506 - Tapjacking|CAPEC-506: Tapjacking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-507 - Physical Theft|CAPEC-507: Physical Theft]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-508 - Shoulder Surfing|CAPEC-508: Shoulder Surfing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-509 - Kerberoasting|CAPEC-509: Kerberoasting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-51 - Poison Web Service Registry|CAPEC-51: Poison Web Service Registry]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-510 - SaaS User Request Forgery|CAPEC-510: SaaS User Request Forgery]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-511 - Infiltration of Software Development Environment|CAPEC-511: Infiltration of Software Development Environment]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-516 - Hardware Component Substitution During Baselining|CAPEC-516: Hardware Component Substitution During Baselining]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-517 - Documentation Alteration to Circumvent Dial-down|CAPEC-517: Documentation Alteration to Circumvent Dial-down]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-518 - Documentation Alteration to Produce Under-performing Systems|CAPEC-518: Documentation Alteration to Produce Under-performing Systems]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-519 - Documentation Alteration to Cause Errors in System Design|CAPEC-519: Documentation Alteration to Cause Errors in System Design]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-52 - Embedding NULL Bytes|CAPEC-52: Embedding NULL Bytes]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-520 - Counterfeit Hardware Component Inserted During Product Assembly|CAPEC-520: Counterfeit Hardware Component Inserted During Product Assembly]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-521 - Hardware Design Specifications Are Altered|CAPEC-521: Hardware Design Specifications Are Altered]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-522 - Malicious Hardware Component Replacement|CAPEC-522: Malicious Hardware Component Replacement]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-523 - Malicious Software Implanted|CAPEC-523: Malicious Software Implanted]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-524 - Rogue Integration Procedures|CAPEC-524: Rogue Integration Procedures]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-528 - XML Flood|CAPEC-528: XML Flood]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-529 - Malware-Directed Internal Reconnaissance|CAPEC-529: Malware-Directed Internal Reconnaissance]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-53 - Postfix, Null Terminate, and Backslash|CAPEC-53: Postfix, Null Terminate, and Backslash]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-530 - Provide Counterfeit Component|CAPEC-530: Provide Counterfeit Component]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-531 - Hardware Component Substitution|CAPEC-531: Hardware Component Substitution]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-532 - Altered Installed BIOS|CAPEC-532: Altered Installed BIOS]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-533 - Malicious Manual Software Update|CAPEC-533: Malicious Manual Software Update]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-534 - Malicious Hardware Update|CAPEC-534: Malicious Hardware Update]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-535 - Malicious Gray Market Hardware|CAPEC-535: Malicious Gray Market Hardware]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-536 - Data Injected During Configuration|CAPEC-536: Data Injected During Configuration]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-537 - Infiltration of Hardware Development Environment|CAPEC-537: Infiltration of Hardware Development Environment]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-538 - Open-Source Library Manipulation|CAPEC-538: Open-Source Library Manipulation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-539 - ASIC With Malicious Functionality|CAPEC-539: ASIC With Malicious Functionality]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-54 - Query System for Information|CAPEC-54: Query System for Information]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-540 - Overread Buffers|CAPEC-540: Overread Buffers]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-541 - Application Fingerprinting|CAPEC-541: Application Fingerprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-542 - Targeted Malware|CAPEC-542: Targeted Malware]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-543 - Counterfeit Websites|CAPEC-543: Counterfeit Websites]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-544 - Counterfeit Organizations|CAPEC-544: Counterfeit Organizations]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-545 - Pull Data from System Resources|CAPEC-545: Pull Data from System Resources]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-546 - Incomplete Data Deletion in a Multi-Tenant Environment|CAPEC-546: Incomplete Data Deletion in a Multi-Tenant Environment]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-547 - Physical Destruction of Device or Component|CAPEC-547: Physical Destruction of Device or Component]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-548 - Contaminate Resource|CAPEC-548: Contaminate Resource]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-549 - Local Execution of Code|CAPEC-549: Local Execution of Code]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-55 - Rainbow Table Password Cracking|CAPEC-55: Rainbow Table Password Cracking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-550 - Install New Service|CAPEC-550: Install New Service]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-551 - Modify Existing Service|CAPEC-551: Modify Existing Service]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-552 - Install Rootkit|CAPEC-552: Install Rootkit ]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-554 - Functionality Bypass|CAPEC-554: Functionality Bypass]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-555 - Remote Services with Stolen Credentials|CAPEC-555: Remote Services with Stolen Credentials]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-556 - Replace File Extension Handlers|CAPEC-556: Replace File Extension Handlers]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-557 - DEPRECATED- Schedule Software To Run|CAPEC-557: DEPRECATED: Schedule Software To Run]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-558 - Replace Trusted Executable|CAPEC-558: Replace Trusted Executable]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-559 - Orbital Jamming|CAPEC-559: Orbital Jamming]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-56 - DEPRECATED- Removing-short-circuiting 'guard logic'|CAPEC-56: DEPRECATED: Removing/short-circuiting 'guard logic']] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-561 - Windows Admin Shares with Stolen Credentials|CAPEC-561: Windows Admin Shares with Stolen Credentials]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-562 - Modify Shared File|CAPEC-562: Modify Shared File]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-563 - Add Malicious File to Shared Webroot|CAPEC-563: Add Malicious File to Shared Webroot]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-564 - Run Software at Logon|CAPEC-564: Run Software at Logon]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-566 - DEPRECATED- Dump Password Hashes|CAPEC-566: DEPRECATED: Dump Password Hashes]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-567 - DEPRECATED- Obtain Data via Utilities|CAPEC-567: DEPRECATED: Obtain Data via Utilities]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-568 - Capture Credentials via Keylogger|CAPEC-568: Capture Credentials via Keylogger]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-569 - Collect Data as Provided by Users|CAPEC-569: Collect Data as Provided by Users]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-57 - Utilizing REST's Trust in the System Resource to Obtain Sensitive Data|CAPEC-57: Utilizing REST's Trust in the System Resource to Obtain Sensitive Data]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-570 - DEPRECATED- Signature-Based Avoidance|CAPEC-570: DEPRECATED: Signature-Based Avoidance]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-573 - Process Footprinting|CAPEC-573: Process Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-574 - Services Footprinting|CAPEC-574: Services Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-575 - Account Footprinting|CAPEC-575: Account Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-576 - Group Permission Footprinting|CAPEC-576: Group Permission Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-577 - Owner Footprinting|CAPEC-577: Owner Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-578 - Disable Security Software|CAPEC-578: Disable Security Software]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-579 - Replace Winlogon Helper DLL|CAPEC-579: Replace Winlogon Helper DLL]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-58 - Restful Privilege Elevation|CAPEC-58: Restful Privilege Elevation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-580 - System Footprinting|CAPEC-580: System Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-581 - Security Software Footprinting|CAPEC-581: Security Software Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-582 - Route Disabling|CAPEC-582: Route Disabling]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-583 - Disabling Network Hardware|CAPEC-583: Disabling Network Hardware]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-584 - BGP Route Disabling|CAPEC-584: BGP Route Disabling]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-585 - DNS Domain Seizure|CAPEC-585: DNS Domain Seizure]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-586 - Object Injection|CAPEC-586: Object Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-587 - Cross Frame Scripting (XFS)|CAPEC-587: Cross Frame Scripting (XFS)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-588 - DOM-Based XSS|CAPEC-588: DOM-Based XSS]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-589 - DNS Blocking|CAPEC-589: DNS Blocking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-59 - Session Credential Falsification through Prediction|CAPEC-59: Session Credential Falsification through Prediction]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-590 - IP Address Blocking|CAPEC-590: IP Address Blocking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-591 - Reflected XSS|CAPEC-591: Reflected XSS]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-592 - Stored XSS|CAPEC-592: Stored XSS]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-593 - Session Hijacking|CAPEC-593: Session Hijacking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-594 - Traffic Injection|CAPEC-594: Traffic Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-595 - Connection Reset|CAPEC-595: Connection Reset]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-596 - TCP RST Injection|CAPEC-596: TCP RST Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-597 - Absolute Path Traversal|CAPEC-597: Absolute Path Traversal]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-598 - DNS Spoofing|CAPEC-598: DNS Spoofing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-599 - Terrestrial Jamming|CAPEC-599: Terrestrial Jamming]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-6 - Argument Injection|CAPEC-6: Argument Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-60 - Reusing Session IDs (aka Session Replay)|CAPEC-60: Reusing Session IDs (aka Session Replay)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-601 - Jamming|CAPEC-601: Jamming]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-602 - DEPRECATED- Degradation|CAPEC-602: DEPRECATED: Degradation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-603 - Blockage|CAPEC-603: Blockage]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-604 - Wi-Fi Jamming|CAPEC-604: Wi-Fi Jamming]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-605 - Cellular Jamming|CAPEC-605: Cellular Jamming]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-606 - Weakening of Cellular Encryption|CAPEC-606: Weakening of Cellular Encryption]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-607 - Obstruction|CAPEC-607: Obstruction]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-608 - Cryptanalysis of Cellular Encryption|CAPEC-608: Cryptanalysis of Cellular Encryption]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-609 - Cellular Traffic Intercept|CAPEC-609: Cellular Traffic Intercept]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-61 - Session Fixation|CAPEC-61: Session Fixation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-610 - Cellular Data Injection|CAPEC-610: Cellular Data Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-611 - BitSquatting|CAPEC-611: BitSquatting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-612 - WiFi MAC Address Tracking|CAPEC-612: WiFi MAC Address Tracking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-613 - WiFi SSID Tracking|CAPEC-613: WiFi SSID Tracking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-614 - Rooting SIM Cards|CAPEC-614: Rooting SIM Cards]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-615 - Evil Twin Wi-Fi Attack|CAPEC-615: Evil Twin Wi-Fi Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-616 - Establish Rogue Location|CAPEC-616: Establish Rogue Location]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-617 - Cellular Rogue Base Station|CAPEC-617: Cellular Rogue Base Station]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-618 - Cellular Broadcast Message Request|CAPEC-618: Cellular Broadcast Message Request]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-619 - Signal Strength Tracking|CAPEC-619: Signal Strength Tracking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-62 - Cross Site Request Forgery|CAPEC-62: Cross Site Request Forgery]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-620 - Drop Encryption Level|CAPEC-620: Drop Encryption Level]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-621 - Analysis of Packet Timing and Sizes|CAPEC-621: Analysis of Packet Timing and Sizes]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-622 - Electromagnetic Side-Channel Attack|CAPEC-622: Electromagnetic Side-Channel Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-623 - Compromising Emanations Attack|CAPEC-623: Compromising Emanations Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-624 - Hardware Fault Injection|CAPEC-624: Hardware Fault Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-625 - Mobile Device Fault Injection|CAPEC-625: Mobile Device Fault Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-626 - Smudge Attack|CAPEC-626: Smudge Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-627 - Counterfeit GPS Signals|CAPEC-627: Counterfeit GPS Signals]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-628 - Carry-Off GPS Attack|CAPEC-628: Carry-Off GPS Attack]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-629 - DEPRECATED- Unauthorized Use of Device Resources|CAPEC-629: DEPRECATED: Unauthorized Use of Device Resources]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-63 - Cross-Site Scripting (XSS)|CAPEC-63: Cross-Site Scripting (XSS)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-630 - TypoSquatting|CAPEC-630: TypoSquatting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-631 - SoundSquatting|CAPEC-631: SoundSquatting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-632 - Homograph Attack via Homoglyphs|CAPEC-632: Homograph Attack via Homoglyphs]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-633 - Token Impersonation|CAPEC-633: Token Impersonation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-634 - Probe Audio and Video Peripherals|CAPEC-634: Probe Audio and Video Peripherals]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-635 - Alternative Execution Due to Deceptive Filenames|CAPEC-635: Alternative Execution Due to Deceptive Filenames]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-636 - Hiding Malicious Data or Code within Files|CAPEC-636: Hiding Malicious Data or Code within Files]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-637 - Collect Data from Clipboard|CAPEC-637: Collect Data from Clipboard]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-638 - Altered Component Firmware|CAPEC-638: Altered Component Firmware]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-639 - Probe System Files|CAPEC-639: Probe System Files]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-64 - Using Slashes and URL Encoding Combined to Bypass Validation Logic|CAPEC-64: Using Slashes and URL Encoding Combined to Bypass Validation Logic]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-640 - Inclusion of Code in Existing Process|CAPEC-640: Inclusion of Code in Existing Process]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-641 - DLL Side-Loading|CAPEC-641: DLL Side-Loading]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-642 - Replace Binaries|CAPEC-642: Replace Binaries]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-643 - Identify Shared Files-Directories on System|CAPEC-643: Identify Shared Files/Directories on System]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-644 - Use of Captured Hashes (Pass The Hash)|CAPEC-644: Use of Captured Hashes (Pass The Hash)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-645 - Use of Captured Tickets (Pass The Ticket)|CAPEC-645: Use of Captured Tickets (Pass The Ticket)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-646 - Peripheral Footprinting|CAPEC-646: Peripheral Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-647 - Collect Data from Registries|CAPEC-647: Collect Data from Registries]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-648 - Collect Data from Screen Capture|CAPEC-648: Collect Data from Screen Capture]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-649 - Adding a Space to a File Extension|CAPEC-649: Adding a Space to a File Extension]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-65 - Sniff Application Code|CAPEC-65: Sniff Application Code]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-650 - Upload a Web Shell to a Web Server|CAPEC-650: Upload a Web Shell to a Web Server]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-651 - Eavesdropping|CAPEC-651: Eavesdropping]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-652 - Use of Known Kerberos Credentials|CAPEC-652: Use of Known Kerberos Credentials]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-653 - Use of Known Operating System Credentials|CAPEC-653: Use of Known Operating System Credentials]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-654 - Credential Prompt Impersonation|CAPEC-654: Credential Prompt Impersonation]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-656 - Voice Phishing|CAPEC-656: Voice Phishing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-657 - Malicious Automated Software Update via Spoofing|CAPEC-657: Malicious Automated Software Update via Spoofing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-66 - SQL Injection|CAPEC-66: SQL Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-660 - Root-Jailbreak Detection Evasion via Hooking|CAPEC-660: Root/Jailbreak Detection Evasion via Hooking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-661 - Root-Jailbreak Detection Evasion via Debugging|CAPEC-661: Root/Jailbreak Detection Evasion via Debugging]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-663 - Exploitation of Transient Instruction Execution|CAPEC-663: Exploitation of Transient Instruction Execution]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-666 - BlueSmacking|CAPEC-666: BlueSmacking]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-667 - Bluetooth Impersonation AttackS (BIAS)|CAPEC-667: Bluetooth Impersonation AttackS (BIAS)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-668 - Key Negotiation of Bluetooth Attack (KNOB)|CAPEC-668: Key Negotiation of Bluetooth Attack (KNOB)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-67 - String Format Overflow in syslog()|CAPEC-67: String Format Overflow in syslog()]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-670 - Software Development Tools Maliciously Altered|CAPEC-670: Software Development Tools Maliciously Altered]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-671 - Requirements for ASIC Functionality Maliciously Altered|CAPEC-671: Requirements for ASIC Functionality Maliciously Altered]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-68 - Subvert Code-signing Facilities|CAPEC-68: Subvert Code-signing Facilities]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-682 - Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities|CAPEC-682: Exploitation of Firmware or ROM Code with Unpatchable Vulnerabilities]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-69 - Target Programs with Elevated Privileges|CAPEC-69: Target Programs with Elevated Privileges]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-696 - Load Value Injection|CAPEC-696: Load Value Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-699 - Eavesdropping on a Monitor|CAPEC-699: Eavesdropping on a Monitor]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-7 - Blind SQL Injection|CAPEC-7: Blind SQL Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-70 - Try Common or Default Usernames and Passwords|CAPEC-70: Try Common or Default Usernames and Passwords]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-700 - Network Boundary Bridging|CAPEC-700: Network Boundary Bridging]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-701 - Browser in the Middle (BiTM)|CAPEC-701: Browser in the Middle (BiTM)]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-71 - Using Unicode Encoding to Bypass Validation Logic|CAPEC-71: Using Unicode Encoding to Bypass Validation Logic]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-72 - URL Encoding|CAPEC-72: URL Encoding]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-73 - User-Controlled Filename|CAPEC-73: User-Controlled Filename]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-75 - Manipulating Writeable Configuration Files|CAPEC-75: Manipulating Writeable Configuration Files]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-76 - Manipulating Web Input to File System Calls|CAPEC-76: Manipulating Web Input to File System Calls]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-77 - Manipulating User-Controlled Variables|CAPEC-77: Manipulating User-Controlled Variables]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-78 - Using Escaped Slashes in Alternate Encoding|CAPEC-78: Using Escaped Slashes in Alternate Encoding]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-79 - Using Slashes in Alternate Encoding|CAPEC-79: Using Slashes in Alternate Encoding]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-8 - Buffer Overflow in an API Call|CAPEC-8: Buffer Overflow in an API Call]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-80 - Using UTF-8 Encoding to Bypass Validation Logic|CAPEC-80: Using UTF-8 Encoding to Bypass Validation Logic]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-81 - Web Server Logs Tampering|CAPEC-81: Web Server Logs Tampering]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-82 - DEPRECATED- Violating Implicit Assumptions Regarding XML Content (aka XML Denial of Service (XDoS))|CAPEC-82: DEPRECATED: Violating Implicit Assumptions Regarding XML Content (aka XML Denial of Service (XDoS))]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-83 - XPath Injection|CAPEC-83: XPath Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-84 - XQuery Injection|CAPEC-84: XQuery Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-85 - AJAX Footprinting|CAPEC-85: AJAX Footprinting]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-86 - XSS Through HTTP Headers|CAPEC-86: XSS Through HTTP Headers]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-87 - Forceful Browsing|CAPEC-87: Forceful Browsing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-88 - OS Command Injection|CAPEC-88: OS Command Injection]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-89 - Pharming|CAPEC-89: Pharming]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-9 - Buffer Overflow in Local Command-Line Utilities|CAPEC-9: Buffer Overflow in Local Command-Line Utilities]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-90 - Reflection Attack in Authentication Protocol|CAPEC-90: Reflection Attack in Authentication Protocol]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-91 - DEPRECATED- XSS in IMG Tags|CAPEC-91: DEPRECATED: XSS in IMG Tags]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-92 - Forced Integer Overflow|CAPEC-92: Forced Integer Overflow]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-93 - Log Injection-Tampering-Forging|CAPEC-93: Log Injection-Tampering-Forging]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-95 - WSDL Scanning|CAPEC-95: WSDL Scanning]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-96 - Block Access to Libraries|CAPEC-96: Block Access to Libraries]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-97 - Cryptanalysis|CAPEC-97: Cryptanalysis]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-98 - Phishing|CAPEC-98: Phishing]] — Attack Pattern
+- [[03 Attack Patterns CAPEC/CAPEC-99 - DEPRECATED- XML Parser Attack|CAPEC-99: DEPRECATED: XML Parser Attack]] — Attack Pattern

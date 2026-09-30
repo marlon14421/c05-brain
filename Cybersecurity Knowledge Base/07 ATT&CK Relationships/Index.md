@@ -1,0 +1,5023 @@
+# ATT&CK Relationship Index
+
+5,000 explicit source relationships, each with direction, linked endpoint notes, a defensive interpretation, and provenance.
+
+## Mitigations
+
+- [[07 ATT&CK Relationships/ATTACK-REL-0001 - mitigates|M1056 mitigates T1588.004]] — Pre-compromise → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-0002 - mitigates|M1024 mitigates T1685.001]] — Restrict Registry Permissions → Disable or Modify Windows Event Log
+- [[07 ATT&CK Relationships/ATTACK-REL-0003 - mitigates|M1045 mitigates T1543]] — Code Signing → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0004 - mitigates|M1041 mitigates T1602]] — Encrypt Sensitive Information → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-0005 - mitigates|M1041 mitigates T1550.001]] — Encrypt Sensitive Information → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-0006 - mitigates|M1041 mitigates T1552.004]] — Encrypt Sensitive Information → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-0007 - mitigates|M1030 mitigates T1199]] — Network Segmentation → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-0008 - mitigates|M1042 mitigates T1611]] — Disable or Remove Feature or Program → Escape to Host
+- [[07 ATT&CK Relationships/ATTACK-REL-0009 - mitigates|M1035 mitigates T1557.002]] — Limit Access to Resource Over Network → ARP Cache Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-0010 - mitigates|M1042 mitigates T1059.005]] — Disable or Remove Feature or Program → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-0011 - mitigates|M1049 mitigates T1027.010]] — Antivirus/Antimalware → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-0012 - mitigates|M1018 mitigates T1569]] — User Account Management → System Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0013 - mitigates|M1021 mitigates T1102]] — Restrict Web-Based Content → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0014 - mitigates|M1056 mitigates T1584.007]] — Pre-compromise → Serverless
+- [[07 ATT&CK Relationships/ATTACK-REL-0015 - mitigates|M1026 mitigates T1555.006]] — Privileged Account Management → Cloud Secrets Management Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-0016 - mitigates|M1013 mitigates T1574]] — Application Developer Guidance → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-0017 - mitigates|M1028 mitigates T1563.002]] — Operating System Configuration → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0018 - mitigates|M1028 mitigates T1574.006]] — Operating System Configuration → Dynamic Linker Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0019 - mitigates|M1027 mitigates T1201]] — Password Policies → Password Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0020 - mitigates|M1054 mitigates T1559]] — Software Configuration → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0021 - mitigates|M1022 mitigates T1037.003]] — Restrict File and Directory Permissions → Network Logon Script
+- [[07 ATT&CK Relationships/ATTACK-REL-0022 - mitigates|M1053 mitigates T1491.001]] — Data Backup → Internal Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-0023 - mitigates|M1049 mitigates T1566]] — Antivirus/Antimalware → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-0024 - mitigates|M1042 mitigates T1609]] — Disable or Remove Feature or Program → Container Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-0025 - mitigates|M1056 mitigates T1590.003]] — Pre-compromise → Network Trust Dependencies
+- [[07 ATT&CK Relationships/ATTACK-REL-0026 - mitigates|M1022 mitigates T1547.013]] — Restrict File and Directory Permissions → XDG Autostart Entries
+- [[07 ATT&CK Relationships/ATTACK-REL-0027 - mitigates|M1017 mitigates T1003.001]] — User Training → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-0028 - mitigates|M1056 mitigates T1588]] — Pre-compromise → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-0029 - mitigates|M1057 mitigates T1052]] — Data Loss Prevention → Exfiltration Over Physical Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-0030 - mitigates|M1047 mitigates T1053.002]] — Audit → At
+- [[07 ATT&CK Relationships/ATTACK-REL-0031 - mitigates|M1027 mitigates T1003.005]] — Password Policies → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0032 - mitigates|M1047 mitigates T1556.008]] — Audit → Network Provider DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0033 - mitigates|M1026 mitigates T1053.006]] — Privileged Account Management → Systemd Timers
+- [[07 ATT&CK Relationships/ATTACK-REL-0034 - mitigates|M1040 mitigates T1055.015]] — Behavior Prevention on Endpoint → ListPlanting
+- [[07 ATT&CK Relationships/ATTACK-REL-0035 - mitigates|M1031 mitigates T1048.002]] — Network Intrusion Prevention → Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0036 - mitigates|M1056 mitigates T1593.001]] — Pre-compromise → Social Media
+- [[07 ATT&CK Relationships/ATTACK-REL-0037 - mitigates|M1020 mitigates T1090.004]] — SSL/TLS Inspection → Domain Fronting
+- [[07 ATT&CK Relationships/ATTACK-REL-0038 - mitigates|M1021 mitigates T1102.002]] — Restrict Web-Based Content → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0039 - mitigates|M1027 mitigates T1003.003]] — Password Policies → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-0040 - mitigates|M1040 mitigates T1059]] — Behavior Prevention on Endpoint → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-0041 - mitigates|M1046 mitigates T1542.005]] — Boot Integrity → TFTP Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0042 - mitigates|M1037 mitigates T1218]] — Filter Network Traffic → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0043 - mitigates|M1024 mitigates T1553]] — Restrict Registry Permissions → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-0044 - mitigates|M1018 mitigates T1213.004]] — User Account Management → Customer Relationship Management Software
+- [[07 ATT&CK Relationships/ATTACK-REL-0045 - mitigates|M1036 mitigates T1110.003]] — Account Use Policies → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-0046 - mitigates|M1033 mitigates T1195]] — Limit Software Installation → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-0047 - mitigates|M1018 mitigates T1648]] — User Account Management → Serverless Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0048 - mitigates|M1017 mitigates T1552.001]] — User Training → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-0049 - mitigates|M1019 mitigates T1684.001]] — Threat Intelligence Program → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-0050 - mitigates|M1037 mitigates T1557.002]] — Filter Network Traffic → ARP Cache Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-0051 - mitigates|M1038 mitigates T1505.004]] — Execution Prevention → IIS Components
+- [[07 ATT&CK Relationships/ATTACK-REL-0052 - mitigates|M1030 mitigates T1072]] — Network Segmentation → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0053 - mitigates|M1017 mitigates T1566.004]] — User Training → Spearphishing Voice
+- [[07 ATT&CK Relationships/ATTACK-REL-0054 - mitigates|M1047 mitigates T1036]] — Audit → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-0055 - mitigates|M1047 mitigates T1593.003]] — Audit → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0056 - mitigates|M1042 mitigates T1127.001]] — Disable or Remove Feature or Program → MSBuild
+- [[07 ATT&CK Relationships/ATTACK-REL-0057 - mitigates|M1018 mitigates T1548]] — User Account Management → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-0058 - mitigates|M1030 mitigates T1133]] — Network Segmentation → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0059 - mitigates|M1027 mitigates T1563.001]] — Password Policies → SSH Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0060 - mitigates|M1026 mitigates T1053.002]] — Privileged Account Management → At
+- [[07 ATT&CK Relationships/ATTACK-REL-0061 - mitigates|M1057 mitigates T1041]] — Data Loss Prevention → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-0062 - mitigates|M1047 mitigates T1484]] — Audit → Domain or Tenant Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0063 - mitigates|M1047 mitigates T1505.002]] — Audit → Transport Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-0064 - mitigates|M1046 mitigates T1601]] — Boot Integrity → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0065 - mitigates|M1041 mitigates T1114.002]] — Encrypt Sensitive Information → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-0066 - mitigates|M1028 mitigates T1490]] — Operating System Configuration → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0067 - mitigates|M1030 mitigates T1046]] — Network Segmentation → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0068 - mitigates|M1026 mitigates T1021.003]] — Privileged Account Management → Distributed Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-0069 - mitigates|M1018 mitigates T1134.001]] — User Account Management → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-0070 - mitigates|M1042 mitigates T1021.008]] — Disable or Remove Feature or Program → Direct Cloud VM Connections
+- [[07 ATT&CK Relationships/ATTACK-REL-0071 - mitigates|M1026 mitigates T1542.001]] — Privileged Account Management → System Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-0072 - mitigates|M1032 mitigates T1556.003]] — Multi-factor Authentication → Pluggable Authentication Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-0073 - mitigates|M1038 mitigates T1204.004]] — Execution Prevention → Malicious Copy and Paste
+- [[07 ATT&CK Relationships/ATTACK-REL-0074 - mitigates|M1037 mitigates T1219.002]] — Filter Network Traffic → Remote Desktop Software
+- [[07 ATT&CK Relationships/ATTACK-REL-0075 - mitigates|M1018 mitigates T1048]] — User Account Management → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0076 - mitigates|M1051 mitigates T1542]] — Update Software → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0077 - mitigates|M1032 mitigates T1136.002]] — Multi-factor Authentication → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0078 - mitigates|M1018 mitigates T1098.003]] — User Account Management → Additional Cloud Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-0079 - mitigates|M1047 mitigates T1114.003]] — Audit → Email Forwarding Rule
+- [[07 ATT&CK Relationships/ATTACK-REL-0080 - mitigates|M1018 mitigates T1098]] — User Account Management → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0081 - mitigates|M1056 mitigates T1586.002]] — Pre-compromise → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0082 - mitigates|M1035 mitigates T1552]] — Limit Access to Resource Over Network → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0083 - mitigates|M1016 mitigates T1195]] — Vulnerability Scanning → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-0084 - mitigates|M1051 mitigates T1548.002]] — Update Software → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-0085 - mitigates|M1047 mitigates T1213.002]] — Audit → Sharepoint
+- [[07 ATT&CK Relationships/ATTACK-REL-0086 - mitigates|M1022 mitigates T1686]] — Restrict File and Directory Permissions → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0087 - mitigates|M1040 mitigates T1003.001]] — Behavior Prevention on Endpoint → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-0088 - mitigates|M1026 mitigates T1550.002]] — Privileged Account Management → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-0089 - mitigates|M1056 mitigates T1587.003]] — Pre-compromise → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-0090 - mitigates|M1026 mitigates T1556.007]] — Privileged Account Management → Hybrid Identity
+- [[07 ATT&CK Relationships/ATTACK-REL-0091 - mitigates|M1031 mitigates T1048]] — Network Intrusion Prevention → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0092 - mitigates|M1037 mitigates T1021.002]] — Filter Network Traffic → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-0093 - mitigates|M1022 mitigates T1037.004]] — Restrict File and Directory Permissions → RC Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-0094 - mitigates|M1021 mitigates T1566.001]] — Restrict Web-Based Content → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-0095 - mitigates|M1020 mitigates T1090]] — SSL/TLS Inspection → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-0096 - mitigates|M1052 mitigates T1574]] — User Account Control → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-0097 - mitigates|M1018 mitigates T1078.004]] — User Account Management → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0098 - mitigates|M1027 mitigates T1556]] — Password Policies → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0099 - mitigates|M1024 mitigates T1574]] — Restrict Registry Permissions → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-0100 - mitigates|M1036 mitigates T1621]] — Account Use Policies → Multi-Factor Authentication Request Generation
+- [[07 ATT&CK Relationships/ATTACK-REL-0101 - mitigates|M1013 mitigates T1195]] — Application Developer Guidance → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-0102 - mitigates|M1044 mitigates T1574]] — Restrict Library Loading → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-0103 - mitigates|M1025 mitigates T1003.001]] — Privileged Process Integrity → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-0104 - mitigates|M1018 mitigates T1087.004]] — User Account Management → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0105 - mitigates|M1041 mitigates T1659]] — Encrypt Sensitive Information → Content Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0106 - mitigates|M1056 mitigates T1583.004]] — Pre-compromise → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-0107 - mitigates|M1038 mitigates T1220]] — Execution Prevention → XSL Script Processing
+- [[07 ATT&CK Relationships/ATTACK-REL-0108 - mitigates|M1051 mitigates T1552]] — Update Software → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0109 - mitigates|M1042 mitigates T1505.003]] — Disable or Remove Feature or Program → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-0110 - mitigates|M1028 mitigates T1136.002]] — Operating System Configuration → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0111 - mitigates|M1017 mitigates T1189]] — User Training → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-0112 - mitigates|M1042 mitigates T1098.004]] — Disable or Remove Feature or Program → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-0113 - mitigates|M1047 mitigates T1550]] — Audit → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-0114 - mitigates|M1040 mitigates T1055.013]] — Behavior Prevention on Endpoint → Process Doppelgänging
+- [[07 ATT&CK Relationships/ATTACK-REL-0115 - mitigates|M1028 mitigates T1546.008]] — Operating System Configuration → Accessibility Features
+- [[07 ATT&CK Relationships/ATTACK-REL-0116 - mitigates|M1018 mitigates T1574.010]] — User Account Management → Services File Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-0117 - mitigates|M1032 mitigates T1136]] — Multi-factor Authentication → Create Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0118 - mitigates|M1037 mitigates T1498.002]] — Filter Network Traffic → Reflection Amplification
+- [[07 ATT&CK Relationships/ATTACK-REL-0119 - mitigates|M1032 mitigates T1601.001]] — Multi-factor Authentication → Patch System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0120 - mitigates|M1031 mitigates T1221]] — Network Intrusion Prevention → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0121 - mitigates|M1017 mitigates T1213.003]] — User Training → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0122 - mitigates|M1017 mitigates T1547.007]] — User Training → Re-opened Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-0123 - mitigates|M1047 mitigates T1552]] — Audit → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0124 - mitigates|M1047 mitigates T1552.008]] — Audit → Chat Messages
+- [[07 ATT&CK Relationships/ATTACK-REL-0125 - mitigates|M1047 mitigates T1525]] — Audit → Implant Internal Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0126 - mitigates|M1045 mitigates T1554]] — Code Signing → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-0127 - mitigates|M1047 mitigates T1552.002]] — Audit → Credentials in Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-0128 - mitigates|M1050 mitigates T1203]] — Exploit Protection → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0129 - mitigates|M1021 mitigates T1566]] — Restrict Web-Based Content → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-0130 - mitigates|M1040 mitigates T1559]] — Behavior Prevention on Endpoint → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0131 - mitigates|M1019 mitigates T1210]] — Threat Intelligence Program → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0132 - mitigates|M1056 mitigates T1608.004]] — Pre-compromise → Drive-by Target
+- [[07 ATT&CK Relationships/ATTACK-REL-0133 - mitigates|M1045 mitigates T1505]] — Code Signing → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-0134 - mitigates|M1040 mitigates T1204.002]] — Behavior Prevention on Endpoint → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-0135 - mitigates|M1034 mitigates T1200]] — Limit Hardware Installation → Hardware Additions
+- [[07 ATT&CK Relationships/ATTACK-REL-0136 - mitigates|M1057 mitigates T1537]] — Data Loss Prevention → Transfer Data to Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0137 - mitigates|M1015 mitigates T1558.001]] — Active Directory Configuration → Golden Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-0138 - mitigates|M1028 mitigates T1553]] — Operating System Configuration → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-0139 - mitigates|M1018 mitigates T1556]] — User Account Management → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0140 - mitigates|M1026 mitigates T1059.008]] — Privileged Account Management → Network Device CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-0141 - mitigates|M1047 mitigates T1542.004]] — Audit → ROMMONkit
+- [[07 ATT&CK Relationships/ATTACK-REL-0142 - mitigates|M1026 mitigates T1059]] — Privileged Account Management → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-0143 - mitigates|M1041 mitigates T1685.005]] — Encrypt Sensitive Information → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-0144 - mitigates|M1018 mitigates T1547.004]] — User Account Management → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0145 - mitigates|M1018 mitigates T1569.003]] — User Account Management → Systemctl
+- [[07 ATT&CK Relationships/ATTACK-REL-0146 - mitigates|M1046 mitigates T1601.002]] — Boot Integrity → Downgrade System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0147 - mitigates|M1042 mitigates T1557.001]] — Disable or Remove Feature or Program → Name Resolution Poisoning and SMB Relay
+- [[07 ATT&CK Relationships/ATTACK-REL-0148 - mitigates|M1047 mitigates T1021]] — Audit → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0149 - mitigates|M1056 mitigates T1584]] — Pre-compromise → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-0150 - mitigates|M1056 mitigates T1593.002]] — Pre-compromise → Search Engines
+- [[07 ATT&CK Relationships/ATTACK-REL-0151 - mitigates|M1056 mitigates T1588.002]] — Pre-compromise → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-0152 - mitigates|M1057 mitigates T1048.003]] — Data Loss Prevention → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0153 - mitigates|M1016 mitigates T1190]] — Vulnerability Scanning → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-0154 - mitigates|M1032 mitigates T1078]] — Multi-factor Authentication → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0155 - mitigates|M1028 mitigates T1087.001]] — Operating System Configuration → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0156 - mitigates|M1057 mitigates T1567]] — Data Loss Prevention → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0157 - mitigates|M1056 mitigates T1587.001]] — Pre-compromise → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-0158 - mitigates|M1041 mitigates T1114.003]] — Encrypt Sensitive Information → Email Forwarding Rule
+- [[07 ATT&CK Relationships/ATTACK-REL-0159 - mitigates|M1047 mitigates T1505]] — Audit → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-0160 - mitigates|M1018 mitigates T1053.006]] — User Account Management → Systemd Timers
+- [[07 ATT&CK Relationships/ATTACK-REL-0161 - mitigates|M1018 mitigates T1677]] — User Account Management → Poisoned Pipeline Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0162 - mitigates|M1056 mitigates T1591.001]] — Pre-compromise → Determine Physical Locations
+- [[07 ATT&CK Relationships/ATTACK-REL-0163 - mitigates|M1038 mitigates T1059.009]] — Execution Prevention → Cloud API
+- [[07 ATT&CK Relationships/ATTACK-REL-0164 - mitigates|M1017 mitigates T1555.005]] — User Training → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-0165 - mitigates|M1026 mitigates T1055]] — Privileged Account Management → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0166 - mitigates|M1018 mitigates T1197]] — User Account Management → BITS Jobs
+- [[07 ATT&CK Relationships/ATTACK-REL-0167 - mitigates|M1026 mitigates T1053.005]] — Privileged Account Management → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-0168 - mitigates|M1026 mitigates T1505.002]] — Privileged Account Management → Transport Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-0169 - mitigates|M1056 mitigates T1683.002]] — Pre-compromise → Audio-Visual Content
+- [[07 ATT&CK Relationships/ATTACK-REL-0170 - mitigates|M1047 mitigates T1530]] — Audit → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-0171 - mitigates|M1050 mitigates T1212]] — Exploit Protection → Exploitation for Credential Access
+- [[07 ATT&CK Relationships/ATTACK-REL-0172 - mitigates|M1040 mitigates T1059.005]] — Behavior Prevention on Endpoint → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-0173 - mitigates|M1038 mitigates T1218.012]] — Execution Prevention → Verclsid
+- [[07 ATT&CK Relationships/ATTACK-REL-0174 - mitigates|M1017 mitigates T1078.004]] — User Training → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0175 - mitigates|M1028 mitigates T1690]] — Operating System Configuration → Prevent Command History Logging
+- [[07 ATT&CK Relationships/ATTACK-REL-0176 - mitigates|M1017 mitigates T1003.004]] — User Training → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-0177 - mitigates|M1054 mitigates T1602]] — Software Configuration → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-0178 - mitigates|M1021 mitigates T1102.003]] — Restrict Web-Based Content → One-Way Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0179 - mitigates|M1036 mitigates T1648]] — Account Use Policies → Serverless Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0180 - mitigates|M1027 mitigates T1555.001]] — Password Policies → Keychain
+- [[07 ATT&CK Relationships/ATTACK-REL-0181 - mitigates|M1031 mitigates T1542.005]] — Network Intrusion Prevention → TFTP Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0182 - mitigates|M1032 mitigates T1556.006]] — Multi-factor Authentication → Multi-Factor Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-0183 - mitigates|M1047 mitigates T1059]] — Audit → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-0184 - mitigates|M1027 mitigates T1599.001]] — Password Policies → Network Address Translation Traversal
+- [[07 ATT&CK Relationships/ATTACK-REL-0185 - mitigates|M1013 mitigates T1550.001]] — Application Developer Guidance → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-0186 - mitigates|M1026 mitigates T1612]] — Privileged Account Management → Build Image on Host
+- [[07 ATT&CK Relationships/ATTACK-REL-0187 - mitigates|M1038 mitigates T1574.001]] — Execution Prevention → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0188 - mitigates|M1022 mitigates T1053.006]] — Restrict File and Directory Permissions → Systemd Timers
+- [[07 ATT&CK Relationships/ATTACK-REL-0189 - mitigates|M1042 mitigates T1021.003]] — Disable or Remove Feature or Program → Distributed Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-0190 - mitigates|M1015 mitigates T1550.003]] — Active Directory Configuration → Pass the Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-0191 - mitigates|M1051 mitigates T1548]] — Update Software → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-0192 - mitigates|M1026 mitigates T1003.008]] — Privileged Account Management → /etc/passwd and /etc/shadow
+- [[07 ATT&CK Relationships/ATTACK-REL-0193 - mitigates|M1031 mitigates T1071.001]] — Network Intrusion Prevention → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-0194 - mitigates|M1026 mitigates T1556.005]] — Privileged Account Management → Reversible Encryption
+- [[07 ATT&CK Relationships/ATTACK-REL-0195 - mitigates|M1056 mitigates T1597.001]] — Pre-compromise → Threat Intel Vendors
+- [[07 ATT&CK Relationships/ATTACK-REL-0196 - mitigates|M1033 mitigates T1059.006]] — Limit Software Installation → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-0197 - mitigates|M1045 mitigates T1036.005]] — Code Signing → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-0198 - mitigates|M1038 mitigates T1685]] — Execution Prevention → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0199 - mitigates|M1031 mitigates T1132.002]] — Network Intrusion Prevention → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-0200 - mitigates|M1031 mitigates T1204.001]] — Network Intrusion Prevention → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-0201 - mitigates|M1031 mitigates T1204.004]] — Network Intrusion Prevention → Malicious Copy and Paste
+- [[07 ATT&CK Relationships/ATTACK-REL-0202 - mitigates|M1022 mitigates T1574]] — Restrict File and Directory Permissions → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-0203 - mitigates|M1036 mitigates T1078]] — Account Use Policies → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0204 - mitigates|M1021 mitigates T1204.001]] — Restrict Web-Based Content → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-0205 - mitigates|M1057 mitigates T1052.001]] — Data Loss Prevention → Exfiltration over USB
+- [[07 ATT&CK Relationships/ATTACK-REL-0206 - mitigates|M1042 mitigates T1092]] — Disable or Remove Feature or Program → Communication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-0207 - mitigates|M1031 mitigates T1573.002]] — Network Intrusion Prevention → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-0208 - mitigates|M1037 mitigates T1218.012]] — Filter Network Traffic → Verclsid
+- [[07 ATT&CK Relationships/ATTACK-REL-0209 - mitigates|M1018 mitigates T1547.012]] — User Account Management → Print Processors
+- [[07 ATT&CK Relationships/ATTACK-REL-0210 - mitigates|M1040 mitigates T1055]] — Behavior Prevention on Endpoint → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0211 - mitigates|M1029 mitigates T1072]] — Remote Data Storage → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0212 - mitigates|M1056 mitigates T1584.006]] — Pre-compromise → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0213 - mitigates|M1031 mitigates T1071.002]] — Network Intrusion Prevention → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-0214 - mitigates|M1026 mitigates T1601.001]] — Privileged Account Management → Patch System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0215 - mitigates|M1047 mitigates T1685.004]] — Audit → Disable or Modify Linux Audit System Log
+- [[07 ATT&CK Relationships/ATTACK-REL-0216 - mitigates|M1051 mitigates T1195.001]] — Update Software → Compromise Software Dependencies and Development Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0217 - mitigates|M1026 mitigates T1484.002]] — Privileged Account Management → Trust Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0218 - mitigates|M1040 mitigates T1027]] — Behavior Prevention on Endpoint → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0219 - mitigates|M1032 mitigates T1098.006]] — Multi-factor Authentication → Additional Container Cluster Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-0220 - mitigates|M1022 mitigates T1222]] — Restrict File and Directory Permissions → File and Directory Permissions Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0221 - mitigates|M1041 mitigates T1003.003]] — Encrypt Sensitive Information → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-0222 - mitigates|M1056 mitigates T1588.005]] — Pre-compromise → Exploits
+- [[07 ATT&CK Relationships/ATTACK-REL-0223 - mitigates|M1026 mitigates T1550]] — Privileged Account Management → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-0224 - mitigates|M1024 mitigates T1685]] — Restrict Registry Permissions → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0225 - mitigates|M1026 mitigates T1569.002]] — Privileged Account Management → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0226 - mitigates|M1026 mitigates T1555]] — Privileged Account Management → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-0227 - mitigates|M1018 mitigates T1484.001]] — User Account Management → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0228 - mitigates|M1047 mitigates T1021.001]] — Audit → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0229 - mitigates|M1056 mitigates T1585.003]] — Pre-compromise → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0230 - mitigates|M1018 mitigates T1555.005]] — User Account Management → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-0231 - mitigates|M1022 mitigates T1685]] — Restrict File and Directory Permissions → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0232 - mitigates|M1026 mitigates T1078]] — Privileged Account Management → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0233 - mitigates|M1056 mitigates T1588.003]] — Pre-compromise → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-0234 - mitigates|M1050 mitigates T1218.011]] — Exploit Protection → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-0235 - mitigates|M1022 mitigates T1048]] — Restrict File and Directory Permissions → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0236 - mitigates|M1054 mitigates T1606.001]] — Software Configuration → Web Cookies
+- [[07 ATT&CK Relationships/ATTACK-REL-0237 - mitigates|M1037 mitigates T1602.002]] — Filter Network Traffic → Network Device Configuration Dump
+- [[07 ATT&CK Relationships/ATTACK-REL-0238 - mitigates|M1027 mitigates T1563]] — Password Policies → Remote Service Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0239 - mitigates|M1018 mitigates T1098.004]] — User Account Management → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-0240 - mitigates|M1031 mitigates T1602.001]] — Network Intrusion Prevention → SNMP (MIB Dump)
+- [[07 ATT&CK Relationships/ATTACK-REL-0241 - mitigates|M1018 mitigates T1036.010]] — User Account Management → Masquerade Account Name
+- [[07 ATT&CK Relationships/ATTACK-REL-0242 - mitigates|M1038 mitigates T1218.005]] — Execution Prevention → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-0243 - mitigates|M1047 mitigates T1556.007]] — Audit → Hybrid Identity
+- [[07 ATT&CK Relationships/ATTACK-REL-0244 - mitigates|M1032 mitigates T1114.002]] — Multi-factor Authentication → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-0245 - mitigates|M1018 mitigates T1059.008]] — User Account Management → Network Device CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-0246 - mitigates|M1031 mitigates T1090]] — Network Intrusion Prevention → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-0247 - mitigates|M1056 mitigates T1585]] — Pre-compromise → Establish Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0248 - mitigates|M1038 mitigates T1059.008]] — Execution Prevention → Network Device CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-0249 - mitigates|M1047 mitigates T1560.001]] — Audit → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-0250 - mitigates|M1026 mitigates T1190]] — Privileged Account Management → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-0251 - mitigates|M1026 mitigates T1599]] — Privileged Account Management → Network Boundary Bridging
+- [[07 ATT&CK Relationships/ATTACK-REL-0252 - mitigates|M1032 mitigates T1098.002]] — Multi-factor Authentication → Additional Email Delegate Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-0253 - mitigates|M1048 mitigates T1021.003]] — Application Isolation and Sandboxing → Distributed Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-0254 - mitigates|M1027 mitigates T1110.003]] — Password Policies → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-0255 - mitigates|M1042 mitigates T1553.005]] — Disable or Remove Feature or Program → Mark-of-the-Web Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-0256 - mitigates|M1018 mitigates T1686]] — User Account Management → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0257 - mitigates|M1013 mitigates T1564]] — Application Developer Guidance → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-0258 - mitigates|M1031 mitigates T1204]] — Network Intrusion Prevention → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0259 - mitigates|M1026 mitigates T1136.002]] — Privileged Account Management → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0260 - mitigates|M1022 mitigates T1685.005]] — Restrict File and Directory Permissions → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-0261 - mitigates|M1018 mitigates T1566.001]] — User Account Management → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-0262 - mitigates|M1037 mitigates T1570]] — Filter Network Traffic → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-0263 - mitigates|M1047 mitigates T1574.010]] — Audit → Services File Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-0264 - mitigates|M1032 mitigates T1040]] — Multi-factor Authentication → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-0265 - mitigates|M1051 mitigates T1137.004]] — Update Software → Outlook Home Page
+- [[07 ATT&CK Relationships/ATTACK-REL-0266 - mitigates|M1018 mitigates T1213.001]] — User Account Management → Confluence
+- [[07 ATT&CK Relationships/ATTACK-REL-0267 - mitigates|M1049 mitigates T1564]] — Antivirus/Antimalware → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-0268 - mitigates|M1017 mitigates T1566]] — User Training → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-0269 - mitigates|M1042 mitigates T1218.008]] — Disable or Remove Feature or Program → Odbcconf
+- [[07 ATT&CK Relationships/ATTACK-REL-0270 - mitigates|M1026 mitigates T1599.001]] — Privileged Account Management → Network Address Translation Traversal
+- [[07 ATT&CK Relationships/ATTACK-REL-0271 - mitigates|M1041 mitigates T1602.001]] — Encrypt Sensitive Information → SNMP (MIB Dump)
+- [[07 ATT&CK Relationships/ATTACK-REL-0272 - mitigates|M1026 mitigates T1563.001]] — Privileged Account Management → SSH Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0273 - mitigates|M1038 mitigates T1036.008]] — Execution Prevention → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-0274 - mitigates|M1042 mitigates T1563.002]] — Disable or Remove Feature or Program → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0275 - mitigates|M1042 mitigates T1205]] — Disable or Remove Feature or Program → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-0276 - mitigates|M1018 mitigates T1505]] — User Account Management → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-0277 - mitigates|M1030 mitigates T1095]] — Network Segmentation → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0278 - mitigates|M1037 mitigates T1599]] — Filter Network Traffic → Network Boundary Bridging
+- [[07 ATT&CK Relationships/ATTACK-REL-0279 - mitigates|M1035 mitigates T1610]] — Limit Access to Resource Over Network → Deploy Container
+- [[07 ATT&CK Relationships/ATTACK-REL-0280 - mitigates|M1045 mitigates T1505.001]] — Code Signing → SQL Stored Procedures
+- [[07 ATT&CK Relationships/ATTACK-REL-0281 - mitigates|M1056 mitigates T1683.001]] — Pre-compromise → Written Content
+- [[07 ATT&CK Relationships/ATTACK-REL-0282 - mitigates|M1054 mitigates T1559.002]] — Software Configuration → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-0283 - mitigates|M1047 mitigates T1686]] — Audit → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0284 - mitigates|M1027 mitigates T1555.005]] — Password Policies → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-0285 - mitigates|M1056 mitigates T1590.006]] — Pre-compromise → Network Security Appliances
+- [[07 ATT&CK Relationships/ATTACK-REL-0286 - mitigates|M1042 mitigates T1564.007]] — Disable or Remove Feature or Program → VBA Stomping
+- [[07 ATT&CK Relationships/ATTACK-REL-0287 - mitigates|M1022 mitigates T1565]] — Restrict File and Directory Permissions → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0288 - mitigates|M1021 mitigates T1567.003]] — Restrict Web-Based Content → Exfiltration to Text Storage Sites
+- [[07 ATT&CK Relationships/ATTACK-REL-0289 - mitigates|M1018 mitigates T1213.006]] — User Account Management → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-0290 - mitigates|M1021 mitigates T1059]] — Restrict Web-Based Content → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-0291 - mitigates|M1024 mitigates T1037.001]] — Restrict Registry Permissions → Logon Script (Windows)
+- [[07 ATT&CK Relationships/ATTACK-REL-0292 - mitigates|M1024 mitigates T1037]] — Restrict Registry Permissions → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-0293 - mitigates|M1026 mitigates T1611]] — Privileged Account Management → Escape to Host
+- [[07 ATT&CK Relationships/ATTACK-REL-0294 - mitigates|M1045 mitigates T1505.006]] — Code Signing → vSphere Installation Bundles
+- [[07 ATT&CK Relationships/ATTACK-REL-0295 - mitigates|M1051 mitigates T1602]] — Update Software → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-0296 - mitigates|M1054 mitigates T1550.004]] — Software Configuration → Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-0297 - mitigates|M1049 mitigates T1027.016]] — Antivirus/Antimalware → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-0298 - mitigates|M1026 mitigates T1543.002]] — Privileged Account Management → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0299 - mitigates|M1018 mitigates T1538]] — User Account Management → Cloud Service Dashboard
+- [[07 ATT&CK Relationships/ATTACK-REL-0300 - mitigates|M1018 mitigates T1134]] — User Account Management → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0301 - mitigates|M1022 mitigates T1685.001]] — Restrict File and Directory Permissions → Disable or Modify Windows Event Log
+- [[07 ATT&CK Relationships/ATTACK-REL-0302 - mitigates|M1018 mitigates T1569.001]] — User Account Management → Launchctl
+- [[07 ATT&CK Relationships/ATTACK-REL-0303 - mitigates|M1047 mitigates T1649]] — Audit → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-0304 - mitigates|M1018 mitigates T1098.006]] — User Account Management → Additional Container Cluster Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-0305 - mitigates|M1047 mitigates T1528]] — Audit → Steal Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-0306 - mitigates|M1032 mitigates T1072]] — Multi-factor Authentication → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0307 - mitigates|M1041 mitigates T1557.002]] — Encrypt Sensitive Information → ARP Cache Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-0308 - mitigates|M1037 mitigates T1187]] — Filter Network Traffic → Forced Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-0309 - mitigates|M1036 mitigates T1550.001]] — Account Use Policies → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-0310 - mitigates|M1040 mitigates T1137]] — Behavior Prevention on Endpoint → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-0311 - mitigates|M1047 mitigates T1556.006]] — Audit → Multi-Factor Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-0312 - mitigates|M1027 mitigates T1021]] — Password Policies → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0313 - mitigates|M1051 mitigates T1611]] — Update Software → Escape to Host
+- [[07 ATT&CK Relationships/ATTACK-REL-0314 - mitigates|M1032 mitigates T1556.001]] — Multi-factor Authentication → Domain Controller Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-0315 - mitigates|M1030 mitigates T1557]] — Network Segmentation → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-0316 - mitigates|M1048 mitigates T1211]] — Application Isolation and Sandboxing → Exploitation for Stealth
+- [[07 ATT&CK Relationships/ATTACK-REL-0317 - mitigates|M1018 mitigates T1609]] — User Account Management → Container Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-0318 - mitigates|M1054 mitigates T1677]] — Software Configuration → Poisoned Pipeline Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0319 - mitigates|M1051 mitigates T1195.002]] — Update Software → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-0320 - mitigates|M1030 mitigates T1563]] — Network Segmentation → Remote Service Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0321 - mitigates|M1022 mitigates T1556]] — Restrict File and Directory Permissions → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0322 - mitigates|M1042 mitigates T1059]] — Disable or Remove Feature or Program → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-0323 - mitigates|M1049 mitigates T1036]] — Antivirus/Antimalware → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-0324 - mitigates|M1026 mitigates T1059.013]] — Privileged Account Management → Container CLI/API
+- [[07 ATT&CK Relationships/ATTACK-REL-0325 - mitigates|M1037 mitigates T1552]] — Filter Network Traffic → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0326 - mitigates|M1018 mitigates T1675]] — User Account Management → ESXi Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-0327 - mitigates|M1026 mitigates T1505]] — Privileged Account Management → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-0328 - mitigates|M1037 mitigates T1557]] — Filter Network Traffic → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-0329 - mitigates|M1047 mitigates T1574.001]] — Audit → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0330 - mitigates|M1043 mitigates T1558]] — Credential Access Protection → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-0331 - mitigates|M1026 mitigates T1505.004]] — Privileged Account Management → IIS Components
+- [[07 ATT&CK Relationships/ATTACK-REL-0332 - mitigates|M1042 mitigates T1219]] — Disable or Remove Feature or Program → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0333 - mitigates|M1019 mitigates T1068]] — Threat Intelligence Program → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-0334 - mitigates|M1056 mitigates T1584.002]] — Pre-compromise → DNS Server
+- [[07 ATT&CK Relationships/ATTACK-REL-0335 - mitigates|M1056 mitigates T1608.003]] — Pre-compromise → Install Digital Certificate
+- [[07 ATT&CK Relationships/ATTACK-REL-0336 - mitigates|M1013 mitigates T1564.012]] — Application Developer Guidance → File/Path Exclusions
+- [[07 ATT&CK Relationships/ATTACK-REL-0337 - mitigates|M1056 mitigates T1650]] — Pre-compromise → Acquire Access
+- [[07 ATT&CK Relationships/ATTACK-REL-0338 - mitigates|M1037 mitigates T1048.001]] — Filter Network Traffic → Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0339 - mitigates|M1047 mitigates T1204.003]] — Audit → Malicious Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0340 - mitigates|M1026 mitigates T1505.001]] — Privileged Account Management → SQL Stored Procedures
+- [[07 ATT&CK Relationships/ATTACK-REL-0341 - mitigates|M1054 mitigates T1213.006]] — Software Configuration → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-0342 - mitigates|M1042 mitigates T1559.002]] — Disable or Remove Feature or Program → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-0343 - mitigates|M1018 mitigates T1485]] — User Account Management → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-0344 - mitigates|M1022 mitigates T1685.006]] — Restrict File and Directory Permissions → Clear Linux or Mac System Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-0345 - mitigates|M1022 mitigates T1686.003]] — Restrict File and Directory Permissions → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0346 - mitigates|M1038 mitigates T1218.015]] — Execution Prevention → Electron Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-0347 - mitigates|M1038 mitigates T1564.006]] — Execution Prevention → Run Virtual Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-0348 - mitigates|M1038 mitigates T1127]] — Execution Prevention → Trusted Developer Utilities Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0349 - mitigates|M1051 mitigates T1546.011]] — Update Software → Application Shimming
+- [[07 ATT&CK Relationships/ATTACK-REL-0350 - mitigates|M1031 mitigates T1557.004]] — Network Intrusion Prevention → Evil Twin
+- [[07 ATT&CK Relationships/ATTACK-REL-0351 - mitigates|M1026 mitigates T1222]] — Privileged Account Management → File and Directory Permissions Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0352 - mitigates|M1028 mitigates T1197]] — Operating System Configuration → BITS Jobs
+- [[07 ATT&CK Relationships/ATTACK-REL-0353 - mitigates|M1013 mitigates T1564.009]] — Application Developer Guidance → Resource Forking
+- [[07 ATT&CK Relationships/ATTACK-REL-0354 - mitigates|M1018 mitigates T1547.013]] — User Account Management → XDG Autostart Entries
+- [[07 ATT&CK Relationships/ATTACK-REL-0355 - mitigates|M1022 mitigates T1037]] — Restrict File and Directory Permissions → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-0356 - mitigates|M1024 mitigates T1505]] — Restrict Registry Permissions → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-0357 - mitigates|M1033 mitigates T1547.013]] — Limit Software Installation → XDG Autostart Entries
+- [[07 ATT&CK Relationships/ATTACK-REL-0358 - mitigates|M1030 mitigates T1669]] — Network Segmentation → Wi-Fi Networks
+- [[07 ATT&CK Relationships/ATTACK-REL-0359 - mitigates|M1037 mitigates T1499.003]] — Filter Network Traffic → Application Exhaustion Flood
+- [[07 ATT&CK Relationships/ATTACK-REL-0360 - mitigates|M1041 mitigates T1530]] — Encrypt Sensitive Information → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-0361 - mitigates|M1051 mitigates T1546.010]] — Update Software → AppInit DLLs
+- [[07 ATT&CK Relationships/ATTACK-REL-0362 - mitigates|M1022 mitigates T1563.001]] — Restrict File and Directory Permissions → SSH Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0363 - mitigates|M1050 mitigates T1218]] — Exploit Protection → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0364 - mitigates|M1027 mitigates T1558.002]] — Password Policies → Silver Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-0365 - mitigates|M1043 mitigates T1003.001]] — Credential Access Protection → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-0366 - mitigates|M1053 mitigates T1490]] — Data Backup → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0367 - mitigates|M1056 mitigates T1584.001]] — Pre-compromise → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-0368 - mitigates|M1024 mitigates T1505.005]] — Restrict Registry Permissions → Terminal Services DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0369 - mitigates|M1038 mitigates T1216]] — Execution Prevention → System Script Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0370 - mitigates|M1042 mitigates T1218.015]] — Disable or Remove Feature or Program → Electron Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-0371 - mitigates|M1031 mitigates T1557]] — Network Intrusion Prevention → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-0372 - mitigates|M1030 mitigates T1552.007]] — Network Segmentation → Container API
+- [[07 ATT&CK Relationships/ATTACK-REL-0373 - mitigates|M1027 mitigates T1552.002]] — Password Policies → Credentials in Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-0374 - mitigates|M1054 mitigates T1539]] — Software Configuration → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-0375 - mitigates|M1038 mitigates T1059.003]] — Execution Prevention → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-0376 - mitigates|M1047 mitigates T1036.012]] — Audit → Browser Fingerprint
+- [[07 ATT&CK Relationships/ATTACK-REL-0377 - mitigates|M1049 mitigates T1027.012]] — Antivirus/Antimalware → LNK Icon Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-0378 - mitigates|M1047 mitigates T1087.004]] — Audit → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0379 - mitigates|M1060 mitigates T1114.001]] — Out-of-Band Communications Channel → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-0380 - mitigates|M1021 mitigates T1133]] — Restrict Web-Based Content → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0381 - mitigates|M1026 mitigates T1053]] — Privileged Account Management → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-0382 - mitigates|M1037 mitigates T1602.001]] — Filter Network Traffic → SNMP (MIB Dump)
+- [[07 ATT&CK Relationships/ATTACK-REL-0383 - mitigates|M1054 mitigates T1566.001]] — Software Configuration → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-0384 - mitigates|M1037 mitigates T1048]] — Filter Network Traffic → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0385 - mitigates|M1047 mitigates T1213.006]] — Audit → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-0386 - mitigates|M1047 mitigates T1213.001]] — Audit → Confluence
+- [[07 ATT&CK Relationships/ATTACK-REL-0387 - mitigates|M1030 mitigates T1482]] — Network Segmentation → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0388 - mitigates|M1015 mitigates T1550]] — Active Directory Configuration → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-0389 - mitigates|M1041 mitigates T1558]] — Encrypt Sensitive Information → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-0390 - mitigates|M1021 mitigates T1568]] — Restrict Web-Based Content → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-0391 - mitigates|M1026 mitigates T1558.001]] — Privileged Account Management → Golden Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-0392 - mitigates|M1018 mitigates T1528]] — User Account Management → Steal Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-0393 - mitigates|M1056 mitigates T1587.002]] — Pre-compromise → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-0394 - mitigates|M1048 mitigates T1027.017]] — Application Isolation and Sandboxing → SVG Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-0395 - mitigates|M1038 mitigates T1218.003]] — Execution Prevention → CMSTP
+- [[07 ATT&CK Relationships/ATTACK-REL-0396 - mitigates|M1031 mitigates T1573.001]] — Network Intrusion Prevention → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-0397 - mitigates|M1038 mitigates T1547.004]] — Execution Prevention → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0398 - mitigates|M1042 mitigates T1127]] — Disable or Remove Feature or Program → Trusted Developer Utilities Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0399 - mitigates|M1022 mitigates T1098]] — Restrict File and Directory Permissions → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0400 - mitigates|M1018 mitigates T1543]] — User Account Management → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0401 - mitigates|M1032 mitigates T1110.001]] — Multi-factor Authentication → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-0402 - mitigates|M1050 mitigates T1189]] — Exploit Protection → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-0403 - mitigates|M1042 mitigates T1011.001]] — Disable or Remove Feature or Program → Exfiltration Over Bluetooth
+- [[07 ATT&CK Relationships/ATTACK-REL-0404 - mitigates|M1038 mitigates T1059.006]] — Execution Prevention → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-0405 - mitigates|M1013 mitigates T1559]] — Application Developer Guidance → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0406 - mitigates|M1032 mitigates T1098.003]] — Multi-factor Authentication → Additional Cloud Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-0407 - mitigates|M1056 mitigates T1592.001]] — Pre-compromise → Hardware
+- [[07 ATT&CK Relationships/ATTACK-REL-0408 - mitigates|M1056 mitigates T1596.002]] — Pre-compromise → WHOIS
+- [[07 ATT&CK Relationships/ATTACK-REL-0409 - mitigates|M1018 mitigates T1580]] — User Account Management → Cloud Infrastructure Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0410 - mitigates|M1031 mitigates T1029]] — Network Intrusion Prevention → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-0411 - mitigates|M1050 mitigates T1068]] — Exploit Protection → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-0412 - mitigates|M1018 mitigates T1505.003]] — User Account Management → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-0413 - mitigates|M1044 mitigates T1547.008]] — Restrict Library Loading → LSASS Driver
+- [[07 ATT&CK Relationships/ATTACK-REL-0414 - mitigates|M1049 mitigates T1566.003]] — Antivirus/Antimalware → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0415 - mitigates|M1031 mitigates T1105]] — Network Intrusion Prevention → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-0416 - mitigates|M1017 mitigates T1566.003]] — User Training → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0417 - mitigates|M1032 mitigates T1213.003]] — Multi-factor Authentication → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0418 - mitigates|M1038 mitigates T1674]] — Execution Prevention → Input Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0419 - mitigates|M1048 mitigates T1212]] — Application Isolation and Sandboxing → Exploitation for Credential Access
+- [[07 ATT&CK Relationships/ATTACK-REL-0420 - mitigates|M1019 mitigates T1212]] — Threat Intelligence Program → Exploitation for Credential Access
+- [[07 ATT&CK Relationships/ATTACK-REL-0421 - mitigates|M1026 mitigates T1606]] — Privileged Account Management → Forge Web Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0422 - mitigates|M1040 mitigates T1564.014]] — Behavior Prevention on Endpoint → Extended Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-0423 - mitigates|M1040 mitigates T1027.009]] — Behavior Prevention on Endpoint → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-0424 - mitigates|M1022 mitigates T1543.001]] — Restrict File and Directory Permissions → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-0425 - mitigates|M1017 mitigates T1557]] — User Training → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-0426 - mitigates|M1051 mitigates T1137.005]] — Update Software → Outlook Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-0427 - mitigates|M1018 mitigates T1021.008]] — User Account Management → Direct Cloud VM Connections
+- [[07 ATT&CK Relationships/ATTACK-REL-0428 - mitigates|M1047 mitigates T1606.001]] — Audit → Web Cookies
+- [[07 ATT&CK Relationships/ATTACK-REL-0429 - mitigates|M1051 mitigates T1550.002]] — Update Software → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-0430 - mitigates|M1056 mitigates T1594]] — Pre-compromise → Search Victim-Owned Websites
+- [[07 ATT&CK Relationships/ATTACK-REL-0431 - mitigates|M1018 mitigates T1530]] — User Account Management → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-0432 - mitigates|M1053 mitigates T1491]] — Data Backup → Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-0433 - mitigates|M1031 mitigates T1204.003]] — Network Intrusion Prevention → Malicious Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0434 - mitigates|M1056 mitigates T1585.002]] — Pre-compromise → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0435 - mitigates|M1041 mitigates T1114]] — Encrypt Sensitive Information → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-0436 - mitigates|M1056 mitigates T1595.003]] — Pre-compromise → Wordlist Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-0437 - mitigates|M1018 mitigates T1547.009]] — User Account Management → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0438 - mitigates|M1047 mitigates T1671]] — Audit → Cloud Application Integration
+- [[07 ATT&CK Relationships/ATTACK-REL-0439 - mitigates|M1032 mitigates T1098.005]] — Multi-factor Authentication → Device Registration
+- [[07 ATT&CK Relationships/ATTACK-REL-0440 - mitigates|M1045 mitigates T1059.002]] — Code Signing → AppleScript
+- [[07 ATT&CK Relationships/ATTACK-REL-0441 - mitigates|M1047 mitigates T1578]] — Audit → Modify Cloud Compute Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-0442 - mitigates|M1047 mitigates T1505.005]] — Audit → Terminal Services DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0443 - mitigates|M1026 mitigates T1047]] — Privileged Account Management → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-0444 - mitigates|M1018 mitigates T1566.002]] — User Account Management → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-0445 - mitigates|M1025 mitigates T1547.008]] — Privileged Process Integrity → LSASS Driver
+- [[07 ATT&CK Relationships/ATTACK-REL-0446 - mitigates|M1042 mitigates T1218.003]] — Disable or Remove Feature or Program → CMSTP
+- [[07 ATT&CK Relationships/ATTACK-REL-0447 - mitigates|M1046 mitigates T1505]] — Boot Integrity → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-0448 - mitigates|M1021 mitigates T1059.007]] — Restrict Web-Based Content → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-0449 - mitigates|M1047 mitigates T1574.008]] — Audit → Path Interception by Search Order Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0450 - mitigates|M1028 mitigates T1135]] — Operating System Configuration → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0451 - mitigates|M1018 mitigates T1485.001]] — User Account Management → Lifecycle-Triggered Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-0452 - mitigates|M1031 mitigates T1570]] — Network Intrusion Prevention → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-0453 - mitigates|M1026 mitigates T1003.006]] — Privileged Account Management → DCSync
+- [[07 ATT&CK Relationships/ATTACK-REL-0454 - mitigates|M1056 mitigates T1583.006]] — Pre-compromise → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0455 - mitigates|M1021 mitigates T1204]] — Restrict Web-Based Content → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0456 - mitigates|M1027 mitigates T1003.006]] — Password Policies → DCSync
+- [[07 ATT&CK Relationships/ATTACK-REL-0457 - mitigates|M1026 mitigates T1606.002]] — Privileged Account Management → SAML Tokens
+- [[07 ATT&CK Relationships/ATTACK-REL-0458 - mitigates|M1050 mitigates T1211]] — Exploit Protection → Exploitation for Stealth
+- [[07 ATT&CK Relationships/ATTACK-REL-0459 - mitigates|M1037 mitigates T1048.002]] — Filter Network Traffic → Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0460 - mitigates|M1035 mitigates T1021.001]] — Limit Access to Resource Over Network → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0461 - mitigates|M1031 mitigates T1071]] — Network Intrusion Prevention → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0462 - mitigates|M1028 mitigates T1548.001]] — Operating System Configuration → Setuid and Setgid
+- [[07 ATT&CK Relationships/ATTACK-REL-0463 - mitigates|M1036 mitigates T1110.004]] — Account Use Policies → Credential Stuffing
+- [[07 ATT&CK Relationships/ATTACK-REL-0464 - mitigates|M1042 mitigates T1098]] — Disable or Remove Feature or Program → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0465 - mitigates|M1040 mitigates T1027.014]] — Behavior Prevention on Endpoint → Polymorphic Code
+- [[07 ATT&CK Relationships/ATTACK-REL-0466 - mitigates|M1047 mitigates T1578.003]] — Audit → Delete Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-0467 - mitigates|M1047 mitigates T1546.006]] — Audit → LC_LOAD_DYLIB Addition
+- [[07 ATT&CK Relationships/ATTACK-REL-0468 - mitigates|M1026 mitigates T1098.001]] — Privileged Account Management → Additional Cloud Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0469 - mitigates|M1054 mitigates T1598]] — Software Configuration → Phishing for Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0470 - mitigates|M1031 mitigates T1571]] — Network Intrusion Prevention → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-0471 - mitigates|M1049 mitigates T1566.001]] — Antivirus/Antimalware → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-0472 - mitigates|M1017 mitigates T1657]] — User Training → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-0473 - mitigates|M1032 mitigates T1078.002]] — Multi-factor Authentication → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0474 - mitigates|M1056 mitigates T1583.002]] — Pre-compromise → DNS Server
+- [[07 ATT&CK Relationships/ATTACK-REL-0475 - mitigates|M1021 mitigates T1127.002]] — Restrict Web-Based Content → ClickOnce
+- [[07 ATT&CK Relationships/ATTACK-REL-0476 - mitigates|M1027 mitigates T1110.004]] — Password Policies → Credential Stuffing
+- [[07 ATT&CK Relationships/ATTACK-REL-0477 - mitigates|M1038 mitigates T1204.002]] — Execution Prevention → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-0478 - mitigates|M1042 mitigates T1021.005]] — Disable or Remove Feature or Program → VNC
+- [[07 ATT&CK Relationships/ATTACK-REL-0479 - mitigates|M1032 mitigates T1133]] — Multi-factor Authentication → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0480 - mitigates|M1040 mitigates T1137.004]] — Behavior Prevention on Endpoint → Outlook Home Page
+- [[07 ATT&CK Relationships/ATTACK-REL-0481 - mitigates|M1042 mitigates T1021]] — Disable or Remove Feature or Program → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0482 - mitigates|M1042 mitigates T1557.002]] — Disable or Remove Feature or Program → ARP Cache Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-0483 - mitigates|M1027 mitigates T1078.003]] — Password Policies → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0484 - mitigates|M1030 mitigates T1602]] — Network Segmentation → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-0485 - mitigates|M1025 mitigates T1547.002]] — Privileged Process Integrity → Authentication Package
+- [[07 ATT&CK Relationships/ATTACK-REL-0486 - mitigates|M1026 mitigates T1059.009]] — Privileged Account Management → Cloud API
+- [[07 ATT&CK Relationships/ATTACK-REL-0487 - mitigates|M1024 mitigates T1553.003]] — Restrict Registry Permissions → SIP and Trust Provider Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0488 - mitigates|M1047 mitigates T1176.001]] — Audit → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-0489 - mitigates|M1051 mitigates T1176.002]] — Update Software → IDE Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-0490 - mitigates|M1056 mitigates T1595.002]] — Pre-compromise → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-0491 - mitigates|M1037 mitigates T1197]] — Filter Network Traffic → BITS Jobs
+- [[07 ATT&CK Relationships/ATTACK-REL-0492 - mitigates|M1046 mitigates T1553.006]] — Boot Integrity → Code Signing Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0493 - mitigates|M1060 mitigates T1213.005]] — Out-of-Band Communications Channel → Messaging Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-0494 - mitigates|M1017 mitigates T1555.003]] — User Training → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-0495 - mitigates|M1027 mitigates T1599]] — Password Policies → Network Boundary Bridging
+- [[07 ATT&CK Relationships/ATTACK-REL-0496 - mitigates|M1056 mitigates T1584.003]] — Pre-compromise → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-0497 - mitigates|M1038 mitigates T1059.010]] — Execution Prevention → AutoHotKey & AutoIT
+- [[07 ATT&CK Relationships/ATTACK-REL-0498 - mitigates|M1025 mitigates T1003]] — Privileged Process Integrity → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-0499 - mitigates|M1054 mitigates T1566]] — Software Configuration → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-0500 - mitigates|M1045 mitigates T1601.002]] — Code Signing → Downgrade System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0501 - mitigates|M1057 mitigates T1025]] — Data Loss Prevention → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-0502 - mitigates|M1046 mitigates T1495]] — Boot Integrity → Firmware Corruption
+- [[07 ATT&CK Relationships/ATTACK-REL-0503 - mitigates|M1054 mitigates T1553]] — Software Configuration → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-0504 - mitigates|M1047 mitigates T1566.001]] — Audit → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-0505 - mitigates|M1042 mitigates T1114.003]] — Disable or Remove Feature or Program → Email Forwarding Rule
+- [[07 ATT&CK Relationships/ATTACK-REL-0506 - mitigates|M1038 mitigates T1059.005]] — Execution Prevention → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-0507 - mitigates|M1038 mitigates T1059.004]] — Execution Prevention → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-0508 - mitigates|M1027 mitigates T1558.004]] — Password Policies → AS-REP Roasting
+- [[07 ATT&CK Relationships/ATTACK-REL-0509 - mitigates|M1018 mitigates T1556.006]] — User Account Management → Multi-Factor Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-0510 - mitigates|M1026 mitigates T1222.002]] — Privileged Account Management → Linux and Mac Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-0511 - mitigates|M1047 mitigates T1176]] — Audit → Software Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-0512 - mitigates|M1056 mitigates T1589.001]] — Pre-compromise → Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0513 - mitigates|M1021 mitigates T1059.005]] — Restrict Web-Based Content → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-0514 - mitigates|M1041 mitigates T1020.001]] — Encrypt Sensitive Information → Traffic Duplication
+- [[07 ATT&CK Relationships/ATTACK-REL-0515 - mitigates|M1027 mitigates T1003.007]] — Password Policies → Proc Filesystem
+- [[07 ATT&CK Relationships/ATTACK-REL-0516 - mitigates|M1041 mitigates T1003]] — Encrypt Sensitive Information → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-0517 - mitigates|M1027 mitigates T1552.004]] — Password Policies → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-0518 - mitigates|M1054 mitigates T1602.002]] — Software Configuration → Network Device Configuration Dump
+- [[07 ATT&CK Relationships/ATTACK-REL-0519 - mitigates|M1017 mitigates T1552]] — User Training → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0520 - mitigates|M1056 mitigates T1596]] — Pre-compromise → Search Open Technical Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-0521 - mitigates|M1047 mitigates T1213.003]] — Audit → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0522 - mitigates|M1026 mitigates T1552]] — Privileged Account Management → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0523 - mitigates|M1030 mitigates T1210]] — Network Segmentation → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0524 - mitigates|M1060 mitigates T1114.002]] — Out-of-Band Communications Channel → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-0525 - mitigates|M1056 mitigates T1584.005]] — Pre-compromise → Botnet
+- [[07 ATT&CK Relationships/ATTACK-REL-0526 - mitigates|M1035 mitigates T1190]] — Limit Access to Resource Over Network → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-0527 - mitigates|M1041 mitigates T1558.002]] — Encrypt Sensitive Information → Silver Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-0528 - mitigates|M1048 mitigates T1559.001]] — Application Isolation and Sandboxing → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-0529 - mitigates|M1017 mitigates T1213.004]] — User Training → Customer Relationship Management Software
+- [[07 ATT&CK Relationships/ATTACK-REL-0530 - mitigates|M1026 mitigates T1003.001]] — Privileged Account Management → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-0531 - mitigates|M1030 mitigates T1610]] — Network Segmentation → Deploy Container
+- [[07 ATT&CK Relationships/ATTACK-REL-0532 - mitigates|M1033 mitigates T1564]] — Limit Software Installation → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-0533 - mitigates|M1037 mitigates T1205.002]] — Filter Network Traffic → Socket Filters
+- [[07 ATT&CK Relationships/ATTACK-REL-0534 - mitigates|M1038 mitigates T1564.003]] — Execution Prevention → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-0535 - mitigates|M1038 mitigates T1059.011]] — Execution Prevention → Lua
+- [[07 ATT&CK Relationships/ATTACK-REL-0536 - mitigates|M1040 mitigates T1574.013]] — Behavior Prevention on Endpoint → KernelCallbackTable
+- [[07 ATT&CK Relationships/ATTACK-REL-0537 - mitigates|M1038 mitigates T1219]] — Execution Prevention → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0538 - mitigates|M1032 mitigates T1601]] — Multi-factor Authentication → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0539 - mitigates|M1040 mitigates T1137.002]] — Behavior Prevention on Endpoint → Office Test
+- [[07 ATT&CK Relationships/ATTACK-REL-0540 - mitigates|M1022 mitigates T1070.008]] — Restrict File and Directory Permissions → Clear Mailbox Data
+- [[07 ATT&CK Relationships/ATTACK-REL-0541 - mitigates|M1040 mitigates T1543]] — Behavior Prevention on Endpoint → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0542 - mitigates|M1037 mitigates T1557.003]] — Filter Network Traffic → DHCP Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-0543 - mitigates|M1018 mitigates T1134.002]] — User Account Management → Create Process with Token
+- [[07 ATT&CK Relationships/ATTACK-REL-0544 - mitigates|M1017 mitigates T1003.002]] — User Training → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-0545 - mitigates|M1047 mitigates T1574]] — Audit → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-0546 - mitigates|M1038 mitigates T1218.014]] — Execution Prevention → MMC
+- [[07 ATT&CK Relationships/ATTACK-REL-0547 - mitigates|M1037 mitigates T1090.003]] — Filter Network Traffic → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-0548 - mitigates|M1042 mitigates T1563]] — Disable or Remove Feature or Program → Remote Service Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0549 - mitigates|M1022 mitigates T1036]] — Restrict File and Directory Permissions → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-0550 - mitigates|M1031 mitigates T1102]] — Network Intrusion Prevention → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0551 - mitigates|M1042 mitigates T1218.007]] — Disable or Remove Feature or Program → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-0552 - mitigates|M1018 mitigates T1072]] — User Account Management → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0553 - mitigates|M1018 mitigates T1563.002]] — User Account Management → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0554 - mitigates|M1056 mitigates T1584.004]] — Pre-compromise → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-0555 - mitigates|M1037 mitigates T1021.005]] — Filter Network Traffic → VNC
+- [[07 ATT&CK Relationships/ATTACK-REL-0556 - mitigates|M1018 mitigates T1199]] — User Account Management → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-0557 - mitigates|M1036 mitigates T1684]] — Account Use Policies → Social Engineering
+- [[07 ATT&CK Relationships/ATTACK-REL-0558 - mitigates|M1017 mitigates T1213.001]] — User Training → Confluence
+- [[07 ATT&CK Relationships/ATTACK-REL-0559 - mitigates|M1018 mitigates T1657]] — User Account Management → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-0560 - mitigates|M1032 mitigates T1601.002]] — Multi-factor Authentication → Downgrade System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0561 - mitigates|M1022 mitigates T1055.009]] — Restrict File and Directory Permissions → Proc Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-0562 - mitigates|M1056 mitigates T1583.008]] — Pre-compromise → Malvertising
+- [[07 ATT&CK Relationships/ATTACK-REL-0563 - mitigates|M1026 mitigates T1134]] — Privileged Account Management → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0564 - mitigates|M1024 mitigates T1686]] — Restrict Registry Permissions → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0565 - mitigates|M1031 mitigates T1602]] — Network Intrusion Prevention → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-0566 - mitigates|M1017 mitigates T1598.003]] — User Training → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-0567 - mitigates|M1048 mitigates T1210]] — Application Isolation and Sandboxing → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0568 - mitigates|M1040 mitigates T1091]] — Behavior Prevention on Endpoint → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-0569 - mitigates|M1018 mitigates T1654]] — User Account Management → Log Enumeration
+- [[07 ATT&CK Relationships/ATTACK-REL-0570 - mitigates|M1021 mitigates T1550.001]] — Restrict Web-Based Content → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-0571 - mitigates|M1032 mitigates T1539]] — Multi-factor Authentication → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-0572 - mitigates|M1031 mitigates T1046]] — Network Intrusion Prevention → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0573 - mitigates|M1033 mitigates T1564.003]] — Limit Software Installation → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-0574 - mitigates|M1040 mitigates T1055.005]] — Behavior Prevention on Endpoint → Thread Local Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-0575 - mitigates|M1018 mitigates T1195]] — User Account Management → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-0576 - mitigates|M1017 mitigates T1036]] — User Training → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-0577 - mitigates|M1031 mitigates T1001]] — Network Intrusion Prevention → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-0578 - mitigates|M1017 mitigates T1072]] — User Training → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0579 - mitigates|M1022 mitigates T1543.002]] — Restrict File and Directory Permissions → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0580 - mitigates|M1026 mitigates T1218.007]] — Privileged Account Management → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-0581 - mitigates|M1026 mitigates T1078.002]] — Privileged Account Management → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0582 - mitigates|M1015 mitigates T1134.005]] — Active Directory Configuration → SID-History Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0583 - mitigates|M1051 mitigates T1190]] — Update Software → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-0584 - mitigates|M1040 mitigates T1055.012]] — Behavior Prevention on Endpoint → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-0585 - mitigates|M1026 mitigates T1003]] — Privileged Account Management → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-0586 - mitigates|M1031 mitigates T1030]] — Network Intrusion Prevention → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-0587 - mitigates|M1022 mitigates T1574.014]] — Restrict File and Directory Permissions → AppDomainManager
+- [[07 ATT&CK Relationships/ATTACK-REL-0588 - mitigates|M1047 mitigates T1053.005]] — Audit → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-0589 - mitigates|M1037 mitigates T1557.001]] — Filter Network Traffic → Name Resolution Poisoning and SMB Relay
+- [[07 ATT&CK Relationships/ATTACK-REL-0590 - mitigates|M1026 mitigates T1569]] — Privileged Account Management → System Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0591 - mitigates|M1041 mitigates T1565.001]] — Encrypt Sensitive Information → Stored Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0592 - mitigates|M1017 mitigates T1027]] — User Training → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0593 - mitigates|M1018 mitigates T1686.002]] — User Account Management → Network Device Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0594 - mitigates|M1037 mitigates T1219]] — Filter Network Traffic → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0595 - mitigates|M1028 mitigates T1556.008]] — Operating System Configuration → Network Provider DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0596 - mitigates|M1018 mitigates T1040]] — User Account Management → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-0597 - mitigates|M1047 mitigates T1653]] — Audit → Power Settings
+- [[07 ATT&CK Relationships/ATTACK-REL-0598 - mitigates|M1040 mitigates T1569.002]] — Behavior Prevention on Endpoint → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0599 - mitigates|M1017 mitigates T1003.003]] — User Training → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-0600 - mitigates|M1026 mitigates T1601]] — Privileged Account Management → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0601 - mitigates|M1028 mitigates T1011]] — Operating System Configuration → Exfiltration Over Other Network Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-0602 - mitigates|M1044 mitigates T1574.001]] — Restrict Library Loading → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0603 - mitigates|M1049 mitigates T1027.013]] — Antivirus/Antimalware → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-0604 - mitigates|M1017 mitigates T1598.001]] — User Training → Spearphishing Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0605 - mitigates|M1027 mitigates T1556.005]] — Password Policies → Reversible Encryption
+- [[07 ATT&CK Relationships/ATTACK-REL-0606 - mitigates|M1026 mitigates T1003.004]] — Privileged Account Management → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-0607 - mitigates|M1018 mitigates T1685]] — User Account Management → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0608 - mitigates|M1041 mitigates T1040]] — Encrypt Sensitive Information → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-0609 - mitigates|M1028 mitigates T1543.003]] — Operating System Configuration → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0610 - mitigates|M1042 mitigates T1557]] — Disable or Remove Feature or Program → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-0611 - mitigates|M1040 mitigates T1027.010]] — Behavior Prevention on Endpoint → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-0612 - mitigates|M1026 mitigates T1055.008]] — Privileged Account Management → Ptrace System Calls
+- [[07 ATT&CK Relationships/ATTACK-REL-0613 - mitigates|M1027 mitigates T1072]] — Password Policies → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0614 - mitigates|M1047 mitigates T1552.006]] — Audit → Group Policy Preferences
+- [[07 ATT&CK Relationships/ATTACK-REL-0615 - mitigates|M1031 mitigates T1041]] — Network Intrusion Prevention → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-0616 - mitigates|M1018 mitigates T1685.002]] — User Account Management → Disable or Modify Cloud Log
+- [[07 ATT&CK Relationships/ATTACK-REL-0617 - mitigates|M1031 mitigates T1048.003]] — Network Intrusion Prevention → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0618 - mitigates|M1021 mitigates T1566.002]] — Restrict Web-Based Content → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-0619 - mitigates|M1042 mitigates T1595.003]] — Disable or Remove Feature or Program → Wordlist Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-0620 - mitigates|M1018 mitigates T1686.003]] — User Account Management → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0621 - mitigates|M1041 mitigates T1558.003]] — Encrypt Sensitive Information → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-0622 - mitigates|M1022 mitigates T1564.004]] — Restrict File and Directory Permissions → NTFS File Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-0623 - mitigates|M1031 mitigates T1102.003]] — Network Intrusion Prevention → One-Way Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0624 - mitigates|M1045 mitigates T1059.001]] — Code Signing → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-0625 - mitigates|M1026 mitigates T1078.003]] — Privileged Account Management → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0626 - mitigates|M1056 mitigates T1591.002]] — Pre-compromise → Business Relationships
+- [[07 ATT&CK Relationships/ATTACK-REL-0627 - mitigates|M1017 mitigates T1539]] — User Training → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-0628 - mitigates|M1018 mitigates T1606]] — User Account Management → Forge Web Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0629 - mitigates|M1022 mitigates T1553.003]] — Restrict File and Directory Permissions → SIP and Trust Provider Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0630 - mitigates|M1033 mitigates T1059]] — Limit Software Installation → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-0631 - mitigates|M1054 mitigates T1685]] — Software Configuration → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0632 - mitigates|M1034 mitigates T1052.001]] — Limit Hardware Installation → Exfiltration over USB
+- [[07 ATT&CK Relationships/ATTACK-REL-0633 - mitigates|M1017 mitigates T1621]] — User Training → Multi-Factor Authentication Request Generation
+- [[07 ATT&CK Relationships/ATTACK-REL-0634 - mitigates|M1037 mitigates T1572]] — Filter Network Traffic → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-0635 - mitigates|M1056 mitigates T1583.003]] — Pre-compromise → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-0636 - mitigates|M1047 mitigates T1542.005]] — Audit → TFTP Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0637 - mitigates|M1060 mitigates T1114]] — Out-of-Band Communications Channel → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-0638 - mitigates|M1026 mitigates T1098]] — Privileged Account Management → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0639 - mitigates|M1026 mitigates T1556.001]] — Privileged Account Management → Domain Controller Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-0640 - mitigates|M1027 mitigates T1555.003]] — Password Policies → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-0641 - mitigates|M1054 mitigates T1667]] — Software Configuration → Email Bombing
+- [[07 ATT&CK Relationships/ATTACK-REL-0642 - mitigates|M1031 mitigates T1602.002]] — Network Intrusion Prevention → Network Device Configuration Dump
+- [[07 ATT&CK Relationships/ATTACK-REL-0643 - mitigates|M1056 mitigates T1596.001]] — Pre-compromise → DNS/Passive DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-0644 - mitigates|M1056 mitigates T1583]] — Pre-compromise → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-0645 - mitigates|M1033 mitigates T1059.011]] — Limit Software Installation → Lua
+- [[07 ATT&CK Relationships/ATTACK-REL-0646 - mitigates|M1032 mitigates T1556]] — Multi-factor Authentication → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0647 - mitigates|M1046 mitigates T1505.006]] — Boot Integrity → vSphere Installation Bundles
+- [[07 ATT&CK Relationships/ATTACK-REL-0648 - mitigates|M1013 mitigates T1195.001]] — Application Developer Guidance → Compromise Software Dependencies and Development Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0649 - mitigates|M1027 mitigates T1003.002]] — Password Policies → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-0650 - mitigates|M1026 mitigates T1542]] — Privileged Account Management → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0651 - mitigates|M1030 mitigates T1565]] — Network Segmentation → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0652 - mitigates|M1040 mitigates T1027.012]] — Behavior Prevention on Endpoint → LNK Icon Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-0653 - mitigates|M1045 mitigates T1036.001]] — Code Signing → Invalid Code Signature
+- [[07 ATT&CK Relationships/ATTACK-REL-0654 - mitigates|M1047 mitigates T1566.003]] — Audit → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0655 - mitigates|M1018 mitigates T1213.003]] — User Account Management → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0656 - mitigates|M1022 mitigates T1080]] — Restrict File and Directory Permissions → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-0657 - mitigates|M1028 mitigates T1556]] — Operating System Configuration → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0658 - mitigates|M1038 mitigates T1176]] — Execution Prevention → Software Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-0659 - mitigates|M1043 mitigates T1601.001]] — Credential Access Protection → Patch System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0660 - mitigates|M1038 mitigates T1059.013]] — Execution Prevention → Container CLI/API
+- [[07 ATT&CK Relationships/ATTACK-REL-0661 - mitigates|M1038 mitigates T1106]] — Execution Prevention → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-0662 - mitigates|M1029 mitigates T1070.009]] — Remote Data Storage → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-0663 - mitigates|M1051 mitigates T1602.001]] — Update Software → SNMP (MIB Dump)
+- [[07 ATT&CK Relationships/ATTACK-REL-0664 - mitigates|M1022 mitigates T1574.009]] — Restrict File and Directory Permissions → Path Interception by Unquoted Path
+- [[07 ATT&CK Relationships/ATTACK-REL-0665 - mitigates|M1026 mitigates T1021.001]] — Privileged Account Management → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0666 - mitigates|M1047 mitigates T1578.002]] — Audit → Create Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-0667 - mitigates|M1026 mitigates T1559.001]] — Privileged Account Management → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-0668 - mitigates|M1018 mitigates T1574]] — User Account Management → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-0669 - mitigates|M1021 mitigates T1204.004]] — Restrict Web-Based Content → Malicious Copy and Paste
+- [[07 ATT&CK Relationships/ATTACK-REL-0670 - mitigates|M1022 mitigates T1569]] — Restrict File and Directory Permissions → System Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0671 - mitigates|M1026 mitigates T1003.007]] — Privileged Account Management → Proc Filesystem
+- [[07 ATT&CK Relationships/ATTACK-REL-0672 - mitigates|M1028 mitigates T1087.002]] — Operating System Configuration → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0673 - mitigates|M1030 mitigates T1136.003]] — Network Segmentation → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0674 - mitigates|M1053 mitigates T1561]] — Data Backup → Disk Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-0675 - mitigates|M1017 mitigates T1204.005]] — User Training → Malicious Library
+- [[07 ATT&CK Relationships/ATTACK-REL-0676 - mitigates|M1043 mitigates T1601]] — Credential Access Protection → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0677 - mitigates|M1047 mitigates T1213.005]] — Audit → Messaging Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-0678 - mitigates|M1022 mitigates T1547.009]] — Restrict File and Directory Permissions → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0679 - mitigates|M1027 mitigates T1555]] — Password Policies → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-0680 - mitigates|M1026 mitigates T1495]] — Privileged Account Management → Firmware Corruption
+- [[07 ATT&CK Relationships/ATTACK-REL-0681 - mitigates|M1051 mitigates T1542.002]] — Update Software → Component Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-0682 - mitigates|M1021 mitigates T1567.002]] — Restrict Web-Based Content → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-0683 - mitigates|M1042 mitigates T1689]] — Disable or Remove Feature or Program → Downgrade Attack
+- [[07 ATT&CK Relationships/ATTACK-REL-0684 - mitigates|M1042 mitigates T1218.004]] — Disable or Remove Feature or Program → InstallUtil
+- [[07 ATT&CK Relationships/ATTACK-REL-0685 - mitigates|M1015 mitigates T1078.004]] — Active Directory Configuration → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0686 - mitigates|M1026 mitigates T1601.002]] — Privileged Account Management → Downgrade System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0687 - mitigates|M1048 mitigates T1027.006]] — Application Isolation and Sandboxing → HTML Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-0688 - mitigates|M1031 mitigates T1132]] — Network Intrusion Prevention → Data Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-0689 - mitigates|M1040 mitigates T1137.005]] — Behavior Prevention on Endpoint → Outlook Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-0690 - mitigates|M1022 mitigates T1036.003]] — Restrict File and Directory Permissions → Rename Legitimate Utilities
+- [[07 ATT&CK Relationships/ATTACK-REL-0691 - mitigates|M1027 mitigates T1110.001]] — Password Policies → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-0692 - mitigates|M1060 mitigates T1489]] — Out-of-Band Communications Channel → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-0693 - mitigates|M1051 mitigates T1137.003]] — Update Software → Outlook Forms
+- [[07 ATT&CK Relationships/ATTACK-REL-0694 - mitigates|M1034 mitigates T1219]] — Limit Hardware Installation → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0695 - mitigates|M1045 mitigates T1204.003]] — Code Signing → Malicious Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0696 - mitigates|M1021 mitigates T1567]] — Restrict Web-Based Content → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0697 - mitigates|M1028 mitigates T1098]] — Operating System Configuration → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0698 - mitigates|M1048 mitigates T1611]] — Application Isolation and Sandboxing → Escape to Host
+- [[07 ATT&CK Relationships/ATTACK-REL-0699 - mitigates|M1035 mitigates T1542.005]] — Limit Access to Resource Over Network → TFTP Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0700 - mitigates|M1038 mitigates T1047]] — Execution Prevention → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-0701 - mitigates|M1017 mitigates T1204.002]] — User Training → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-0702 - mitigates|M1051 mitigates T1210]] — Update Software → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0703 - mitigates|M1022 mitigates T1547.003]] — Restrict File and Directory Permissions → Time Providers
+- [[07 ATT&CK Relationships/ATTACK-REL-0704 - mitigates|M1026 mitigates T1548.006]] — Privileged Account Management → TCC Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0705 - mitigates|M1037 mitigates T1498.001]] — Filter Network Traffic → Direct Network Flood
+- [[07 ATT&CK Relationships/ATTACK-REL-0706 - mitigates|M1017 mitigates T1204.003]] — User Training → Malicious Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0707 - mitigates|M1056 mitigates T1585.001]] — Pre-compromise → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0708 - mitigates|M1048 mitigates T1559]] — Application Isolation and Sandboxing → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0709 - mitigates|M1017 mitigates T1078]] — User Training → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0710 - mitigates|M1046 mitigates T1542]] — Boot Integrity → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0711 - mitigates|M1054 mitigates T1213.004]] — Software Configuration → Customer Relationship Management Software
+- [[07 ATT&CK Relationships/ATTACK-REL-0712 - mitigates|M1030 mitigates T1098]] — Network Segmentation → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0713 - mitigates|M1038 mitigates T1127.003]] — Execution Prevention → JamPlus
+- [[07 ATT&CK Relationships/ATTACK-REL-0714 - mitigates|M1054 mitigates T1213]] — Software Configuration → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0715 - mitigates|M1049 mitigates T1221]] — Antivirus/Antimalware → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0716 - mitigates|M1038 mitigates T1546.002]] — Execution Prevention → Screensaver
+- [[07 ATT&CK Relationships/ATTACK-REL-0717 - mitigates|M1038 mitigates T1548.004]] — Execution Prevention → Elevated Execution with Prompt
+- [[07 ATT&CK Relationships/ATTACK-REL-0718 - mitigates|M1037 mitigates T1095]] — Filter Network Traffic → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0719 - mitigates|M1047 mitigates T1578.001]] — Audit → Create Snapshot
+- [[07 ATT&CK Relationships/ATTACK-REL-0720 - mitigates|M1056 mitigates T1590]] — Pre-compromise → Gather Victim Network Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0721 - mitigates|M1045 mitigates T1505.002]] — Code Signing → Transport Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-0722 - mitigates|M1047 mitigates T1548]] — Audit → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-0723 - mitigates|M1047 mitigates T1684]] — Audit → Social Engineering
+- [[07 ATT&CK Relationships/ATTACK-REL-0724 - mitigates|M1047 mitigates T1552.004]] — Audit → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-0725 - mitigates|M1054 mitigates T1684.002]] — Software Configuration → Email Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-0726 - mitigates|M1043 mitigates T1558.005]] — Credential Access Protection → Ccache Files
+- [[07 ATT&CK Relationships/ATTACK-REL-0727 - mitigates|M1029 mitigates T1119]] — Remote Data Storage → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-0728 - mitigates|M1027 mitigates T1021.002]] — Password Policies → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-0729 - mitigates|M1017 mitigates T1003]] — User Training → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-0730 - mitigates|M1018 mitigates T1574.005]] — User Account Management → Executable Installer File Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-0731 - mitigates|M1051 mitigates T1176.001]] — Update Software → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-0732 - mitigates|M1040 mitigates T1003]] — Behavior Prevention on Endpoint → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-0733 - mitigates|M1031 mitigates T1104]] — Network Intrusion Prevention → Multi-Stage Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-0734 - mitigates|M1056 mitigates T1584.008]] — Pre-compromise → Network Devices
+- [[07 ATT&CK Relationships/ATTACK-REL-0735 - mitigates|M1042 mitigates T1218]] — Disable or Remove Feature or Program → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0736 - mitigates|M1056 mitigates T1589]] — Pre-compromise → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0737 - mitigates|M1031 mitigates T1566]] — Network Intrusion Prevention → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-0738 - mitigates|M1051 mitigates T1546]] — Update Software → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0739 - mitigates|M1026 mitigates T1559]] — Privileged Account Management → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0740 - mitigates|M1045 mitigates T1036]] — Code Signing → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-0741 - mitigates|M1031 mitigates T1572]] — Network Intrusion Prevention → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-0742 - mitigates|M1022 mitigates T1574.008]] — Restrict File and Directory Permissions → Path Interception by Search Order Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0743 - mitigates|M1018 mitigates T1213.002]] — User Account Management → Sharepoint
+- [[07 ATT&CK Relationships/ATTACK-REL-0744 - mitigates|M1040 mitigates T1055.009]] — Behavior Prevention on Endpoint → Proc Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-0745 - mitigates|M1024 mitigates T1553.006]] — Restrict Registry Permissions → Code Signing Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0746 - mitigates|M1047 mitigates T1505.004]] — Audit → IIS Components
+- [[07 ATT&CK Relationships/ATTACK-REL-0747 - mitigates|M1026 mitigates T1136]] — Privileged Account Management → Create Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0748 - mitigates|M1037 mitigates T1048.003]] — Filter Network Traffic → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0749 - mitigates|M1047 mitigates T1566.002]] — Audit → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-0750 - mitigates|M1031 mitigates T1048.001]] — Network Intrusion Prevention → Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0751 - mitigates|M1015 mitigates T1003.005]] — Active Directory Configuration → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0752 - mitigates|M1037 mitigates T1602]] — Filter Network Traffic → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-0753 - mitigates|M1028 mitigates T1003.002]] — Operating System Configuration → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-0754 - mitigates|M1018 mitigates T1006]] — User Account Management → Direct Volume Access
+- [[07 ATT&CK Relationships/ATTACK-REL-0755 - mitigates|M1027 mitigates T1601.002]] — Password Policies → Downgrade System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0756 - mitigates|M1056 mitigates T1588.006]] — Pre-compromise → Vulnerabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-0757 - mitigates|M1047 mitigates T1548.002]] — Audit → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-0758 - mitigates|M1049 mitigates T1059]] — Antivirus/Antimalware → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-0759 - mitigates|M1022 mitigates T1053]] — Restrict File and Directory Permissions → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-0760 - mitigates|M1032 mitigates T1599]] — Multi-factor Authentication → Network Boundary Bridging
+- [[07 ATT&CK Relationships/ATTACK-REL-0761 - mitigates|M1017 mitigates T1684]] — User Training → Social Engineering
+- [[07 ATT&CK Relationships/ATTACK-REL-0762 - mitigates|M1027 mitigates T1550.003]] — Password Policies → Pass the Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-0763 - mitigates|M1037 mitigates T1499.004]] — Filter Network Traffic → Application or System Exploitation
+- [[07 ATT&CK Relationships/ATTACK-REL-0764 - mitigates|M1047 mitigates T1578.005]] — Audit → Modify Cloud Compute Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-0765 - mitigates|M1038 mitigates T1036.005]] — Execution Prevention → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-0766 - mitigates|M1046 mitigates T1542.003]] — Boot Integrity → Bootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-0767 - mitigates|M1026 mitigates T1542.003]] — Privileged Account Management → Bootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-0768 - mitigates|M1035 mitigates T1021.002]] — Limit Access to Resource Over Network → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-0769 - mitigates|M1038 mitigates T1218.009]] — Execution Prevention → Regsvcs/Regasm
+- [[07 ATT&CK Relationships/ATTACK-REL-0770 - mitigates|M1052 mitigates T1550.002]] — User Account Control → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-0771 - mitigates|M1047 mitigates T1593]] — Audit → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-0772 - mitigates|M1047 mitigates T1685.001]] — Audit → Disable or Modify Windows Event Log
+- [[07 ATT&CK Relationships/ATTACK-REL-0773 - mitigates|M1026 mitigates T1059.001]] — Privileged Account Management → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-0774 - mitigates|M1032 mitigates T1199]] — Multi-factor Authentication → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-0775 - mitigates|M1035 mitigates T1021]] — Limit Access to Resource Over Network → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0776 - mitigates|M1017 mitigates T1204]] — User Training → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0777 - mitigates|M1018 mitigates T1578]] — User Account Management → Modify Cloud Compute Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-0778 - mitigates|M1016 mitigates T1210]] — Vulnerability Scanning → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0779 - mitigates|M1030 mitigates T1021.001]] — Network Segmentation → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0780 - mitigates|M1040 mitigates T1137.006]] — Behavior Prevention on Endpoint → Add-ins
+- [[07 ATT&CK Relationships/ATTACK-REL-0781 - mitigates|M1047 mitigates T1539]] — Audit → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-0782 - mitigates|M1051 mitigates T1542.001]] — Update Software → System Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-0783 - mitigates|M1032 mitigates T1114]] — Multi-factor Authentication → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-0784 - mitigates|M1040 mitigates T1055.008]] — Behavior Prevention on Endpoint → Ptrace System Calls
+- [[07 ATT&CK Relationships/ATTACK-REL-0785 - mitigates|M1026 mitigates T1553]] — Privileged Account Management → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-0786 - mitigates|M1033 mitigates T1543]] — Limit Software Installation → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0787 - mitigates|M1040 mitigates T1574]] — Behavior Prevention on Endpoint → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-0788 - mitigates|M1030 mitigates T1613]] — Network Segmentation → Container and Resource Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0789 - mitigates|M1048 mitigates T1190]] — Application Isolation and Sandboxing → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-0790 - mitigates|M1015 mitigates T1003]] — Active Directory Configuration → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-0791 - mitigates|M1047 mitigates T1560]] — Audit → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-0792 - mitigates|M1046 mitigates T1195.003]] — Boot Integrity → Compromise Hardware Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-0793 - mitigates|M1038 mitigates T1546.006]] — Execution Prevention → LC_LOAD_DYLIB Addition
+- [[07 ATT&CK Relationships/ATTACK-REL-0794 - mitigates|M1022 mitigates T1543]] — Restrict File and Directory Permissions → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0795 - mitigates|M1017 mitigates T1213.002]] — User Training → Sharepoint
+- [[07 ATT&CK Relationships/ATTACK-REL-0796 - mitigates|M1030 mitigates T1048.002]] — Network Segmentation → Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0797 - mitigates|M1018 mitigates T1078.003]] — User Account Management → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0798 - mitigates|M1047 mitigates T1686.001]] — Audit → Cloud Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0799 - mitigates|M1047 mitigates T1027.011]] — Audit → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-0800 - mitigates|M1018 mitigates T1036]] — User Account Management → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-0801 - mitigates|M1054 mitigates T1543.005]] — Software Configuration → Container Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0802 - mitigates|M1022 mitigates T1036.005]] — Restrict File and Directory Permissions → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-0803 - mitigates|M1056 mitigates T1682]] — Pre-compromise → Query Public AI Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0804 - mitigates|M1042 mitigates T1547.007]] — Disable or Remove Feature or Program → Re-opened Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-0805 - mitigates|M1047 mitigates T1558.005]] — Audit → Ccache Files
+- [[07 ATT&CK Relationships/ATTACK-REL-0806 - mitigates|M1060 mitigates T1213]] — Out-of-Band Communications Channel → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0807 - mitigates|M1056 mitigates T1596.003]] — Pre-compromise → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-0808 - mitigates|M1051 mitigates T1212]] — Update Software → Exploitation for Credential Access
+- [[07 ATT&CK Relationships/ATTACK-REL-0809 - mitigates|M1027 mitigates T1078.004]] — Password Policies → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0810 - mitigates|M1047 mitigates T1564.008]] — Audit → Email Hiding Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-0811 - mitigates|M1042 mitigates T1137]] — Disable or Remove Feature or Program → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-0812 - mitigates|M1018 mitigates T1087]] — User Account Management → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0813 - mitigates|M1037 mitigates T1499.002]] — Filter Network Traffic → Service Exhaustion Flood
+- [[07 ATT&CK Relationships/ATTACK-REL-0814 - mitigates|M1037 mitigates T1071.004]] — Filter Network Traffic → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-0815 - mitigates|M1042 mitigates T1127.002]] — Disable or Remove Feature or Program → ClickOnce
+- [[07 ATT&CK Relationships/ATTACK-REL-0816 - mitigates|M1056 mitigates T1596.005]] — Pre-compromise → Scan Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-0817 - mitigates|M1021 mitigates T1567.001]] — Restrict Web-Based Content → Exfiltration to Code Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-0818 - mitigates|M1022 mitigates T1037.002]] — Restrict File and Directory Permissions → Login Hook
+- [[07 ATT&CK Relationships/ATTACK-REL-0819 - mitigates|M1013 mitigates T1593.003]] — Application Developer Guidance → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0820 - mitigates|M1027 mitigates T1558.003]] — Password Policies → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-0821 - mitigates|M1030 mitigates T1040]] — Network Segmentation → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-0822 - mitigates|M1047 mitigates T1610]] — Audit → Deploy Container
+- [[07 ATT&CK Relationships/ATTACK-REL-0823 - mitigates|M1040 mitigates T1036]] — Behavior Prevention on Endpoint → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-0824 - mitigates|M1031 mitigates T1001.001]] — Network Intrusion Prevention → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-0825 - mitigates|M1041 mitigates T1565]] — Encrypt Sensitive Information → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0826 - mitigates|M1047 mitigates T1027]] — Audit → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0827 - mitigates|M1018 mitigates T1578.005]] — User Account Management → Modify Cloud Compute Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-0828 - mitigates|M1042 mitigates T1218.012]] — Disable or Remove Feature or Program → Verclsid
+- [[07 ATT&CK Relationships/ATTACK-REL-0829 - mitigates|M1035 mitigates T1200]] — Limit Access to Resource Over Network → Hardware Additions
+- [[07 ATT&CK Relationships/ATTACK-REL-0830 - mitigates|M1047 mitigates T1542]] — Audit → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0831 - mitigates|M1056 mitigates T1589.002]] — Pre-compromise → Email Addresses
+- [[07 ATT&CK Relationships/ATTACK-REL-0832 - mitigates|M1022 mitigates T1569.002]] — Restrict File and Directory Permissions → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0833 - mitigates|M1042 mitigates T1021.006]] — Disable or Remove Feature or Program → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-0834 - mitigates|M1038 mitigates T1546.008]] — Execution Prevention → Accessibility Features
+- [[07 ATT&CK Relationships/ATTACK-REL-0835 - mitigates|M1038 mitigates T1129]] — Execution Prevention → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-0836 - mitigates|M1031 mitigates T1573]] — Network Intrusion Prevention → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-0837 - mitigates|M1018 mitigates T1578.001]] — User Account Management → Create Snapshot
+- [[07 ATT&CK Relationships/ATTACK-REL-0838 - mitigates|M1056 mitigates T1583.005]] — Pre-compromise → Botnet
+- [[07 ATT&CK Relationships/ATTACK-REL-0839 - mitigates|M1045 mitigates T1505.004]] — Code Signing → IIS Components
+- [[07 ATT&CK Relationships/ATTACK-REL-0840 - mitigates|M1026 mitigates T1547.006]] — Privileged Account Management → Kernel Modules and Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-0841 - mitigates|M1018 mitigates T1566.003]] — User Account Management → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0842 - mitigates|M1016 mitigates T1195.002]] — Vulnerability Scanning → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-0843 - mitigates|M1028 mitigates T1542.005]] — Operating System Configuration → TFTP Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0844 - mitigates|M1038 mitigates T1546.009]] — Execution Prevention → AppCert DLLs
+- [[07 ATT&CK Relationships/ATTACK-REL-0845 - mitigates|M1056 mitigates T1592]] — Pre-compromise → Gather Victim Host Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0846 - mitigates|M1047 mitigates T1564.006]] — Audit → Run Virtual Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-0847 - mitigates|M1021 mitigates T1539]] — Restrict Web-Based Content → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-0848 - mitigates|M1043 mitigates T1599.001]] — Credential Access Protection → Network Address Translation Traversal
+- [[07 ATT&CK Relationships/ATTACK-REL-0849 - mitigates|M1047 mitigates T1566]] — Audit → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-0850 - mitigates|M1026 mitigates T1552.007]] — Privileged Account Management → Container API
+- [[07 ATT&CK Relationships/ATTACK-REL-0851 - mitigates|M1037 mitigates T1071]] — Filter Network Traffic → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0852 - mitigates|M1032 mitigates T1021.001]] — Multi-factor Authentication → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0853 - mitigates|M1013 mitigates T1550]] — Application Developer Guidance → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-0854 - mitigates|M1017 mitigates T1185]] — User Training → Browser Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0855 - mitigates|M1028 mitigates T1548]] — Operating System Configuration → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-0856 - mitigates|M1021 mitigates T1218]] — Restrict Web-Based Content → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0857 - mitigates|M1017 mitigates T1557.002]] — User Training → ARP Cache Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-0858 - mitigates|M1047 mitigates T1686.002]] — Audit → Network Device Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-0859 - mitigates|M1021 mitigates T1102.001]] — Restrict Web-Based Content → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-0860 - mitigates|M1046 mitigates T1195]] — Boot Integrity → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-0861 - mitigates|M1041 mitigates T1070]] — Encrypt Sensitive Information → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-0862 - mitigates|M1045 mitigates T1525]] — Code Signing → Implant Internal Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0863 - mitigates|M1038 mitigates T1574.007]] — Execution Prevention → Path Interception by PATH Environment Variable
+- [[07 ATT&CK Relationships/ATTACK-REL-0864 - mitigates|M1038 mitigates T1080]] — Execution Prevention → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-0865 - mitigates|M1034 mitigates T1674]] — Limit Hardware Installation → Input Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0866 - mitigates|M1015 mitigates T1003.006]] — Active Directory Configuration → DCSync
+- [[07 ATT&CK Relationships/ATTACK-REL-0867 - mitigates|M1026 mitigates T1542.005]] — Privileged Account Management → TFTP Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-0868 - mitigates|M1013 mitigates T1212]] — Application Developer Guidance → Exploitation for Credential Access
+- [[07 ATT&CK Relationships/ATTACK-REL-0869 - mitigates|M1042 mitigates T1685]] — Disable or Remove Feature or Program → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0870 - mitigates|M1042 mitigates T1127.003]] — Disable or Remove Feature or Program → JamPlus
+- [[07 ATT&CK Relationships/ATTACK-REL-0871 - mitigates|M1040 mitigates T1543.003]] — Behavior Prevention on Endpoint → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0872 - mitigates|M1045 mitigates T1601.001]] — Code Signing → Patch System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0873 - mitigates|M1040 mitigates T1137.001]] — Behavior Prevention on Endpoint → Office Template Macros
+- [[07 ATT&CK Relationships/ATTACK-REL-0874 - mitigates|M1026 mitigates T1098.003]] — Privileged Account Management → Additional Cloud Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-0875 - mitigates|M1018 mitigates T1574.012]] — User Account Management → COR_PROFILER
+- [[07 ATT&CK Relationships/ATTACK-REL-0876 - mitigates|M1022 mitigates T1489]] — Restrict File and Directory Permissions → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-0877 - mitigates|M1028 mitigates T1556.002]] — Operating System Configuration → Password Filter DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0878 - mitigates|M1051 mitigates T1203]] — Update Software → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0879 - mitigates|M1031 mitigates T1102.002]] — Network Intrusion Prevention → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0880 - mitigates|M1026 mitigates T1550.003]] — Privileged Account Management → Pass the Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-0881 - mitigates|M1031 mitigates T1204.005]] — Network Intrusion Prevention → Malicious Library
+- [[07 ATT&CK Relationships/ATTACK-REL-0882 - mitigates|M1040 mitigates T1559.002]] — Behavior Prevention on Endpoint → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-0883 - mitigates|M1047 mitigates T1606.002]] — Audit → SAML Tokens
+- [[07 ATT&CK Relationships/ATTACK-REL-0884 - mitigates|M1047 mitigates T1558]] — Audit → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-0885 - mitigates|M1018 mitigates T1578.002]] — User Account Management → Create Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-0886 - mitigates|M1056 mitigates T1608]] — Pre-compromise → Stage Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-0887 - mitigates|M1047 mitigates T1556]] — Audit → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0888 - mitigates|M1017 mitigates T1078.002]] — User Training → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0889 - mitigates|M1032 mitigates T1530]] — Multi-factor Authentication → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-0890 - mitigates|M1056 mitigates T1591.004]] — Pre-compromise → Identify Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-0891 - mitigates|M1031 mitigates T1219]] — Network Intrusion Prevention → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-0892 - mitigates|M1038 mitigates T1218]] — Execution Prevention → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0893 - mitigates|M1051 mitigates T1068]] — Update Software → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-0894 - mitigates|M1018 mitigates T1613]] — User Account Management → Container and Resource Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0895 - mitigates|M1032 mitigates T1078.001]] — Multi-factor Authentication → Default Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0896 - mitigates|M1018 mitigates T1078.002]] — User Account Management → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-0897 - mitigates|M1042 mitigates T1559]] — Disable or Remove Feature or Program → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-0898 - mitigates|M1021 mitigates T1218.001]] — Restrict Web-Based Content → Compiled HTML File
+- [[07 ATT&CK Relationships/ATTACK-REL-0899 - mitigates|M1018 mitigates T1543.002]] — User Account Management → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0900 - mitigates|M1038 mitigates T1218.008]] — Execution Prevention → Odbcconf
+- [[07 ATT&CK Relationships/ATTACK-REL-0901 - mitigates|M1018 mitigates T1666]] — User Account Management → Modify Cloud Resource Hierarchy
+- [[07 ATT&CK Relationships/ATTACK-REL-0902 - mitigates|M1037 mitigates T1499]] — Filter Network Traffic → Endpoint Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-0903 - mitigates|M1013 mitigates T1574.001]] — Application Developer Guidance → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-0904 - mitigates|M1026 mitigates T1525]] — Privileged Account Management → Implant Internal Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0905 - mitigates|M1026 mitigates T1558]] — Privileged Account Management → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-0906 - mitigates|M1056 mitigates T1608.002]] — Pre-compromise → Upload Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-0907 - mitigates|M1030 mitigates T1489]] — Network Segmentation → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-0908 - mitigates|M1049 mitigates T1080]] — Antivirus/Antimalware → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-0909 - mitigates|M1018 mitigates T1053.002]] — User Account Management → At
+- [[07 ATT&CK Relationships/ATTACK-REL-0910 - mitigates|M1026 mitigates T1003.003]] — Privileged Account Management → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-0911 - mitigates|M1022 mitigates T1552.004]] — Restrict File and Directory Permissions → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-0912 - mitigates|M1026 mitigates T1558.003]] — Privileged Account Management → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-0913 - mitigates|M1052 mitigates T1574.010]] — User Account Control → Services File Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-0914 - mitigates|M1051 mitigates T1195]] — Update Software → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-0915 - mitigates|M1032 mitigates T1110.003]] — Multi-factor Authentication → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-0916 - mitigates|M1032 mitigates T1110.002]] — Multi-factor Authentication → Password Cracking
+- [[07 ATT&CK Relationships/ATTACK-REL-0917 - mitigates|M1040 mitigates T1055.004]] — Behavior Prevention on Endpoint → Asynchronous Procedure Call
+- [[07 ATT&CK Relationships/ATTACK-REL-0918 - mitigates|M1038 mitigates T1176.001]] — Execution Prevention → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-0919 - mitigates|M1049 mitigates T1027.014]] — Antivirus/Antimalware → Polymorphic Code
+- [[07 ATT&CK Relationships/ATTACK-REL-0920 - mitigates|M1019 mitigates T1211]] — Threat Intelligence Program → Exploitation for Stealth
+- [[07 ATT&CK Relationships/ATTACK-REL-0921 - mitigates|M1026 mitigates T1548.002]] — Privileged Account Management → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-0922 - mitigates|M1038 mitigates T1547.006]] — Execution Prevention → Kernel Modules and Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-0923 - mitigates|M1026 mitigates T1210]] — Privileged Account Management → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0924 - mitigates|M1057 mitigates T1567.004]] — Data Loss Prevention → Exfiltration Over Webhook
+- [[07 ATT&CK Relationships/ATTACK-REL-0925 - mitigates|M1032 mitigates T1110.004]] — Multi-factor Authentication → Credential Stuffing
+- [[07 ATT&CK Relationships/ATTACK-REL-0926 - mitigates|M1028 mitigates T1543]] — Operating System Configuration → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0927 - mitigates|M1026 mitigates T1021.007]] — Privileged Account Management → Cloud Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0928 - mitigates|M1038 mitigates T1219.002]] — Execution Prevention → Remote Desktop Software
+- [[07 ATT&CK Relationships/ATTACK-REL-0929 - mitigates|M1051 mitigates T1602.002]] — Update Software → Network Device Configuration Dump
+- [[07 ATT&CK Relationships/ATTACK-REL-0930 - mitigates|M1046 mitigates T1601.001]] — Boot Integrity → Patch System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-0931 - mitigates|M1052 mitigates T1574.005]] — User Account Control → Executable Installer File Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-0932 - mitigates|M1051 mitigates T1555.003]] — Update Software → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-0933 - mitigates|M1047 mitigates T1574.007]] — Audit → Path Interception by PATH Environment Variable
+- [[07 ATT&CK Relationships/ATTACK-REL-0934 - mitigates|M1054 mitigates T1590.002]] — Software Configuration → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-0935 - mitigates|M1037 mitigates T1530]] — Filter Network Traffic → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-0936 - mitigates|M1053 mitigates T1485]] — Data Backup → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-0937 - mitigates|M1042 mitigates T1021.004]] — Disable or Remove Feature or Program → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-0938 - mitigates|M1028 mitigates T1036.007]] — Operating System Configuration → Double File Extension
+- [[07 ATT&CK Relationships/ATTACK-REL-0939 - mitigates|M1020 mitigates T1573]] — SSL/TLS Inspection → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-0940 - mitigates|M1028 mitigates T1087]] — Operating System Configuration → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0941 - mitigates|M1053 mitigates T1491.002]] — Data Backup → External Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-0942 - mitigates|M1031 mitigates T1557.002]] — Network Intrusion Prevention → ARP Cache Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-0943 - mitigates|M1025 mitigates T1556.001]] — Privileged Process Integrity → Domain Controller Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-0944 - mitigates|M1026 mitigates T1548.003]] — Privileged Account Management → Sudo and Sudo Caching
+- [[07 ATT&CK Relationships/ATTACK-REL-0945 - mitigates|M1040 mitigates T1055.011]] — Behavior Prevention on Endpoint → Extra Window Memory Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-0946 - mitigates|M1049 mitigates T1564.012]] — Antivirus/Antimalware → File/Path Exclusions
+- [[07 ATT&CK Relationships/ATTACK-REL-0947 - mitigates|M1017 mitigates T1213]] — User Training → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0948 - mitigates|M1027 mitigates T1003.008]] — Password Policies → /etc/passwd and /etc/shadow
+- [[07 ATT&CK Relationships/ATTACK-REL-0949 - mitigates|M1017 mitigates T1003.005]] — User Training → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-0950 - mitigates|M1056 mitigates T1583.001]] — Pre-compromise → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-0951 - mitigates|M1026 mitigates T1556]] — Privileged Account Management → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0952 - mitigates|M1042 mitigates T1218.009]] — Disable or Remove Feature or Program → Regsvcs/Regasm
+- [[07 ATT&CK Relationships/ATTACK-REL-0953 - mitigates|M1029 mitigates T1685.005]] — Remote Data Storage → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-0954 - mitigates|M1022 mitigates T1546.004]] — Restrict File and Directory Permissions → Unix Shell Configuration Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-0955 - mitigates|M1017 mitigates T1598]] — User Training → Phishing for Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0956 - mitigates|M1045 mitigates T1059]] — Code Signing → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-0957 - mitigates|M1056 mitigates T1596.004]] — Pre-compromise → CDNs
+- [[07 ATT&CK Relationships/ATTACK-REL-0958 - mitigates|M1047 mitigates T1543]] — Audit → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-0959 - mitigates|M1047 mitigates T1564]] — Audit → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-0960 - mitigates|M1026 mitigates T1136.003]] — Privileged Account Management → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-0961 - mitigates|M1047 mitigates T1505.001]] — Audit → SQL Stored Procedures
+- [[07 ATT&CK Relationships/ATTACK-REL-0962 - mitigates|M1053 mitigates T1485.001]] — Data Backup → Lifecycle-Triggered Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-0963 - mitigates|M1026 mitigates T1222.001]] — Privileged Account Management → Windows Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-0964 - mitigates|M1041 mitigates T1602.002]] — Encrypt Sensitive Information → Network Device Configuration Dump
+- [[07 ATT&CK Relationships/ATTACK-REL-0965 - mitigates|M1026 mitigates T1563]] — Privileged Account Management → Remote Service Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0966 - mitigates|M1018 mitigates T1548.005]] — User Account Management → Temporary Elevated Cloud Access
+- [[07 ATT&CK Relationships/ATTACK-REL-0967 - mitigates|M1038 mitigates T1036]] — Execution Prevention → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-0968 - mitigates|M1049 mitigates T1027]] — Antivirus/Antimalware → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-0969 - mitigates|M1018 mitigates T1047]] — User Account Management → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-0970 - mitigates|M1056 mitigates T1681]] — Pre-compromise → Search Threat Vendor Data
+- [[07 ATT&CK Relationships/ATTACK-REL-0971 - mitigates|M1038 mitigates T1553.003]] — Execution Prevention → SIP and Trust Provider Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0972 - mitigates|M1042 mitigates T1505]] — Disable or Remove Feature or Program → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-0973 - mitigates|M1039 mitigates T1070.003]] — Environment Variable Permissions → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-0974 - mitigates|M1056 mitigates T1608.001]] — Pre-compromise → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-0975 - mitigates|M1031 mitigates T1095]] — Network Intrusion Prevention → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-0976 - mitigates|M1028 mitigates T1053.005]] — Operating System Configuration → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-0977 - mitigates|M1032 mitigates T1621]] — Multi-factor Authentication → Multi-Factor Authentication Request Generation
+- [[07 ATT&CK Relationships/ATTACK-REL-0978 - mitigates|M1038 mitigates T1068]] — Execution Prevention → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-0979 - mitigates|M1048 mitigates T1203]] — Application Isolation and Sandboxing → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-0980 - mitigates|M1029 mitigates T1565]] — Remote Data Storage → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-0981 - mitigates|M1018 mitigates T1490]] — User Account Management → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-0982 - mitigates|M1028 mitigates T1553.004]] — Operating System Configuration → Install Root Certificate
+- [[07 ATT&CK Relationships/ATTACK-REL-0983 - mitigates|M1047 mitigates T1213]] — Audit → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-0984 - mitigates|M1048 mitigates T1559.002]] — Application Isolation and Sandboxing → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-0985 - mitigates|M1056 mitigates T1608.005]] — Pre-compromise → Link Target
+- [[07 ATT&CK Relationships/ATTACK-REL-0986 - mitigates|M1041 mitigates T1558.004]] — Encrypt Sensitive Information → AS-REP Roasting
+- [[07 ATT&CK Relationships/ATTACK-REL-0987 - mitigates|M1031 mitigates T1566.001]] — Network Intrusion Prevention → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-0988 - mitigates|M1047 mitigates T1059.006]] — Audit → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-0989 - mitigates|M1040 mitigates T1546.003]] — Behavior Prevention on Endpoint → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-0990 - mitigates|M1056 mitigates T1590.005]] — Pre-compromise → IP Addresses
+- [[07 ATT&CK Relationships/ATTACK-REL-0991 - mitigates|M1038 mitigates T1574.008]] — Execution Prevention → Path Interception by Search Order Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-0992 - mitigates|M1040 mitigates T1027.013]] — Behavior Prevention on Endpoint → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-0993 - mitigates|M1032 mitigates T1021]] — Multi-factor Authentication → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-0994 - mitigates|M1037 mitigates T1090]] — Filter Network Traffic → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-0995 - mitigates|M1056 mitigates T1583.007]] — Pre-compromise → Serverless
+- [[07 ATT&CK Relationships/ATTACK-REL-0996 - mitigates|M1037 mitigates T1071.001]] — Filter Network Traffic → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-0997 - mitigates|M1056 mitigates T1590.001]] — Pre-compromise → Domain Properties
+- [[07 ATT&CK Relationships/ATTACK-REL-0998 - mitigates|M1020 mitigates T1573.002]] — SSL/TLS Inspection → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-0999 - mitigates|M1013 mitigates T1559.003]] — Application Developer Guidance → XPC Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1000 - mitigates|M1026 mitigates T1546.003]] — Privileged Account Management → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-1001 - mitigates|M1021 mitigates T1528]] — Restrict Web-Based Content → Steal Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1002 - mitigates|M1017 mitigates T1684.001]] — User Training → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-1003 - mitigates|M1026 mitigates T1218]] — Privileged Account Management → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1004 - mitigates|M1051 mitigates T1189]] — Update Software → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-1005 - mitigates|M1022 mitigates T1574.007]] — Restrict File and Directory Permissions → Path Interception by PATH Environment Variable
+- [[07 ATT&CK Relationships/ATTACK-REL-1006 - mitigates|M1018 mitigates T1578.003]] — User Account Management → Delete Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-1007 - mitigates|M1022 mitigates T1222.002]] — Restrict File and Directory Permissions → Linux and Mac Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-1008 - mitigates|M1040 mitigates T1055.002]] — Behavior Prevention on Endpoint → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1009 - mitigates|M1018 mitigates T1078]] — User Account Management → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1010 - mitigates|M1040 mitigates T1216.001]] — Behavior Prevention on Endpoint → PubPrn
+- [[07 ATT&CK Relationships/ATTACK-REL-1011 - mitigates|M1051 mitigates T1574.001]] — Update Software → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-1012 - mitigates|M1036 mitigates T1078.004]] — Account Use Policies → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1013 - mitigates|M1034 mitigates T1091]] — Limit Hardware Installation → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-1014 - mitigates|M1021 mitigates T1568.002]] — Restrict Web-Based Content → Domain Generation Algorithms
+- [[07 ATT&CK Relationships/ATTACK-REL-1015 - mitigates|M1022 mitigates T1218.002]] — Restrict File and Directory Permissions → Control Panel
+- [[07 ATT&CK Relationships/ATTACK-REL-1016 - mitigates|M1018 mitigates T1546.003]] — User Account Management → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-1017 - mitigates|M1026 mitigates T1021.006]] — Privileged Account Management → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-1018 - mitigates|M1035 mitigates T1563.002]] — Limit Access to Resource Over Network → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1019 - mitigates|M1037 mitigates T1190]] — Filter Network Traffic → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-1020 - mitigates|M1055 mitigates T1480.002]] — Do Not Mitigate → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-1021 - mitigates|M1024 mitigates T1686.003]] — Restrict Registry Permissions → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-1022 - mitigates|M1030 mitigates T1190]] — Network Segmentation → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-1023 - mitigates|M1026 mitigates T1609]] — Privileged Account Management → Container Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-1024 - mitigates|M1034 mitigates T1052]] — Limit Hardware Installation → Exfiltration Over Physical Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-1025 - mitigates|M1022 mitigates T1070.009]] — Restrict File and Directory Permissions → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-1026 - mitigates|M1028 mitigates T1552.003]] — Operating System Configuration → Shell History
+- [[07 ATT&CK Relationships/ATTACK-REL-1027 - mitigates|M1028 mitigates T1564.002]] — Operating System Configuration → Hidden Users
+- [[07 ATT&CK Relationships/ATTACK-REL-1028 - mitigates|M1054 mitigates T1598.002]] — Software Configuration → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-1029 - mitigates|M1047 mitigates T1666]] — Audit → Modify Cloud Resource Hierarchy
+- [[07 ATT&CK Relationships/ATTACK-REL-1030 - mitigates|M1038 mitigates T1218.004]] — Execution Prevention → InstallUtil
+- [[07 ATT&CK Relationships/ATTACK-REL-1031 - mitigates|M1015 mitigates T1552]] — Active Directory Configuration → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1032 - mitigates|M1042 mitigates T1052]] — Disable or Remove Feature or Program → Exfiltration Over Physical Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-1033 - mitigates|M1018 mitigates T1185]] — User Account Management → Browser Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1034 - mitigates|M1032 mitigates T1556.004]] — Multi-factor Authentication → Network Device Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-1035 - mitigates|M1042 mitigates T1021.001]] — Disable or Remove Feature or Program → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1036 - mitigates|M1050 mitigates T1080]] — Exploit Protection → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-1037 - mitigates|M1049 mitigates T1036.008]] — Antivirus/Antimalware → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-1038 - mitigates|M1029 mitigates T1070.008]] — Remote Data Storage → Clear Mailbox Data
+- [[07 ATT&CK Relationships/ATTACK-REL-1039 - mitigates|M1026 mitigates T1021.002]] — Privileged Account Management → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-1040 - mitigates|M1022 mitigates T1548.006]] — Restrict File and Directory Permissions → TCC Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1041 - mitigates|M1045 mitigates T1546.013]] — Code Signing → PowerShell Profile
+- [[07 ATT&CK Relationships/ATTACK-REL-1042 - mitigates|M1031 mitigates T1557.001]] — Network Intrusion Prevention → Name Resolution Poisoning and SMB Relay
+- [[07 ATT&CK Relationships/ATTACK-REL-1043 - mitigates|M1022 mitigates T1552]] — Restrict File and Directory Permissions → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1044 - mitigates|M1047 mitigates T1574.005]] — Audit → Executable Installer File Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-1045 - mitigates|M1018 mitigates T1053.003]] — User Account Management → Cron
+- [[07 ATT&CK Relationships/ATTACK-REL-1046 - mitigates|M1029 mitigates T1070.007]] — Remote Data Storage → Clear Network Connection History and Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-1047 - mitigates|M1033 mitigates T1543.002]] — Limit Software Installation → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1048 - mitigates|M1056 mitigates T1608.006]] — Pre-compromise → SEO Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-1049 - mitigates|M1046 mitigates T1542.001]] — Boot Integrity → System Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-1050 - mitigates|M1050 mitigates T1218.010]] — Exploit Protection → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-1051 - mitigates|M1032 mitigates T1021.004]] — Multi-factor Authentication → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-1052 - mitigates|M1024 mitigates T1556]] — Restrict Registry Permissions → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-1053 - mitigates|M1038 mitigates T1176.002]] — Execution Prevention → IDE Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1054 - mitigates|M1018 mitigates T1606.002]] — User Account Management → SAML Tokens
+- [[07 ATT&CK Relationships/ATTACK-REL-1055 - mitigates|M1047 mitigates T1482]] — Audit → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1056 - mitigates|M1033 mitigates T1176.001]] — Limit Software Installation → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1057 - mitigates|M1030 mitigates T1602.001]] — Network Segmentation → SNMP (MIB Dump)
+- [[07 ATT&CK Relationships/ATTACK-REL-1058 - mitigates|M1032 mitigates T1021.007]] — Multi-factor Authentication → Cloud Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1059 - mitigates|M1032 mitigates T1078.004]] — Multi-factor Authentication → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1060 - mitigates|M1037 mitigates T1071.003]] — Filter Network Traffic → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-1061 - mitigates|M1051 mitigates T1110.001]] — Update Software → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-1062 - mitigates|M1024 mitigates T1070.007]] — Restrict Registry Permissions → Clear Network Connection History and Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-1063 - mitigates|M1017 mitigates T1204.001]] — User Training → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-1064 - mitigates|M1033 mitigates T1204]] — Limit Software Installation → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1065 - mitigates|M1045 mitigates T1543.003]] — Code Signing → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1066 - mitigates|M1017 mitigates T1176.002]] — User Training → IDE Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1067 - mitigates|M1013 mitigates T1078]] — Application Developer Guidance → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1068 - mitigates|M1056 mitigates T1595.001]] — Pre-compromise → Scanning IP Blocks
+- [[07 ATT&CK Relationships/ATTACK-REL-1069 - mitigates|M1030 mitigates T1048]] — Network Segmentation → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1070 - mitigates|M1018 mitigates T1213]] — User Account Management → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-1071 - mitigates|M1030 mitigates T1021.003]] — Network Segmentation → Distributed Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-1072 - mitigates|M1038 mitigates T1219.001]] — Execution Prevention → IDE Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-1073 - mitigates|M1041 mitigates T1669]] — Encrypt Sensitive Information → Wi-Fi Networks
+- [[07 ATT&CK Relationships/ATTACK-REL-1074 - mitigates|M1040 mitigates T1036.008]] — Behavior Prevention on Endpoint → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-1075 - mitigates|M1028 mitigates T1003]] — Operating System Configuration → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-1076 - mitigates|M1035 mitigates T1557]] — Limit Access to Resource Over Network → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-1077 - mitigates|M1056 mitigates T1592.002]] — Pre-compromise → Software
+- [[07 ATT&CK Relationships/ATTACK-REL-1078 - mitigates|M1037 mitigates T1552.005]] — Filter Network Traffic → Cloud Instance Metadata API
+- [[07 ATT&CK Relationships/ATTACK-REL-1079 - mitigates|M1031 mitigates T1102.001]] — Network Intrusion Prevention → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-1080 - mitigates|M1041 mitigates T1114.001]] — Encrypt Sensitive Information → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-1081 - mitigates|M1024 mitigates T1489]] — Restrict Registry Permissions → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-1082 - mitigates|M1038 mitigates T1204]] — Execution Prevention → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1083 - mitigates|M1027 mitigates T1003.004]] — Password Policies → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-1084 - mitigates|M1051 mitigates T1555.005]] — Update Software → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-1085 - mitigates|M1043 mitigates T1601.002]] — Credential Access Protection → Downgrade System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1086 - mitigates|M1038 mitigates T1059.001]] — Execution Prevention → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-1087 - mitigates|M1022 mitigates T1548]] — Restrict File and Directory Permissions → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-1088 - mitigates|M1028 mitigates T1136]] — Operating System Configuration → Create Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1089 - mitigates|M1042 mitigates T1563.001]] — Disable or Remove Feature or Program → SSH Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1090 - mitigates|M1040 mitigates T1106]] — Behavior Prevention on Endpoint → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-1091 - mitigates|M1047 mitigates T1606]] — Audit → Forge Web Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1092 - mitigates|M1017 mitigates T1566.002]] — User Training → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-1093 - mitigates|M1031 mitigates T1071.004]] — Network Intrusion Prevention → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-1094 - mitigates|M1051 mitigates T1072]] — Update Software → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1095 - mitigates|M1042 mitigates T1133]] — Disable or Remove Feature or Program → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1096 - mitigates|M1027 mitigates T1187]] — Password Policies → Forced Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-1097 - mitigates|M1049 mitigates T1059.006]] — Antivirus/Antimalware → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-1098 - mitigates|M1018 mitigates T1552.007]] — User Account Management → Container API
+- [[07 ATT&CK Relationships/ATTACK-REL-1099 - mitigates|M1018 mitigates T1685.004]] — User Account Management → Disable or Modify Linux Audit System Log
+- [[07 ATT&CK Relationships/ATTACK-REL-1100 - mitigates|M1047 mitigates T1563.002]] — Audit → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1101 - mitigates|M1027 mitigates T1003]] — Password Policies → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-1102 - mitigates|M1047 mitigates T1574.009]] — Audit → Path Interception by Unquoted Path
+- [[07 ATT&CK Relationships/ATTACK-REL-1103 - mitigates|M1015 mitigates T1558]] — Active Directory Configuration → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-1104 - mitigates|M1026 mitigates T1556.003]] — Privileged Account Management → Pluggable Authentication Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-1105 - mitigates|M1056 mitigates T1587.004]] — Pre-compromise → Exploits
+- [[07 ATT&CK Relationships/ATTACK-REL-1106 - mitigates|M1051 mitigates T1686.002]] — Update Software → Network Device Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-1107 - mitigates|M1025 mitigates T1547.005]] — Privileged Process Integrity → Security Support Provider
+- [[07 ATT&CK Relationships/ATTACK-REL-1108 - mitigates|M1041 mitigates T1213]] — Encrypt Sensitive Information → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-1109 - mitigates|M1031 mitigates T1001.002]] — Network Intrusion Prevention → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-1110 - mitigates|M1038 mitigates T1546.010]] — Execution Prevention → AppInit DLLs
+- [[07 ATT&CK Relationships/ATTACK-REL-1111 - mitigates|M1017 mitigates T1667]] — User Training → Email Bombing
+- [[07 ATT&CK Relationships/ATTACK-REL-1112 - mitigates|M1054 mitigates T1543]] — Software Configuration → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-1113 - mitigates|M1057 mitigates T1020.001]] — Data Loss Prevention → Traffic Duplication
+- [[07 ATT&CK Relationships/ATTACK-REL-1114 - mitigates|M1055 mitigates T1480]] — Do Not Mitigate → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-1115 - mitigates|M1018 mitigates T1686.001]] — User Account Management → Cloud Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-1116 - mitigates|M1018 mitigates T1053.007]] — User Account Management → Container Orchestration Job
+- [[07 ATT&CK Relationships/ATTACK-REL-1117 - mitigates|M1043 mitigates T1003]] — Credential Access Protection → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-1118 - mitigates|M1049 mitigates T1059.005]] — Antivirus/Antimalware → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-1119 - mitigates|M1037 mitigates T1499.001]] — Filter Network Traffic → OS Exhaustion Flood
+- [[07 ATT&CK Relationships/ATTACK-REL-1120 - mitigates|M1030 mitigates T1571]] — Network Segmentation → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-1121 - mitigates|M1032 mitigates T1556.007]] — Multi-factor Authentication → Hybrid Identity
+- [[07 ATT&CK Relationships/ATTACK-REL-1122 - mitigates|M1015 mitigates T1552.006]] — Active Directory Configuration → Group Policy Preferences
+- [[07 ATT&CK Relationships/ATTACK-REL-1123 - mitigates|M1051 mitigates T1176]] — Update Software → Software Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1124 - mitigates|M1021 mitigates T1127]] — Restrict Web-Based Content → Trusted Developer Utilities Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1125 - mitigates|M1043 mitigates T1547.008]] — Credential Access Protection → LSASS Driver
+- [[07 ATT&CK Relationships/ATTACK-REL-1126 - mitigates|M1054 mitigates T1137]] — Software Configuration → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-1127 - mitigates|M1022 mitigates T1530]] — Restrict File and Directory Permissions → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-1128 - mitigates|M1030 mitigates T1612]] — Network Segmentation → Build Image on Host
+- [[07 ATT&CK Relationships/ATTACK-REL-1129 - mitigates|M1033 mitigates T1204.005]] — Limit Software Installation → Malicious Library
+- [[07 ATT&CK Relationships/ATTACK-REL-1130 - mitigates|M1031 mitigates T1001.003]] — Network Intrusion Prevention → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-1131 - mitigates|M1017 mitigates T1528]] — User Training → Steal Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1132 - mitigates|M1056 mitigates T1595]] — Pre-compromise → Active Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-1133 - mitigates|M1053 mitigates T1561.001]] — Data Backup → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-1134 - mitigates|M1054 mitigates T1689]] — Software Configuration → Downgrade Attack
+- [[07 ATT&CK Relationships/ATTACK-REL-1135 - mitigates|M1025 mitigates T1556]] — Privileged Process Integrity → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-1136 - mitigates|M1053 mitigates T1561.002]] — Data Backup → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-1137 - mitigates|M1054 mitigates T1602.001]] — Software Configuration → SNMP (MIB Dump)
+- [[07 ATT&CK Relationships/ATTACK-REL-1138 - mitigates|M1028 mitigates T1003.005]] — Operating System Configuration → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1139 - mitigates|M1028 mitigates T1003.001]] — Operating System Configuration → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-1140 - mitigates|M1037 mitigates T1498]] — Filter Network Traffic → Network Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1141 - mitigates|M1031 mitigates T1090.001]] — Network Intrusion Prevention → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-1142 - mitigates|M1038 mitigates T1218.001]] — Execution Prevention → Compiled HTML File
+- [[07 ATT&CK Relationships/ATTACK-REL-1143 - mitigates|M1056 mitigates T1597]] — Pre-compromise → Search Closed Sources
+- [[07 ATT&CK Relationships/ATTACK-REL-1144 - mitigates|M1033 mitigates T1072]] — Limit Software Installation → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1145 - mitigates|M1026 mitigates T1484]] — Privileged Account Management → Domain or Tenant Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1146 - mitigates|M1052 mitigates T1548.002]] — User Account Control → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-1147 - mitigates|M1038 mitigates T1059]] — Execution Prevention → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-1148 - mitigates|M1017 mitigates T1552.008]] — User Training → Chat Messages
+- [[07 ATT&CK Relationships/ATTACK-REL-1149 - mitigates|M1017 mitigates T1036.007]] — User Training → Double File Extension
+- [[07 ATT&CK Relationships/ATTACK-REL-1150 - mitigates|M1035 mitigates T1542]] — Limit Access to Resource Over Network → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-1151 - mitigates|M1049 mitigates T1547.006]] — Antivirus/Antimalware → Kernel Modules and Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1152 - mitigates|M1038 mitigates T1574.012]] — Execution Prevention → COR_PROFILER
+- [[07 ATT&CK Relationships/ATTACK-REL-1153 - mitigates|M1018 mitigates T1550]] — User Account Management → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-1154 - mitigates|M1057 mitigates T1048]] — Data Loss Prevention → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1155 - mitigates|M1047 mitigates T1612]] — Audit → Build Image on Host
+- [[07 ATT&CK Relationships/ATTACK-REL-1156 - mitigates|M1031 mitigates T1071.003]] — Network Intrusion Prevention → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-1157 - mitigates|M1027 mitigates T1552]] — Password Policies → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1158 - mitigates|M1038 mitigates T1059.007]] — Execution Prevention → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-1159 - mitigates|M1038 mitigates T1218.002]] — Execution Prevention → Control Panel
+- [[07 ATT&CK Relationships/ATTACK-REL-1160 - mitigates|M1022 mitigates T1070]] — Restrict File and Directory Permissions → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-1161 - mitigates|M1018 mitigates T1555.003]] — User Account Management → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-1162 - mitigates|M1042 mitigates T1555.004]] — Disable or Remove Feature or Program → Windows Credential Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-1163 - mitigates|M1047 mitigates T1550.001]] — Audit → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1164 - mitigates|M1018 mitigates T1110.004]] — User Account Management → Credential Stuffing
+- [[07 ATT&CK Relationships/ATTACK-REL-1165 - mitigates|M1056 mitigates T1589.003]] — Pre-compromise → Employee Names
+- [[07 ATT&CK Relationships/ATTACK-REL-1166 - mitigates|M1026 mitigates T1556.004]] — Privileged Account Management → Network Device Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-1167 - mitigates|M1026 mitigates T1553.006]] — Privileged Account Management → Code Signing Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1168 - mitigates|M1015 mitigates T1078]] — Active Directory Configuration → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1169 - mitigates|M1032 mitigates T1078.003]] — Multi-factor Authentication → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1170 - mitigates|M1047 mitigates T1095]] — Audit → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1171 - mitigates|M1026 mitigates T1136.001]] — Privileged Account Management → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1172 - mitigates|M1057 mitigates T1005]] — Data Loss Prevention → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-1173 - mitigates|M1017 mitigates T1176.001]] — User Training → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1174 - mitigates|M1030 mitigates T1021.006]] — Network Segmentation → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-1175 - mitigates|M1042 mitigates T1546.002]] — Disable or Remove Feature or Program → Screensaver
+- [[07 ATT&CK Relationships/ATTACK-REL-1176 - mitigates|M1042 mitigates T1059.001]] — Disable or Remove Feature or Program → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-1177 - mitigates|M1042 mitigates T1052.001]] — Disable or Remove Feature or Program → Exfiltration over USB
+- [[07 ATT&CK Relationships/ATTACK-REL-1178 - mitigates|M1047 mitigates T1543.003]] — Audit → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1179 - mitigates|M1055 mitigates T1480.001]] — Do Not Mitigate → Environmental Keying
+- [[07 ATT&CK Relationships/ATTACK-REL-1180 - mitigates|M1022 mitigates T1552.001]] — Restrict File and Directory Permissions → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-1181 - mitigates|M1015 mitigates T1606.002]] — Active Directory Configuration → SAML Tokens
+- [[07 ATT&CK Relationships/ATTACK-REL-1182 - mitigates|M1038 mitigates T1553.001]] — Execution Prevention → Gatekeeper Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-1183 - mitigates|M1047 mitigates T1213.004]] — Audit → Customer Relationship Management Software
+- [[07 ATT&CK Relationships/ATTACK-REL-1184 - mitigates|M1043 mitigates T1599]] — Credential Access Protection → Network Boundary Bridging
+- [[07 ATT&CK Relationships/ATTACK-REL-1185 - mitigates|M1038 mitigates T1685.003]] — Execution Prevention → Modify or Spoof Tool UI
+- [[07 ATT&CK Relationships/ATTACK-REL-1186 - mitigates|M1038 mitigates T1553.005]] — Execution Prevention → Mark-of-the-Web Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-1187 - mitigates|M1038 mitigates T1547.009]] — Execution Prevention → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1188 - mitigates|M1018 mitigates T1053]] — User Account Management → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-1189 - mitigates|M1026 mitigates T1688]] — Privileged Account Management → Safe Mode Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-1190 - mitigates|M1028 mitigates T1053.002]] — Operating System Configuration → At
+- [[07 ATT&CK Relationships/ATTACK-REL-1191 - mitigates|M1038 mitigates T1574.006]] — Execution Prevention → Dynamic Linker Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1192 - mitigates|M1051 mitigates T1495]] — Update Software → Firmware Corruption
+- [[07 ATT&CK Relationships/ATTACK-REL-1193 - mitigates|M1017 mitigates T1213.005]] — User Training → Messaging Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-1194 - mitigates|M1018 mitigates T1547.006]] — User Account Management → Kernel Modules and Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1195 - mitigates|M1052 mitigates T1546.011]] — User Account Control → Application Shimming
+- [[07 ATT&CK Relationships/ATTACK-REL-1196 - mitigates|M1035 mitigates T1552.007]] — Limit Access to Resource Over Network → Container API
+- [[07 ATT&CK Relationships/ATTACK-REL-1197 - mitigates|M1018 mitigates T1619]] — User Account Management → Cloud Storage Object Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1198 - mitigates|M1031 mitigates T1557.003]] — Network Intrusion Prevention → DHCP Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-1199 - mitigates|M1027 mitigates T1558]] — Password Policies → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-1200 - mitigates|M1018 mitigates T1543.004]] — User Account Management → Launch Daemon
+- [[07 ATT&CK Relationships/ATTACK-REL-1201 - mitigates|M1040 mitigates T1055.003]] — Behavior Prevention on Endpoint → Thread Execution Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1202 - mitigates|M1026 mitigates T1134.003]] — Privileged Account Management → Make and Impersonate Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1203 - mitigates|M1047 mitigates T1114]] — Audit → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-1204 - mitigates|M1021 mitigates T1555.003]] — Restrict Web-Based Content → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-1205 - mitigates|M1027 mitigates T1601]] — Password Policies → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1206 - mitigates|M1031 mitigates T1008]] — Network Intrusion Prevention → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-1207 - mitigates|M1047 mitigates T1053]] — Audit → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-1208 - mitigates|M1022 mitigates T1548.003]] — Restrict File and Directory Permissions → Sudo and Sudo Caching
+- [[07 ATT&CK Relationships/ATTACK-REL-1209 - mitigates|M1060 mitigates T1114.003]] — Out-of-Band Communications Channel → Email Forwarding Rule
+- [[07 ATT&CK Relationships/ATTACK-REL-1210 - mitigates|M1036 mitigates T1110.001]] — Account Use Policies → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-1211 - mitigates|M1028 mitigates T1548.003]] — Operating System Configuration → Sudo and Sudo Caching
+- [[07 ATT&CK Relationships/ATTACK-REL-1212 - mitigates|M1013 mitigates T1496.003]] — Application Developer Guidance → SMS Pumping
+- [[07 ATT&CK Relationships/ATTACK-REL-1213 - mitigates|M1027 mitigates T1078.002]] — Password Policies → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1214 - mitigates|M1018 mitigates T1484.002]] — User Account Management → Trust Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1215 - mitigates|M1029 mitigates T1070.003]] — Remote Data Storage → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-1216 - mitigates|M1040 mitigates T1204]] — Behavior Prevention on Endpoint → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1217 - mitigates|M1028 mitigates T1011.001]] — Operating System Configuration → Exfiltration Over Bluetooth
+- [[07 ATT&CK Relationships/ATTACK-REL-1218 - mitigates|M1038 mitigates T1574.009]] — Execution Prevention → Path Interception by Unquoted Path
+- [[07 ATT&CK Relationships/ATTACK-REL-1219 - mitigates|M1017 mitigates T1221]] — User Training → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1220 - mitigates|M1033 mitigates T1176.002]] — Limit Software Installation → IDE Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1221 - mitigates|M1046 mitigates T1542.004]] — Boot Integrity → ROMMONkit
+- [[07 ATT&CK Relationships/ATTACK-REL-1222 - mitigates|M1047 mitigates T1548.006]] — Audit → TCC Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1223 - mitigates|M1047 mitigates T1558.004]] — Audit → AS-REP Roasting
+- [[07 ATT&CK Relationships/ATTACK-REL-1224 - mitigates|M1028 mitigates T1552]] — Operating System Configuration → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1225 - mitigates|M1050 mitigates T1190]] — Exploit Protection → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-1226 - mitigates|M1026 mitigates T1543]] — Privileged Account Management → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-1227 - mitigates|M1041 mitigates T1649]] — Encrypt Sensitive Information → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-1228 - mitigates|M1038 mitigates T1127.001]] — Execution Prevention → MSBuild
+- [[07 ATT&CK Relationships/ATTACK-REL-1229 - mitigates|M1047 mitigates T1552.001]] — Audit → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-1230 - mitigates|M1026 mitigates T1003.002]] — Privileged Account Management → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-1231 - mitigates|M1040 mitigates T1059.007]] — Behavior Prevention on Endpoint → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-1232 - mitigates|M1018 mitigates T1484]] — User Account Management → Domain or Tenant Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1233 - mitigates|M1021 mitigates T1659]] — Restrict Web-Based Content → Content Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1234 - mitigates|M1030 mitigates T1048.003]] — Network Segmentation → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1235 - mitigates|M1018 mitigates T1021.001]] — User Account Management → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1236 - mitigates|M1013 mitigates T1647]] — Application Developer Guidance → Plist File Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1237 - mitigates|M1042 mitigates T1218.014]] — Disable or Remove Feature or Program → MMC
+- [[07 ATT&CK Relationships/ATTACK-REL-1238 - mitigates|M1038 mitigates T1553]] — Execution Prevention → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-1239 - mitigates|M1018 mitigates T1563]] — User Account Management → Remote Service Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1240 - mitigates|M1031 mitigates T1132.001]] — Network Intrusion Prevention → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-1241 - mitigates|M1018 mitigates T1098.001]] — User Account Management → Additional Cloud Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1242 - mitigates|M1045 mitigates T1127.002]] — Code Signing → ClickOnce
+- [[07 ATT&CK Relationships/ATTACK-REL-1243 - mitigates|M1038 mitigates T1548]] — Execution Prevention → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-1244 - mitigates|M1026 mitigates T1552.002]] — Privileged Account Management → Credentials in Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-1245 - mitigates|M1017 mitigates T1056.002]] — User Training → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-1246 - mitigates|M1026 mitigates T1563.002]] — Privileged Account Management → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1247 - mitigates|M1054 mitigates T1606]] — Software Configuration → Forge Web Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1248 - mitigates|M1029 mitigates T1565.001]] — Remote Data Storage → Stored Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1249 - mitigates|M1030 mitigates T1048.001]] — Network Segmentation → Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1250 - mitigates|M1047 mitigates T1053.003]] — Audit → Cron
+- [[07 ATT&CK Relationships/ATTACK-REL-1251 - mitigates|M1042 mitigates T1221]] — Disable or Remove Feature or Program → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1252 - mitigates|M1042 mitigates T1564.006]] — Disable or Remove Feature or Program → Run Virtual Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-1253 - mitigates|M1017 mitigates T1556.001]] — User Training → Domain Controller Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-1254 - mitigates|M1042 mitigates T1137.001]] — Disable or Remove Feature or Program → Office Template Macros
+- [[07 ATT&CK Relationships/ATTACK-REL-1255 - mitigates|M1024 mitigates T1112]] — Restrict Registry Permissions → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-1256 - mitigates|M1017 mitigates T1176]] — User Training → Software Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1257 - mitigates|M1022 mitigates T1574.004]] — Restrict File and Directory Permissions → Dylib Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1258 - mitigates|M1031 mitigates T1568.002]] — Network Intrusion Prevention → Domain Generation Algorithms
+- [[07 ATT&CK Relationships/ATTACK-REL-1259 - mitigates|M1022 mitigates T1546.013]] — Restrict File and Directory Permissions → PowerShell Profile
+- [[07 ATT&CK Relationships/ATTACK-REL-1260 - mitigates|M1053 mitigates T1486]] — Data Backup → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-1261 - mitigates|M1022 mitigates T1565.003]] — Restrict File and Directory Permissions → Runtime Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1262 - mitigates|M1024 mitigates T1574.011]] — Restrict Registry Permissions → Services Registry Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-1263 - mitigates|M1047 mitigates T1685]] — Audit → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1264 - mitigates|M1038 mitigates T1216.001]] — Execution Prevention → PubPrn
+- [[07 ATT&CK Relationships/ATTACK-REL-1265 - mitigates|M1028 mitigates T1053]] — Operating System Configuration → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-1266 - mitigates|M1047 mitigates T1036.010]] — Audit → Masquerade Account Name
+- [[07 ATT&CK Relationships/ATTACK-REL-1267 - mitigates|M1052 mitigates T1548]] — User Account Control → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-1268 - mitigates|M1038 mitigates T1574]] — Execution Prevention → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-1269 - mitigates|M1036 mitigates T1550]] — Account Use Policies → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-1270 - mitigates|M1026 mitigates T1072]] — Privileged Account Management → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1271 - mitigates|M1047 mitigates T1543.004]] — Audit → Launch Daemon
+- [[07 ATT&CK Relationships/ATTACK-REL-1272 - mitigates|M1024 mitigates T1556.008]] — Restrict Registry Permissions → Network Provider DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-1273 - mitigates|M1041 mitigates T1213.006]] — Encrypt Sensitive Information → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-1274 - mitigates|M1054 mitigates T1137.002]] — Software Configuration → Office Test
+- [[07 ATT&CK Relationships/ATTACK-REL-1275 - mitigates|M1037 mitigates T1537]] — Filter Network Traffic → Transfer Data to Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1276 - mitigates|M1047 mitigates T1059.011]] — Audit → Lua
+- [[07 ATT&CK Relationships/ATTACK-REL-1277 - mitigates|M1049 mitigates T1027.009]] — Antivirus/Antimalware → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-1278 - mitigates|M1024 mitigates T1574.012]] — Restrict Registry Permissions → COR_PROFILER
+- [[07 ATT&CK Relationships/ATTACK-REL-1279 - mitigates|M1037 mitigates T1071.005]] — Filter Network Traffic → Publish/Subscribe Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-1280 - mitigates|M1040 mitigates T1047]] — Behavior Prevention on Endpoint → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-1281 - mitigates|M1026 mitigates T1651]] — Privileged Account Management → Cloud Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-1282 - mitigates|M1038 mitigates T1059.002]] — Execution Prevention → AppleScript
+- [[07 ATT&CK Relationships/ATTACK-REL-1283 - mitigates|M1042 mitigates T1091]] — Disable or Remove Feature or Program → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-1284 - mitigates|M1056 mitigates T1586.003]] — Pre-compromise → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1285 - mitigates|M1027 mitigates T1110]] — Password Policies → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-1286 - mitigates|M1026 mitigates T1134.002]] — Privileged Account Management → Create Process with Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1287 - mitigates|M1027 mitigates T1078.001]] — Password Policies → Default Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1288 - mitigates|M1037 mitigates T1205.001]] — Filter Network Traffic → Port Knocking
+- [[07 ATT&CK Relationships/ATTACK-REL-1289 - mitigates|M1054 mitigates T1553.004]] — Software Configuration → Install Root Certificate
+- [[07 ATT&CK Relationships/ATTACK-REL-1290 - mitigates|M1032 mitigates T1136.003]] — Multi-factor Authentication → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1291 - mitigates|M1035 mitigates T1613]] — Limit Access to Resource Over Network → Container and Resource Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1292 - mitigates|M1021 mitigates T1566.003]] — Restrict Web-Based Content → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1293 - mitigates|M1038 mitigates T1490]] — Execution Prevention → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1294 - mitigates|M1018 mitigates T1550.002]] — User Account Management → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-1295 - mitigates|M1026 mitigates T1546]] — Privileged Account Management → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1296 - mitigates|M1015 mitigates T1072]] — Active Directory Configuration → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1297 - mitigates|M1056 mitigates T1586]] — Pre-compromise → Compromise Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1298 - mitigates|M1026 mitigates T1098.002]] — Privileged Account Management → Additional Email Delegate Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-1299 - mitigates|M1033 mitigates T1176]] — Limit Software Installation → Software Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1300 - mitigates|M1042 mitigates T1210]] — Disable or Remove Feature or Program → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1301 - mitigates|M1040 mitigates T1137.003]] — Behavior Prevention on Endpoint → Outlook Forms
+- [[07 ATT&CK Relationships/ATTACK-REL-1302 - mitigates|M1042 mitigates T1011]] — Disable or Remove Feature or Program → Exfiltration Over Other Network Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-1303 - mitigates|M1013 mitigates T1593]] — Application Developer Guidance → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-1304 - mitigates|M1037 mitigates T1071.002]] — Filter Network Traffic → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-1305 - mitigates|M1056 mitigates T1683]] — Pre-compromise → Generate Content
+- [[07 ATT&CK Relationships/ATTACK-REL-1306 - mitigates|M1022 mitigates T1070.003]] — Restrict File and Directory Permissions → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-1307 - mitigates|M1022 mitigates T1565.001]] — Restrict File and Directory Permissions → Stored Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1308 - mitigates|M1032 mitigates T1098.001]] — Multi-factor Authentication → Additional Cloud Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1309 - mitigates|M1026 mitigates T1003.005]] — Privileged Account Management → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1310 - mitigates|M1016 mitigates T1195.001]] — Vulnerability Scanning → Compromise Software Dependencies and Development Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1311 - mitigates|M1041 mitigates T1552]] — Encrypt Sensitive Information → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1312 - mitigates|M1054 mitigates T1598.003]] — Software Configuration → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-1313 - mitigates|M1050 mitigates T1210]] — Exploit Protection → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1314 - mitigates|M1047 mitigates T1070.008]] — Audit → Clear Mailbox Data
+- [[07 ATT&CK Relationships/ATTACK-REL-1315 - mitigates|M1054 mitigates T1537]] — Software Configuration → Transfer Data to Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1316 - mitigates|M1026 mitigates T1134.001]] — Privileged Account Management → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-1317 - mitigates|M1042 mitigates T1649]] — Disable or Remove Feature or Program → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-1318 - mitigates|M1047 mitigates T1176.002]] — Audit → IDE Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1319 - mitigates|M1017 mitigates T1566.001]] — User Training → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-1320 - mitigates|M1054 mitigates T1666]] — Software Configuration → Modify Cloud Resource Hierarchy
+- [[07 ATT&CK Relationships/ATTACK-REL-1321 - mitigates|M1034 mitigates T1219.003]] — Limit Hardware Installation → Remote Access Hardware
+- [[07 ATT&CK Relationships/ATTACK-REL-1322 - mitigates|M1027 mitigates T1601.001]] — Password Policies → Patch System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1323 - mitigates|M1037 mitigates T1205]] — Filter Network Traffic → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-1324 - mitigates|M1042 mitigates T1059.007]] — Disable or Remove Feature or Program → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-1325 - mitigates|M1018 mitigates T1021]] — User Account Management → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1326 - mitigates|M1051 mitigates T1211]] — Update Software → Exploitation for Stealth
+- [[07 ATT&CK Relationships/ATTACK-REL-1327 - mitigates|M1035 mitigates T1133]] — Limit Access to Resource Over Network → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1328 - mitigates|M1039 mitigates T1690]] — Environment Variable Permissions → Prevent Command History Logging
+- [[07 ATT&CK Relationships/ATTACK-REL-1329 - mitigates|M1056 mitigates T1587]] — Pre-compromise → Develop Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-1330 - mitigates|M1028 mitigates T1021.001]] — Operating System Configuration → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1331 - mitigates|M1030 mitigates T1565.003]] — Network Segmentation → Runtime Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1332 - mitigates|M1018 mitigates T1537]] — User Account Management → Transfer Data to Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1333 - mitigates|M1056 mitigates T1592.004]] — Pre-compromise → Client Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-1334 - mitigates|M1040 mitigates T1055.001]] — Behavior Prevention on Endpoint → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1335 - mitigates|M1056 mitigates T1590.004]] — Pre-compromise → Network Topology
+- [[07 ATT&CK Relationships/ATTACK-REL-1336 - mitigates|M1036 mitigates T1110]] — Account Use Policies → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-1337 - mitigates|M1022 mitigates T1037.005]] — Restrict File and Directory Permissions → Startup Items
+- [[07 ATT&CK Relationships/ATTACK-REL-1338 - mitigates|M1042 mitigates T1046]] — Disable or Remove Feature or Program → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1339 - mitigates|M1040 mitigates T1006]] — Behavior Prevention on Endpoint → Direct Volume Access
+- [[07 ATT&CK Relationships/ATTACK-REL-1340 - mitigates|M1056 mitigates T1592.003]] — Pre-compromise → Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-1341 - mitigates|M1042 mitigates T1219.002]] — Disable or Remove Feature or Program → Remote Desktop Software
+- [[07 ATT&CK Relationships/ATTACK-REL-1342 - mitigates|M1027 mitigates T1552.001]] — Password Policies → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-1343 - mitigates|M1026 mitigates T1078.004]] — Privileged Account Management → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1344 - mitigates|M1047 mitigates T1021.005]] — Audit → VNC
+- [[07 ATT&CK Relationships/ATTACK-REL-1345 - mitigates|M1045 mitigates T1546.006]] — Code Signing → LC_LOAD_DYLIB Addition
+- [[07 ATT&CK Relationships/ATTACK-REL-1346 - mitigates|M1032 mitigates T1098]] — Multi-factor Authentication → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1347 - mitigates|M1054 mitigates T1535]] — Software Configuration → Unused/Unsupported Cloud Regions
+- [[07 ATT&CK Relationships/ATTACK-REL-1348 - mitigates|M1045 mitigates T1601]] — Code Signing → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1349 - mitigates|M1035 mitigates T1609]] — Limit Access to Resource Over Network → Container Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-1350 - mitigates|M1022 mitigates T1098.004]] — Restrict File and Directory Permissions → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-1351 - mitigates|M1018 mitigates T1134.003]] — User Account Management → Make and Impersonate Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1352 - mitigates|M1056 mitigates T1588.001]] — Pre-compromise → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-1353 - mitigates|M1032 mitigates T1485]] — Multi-factor Authentication → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-1354 - mitigates|M1048 mitigates T1189]] — Application Isolation and Sandboxing → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-1355 - mitigates|M1047 mitigates T1505.006]] — Audit → vSphere Installation Bundles
+- [[07 ATT&CK Relationships/ATTACK-REL-1356 - mitigates|M1031 mitigates T1090.002]] — Network Intrusion Prevention → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-1357 - mitigates|M1042 mitigates T1218.013]] — Disable or Remove Feature or Program → Mavinject
+- [[07 ATT&CK Relationships/ATTACK-REL-1358 - mitigates|M1042 mitigates T1552.005]] — Disable or Remove Feature or Program → Cloud Instance Metadata API
+- [[07 ATT&CK Relationships/ATTACK-REL-1359 - mitigates|M1018 mitigates T1053.005]] — User Account Management → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-1360 - mitigates|M1038 mitigates T1218.013]] — Execution Prevention → Mavinject
+- [[07 ATT&CK Relationships/ATTACK-REL-1361 - mitigates|M1017 mitigates T1598.004]] — User Training → Spearphishing Voice
+- [[07 ATT&CK Relationships/ATTACK-REL-1362 - mitigates|M1035 mitigates T1552.005]] — Limit Access to Resource Over Network → Cloud Instance Metadata API
+- [[07 ATT&CK Relationships/ATTACK-REL-1363 - mitigates|M1018 mitigates T1550.003]] — User Account Management → Pass the Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-1364 - mitigates|M1029 mitigates T1070]] — Remote Data Storage → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-1365 - mitigates|M1040 mitigates T1569]] — Behavior Prevention on Endpoint → System Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1366 - mitigates|M1018 mitigates T1556.009]] — User Account Management → Conditional Access Policies
+- [[07 ATT&CK Relationships/ATTACK-REL-1367 - mitigates|M1030 mitigates T1557.001]] — Network Segmentation → Name Resolution Poisoning and SMB Relay
+- [[07 ATT&CK Relationships/ATTACK-REL-1368 - mitigates|M1035 mitigates T1612]] — Limit Access to Resource Over Network → Build Image on Host
+- [[07 ATT&CK Relationships/ATTACK-REL-1369 - mitigates|M1018 mitigates T1489]] — User Account Management → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-1370 - mitigates|M1026 mitigates T1056.003]] — Privileged Account Management → Web Portal Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-1371 - mitigates|M1056 mitigates T1591.003]] — Pre-compromise → Identify Business Tempo
+- [[07 ATT&CK Relationships/ATTACK-REL-1372 - mitigates|M1047 mitigates T1484.001]] — Audit → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1373 - mitigates|M1051 mitigates T1555]] — Update Software → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-1374 - mitigates|M1032 mitigates T1599.001]] — Multi-factor Authentication → Network Address Translation Traversal
+- [[07 ATT&CK Relationships/ATTACK-REL-1375 - mitigates|M1018 mitigates T1543.005]] — User Account Management → Container Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1376 - mitigates|M1042 mitigates T1098.002]] — Disable or Remove Feature or Program → Additional Email Delegate Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-1377 - mitigates|M1018 mitigates T1685.001]] — User Account Management → Disable or Modify Windows Event Log
+- [[07 ATT&CK Relationships/ATTACK-REL-1378 - mitigates|M1017 mitigates T1111]] — User Training → Multi-Factor Authentication Interception
+- [[07 ATT&CK Relationships/ATTACK-REL-1379 - mitigates|M1040 mitigates T1486]] — Behavior Prevention on Endpoint → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-1380 - mitigates|M1028 mitigates T1092]] — Operating System Configuration → Communication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-1381 - mitigates|M1042 mitigates T1671]] — Disable or Remove Feature or Program → Cloud Application Integration
+- [[07 ATT&CK Relationships/ATTACK-REL-1382 - mitigates|M1049 mitigates T1027.002]] — Antivirus/Antimalware → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-1383 - mitigates|M1026 mitigates T1053.007]] — Privileged Account Management → Container Orchestration Job
+- [[07 ATT&CK Relationships/ATTACK-REL-1384 - mitigates|M1051 mitigates T1539]] — Update Software → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-1385 - mitigates|M1057 mitigates T1048.002]] — Data Loss Prevention → Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1386 - mitigates|M1030 mitigates T1136.002]] — Network Segmentation → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1387 - mitigates|M1018 mitigates T1543.003]] — User Account Management → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1388 - mitigates|M1051 mitigates T1574]] — Update Software → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-1389 - mitigates|M1050 mitigates T1218.015]] — Exploit Protection → Electron Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-1390 - mitigates|M1042 mitigates T1546.014]] — Disable or Remove Feature or Program → Emond
+- [[07 ATT&CK Relationships/ATTACK-REL-1391 - mitigates|M1033 mitigates T1195.001]] — Limit Software Installation → Compromise Software Dependencies and Development Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1392 - mitigates|M1026 mitigates T1558.002]] — Privileged Account Management → Silver Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-1393 - mitigates|M1033 mitigates T1021.005]] — Limit Software Installation → VNC
+- [[07 ATT&CK Relationships/ATTACK-REL-1394 - mitigates|M1027 mitigates T1550]] — Password Policies → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-1395 - mitigates|M1032 mitigates T1136.001]] — Multi-factor Authentication → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1396 - mitigates|M1032 mitigates T1110]] — Multi-factor Authentication → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-1397 - mitigates|M1030 mitigates T1136]] — Network Segmentation → Create Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1398 - mitigates|M1017 mitigates T1213.006]] — User Training → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-1399 - mitigates|M1026 mitigates T1548]] — Privileged Account Management → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-1400 - mitigates|M1041 mitigates T1119]] — Encrypt Sensitive Information → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-1401 - mitigates|M1038 mitigates T1216.002]] — Execution Prevention → SyncAppvPublishingServer
+- [[07 ATT&CK Relationships/ATTACK-REL-1402 - mitigates|M1018 mitigates T1020.001]] — User Account Management → Traffic Duplication
+- [[07 ATT&CK Relationships/ATTACK-REL-1403 - mitigates|M1054 mitigates T1688]] — Software Configuration → Safe Mode Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-1404 - mitigates|M1031 mitigates T1071.005]] — Network Intrusion Prevention → Publish/Subscribe Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-1405 - mitigates|M1041 mitigates T1685.006]] — Encrypt Sensitive Information → Clear Linux or Mac System Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-1406 - mitigates|M1054 mitigates T1546.013]] — Software Configuration → PowerShell Profile
+- [[07 ATT&CK Relationships/ATTACK-REL-1407 - mitigates|M1041 mitigates T1557]] — Encrypt Sensitive Information → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-1408 - mitigates|M1042 mitigates T1218.005]] — Disable or Remove Feature or Program → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-1409 - mitigates|M1041 mitigates T1565.002]] — Encrypt Sensitive Information → Transmitted Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1410 - mitigates|M1047 mitigates T1686.003]] — Audit → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-1411 - mitigates|M1032 mitigates T1669]] — Multi-factor Authentication → Wi-Fi Networks
+- [[07 ATT&CK Relationships/ATTACK-REL-1412 - mitigates|M1017 mitigates T1557.004]] — User Training → Evil Twin
+- [[07 ATT&CK Relationships/ATTACK-REL-1413 - mitigates|M1051 mitigates T1137]] — Update Software → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-1414 - mitigates|M1049 mitigates T1027.015]] — Antivirus/Antimalware → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-1415 - mitigates|M1021 mitigates T1189]] — Restrict Web-Based Content → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-1416 - mitigates|M1038 mitigates T1609]] — Execution Prevention → Container Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-1417 - mitigates|M1035 mitigates T1546.008]] — Limit Access to Resource Over Network → Accessibility Features
+- [[07 ATT&CK Relationships/ATTACK-REL-1418 - mitigates|M1018 mitigates T1110]] — User Account Management → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-1419 - mitigates|M1054 mitigates T1566.002]] — Software Configuration → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-1420 - mitigates|M1015 mitigates T1649]] — Active Directory Configuration → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-1421 - mitigates|M1037 mitigates T1105]] — Filter Network Traffic → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-1422 - mitigates|M1018 mitigates T1610]] — User Account Management → Deploy Container
+- [[07 ATT&CK Relationships/ATTACK-REL-1423 - mitigates|M1049 mitigates T1059.001]] — Antivirus/Antimalware → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-1424 - mitigates|M1031 mitigates T1542.004]] — Network Intrusion Prevention → ROMMONkit
+- [[07 ATT&CK Relationships/ATTACK-REL-1425 - mitigates|M1038 mitigates T1611]] — Execution Prevention → Escape to Host
+- [[07 ATT&CK Relationships/ATTACK-REL-1426 - mitigates|M1030 mitigates T1602.002]] — Network Segmentation → Network Device Configuration Dump
+- [[07 ATT&CK Relationships/ATTACK-REL-1427 - mitigates|M1022 mitigates T1222.001]] — Restrict File and Directory Permissions → Windows Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-1428 - mitigates|M1024 mitigates T1547.003]] — Restrict Registry Permissions → Time Providers
+- [[07 ATT&CK Relationships/ATTACK-REL-1429 - mitigates|M1017 mitigates T1598.002]] — User Training → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-1430 - mitigates|M1027 mitigates T1110.002]] — Password Policies → Password Cracking
+- [[07 ATT&CK Relationships/ATTACK-REL-1431 - mitigates|M1056 mitigates T1591]] — Pre-compromise → Gather Victim Org Information
+- [[07 ATT&CK Relationships/ATTACK-REL-1432 - mitigates|M1042 mitigates T1098.001]] — Disable or Remove Feature or Program → Additional Cloud Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1433 - mitigates|M1037 mitigates T1599.001]] — Filter Network Traffic → Network Address Translation Traversal
+- [[07 ATT&CK Relationships/ATTACK-REL-1434 - mitigates|M1048 mitigates T1068]] — Application Isolation and Sandboxing → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-1435 - mitigates|M1027 mitigates T1078]] — Password Policies → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1436 - mitigates|M1040 mitigates T1055.014]] — Behavior Prevention on Endpoint → VDSO Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1437 - mitigates|M1018 mitigates T1021.004]] — User Account Management → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-1438 - mitigates|M1027 mitigates T1003.001]] — Password Policies → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-1439 - mitigates|M1031 mitigates T1568]] — Network Intrusion Prevention → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-1440 - mitigates|M1056 mitigates T1588.007]] — Pre-compromise → Artificial Intelligence
+- [[07 ATT&CK Relationships/ATTACK-REL-1441 - mitigates|M1032 mitigates T1213]] — Multi-factor Authentication → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-1442 - mitigates|M1051 mitigates T1552.006]] — Update Software → Group Policy Preferences
+- [[07 ATT&CK Relationships/ATTACK-REL-1443 - mitigates|M1030 mitigates T1098.001]] — Network Segmentation → Additional Cloud Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1444 - mitigates|M1030 mitigates T1563.002]] — Network Segmentation → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1445 - mitigates|M1054 mitigates T1555.005]] — Software Configuration → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-1446 - mitigates|M1056 mitigates T1586.001]] — Pre-compromise → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1447 - mitigates|M1029 mitigates T1685.006]] — Remote Data Storage → Clear Linux or Mac System Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-1448 - mitigates|M1056 mitigates T1597.002]] — Pre-compromise → Purchase Technical Data
+
+## Detection links
+
+- [[07 ATT&CK Relationships/ATTACK-REL-1449 - detects|DET0290 detects T1053.003]] — Cross-Platform Detection of Cron Job Abuse for Persistence and Execution → Cron
+- [[07 ATT&CK Relationships/ATTACK-REL-1450 - detects|DET0068 detects T1505.004]] — Detection Strategy for T1505.004 - Malicious IIS Components → IIS Components
+- [[07 ATT&CK Relationships/ATTACK-REL-1451 - detects|DET0503 detects T1048.001]] — Behavioral Detection Strategy for Exfiltration Over Symmetric Encrypted Non-C2 Protocol → Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1452 - detects|DET0809 detects T1596.004]] — Detection of CDNs → CDNs
+- [[07 ATT&CK Relationships/ATTACK-REL-1453 - detects|DET0377 detects T1014]] — Detection of Kernel/User-Level Rootkit Behavior Across Platforms → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-1454 - detects|DET0099 detects T1542.001]] — Detection Strategy for T1542.001 Pre-OS Boot: System Firmware → System Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-1455 - detects|DET0481 detects T1546.015]] — Windows COM Hijacking Detection via Registry and DLL Load Correlation → Component Object Model Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1456 - detects|DET0864 detects T1584.007]] — Detection of Serverless → Serverless
+- [[07 ATT&CK Relationships/ATTACK-REL-1457 - detects|DET0133 detects T1219.001]] — IDE Tunneling Detection via Process, File, and Network Behaviors → IDE Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-1458 - detects|DET0477 detects T1021.006]] — Behavioral Detection of WinRM-Based Remote Access → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-1459 - detects|DET0179 detects T1069]] — Behavioral Detection of Permission Groups Discovery → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1460 - detects|DET0373 detects T1098.002]] — Detection Strategy for Addition of Email Delegate Permissions → Additional Email Delegate Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-1461 - detects|DET0115 detects T1566.003]] — Detection Strategy for Spearphishing via a Service across OS Platforms → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1462 - detects|DET0541 detects T1055.009]] — Detection Strategy for /proc Memory Injection on Linux → Proc Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-1463 - detects|DET0898 detects T1036.012]] — Detection of Spoofed User-Agent → Browser Fingerprint
+- [[07 ATT&CK Relationships/ATTACK-REL-1464 - detects|DET0875 detects T1588.003]] — Detection of Code Signing Certificates → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-1465 - detects|DET0391 detects T1565.003]] — Detection Strategy for Runtime Data Manipulation. → Runtime Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1466 - detects|DET0492 detects T1578.005]] — Detection Strategy for Modify Cloud Compute Infrastructure: Modify Cloud Compute Configurations → Modify Cloud Compute Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-1467 - detects|DET0087 detects T1027.013]] — Encrypted or Encoded File Payload Detection Strategy → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-1468 - detects|DET0070 detects T1566]] — Detection Strategy for Phishing across platforms. → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-1469 - detects|DET0225 detects T1547.008]] — Detect unauthorized LSASS driver persistence via LSA plugin abuse (Windows) → LSASS Driver
+- [[07 ATT&CK Relationships/ATTACK-REL-1470 - detects|DET0293 detects T1556.007]] — Detect Hybrid Identity Authentication Process Modification → Hybrid Identity
+- [[07 ATT&CK Relationships/ATTACK-REL-1471 - detects|DET0211 detects T1021.008]] — Detection of Direct VM Console Access via Cloud-Native Methods → Direct Cloud VM Connections
+- [[07 ATT&CK Relationships/ATTACK-REL-1472 - detects|DET0918 detects T1683.002]] — Detection of Audio-Visual Content → Audio-Visual Content
+- [[07 ATT&CK Relationships/ATTACK-REL-1473 - detects|DET0842 detects T1588.007]] — Detection of Artificial Intelligence → Artificial Intelligence
+- [[07 ATT&CK Relationships/ATTACK-REL-1474 - detects|DET0462 detects T1557.001]] — Detect LLMNR/NBT-NS Poisoning and SMB Relay on Windows → Name Resolution Poisoning and SMB Relay
+- [[07 ATT&CK Relationships/ATTACK-REL-1475 - detects|DET0572 detects T1098.006]] — Suspicious RoleBinding or ClusterRoleBinding Assignment in Kubernetes → Additional Container Cluster Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-1476 - detects|DET0125 detects T1547.007]] — Detect persistence via reopened application plist modification (macOS) → Re-opened Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-1477 - detects|DET0021 detects T1489]] — Behavioral Detection for Service Stop across Platforms → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-1478 - detects|DET0442 detects T1553.003]] — Detection Strategy for Subvert Trust Controls using SIP and Trust Provider Hijacking. → SIP and Trust Provider Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1479 - detects|DET0255 detects T1654]] — Detection Strategy for Log Enumeration → Log Enumeration
+- [[07 ATT&CK Relationships/ATTACK-REL-1480 - detects|DET0289 detects T1685.002]] — Detection Strategy for Disable or Modify Cloud Log → Disable or Modify Cloud Log
+- [[07 ATT&CK Relationships/ATTACK-REL-1481 - detects|DET0056 detects T1553.004]] — Detection Strategy for Subvert Trust Controls via Install Root Certificate. → Install Root Certificate
+- [[07 ATT&CK Relationships/ATTACK-REL-1482 - detects|DET0465 detects T1078.001]] — Detection of Default Account Abuse Across Platforms → Default Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1483 - detects|DET0083 detects T1059.013]] — Container CLI and API Abuse via Docker/Kubernetes (T1059.013) → Container CLI/API
+- [[07 ATT&CK Relationships/ATTACK-REL-1484 - detects|DET0363 detects T1003.001]] — Detection of Credential Dumping from LSASS Memory via Access and Dump Sequence → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-1485 - detects|DET0883 detects T1584.005]] — Detection of Botnet → Botnet
+- [[07 ATT&CK Relationships/ATTACK-REL-1486 - detects|DET0046 detects T1497]] — Detection Strategy for T1497 Virtualization/Sandbox Evasion → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-1487 - detects|DET0118 detects T1210]] — Exploitation of Remote Services – multi-platform lateral movement detection → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1488 - detects|DET0805 detects T1593.003]] — Detection of Code Repositories → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-1489 - detects|DET0104 detects T1556]] — Detect Modification of Authentication Processes Across Platforms → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-1490 - detects|DET0036 detects T1098.005]] — Suspicious Device Registration via Entra ID or MFA Platform → Device Registration
+- [[07 ATT&CK Relationships/ATTACK-REL-1491 - detects|DET0102 detects T1056]] — Behavioral Detection of Input Capture Across Platforms → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-1492 - detects|DET0478 detects T1204]] — User Execution – multi-surface behavior chain (documents/links → helper/unpacker → LOLBIN/child → egress) → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1493 - detects|DET0059 detects T1565]] — Detection Strategy for Data Manipulation → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1494 - detects|DET0202 detects T1059.003]] — Behavioral Detection of Windows Command Shell Execution → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-1495 - detects|DET0207 detects T1547.002]] — Detect LSA Authentication Package Persistence via Registry and LSASS DLL Load → Authentication Package
+- [[07 ATT&CK Relationships/ATTACK-REL-1496 - detects|DET0222 detects T1218.014]] — Detecting MMC (.msc) Proxy Execution and Malicious COM Activation → MMC
+- [[07 ATT&CK Relationships/ATTACK-REL-1497 - detects|DET0548 detects T1567]] — Detection Strategy for Exfiltration Over Web Service → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1498 - detects|DET0184 detects T1070]] — Behavioral Detection of Indicator Removal Across Platforms → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-1499 - detects|DET0879 detects T1586.003]] — Detection of Cloud Accounts → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1500 - detects|DET0547 detects T1505]] — Detection Strategy for T1505 - Server Software Component → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-1501 - detects|DET0279 detects T1569]] — Detection Strategy for System Services across OS platforms. → System Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1502 - detects|DET0850 detects T1588]] — Detection of Obtain Capabilities → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-1503 - detects|DET0574 detects T1018]] — Detection Strategy for Remote System Enumeration Behavior → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1504 - detects|DET0361 detects T1218.009]] — Detecting .NET COM Registration Abuse via Regsvcs/Regasm → Regsvcs/Regasm
+- [[07 ATT&CK Relationships/ATTACK-REL-1505 - detects|DET0386 detects T1087.004]] — Cloud Account Enumeration via API, CLI, and Scripting Interfaces → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1506 - detects|DET0047 detects T1114.001]] — Detect Local Email Collection via Outlook Data File Access and Command Line Tooling → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-1507 - detects|DET0838 detects T1583.003]] — Detection of Virtual Private Server → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-1508 - detects|DET0026 detects T1547.012]] — Windows Detection Strategy for T1547.012 - Print Processor DLL Persistence → Print Processors
+- [[07 ATT&CK Relationships/ATTACK-REL-1509 - detects|DET0245 detects T1566.004]] — Detection Strategy for Spearphishing Voice across OS platforms → Spearphishing Voice
+- [[07 ATT&CK Relationships/ATTACK-REL-1510 - detects|DET0530 detects T1021.002]] — Multi-Event Detection for SMB Admin Share Lateral Movement → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-1511 - detects|DET0144 detects T1558.001]] — Detect Forged Kerberos Golden Tickets (T1558.001) → Golden Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-1512 - detects|DET0262 detects T1568.003]] — Detection Strategy for Dynamic Resolution through DNS Calculation → DNS Calculation
+- [[07 ATT&CK Relationships/ATTACK-REL-1513 - detects|DET0500 detects T1213.002]] — Detecting Abnormal SharePoint Data Mining by Privileged or Rare Users → Sharepoint
+- [[07 ATT&CK Relationships/ATTACK-REL-1514 - detects|DET0497 detects T1685]] — Detection of Defense Impairment through Disabled or Modified Tools across OS Platforms. → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1515 - detects|DET0860 detects T1596]] — Detection of Search Open Technical Databases → Search Open Technical Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-1516 - detects|DET0502 detects T1564]] — Detection Strategy for Hidden Artifacts Across Platforms → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-1517 - detects|DET0307 detects T1552.001]] — Detect Access to Unsecured Credential Files Across Platforms → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-1518 - detects|DET0365 detects T1547.001]] — Detect Registry and Startup Folder Persistence (Windows) → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-1519 - detects|DET0306 detects T1686.002]] — Detection of Unauthorized Network Firewall Rule Modification → Network Device Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-1520 - detects|DET0216 detects T1546.006]] — Detection Strategy for LC_LOAD_DYLIB Modification in Mach-O Binaries on macOS → LC_LOAD_DYLIB Addition
+- [[07 ATT&CK Relationships/ATTACK-REL-1521 - detects|DET0319 detects T1136.003]] — Detection Strategy for T1136.003 - Cloud Account Creation across IaaS, IdP, SaaS, Office → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1522 - detects|DET0147 detects T1496.004]] — Detection Strategy for Cloud Service Hijacking via SaaS Abuse → Cloud Service Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1523 - detects|DET0299 detects T1222]] — Multi-Platform File and Directory Permissions Modification Detection Strategy → File and Directory Permissions Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1524 - detects|DET0269 detects T1021]] — Behavioral Detection Strategy for Remote Service Logins and Post-Access Activity → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1525 - detects|DET0872 detects T1587.001]] — Detection of Malware → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-1526 - detects|DET0053 detects T1001]] — Detect Obfuscated C2 via Network Traffic Analysis → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-1527 - detects|DET0824 detects T1608.001]] — Detection of Upload Malware → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-1528 - detects|DET0472 detects T1556.002]] — Detect Malicious Password Filter DLL Registration → Password Filter DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-1529 - detects|DET0452 detects T1553]] — Detect Subversion of Trust Controls via Certificate, Registry, and Attribute Manipulation → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-1530 - detects|DET0052 detects T1548.003]] — Behavioral Detection Strategy for Abuse of Sudo and Sudo Caching → Sudo and Sudo Caching
+- [[07 ATT&CK Relationships/ATTACK-REL-1531 - detects|DET0384 detects T1059.004]] — Behavioral Detection of Unix Shell Execution → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-1532 - detects|DET0175 detects T1542.004]] — Detection Strategy for T1542.004 Pre-OS Boot: ROMMONkit → ROMMONkit
+- [[07 ATT&CK Relationships/ATTACK-REL-1533 - detects|DET0380 detects T1005]] — Detection of Local Data Collection Prior to Exfiltration → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-1534 - detects|DET0173 detects T1499.002]] — Detection Strategy for Endpoint DoS via Service Exhaustion Flood → Service Exhaustion Flood
+- [[07 ATT&CK Relationships/ATTACK-REL-1535 - detects|DET0237 detects T1037.004]] — Detection Strategy for Boot or Logon Initialization Scripts: RC Scripts → RC Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-1536 - detects|DET0182 detects T1135]] — Behavior-chain detection for T1135 Network Share Discovery across Windows, Linux, and macOS → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1537 - detects|DET0063 detects T1059.006]] — Cross-Platform Behavioral Detection of Python Execution → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-1538 - detects|DET0304 detects T1499.004]] — Detection Strategy for Endpoint DoS via Application or System Exploitation → Application or System Exploitation
+- [[07 ATT&CK Relationships/ATTACK-REL-1539 - detects|DET0067 detects T1564.011]] — Detection Strategy for Ignore Process Interrupts → Ignore Process Interrupts
+- [[07 ATT&CK Relationships/ATTACK-REL-1540 - detects|DET0820 detects T1592.004]] — Detection of Client Configurations → Client Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-1541 - detects|DET0582 detects T1542.005]] — Detection Strategy for T1542.005 Pre-OS Boot: TFTP Boot → TFTP Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-1542 - detects|DET0126 detects T1098.004]] — Detection Strategy for SSH Key Injection in Authorized Keys → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-1543 - detects|DET0493 detects T1559]] — Detect Abuse of Inter-Process Communication (T1559) → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-1544 - detects|DET0008 detects T1021.007]] — Behavioral Detection of Remote Cloud Logins via Valid Accounts → Cloud Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1545 - detects|DET0277 detects T1098.003]] — Detection Strategy for Role Addition to Cloud Accounts → Additional Cloud Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-1546 - detects|DET0267 detects T1496]] — Resource Hijacking Detection Strategy → Resource Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1547 - detects|DET0490 detects T1613]] — Detection Strategy for Container and Resource Discovery → Container and Resource Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1548 - detects|DET0197 detects T1125]] — Behavior-chain, platform-aware detection strategy for T1125 Video Capture → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-1549 - detects|DET0900 detects T1687]] — Detection of Defense Impairment → Exploitation for Defense Impairment
+- [[07 ATT&CK Relationships/ATTACK-REL-1550 - detects|DET0407 detects T1078.003]] — Detection of Local Account Abuse for Initial Access and Persistence → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1551 - detects|DET0092 detects T1176]] — Detection of Malicious or Unauthorized Software Extensions → Software Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1552 - detects|DET0339 detects T1600]] — Detection Strategy for Weaken Encryption on Network Devices → Weaken Encryption
+- [[07 ATT&CK Relationships/ATTACK-REL-1553 - detects|DET0231 detects T1053.006]] — Behavioral Detection of Systemd Timer Abuse for Scheduled Execution → Systemd Timers
+- [[07 ATT&CK Relationships/ATTACK-REL-1554 - detects|DET0121 detects T1547.015]] — Detection Strategy for T1547.015 – Login Items on macOS → Login Items
+- [[07 ATT&CK Relationships/ATTACK-REL-1555 - detects|DET0266 detects T1070.008]] — Behavioral Detection of Mailbox Data and Log Deletion for Anti-Forensics → Clear Mailbox Data
+- [[07 ATT&CK Relationships/ATTACK-REL-1556 - detects|DET0048 detects T1114.002]] — Detect Remote Email Collection via Abnormal Login and Programmatic Access → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-1557 - detects|DET0434 detects T1543.001]] — Detection of Launch Agent Creation or Modification on macOS → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-1558 - detects|DET0181 detects T1505.001]] — Detection Strategy for SQL Stored Procedures Abuse via T1505.001 → SQL Stored Procedures
+- [[07 ATT&CK Relationships/ATTACK-REL-1559 - detects|DET0460 detects T1110.004]] — Credential Stuffing Detection via Reused Breached Credentials Across Services → Credential Stuffing
+- [[07 ATT&CK Relationships/ATTACK-REL-1560 - detects|DET0200 detects T1202]] — Indirect Command Execution – Windows utility abuse behavior chain → Indirect Command Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1561 - detects|DET0852 detects T1588.002]] — Detection of Tool → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-1562 - detects|DET0107 detects T1566.002]] — Detection Strategy for Spearphishing Links → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-1563 - detects|DET0060 detects T1105]] — Detect Ingress Tool Transfers via Behavioral Chain → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-1564 - detects|DET0349 detects T1659]] — Detection Strategy for Content Injection → Content Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1565 - detects|DET0302 detects T1205.001]] — Port-knock → rule/daemon change → first successful connect (T1205.001) → Port Knocking
+- [[07 ATT&CK Relationships/ATTACK-REL-1566 - detects|DET0901 detects T1686.003]] — Detect Windows Firewall → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-1567 - detects|DET0381 detects T1552.006]] — Detect Access and Decryption of Group Policy Preference (GPP) Credentials in SYSVOL → Group Policy Preferences
+- [[07 ATT&CK Relationships/ATTACK-REL-1568 - detects|DET0111 detects T1552.008]] — Detect Unsecured Credentials Shared in Chat Messages → Chat Messages
+- [[07 ATT&CK Relationships/ATTACK-REL-1569 - detects|DET0212 detects T1505.005]] — Detection Strategy for T1505.005 – Terminal Services DLL Modification (Windows) → Terminal Services DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-1570 - detects|DET0402 detects T1526]] — Detection Strategy for Cloud Service Discovery → Cloud Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1571 - detects|DET0412 detects T1552]] — Detect Access or Search for Unsecured Credentials Across Platforms → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1572 - detects|DET0189 detects T1027.005]] — Detection Strategy for Indicator Removal from Tools - Post-AV Evasion Modification → Indicator Removal from Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1573 - detects|DET0364 detects T1047]] — Behavioral Detection Strategy for WMI Execution Abuse on Windows → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-1574 - detects|DET0483 detects T1007]] — Detection of System Service Discovery Commands Across OS Platforms → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1575 - detects|DET0159 detects T1219.003]] — Detect Remote Access via USB Hardware (TinyPilot, PiKVM) → Remote Access Hardware
+- [[07 ATT&CK Relationships/ATTACK-REL-1576 - detects|DET0013 detects T1217]] — Detection of Local Browser Artifact Access for Reconnaissance → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1577 - detects|DET0157 detects T1558.003]] — Detect Kerberoasting Attempts (T1558.003) → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-1578 - detects|DET0893 detects T1608.005]] — Detection of Link Target → Link Target
+- [[07 ATT&CK Relationships/ATTACK-REL-1579 - detects|DET0457 detects T1095]] — Detection of Non-Application Layer Protocols for C2 → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1580 - detects|DET0888 detects T1592.002]] — Detection of Software → Software
+- [[07 ATT&CK Relationships/ATTACK-REL-1581 - detects|DET0261 detects T1074.001]] — Detection of Local Data Staging Prior to Exfiltration → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-1582 - detects|DET0400 detects T1071.004]] — Behavioral Detection of DNS Tunneling and Application Layer Abuse → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-1583 - detects|DET0553 detects T1027.001]] — Detection Strategy for Obfuscated Files or Information: Binary Padding → Binary Padding
+- [[07 ATT&CK Relationships/ATTACK-REL-1584 - detects|DET0023 detects T1027.002]] — Obfuscated Binary Unpacking Detection via Behavioral Patterns → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-1585 - detects|DET0114 detects T1069.001]] — Behavioral Detection of Local Group Enumeration Across OS Platforms → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-1586 - detects|DET0508 detects T1055]] — Behavioral Detection of Process Injection Across Platforms → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1587 - detects|DET0427 detects T1574.011]] — Detection Strategy for Hijack Execution Flow through Service Registry Premission Weakness. → Services Registry Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-1588 - detects|DET0132 detects T1480.002]] — Detection of Mutex-Based Execution Guardrails Across Platforms → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-1589 - detects|DET0832 detects T1596.002]] — Detection of WHOIS → WHOIS
+- [[07 ATT&CK Relationships/ATTACK-REL-1590 - detects|DET0458 detects T1484.002]] — Detection of Trust Relationship Modifications in Domain or Tenant Policies → Trust Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1591 - detects|DET0899 detects T1684]] — Detect Social Engineering → Social Engineering
+- [[07 ATT&CK Relationships/ATTACK-REL-1592 - detects|DET0014 detects T1074]] — Detection of Data Staging Prior to Exfiltration → Data Staged
+- [[07 ATT&CK Relationships/ATTACK-REL-1593 - detects|DET0525 detects T1082]] — System Discovery via Native and Remote Utilities → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1594 - detects|DET0861 detects T1586.002]] — Detection of Email Accounts → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1595 - detects|DET0447 detects T1136.001]] — T1136.001 Detection Strategy - Local Account Creation Across Platforms → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1596 - detects|DET0116 detects T1688]] — Detection Strategy for Safe Mode Boot Abuse → Safe Mode Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-1597 - detects|DET0507 detects T1185]] — Detect browser session hijacking via privilege, handle access, and remote thread into browsers → Browser Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1598 - detects|DET0370 detects T1083]] — Recursive Enumeration of Files and Directories Across Privilege Contexts → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1599 - detects|DET0095 detects T1137.005]] — Detect Persistence via Malicious Outlook Rules → Outlook Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-1600 - detects|DET0024 detects T1558.005]] — Detect Kerberos Ccache File Theft or Abuse (T1558.005) → Ccache Files
+- [[07 ATT&CK Relationships/ATTACK-REL-1601 - detects|DET0417 detects T1653]] — Detection Strategy for Power Settings Abuse → Power Settings
+- [[07 ATT&CK Relationships/ATTACK-REL-1602 - detects|DET0247 detects T1535]] — Detection of Adversary Use of Unused or Unsupported Cloud Regions (IaaS) → Unused/Unsupported Cloud Regions
+- [[07 ATT&CK Relationships/ATTACK-REL-1603 - detects|DET0198 detects T1552.007]] — Detect Abuse of Container APIs for Credential Access → Container API
+- [[07 ATT&CK Relationships/ATTACK-REL-1604 - detects|DET0314 detects T1040]] — Detection Strategy for Network Sniffing Across Platforms → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-1605 - detects|DET0467 detects T1055.005]] — Detection Strategy for TLS Callback Injection via PE Memory Modification and Hollowing → Thread Local Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-1606 - detects|DET0464 detects T1016.002]] — Behavioral Detection of Wi-Fi Discovery Activity → Wi-Fi Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1607 - detects|DET0567 detects T1213.005]] — Detecting Unauthorized Collection from Messaging Applications in SaaS and Office Environments → Messaging Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-1608 - detects|DET0841 detects T1589]] — Detection of Gather Victim Identity Information → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-1609 - detects|DET0057 detects T1555.002]] — Detect Suspicious Access to securityd Memory for Credential Extraction → Securityd Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-1610 - detects|DET0543 detects T1573.002]] — Detection Strategy for Encrypted Channel via Asymmetric Cryptography across OS Platforms → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-1611 - detects|DET0192 detects T1564.008]] — Detection Strategy for Email Hiding Rules → Email Hiding Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-1612 - detects|DET0425 detects T1102]] — Suspicious Use of Web Services for C2 → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1613 - detects|DET0344 detects T1027.011]] — Detection Strategy for Fileless Storage via Registry, WMI, and Shared Memory → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-1614 - detects|DET0040 detects T1070.009]] — Detection of Persistence Artifact Removal Across Host Platforms → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-1615 - detects|DET0134 detects T1555.004]] — Detect Suspicious Access to Windows Credential Manager → Windows Credential Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-1616 - detects|DET0356 detects T1499.001]] — Endpoint DoS via OS Exhaustion Flood Detection Strategy → OS Exhaustion Flood
+- [[07 ATT&CK Relationships/ATTACK-REL-1617 - detects|DET0866 detects T1681]] — Detection of Search Threat Vendor Data → Search Threat Vendor Data
+- [[07 ATT&CK Relationships/ATTACK-REL-1618 - detects|DET0309 detects T1195.002]] — Compromised software/update chain (installer/write → first-run/child → egress/signature anomaly) → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-1619 - detects|DET0588 detects T1563.002]] — Detection of Remote Service Session Hijacking for RDP. → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1620 - detects|DET0082 detects T1491.001]] — Internal Website and System Content Defacement via UI or Messaging Modifications → Internal Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-1621 - detects|DET0880 detects T1597.002]] — Detection of Purchase Technical Data → Purchase Technical Data
+- [[07 ATT&CK Relationships/ATTACK-REL-1622 - detects|DET0376 detects T1046]] — Behavioral Detection Strategy for Network Service Discovery Across Platforms → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1623 - detects|DET0011 detects T1001.001]] — Detecting Junk Data in C2 Channels via Behavioral Analysis → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-1624 - detects|DET0435 detects T1574.006]] — Detection Strategy for Hijack Execution Flow: Dynamic Linker Hijacking → Dynamic Linker Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1625 - detects|DET0243 detects T1600.001]] — Detection Strategy for Weaken Encryption: Reduce Key Space on Network Devices → Reduce Key Space
+- [[07 ATT&CK Relationships/ATTACK-REL-1626 - detects|DET0578 detects T1619]] — Detection Strategy for Cloud Storage Object Discovery → Cloud Storage Object Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1627 - detects|DET0471 detects T1080]] — Detection of Tainted Content Written to Shared Storage → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-1628 - detects|DET0586 detects T1003.003]] — Detection of NTDS.dit Credential Dumping from Domain Controllers → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-1629 - detects|DET0162 detects T1205.002]] — Socket-filter trigger → on-host raw-socket activity → reverse connection (T1205.002) → Socket Filters
+- [[07 ATT&CK Relationships/ATTACK-REL-1630 - detects|DET0874 detects T1584.004]] — Detection of Server → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-1631 - detects|DET0526 detects T1560]] — Detect Archiving and Encryption of Collected Data (T1560) → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-1632 - detects|DET0873 detects T1585]] — Detection of Establish Accounts → Establish Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1633 - detects|DET0358 detects T1213.001]] — Programmatic and Excessive Access to Confluence Documentation → Confluence
+- [[07 ATT&CK Relationships/ATTACK-REL-1634 - detects|DET0109 detects T1647]] — Detection Strategy for Plist File Modification (T1647) → Plist File Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1635 - detects|DET0124 detects T1132.001]] — Behavior-chain detection for T1132.001 Data Encoding: Standard Encoding (Base64/Hex/MIME) across Windows, Linux, macOS, ESXi → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-1636 - detects|DET0844 detects T1587.003]] — Detection of Digital Certificates → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-1637 - detects|DET0288 detects T1553.001]] — Detect Gatekeeper Bypass via Quarantine Flag and Trust Control Manipulation → Gatekeeper Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-1638 - detects|DET0142 detects T1059.008]] — Behavioral Detection of CLI Abuse on Network Devices → Network Device CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-1639 - detects|DET0566 detects T1221]] — Template Injection Detection - Windows → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1640 - detects|DET0807 detects T1591.004]] — Detection of Identify Roles → Identify Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-1641 - detects|DET0449 detects T1578.002]] — Detection Strategy for Modify Cloud Compute Infrastructure: Create Cloud Instance → Create Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-1642 - detects|DET0499 detects T1008]] — Behavioral Detection of Fallback or Alternate C2 Channels → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-1643 - detects|DET0217 detects T1055.011]] — Detection Strategy for Extra Window Memory (EWM) Injection on Windows → Extra Window Memory Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1644 - detects|DET0323 detects T1542.002]] — Detection Strategy for T1542.002 Pre-OS Boot: Component Firmware → Component Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-1645 - detects|DET0581 detects T1102.003]] — Detect One-Way Web Service Command Channels → One-Way Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-1646 - detects|DET0886 detects T1598.004]] — Detection of Spearphishing Voice → Spearphishing Voice
+- [[07 ATT&CK Relationships/ATTACK-REL-1647 - detects|DET0343 detects T1498.001]] — Direct Network Flood Detection across IaaS, Linux, Windows, and macOS → Direct Network Flood
+- [[07 ATT&CK Relationships/ATTACK-REL-1648 - detects|DET0383 detects T1036.010]] — Detection Strategy for Masquerading via Account Name Similarity → Masquerade Account Name
+- [[07 ATT&CK Relationships/ATTACK-REL-1649 - detects|DET0171 detects T1606.001]] — Detection Strategy for Forged Web Cookies → Web Cookies
+- [[07 ATT&CK Relationships/ATTACK-REL-1650 - detects|DET0575 detects T1546.007]] — Detection Strategy for Netsh Helper DLL Persistence via Registry and Child Process Monitoring (Windows) → Netsh Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-1651 - detects|DET0385 detects T1552.003]] — Detect Access and Parsing of .bash_history Files for Credential Harvesting → Shell History
+- [[07 ATT&CK Relationships/ATTACK-REL-1652 - detects|DET0076 detects T1059.005]] — Behavioral Detection of Visual Basic Execution (VBS/VBA/VBScript) → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-1653 - detects|DET0401 detects T1543.004]] — Detection Strategy for Launch Daemon Creation or Modification (macOS) → Launch Daemon
+- [[07 ATT&CK Relationships/ATTACK-REL-1654 - detects|DET0436 detects T1574.010]] — Detection Strategy for Hijack Execution Flow through Services File Permissions Weakness. → Services File Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-1655 - detects|DET0038 detects T1574.005]] — Detection Strategy for Hijack Execution Flow using Executable Installer File Permissions Weakness → Executable Installer File Permissions Weakness
+- [[07 ATT&CK Relationships/ATTACK-REL-1656 - detects|DET0475 detects T1218.011]] — Detection Strategy for T1218.011 Rundll32 Abuse → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-1657 - detects|DET0353 detects T1564.002]] — Detection Strategy for Hidden User Accounts → Hidden Users
+- [[07 ATT&CK Relationships/ATTACK-REL-1658 - detects|DET0487 detects T1110.003]] — Distributed Password Spraying via Authentication Failures Across Multiple Accounts → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-1659 - detects|DET0136 detects T1134.005]] — Behavior-chain detection for T1134.005 Access Token Manipulation: SID-History Injection (Windows) → SID-History Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1660 - detects|DET0168 detects T1497.001]] — Virtualization/Sandbox Evasion via System Checks across Windows, Linux, macOS → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-1661 - detects|DET0397 detects T1020]] — Automated Exfiltration Detection Strategy → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-1662 - detects|DET0523 detects T1553.006]] — Detect Code Signing Policy Modification (Windows & macOS) → Code Signing Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-1663 - detects|DET0101 detects T1059.011]] — Detection Strategy for Lua Scripting Abuse → Lua
+- [[07 ATT&CK Relationships/ATTACK-REL-1664 - detects|DET0318 detects T1567.001]] — Detection Strategy for Exfiltration to Code Repository → Exfiltration to Code Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-1665 - detects|DET0597 detects T1555.005]] — Detect Unauthorized Access to Password Managers → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-1666 - detects|DET0045 detects T1564.010]] — Detection Strategy for Process Argument Spoofing on Windows → Process Argument Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-1667 - detects|DET0201 detects T1574.001]] — Detection Strategy for Hijack Execution Flow for DLLs → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-1668 - detects|DET0172 detects T1127]] — Behavior-chain, platform-aware detection strategy for T1127 Trusted Developer Utilities Proxy Execution (Windows) → Trusted Developer Utilities Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1669 - detects|DET0848 detects T1588.004]] — Detection of Digital Certificates → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-1670 - detects|DET0218 detects T1574]] — Detection Strategy for Hijack Execution Flow across OS platforms. → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-1671 - detects|DET0806 detects T1591.001]] — Detection of Determine Physical Locations → Determine Physical Locations
+- [[07 ATT&CK Relationships/ATTACK-REL-1672 - detects|DET0426 detects T1006]] — Detection of Direct Volume Access for File System Evasion → Direct Volume Access
+- [[07 ATT&CK Relationships/ATTACK-REL-1673 - detects|DET0891 detects T1584.002]] — Detection of DNS Server → DNS Server
+- [[07 ATT&CK Relationships/ATTACK-REL-1674 - detects|DET0215 detects T1486]] — Detection of Multi-Platform File Encryption for Impact → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-1675 - detects|DET0484 detects T1530]] — Multi-Platform Cloud Storage Exfiltration Behavior Chain → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-1676 - detects|DET0108 detects T1132]] — Detection Strategy for Data Encoding in C2 Channels → Data Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-1677 - detects|DET0479 detects T1574.012]] — Detection Strategy for Hijack Execution Flow using the Windows COR_PROFILER. → COR_PROFILER
+- [[07 ATT&CK Relationships/ATTACK-REL-1678 - detects|DET0501 detects T1027.004]] — Detection Strategy for Compile After Delivery - Source Code to Executable Transformation → Compile After Delivery
+- [[07 ATT&CK Relationships/ATTACK-REL-1679 - detects|DET0816 detects T1597.001]] — Detection of Threat Intel Vendors → Threat Intel Vendors
+- [[07 ATT&CK Relationships/ATTACK-REL-1680 - detects|DET0151 detects T1124]] — Behavior-chain, platform-aware detection strategy for T1124 System Time Discovery → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1681 - detects|DET0287 detects T1203]] — Exploitation for Client Execution – cross-platform behavior chain (browser/Office/3rd-party apps) → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1682 - detects|DET0081 detects T1218]] — Detection of Proxy Execution via Trusted Signed Binaries Across Platforms → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1683 - detects|DET0847 detects T1590.001]] — Detection of Domain Properties → Domain Properties
+- [[07 ATT&CK Relationships/ATTACK-REL-1684 - detects|DET0071 detects T1074.002]] — Detection of Remote Data Staging Prior to Exfiltration → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-1685 - detects|DET0829 detects T1583.007]] — Detection of Serverless → Serverless
+- [[07 ATT&CK Relationships/ATTACK-REL-1686 - detects|DET0155 detects T1666]] — Detection Strategy for Modify Cloud Resource Hierarchy → Modify Cloud Resource Hierarchy
+- [[07 ATT&CK Relationships/ATTACK-REL-1687 - detects|DET0869 detects T1590]] — Detection of Gather Victim Network Information → Gather Victim Network Information
+- [[07 ATT&CK Relationships/ATTACK-REL-1688 - detects|DET0416 detects T1071.002]] — Detection of File Transfer Protocol-Based C2 (FTP, FTPS, SMB, TFTP) → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-1689 - detects|DET0246 detects T1111]] — Detection Strategy for MFA Interception via Input Capture and Smart Card Proxying → Multi-Factor Authentication Interception
+- [[07 ATT&CK Relationships/ATTACK-REL-1690 - detects|DET0355 detects T1667]] — Detection Strategy for Email Bombing → Email Bombing
+- [[07 ATT&CK Relationships/ATTACK-REL-1691 - detects|DET0061 detects T1546.001]] — Detect Default File Association Hijack via Registry & Execution Correlation on Windows → Change Default File Association
+- [[07 ATT&CK Relationships/ATTACK-REL-1692 - detects|DET0242 detects T1213.006]] — Suspicious Database Access and Dump Activity Across Environments (T1213.006) → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-1693 - detects|DET0214 detects T1027.009]] — Detection Strategy for Embedded Payloads → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-1694 - detects|DET0005 detects T1036.003]] — Renamed Legitimate Utility Execution with Metadata Mismatch and Suspicious Path → Rename Legitimate Utilities
+- [[07 ATT&CK Relationships/ATTACK-REL-1695 - detects|DET0178 detects T1021.005]] — Behavioral Detection of Unauthorized VNC Remote Control Sessions → VNC
+- [[07 ATT&CK Relationships/ATTACK-REL-1696 - detects|DET0331 detects T1055.015]] — Detection Strategy for ListPlanting Injection on Windows → ListPlanting
+- [[07 ATT&CK Relationships/ATTACK-REL-1697 - detects|DET0469 detects T1601.001]] — Detection Strategy for Patch System Image on Network Devices → Patch System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1698 - detects|DET0328 detects T1218.003]] — Detection of Malicious Profile Installation via CMSTP.exe → CMSTP
+- [[07 ATT&CK Relationships/ATTACK-REL-1699 - detects|DET0534 detects T1548.006]] — TCC Database Manipulation via Launchctl and Unprotected SIP → TCC Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1700 - detects|DET0273 detects T1573]] — Detection Strategy for Encrypted Channel across OS Platforms → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-1701 - detects|DET0033 detects T1546.008]] — Detection Strategy for Accessibility Feature Hijacking via Binary Replacement or Registry Modification → Accessibility Features
+- [[07 ATT&CK Relationships/ATTACK-REL-1702 - detects|DET0258 detects T1546.018]] — Linux Python Startup Hook Persistence via .pth and Customize Files (T1546.018) → Python Startup Hooks
+- [[07 ATT&CK Relationships/ATTACK-REL-1703 - detects|DET0563 detects T1690]] — Detection Strategy for Defense Impairment via Prevent Command History Logging across OS platforms. → Prevent Command History Logging
+- [[07 ATT&CK Relationships/ATTACK-REL-1704 - detects|DET0450 detects T1547.006]] — Detection Strategy for Kernel Modules and Extensions Autostart Execution → Kernel Modules and Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1705 - detects|DET0438 detects T1560.003]] — Detect Archiving via Custom Method (T1560.003) → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-1706 - detects|DET0188 detects T1680]] — Local Storage Discovery via Drive Enumeration and Filesystem Probing → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1707 - detects|DET0105 detects T1110.002]] — Post-Credential Dump Password Cracking Detection via Suspicious File Access and Hash Analysis Tools → Password Cracking
+- [[07 ATT&CK Relationships/ATTACK-REL-1708 - detects|DET0085 detects T1003.002]] — Credential Dumping from SAM via Registry Dump and Local File Access → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-1709 - detects|DET0141 detects T1497.003]] — Detect Time-Based Evasion via Sleep, Timer Loops, and Delayed Execution → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-1710 - detects|DET0143 detects T1573.001]] — Detection Strategy for Encrypted Channel via Symmetric Cryptography across OS Platforms → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-1711 - detects|DET0587 detects T1087]] — Enumeration of User or Account Information Across Platforms → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1712 - detects|DET0433 detects T1218.013]] — Detecting Code Injection via mavinject.exe (App-V Injector) → Mavinject
+- [[07 ATT&CK Relationships/ATTACK-REL-1713 - detects|DET0473 detects T1543.005]] — Detect persistent or elevated container services via container runtime or cluster manipulation → Container Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1714 - detects|DET0505 detects T1027.010]] — Detection Strategy for Command Obfuscation → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-1715 - detects|DET0283 detects T1134]] — Behavior-chain detection for T1134 Access Token Manipulation on Windows → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1716 - detects|DET0411 detects T1665]] — Detection Strategy for Hide Infrastructure → Hide Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-1717 - detects|DET0329 detects T1490]] — Behavioral Detection for T1490 - Inhibit System Recovery → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1718 - detects|DET0127 detects T1036]] — Behavioral Detection of Masquerading Across Platforms via Metadata and Execution Discrepancy → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-1719 - detects|DET0336 detects T1554]] — Detect Compromise of Host Software Binaries → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-1720 - detects|DET0815 detects T1590.005]] — Detection of IP Addresses → IP Addresses
+- [[07 ATT&CK Relationships/ATTACK-REL-1721 - detects|DET0828 detects T1590.003]] — Detection of Network Trust Dependencies → Network Trust Dependencies
+- [[07 ATT&CK Relationships/ATTACK-REL-1722 - detects|DET0153 detects T1567.004]] — Detection Strategy for Exfiltration Over Webhook → Exfiltration Over Webhook
+- [[07 ATT&CK Relationships/ATTACK-REL-1723 - detects|DET0001 detects T1552.005]] — Detect Access to Cloud Instance Metadata API (IaaS) → Cloud Instance Metadata API
+- [[07 ATT&CK Relationships/ATTACK-REL-1724 - detects|DET0856 detects T1593]] — Detection of Search Open Websites/Domains → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-1725 - detects|DET0590 detects T1491.002]] — Behavioral Detection of External Website Defacement across Platforms → External Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-1726 - detects|DET0544 detects T1055.013]] — Detection Strategy for Process Doppelgänging on Windows → Process Doppelgänging
+- [[07 ATT&CK Relationships/ATTACK-REL-1727 - detects|DET0539 detects T1671]] — Detection Strategy for Cloud Application Integration → Cloud Application Integration
+- [[07 ATT&CK Relationships/ATTACK-REL-1728 - detects|DET0276 detects T1207]] — Detection Strategy for Rogue Domain Controller (DCShadow) Registration and Replication Abuse → Rogue Domain Controller
+- [[07 ATT&CK Relationships/ATTACK-REL-1729 - detects|DET0253 detects T1543.002]] — Detection of Systemd Service Creation or Modification on Linux → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1730 - detects|DET0476 detects T1114]] — Email Collection via Local Email Access and Auto-Forwarding Behavior → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-1731 - detects|DET0027 detects T1071.001]] — Detection of Web Protocol-Based C2 Over HTTP, HTTPS, or WebSockets → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-1732 - detects|DET0562 detects T1480]] — Multi-Platform Execution Guardrails Environmental Validation Detection Strategy → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-1733 - detects|DET0130 detects T1555.006]] — Detect Unauthorized Access to Cloud Secrets Management Stores → Cloud Secrets Management Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-1734 - detects|DET0029 detects T1137.003]] — Detect Persistence via Outlook Custom Forms Triggered by Malicious Email → Outlook Forms
+- [[07 ATT&CK Relationships/ATTACK-REL-1735 - detects|DET0098 detects T1197]] — Detect abuse of Windows BITS Jobs for download, execution and persistence → BITS Jobs
+- [[07 ATT&CK Relationships/ATTACK-REL-1736 - detects|DET0166 detects T1505.002]] — Detection Strategy for T1505.002 - Transport Agent Abuse (Windows/Linux) → Transport Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-1737 - detects|DET0591 detects T1070.006]] — Cross-Platform Behavioral Detection of File Timestomping via Metadata Tampering → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-1738 - detects|DET0511 detects T1025]] — Detection of Data Access and Collection from Removable Media → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-1739 - detects|DET0827 detects T1588.005]] — Detection of Exploits → Exploits
+- [[07 ATT&CK Relationships/ATTACK-REL-1740 - detects|DET0295 detects T1055.003]] — Behavioral Detection of Thread Execution Hijacking via Thread Suspension and Context Switching → Thread Execution Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1741 - detects|DET0032 detects T1564.001]] — Detection Strategy for Hidden Files and Directories → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-1742 - detects|DET0324 detects T1027.014]] — Detection Strategy for Polymorphic Code Mutation and Execution → Polymorphic Code
+- [[07 ATT&CK Relationships/ATTACK-REL-1743 - detects|DET0019 detects T1027.008]] — Detection Strategy for Stripped Payloads Across Platforms → Stripped Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-1744 - detects|DET0551 detects T1110.001]] — Password Guessing via Multi-Source Authentication Failure Correlation → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-1745 - detects|DET0103 detects T1070.005]] — Behavioral Detection of Network Share Connection Removal via CLI and SMB Disconnects → Network Share Connection Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-1746 - detects|DET0812 detects T1593.001]] — Detection of Social Media → Social Media
+- [[07 ATT&CK Relationships/ATTACK-REL-1747 - detects|DET0823 detects T1598]] — Detection of Phishing for Information → Phishing for Information
+- [[07 ATT&CK Relationships/ATTACK-REL-1748 - detects|DET0892 detects T1583.001]] — Detection of Domains → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-1749 - detects|DET0066 detects T1204.001]] — User Execution – Malicious Link (click → suspicious egress → download/write → follow-on activity) → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-1750 - detects|DET0037 detects T1555.003]] — Detect Suspicious Access to Browser Credential Stores → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-1751 - detects|DET0516 detects T1059]] — Behavioral Detection of Command and Scripting Interpreter Abuse → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-1752 - detects|DET0210 detects T1078.002]] — Abuse of Domain Accounts → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1753 - detects|DET0882 detects T1584.006]] — Detection of Web Services → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1754 - detects|DET0546 detects T1078.004]] — Detection of Abused or Compromised Cloud Accounts for Access and Persistence → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1755 - detects|DET0512 detects T1048.002]] — Detection of Exfiltration Over Asymmetric Encrypted Non-C2 Protocol → Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1756 - detects|DET0119 detects T1027.003]] — Detection Strategy for Steganographic Abuse in File & Script Execution → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-1757 - detects|DET0156 detects T1496.003]] — Detection Strategy for Resource Hijacking: SMS Pumping via SaaS Application Logs → SMS Pumping
+- [[07 ATT&CK Relationships/ATTACK-REL-1758 - detects|DET0420 detects T1497.002]] — Detect User Activity Based Sandbox Evasion via Input & Artifact Probing → User Activity Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-1759 - detects|DET0519 detects T1137.001]] — Detect Persistence via Office Template Macro Injection or Registry Hijack → Office Template Macros
+- [[07 ATT&CK Relationships/ATTACK-REL-1760 - detects|DET0375 detects T1546.017]] — Detection Strategy for T1546.017 - Udev Rules (Linux) → Udev Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-1761 - detects|DET0203 detects T1055.008]] — Detection Strategy for Ptrace-Based Process Injection on Linux → Ptrace System Calls
+- [[07 ATT&CK Relationships/ATTACK-REL-1762 - detects|DET0163 detects T1599.001]] — Detection Strategy for Network Address Translation Traversal → Network Address Translation Traversal
+- [[07 ATT&CK Relationships/ATTACK-REL-1763 - detects|DET0374 detects T1648]] — Detection Strategy for Serverless Execution (T1648) → Serverless Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1764 - detects|DET0822 detects T1597]] — Detection of Search Closed Sources → Search Closed Sources
+- [[07 ATT&CK Relationships/ATTACK-REL-1765 - detects|DET0881 detects T1608.006]] — Detection of SEO Poisoning → SEO Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-1766 - detects|DET0205 detects T1220]] — Detect XSL Script Abuse via msxsl and wmic → XSL Script Processing
+- [[07 ATT&CK Relationships/ATTACK-REL-1767 - detects|DET0389 detects T1055.001]] — Behavioral Detection of DLL Injection via Windows API → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1768 - detects|DET0226 detects T1036.008]] — Detection Strategy for Masquerading via File Type Modification → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-1769 - detects|DET0895 detects T1583]] — Detection of Acquire Infrastructure → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-1770 - detects|DET0139 detects T1056.004]] — Detection of Credential Harvesting via API Hooking → Credential API Hooking
+- [[07 ATT&CK Relationships/ATTACK-REL-1771 - detects|DET0889 detects T1590.006]] — Detection of Network Security Appliances → Network Security Appliances
+- [[07 ATT&CK Relationships/ATTACK-REL-1772 - detects|DET0392 detects T1518]] — Multi-Platform Software Discovery Behavior Chain → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1773 - detects|DET0592 detects T1602]] — Detection Strategy for Data from Configuration Repository on Network Devices → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-1774 - detects|DET0577 detects T1574.013]] — Detection Strategy for Hijack Execution Flow through the KernelCallbackTable on Windows. → KernelCallbackTable
+- [[07 ATT&CK Relationships/ATTACK-REL-1775 - detects|DET0146 detects T1485]] — Detection of Data Destruction Across Platforms via Mass Overwrite and Deletion Patterns → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-1776 - detects|DET0186 detects T1119]] — Automated File and API Collection Detection Across Platforms → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-1777 - detects|DET0470 detects T1001.003]] — Detecting Protocol or Service Impersonation via Anomalous TLS, HTTP Header, and Port Mismatch Correlation → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-1778 - detects|DET0256 detects T1563.001]] — Detection Strategy for SSH Session Hijacking → SSH Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1779 - detects|DET0408 detects T1498.002]] — Detection Strategy for Reflection Amplification DoS (T1498.002) → Reflection Amplification
+- [[07 ATT&CK Relationships/ATTACK-REL-1780 - detects|DET0808 detects T1588.006]] — Detection of Vulnerabilities → Vulnerabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-1781 - detects|DET0055 detects T1615]] — Detection strategy for Group Policy Discovery on Windows → Group Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1782 - detects|DET0335 detects T1559.003]] — Detect Abuse of XPC Services (T1559.003) → XPC Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1783 - detects|DET0451 detects T1546.013]] — Detection Strategy for PowerShell Profile Persistence via profile.ps1 Modification → PowerShell Profile
+- [[07 ATT&CK Relationships/ATTACK-REL-1784 - detects|DET0150 detects T1542.003]] — Detection Strategy for File Creation or Modification of Boot Files → Bootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-1785 - detects|DET0388 detects T1548.002]] — Detection Strategy for T1548.002 – Bypass User Account Control (UAC) → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-1786 - detects|DET0379 detects T1557.004]] — Detect Evil Twin Wi-Fi Access Points on Network Devices → Evil Twin
+- [[07 ATT&CK Relationships/ATTACK-REL-1787 - detects|DET0554 detects T1011.001]] — Detection of Bluetooth-Based Data Exfiltration → Exfiltration Over Bluetooth
+- [[07 ATT&CK Relationships/ATTACK-REL-1788 - detects|DET0031 detects T1036.001]] — Invalid Code Signature Execution Detection via Metadata and Behavioral Context → Invalid Code Signature
+- [[07 ATT&CK Relationships/ATTACK-REL-1789 - detects|DET0223 detects T1072]] — Detection of Adversary Abuse of Software Deployment Tools → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-1790 - detects|DET0843 detects T1590.002]] — Detection of DNS → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-1791 - detects|DET0010 detects T1546]] — Behavioral Detection of Event Triggered Execution Across Platforms → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1792 - detects|DET0833 detects T1587.002]] — Detection of Code Signing Certificates → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-1793 - detects|DET0549 detects T1552.004]] — Detect Suspicious Access to Private Key Files and Export Attempts Across Platforms → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-1794 - detects|DET0506 detects T1218.005]] — Detecting Mshta-based Proxy Execution via Suspicious HTA or Script Invocation → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-1795 - detects|DET0593 detects T1003.007]] — Detecting OS Credential Dumping via /proc Filesystem Access on Linux → Proc Filesystem
+- [[07 ATT&CK Relationships/ATTACK-REL-1796 - detects|DET0320 detects T1049]] — Detection of System Network Connections Discovery Across Platforms → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1797 - detects|DET0338 detects T1550]] — Behavioral Detection Strategy for Use Alternate Authentication Material (T1550) → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-1798 - detects|DET0840 detects T1608.003]] — Detection of Install Digital Certificate → Install Digital Certificate
+- [[07 ATT&CK Relationships/ATTACK-REL-1799 - detects|DET0129 detects T1087.002]] — Domain Account Enumeration Across Platforms → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1800 - detects|DET0576 detects T1114.003]] — Email Forwarding Rule Abuse Detection Across Platforms → Email Forwarding Rule
+- [[07 ATT&CK Relationships/ATTACK-REL-1801 - detects|DET0819 detects T1590.004]] — Detection of Network Topology → Network Topology
+- [[07 ATT&CK Relationships/ATTACK-REL-1802 - detects|DET0398 detects T1137]] — Detect Office Startup-Based Persistence via Macros, Forms, and Registry Hooks → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-1803 - detects|DET0236 detects T1566.001]] — Detection Strategy for Spearphishing Attachment across OS Platforms → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-1804 - detects|DET0332 detects T1059.010]] — Detection Strategy for AutoHotKey & AutoIT Abuse → AutoHotKey & AutoIT
+- [[07 ATT&CK Relationships/ATTACK-REL-1805 - detects|DET0264 detects T1059.007]] — Cross-Platform Detection of JavaScript Execution Abuse → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-1806 - detects|DET0062 detects T1685.004]] — Detection Strategy for Disable or Modify Linux Audit System Log → Disable or Modify Linux Audit System Log
+- [[07 ATT&CK Relationships/ATTACK-REL-1807 - detects|DET0446 detects T1003.008]] — Credential Access via /etc/passwd and /etc/shadow Parsing → /etc/passwd and /etc/shadow
+- [[07 ATT&CK Relationships/ATTACK-REL-1808 - detects|DET0044 detects T1176.001]] — Detecting Malicious Browser Extensions Across Platforms → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-1809 - detects|DET0569 detects T1601.002]] — Detection Strategy for Downgrade System Image on Network Devices → Downgrade System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1810 - detects|DET0917 detects T1683.001]] — Detection of Written Content → Written Content
+- [[07 ATT&CK Relationships/ATTACK-REL-1811 - detects|DET0112 detects T1037]] — Boot or Logon Initialization Scripts Detection Strategy → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-1812 - detects|DET0542 detects T1547.005]] — Registry and LSASS Monitoring for Security Support Provider Abuse → Security Support Provider
+- [[07 ATT&CK Relationships/ATTACK-REL-1813 - detects|DET0367 detects T1037.003]] — Detect Network Logon Script Abuse via Multi-Event Correlation on Windows → Network Logon Script
+- [[07 ATT&CK Relationships/ATTACK-REL-1814 - detects|DET0524 detects T1205]] — Traffic Signaling (Port-knock / magic-packet → firewall or service activation) – T1205 → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-1815 - detects|DET0550 detects T1213.004]] — Detecting Suspicious Access to CRM Data in SaaS Environments → Customer Relationship Management Software
+- [[07 ATT&CK Relationships/ATTACK-REL-1816 - detects|DET0120 detects T1531]] — Account Access Removal via Multi-Platform Audit Correlation → Account Access Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-1817 - detects|DET0195 detects T1016]] — Behavioral Detection of System Network Configuration Discovery → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1818 - detects|DET0556 detects T1127.001]] — Behavior-chain detection strategy for T1127.001 Trusted Developer Utilities Proxy Execution: MSBuild (Windows) → MSBuild
+- [[07 ATT&CK Relationships/ATTACK-REL-1819 - detects|DET0404 detects T1547.004]] — Detect Winlogon Helper DLL Abuse via Registry and Process Artifacts on Windows → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-1820 - detects|DET0521 detects T1056.002]] — Behavioral Detection of Spoofed GUI Credential Prompts → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-1821 - detects|DET0204 detects T1547.010]] — Detection Strategy for T1547.010 – Port Monitor DLL Persistence via spoolsv.exe (Windows) → Port Monitors
+- [[07 ATT&CK Relationships/ATTACK-REL-1822 - detects|DET0069 detects T1200]] — Detect unauthorized or suspicious Hardware Additions (USB/Thunderbolt/Network) → Hardware Additions
+- [[07 ATT&CK Relationships/ATTACK-REL-1823 - detects|DET0413 detects T1213]] — Abuse of Information Repositories for Data Collection → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-1824 - detects|DET0456 detects T1134.002]] — Behavior-chain detection for T1134.002 Create Process with Token (Windows) → Create Process with Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1825 - detects|DET0043 detects T1614]] — Detection Strategy for System Location Discovery → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1826 - detects|DET0004 detects T1574.007]] — Detection Strategy for Hijack Execution Flow using Path Interception by PATH Environment Variable. → Path Interception by PATH Environment Variable
+- [[07 ATT&CK Relationships/ATTACK-REL-1827 - detects|DET0826 detects T1592]] — Detection of Gather Victim Host Information → Gather Victim Host Information
+- [[07 ATT&CK Relationships/ATTACK-REL-1828 - detects|DET0206 detects T1053.007]] — Detection of Malicious Kubernetes CronJob Scheduling → Container Orchestration Job
+- [[07 ATT&CK Relationships/ATTACK-REL-1829 - detects|DET0527 detects T1036.002]] — Right-to-Left Override Masquerading Detection via Filename and Execution Context → Right-to-Left Override
+- [[07 ATT&CK Relationships/ATTACK-REL-1830 - detects|DET0486 detects T1218.008]] — Detecting Odbcconf Proxy Execution of Malicious DLLs → Odbcconf
+- [[07 ATT&CK Relationships/ATTACK-REL-1831 - detects|DET0444 detects T1071]] — Detection of Command and Control Over Application Layer Protocols → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1832 - detects|DET0285 detects T1021.003]] — Multi-Event Behavioral Detection for DCOM-Based Remote Code Execution → Distributed Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-1833 - detects|DET0294 detects T1204.002]] — User Execution – Malicious File via download/open → spawn chain (T1204.002) → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-1834 - detects|DET0403 detects T1020.001]] — Detection Strategy for Traffic Duplication via Mirroring in IaaS and Network Devices → Traffic Duplication
+- [[07 ATT&CK Relationships/ATTACK-REL-1835 - detects|DET0074 detects T1550.004]] — Detect Use of Stolen Web Session Cookies Across Platforms → Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-1836 - detects|DET0312 detects T1547.014]] — Detect Active Setup Persistence via StubPath Execution → Active Setup
+- [[07 ATT&CK Relationships/ATTACK-REL-1837 - detects|DET0232 detects T1675]] — Detection Strategy for ESXi Administration Command → ESXi Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-1838 - detects|DET0535 detects T1505.006]] — Detect Abuse of vSphere Installation Bundles (VIBs) for Persistent Access → vSphere Installation Bundles
+- [[07 ATT&CK Relationships/ATTACK-REL-1839 - detects|DET0028 detects T1496.002]] — Detect Excessive or Unauthorized Bandwidth Usage for Botnet, Proxyjacking, or Scanning Purposes → Bandwidth Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1840 - detects|DET0834 detects T1608.002]] — Detection of Upload Tool → Upload Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-1841 - detects|DET0514 detects T1068]] — Detection Strategy for Exploitation for Privilege Escalation → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-1842 - detects|DET0342 detects T1218.001]] — Detection of Suspicious Compiled HTML File Execution via hh.exe → Compiled HTML File
+- [[07 ATT&CK Relationships/ATTACK-REL-1843 - detects|DET0002 detects T1071.005]] — Behavioral Detection of Publish/Subscribe Protocol Misuse for C2 → Publish/Subscribe Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-1844 - detects|DET0854 detects T1584.003]] — Detection of Virtual Private Server → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-1845 - detects|DET0488 detects T1199]] — Detect abuse of Trusted Relationships (third-party and delegated admin access) → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-1846 - detects|DET0308 detects T1578]] — Detection Strategy for Modify Cloud Compute Infrastructure → Modify Cloud Compute Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-1847 - detects|DET0100 detects T1055.004]] — Behavioral Detection of Asynchronous Procedure Call (APC) Injection via Remote Thread Queuing → Asynchronous Procedure Call
+- [[07 ATT&CK Relationships/ATTACK-REL-1848 - detects|DET0199 detects T1673]] — Detection Strategy for Virtual Machine Discovery → Virtual Machine Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1849 - detects|DET0337 detects T1578.004]] — Detection Strategy for Modify Cloud Compute Infrastructure: Revert Cloud Instance → Revert Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-1850 - detects|DET0073 detects T1569.003]] — Detection Strategy for System Services: Systemctl → Systemctl
+- [[07 ATT&CK Relationships/ATTACK-REL-1851 - detects|DET0345 detects T1548]] — Detection Strategy for Abuse Elevation Control Mechanism (T1548) → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-1852 - detects|DET0292 detects T1036.006]] — Masquerading via Space After Filename - Behavioral Detection Strategy → Space after Filename
+- [[07 ATT&CK Relationships/ATTACK-REL-1853 - detects|DET0468 detects T1557.003]] — Detect DHCP Spoofing Across Linux, Windows, and macOS → DHCP Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-1854 - detects|DET0448 detects T1055.014]] — Detection Strategy for VDSO Hijacking on Linux → VDSO Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1855 - detects|DET0439 detects T1070.010]] — Detection of Malware Relocation via Suspicious File Movement → Relocate Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-1856 - detects|DET0064 detects T1574.009]] — Detection Strategy for Hijack Execution Flow through Path Interception by Unquoted Path → Path Interception by Unquoted Path
+- [[07 ATT&CK Relationships/ATTACK-REL-1857 - detects|DET0877 detects T1596.001]] — Detection of DNS/Passive DNS → DNS/Passive DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-1858 - detects|DET0520 detects T1685.006]] — Behavioral Detection of Log File Clearing on Linux and macOS → Clear Linux or Mac System Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-1859 - detects|DET0303 detects T1087.001]] — Local Account Enumeration Across Host Platforms → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1860 - detects|DET0584 detects T1564.009]] — Detection Strategy for Resource Forking on macOS → Resource Forking
+- [[07 ATT&CK Relationships/ATTACK-REL-1861 - detects|DET0395 detects T1548.004]] — macOS AuthorizationExecuteWithPrivileges Elevation Prompt Detection → Elevated Execution with Prompt
+- [[07 ATT&CK Relationships/ATTACK-REL-1862 - detects|DET0298 detects T1560.001]] — Detect Archiving via Utility (T1560.001) → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-1863 - detects|DET0430 detects T1555]] — Detect Credentials Access from Password Stores → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-1864 - detects|DET0890 detects T1591]] — Detection of Gather Victim Org Information → Gather Victim Org Information
+- [[07 ATT&CK Relationships/ATTACK-REL-1865 - detects|DET0359 detects T1090.003]] — Multi-hop Proxy Behavior via Relay Node Chaining, Onion Routing, and Network Tunneling → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-1866 - detects|DET0431 detects T1684.002]] — Detection Strategy for Email Spoofing → Email Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-1867 - detects|DET0113 detects T1558.004]] — Detect AS-REP Roasting Attempts (T1558.004) → AS-REP Roasting
+- [[07 ATT&CK Relationships/ATTACK-REL-1868 - detects|DET0878 detects T1598.003]] — Detection of Spearphishing Link → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-1869 - detects|DET0193 detects T1565.001]] — Detection Strategy for Stored Data Manipulation across OS Platforms. → Stored Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1870 - detects|DET0296 detects T1557]] — Detect Adversary-in-the-Middle via Network and Configuration Anomalies → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-1871 - detects|DET0884 detects T1650]] — Detection of Acquire Access → Acquire Access
+- [[07 ATT&CK Relationships/ATTACK-REL-1872 - detects|DET0094 detects T1053]] — Cross-Platform Behavioral Detection of Scheduled Task/Job Abuse → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-1873 - detects|DET0474 detects T1480.001]] — Environmental Keying Discovery-to-Decryption Behavioral Chain Detection Strategy → Environmental Keying
+- [[07 ATT&CK Relationships/ATTACK-REL-1874 - detects|DET0428 detects T1564.013]] — Detection Strategy for Bind Mounts on Linux → Bind Mounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1875 - detects|DET0234 detects T1003]] — Credential Dumping via Sensitive Memory and Registry Access Correlation → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-1876 - detects|DET0853 detects T1587]] — Detection of Develop Capabilities → Develop Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-1877 - detects|DET0039 detects T1568]] — Detection Strategy for Dynamic Resolution across OS Platforms → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-1878 - detects|DET0117 detects T1036.004]] — Detection of Masqueraded Tasks or Services with Suspicious Naming and Execution → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1879 - detects|DET0851 detects T1585.001]] — Detection of Social Media Accounts → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1880 - detects|DET0393 detects T1548.005]] — Detection Strategy for Temporary Elevated Cloud Access Abuse (T1548.005) → Temporary Elevated Cloud Access
+- [[07 ATT&CK Relationships/ATTACK-REL-1881 - detects|DET0220 detects T1052.001]] — Detection of USB-Based Data Exfiltration → Exfiltration over USB
+- [[07 ATT&CK Relationships/ATTACK-REL-1882 - detects|DET0086 detects T1546.003]] — Detect WMI Event Subscription for Persistence via WmiPrvSE Process and MOF Compilation → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-1883 - detects|DET0463 detects T1110]] — Brute Force Authentication Failures with Multi-Platform Log Correlation → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-1884 - detects|DET0466 detects T1216]] — Detection of Script-Based Proxy Execution via Signed Microsoft Utilities → System Script Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-1885 - detects|DET0568 detects T1674]] — Detection Strategy for Input Injection → Input Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1886 - detects|DET0080 detects T1190]] — Exploit Public-Facing Application – multi-signal correlation (request → error → post-exploit process/egress) → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-1887 - detects|DET0424 detects T1686.001]] — Detection Strategy for Disable or Modify Cloud Firewall → Cloud Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-1888 - detects|DET0867 detects T1595.002]] — Detection of Vulnerability Scanning → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-1889 - detects|DET0160 detects T1621]] — Detection Strategy for Multi-Factor Authentication Request Generation (T1621) → Multi-Factor Authentication Request Generation
+- [[07 ATT&CK Relationships/ATTACK-REL-1890 - detects|DET0399 detects T1029]] — Detection Strategy for Scheduled Transfer and Recurrent Exfiltration Patterns → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-1891 - detects|DET0537 detects T1195]] — Behavioral detection for Supply Chain Compromise (package/update tamper → install → first-run) → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-1892 - detects|DET0919 detects T1682]] — Detection of Query Public AI Services → Query Public AI Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1893 - detects|DET0518 detects T1498]] — Behavioral Detection of T1498 – Network Denial of Service Across Platforms → Network Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-1894 - detects|DET0176 detects T1189]] — Drive-by Compromise — Behavior-based, Multi-platform Detection Strategy (T1189) → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-1895 - detects|DET0565 detects T1614.001]] — Detection Strategy for System Language Discovery → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1896 - detects|DET0018 detects T1129]] — Behavior-chain, platform-aware detection strategy for T1129 Shared Modules → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-1897 - detects|DET0185 detects T1550.001]] — Behavioral Detection Strategy for Use Alternate Authentication Material: Application Access Token (T1550.001) → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1898 - detects|DET0405 detects T1027.012]] — Detection Strategy for LNK Icon Smuggling → LNK Icon Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-1899 - detects|DET0278 detects T1542]] — Detection Strategy for T1542 Pre-OS Boot → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-1900 - detects|DET0504 detects T1559.002]] — Detect Abuse of Dynamic Data Exchange (T1559.002) → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-1901 - detects|DET0110 detects T1548.001]] — Setuid/Setgid Privilege Abuse Detection (Linux/macOS) → Setuid and Setgid
+- [[07 ATT&CK Relationships/ATTACK-REL-1902 - detects|DET0196 detects T1090.004]] — Domain Fronting Behavior via Mismatched TLS SNI and HTTP Host Headers → Domain Fronting
+- [[07 ATT&CK Relationships/ATTACK-REL-1903 - detects|DET0558 detects T1059.012]] — Detection Strategy for ESXi Hypervisor CLI Abuse → Hypervisor CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-1904 - detects|DET0174 detects T1212]] — Detection Strategy for Exploitation for Credential Access → Exploitation for Credential Access
+- [[07 ATT&CK Relationships/ATTACK-REL-1905 - detects|DET0454 detects T1556.003]] — Detect Malicious Modification of Pluggable Authentication Modules (PAM) → Pluggable Authentication Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-1906 - detects|DET0811 detects T1593.002]] — Detection of Search Engines → Search Engines
+- [[07 ATT&CK Relationships/ATTACK-REL-1907 - detects|DET0378 detects T1027]] — Behavioral Detection of Obfuscated Files or Information → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-1908 - detects|DET0315 detects T1137.002]] — Detect Persistence via Office Test Registry DLL Injection → Office Test
+- [[07 ATT&CK Relationships/ATTACK-REL-1909 - detects|DET0213 detects T1030]] — Detection Strategy for Data Transfer Size Limits and Chunked Exfiltration → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-1910 - detects|DET0138 detects T1218.004]] — Detection of Malicious Code Execution via InstallUtil.exe → InstallUtil
+- [[07 ATT&CK Relationships/ATTACK-REL-1911 - detects|DET0341 detects T1115]] — Clipboard Data Access with Anomalous Context → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-1912 - detects|DET0814 detects T1589.002]] — Detection of Email Addresses → Email Addresses
+- [[07 ATT&CK Relationships/ATTACK-REL-1913 - detects|DET0835 detects T1585.002]] — Detection of Email Accounts → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1914 - detects|DET0170 detects T1601]] — Detection Strategy for Modify System Image on Network Devices → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1915 - detects|DET0510 detects T1027.017]] — Detection Strategy for SVG Smuggling with Script Execution and Delivery Behavior → SVG Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-1916 - detects|DET0498 detects T1134.003]] — Behavior‑chain detection for T1134.003 Make and Impersonate Token (Windows) → Make and Impersonate Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1917 - detects|DET0352 detects T1550.003]] — Detection Strategy for T1550.003 - Pass the Ticket (Windows) → Pass the Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-1918 - detects|DET0813 detects T1589.001]] — Detection of Credentials → Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-1919 - detects|DET0437 detects T1003.004]] — Detection of LSA Secrets Dumping via Registry and Memory Extraction → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-1920 - detects|DET0077 detects T1011]] — Detection of Exfiltration Over Alternate Network Interfaces → Exfiltration Over Other Network Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-1921 - detects|DET0825 detects T1608.004]] — Detection of Drive-by Target → Drive-by Target
+- [[07 ATT&CK Relationships/ATTACK-REL-1922 - detects|DET0177 detects T1137.004]] — Detect Persistence via Outlook Home Page Exploitation → Outlook Home Page
+- [[07 ATT&CK Relationships/ATTACK-REL-1923 - detects|DET0311 detects T1685.003]] — Detection for Spoofing Tool UI across OS Platforms → Modify or Spoof Tool UI
+- [[07 ATT&CK Relationships/ATTACK-REL-1924 - detects|DET0515 detects T1528]] — Detection Strategy for T1528 - Steal Application Access Token → Steal Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-1925 - detects|DET0495 detects T1657]] — Detection Strategy for Financial Theft → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-1926 - detects|DET0249 detects T1610]] — Behavior-chain detection for T1610 Deploy Container across Docker & Kubernetes control/node planes → Deploy Container
+- [[07 ATT&CK Relationships/ATTACK-REL-1927 - detects|DET0334 detects T1525]] — Detection Strategy for T1525 – Implant Internal Image → Implant Internal Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1928 - detects|DET0555 detects T1546.014]] — Detection Strategy for Event Triggered Execution via emond on macOS → Emond
+- [[07 ATT&CK Relationships/ATTACK-REL-1929 - detects|DET0559 detects T1529]] — Multi-Platform Shutdown or Reboot Detection via Execution and Host Status Events → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-1930 - detects|DET0003 detects T1136.002]] — T1136.002 Detection Strategy - Domain Account Creation Across Platforms → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-1931 - detects|DET0265 detects T1569.001]] — Detection Strategy for System Services: Launchctl → Launchctl
+- [[07 ATT&CK Relationships/ATTACK-REL-1932 - detects|DET0876 detects T1586]] — Detection of Compromise Accounts → Compromise Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-1933 - detects|DET0354 detects T1133]] — Behavior-chain detection for T1133 External Remote Services across Windows, Linux, macOS, Containers → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-1934 - detects|DET0346 detects T1113]] — Detect Screen Capture via Commands and API Calls → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-1935 - detects|DET0517 detects T1574.014]] — Detection Strategy for Hijack Execution Flow through the AppDomainManager on Windows. → AppDomainManager
+- [[07 ATT&CK Relationships/ATTACK-REL-1936 - detects|DET0494 detects T1600.002]] — Detection Strategy for Weaken Encryption: Disable Crypto Hardware on Network Devices → Disable Crypto Hardware
+- [[07 ATT&CK Relationships/ATTACK-REL-1937 - detects|DET0158 detects T1218.007]] — Detection of Msiexec Abuse for Local, Network, and DLL Execution → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-1938 - detects|DET0837 detects T1583.005]] — Detection of Botnet → Botnet
+- [[07 ATT&CK Relationships/ATTACK-REL-1939 - detects|DET0887 detects T1592.001]] — Detection of Hardware → Hardware
+- [[07 ATT&CK Relationships/ATTACK-REL-1940 - detects|DET0491 detects T1120]] — Peripheral Device Enumeration via System Utilities and API Calls → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1941 - detects|DET0152 detects T1574.004]] — Detection Strategy for Hijack Execution Flow: Dylib Hijacking → Dylib Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-1942 - detects|DET0091 detects T1027.007]] — Detection Strategy for Dynamic API Resolution via Hash-Based Function Lookups → Dynamic API Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-1943 - detects|DET0268 detects T1560.002]] — Detect Archiving via Library (T1560.002) → Archive via Library
+- [[07 ATT&CK Relationships/ATTACK-REL-1944 - detects|DET0187 detects T1685.001]] — Detect Disabled Windows Event Log → Disable or Modify Windows Event Log
+- [[07 ATT&CK Relationships/ATTACK-REL-1945 - detects|DET0284 detects T1567.003]] — Detection Strategy for Exfiltration to Text Storage Sites → Exfiltration to Text Storage Sites
+- [[07 ATT&CK Relationships/ATTACK-REL-1946 - detects|DET0123 detects T1052]] — Detection of Data Exfiltration via Removable Media → Exfiltration Over Physical Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-1947 - detects|DET0509 detects T1539]] — Detection of Web Session Cookie Theft via File, Memory, and Network Artifacts → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-1948 - detects|DET0248 detects T1204.003]] — User Execution – Malicious Image (containers & IaaS) – pull/run → start → anomalous behavior (T1204.003) → Malicious Image
+- [[07 ATT&CK Relationships/ATTACK-REL-1949 - detects|DET0322 detects T1027.016]] — Detection Strategy for Junk Code Obfuscation with Suspicious Execution Patterns → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-1950 - detects|DET0310 detects T1098.007]] — Suspicious Addition to Local or Domain Groups → Additional Local or Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-1951 - detects|DET0396 detects T1555.001]] — Detect Access to macOS Keychain for Credential Theft → Keychain
+- [[07 ATT&CK Relationships/ATTACK-REL-1952 - detects|DET0254 detects T1565.002]] — Detection Strategy of Transmitted Data Manipulation → Transmitted Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1953 - detects|DET0357 detects T1016.001]] — Behavioral Detection of Internet Connection Discovery → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1954 - detects|DET0325 detects T1090.002]] — External Proxy Behavior via Outbound Relay to Intermediate Infrastructure → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-1955 - detects|DET0084 detects T1578.003]] — Detection Strategy for Modify Cloud Compute Infrastructure: Delete Cloud Instance → Delete Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-1956 - detects|DET0333 detects T1053.002]] — Cross-Platform Detection of Scheduled Task/Job Abuse via `at` Utility → At
+- [[07 ATT&CK Relationships/ATTACK-REL-1957 - detects|DET0106 detects T1055.002]] — Behavioral Detection of PE Injection via Remote Memory Mapping → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-1958 - detects|DET0015 detects T1668]] — Detection Strategy for Exclusive Control → Exclusive Control
+- [[07 ATT&CK Relationships/ATTACK-REL-1959 - detects|DET0227 detects T1571]] — Detection Strategy for Non-Standard Ports → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-1960 - detects|DET0810 detects T1594]] — Detection of Search Victim-Owned Websites → Search Victim-Owned Websites
+- [[07 ATT&CK Relationships/ATTACK-REL-1961 - detects|DET0571 detects T1543]] — Detection of System Process Creation or Modification Across Platforms → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-1962 - detects|DET0340 detects T1204.004]] — User Execution – Malicious Copy & Paste (browser/email → shell with obfuscated one-liner) – T1204.004 → Malicious Copy and Paste
+- [[07 ATT&CK Relationships/ATTACK-REL-1963 - detects|DET0233 detects T1602.002]] — Detection Strategy for Network Device Configuration Dump via Config Repositories → Network Device Configuration Dump
+- [[07 ATT&CK Relationships/ATTACK-REL-1964 - detects|DET0845 detects T1588.001]] — Detection of Malware → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-1965 - detects|DET0432 detects T1564.004]] — Detection Strategy for NTFS File Attribute Abuse (ADS/EAs) → NTFS File Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-1966 - detects|DET0455 detects T1059.001]] — Abuse of PowerShell for Arbitrary Execution → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-1967 - detects|DET0390 detects T1547.013]] — Linux Detection Strategy for T1547.013 - XDG Autostart Entries → XDG Autostart Entries
+- [[07 ATT&CK Relationships/ATTACK-REL-1968 - detects|DET0415 detects T1499.003]] — Application Exhaustion Flood Detection Across Platforms → Application Exhaustion Flood
+- [[07 ATT&CK Relationships/ATTACK-REL-1969 - detects|DET0093 detects T1033]] — Behavioral Detection of User Discovery via Local and Remote Enumeration → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1970 - detects|DET0596 detects T1021.004]] — Behavioral Detection of Remote SSH Logins Followed by Post-Login Execution → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-1971 - detects|DET0259 detects T1219.002]] — Remote Desktop Software Execution and Beaconing Detection → Remote Desktop Software
+- [[07 ATT&CK Relationships/ATTACK-REL-1972 - detects|DET0489 detects T1134.004]] — Behavior-chain detection for T1134.004 Access Token Manipulation: Parent PID Spoofing (Windows) → Parent PID Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-1973 - detects|DET0075 detects T1090.001]] — Internal Proxy Behavior via Lateral Host-to-Host C2 Relay → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-1974 - detects|DET0301 detects T1091]] — Removable Media Execution Chain Detection via File and Process Activity → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-1975 - detects|DET0409 detects T1550.002]] — Detection Strategy for T1550.002 - Pass the Hash (Windows) → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-1976 - detects|DET0368 detects T1195.003]] — Hardware Supply Chain Compromise Detection via Host Status & Boot Integrity Checks → Compromise Hardware Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-1977 - detects|DET0557 detects T1546.010]] — Detection Strategy for Event Triggered Execution: AppInit DLLs (Windows) → AppInit DLLs
+- [[07 ATT&CK Relationships/ATTACK-REL-1978 - detects|DET0272 detects T1556.004]] — Detect Modification of Network Device Authentication via Patched System Images → Network Device Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-1979 - detects|DET0088 detects T1518.002]] — Backup Software Discovery via CLI, Registry, and Process Inspection (T1518.002) → Backup Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-1980 - detects|DET0190 detects T1556.006]] — Detect MFA Modification or Disabling Across Platforms → Multi-Factor Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-1981 - detects|DET0897 detects T1679]] — Detection of Selective Exclusion → Selective Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-1982 - detects|DET0251 detects T1069.003]] — Behavioral Detection of Cloud Group Enumeration via API and CLI Access → Cloud Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-1983 - detects|DET0286 detects T1684.001]] — Detection Strategy for Impersonation → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-1984 - detects|DET0022 detects T1187]] — Detect Forced SMB/WebDAV Authentication via lure files and outbound NTLM → Forced Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-1985 - detects|DET0857 detects T1589.003]] — Detection of Employee Names → Employee Names
+- [[07 ATT&CK Relationships/ATTACK-REL-1986 - detects|DET0839 detects T1608]] — Detection of Stage Capabilities → Stage Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-1987 - detects|DET0221 detects T1123]] — Behavioral Detection Strategy for T1123 Audio Capture Across Windows, Linux, macOS → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-1988 - detects|DET0140 detects T1070.004]] — Behavioral Detection of Malicious File Deletion → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-1989 - detects|DET0423 detects T1578.001]] — Detection Strategy for Modify Cloud Compute Infrastructure: Create Snapshot → Create Snapshot
+- [[07 ATT&CK Relationships/ATTACK-REL-1990 - detects|DET0051 detects T1564.012]] — Detection Strategy for File/Path Exclusions → File/Path Exclusions
+- [[07 ATT&CK Relationships/ATTACK-REL-1991 - detects|DET0096 detects T1098]] — Account Manipulation Behavior Chain Detection → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-1992 - detects|DET0885 detects T1584]] — Detection of Compromise Infrastructure → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-1993 - detects|DET0072 detects T1037.001]] — Detect Logon Script Modifications and Execution → Logon Script (Windows)
+- [[07 ATT&CK Relationships/ATTACK-REL-1994 - detects|DET0321 detects T1564.006]] — Detection Strategy for Hidden Virtual Instance Execution → Run Virtual Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-1995 - detects|DET0327 detects T1021.001]] — Multi-event Detection Strategy for RDP-Based Remote Logins and Post-Access Activity → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-1996 - detects|DET0228 detects T1104]] — Detect Multi-Stage Command and Control Channels → Multi-Stage Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-1997 - detects|DET0326 detects T1132.002]] — Behavior-chain detection for T1132.002 Data Encoding: Non-Standard Encoding across Windows, Linux, macOS, ESXi → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-1998 - detects|DET0362 detects T1546.009]] — Detection Strategy for AppCert DLLs Persistence via Registry Injection → AppCert DLLs
+- [[07 ATT&CK Relationships/ATTACK-REL-1999 - detects|DET0818 detects T1592.003]] — Detection of Firmware → Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-2000 - detects|DET0862 detects T1583.002]] — Detection of DNS Server → DNS Server
+- [[07 ATT&CK Relationships/ATTACK-REL-2001 - detects|DET0865 detects T1598.002]] — Detection of Spearphishing Attachment → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-2002 - detects|DET0169 detects T1580]] — Detection Strategy for Cloud Infrastructure Discovery → Cloud Infrastructure Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2003 - detects|DET0536 detects T1669]] — Detection Strategy for Wi-Fi Networks → Wi-Fi Networks
+- [[07 ATT&CK Relationships/ATTACK-REL-2004 - detects|DET0090 detects T1092]] — Cross-host C2 via Removable Media Relay → Communication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-2005 - detects|DET0282 detects T1218.010]] — Detection Strategy for System Binary Proxy Execution: Regsvr32 → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-2006 - detects|DET0421 detects T1569.002]] — Detection Strategy for System Services Service Execution → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2007 - detects|DET0006 detects T1599]] — Detection Strategy for Network Boundary Bridging → Network Boundary Bridging
+- [[07 ATT&CK Relationships/ATTACK-REL-2008 - detects|DET0896 detects T1583.006]] — Detection of Web Services → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2009 - detects|DET0025 detects T1218.015]] — Detecting Electron Application Abuse for Proxy Execution → Electron Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-2010 - detects|DET0422 detects T1546.012]] — Detection Strategy for IFEO Injection on Windows → Image File Execution Options Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2011 - detects|DET0595 detects T1211]] — Detection Strategy for Exploitation for Stealth → Exploitation for Stealth
+- [[07 ATT&CK Relationships/ATTACK-REL-2012 - detects|DET0274 detects T1547]] — Boot or Logon Autostart Execution Detection Strategy → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2013 - detects|DET0561 detects T1176.002]] — Detect malicious IDE extension install/usage and IDE tunneling → IDE Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-2014 - detects|DET0235 detects T1001.002]] — Detecting Steganographic Command and Control via File + Network Correlation → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-2015 - detects|DET0291 detects T1538]] — Detection of Cloud Service Dashboard Usage via GUI-Based Cloud Access → Cloud Service Dashboard
+- [[07 ATT&CK Relationships/ATTACK-REL-2016 - detects|DET0371 detects T1622]] — Detection Strategy for Debugger Evasion (T1622) → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-2017 - detects|DET0137 detects T1561]] — Detection Strategy for Disk Wipe via Direct Disk Access and Destructive Commands → Disk Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-2018 - detects|DET0482 detects T1134.001]] — Behavior-chain detection for T1134.001 Access Token Manipulation: Token Impersonation/Theft on Windows → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-2019 - detects|DET0831 detects T1596.003]] — Detection of Digital Certificates → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-2020 - detects|DET0244 detects T1037.002]] — Detection Strategy for Login Hook Persistence on macOS → Login Hook
+- [[07 ATT&CK Relationships/ATTACK-REL-2021 - detects|DET0849 detects T1591.003]] — Detection of Identify Business Tempo → Identify Business Tempo
+- [[07 ATT&CK Relationships/ATTACK-REL-2022 - detects|DET0360 detects T1069.002]] — Behavioral Detection of Domain Group Discovery → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-2023 - detects|DET0054 detects T1534]] — Internal Spearphishing via Trusted Accounts → Internal Spearphishing
+- [[07 ATT&CK Relationships/ATTACK-REL-2024 - detects|DET0821 detects T1598.001]] — Detection of Spearphishing Service → Spearphishing Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2025 - detects|DET0238 detects T1491]] — Defacement via File and Web Content Modification Across Platforms → Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-2026 - detects|DET0042 detects T1218.012]] — Detection Strategy for T1218.012 Verclsid Abuse → Verclsid
+- [[07 ATT&CK Relationships/ATTACK-REL-2027 - detects|DET0305 detects T1484.001]] — Detection of Group Policy Modifications via AD Object Changes and File Activity → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2028 - detects|DET0257 detects T1553.005]] — Detect Mark-of-the-Web (MOTW) Bypass via Container and Disk Image Files → Mark-of-the-Web Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-2029 - detects|DET0097 detects T1010]] — Detection of Application Window Enumeration via API or Scripting → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2030 - detects|DET0532 detects T1685.005]] — Detection of Event Log Clearing on Windows via Behavioral Chain → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-2031 - detects|DET0522 detects T1558]] — Detect Kerberos Ticket Theft or Forgery (T1558) → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-2032 - detects|DET0148 detects T1606.002]] — Detection Strategy for Forged SAML Tokens → SAML Tokens
+- [[07 ATT&CK Relationships/ATTACK-REL-2033 - detects|DET0496 detects T1219]] — Behavior-Chain Detection for Remote Access Tools (Tool-Agnostic) → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2034 - detects|DET0545 detects T1651]] — Detection Strategy for Cloud Administration Command → Cloud Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-2035 - detects|DET0513 detects T1003.005]] — Detection of Cached Domain Credential Dumping via Local Hash Cache Access → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2036 - detects|DET0240 detects T1649]] — Detection Strategy for Steal or Forge Authentication Certificates → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-2037 - detects|DET0252 detects T1204.005]] — User-Initiated Malicious Library Installation via Package Manager (T1204.005) → Malicious Library
+- [[07 ATT&CK Relationships/ATTACK-REL-2038 - detects|DET0863 detects T1584.001]] — Detection of Domains → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-2039 - detects|DET0387 detects T1557.002]] — Detect ARP Cache Poisoning Across Linux, Windows, and macOS → ARP Cache Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-2040 - detects|DET0871 detects T1583.004]] — Detection of Server → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-2041 - detects|DET0041 detects T1485.001]] — Detection of Lifecycle Policy Modifications for Triggered Deletion in IaaS Cloud Storage → Lifecycle-Triggered Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-2042 - detects|DET0208 detects T1499]] — Endpoint Resource Saturation and Crash Pattern Detection Across Platforms → Endpoint Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2043 - detects|DET0594 detects T1003.006]] — Detection of Unauthorized DCSync Operations via Replication API Abuse → DCSync
+- [[07 ATT&CK Relationships/ATTACK-REL-2044 - detects|DET0440 detects T1216.002]] — Detecting PowerShell Execution via SyncAppvPublishingServer.vbs Proxy Abuse → SyncAppvPublishingServer
+- [[07 ATT&CK Relationships/ATTACK-REL-2045 - detects|DET0050 detects T1137.006]] — Detect Persistence via Malicious Office Add-ins → Add-ins
+- [[07 ATT&CK Relationships/ATTACK-REL-2046 - detects|DET0209 detects T1012]] — Detection of Registry Query for Environmental Discovery → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2047 - detects|DET0280 detects T1112]] — Behavior-Based Registry Modification Detection on Windows → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2048 - detects|DET0260 detects T1606]] — Detection Strategy for Forged Web Credentials → Forge Web Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2049 - detects|DET0281 detects T1027.015]] — Detection Strategy for Compressed Payload Creation and Execution → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-2050 - detects|DET0183 detects T1570]] — Detection Strategy for Lateral Tool Transfer across OS platforms → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2051 - detects|DET0180 detects T1547.009]] — Detection Strategy for T1547.009 – Shortcut Modification (Windows) → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2052 - detects|DET0270 detects T1484]] — Detection of Domain or Tenant Policy Modifications via AD and Identity Provider → Domain or Tenant Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2053 - detects|DET0418 detects T1222.001]] — Windows DACL Manipulation Behavioral Chain Detection Strategy → Windows Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-2054 - detects|DET0250 detects T1552.002]] — Detect Credential Discovery via Windows Registry Enumeration → Credentials in Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2055 - detects|DET0583 detects T1136]] — Detection Strategy for T1136 - Create Account across platforms → Create Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2056 - detects|DET0012 detects T1564.007]] — Detection Strategy for VBA Stomping → VBA Stomping
+- [[07 ATT&CK Relationships/ATTACK-REL-2057 - detects|DET0030 detects T1556.009]] — Detect Conditional Access Policy Modification in Identity and Cloud Platforms → Conditional Access Policies
+- [[07 ATT&CK Relationships/ATTACK-REL-2058 - detects|DET0145 detects T1686]] — Detection of Disabled or Modified System Firewalls across OS Platforms. → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-2059 - detects|DET0529 detects T1106]] — Behavioral Detection of Native API Invocation via Unusual DLL Loads and Direct Syscalls → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-2060 - detects|DET0564 detects T1574.008]] — Detection Strategy for Hijack Execution Flow using Path Interception by Search Order Hijacking → Path Interception by Search Order Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2061 - detects|DET0573 detects T1537]] — Cross-Platform Detection of Data Transfer to Cloud Account → Transfer Data to Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2062 - detects|DET0429 detects T1037.005]] — Detect Modification of macOS Startup Items → Startup Items
+- [[07 ATT&CK Relationships/ATTACK-REL-2063 - detects|DET0855 detects T1591.002]] — Detection of Business Relationships → Business Relationships
+- [[07 ATT&CK Relationships/ATTACK-REL-2064 - detects|DET0161 detects T1201]] — Password Policy Discovery – cross-platform behavior-chain analytics → Password Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2065 - detects|DET0135 detects T1071.003]] — Detection of Mail Protocol-Based C2 Activity (SMTP, IMAP, POP3) → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2066 - detects|DET0870 detects T1586.001]] — Detection of Social Media Accounts → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2067 - detects|DET0528 detects T1216.001]] — Detecting Remote Script Proxy Execution via PubPrn.vbs → PubPrn
+- [[07 ATT&CK Relationships/ATTACK-REL-2068 - detects|DET0165 detects T1070.003]] — Behavioral Detection of Command History Clearing → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-2069 - detects|DET0271 detects T1556.001]] — Detect Domain Controller Authentication Process Modification (Skeleton Key) → Domain Controller Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-2070 - detects|DET0560 detects T1078]] — Detection of Valid Account Abuse Across Platforms → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2071 - detects|DET0579 detects T1652]] — Detection Strategy for Device Driver Discovery → Device Driver Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2072 - detects|DET0540 detects T1496.001]] — Multi-Platform Behavioral Detection for Compute Hijacking → Compute Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2073 - detects|DET0229 detects T1087.003]] — Enumeration of Global Address Lists via Email Account Discovery → Email Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2074 - detects|DET0149 detects T1048.003]] — Detection of Exfiltration Over Unencrypted Non-C2 Protocol → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2075 - detects|DET0589 detects T1556.005]] — Detect Modification of Authentication Process via Reversible Encryption → Reversible Encryption
+- [[07 ATT&CK Relationships/ATTACK-REL-2076 - detects|DET0531 detects T1098.001]] — Detection Strategy for Additional Cloud Credentials in IaaS/IdP/SaaS → Additional Cloud Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2077 - detects|DET0453 detects T1602.001]] — Detection Strategy for SNMP (MIB Dump) on Network Devices → SNMP (MIB Dump)
+- [[07 ATT&CK Relationships/ATTACK-REL-2078 - detects|DET0241 detects T1558.002]] — Detect Forged Kerberos Silver Tickets (T1558.002) → Silver Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-2079 - detects|DET0369 detects T1546.005]] — Detection Strategy for Event Triggered Execution via Trap (T1546.005) → Trap
+- [[07 ATT&CK Relationships/ATTACK-REL-2080 - detects|DET0580 detects T1556.008]] — Detect Network Provider DLL Registration and Credential Capture → Network Provider DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-2081 - detects|DET0263 detects T1213.003]] — Detecting Bulk or Anomalous Access to Private Code Repositories via SaaS Platforms → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-2082 - detects|DET0316 detects T1561.001]] — Detection Strategy for Disk Content Wipe via Direct Access and Overwrite → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-2083 - detects|DET0300 detects T1620]] — Detection Strategy for Reflective Code Loading → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-2084 - detects|DET0350 detects T1689]] — Detecting Downgrade Attacks → Downgrade Attack
+- [[07 ATT&CK Relationships/ATTACK-REL-2085 - detects|DET0007 detects T1482]] — Detection of Domain Trust Discovery via API, Script, and CLI Enumeration → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2086 - detects|DET0858 detects T1596.005]] — Detection of Scan Databases → Scan Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-2087 - detects|DET0275 detects T1140]] — Detect Adversary Deobfuscation or Decoding of Files and Payloads → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2088 - detects|DET0916 detects T1683]] — Detection of Generate Content → Generate Content
+- [[07 ATT&CK Relationships/ATTACK-REL-2089 - detects|DET0348 detects T1041]] — Detection Strategy for Exfiltration Over C2 Channel → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-2090 - detects|DET0058 detects T1102.001]] — Detection Strategy for Web Service: Dead Drop Resolver → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-2091 - detects|DET0154 detects T1546.002]] — Detect Screensaver-Based Persistence via Registry and Execution Chains → Screensaver
+- [[07 ATT&CK Relationships/ATTACK-REL-2092 - detects|DET0164 detects T1036.011]] — Detection Strategy for Overwritten Process Arguments Masquerading → Overwrite Process Arguments
+- [[07 ATT&CK Relationships/ATTACK-REL-2093 - detects|DET0406 detects T1564.014]] — Detection Strategy for Extended Attributes Abuse → Extended Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-2094 - detects|DET0817 detects T1595.001]] — Detection of Scanning IP Blocks → Scanning IP Blocks
+- [[07 ATT&CK Relationships/ATTACK-REL-2095 - detects|DET0894 detects T1587.004]] — Detection of Exploits → Exploits
+- [[07 ATT&CK Relationships/ATTACK-REL-2096 - detects|DET0868 detects T1595.003]] — Detection of Wordlist Scanning → Wordlist Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-2097 - detects|DET0078 detects T1059.009]] — Behavioral Detection of Malicious Cloud API Scripting → Cloud API
+- [[07 ATT&CK Relationships/ATTACK-REL-2098 - detects|DET0224 detects T1559.001]] — Detect Abuse of Component Object Model (T1559.001) → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-2099 - detects|DET0017 detects T1546.011]] — Detection Strategy for Application Shimming via sdbinst.exe and Registry Artifacts (Windows) → Application Shimming
+- [[07 ATT&CK Relationships/ATTACK-REL-2100 - detects|DET0347 detects T1036.005]] — Detection Strategy for Masquerading via Legitimate Resource Name or Location → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-2101 - detects|DET0585 detects T1127.003]] — Behavior-chain detection strategy for T1127.003 Trusted Developer Utilities Proxy Execution: JamPlus (Windows) → JamPlus
+- [[07 ATT&CK Relationships/ATTACK-REL-2102 - detects|DET0065 detects T1609]] — Detection Strategy for Container Administration Command Abuse → Container Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-2103 - detects|DET0538 detects T1572]] — Detection Strategy for Protocol Tunneling accross OS platforms. → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-2104 - detects|DET0846 detects T1585.003]] — Detection of Cloud Accounts → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2105 - detects|DET0131 detects T1048]] — Behavioral Detection Strategy for Exfiltration Over Alternative Protocol → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2106 - detects|DET0330 detects T1546.016]] — Detection Strategy for T1546.016 - Event Triggered Execution via Installer Packages → Installer Packages
+- [[07 ATT&CK Relationships/ATTACK-REL-2107 - detects|DET0419 detects T1568.002]] — Detection Strategy for Dynamic Resolution using Domain Generation Algorithms. → Domain Generation Algorithms
+- [[07 ATT&CK Relationships/ATTACK-REL-2108 - detects|DET0836 detects T1583.008]] — Detection of Malvertising → Malvertising
+- [[07 ATT&CK Relationships/ATTACK-REL-2109 - detects|DET0128 detects T1564.003]] — Detection Strategy for Hidden Windows → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-2110 - detects|DET0366 detects T1036.007]] — Detection Strategy for Double File Extension Masquerading → Double File Extension
+- [[07 ATT&CK Relationships/ATTACK-REL-2111 - detects|DET0533 detects T1677]] — Detection Strategy for Poisoned Pipeline Execution via SaaS CI/CD Workflows → Poisoned Pipeline Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2112 - detects|DET0219 detects T1611]] — Detection Strategy for Escape to Host → Escape to Host
+- [[07 ATT&CK Relationships/ATTACK-REL-2113 - detects|DET0920 detects T1027.018]] — Detection Strategy for Invisible Unicode → Invisible Unicode
+- [[07 ATT&CK Relationships/ATTACK-REL-2114 - detects|DET0414 detects T1059.002]] — Detection of AppleScript-Based Execution on macOS → AppleScript
+- [[07 ATT&CK Relationships/ATTACK-REL-2115 - detects|DET0167 detects T1495]] — Firmware Modification via Flash Tool or Corrupted Firmware Upload → Firmware Corruption
+- [[07 ATT&CK Relationships/ATTACK-REL-2116 - detects|DET0297 detects T1561.002]] — Detection Strategy for Disk Structure Wipe via Boot/Partition Overwrite → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-2117 - detects|DET0351 detects T1222.002]] — Unix-like File Permission Manipulation Behavioral Chain Detection Strategy → Linux and Mac Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-2118 - detects|DET0410 detects T1039]] — Detection Strategy for Data from Network Shared Drive → Data from Network Shared Drive
+- [[07 ATT&CK Relationships/ATTACK-REL-2119 - detects|DET0122 detects T1547.003]] — Detect Abuse of Windows Time Providers for Persistence → Time Providers
+- [[07 ATT&CK Relationships/ATTACK-REL-2120 - detects|DET0020 detects T1546.004]] — Detect Shell Configuration Modification for Persistence via Event-Triggered Execution → Unix Shell Configuration Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2121 - detects|DET0016 detects T1518.001]] — Security Software Discovery Across Platforms → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2122 - detects|DET0461 detects T1564.005]] — Detection Strategy for Hidden File System Abuse → Hidden File System
+- [[07 ATT&CK Relationships/ATTACK-REL-2123 - detects|DET0079 detects T1563]] — Detection of Remote Service Session Hijacking → Remote Service Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2124 - detects|DET0859 detects T1584.008]] — Detection of Network Devices → Network Devices
+- [[07 ATT&CK Relationships/ATTACK-REL-2125 - detects|DET0230 detects T1553.002]] — Detect Suspicious or Malicious Code Signing Abuse → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-2126 - detects|DET0445 detects T1090]] — Detection of Proxy Infrastructure Setup and Traffic Bridging → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-2127 - detects|DET0394 detects T1505.003]] — Web Shell Detection via Server Behavior and File Execution Chains → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2128 - detects|DET0830 detects T1595]] — Detection of Active Scanning → Active Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-2129 - detects|DET0485 detects T1568.001]] — Detection Strategy for Dynamic Resolution using Fast Flux DNS → Fast Flux DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-2130 - detects|DET0009 detects T1195.001]] — Supply-chain tamper in dependencies/dev-tools (manager→write/install→first-run→egress) → Compromise Software Dependencies and Development Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2131 - detects|DET0570 detects T1567.002]] — Detection Strategy for Exfiltration to Cloud Storage → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-2132 - detects|DET0089 detects T1056.001]] — Behavioral Detection of Keylogging Activity Across Platforms → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-2133 - detects|DET0034 detects T1057]] — Detection of Adversarial Process Discovery Behavior → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2134 - detects|DET0372 detects T1678]] — Multi-Platform Detection Strategy for T1678 - Delay Execution → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2135 - detects|DET0382 detects T1055.012]] — Detection Strategy for Process Hollowing on Windows → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-2136 - detects|DET0035 detects T1102.002]] — Detect Bidirectional Web Service C2 Channels via Process & Network Correlation → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-2137 - detects|DET0443 detects T1036.009]] — Detection Strategy for Masquerading via Breaking Process Trees → Break Process Trees
+- [[07 ATT&CK Relationships/ATTACK-REL-2138 - detects|DET0191 detects T1127.002]] — Behavior-chain detection strategy for T1127.002 Trusted Developer Utilities Proxy Execution: ClickOnce (Windows) → ClickOnce
+- [[07 ATT&CK Relationships/ATTACK-REL-2139 - detects|DET0459 detects T1612]] — Detection Strategy for Build Image on Host → Build Image on Host
+- [[07 ATT&CK Relationships/ATTACK-REL-2140 - detects|DET0480 detects T1056.003]] — Detection of Credential Harvesting via Web Portal Modification → Web Portal Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2141 - detects|DET0552 detects T1543.003]] — Detection of Windows Service Creation or Modification → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2142 - detects|DET0313 detects T1027.006]] — Detection Strategy for HTML Smuggling via JavaScript Blob + Dynamic File Drop → HTML Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-2143 - detects|DET0194 detects T1218.002]] — Detection of Malicious Control Panel Item Execution via control.exe or Rundll32 → Control Panel
+- [[07 ATT&CK Relationships/ATTACK-REL-2144 - detects|DET0049 detects T1070.007]] — Behavioral Detection of Network History and Configuration Tampering → Clear Network Connection History and Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-2145 - detects|DET0441 detects T1053.005]] — Detection of Suspicious Scheduled Task Creation and Execution on Windows → Scheduled Task
+
+## Technique hierarchy
+
+- [[07 ATT&CK Relationships/ATTACK-REL-2146 - subtechnique-of|T1608.005 subtechnique-of T1608]] — Link Target → Stage Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2147 - subtechnique-of|T1565.001 subtechnique-of T1565]] — Stored Data Manipulation → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2148 - subtechnique-of|T1546.011 subtechnique-of T1546]] — Application Shimming → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2149 - subtechnique-of|T1602.001 subtechnique-of T1602]] — SNMP (MIB Dump) → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-2150 - subtechnique-of|T1505.005 subtechnique-of T1505]] — Terminal Services DLL → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-2151 - subtechnique-of|T1584.008 subtechnique-of T1584]] — Network Devices → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2152 - subtechnique-of|T1059.001 subtechnique-of T1059]] — PowerShell → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2153 - subtechnique-of|T1056.001 subtechnique-of T1056]] — Keylogging → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2154 - subtechnique-of|T1505.001 subtechnique-of T1505]] — SQL Stored Procedures → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-2155 - subtechnique-of|T1591.004 subtechnique-of T1591]] — Identify Roles → Gather Victim Org Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2156 - subtechnique-of|T1059.010 subtechnique-of T1059]] — AutoHotKey & AutoIT → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2157 - subtechnique-of|T1561.001 subtechnique-of T1561]] — Disk Content Wipe → Disk Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-2158 - subtechnique-of|T1559.001 subtechnique-of T1559]] — Component Object Model → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-2159 - subtechnique-of|T1588.003 subtechnique-of T1588]] — Code Signing Certificates → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2160 - subtechnique-of|T1496.003 subtechnique-of T1496]] — SMS Pumping → Resource Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2161 - subtechnique-of|T1036.001 subtechnique-of T1036]] — Invalid Code Signature → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2162 - subtechnique-of|T1546.018 subtechnique-of T1546]] — Python Startup Hooks → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2163 - subtechnique-of|T1574.010 subtechnique-of T1574]] — Services File Permissions Weakness → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2164 - subtechnique-of|T1602.002 subtechnique-of T1602]] — Network Device Configuration Dump → Data from Configuration Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-2165 - subtechnique-of|T1550.004 subtechnique-of T1550]] — Web Session Cookie → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-2166 - subtechnique-of|T1589.001 subtechnique-of T1589]] — Credentials → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2167 - subtechnique-of|T1055.009 subtechnique-of T1055]] — Proc Memory → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2168 - subtechnique-of|T1218.011 subtechnique-of T1218]] — Rundll32 → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2169 - subtechnique-of|T1498.002 subtechnique-of T1498]] — Reflection Amplification → Network Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2170 - subtechnique-of|T1053.006 subtechnique-of T1053]] — Systemd Timers → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-2171 - subtechnique-of|T1055.001 subtechnique-of T1055]] — Dynamic-link Library Injection → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2172 - subtechnique-of|T1584.006 subtechnique-of T1584]] — Web Services → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2173 - subtechnique-of|T1027.017 subtechnique-of T1027]] — SVG Smuggling → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2174 - subtechnique-of|T1078.002 subtechnique-of T1078]] — Domain Accounts → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2175 - subtechnique-of|T1552.004 subtechnique-of T1552]] — Private Keys → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2176 - subtechnique-of|T1574.007 subtechnique-of T1574]] — Path Interception by PATH Environment Variable → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2177 - subtechnique-of|T1021.003 subtechnique-of T1021]] — Distributed Component Object Model → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2178 - subtechnique-of|T1059.009 subtechnique-of T1059]] — Cloud API → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2179 - subtechnique-of|T1567.001 subtechnique-of T1567]] — Exfiltration to Code Repository → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2180 - subtechnique-of|T1021.008 subtechnique-of T1021]] — Direct Cloud VM Connections → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2181 - subtechnique-of|T1056.003 subtechnique-of T1056]] — Web Portal Capture → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2182 - subtechnique-of|T1070.007 subtechnique-of T1070]] — Clear Network Connection History and Configurations → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-2183 - subtechnique-of|T1037.001 subtechnique-of T1037]] — Logon Script (Windows) → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-2184 - subtechnique-of|T1547.013 subtechnique-of T1547]] — XDG Autostart Entries → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2185 - subtechnique-of|T1480.001 subtechnique-of T1480]] — Environmental Keying → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-2186 - subtechnique-of|T1059.004 subtechnique-of T1059]] — Unix Shell → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2187 - subtechnique-of|T1546.012 subtechnique-of T1546]] — Image File Execution Options Injection → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2188 - subtechnique-of|T1071.005 subtechnique-of T1071]] — Publish/Subscribe Protocols → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2189 - subtechnique-of|T1056.002 subtechnique-of T1056]] — GUI Input Capture → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2190 - subtechnique-of|T1578.002 subtechnique-of T1578]] — Create Cloud Instance → Modify Cloud Compute Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2191 - subtechnique-of|T1553.004 subtechnique-of T1553]] — Install Root Certificate → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-2192 - subtechnique-of|T1204.003 subtechnique-of T1204]] — Malicious Image → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2193 - subtechnique-of|T1497.002 subtechnique-of T1497]] — User Activity Based Checks → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-2194 - subtechnique-of|T1574.006 subtechnique-of T1574]] — Dynamic Linker Hijacking → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2195 - subtechnique-of|T1055.008 subtechnique-of T1055]] — Ptrace System Calls → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2196 - subtechnique-of|T1055.013 subtechnique-of T1055]] — Process Doppelgänging → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2197 - subtechnique-of|T1071.003 subtechnique-of T1071]] — Mail Protocols → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2198 - subtechnique-of|T1069.001 subtechnique-of T1069]] — Local Groups → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2199 - subtechnique-of|T1573.001 subtechnique-of T1573]] — Symmetric Cryptography → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-2200 - subtechnique-of|T1567.004 subtechnique-of T1567]] — Exfiltration Over Webhook → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2201 - subtechnique-of|T1543.001 subtechnique-of T1543]] — Launch Agent → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2202 - subtechnique-of|T1048.002 subtechnique-of T1048]] — Exfiltration Over Asymmetric Encrypted Non-C2 Protocol → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2203 - subtechnique-of|T1564.008 subtechnique-of T1564]] — Email Hiding Rules → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2204 - subtechnique-of|T1542.001 subtechnique-of T1542]] — System Firmware → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-2205 - subtechnique-of|T1553.006 subtechnique-of T1553]] — Code Signing Policy Modification → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-2206 - subtechnique-of|T1599.001 subtechnique-of T1599]] — Network Address Translation Traversal → Network Boundary Bridging
+- [[07 ATT&CK Relationships/ATTACK-REL-2207 - subtechnique-of|T1027.007 subtechnique-of T1027]] — Dynamic API Resolution → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2208 - subtechnique-of|T1552.007 subtechnique-of T1552]] — Container API → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2209 - subtechnique-of|T1021.005 subtechnique-of T1021]] — VNC → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2210 - subtechnique-of|T1027.008 subtechnique-of T1027]] — Stripped Payloads → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2211 - subtechnique-of|T1685.002 subtechnique-of T1685]] — Disable or Modify Cloud Log → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2212 - subtechnique-of|T1590.003 subtechnique-of T1590]] — Network Trust Dependencies → Gather Victim Network Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2213 - subtechnique-of|T1021.004 subtechnique-of T1021]] — SSH → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2214 - subtechnique-of|T1542.002 subtechnique-of T1542]] — Component Firmware → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-2215 - subtechnique-of|T1496.001 subtechnique-of T1496]] — Compute Hijacking → Resource Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2216 - subtechnique-of|T1480.002 subtechnique-of T1480]] — Mutual Exclusion → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-2217 - subtechnique-of|T1027.010 subtechnique-of T1027]] — Command Obfuscation → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2218 - subtechnique-of|T1078.001 subtechnique-of T1078]] — Default Accounts → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2219 - subtechnique-of|T1684.002 subtechnique-of T1684]] — Email Spoofing → Social Engineering
+- [[07 ATT&CK Relationships/ATTACK-REL-2220 - subtechnique-of|T1587.004 subtechnique-of T1587]] — Exploits → Develop Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2221 - subtechnique-of|T1546.015 subtechnique-of T1546]] — Component Object Model Hijacking → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2222 - subtechnique-of|T1574.012 subtechnique-of T1574]] — COR_PROFILER → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2223 - subtechnique-of|T1686.003 subtechnique-of T1686]] — Windows Host Firewall → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-2224 - subtechnique-of|T1592.004 subtechnique-of T1592]] — Client Configurations → Gather Victim Host Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2225 - subtechnique-of|T1087.001 subtechnique-of T1087]] — Local Account → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2226 - subtechnique-of|T1552.003 subtechnique-of T1552]] — Shell History → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2227 - subtechnique-of|T1053.002 subtechnique-of T1053]] — At → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-2228 - subtechnique-of|T1564.006 subtechnique-of T1564]] — Run Virtual Instance → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2229 - subtechnique-of|T1560.003 subtechnique-of T1560]] — Archive via Custom Method → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-2230 - subtechnique-of|T1567.003 subtechnique-of T1567]] — Exfiltration to Text Storage Sites → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2231 - subtechnique-of|T1218.005 subtechnique-of T1218]] — Mshta → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2232 - subtechnique-of|T1559.002 subtechnique-of T1559]] — Dynamic Data Exchange → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-2233 - subtechnique-of|T1219.001 subtechnique-of T1219]] — IDE Tunneling → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2234 - subtechnique-of|T1546.008 subtechnique-of T1546]] — Accessibility Features → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2235 - subtechnique-of|T1110.002 subtechnique-of T1110]] — Password Cracking → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-2236 - subtechnique-of|T1593.001 subtechnique-of T1593]] — Social Media → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-2237 - subtechnique-of|T1036.009 subtechnique-of T1036]] — Break Process Trees → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2238 - subtechnique-of|T1595.003 subtechnique-of T1595]] — Wordlist Scanning → Active Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-2239 - subtechnique-of|T1560.002 subtechnique-of T1560]] — Archive via Library → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-2240 - subtechnique-of|T1583.003 subtechnique-of T1583]] — Virtual Private Server → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2241 - subtechnique-of|T1578.004 subtechnique-of T1578]] — Revert Cloud Instance → Modify Cloud Compute Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2242 - subtechnique-of|T1003.003 subtechnique-of T1003]] — NTDS → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2243 - subtechnique-of|T1548.003 subtechnique-of T1548]] — Sudo and Sudo Caching → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-2244 - subtechnique-of|T1596.004 subtechnique-of T1596]] — CDNs → Search Open Technical Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-2245 - subtechnique-of|T1592.001 subtechnique-of T1592]] — Hardware → Gather Victim Host Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2246 - subtechnique-of|T1219.002 subtechnique-of T1219]] — Remote Desktop Software → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2247 - subtechnique-of|T1583.004 subtechnique-of T1583]] — Server → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2248 - subtechnique-of|T1037.003 subtechnique-of T1037]] — Network Logon Script → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-2249 - subtechnique-of|T1218.014 subtechnique-of T1218]] — MMC → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2250 - subtechnique-of|T1685.006 subtechnique-of T1685]] — Clear Linux or Mac System Logs → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2251 - subtechnique-of|T1589.003 subtechnique-of T1589]] — Employee Names → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2252 - subtechnique-of|T1098.001 subtechnique-of T1098]] — Additional Cloud Credentials → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2253 - subtechnique-of|T1055.011 subtechnique-of T1055]] — Extra Window Memory Injection → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2254 - subtechnique-of|T1003.004 subtechnique-of T1003]] — LSA Secrets → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2255 - subtechnique-of|T1588.006 subtechnique-of T1588]] — Vulnerabilities → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2256 - subtechnique-of|T1087.002 subtechnique-of T1087]] — Domain Account → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2257 - subtechnique-of|T1683.001 subtechnique-of T1683]] — Written Content → Generate Content
+- [[07 ATT&CK Relationships/ATTACK-REL-2258 - subtechnique-of|T1127.003 subtechnique-of T1127]] — JamPlus → Trusted Developer Utilities Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2259 - subtechnique-of|T1498.001 subtechnique-of T1498]] — Direct Network Flood → Network Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2260 - subtechnique-of|T1205.001 subtechnique-of T1205]] — Port Knocking → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-2261 - subtechnique-of|T1001.003 subtechnique-of T1001]] — Protocol or Service Impersonation → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-2262 - subtechnique-of|T1070.005 subtechnique-of T1070]] — Network Share Connection Removal → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-2263 - subtechnique-of|T1597.001 subtechnique-of T1597]] — Threat Intel Vendors → Search Closed Sources
+- [[07 ATT&CK Relationships/ATTACK-REL-2264 - subtechnique-of|T1564.003 subtechnique-of T1564]] — Hidden Window → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2265 - subtechnique-of|T1585.003 subtechnique-of T1585]] — Cloud Accounts → Establish Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2266 - subtechnique-of|T1027.013 subtechnique-of T1027]] — Encrypted/Encoded File → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2267 - subtechnique-of|T1564.014 subtechnique-of T1564]] — Extended Attributes → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2268 - subtechnique-of|T1127.001 subtechnique-of T1127]] — MSBuild → Trusted Developer Utilities Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2269 - subtechnique-of|T1591.001 subtechnique-of T1591]] — Determine Physical Locations → Gather Victim Org Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2270 - subtechnique-of|T1218.004 subtechnique-of T1218]] — InstallUtil → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2271 - subtechnique-of|T1134.003 subtechnique-of T1134]] — Make and Impersonate Token → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2272 - subtechnique-of|T1110.001 subtechnique-of T1110]] — Password Guessing → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-2273 - subtechnique-of|T1543.002 subtechnique-of T1543]] — Systemd Service → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2274 - subtechnique-of|T1136.001 subtechnique-of T1136]] — Local Account → Create Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2275 - subtechnique-of|T1598.004 subtechnique-of T1598]] — Spearphishing Voice → Phishing for Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2276 - subtechnique-of|T1218.010 subtechnique-of T1218]] — Regsvr32 → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2277 - subtechnique-of|T1546.002 subtechnique-of T1546]] — Screensaver → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2278 - subtechnique-of|T1561.002 subtechnique-of T1561]] — Disk Structure Wipe → Disk Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-2279 - subtechnique-of|T1608.001 subtechnique-of T1608]] — Upload Malware → Stage Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2280 - subtechnique-of|T1567.002 subtechnique-of T1567]] — Exfiltration to Cloud Storage → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2281 - subtechnique-of|T1550.003 subtechnique-of T1550]] — Pass the Ticket → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-2282 - subtechnique-of|T1558.002 subtechnique-of T1558]] — Silver Ticket → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-2283 - subtechnique-of|T1555.001 subtechnique-of T1555]] — Keychain → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-2284 - subtechnique-of|T1564.001 subtechnique-of T1564]] — Hidden Files and Directories → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2285 - subtechnique-of|T1590.005 subtechnique-of T1590]] — IP Addresses → Gather Victim Network Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2286 - subtechnique-of|T1496.002 subtechnique-of T1496]] — Bandwidth Hijacking → Resource Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2287 - subtechnique-of|T1583.008 subtechnique-of T1583]] — Malvertising → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2288 - subtechnique-of|T1590.001 subtechnique-of T1590]] — Domain Properties → Gather Victim Network Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2289 - subtechnique-of|T1070.003 subtechnique-of T1070]] — Clear Command History → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-2290 - subtechnique-of|T1564.009 subtechnique-of T1564]] — Resource Forking → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2291 - subtechnique-of|T1583.001 subtechnique-of T1583]] — Domains → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2292 - subtechnique-of|T1036.004 subtechnique-of T1036]] — Masquerade Task or Service → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2293 - subtechnique-of|T1553.005 subtechnique-of T1553]] — Mark-of-the-Web Bypass → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-2294 - subtechnique-of|T1574.009 subtechnique-of T1574]] — Path Interception by Unquoted Path → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2295 - subtechnique-of|T1547.005 subtechnique-of T1547]] — Security Support Provider → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2296 - subtechnique-of|T1055.005 subtechnique-of T1055]] — Thread Local Storage → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2297 - subtechnique-of|T1686.002 subtechnique-of T1686]] — Network Device Firewall → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-2298 - subtechnique-of|T1059.003 subtechnique-of T1059]] — Windows Command Shell → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2299 - subtechnique-of|T1016.002 subtechnique-of T1016]] — Wi-Fi Discovery → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2300 - subtechnique-of|T1558.005 subtechnique-of T1558]] — Ccache Files → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-2301 - subtechnique-of|T1565.003 subtechnique-of T1565]] — Runtime Data Manipulation → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2302 - subtechnique-of|T1059.008 subtechnique-of T1059]] — Network Device CLI → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2303 - subtechnique-of|T1546.009 subtechnique-of T1546]] — AppCert DLLs → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2304 - subtechnique-of|T1036.007 subtechnique-of T1036]] — Double File Extension → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2305 - subtechnique-of|T1555.005 subtechnique-of T1555]] — Password Managers → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-2306 - subtechnique-of|T1027.018 subtechnique-of T1027]] — Invisible Unicode → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2307 - subtechnique-of|T1584.001 subtechnique-of T1584]] — Domains → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2308 - subtechnique-of|T1685.005 subtechnique-of T1685]] — Clear Windows Event Logs → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2309 - subtechnique-of|T1578.005 subtechnique-of T1578]] — Modify Cloud Compute Configurations → Modify Cloud Compute Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2310 - subtechnique-of|T1583.007 subtechnique-of T1583]] — Serverless → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2311 - subtechnique-of|T1556.004 subtechnique-of T1556]] — Network Device Authentication → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2312 - subtechnique-of|T1027.001 subtechnique-of T1027]] — Binary Padding → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2313 - subtechnique-of|T1569.001 subtechnique-of T1569]] — Launchctl → System Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2314 - subtechnique-of|T1218.001 subtechnique-of T1218]] — Compiled HTML File → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2315 - subtechnique-of|T1556.007 subtechnique-of T1556]] — Hybrid Identity → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2316 - subtechnique-of|T1552.006 subtechnique-of T1552]] — Group Policy Preferences → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2317 - subtechnique-of|T1601.002 subtechnique-of T1601]] — Downgrade System Image → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-2318 - subtechnique-of|T1195.003 subtechnique-of T1195]] — Compromise Hardware Supply Chain → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-2319 - subtechnique-of|T1555.006 subtechnique-of T1555]] — Cloud Secrets Management Stores → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-2320 - subtechnique-of|T1542.004 subtechnique-of T1542]] — ROMMONkit → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-2321 - subtechnique-of|T1547.009 subtechnique-of T1547]] — Shortcut Modification → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2322 - subtechnique-of|T1596.003 subtechnique-of T1596]] — Digital Certificates → Search Open Technical Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-2323 - subtechnique-of|T1600.001 subtechnique-of T1600]] — Reduce Key Space → Weaken Encryption
+- [[07 ATT&CK Relationships/ATTACK-REL-2324 - subtechnique-of|T1556.003 subtechnique-of T1556]] — Pluggable Authentication Modules → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2325 - subtechnique-of|T1546.006 subtechnique-of T1546]] — LC_LOAD_DYLIB Addition → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2326 - subtechnique-of|T1548.006 subtechnique-of T1548]] — TCC Manipulation → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-2327 - subtechnique-of|T1037.002 subtechnique-of T1037]] — Login Hook → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-2328 - subtechnique-of|T1027.015 subtechnique-of T1027]] — Compression → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2329 - subtechnique-of|T1557.001 subtechnique-of T1557]] — Name Resolution Poisoning and SMB Relay → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-2330 - subtechnique-of|T1499.001 subtechnique-of T1499]] — OS Exhaustion Flood → Endpoint Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2331 - subtechnique-of|T1059.012 subtechnique-of T1059]] — Hypervisor CLI → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2332 - subtechnique-of|T1685.004 subtechnique-of T1685]] — Disable or Modify Linux Audit System Log → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2333 - subtechnique-of|T1059.013 subtechnique-of T1059]] — Container CLI/API → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2334 - subtechnique-of|T1036.011 subtechnique-of T1036]] — Overwrite Process Arguments → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2335 - subtechnique-of|T1110.003 subtechnique-of T1110]] — Password Spraying → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-2336 - subtechnique-of|T1071.001 subtechnique-of T1071]] — Web Protocols → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2337 - subtechnique-of|T1090.001 subtechnique-of T1090]] — Internal Proxy → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-2338 - subtechnique-of|T1588.007 subtechnique-of T1588]] — Artificial Intelligence → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2339 - subtechnique-of|T1586.003 subtechnique-of T1586]] — Cloud Accounts → Compromise Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2340 - subtechnique-of|T1555.003 subtechnique-of T1555]] — Credentials from Web Browsers → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-2341 - subtechnique-of|T1027.014 subtechnique-of T1027]] — Polymorphic Code → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2342 - subtechnique-of|T1137.001 subtechnique-of T1137]] — Office Template Macros → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-2343 - subtechnique-of|T1546.001 subtechnique-of T1546]] — Change Default File Association → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2344 - subtechnique-of|T1499.004 subtechnique-of T1499]] — Application or System Exploitation → Endpoint Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2345 - subtechnique-of|T1098.007 subtechnique-of T1098]] — Additional Local or Domain Groups → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2346 - subtechnique-of|T1556.009 subtechnique-of T1556]] — Conditional Access Policies → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2347 - subtechnique-of|T1037.004 subtechnique-of T1037]] — RC Scripts → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-2348 - subtechnique-of|T1070.010 subtechnique-of T1070]] — Relocate Malware → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-2349 - subtechnique-of|T1587.001 subtechnique-of T1587]] — Malware → Develop Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2350 - subtechnique-of|T1563.001 subtechnique-of T1563]] — SSH Hijacking → Remote Service Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2351 - subtechnique-of|T1564.010 subtechnique-of T1564]] — Process Argument Spoofing → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2352 - subtechnique-of|T1518.001 subtechnique-of T1518]] — Security Software Discovery → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2353 - subtechnique-of|T1608.006 subtechnique-of T1608]] — SEO Poisoning → Stage Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2354 - subtechnique-of|T1547.008 subtechnique-of T1547]] — LSASS Driver → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2355 - subtechnique-of|T1036.002 subtechnique-of T1036]] — Right-to-Left Override → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2356 - subtechnique-of|T1542.005 subtechnique-of T1542]] — TFTP Boot → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-2357 - subtechnique-of|T1222.001 subtechnique-of T1222]] — Windows Permissions → File and Directory Permissions Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2358 - subtechnique-of|T1683.002 subtechnique-of T1683]] — Audio-Visual Content → Generate Content
+- [[07 ATT&CK Relationships/ATTACK-REL-2359 - subtechnique-of|T1552.002 subtechnique-of T1552]] — Credentials in Registry → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2360 - subtechnique-of|T1556.001 subtechnique-of T1556]] — Domain Controller Authentication → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2361 - subtechnique-of|T1557.004 subtechnique-of T1557]] — Evil Twin → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-2362 - subtechnique-of|T1543.005 subtechnique-of T1543]] — Container Service → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2363 - subtechnique-of|T1583.005 subtechnique-of T1583]] — Botnet → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2364 - subtechnique-of|T1685.001 subtechnique-of T1685]] — Disable or Modify Windows Event Log → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2365 - subtechnique-of|T1505.002 subtechnique-of T1505]] — Transport Agent → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-2366 - subtechnique-of|T1497.003 subtechnique-of T1497]] — Time Based Checks → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-2367 - subtechnique-of|T1055.004 subtechnique-of T1055]] — Asynchronous Procedure Call → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2368 - subtechnique-of|T1027.011 subtechnique-of T1027]] — Fileless Storage → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2369 - subtechnique-of|T1558.004 subtechnique-of T1558]] — AS-REP Roasting → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-2370 - subtechnique-of|T1213.002 subtechnique-of T1213]] — Sharepoint → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-2371 - subtechnique-of|T1027.012 subtechnique-of T1027]] — LNK Icon Smuggling → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2372 - subtechnique-of|T1558.001 subtechnique-of T1558]] — Golden Ticket → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-2373 - subtechnique-of|T1546.007 subtechnique-of T1546]] — Netsh Helper DLL → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2374 - subtechnique-of|T1547.003 subtechnique-of T1547]] — Time Providers → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2375 - subtechnique-of|T1568.002 subtechnique-of T1568]] — Domain Generation Algorithms → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-2376 - subtechnique-of|T1087.004 subtechnique-of T1087]] — Cloud Account → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2377 - subtechnique-of|T1552.001 subtechnique-of T1552]] — Credentials In Files → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2378 - subtechnique-of|T1593.002 subtechnique-of T1593]] — Search Engines → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-2379 - subtechnique-of|T1059.006 subtechnique-of T1059]] — Python → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2380 - subtechnique-of|T1588.001 subtechnique-of T1588]] — Malware → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2381 - subtechnique-of|T1053.007 subtechnique-of T1053]] — Container Orchestration Job → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-2382 - subtechnique-of|T1204.002 subtechnique-of T1204]] — Malicious File → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2383 - subtechnique-of|T1204.001 subtechnique-of T1204]] — Malicious Link → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2384 - subtechnique-of|T1584.003 subtechnique-of T1584]] — Virtual Private Server → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2385 - subtechnique-of|T1546.013 subtechnique-of T1546]] — PowerShell Profile → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2386 - subtechnique-of|T1027.003 subtechnique-of T1027]] — Steganography → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2387 - subtechnique-of|T1547.014 subtechnique-of T1547]] — Active Setup → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2388 - subtechnique-of|T1584.004 subtechnique-of T1584]] — Server → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2389 - subtechnique-of|T1566.001 subtechnique-of T1566]] — Spearphishing Attachment → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-2390 - subtechnique-of|T1497.001 subtechnique-of T1497]] — System Checks → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-2391 - subtechnique-of|T1213.006 subtechnique-of T1213]] — Databases → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-2392 - subtechnique-of|T1055.012 subtechnique-of T1055]] — Process Hollowing → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2393 - subtechnique-of|T1216.001 subtechnique-of T1216]] — PubPrn → System Script Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2394 - subtechnique-of|T1548.004 subtechnique-of T1548]] — Elevated Execution with Prompt → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-2395 - subtechnique-of|T1021.006 subtechnique-of T1021]] — Windows Remote Management → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2396 - subtechnique-of|T1036.006 subtechnique-of T1036]] — Space after Filename → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2397 - subtechnique-of|T1055.002 subtechnique-of T1055]] — Portable Executable Injection → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2398 - subtechnique-of|T1601.001 subtechnique-of T1601]] — Patch System Image → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-2399 - subtechnique-of|T1566.004 subtechnique-of T1566]] — Spearphishing Voice → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-2400 - subtechnique-of|T1496.004 subtechnique-of T1496]] — Cloud Service Hijacking → Resource Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2401 - subtechnique-of|T1218.007 subtechnique-of T1218]] — Msiexec → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2402 - subtechnique-of|T1590.004 subtechnique-of T1590]] — Network Topology → Gather Victim Network Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2403 - subtechnique-of|T1547.007 subtechnique-of T1547]] — Re-opened Applications → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2404 - subtechnique-of|T1518.002 subtechnique-of T1518]] — Backup Software Discovery → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2405 - subtechnique-of|T1078.004 subtechnique-of T1078]] — Cloud Accounts → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2406 - subtechnique-of|T1134.001 subtechnique-of T1134]] — Token Impersonation/Theft → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2407 - subtechnique-of|T1685.003 subtechnique-of T1685]] — Modify or Spoof Tool UI → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2408 - subtechnique-of|T1608.004 subtechnique-of T1608]] — Drive-by Target → Stage Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2409 - subtechnique-of|T1491.002 subtechnique-of T1491]] — External Defacement → Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-2410 - subtechnique-of|T1574.014 subtechnique-of T1574]] — AppDomainManager → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2411 - subtechnique-of|T1606.002 subtechnique-of T1606]] — SAML Tokens → Forge Web Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2412 - subtechnique-of|T1558.003 subtechnique-of T1558]] — Kerberoasting → Steal or Forge Kerberos Tickets
+- [[07 ATT&CK Relationships/ATTACK-REL-2413 - subtechnique-of|T1543.004 subtechnique-of T1543]] — Launch Daemon → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2414 - subtechnique-of|T1596.005 subtechnique-of T1596]] — Scan Databases → Search Open Technical Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-2415 - subtechnique-of|T1499.002 subtechnique-of T1499]] — Service Exhaustion Flood → Endpoint Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2416 - subtechnique-of|T1587.002 subtechnique-of T1587]] — Code Signing Certificates → Develop Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2417 - subtechnique-of|T1505.006 subtechnique-of T1505]] — vSphere Installation Bundles → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-2418 - subtechnique-of|T1547.004 subtechnique-of T1547]] — Winlogon Helper DLL → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2419 - subtechnique-of|T1553.003 subtechnique-of T1553]] — SIP and Trust Provider Hijacking → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-2420 - subtechnique-of|T1176.002 subtechnique-of T1176]] — IDE Extensions → Software Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-2421 - subtechnique-of|T1003.005 subtechnique-of T1003]] — Cached Domain Credentials → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2422 - subtechnique-of|T1027.006 subtechnique-of T1027]] — HTML Smuggling → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2423 - subtechnique-of|T1098.006 subtechnique-of T1098]] — Additional Container Cluster Roles → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2424 - subtechnique-of|T1598.001 subtechnique-of T1598]] — Spearphishing Service → Phishing for Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2425 - subtechnique-of|T1059.007 subtechnique-of T1059]] — JavaScript → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2426 - subtechnique-of|T1592.002 subtechnique-of T1592]] — Software → Gather Victim Host Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2427 - subtechnique-of|T1137.005 subtechnique-of T1137]] — Outlook Rules → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-2428 - subtechnique-of|T1059.011 subtechnique-of T1059]] — Lua → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2429 - subtechnique-of|T1001.002 subtechnique-of T1001]] — Steganography → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-2430 - subtechnique-of|T1137.003 subtechnique-of T1137]] — Outlook Forms → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-2431 - subtechnique-of|T1056.004 subtechnique-of T1056]] — Credential API Hooking → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2432 - subtechnique-of|T1205.002 subtechnique-of T1205]] — Socket Filters → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-2433 - subtechnique-of|T1598.003 subtechnique-of T1598]] — Spearphishing Link → Phishing for Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2434 - subtechnique-of|T1606.001 subtechnique-of T1606]] — Web Cookies → Forge Web Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2435 - subtechnique-of|T1213.001 subtechnique-of T1213]] — Confluence → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-2436 - subtechnique-of|T1176.001 subtechnique-of T1176]] — Browser Extensions → Software Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-2437 - subtechnique-of|T1588.002 subtechnique-of T1588]] — Tool → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2438 - subtechnique-of|T1596.001 subtechnique-of T1596]] — DNS/Passive DNS → Search Open Technical Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-2439 - subtechnique-of|T1553.002 subtechnique-of T1553]] — Code Signing → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-2440 - subtechnique-of|T1090.003 subtechnique-of T1090]] — Multi-hop Proxy → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-2441 - subtechnique-of|T1568.001 subtechnique-of T1568]] — Fast Flux DNS → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-2442 - subtechnique-of|T1546.005 subtechnique-of T1546]] — Trap → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2443 - subtechnique-of|T1556.006 subtechnique-of T1556]] — Multi-Factor Authentication → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2444 - subtechnique-of|T1569.002 subtechnique-of T1569]] — Service Execution → System Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2445 - subtechnique-of|T1597.002 subtechnique-of T1597]] — Purchase Technical Data → Search Closed Sources
+- [[07 ATT&CK Relationships/ATTACK-REL-2446 - subtechnique-of|T1568.003 subtechnique-of T1568]] — DNS Calculation → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-2447 - subtechnique-of|T1546.014 subtechnique-of T1546]] — Emond → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2448 - subtechnique-of|T1098.002 subtechnique-of T1098]] — Additional Email Delegate Permissions → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2449 - subtechnique-of|T1204.005 subtechnique-of T1204]] — Malicious Library → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2450 - subtechnique-of|T1574.013 subtechnique-of T1574]] — KernelCallbackTable → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2451 - subtechnique-of|T1213.003 subtechnique-of T1213]] — Code Repositories → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-2452 - subtechnique-of|T1547.010 subtechnique-of T1547]] — Port Monitors → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2453 - subtechnique-of|T1098.005 subtechnique-of T1098]] — Device Registration → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2454 - subtechnique-of|T1078.003 subtechnique-of T1078]] — Local Accounts → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2455 - subtechnique-of|T1574.008 subtechnique-of T1574]] — Path Interception by Search Order Hijacking → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2456 - subtechnique-of|T1559.003 subtechnique-of T1559]] — XPC Services → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-2457 - subtechnique-of|T1564.007 subtechnique-of T1564]] — VBA Stomping → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2458 - subtechnique-of|T1134.002 subtechnique-of T1134]] — Create Process with Token → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2459 - subtechnique-of|T1587.003 subtechnique-of T1587]] — Digital Certificates → Develop Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2460 - subtechnique-of|T1069.003 subtechnique-of T1069]] — Cloud Groups → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2461 - subtechnique-of|T1505.004 subtechnique-of T1505]] — IIS Components → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-2462 - subtechnique-of|T1218.012 subtechnique-of T1218]] — Verclsid → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2463 - subtechnique-of|T1016.001 subtechnique-of T1016]] — Internet Connection Discovery → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2464 - subtechnique-of|T1547.015 subtechnique-of T1547]] — Login Items → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2465 - subtechnique-of|T1565.002 subtechnique-of T1565]] — Transmitted Data Manipulation → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2466 - subtechnique-of|T1218.002 subtechnique-of T1218]] — Control Panel → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2467 - subtechnique-of|T1052.001 subtechnique-of T1052]] — Exfiltration over USB → Exfiltration Over Physical Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-2468 - subtechnique-of|T1590.002 subtechnique-of T1590]] — DNS → Gather Victim Network Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2469 - subtechnique-of|T1484.001 subtechnique-of T1484]] — Group Policy Modification → Domain or Tenant Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2470 - subtechnique-of|T1114.002 subtechnique-of T1114]] — Remote Email Collection → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-2471 - subtechnique-of|T1548.001 subtechnique-of T1548]] — Setuid and Setgid → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-2472 - subtechnique-of|T1070.008 subtechnique-of T1070]] — Clear Mailbox Data → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-2473 - subtechnique-of|T1127.002 subtechnique-of T1127]] — ClickOnce → Trusted Developer Utilities Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2474 - subtechnique-of|T1574.011 subtechnique-of T1574]] — Services Registry Permissions Weakness → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2475 - subtechnique-of|T1070.004 subtechnique-of T1070]] — File Deletion → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-2476 - subtechnique-of|T1578.001 subtechnique-of T1578]] — Create Snapshot → Modify Cloud Compute Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2477 - subtechnique-of|T1546.010 subtechnique-of T1546]] — AppInit DLLs → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2478 - subtechnique-of|T1137.002 subtechnique-of T1137]] — Office Test → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-2479 - subtechnique-of|T1608.003 subtechnique-of T1608]] — Install Digital Certificate → Stage Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2480 - subtechnique-of|T1218.015 subtechnique-of T1218]] — Electron Applications → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2481 - subtechnique-of|T1134.005 subtechnique-of T1134]] — SID-History Injection → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2482 - subtechnique-of|T1556.008 subtechnique-of T1556]] — Network Provider DLL → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2483 - subtechnique-of|T1578.003 subtechnique-of T1578]] — Delete Cloud Instance → Modify Cloud Compute Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2484 - subtechnique-of|T1591.003 subtechnique-of T1591]] — Identify Business Tempo → Gather Victim Org Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2485 - subtechnique-of|T1036.010 subtechnique-of T1036]] — Masquerade Account Name → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2486 - subtechnique-of|T1557.002 subtechnique-of T1557]] — ARP Cache Poisoning → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-2487 - subtechnique-of|T1547.012 subtechnique-of T1547]] — Print Processors → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2488 - subtechnique-of|T1098.003 subtechnique-of T1098]] — Additional Cloud Roles → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2489 - subtechnique-of|T1074.002 subtechnique-of T1074]] — Remote Data Staging → Data Staged
+- [[07 ATT&CK Relationships/ATTACK-REL-2490 - subtechnique-of|T1566.003 subtechnique-of T1566]] — Spearphishing via Service → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-2491 - subtechnique-of|T1134.004 subtechnique-of T1134]] — Parent PID Spoofing → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2492 - subtechnique-of|T1003.007 subtechnique-of T1003]] — Proc Filesystem → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2493 - subtechnique-of|T1027.009 subtechnique-of T1027]] — Embedded Payloads → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2494 - subtechnique-of|T1102.002 subtechnique-of T1102]] — Bidirectional Communication → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2495 - subtechnique-of|T1499.003 subtechnique-of T1499]] — Application Exhaustion Flood → Endpoint Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2496 - subtechnique-of|T1557.003 subtechnique-of T1557]] — DHCP Spoofing → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-2497 - subtechnique-of|T1573.002 subtechnique-of T1573]] — Asymmetric Cryptography → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-2498 - subtechnique-of|T1037.005 subtechnique-of T1037]] — Startup Items → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-2499 - subtechnique-of|T1036.012 subtechnique-of T1036]] — Browser Fingerprint → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2500 - subtechnique-of|T1003.002 subtechnique-of T1003]] — Security Account Manager → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2501 - subtechnique-of|T1055.015 subtechnique-of T1055]] — ListPlanting → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2502 - subtechnique-of|T1586.001 subtechnique-of T1586]] — Social Media Accounts → Compromise Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2503 - subtechnique-of|T1137.006 subtechnique-of T1137]] — Add-ins → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-2504 - subtechnique-of|T1590.006 subtechnique-of T1590]] — Network Security Appliances → Gather Victim Network Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2505 - subtechnique-of|T1132.001 subtechnique-of T1132]] — Standard Encoding → Data Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-2506 - subtechnique-of|T1564.005 subtechnique-of T1564]] — Hidden File System → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2507 - subtechnique-of|T1053.005 subtechnique-of T1053]] — Scheduled Task → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-2508 - subtechnique-of|T1589.002 subtechnique-of T1589]] — Email Addresses → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2509 - subtechnique-of|T1591.002 subtechnique-of T1591]] — Business Relationships → Gather Victim Org Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2510 - subtechnique-of|T1036.005 subtechnique-of T1036]] — Match Legitimate Resource Name or Location → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2511 - subtechnique-of|T1021.007 subtechnique-of T1021]] — Cloud Services → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2512 - subtechnique-of|T1569.003 subtechnique-of T1569]] — Systemctl → System Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2513 - subtechnique-of|T1136.003 subtechnique-of T1136]] — Cloud Account → Create Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2514 - subtechnique-of|T1114.001 subtechnique-of T1114]] — Local Email Collection → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-2515 - subtechnique-of|T1213.005 subtechnique-of T1213]] — Messaging Applications → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-2516 - subtechnique-of|T1137.004 subtechnique-of T1137]] — Outlook Home Page → Office Application Startup
+- [[07 ATT&CK Relationships/ATTACK-REL-2517 - subtechnique-of|T1550.002 subtechnique-of T1550]] — Pass the Hash → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-2518 - subtechnique-of|T1588.005 subtechnique-of T1588]] — Exploits → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2519 - subtechnique-of|T1098.004 subtechnique-of T1098]] — SSH Authorized Keys → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2520 - subtechnique-of|T1584.007 subtechnique-of T1584]] — Serverless → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2521 - subtechnique-of|T1003.008 subtechnique-of T1003]] — /etc/passwd and /etc/shadow → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2522 - subtechnique-of|T1003.006 subtechnique-of T1003]] — DCSync → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2523 - subtechnique-of|T1132.002 subtechnique-of T1132]] — Non-Standard Encoding → Data Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-2524 - subtechnique-of|T1546.017 subtechnique-of T1546]] — Udev Rules → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2525 - subtechnique-of|T1485.001 subtechnique-of T1485]] — Lifecycle-Triggered Deletion → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-2526 - subtechnique-of|T1027.004 subtechnique-of T1027]] — Compile After Delivery → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2527 - subtechnique-of|T1583.006 subtechnique-of T1583]] — Web Services → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2528 - subtechnique-of|T1584.005 subtechnique-of T1584]] — Botnet → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2529 - subtechnique-of|T1583.002 subtechnique-of T1583]] — DNS Server → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2530 - subtechnique-of|T1053.003 subtechnique-of T1053]] — Cron → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-2531 - subtechnique-of|T1036.003 subtechnique-of T1036]] — Rename Legitimate Utilities → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2532 - subtechnique-of|T1216.002 subtechnique-of T1216]] — SyncAppvPublishingServer → System Script Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2533 - subtechnique-of|T1563.002 subtechnique-of T1563]] — RDP Hijacking → Remote Service Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2534 - subtechnique-of|T1547.002 subtechnique-of T1547]] — Authentication Package → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2535 - subtechnique-of|T1011.001 subtechnique-of T1011]] — Exfiltration Over Bluetooth → Exfiltration Over Other Network Medium
+- [[07 ATT&CK Relationships/ATTACK-REL-2536 - subtechnique-of|T1204.004 subtechnique-of T1204]] — Malicious Copy and Paste → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2537 - subtechnique-of|T1195.002 subtechnique-of T1195]] — Compromise Software Supply Chain → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-2538 - subtechnique-of|T1114.003 subtechnique-of T1114]] — Email Forwarding Rule → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-2539 - subtechnique-of|T1586.002 subtechnique-of T1586]] — Email Accounts → Compromise Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2540 - subtechnique-of|T1596.002 subtechnique-of T1596]] — WHOIS → Search Open Technical Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-2541 - subtechnique-of|T1592.003 subtechnique-of T1592]] — Firmware → Gather Victim Host Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2542 - subtechnique-of|T1027.002 subtechnique-of T1027]] — Software Packing → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2543 - subtechnique-of|T1036.008 subtechnique-of T1036]] — Masquerade File Type → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2544 - subtechnique-of|T1588.004 subtechnique-of T1588]] — Digital Certificates → Obtain Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2545 - subtechnique-of|T1574.005 subtechnique-of T1574]] — Executable Installer File Permissions Weakness → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2546 - subtechnique-of|T1090.002 subtechnique-of T1090]] — External Proxy → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-2547 - subtechnique-of|T1564.004 subtechnique-of T1564]] — NTFS File Attributes → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2548 - subtechnique-of|T1218.013 subtechnique-of T1218]] — Mavinject → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2549 - subtechnique-of|T1218.009 subtechnique-of T1218]] — Regsvcs/Regasm → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2550 - subtechnique-of|T1595.002 subtechnique-of T1595]] — Vulnerability Scanning → Active Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-2551 - subtechnique-of|T1110.004 subtechnique-of T1110]] — Credential Stuffing → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-2552 - subtechnique-of|T1059.002 subtechnique-of T1059]] — AppleScript → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2553 - subtechnique-of|T1543.003 subtechnique-of T1543]] — Windows Service → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2554 - subtechnique-of|T1218.003 subtechnique-of T1218]] — CMSTP → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2555 - subtechnique-of|T1484.002 subtechnique-of T1484]] — Trust Modification → Domain or Tenant Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2556 - subtechnique-of|T1593.003 subtechnique-of T1593]] — Code Repositories → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-2557 - subtechnique-of|T1195.001 subtechnique-of T1195]] — Compromise Software Dependencies and Development Tools → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-2558 - subtechnique-of|T1686.001 subtechnique-of T1686]] — Cloud Firewall → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-2559 - subtechnique-of|T1219.003 subtechnique-of T1219]] — Remote Access Hardware → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2560 - subtechnique-of|T1550.001 subtechnique-of T1550]] — Application Access Token → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-2561 - subtechnique-of|T1547.001 subtechnique-of T1547]] — Registry Run Keys / Startup Folder → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2562 - subtechnique-of|T1548.002 subtechnique-of T1548]] — Bypass User Account Control → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-2563 - subtechnique-of|T1556.002 subtechnique-of T1556]] — Password Filter DLL → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2564 - subtechnique-of|T1560.001 subtechnique-of T1560]] — Archive via Utility → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-2565 - subtechnique-of|T1566.002 subtechnique-of T1566]] — Spearphishing Link → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-2566 - subtechnique-of|T1546.004 subtechnique-of T1546]] — Unix Shell Configuration Modification → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2567 - subtechnique-of|T1585.002 subtechnique-of T1585]] — Email Accounts → Establish Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2568 - subtechnique-of|T1090.004 subtechnique-of T1090]] — Domain Fronting → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-2569 - subtechnique-of|T1556.005 subtechnique-of T1556]] — Reversible Encryption → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2570 - subtechnique-of|T1505.003 subtechnique-of T1505]] — Web Shell → Server Software Component
+- [[07 ATT&CK Relationships/ATTACK-REL-2571 - subtechnique-of|T1055.014 subtechnique-of T1055]] — VDSO Hijacking → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2572 - subtechnique-of|T1564.011 subtechnique-of T1564]] — Ignore Process Interrupts → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2573 - subtechnique-of|T1555.004 subtechnique-of T1555]] — Windows Credential Manager → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-2574 - subtechnique-of|T1222.002 subtechnique-of T1222]] — Linux and Mac Permissions → File and Directory Permissions Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2575 - subtechnique-of|T1021.002 subtechnique-of T1021]] — SMB/Windows Admin Shares → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2576 - subtechnique-of|T1547.006 subtechnique-of T1547]] — Kernel Modules and Extensions → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2577 - subtechnique-of|T1048.001 subtechnique-of T1048]] — Exfiltration Over Symmetric Encrypted Non-C2 Protocol → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2578 - subtechnique-of|T1059.005 subtechnique-of T1059]] — Visual Basic → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-2579 - subtechnique-of|T1555.002 subtechnique-of T1555]] — Securityd Memory → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-2580 - subtechnique-of|T1595.001 subtechnique-of T1595]] — Scanning IP Blocks → Active Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-2581 - subtechnique-of|T1546.016 subtechnique-of T1546]] — Installer Packages → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2582 - subtechnique-of|T1585.001 subtechnique-of T1585]] — Social Media Accounts → Establish Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2583 - subtechnique-of|T1564.012 subtechnique-of T1564]] — File/Path Exclusions → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2584 - subtechnique-of|T1564.013 subtechnique-of T1564]] — Bind Mounts → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2585 - subtechnique-of|T1055.003 subtechnique-of T1055]] — Thread Execution Hijacking → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2586 - subtechnique-of|T1213.004 subtechnique-of T1213]] — Customer Relationship Management Software → Data from Information Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-2587 - subtechnique-of|T1136.002 subtechnique-of T1136]] — Domain Account → Create Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2588 - subtechnique-of|T1584.002 subtechnique-of T1584]] — DNS Server → Compromise Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2589 - subtechnique-of|T1003.001 subtechnique-of T1003]] — LSASS Memory → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2590 - subtechnique-of|T1070.006 subtechnique-of T1070]] — Timestomp → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-2591 - subtechnique-of|T1027.016 subtechnique-of T1027]] — Junk Code Insertion → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2592 - subtechnique-of|T1491.001 subtechnique-of T1491]] — Internal Defacement → Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-2593 - subtechnique-of|T1608.002 subtechnique-of T1608]] — Upload Tool → Stage Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2594 - subtechnique-of|T1218.008 subtechnique-of T1218]] — Odbcconf → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2595 - subtechnique-of|T1048.003 subtechnique-of T1048]] — Exfiltration Over Unencrypted Non-C2 Protocol → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2596 - subtechnique-of|T1614.001 subtechnique-of T1614]] — System Language Discovery → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2597 - subtechnique-of|T1021.001 subtechnique-of T1021]] — Remote Desktop Protocol → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2598 - subtechnique-of|T1070.009 subtechnique-of T1070]] — Clear Persistence → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-2599 - subtechnique-of|T1552.008 subtechnique-of T1552]] — Chat Messages → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2600 - subtechnique-of|T1087.003 subtechnique-of T1087]] — Email Account → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2601 - subtechnique-of|T1598.002 subtechnique-of T1598]] — Spearphishing Attachment → Phishing for Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2602 - subtechnique-of|T1546.003 subtechnique-of T1546]] — Windows Management Instrumentation Event Subscription → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-2603 - subtechnique-of|T1071.002 subtechnique-of T1071]] — File Transfer Protocols → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2604 - subtechnique-of|T1542.003 subtechnique-of T1542]] — Bootkit → Pre-OS Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-2605 - subtechnique-of|T1020.001 subtechnique-of T1020]] — Traffic Duplication → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-2606 - subtechnique-of|T1574.001 subtechnique-of T1574]] — DLL → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-2607 - subtechnique-of|T1074.001 subtechnique-of T1074]] — Local Data Staging → Data Staged
+- [[07 ATT&CK Relationships/ATTACK-REL-2608 - subtechnique-of|T1069.002 subtechnique-of T1069]] — Domain Groups → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2609 - subtechnique-of|T1071.004 subtechnique-of T1071]] — DNS → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2610 - subtechnique-of|T1001.001 subtechnique-of T1001]] — Junk Data → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-2611 - subtechnique-of|T1564.002 subtechnique-of T1564]] — Hidden Users → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-2612 - subtechnique-of|T1553.001 subtechnique-of T1553]] — Gatekeeper Bypass → Subvert Trust Controls
+- [[07 ATT&CK Relationships/ATTACK-REL-2613 - subtechnique-of|T1102.003 subtechnique-of T1102]] — One-Way Communication → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2614 - subtechnique-of|T1684.001 subtechnique-of T1684]] — Impersonation → Social Engineering
+- [[07 ATT&CK Relationships/ATTACK-REL-2615 - subtechnique-of|T1552.005 subtechnique-of T1552]] — Cloud Instance Metadata API → Unsecured Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-2616 - subtechnique-of|T1027.005 subtechnique-of T1027]] — Indicator Removal from Tools → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2617 - subtechnique-of|T1548.005 subtechnique-of T1548]] — Temporary Elevated Cloud Access → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-2618 - subtechnique-of|T1102.001 subtechnique-of T1102]] — Dead Drop Resolver → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2619 - subtechnique-of|T1600.002 subtechnique-of T1600]] — Disable Crypto Hardware → Weaken Encryption
+- [[07 ATT&CK Relationships/ATTACK-REL-2620 - subtechnique-of|T1574.004 subtechnique-of T1574]] — Dylib Hijacking → Hijack Execution Flow
+
+## Attribution links
+
+- [[07 ATT&CK Relationships/ATTACK-REL-2621 - attributed-to|C0057 attributed-to G1049]] — 3CX Supply Chain Attack → AppleJeus
+- [[07 ATT&CK Relationships/ATTACK-REL-2622 - attributed-to|C0022 attributed-to G0032]] — Operation Dream Job → Lazarus Group
+- [[07 ATT&CK Relationships/ATTACK-REL-2623 - attributed-to|C0056 attributed-to G1048]] — RedPenguin → UNC3886
+- [[07 ATT&CK Relationships/ATTACK-REL-2624 - attributed-to|C0023 attributed-to G0016]] — Operation Ghost → APT29
+- [[07 ATT&CK Relationships/ATTACK-REL-2625 - attributed-to|C0030 attributed-to G0088]] — Triton Safety Instrumented System Attack → TEMP.Veles
+- [[07 ATT&CK Relationships/ATTACK-REL-2626 - attributed-to|C0051 attributed-to G0007]] — APT28 Nearest Neighbor Campaign → APT28
+- [[07 ATT&CK Relationships/ATTACK-REL-2627 - attributed-to|C0017 attributed-to G0096]] — C0017 → APT41
+- [[07 ATT&CK Relationships/ATTACK-REL-2628 - attributed-to|C0052 attributed-to G1023]] — SPACEHOP Activity → APT5
+- [[07 ATT&CK Relationships/ATTACK-REL-2629 - attributed-to|C0028 attributed-to G0034]] — 2015 Ukraine Electric Power Attack → Sandworm Team
+- [[07 ATT&CK Relationships/ATTACK-REL-2630 - attributed-to|C0042 attributed-to G0049]] — Outer Space → OilRig
+- [[07 ATT&CK Relationships/ATTACK-REL-2631 - attributed-to|C0011 attributed-to G0134]] — C0011 → Transparent Tribe
+- [[07 ATT&CK Relationships/ATTACK-REL-2632 - attributed-to|C0040 attributed-to G0096]] — APT41 DUST → APT41
+- [[07 ATT&CK Relationships/ATTACK-REL-2633 - attributed-to|C0032 attributed-to G0088]] — C0032 → TEMP.Veles
+- [[07 ATT&CK Relationships/ATTACK-REL-2634 - attributed-to|C0060 attributed-to G1054]] — Operation AkaiRyū → MirrorFace
+- [[07 ATT&CK Relationships/ATTACK-REL-2635 - attributed-to|C0034 attributed-to G0034]] — 2022 Ukraine Electric Power Attack → Sandworm Team
+- [[07 ATT&CK Relationships/ATTACK-REL-2636 - attributed-to|C0035 attributed-to G1017]] — KV Botnet Activity → Volt Typhoon
+- [[07 ATT&CK Relationships/ATTACK-REL-2637 - attributed-to|C0039 attributed-to G1017]] — Versa Director Zero Day Exploitation → Volt Typhoon
+- [[07 ATT&CK Relationships/ATTACK-REL-2638 - attributed-to|C0044 attributed-to G0049]] — Juicy Mix → OilRig
+- [[07 ATT&CK Relationships/ATTACK-REL-2639 - attributed-to|C0049 attributed-to G0065]] — Leviathan Australian Intrusions → Leviathan
+- [[07 ATT&CK Relationships/ATTACK-REL-2640 - attributed-to|C0033 attributed-to G0056]] — C0033 → PROMETHIUM
+- [[07 ATT&CK Relationships/ATTACK-REL-2641 - attributed-to|C0047 attributed-to G0129]] — RedDelta Modified PlugX Infection Chain Operations → Mustang Panda
+- [[07 ATT&CK Relationships/ATTACK-REL-2642 - attributed-to|C0024 attributed-to G0016]] — SolarWinds Compromise → APT29
+- [[07 ATT&CK Relationships/ATTACK-REL-2643 - attributed-to|C0052 attributed-to G0004]] — SPACEHOP Activity → Ke3chang
+- [[07 ATT&CK Relationships/ATTACK-REL-2644 - attributed-to|C0025 attributed-to G0034]] — 2016 Ukraine Electric Power Attack → Sandworm Team
+- [[07 ATT&CK Relationships/ATTACK-REL-2645 - attributed-to|C0038 attributed-to G1055]] — HomeLand Justice → VOID MANTICORE
+- [[07 ATT&CK Relationships/ATTACK-REL-2646 - attributed-to|C0027 attributed-to G1015]] — C0027 → Scattered Spider
+
+## Uses relationships
+
+- [[07 ATT&CK Relationships/ATTACK-REL-2647 - uses|S0096 uses T1082]] — Systeminfo → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2648 - uses|S0667 uses T1560]] — Chrommme → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-2649 - uses|G0060 uses T1574.001]] — BRONZE BUTLER → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-2650 - uses|S0561 uses T1497.003]] — GuLoader → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-2651 - uses|S0528 uses T1105]] — Javali → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2652 - uses|S0126 uses T1124]] — ComRAT → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2653 - uses|G0106 uses T1518.001]] — Rocke → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2654 - uses|S0184 uses T1016]] — POWRUNER → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2655 - uses|S1053 uses T1529]] — AvosLocker → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-2656 - uses|G1057 uses T1018]] — ShinyHunters → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2657 - uses|S1166 uses T1070.004]] — Solar → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-2658 - uses|S0495 uses T1113]] — RDAT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2659 - uses|G0094 uses S0526]] — Kimsuky → KGH_SPY
+- [[07 ATT&CK Relationships/ATTACK-REL-2660 - uses|G0061 uses T1112]] — FIN8 → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2661 - uses|G0032 uses S0241]] — Lazarus Group → RATANKBA
+- [[07 ATT&CK Relationships/ATTACK-REL-2662 - uses|S0264 uses T1082]] — OopsIE → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2663 - uses|S0459 uses T1132.001]] — MechaFlounder → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-2664 - uses|G1050 uses S0183]] — Water Galura → Tor
+- [[07 ATT&CK Relationships/ATTACK-REL-2665 - uses|S0637 uses T1036]] — NativeZone → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2666 - uses|G0069 uses T1059.003]] — MuddyWater → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2667 - uses|S0667 uses T1005]] — Chrommme → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-2668 - uses|G0096 uses T1555]] — APT41 → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-2669 - uses|G1051 uses T1136.002]] — Medusa Group → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2670 - uses|S0342 uses T1056.001]] — GreyEnergy → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-2671 - uses|S1063 uses T1497.003]] — Brute Ratel C4 → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-2672 - uses|S9015 uses T1572]] — BRICKSTORM → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-2673 - uses|S0534 uses T1057]] — Bazar → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2674 - uses|S1148 uses T1119]] — Raccoon Stealer → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-2675 - uses|G0050 uses T1059.003]] — APT32 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2676 - uses|G0049 uses T1027.005]] — OilRig → Indicator Removal from Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2677 - uses|S0064 uses T1071.001]] — ELMER → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2678 - uses|S9044 uses T1564.008]] — Kali365 → Email Hiding Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-2679 - uses|G0007 uses T1091]] — APT28 → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-2680 - uses|S0650 uses T1553.005]] — QakBot → Mark-of-the-Web Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-2681 - uses|S9013 uses T1556]] — DRYHOOK → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-2682 - uses|S1099 uses T1059.003]] — Samurai → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2683 - uses|C0010 uses T1587.001]] — C0010 → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-2684 - uses|G0140 uses S0250]] — LazyScripter → Koadic
+- [[07 ATT&CK Relationships/ATTACK-REL-2685 - uses|S0659 uses T1071.001]] — Diavol → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2686 - uses|S0201 uses T1071.002]] — JPIN → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2687 - uses|S0491 uses T1071.001]] — StrongPity → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2688 - uses|S0194 uses T1547.005]] — PowerSploit → Security Support Provider
+- [[07 ATT&CK Relationships/ATTACK-REL-2689 - uses|S0140 uses T1036.004]] — Shamoon → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2690 - uses|C0053 uses T1583.003]] — FLORAHOX Activity → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-2691 - uses|S0511 uses T1112]] — RegDuke → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2692 - uses|S0587 uses T1222.002]] — Penquin → Linux and Mac Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-2693 - uses|S0565 uses T1036]] — Raindrop → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2694 - uses|S0441 uses T1560.001]] — PowerShower → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-2695 - uses|G0016 uses T1133]] — APT29 → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2696 - uses|S0054 uses T1105]] — CloudDuke → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2697 - uses|C0002 uses T1588.002]] — Night Dragon → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-2698 - uses|S1156 uses T1082]] — Manjusaka → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2699 - uses|G1015 uses T1068]] — Scattered Spider → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-2700 - uses|S0148 uses T1071.001]] — RTM → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2701 - uses|S0454 uses T1123]] — Cadelspy → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2702 - uses|S0044 uses T1055]] — JHUHUGIT → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2703 - uses|C0024 uses T1070.004]] — SolarWinds Compromise → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-2704 - uses|S0451 uses T1569.001]] — LoudMiner → Launchctl
+- [[07 ATT&CK Relationships/ATTACK-REL-2705 - uses|S0455 uses T1027.002]] — Metamorfo → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-2706 - uses|G0035 uses T1033]] — Dragonfly → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2707 - uses|S0112 uses T1542.003]] — ROCKBOOT → Bootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-2708 - uses|S0633 uses T1001.002]] — Sliver → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-2709 - uses|S0457 uses T1059.001]] — Netwalker → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-2710 - uses|G1052 uses T1583.003]] — Contagious Interview → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-2711 - uses|S0094 uses T1055.003]] — Trojan.Karagany → Thread Execution Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2712 - uses|S0468 uses T1685]] — Skidmap → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2713 - uses|S1134 uses T1036.004]] — DEADWOOD → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2714 - uses|G1015 uses T1217]] — Scattered Spider → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2715 - uses|C0048 uses T1078]] — Operation MidnightEclipse → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2716 - uses|G1001 uses T1059.001]] — HEXANE → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-2717 - uses|S0666 uses T1620]] — Gelsemium → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-2718 - uses|G1044 uses T1056]] — APT42 → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2719 - uses|S1198 uses T1059.004]] — Gomir → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2720 - uses|S0136 uses T1091]] — USBStealer → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-2721 - uses|S0088 uses T1113]] — Kasidet → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2722 - uses|G1023 uses S0007]] — APT5 → Skeleton Key
+- [[07 ATT&CK Relationships/ATTACK-REL-2723 - uses|G0041 uses T1556.002]] — Strider → Password Filter DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-2724 - uses|G1036 uses T1566.001]] — Moonstone Sleet → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-2725 - uses|S0257 uses T1115]] — VERMIN → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-2726 - uses|G1018 uses S1086]] — TA2541 → Snip3
+- [[07 ATT&CK Relationships/ATTACK-REL-2727 - uses|S0508 uses T1102]] — ngrok → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2728 - uses|G0004 uses T1036.005]] — Ke3chang → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-2729 - uses|S1247 uses T1679]] — Embargo → Selective Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-2730 - uses|S0477 uses T1027.016]] — Goopy → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-2731 - uses|G0078 uses T1588.002]] — Gorgon Group → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-2732 - uses|S9037 uses T1547.001]] — RustyWater → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-2733 - uses|G0094 uses T1007]] — Kimsuky → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2734 - uses|S1246 uses T1082]] — BeaverTail → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2735 - uses|S0484 uses T1106]] — Carberp → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-2736 - uses|S0346 uses T1566.001]] — OceanSalt → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-2737 - uses|G0040 uses T1587.002]] — Patchwork → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-2738 - uses|S9020 uses T1005]] — LODEINFO → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-2739 - uses|S0203 uses T1543.003]] — Hydraq → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2740 - uses|S0482 uses T1189]] — Bundlore → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-2741 - uses|G1018 uses T1204.002]] — TA2541 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-2742 - uses|S0534 uses T1547.009]] — Bazar → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-2743 - uses|G0082 uses T1561.002]] — APT38 → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-2744 - uses|S0445 uses T1071.001]] — ShimRatReporter → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2745 - uses|S1153 uses T1217]] — Cuckoo Stealer → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2746 - uses|G0045 uses T1036.003]] — menuPass → Rename Legitimate Utilities
+- [[07 ATT&CK Relationships/ATTACK-REL-2747 - uses|S0267 uses T1059.003]] — FELIXROOT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2748 - uses|G0069 uses T1033]] — MuddyWater → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2749 - uses|S0274 uses T1136.001]] — Calisto → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2750 - uses|S0086 uses T1113]] — ZLib → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2751 - uses|G1008 uses T1598.002]] — SideCopy → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-2752 - uses|S0363 uses T1040]] — Empire → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-2753 - uses|S0658 uses T1056.002]] — XCSSET → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2754 - uses|G1012 uses T1584.006]] — CURIUM → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2755 - uses|S0560 uses T1112]] — TEARDROP → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2756 - uses|S0660 uses T1027]] — Clambling → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2757 - uses|S1167 uses T1070.004]] — AcidPour → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-2758 - uses|S0018 uses T1018]] — Sykipot → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2759 - uses|S0258 uses T1033]] — RGDoor → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2760 - uses|S0553 uses T1518.001]] — MoleNet → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2761 - uses|S0136 uses T1020]] — USBStealer → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-2762 - uses|S1105 uses T1190]] — COATHANGER → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-2763 - uses|G0131 uses T1068]] — Tonto Team → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-2764 - uses|G1041 uses T1505.003]] — Sea Turtle → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2765 - uses|G1006 uses T1018]] — Earth Lusca → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2766 - uses|C0036 uses T1059.001]] — Pikabot Distribution February 2024 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-2767 - uses|S0250 uses T1218.010]] — Koadic → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-2768 - uses|G0093 uses S0013]] — GALLIUM → PlugX
+- [[07 ATT&CK Relationships/ATTACK-REL-2769 - uses|G1005 uses T1583.006]] — POLONIUM → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2770 - uses|S0350 uses T1033]] — zwShell → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2771 - uses|S0599 uses T1057]] — Kinsing → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2772 - uses|S0367 uses T1105]] — Emotet → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2773 - uses|S0266 uses T1005]] — TrickBot → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-2774 - uses|G0128 uses T1566.002]] — ZIRCONIUM → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-2775 - uses|G0007 uses T1596]] — APT28 → Search Open Technical Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-2776 - uses|S0449 uses T1547.001]] — Maze → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-2777 - uses|S1031 uses T1041]] — PingPull → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-2778 - uses|G1055 uses T1561.002]] — VOID MANTICORE → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-2779 - uses|S0475 uses T1082]] — BackConfig → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2780 - uses|S0603 uses T1210]] — Stuxnet → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2781 - uses|S0182 uses T1027.016]] — FinFisher → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-2782 - uses|S0657 uses T1124]] — BLUELIGHT → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2783 - uses|S1081 uses T1106]] — BADHATCH → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-2784 - uses|G1012 uses T1583.004]] — CURIUM → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-2785 - uses|S1207 uses T1583.001]] — XLoader → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-2786 - uses|G0004 uses T1083]] — Ke3chang → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2787 - uses|C0026 uses T1005]] — C0026 → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-2788 - uses|S0368 uses T1047]] — NotPetya → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-2789 - uses|C0021 uses T1027.010]] — C0021 → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-2790 - uses|G1046 uses T1482]] — Storm-1811 → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2791 - uses|S0622 uses T1057]] — AppleSeed → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2792 - uses|G0102 uses T1078]] — Wizard Spider → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-2793 - uses|G0112 uses T1071.001]] — Windshift → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2794 - uses|S9025 uses T1140]] — NOOPLDR → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2795 - uses|G0137 uses T1588.002]] — Ferocious Kitten → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-2796 - uses|S1149 uses T1005]] — CHIMNEYSWEEP → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-2797 - uses|G0059 uses T1567]] — Magic Hound → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2798 - uses|S0624 uses T1105]] — Ecipekac → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2799 - uses|S1200 uses T1685]] — StealBit → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2800 - uses|S0279 uses T1056.002]] — Proton → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2801 - uses|S0235 uses T1083]] — CrossRAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2802 - uses|S0194 uses T1003.001]] — PowerSploit → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-2803 - uses|S0141 uses T1218.011]] — Winnti for Windows → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-2804 - uses|S1104 uses T1556.004]] — SLOWPULSE → Network Device Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-2805 - uses|S0348 uses T1140]] — Cardinal RAT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2806 - uses|S1185 uses T1071.001]] — LightSpy → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2807 - uses|C0057 uses T1055]] — 3CX Supply Chain Attack → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2808 - uses|S0084 uses T1016]] — Mis-Type → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2809 - uses|S0690 uses T1547.015]] — Green Lambert → Login Items
+- [[07 ATT&CK Relationships/ATTACK-REL-2810 - uses|S0052 uses T1003]] — OnionDuke → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-2811 - uses|G1003 uses T1190]] — Ember Bear → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-2812 - uses|C0057 uses T1102.001]] — 3CX Supply Chain Attack → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-2813 - uses|S9043 uses T1087.004]] — Mini Shai-Hulud → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2814 - uses|S1246 uses T1001.001]] — BeaverTail → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-2815 - uses|S1242 uses T1047]] — Qilin → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-2816 - uses|G0007 uses T1669]] — APT28 → Wi-Fi Networks
+- [[07 ATT&CK Relationships/ATTACK-REL-2817 - uses|S0350 uses T1112]] — zwShell → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2818 - uses|S0044 uses T1068]] — JHUHUGIT → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-2819 - uses|S1059 uses T1620]] — metaMain → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-2820 - uses|S1240 uses T1218.007]] — RedLine Stealer → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-2821 - uses|S0451 uses T1082]] — LoudMiner → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2822 - uses|G1022 uses S0097]] — ToddyCat → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-2823 - uses|S0246 uses T1686.003]] — HARDRAIN → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-2824 - uses|S1160 uses T1518.001]] — Latrodectus → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2825 - uses|S0167 uses T1113]] — Matryoshka → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2826 - uses|G0007 uses T1110.001]] — APT28 → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-2827 - uses|G1044 uses T1566.002]] — APT42 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-2828 - uses|S0562 uses T1565.001]] — SUNSPOT → Stored Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-2829 - uses|S0363 uses T1518.001]] — Empire → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2830 - uses|G0060 uses T1027.003]] — BRONZE BUTLER → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-2831 - uses|G0051 uses T1021.001]] — FIN10 → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2832 - uses|G1051 uses T1071.001]] — Medusa Group → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2833 - uses|S9017 uses T1027.013]] — DCRAT → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-2834 - uses|S1226 uses T1553.002]] — BOOKWORM → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-2835 - uses|S1026 uses T1055.001]] — Mongall → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2836 - uses|G0046 uses T1686]] — FIN7 → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-2837 - uses|S0443 uses T1040]] — MESSAGETAP → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-2838 - uses|S1183 uses T1518]] — StrelaStealer → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2839 - uses|S0147 uses T1071.001]] — Pteranodon → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2840 - uses|S0042 uses T1102.002]] — LOWBALL → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-2841 - uses|S0038 uses T1573.001]] — Duqu → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-2842 - uses|S0348 uses T1012]] — Cardinal RAT → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2843 - uses|G0129 uses T1074.001]] — Mustang Panda → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-2844 - uses|S0233 uses T1018]] — MURKYTOP → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2845 - uses|C0024 uses T1071.001]] — SolarWinds Compromise → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2846 - uses|S0649 uses T1136.001]] — SMOKEDHAM → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2847 - uses|S0582 uses T1057]] — LookBack → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2848 - uses|S0607 uses T1489]] — KillDisk → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-2849 - uses|S0337 uses T1074.001]] — BadPatch → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-2850 - uses|S0367 uses T1571]] — Emotet → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-2851 - uses|G0067 uses S0154]] — APT37 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-2852 - uses|S1239 uses T1560.001]] — TONESHELL → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-2853 - uses|G0102 uses T1074.001]] — Wizard Spider → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-2854 - uses|S0045 uses T1106]] — ADVSTORESHELL → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-2855 - uses|G0082 uses T1053.003]] — APT38 → Cron
+- [[07 ATT&CK Relationships/ATTACK-REL-2856 - uses|S0378 uses T1546.003]] — PoshC2 → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-2857 - uses|G1047 uses T1036.005]] — Velvet Ant → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-2858 - uses|S0453 uses T1036]] — Pony → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2859 - uses|S0660 uses T1497.003]] — Clambling → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-2860 - uses|S0488 uses T1069.002]] — CrackMapExec → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-2861 - uses|S0692 uses T1059.006]] — SILENTTRINITY → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-2862 - uses|G1003 uses T1046]] — Ember Bear → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2863 - uses|S1115 uses T1140]] — WIREFIRE → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2864 - uses|S0223 uses T1105]] — POWERSTATS → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2865 - uses|G0065 uses T1584.004]] — Leviathan → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-2866 - uses|G0064 uses T1588.002]] — APT33 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-2867 - uses|G0134 uses T1564.001]] — Transparent Tribe → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-2868 - uses|S0335 uses T1053.005]] — Carbon → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-2869 - uses|S0531 uses T1102.002]] — Grandoreiro → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-2870 - uses|S1159 uses T1012]] — DUSTTRAP → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2871 - uses|C0055 uses T1589.002]] — Quad7 Activity → Email Addresses
+- [[07 ATT&CK Relationships/ATTACK-REL-2872 - uses|S0055 uses T1105]] — RARSTONE → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2873 - uses|G0093 uses T1049]] — GALLIUM → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2874 - uses|G1008 uses T1036.005]] — SideCopy → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-2875 - uses|S0237 uses T1059.003]] — GravityRAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2876 - uses|S1085 uses T1680]] — Sardonic → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2877 - uses|S1212 uses T1490]] — RansomHub → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2878 - uses|S0250 uses T1016]] — Koadic → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2879 - uses|G0078 uses T1547.001]] — Gorgon Group → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-2880 - uses|S0268 uses T1036]] — Bisonal → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2881 - uses|G0016 uses T1665]] — APT29 → Hide Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-2882 - uses|S0204 uses T1218.011]] — Briba → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-2883 - uses|S0237 uses T1083]] — GravityRAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2884 - uses|G1015 uses T1219.002]] — Scattered Spider → Remote Desktop Software
+- [[07 ATT&CK Relationships/ATTACK-REL-2885 - uses|G1033 uses T1204.002]] — Star Blizzard → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-2886 - uses|S0650 uses T1074.001]] — QakBot → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-2887 - uses|S1100 uses T1095]] — Ninja → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-2888 - uses|G0032 uses T1571]] — Lazarus Group → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-2889 - uses|G0139 uses T1685]] — TeamTNT → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2890 - uses|C0006 uses T1140]] — Operation Honeybee → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2891 - uses|S0250 uses T1218.005]] — Koadic → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-2892 - uses|S9041 uses T1555.006]] — TeamPCP Cloud Stealer → Cloud Secrets Management Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-2893 - uses|S0081 uses T1218.011]] — Elise → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-2894 - uses|G1045 uses T1040]] — Salt Typhoon → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-2895 - uses|S1179 uses T1567]] — Exbyte → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2896 - uses|S0046 uses T1102.002]] — CozyCar → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-2897 - uses|S0588 uses T1053.003]] — GoldMax → Cron
+- [[07 ATT&CK Relationships/ATTACK-REL-2898 - uses|S1020 uses T1059.003]] — Kevin → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2899 - uses|S0458 uses T1680]] — Ramsay → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2900 - uses|S0226 uses T1053.005]] — Smoke Loader → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-2901 - uses|S1066 uses T1559.001]] — DarkTortilla → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-2902 - uses|S1158 uses T1055.002]] — DUSTPAN → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-2903 - uses|C0018 uses T1571]] — C0018 → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-2904 - uses|G0045 uses T1027.013]] — menuPass → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-2905 - uses|S0588 uses T1071.001]] — GoldMax → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2906 - uses|S0686 uses T1113]] — QuietSieve → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2907 - uses|S1133 uses T1685.005]] — Apostle → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-2908 - uses|G1016 uses T1049]] — FIN13 → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2909 - uses|G0004 uses T1057]] — Ke3chang → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2910 - uses|S0336 uses T1547.001]] — NanoCore → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-2911 - uses|S1191 uses T1059.003]] — Megazord → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2912 - uses|S0483 uses T1069]] — IcedID → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2913 - uses|S1133 uses T1057]] — Apostle → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2914 - uses|G1009 uses S1034]] — Moses Staff → StrifeWater
+- [[07 ATT&CK Relationships/ATTACK-REL-2915 - uses|G0082 uses T1217]] — APT38 → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2916 - uses|S1222 uses T1074.001]] — RIFLESPINE → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-2917 - uses|G0099 uses T1534]] — APT-C-36 → Internal Spearphishing
+- [[07 ATT&CK Relationships/ATTACK-REL-2918 - uses|S0684 uses T1087.004]] — ROADTools → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-2919 - uses|S0154 uses T1185]] — Cobalt Strike → Browser Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-2920 - uses|S0395 uses T1105]] — LightNeuron → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2921 - uses|S0263 uses T1027.011]] — TYPEFRAME → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-2922 - uses|C0035 uses T1685]] — KV Botnet Activity → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-2923 - uses|S0532 uses T1570]] — Lucifer → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2924 - uses|G0114 uses T1074.002]] — Chimera → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-2925 - uses|S9041 uses T1580]] — TeamPCP Cloud Stealer → Cloud Infrastructure Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2926 - uses|S1244 uses T1057]] — Medusa Ransomware → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2927 - uses|S1027 uses T1204.002]] — Heyoka Backdoor → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-2928 - uses|S1230 uses T1574.001]] — HIUPAN → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-2929 - uses|S9008 uses T1041]] — Shai-Hulud → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-2930 - uses|S1197 uses T1090]] — GoBear → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-2931 - uses|S0559 uses T1027]] — SUNBURST → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2932 - uses|G0139 uses T1552.001]] — TeamTNT → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-2933 - uses|S0514 uses T1132.001]] — WellMess → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-2934 - uses|S0254 uses T1082]] — PLAINTEE → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2935 - uses|S0216 uses T1102.002]] — POORAIM → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-2936 - uses|G0094 uses T1027.012]] — Kimsuky → LNK Icon Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-2937 - uses|S1207 uses T1113]] — XLoader → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-2938 - uses|C0058 uses T1005]] — SharePoint ToolShell Exploitation → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-2939 - uses|C0059 uses T1567]] — Salesforce Data Exfiltration → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2940 - uses|S1164 uses T1036]] — UPSTYLE → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-2941 - uses|G0047 uses T1091]] — Gamaredon Group → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-2942 - uses|C0014 uses T1558.003]] — Operation Wocao → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-2943 - uses|S0531 uses T1041]] — Grandoreiro → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-2944 - uses|G0004 uses T1003.001]] — Ke3chang → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-2945 - uses|S0368 uses T1486]] — NotPetya → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-2946 - uses|S1074 uses T1036.008]] — ANDROMEDA → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-2947 - uses|G0090 uses T1583.001]] — WIRTE → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-2948 - uses|S0251 uses T1547.001]] — Zebrocy → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-2949 - uses|G0075 uses T1053.005]] — Rancor → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-2950 - uses|S1224 uses T1205.002]] — CASTLETAP → Socket Filters
+- [[07 ATT&CK Relationships/ATTACK-REL-2951 - uses|G0045 uses T1140]] — menuPass → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-2952 - uses|G0027 uses T1608.001]] — Threat Group-3390 → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-2953 - uses|S0428 uses T1041]] — PoetRAT → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-2954 - uses|S0582 uses T1574.001]] — LookBack → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-2955 - uses|G1015 uses T1555.005]] — Scattered Spider → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-2956 - uses|S0347 uses T1543.003]] — AuditCred → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2957 - uses|S0378 uses T1201]] — PoshC2 → Password Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2958 - uses|S1100 uses T1027.013]] — Ninja → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-2959 - uses|S0091 uses T1070.004]] — Epic → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-2960 - uses|G0045 uses S0626]] — menuPass → P8RAT
+- [[07 ATT&CK Relationships/ATTACK-REL-2961 - uses|G0027 uses T1003.001]] — Threat Group-3390 → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-2962 - uses|S0501 uses T1547.012]] — PipeMon → Print Processors
+- [[07 ATT&CK Relationships/ATTACK-REL-2963 - uses|G0050 uses T1027.016]] — APT32 → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-2964 - uses|S0154 uses T1007]] — Cobalt Strike → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2965 - uses|G1055 uses T1595.002]] — VOID MANTICORE → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-2966 - uses|G1046 uses T1036.005]] — Storm-1811 → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-2967 - uses|S0018 uses T1016]] — Sykipot → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2968 - uses|S1122 uses T1566.002]] — Mispadu → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-2969 - uses|S1105 uses T1027.002]] — COATHANGER → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-2970 - uses|S1015 uses T1012]] — Milan → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2971 - uses|S9037 uses T1622]] — RustyWater → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-2972 - uses|S0588 uses T1001.001]] — GoldMax → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-2973 - uses|S1213 uses T1071.001]] — Lumma Stealer → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-2974 - uses|S0380 uses T1012]] — StoneDrill → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2975 - uses|S1070 uses T1553.002]] — Black Basta → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-2976 - uses|S0583 uses T1112]] — Pysa → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2977 - uses|S0593 uses T1074.001]] — ECCENTRICBANDWAGON → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-2978 - uses|G1043 uses S0002]] — BlackByte → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-2979 - uses|S0032 uses T1573.001]] — gh0st RAT → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-2980 - uses|S0345 uses T1070.004]] — Seasalt → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-2981 - uses|S1234 uses T1106]] — SplatCloak → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-2982 - uses|S0601 uses T1102]] — Hildegard → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2983 - uses|G0007 uses S1205]] — APT28 → cipher.exe
+- [[07 ATT&CK Relationships/ATTACK-REL-2984 - uses|S0634 uses T1059.003]] — EnvyScout → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-2985 - uses|G0021 uses T1566.001]] — Molerats → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-2986 - uses|S0260 uses T1012]] — InvisiMole → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-2987 - uses|S9008 uses T1036.005]] — Shai-Hulud → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-2988 - uses|G1033 uses T1583.001]] — Star Blizzard → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-2989 - uses|S1018 uses T1055.012]] — Saint Bot → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-2990 - uses|G0094 uses T1518.001]] — Kimsuky → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2991 - uses|S0622 uses T1560]] — AppleSeed → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-2992 - uses|S0236 uses T1007]] — Kwampirs → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2993 - uses|G0129 uses T1105]] — Mustang Panda → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-2994 - uses|G0016 uses T1021.007]] — APT29 → Cloud Services
+- [[07 ATT&CK Relationships/ATTACK-REL-2995 - uses|S9015 uses T1036.005]] — BRICKSTORM → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-2996 - uses|S0663 uses T1036.004]] — SysUpdate → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-2997 - uses|S0409 uses T1020]] — Machete → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-2998 - uses|S1068 uses T1018]] — BlackCat → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-2999 - uses|S0266 uses T1210]] — TrickBot → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-3000 - uses|G1007 uses T1588.002]] — Aoqin Dragon → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3001 - uses|S0663 uses T1105]] — SysUpdate → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3002 - uses|C0012 uses T1120]] — Operation CuckooBees → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3003 - uses|S9043 uses T1649]] — Mini Shai-Hulud → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-3004 - uses|G0069 uses T1059.007]] — MuddyWater → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-3005 - uses|S0569 uses T1105]] — Explosive → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3006 - uses|S0543 uses T1059.003]] — Spark → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3007 - uses|G1051 uses T1570]] — Medusa Group → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3008 - uses|S0148 uses T1573.001]] — RTM → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3009 - uses|S0567 uses T1082]] — Dtrack → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3010 - uses|S0436 uses T1140]] — TSCookie → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3011 - uses|S0678 uses T1041]] — Torisma → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3012 - uses|S0686 uses T1135]] — QuietSieve → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3013 - uses|G0102 uses T1547.001]] — Wizard Spider → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3014 - uses|G1054 uses T1614.001]] — MirrorFace → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3015 - uses|S0260 uses T1559.001]] — InvisiMole → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-3016 - uses|G0062 uses T1566.001]] — TA459 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3017 - uses|S0144 uses T1036.005]] — ChChes → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-3018 - uses|S0468 uses T1140]] — Skidmap → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3019 - uses|C0029 uses S1119]] — Cutting Edge → LIGHTWIRE
+- [[07 ATT&CK Relationships/ATTACK-REL-3020 - uses|G1017 uses T1087.001]] — Volt Typhoon → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-3021 - uses|G0127 uses T1568.002]] — TA551 → Domain Generation Algorithms
+- [[07 ATT&CK Relationships/ATTACK-REL-3022 - uses|G0040 uses T1053.005]] — Patchwork → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3023 - uses|S0045 uses T1218.011]] — ADVSTORESHELL → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3024 - uses|S0249 uses T1547.001]] — Gold Dragon → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3025 - uses|G1036 uses T1583.003]] — Moonstone Sleet → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-3026 - uses|S0240 uses T1082]] — ROKRAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3027 - uses|C0016 uses T1189]] — Operation Dust Storm → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-3028 - uses|S0017 uses T1033]] — BISCUIT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3029 - uses|S1201 uses T1113]] — TRANSLATEXT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3030 - uses|G0094 uses T1559.001]] — Kimsuky → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-3031 - uses|G1005 uses T1078]] — POLONIUM → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3032 - uses|S1111 uses T1497.001]] — DarkGate → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3033 - uses|S0537 uses T1573.001]] — HyperStack → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3034 - uses|S9020 uses T1057]] — LODEINFO → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3035 - uses|S1153 uses T1057]] — Cuckoo Stealer → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3036 - uses|C0058 uses T1033]] — SharePoint ToolShell Exploitation → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3037 - uses|C0024 uses T1680]] — SolarWinds Compromise → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3038 - uses|S1138 uses T1140]] — Gootloader → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3039 - uses|S1192 uses T1070.004]] — NICECURL → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3040 - uses|S1186 uses T1059.008]] — Line Dancer → Network Device CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-3041 - uses|S0561 uses T1547.001]] — GuLoader → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3042 - uses|S0443 uses T1049]] — MESSAGETAP → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3043 - uses|G0049 uses T1059.005]] — OilRig → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-3044 - uses|S1148 uses T1560]] — Raccoon Stealer → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-3045 - uses|S0002 uses T1649]] — Mimikatz → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-3046 - uses|S1129 uses T1083]] — Akira → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3047 - uses|S1100 uses T1559]] — Ninja → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-3048 - uses|S0195 uses T1070.004]] — SDelete → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3049 - uses|S1244 uses T1679]] — Medusa Ransomware → Selective Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-3050 - uses|G0122 uses T1598.003]] — Silent Librarian → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3051 - uses|S0428 uses T1083]] — PoetRAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3052 - uses|S0583 uses T1490]] — Pysa → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3053 - uses|G0102 uses T1585.002]] — Wizard Spider → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3054 - uses|G0131 uses S0349]] — Tonto Team → LaZagne
+- [[07 ATT&CK Relationships/ATTACK-REL-3055 - uses|G1051 uses T1518.001]] — Medusa Group → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3056 - uses|G1052 uses T1036]] — Contagious Interview → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-3057 - uses|C0059 uses T1036]] — Salesforce Data Exfiltration → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-3058 - uses|G0102 uses T1021.002]] — Wizard Spider → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-3059 - uses|S0694 uses T1036.005]] — DRATzarus → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-3060 - uses|S1142 uses T1140]] — LunarMail → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3061 - uses|S0428 uses T1082]] — PoetRAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3062 - uses|S0332 uses T1543.003]] — Remcos → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3063 - uses|S0331 uses T1112]] — Agent Tesla → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3064 - uses|S0448 uses T1106]] — Rising Sun → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3065 - uses|C0004 uses T1133]] — CostaRicto → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-3066 - uses|S1152 uses T1574.014]] — IMAPLoader → AppDomainManager
+- [[07 ATT&CK Relationships/ATTACK-REL-3067 - uses|G1030 uses T1110.003]] — Agrius → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-3068 - uses|G1019 uses S1088]] — MoustachedBouncer → Disco
+- [[07 ATT&CK Relationships/ATTACK-REL-3069 - uses|G0093 uses S0040]] — GALLIUM → HTRAN
+- [[07 ATT&CK Relationships/ATTACK-REL-3070 - uses|S0240 uses T1106]] — ROKRAT → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3071 - uses|S1210 uses T1560.001]] — Sagerunex → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-3072 - uses|G0143 uses T1588.002]] — Aquatic Panda → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3073 - uses|S0260 uses T1057]] — InvisiMole → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3074 - uses|S0534 uses T1012]] — Bazar → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3075 - uses|S0576 uses T1588.003]] — MegaCortex → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-3076 - uses|G0082 uses T1053.005]] — APT38 → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3077 - uses|S0158 uses T1095]] — PHOREAL → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3078 - uses|S0237 uses T1007]] — GravityRAT → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3079 - uses|S0180 uses T1007]] — Volgmer → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3080 - uses|S0154 uses T1564.010]] — Cobalt Strike → Process Argument Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-3081 - uses|S0332 uses T1132.001]] — Remcos → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3082 - uses|S1111 uses T1622]] — DarkGate → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-3083 - uses|C0018 uses S1053]] — C0018 → AvosLocker
+- [[07 ATT&CK Relationships/ATTACK-REL-3084 - uses|C0046 uses T1040]] — ArcaneDoor → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-3085 - uses|G0034 uses S0195]] — Sandworm Team → SDelete
+- [[07 ATT&CK Relationships/ATTACK-REL-3086 - uses|S0140 uses T1105]] — Shamoon → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3087 - uses|S0233 uses T1046]] — MURKYTOP → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3088 - uses|G0142 uses T1071.001]] — Confucius → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3089 - uses|G0108 uses T1003.001]] — Blue Mockingbird → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-3090 - uses|G1046 uses T1140]] — Storm-1811 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3091 - uses|C0022 uses T1608.001]] — Operation Dream Job → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-3092 - uses|S9043 uses T1102.001]] — Mini Shai-Hulud → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-3093 - uses|S1044 uses T1010]] — FunnyDream → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3094 - uses|S0262 uses T1552.001]] — QuasarRAT → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-3095 - uses|G1054 uses T1033]] — MirrorFace → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3096 - uses|S0373 uses T1566.001]] — Astaroth → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3097 - uses|C0014 uses S0357]] — Operation Wocao → Impacket
+- [[07 ATT&CK Relationships/ATTACK-REL-3098 - uses|C0063 uses T1584.001]] — 2025 Poland Wiper Attacks → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-3099 - uses|S9041 uses T1074.001]] — TeamPCP Cloud Stealer → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3100 - uses|S0464 uses T1057]] — SYSCON → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3101 - uses|S1148 uses T1070.004]] — Raccoon Stealer → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3102 - uses|S0203 uses T1027]] — Hydraq → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3103 - uses|S0275 uses T1082]] — UPPERCUT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3104 - uses|S1063 uses T1046]] — Brute Ratel C4 → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3105 - uses|G0034 uses S0607]] — Sandworm Team → KillDisk
+- [[07 ATT&CK Relationships/ATTACK-REL-3106 - uses|G0082 uses T1218.005]] — APT38 → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-3107 - uses|C0013 uses T1584.004]] — Operation Sharpshooter → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-3108 - uses|S0196 uses T1036.005]] — PUNCHBUGGY → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-3109 - uses|S0458 uses T1140]] — Ramsay → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3110 - uses|G0050 uses S0352]] — APT32 → OSX_OCEANLOTUS.D
+- [[07 ATT&CK Relationships/ATTACK-REL-3111 - uses|G1052 uses T1585.002]] — Contagious Interview → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3112 - uses|S0562 uses T1480.002]] — SUNSPOT → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-3113 - uses|G1052 uses T1589]] — Contagious Interview → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3114 - uses|S0617 uses T1490]] — HELLOKITTY → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3115 - uses|S0439 uses T1001.003]] — Okrum → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-3116 - uses|S1019 uses T1497.001]] — Shark → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3117 - uses|S0596 uses T1016]] — ShadowPad → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3118 - uses|G0059 uses T1486]] — Magic Hound → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-3119 - uses|G0087 uses S0454]] — APT39 → Cadelspy
+- [[07 ATT&CK Relationships/ATTACK-REL-3120 - uses|S1064 uses T1053.005]] — SVCReady → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3121 - uses|S0605 uses T1016]] — EKANS → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3122 - uses|S0606 uses T1189]] — Bad Rabbit → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-3123 - uses|S0052 uses T1140]] — OnionDuke → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3124 - uses|G1002 uses T1105]] — BITTER → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3125 - uses|G0092 uses T1078.002]] — TA505 → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3126 - uses|S0683 uses T1619]] — Peirates → Cloud Storage Object Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3127 - uses|G0096 uses T1083]] — APT41 → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3128 - uses|S1246 uses T1041]] — BeaverTail → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3129 - uses|S0665 uses T1543.003]] — ThreatNeedle → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3130 - uses|G0010 uses T1027.005]] — Turla → Indicator Removal from Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-3131 - uses|G0073 uses S0154]] — APT19 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-3132 - uses|S0009 uses T1005]] — Hikit → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3133 - uses|S1164 uses T1001.001]] — UPSTYLE → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-3134 - uses|G1017 uses T1584.003]] — Volt Typhoon → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-3135 - uses|S0336 uses T1125]] — NanoCore → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3136 - uses|S0363 uses T1574.001]] — Empire → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-3137 - uses|S0614 uses T1106]] — CostaBricks → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3138 - uses|G1014 uses T1105]] — LuminousMoth → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3139 - uses|S0635 uses T1140]] — BoomBox → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3140 - uses|S1181 uses T1112]] — BlackByte 2.0 Ransomware → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3141 - uses|G0061 uses T1047]] — FIN8 → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-3142 - uses|S1242 uses T1486]] — Qilin → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-3143 - uses|G1048 uses T1070.007]] — UNC3886 → Clear Network Connection History and Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-3144 - uses|S0170 uses T1069.002]] — Helminth → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-3145 - uses|S0341 uses T1218.005]] — Xbash → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-3146 - uses|C0039 uses S1154]] — Versa Director Zero Day Exploitation → VersaMem
+- [[07 ATT&CK Relationships/ATTACK-REL-3147 - uses|S0274 uses T1016]] — Calisto → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3148 - uses|S0367 uses T1547.001]] — Emotet → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3149 - uses|S0681 uses T1555.004]] — Lizar → Windows Credential Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-3150 - uses|S0455 uses T1105]] — Metamorfo → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3151 - uses|S1031 uses T1036.004]] — PingPull → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3152 - uses|S9023 uses T1518.001]] — HiddenFace → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3153 - uses|S9009 uses T1213.003]] — TruffleHog → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-3154 - uses|G1054 uses T1027.013]] — MirrorFace → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3155 - uses|S0198 uses T1204.001]] — NETWIRE → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3156 - uses|S9010 uses T1565.002]] — GlassWorm → Transmitted Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-3157 - uses|S1122 uses T1204.002]] — Mispadu → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-3158 - uses|S1135 uses T1561.002]] — MultiLayer Wiper → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-3159 - uses|G0094 uses T1106]] — Kimsuky → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3160 - uses|G0115 uses T1199]] — GOLD SOUTHFIELD → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-3161 - uses|S0279 uses T1555.003]] — Proton → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-3162 - uses|S0439 uses T1059.003]] — Okrum → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3163 - uses|S1090 uses T1074.001]] — NightClub → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3164 - uses|G1003 uses T1119]] — Ember Bear → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3165 - uses|S1039 uses T1548.002]] — Bumblebee → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-3166 - uses|G0035 uses T1071.002]] — Dragonfly → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3167 - uses|G1048 uses T1070.006]] — UNC3886 → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-3168 - uses|G1053 uses S0359]] — Storm-0501 → Nltest
+- [[07 ATT&CK Relationships/ATTACK-REL-3169 - uses|S0128 uses T1071.001]] — BADNEWS → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3170 - uses|G0011 uses T1588.002]] — PittyTiger → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3171 - uses|C0039 uses T1056]] — Versa Director Zero Day Exploitation → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3172 - uses|S0608 uses T1027]] — Conficker → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3173 - uses|C0029 uses T1070.006]] — Cutting Edge → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-3174 - uses|S0603 uses T1083]] — Stuxnet → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3175 - uses|G0096 uses T1566.001]] — APT41 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3176 - uses|S1239 uses T1480]] — TONESHELL → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-3177 - uses|S1018 uses T1622]] — Saint Bot → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-3178 - uses|G1001 uses S1015]] — HEXANE → Milan
+- [[07 ATT&CK Relationships/ATTACK-REL-3179 - uses|S0234 uses T1027.003]] — Bandook → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-3180 - uses|C0002 uses T1133]] — Night Dragon → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-3181 - uses|G0012 uses T1091]] — Darkhotel → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-3182 - uses|G0047 uses T1039]] — Gamaredon Group → Data from Network Shared Drive
+- [[07 ATT&CK Relationships/ATTACK-REL-3183 - uses|S0363 uses T1114.001]] — Empire → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3184 - uses|S0574 uses T1106]] — BendyBear → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3185 - uses|S1201 uses T1041]] — TRANSLATEXT → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3186 - uses|G1017 uses T1140]] — Volt Typhoon → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3187 - uses|S0200 uses T1071.001]] — Dipsind → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3188 - uses|G1018 uses T1027.013]] — TA2541 → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3189 - uses|C0047 uses T1071.001]] — RedDelta Modified PlugX Infection Chain Operations → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3190 - uses|S1148 uses T1020]] — Raccoon Stealer → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-3191 - uses|G1017 uses S1154]] — Volt Typhoon → VersaMem
+- [[07 ATT&CK Relationships/ATTACK-REL-3192 - uses|S0384 uses T1106]] — Dridex → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3193 - uses|S0508 uses T1090]] — ngrok → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3194 - uses|S0051 uses T1071.001]] — MiniDuke → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3195 - uses|S0257 uses T1123]] — VERMIN → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3196 - uses|S1187 uses T1071.001]] — reGeorg → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3197 - uses|G0034 uses T1059.001]] — Sandworm Team → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3198 - uses|S0270 uses T1497.001]] — RogueRobin → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3199 - uses|G0026 uses T1082]] — APT18 → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3200 - uses|S9020 uses T1082]] — LODEINFO → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3201 - uses|S1078 uses T1140]] — RotaJakiro → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3202 - uses|S0679 uses T1059.005]] — Ferocious → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-3203 - uses|S1016 uses T1059.004]] — MacMa → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3204 - uses|S0145 uses T1547.001]] — POWERSOURCE → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3205 - uses|S0674 uses T1059.001]] — CharmPower → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3206 - uses|S0678 uses T1124]] — Torisma → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3207 - uses|S0650 uses T1049]] — QakBot → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3208 - uses|G1056 uses T1546.016]] — TeamPCP → Installer Packages
+- [[07 ATT&CK Relationships/ATTACK-REL-3209 - uses|S0533 uses T1036.004]] — SLOTHFULMEDIA → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3210 - uses|S0386 uses T1027.013]] — Ursnif → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3211 - uses|S0257 uses T1082]] — VERMIN → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3212 - uses|G1042 uses S0596]] — RedEcho → ShadowPad
+- [[07 ATT&CK Relationships/ATTACK-REL-3213 - uses|S0011 uses T1055.001]] — Taidoor → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3214 - uses|C0001 uses T1053.005]] — Frankenstein → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3215 - uses|S0274 uses T1560.001]] — Calisto → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-3216 - uses|S0622 uses T1566.001]] — AppleSeed → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3217 - uses|S1020 uses T1036.003]] — Kevin → Rename Legitimate Utilities
+- [[07 ATT&CK Relationships/ATTACK-REL-3218 - uses|G0064 uses T1560.001]] — APT33 → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-3219 - uses|S0491 uses T1569.002]] — StrongPity → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-3220 - uses|S0234 uses T1083]] — Bandook → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3221 - uses|S0384 uses T1053.005]] — Dridex → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3222 - uses|S9022 uses T1555]] — MirrorStealer → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-3223 - uses|S0690 uses T1005]] — Green Lambert → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3224 - uses|G1056 uses T1543.002]] — TeamPCP → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3225 - uses|G1001 uses T1057]] — HEXANE → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3226 - uses|S1078 uses T1132.001]] — RotaJakiro → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3227 - uses|S0376 uses T1571]] — HOPLIGHT → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-3228 - uses|G0059 uses T1090]] — Magic Hound → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3229 - uses|S1239 uses T1056.001]] — TONESHELL → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3230 - uses|S0240 uses T1497.001]] — ROKRAT → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3231 - uses|G0069 uses T1016]] — MuddyWater → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3232 - uses|S1099 uses T1012]] — Samurai → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3233 - uses|S1141 uses T1001.002]] — LunarWeb → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-3234 - uses|G0129 uses T1608.001]] — Mustang Panda → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-3235 - uses|C0001 uses T1203]] — Frankenstein → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-3236 - uses|C0021 uses T1566.002]] — C0021 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3237 - uses|S0343 uses T1027.011]] — Exaramel for Windows → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3238 - uses|S0113 uses T1033]] — Prikormka → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3239 - uses|S0443 uses T1119]] — MESSAGETAP → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3240 - uses|S1210 uses T1140]] — Sagerunex → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3241 - uses|S0363 uses T1574.004]] — Empire → Dylib Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-3242 - uses|S0134 uses T1574.001]] — Downdelph → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-3243 - uses|S0688 uses T1057]] — Meteor → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3244 - uses|G1051 uses T1543.003]] — Medusa Group → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3245 - uses|S0454 uses T1120]] — Cadelspy → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3246 - uses|G0050 uses T1072]] — APT32 → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-3247 - uses|G0080 uses T1573.002]] — Cobalt Group → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3248 - uses|G0121 uses T1027.013]] — Sidewinder → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3249 - uses|C0014 uses T1087.002]] — Operation Wocao → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-3250 - uses|C0027 uses T1098.003]] — C0027 → Additional Cloud Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-3251 - uses|S0382 uses T1105]] — ServHelper → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3252 - uses|G1006 uses T1210]] — Earth Lusca → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-3253 - uses|G0050 uses S0100]] — APT32 → ipconfig
+- [[07 ATT&CK Relationships/ATTACK-REL-3254 - uses|G1012 uses T1189]] — CURIUM → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-3255 - uses|S9020 uses T1027.007]] — LODEINFO → Dynamic API Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-3256 - uses|S0382 uses T1082]] — ServHelper → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3257 - uses|S0625 uses T1134]] — Cuba → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-3258 - uses|S0692 uses T1087.002]] — SILENTTRINITY → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-3259 - uses|G1041 uses T1078]] — Sea Turtle → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3260 - uses|C0001 uses T1057]] — Frankenstein → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3261 - uses|S1018 uses T1027]] — Saint Bot → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3262 - uses|G1026 uses T1055.001]] — Malteiro → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3263 - uses|S0184 uses T1132.001]] — POWRUNER → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3264 - uses|G0114 uses T1021.006]] — Chimera → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-3265 - uses|S9028 uses T1027.013]] — PHPsert → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3266 - uses|G0092 uses S0344]] — TA505 → Azorult
+- [[07 ATT&CK Relationships/ATTACK-REL-3267 - uses|S0436 uses T1095]] — TSCookie → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3268 - uses|S0649 uses T1112]] — SMOKEDHAM → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3269 - uses|S1181 uses T1070.004]] — BlackByte 2.0 Ransomware → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3270 - uses|C0022 uses T1083]] — Operation Dream Job → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3271 - uses|S0629 uses T1053.005]] — RainyDay → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3272 - uses|S0271 uses T1105]] — KEYMARBLE → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3273 - uses|G0032 uses T1041]] — Lazarus Group → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3274 - uses|S0022 uses T1027.009]] — Uroburos → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-3275 - uses|S0366 uses T1543.003]] — WannaCry → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3276 - uses|G0093 uses T1041]] — GALLIUM → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3277 - uses|G1056 uses T1683.001]] — TeamPCP → Written Content
+- [[07 ATT&CK Relationships/ATTACK-REL-3278 - uses|G1053 uses T1530]] — Storm-0501 → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3279 - uses|C0007 uses T1082]] — FunnyDream → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3280 - uses|S1152 uses T1082]] — IMAPLoader → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3281 - uses|S0601 uses T1552.005]] — Hildegard → Cloud Instance Metadata API
+- [[07 ATT&CK Relationships/ATTACK-REL-3282 - uses|G1038 uses T1059.007]] — TA578 → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-3283 - uses|S1210 uses T1055.001]] — Sagerunex → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3284 - uses|G0095 uses T1189]] — Machete → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-3285 - uses|G1023 uses S1113]] — APT5 → RAPIDPULSE
+- [[07 ATT&CK Relationships/ATTACK-REL-3286 - uses|S9028 uses T1505.003]] — PHPsert → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3287 - uses|S0414 uses T1083]] — BabyShark → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3288 - uses|S0249 uses T1105]] — Gold Dragon → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3289 - uses|G1005 uses S1024]] — POLONIUM → CreepySnail
+- [[07 ATT&CK Relationships/ATTACK-REL-3290 - uses|S0554 uses T1105]] — Egregor → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3291 - uses|S0266 uses T1685]] — TrickBot → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-3292 - uses|G0051 uses S0363]] — FIN10 → Empire
+- [[07 ATT&CK Relationships/ATTACK-REL-3293 - uses|C0060 uses T1016]] — Operation AkaiRyū → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3294 - uses|S0483 uses T1566.001]] — IcedID → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3295 - uses|G0012 uses T1059.003]] — Darkhotel → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3296 - uses|S1110 uses T1071.001]] — SLIGHTPULSE → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3297 - uses|C0014 uses T1001]] — Operation Wocao → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-3298 - uses|S0171 uses T1082]] — Felismus → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3299 - uses|S0674 uses T1518]] — CharmPower → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3300 - uses|G0060 uses S0471]] — BRONZE BUTLER → build_downer
+- [[07 ATT&CK Relationships/ATTACK-REL-3301 - uses|G1035 uses T1071.001]] — Winter Vivern → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3302 - uses|S0691 uses T1071.001]] — Neoichor → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3303 - uses|S0264 uses T1124]] — OopsIE → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3304 - uses|S0482 uses T1204.002]] — Bundlore → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-3305 - uses|S9001 uses T1082]] — SystemBC → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3306 - uses|C0056 uses T1057]] — RedPenguin → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3307 - uses|S0650 uses T1218.011]] — QakBot → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3308 - uses|C0014 uses T1505.003]] — Operation Wocao → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3309 - uses|S0240 uses T1204.002]] — ROKRAT → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-3310 - uses|S9018 uses T1036.008]] — HeartCrypt → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-3311 - uses|G0087 uses T1566.001]] — APT39 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3312 - uses|G0035 uses S0002]] — Dragonfly → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-3313 - uses|S0667 uses T1082]] — Chrommme → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3314 - uses|S0692 uses T1546.003]] — SILENTTRINITY → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-3315 - uses|S1066 uses T1112]] — DarkTortilla → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3316 - uses|S1074 uses T1036.005]] — ANDROMEDA → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-3317 - uses|S0272 uses T1083]] — NDiskMonitor → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3318 - uses|S9023 uses T1571]] — HiddenFace → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-3319 - uses|S0538 uses T1567.002]] — Crutch → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3320 - uses|S0034 uses T1041]] — NETEAGLE → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3321 - uses|G0034 uses T1593]] — Sandworm Team → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-3322 - uses|G0037 uses T1566.003]] — FIN6 → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3323 - uses|S0269 uses T1012]] — QUADAGENT → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3324 - uses|S1148 uses T1083]] — Raccoon Stealer → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3325 - uses|S0501 uses T1082]] — PipeMon → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3326 - uses|S0436 uses T1573.001]] — TSCookie → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3327 - uses|S0632 uses T1041]] — GrimAgent → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3328 - uses|S0664 uses T1543.003]] — Pandora → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3329 - uses|S1059 uses T1070.004]] — metaMain → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3330 - uses|S0473 uses T1082]] — Avenger → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3331 - uses|S0004 uses T1543.003]] — TinyZBot → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3332 - uses|S9043 uses T1132.001]] — Mini Shai-Hulud → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3333 - uses|S0481 uses T1569.002]] — Ragnar Locker → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-3334 - uses|S1230 uses T1091]] — HIUPAN → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-3335 - uses|S0011 uses T1083]] — Taidoor → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3336 - uses|G0094 uses T1685]] — Kimsuky → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-3337 - uses|G0140 uses T1218.005]] — LazyScripter → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-3338 - uses|G0049 uses T1047]] — OilRig → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-3339 - uses|G0040 uses T1021.001]] — Patchwork → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3340 - uses|S0433 uses T1547.001]] — Rifdoor → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3341 - uses|S0330 uses T1083]] — Zeus Panda → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3342 - uses|G0037 uses T1134]] — FIN6 → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-3343 - uses|G0032 uses T1106]] — Lazarus Group → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3344 - uses|S0487 uses T1030]] — Kessel → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-3345 - uses|S0570 uses T1490]] — BitPaymer → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3346 - uses|S0142 uses T1027]] — StreamEx → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3347 - uses|C0024 uses T1587.001]] — SolarWinds Compromise → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-3348 - uses|S0335 uses T1071.001]] — Carbon → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3349 - uses|S0455 uses T1685]] — Metamorfo → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-3350 - uses|G0102 uses T1553.002]] — Wizard Spider → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-3351 - uses|G0001 uses S0012]] — Axiom → PoisonIvy
+- [[07 ATT&CK Relationships/ATTACK-REL-3352 - uses|S0090 uses T1056.001]] — Rover → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3353 - uses|S0386 uses T1140]] — Ursnif → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3354 - uses|G0098 uses S0029]] — BlackTech → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-3355 - uses|S0229 uses T1083]] — Orz → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3356 - uses|S0352 uses T1070.004]] — OSX_OCEANLOTUS.D → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3357 - uses|G1050 uses T1486]] — Water Galura → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-3358 - uses|S1071 uses T1558.004]] — Rubeus → AS-REP Roasting
+- [[07 ATT&CK Relationships/ATTACK-REL-3359 - uses|S0467 uses T1027]] — TajMahal → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3360 - uses|S9003 uses T1016]] — evilginx2 → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3361 - uses|G0134 uses T1584.001]] — Transparent Tribe → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-3362 - uses|C0012 uses T1201]] — Operation CuckooBees → Password Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3363 - uses|G0068 uses S0202]] — PLATINUM → adbupd
+- [[07 ATT&CK Relationships/ATTACK-REL-3364 - uses|S1111 uses T1574.001]] — DarkGate → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-3365 - uses|S0530 uses T1566.002]] — Melcoz → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3366 - uses|S0283 uses T1027]] — jRAT → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3367 - uses|S0415 uses T1027.013]] — BOOSTWRITE → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3368 - uses|S9043 uses T1614.001]] — Mini Shai-Hulud → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3369 - uses|G0069 uses T1140]] — MuddyWater → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3370 - uses|G1035 uses T1204.001]] — Winter Vivern → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3371 - uses|S1185 uses T1082]] — LightSpy → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3372 - uses|S1140 uses T1036.004]] — Spica → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3373 - uses|G1018 uses T1547.001]] — TA2541 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3374 - uses|G0102 uses T1082]] — Wizard Spider → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3375 - uses|S0673 uses T1070]] — DarkWatchman → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-3376 - uses|S0482 uses T1543.001]] — Bundlore → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-3377 - uses|S0378 uses T1083]] — PoshC2 → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3378 - uses|S0477 uses T1140]] — Goopy → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3379 - uses|S0576 uses T1218.011]] — MegaCortex → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3380 - uses|G0059 uses T1102.002]] — Magic Hound → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-3381 - uses|S0638 uses T1486]] — Babuk → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-3382 - uses|S0588 uses T1140]] — GoldMax → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3383 - uses|G0085 uses T1204.002]] — FIN4 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-3384 - uses|S9008 uses T1546.016]] — Shai-Hulud → Installer Packages
+- [[07 ATT&CK Relationships/ATTACK-REL-3385 - uses|S0453 uses T1497.003]] — Pony → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3386 - uses|S1050 uses T1070.004]] — PcShare → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3387 - uses|C0014 uses T1083]] — Operation Wocao → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3388 - uses|S0433 uses T1033]] — Rifdoor → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3389 - uses|G0139 uses T1059.009]] — TeamTNT → Cloud API
+- [[07 ATT&CK Relationships/ATTACK-REL-3390 - uses|G0125 uses T1119]] — HAFNIUM → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3391 - uses|G0094 uses S0002]] — Kimsuky → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-3392 - uses|S0388 uses T1140]] — YAHOYAH → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3393 - uses|S1141 uses T1070.004]] — LunarWeb → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3394 - uses|S0376 uses T1546.003]] — HOPLIGHT → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-3395 - uses|G0045 uses T1036.005]] — menuPass → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-3396 - uses|S9008 uses T1548.003]] — Shai-Hulud → Sudo and Sudo Caching
+- [[07 ATT&CK Relationships/ATTACK-REL-3397 - uses|S0369 uses T1059.003]] — CoinTicker → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3398 - uses|G0127 uses S0386]] — TA551 → Ursnif
+- [[07 ATT&CK Relationships/ATTACK-REL-3399 - uses|S0686 uses T1071.001]] — QuietSieve → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3400 - uses|S0466 uses T1083]] — WindTail → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3401 - uses|S0352 uses T1553.001]] — OSX_OCEANLOTUS.D → Gatekeeper Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-3402 - uses|S1246 uses T1555.003]] — BeaverTail → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-3403 - uses|S0177 uses T1055.011]] — Power Loader → Extra Window Memory Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3404 - uses|C0043 uses T1571]] — Indian Critical Infrastructure Intrusions → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-3405 - uses|S1070 uses T1497.001]] — Black Basta → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3406 - uses|S0598 uses T1027]] — P.A.S. Webshell → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3407 - uses|C0058 uses T1484.001]] — SharePoint ToolShell Exploitation → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-3408 - uses|G0046 uses T1033]] — FIN7 → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3409 - uses|G0143 uses T1218.011]] — Aquatic Panda → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3410 - uses|G1011 uses T1585.002]] — EXOTIC LILY → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3411 - uses|S0674 uses T1140]] — CharmPower → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3412 - uses|S0450 uses T1059.001]] — SHARPSTATS → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3413 - uses|S0199 uses T1105]] — TURNEDUP → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3414 - uses|S0431 uses T1573.001]] — HotCroissant → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3415 - uses|G0096 uses T1574.001]] — APT41 → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-3416 - uses|G0032 uses T1564.001]] — Lazarus Group → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-3417 - uses|S1125 uses T1561.001]] — AcidRain → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-3418 - uses|G0080 uses T1218.008]] — Cobalt Group → Odbcconf
+- [[07 ATT&CK Relationships/ATTACK-REL-3419 - uses|S1163 uses T1505.003]] — SnappyTCP → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3420 - uses|S0414 uses T1016]] — BabyShark → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3421 - uses|G0034 uses T1078]] — Sandworm Team → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3422 - uses|S1144 uses T1049]] — FRP → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3423 - uses|G0131 uses T1566.001]] — Tonto Team → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3424 - uses|S0398 uses T1106]] — HyperBro → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3425 - uses|S1013 uses T1057]] — ZxxZ → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3426 - uses|C0060 uses T1059.003]] — Operation AkaiRyū → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3427 - uses|G0140 uses T1204.002]] — LazyScripter → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-3428 - uses|S0128 uses T1113]] — BADNEWS → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3429 - uses|S0172 uses T1071.001]] — Reaver → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3430 - uses|G0056 uses T1189]] — PROMETHIUM → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-3431 - uses|S0377 uses T1573.001]] — Ebury → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3432 - uses|S0384 uses T1518]] — Dridex → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3433 - uses|S0649 uses T1573.001]] — SMOKEDHAM → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3434 - uses|S1048 uses T1685]] — macOS.OSAMiner → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-3435 - uses|G0119 uses T1585.002]] — Indrik Spider → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3436 - uses|S9003 uses T1059.007]] — evilginx2 → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-3437 - uses|G0050 uses T1021.002]] — APT32 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-3438 - uses|G1006 uses T1140]] — Earth Lusca → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3439 - uses|S0344 uses T1552.001]] — Azorult → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-3440 - uses|S1151 uses T1068]] — ZeroCleare → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-3441 - uses|G0102 uses S0039]] — Wizard Spider → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-3442 - uses|S0330 uses T1055.002]] — Zeus Panda → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3443 - uses|S9023 uses T1140]] — HiddenFace → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3444 - uses|S1016 uses T1074.001]] — MacMa → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3445 - uses|G0022 uses T1056.001]] — APT3 → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3446 - uses|S1248 uses T1071.001]] — XORIndex Loader → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3447 - uses|G0035 uses S0500]] — Dragonfly → MCMD
+- [[07 ATT&CK Relationships/ATTACK-REL-3448 - uses|S0481 uses T1489]] — Ragnar Locker → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-3449 - uses|C0014 uses T1583.004]] — Operation Wocao → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-3450 - uses|S0363 uses T1055]] — Empire → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3451 - uses|G0096 uses T1087.001]] — APT41 → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-3452 - uses|S1063 uses T1518.001]] — Brute Ratel C4 → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3453 - uses|G0139 uses T1610]] — TeamTNT → Deploy Container
+- [[07 ATT&CK Relationships/ATTACK-REL-3454 - uses|S0367 uses T1016.002]] — Emotet → Wi-Fi Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3455 - uses|S0170 uses T1069.001]] — Helminth → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-3456 - uses|G0082 uses T1056.001]] — APT38 → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3457 - uses|G0099 uses T1587.001]] — APT-C-36 → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-3458 - uses|S0430 uses T1095]] — Winnti for Linux → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3459 - uses|G0096 uses S0430]] — APT41 → Winnti for Linux
+- [[07 ATT&CK Relationships/ATTACK-REL-3460 - uses|S0094 uses T1016]] — Trojan.Karagany → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3461 - uses|S0652 uses T1074.001]] — MarkiRAT → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3462 - uses|G0117 uses T1560.001]] — Fox Kitten → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-3463 - uses|S0412 uses T1056.001]] — ZxShell → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3464 - uses|S1111 uses T1059.005]] — DarkGate → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-3465 - uses|S0398 uses T1027.013]] — HyperBro → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3466 - uses|S0534 uses T1553.002]] — Bazar → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-3467 - uses|S0538 uses T1560.001]] — Crutch → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-3468 - uses|G0035 uses T1005]] — Dragonfly → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3469 - uses|S0031 uses T1104]] — BACKSPACE → Multi-Stage Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-3470 - uses|S0572 uses T1083]] — Caterpillar WebShell → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3471 - uses|S9015 uses T1090.001]] — BRICKSTORM → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3472 - uses|S0692 uses T1546.015]] — SILENTTRINITY → Component Object Model Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-3473 - uses|S1170 uses T1140]] — ODAgent → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3474 - uses|S0192 uses T1033]] — Pupy → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3475 - uses|S0083 uses T1070.009]] — Misdat → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-3476 - uses|G1048 uses T1587.001]] — UNC3886 → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-3477 - uses|S0125 uses T1056.001]] — Remsec → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3478 - uses|G1050 uses T1657]] — Water Galura → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-3479 - uses|G0081 uses T1547.004]] — Tropic Trooper → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-3480 - uses|G0098 uses T1036.002]] — BlackTech → Right-to-Left Override
+- [[07 ATT&CK Relationships/ATTACK-REL-3481 - uses|S0382 uses T1021.001]] — ServHelper → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3482 - uses|S0662 uses T1027.015]] — RCSession → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-3483 - uses|S0274 uses T1098]] — Calisto → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-3484 - uses|S1170 uses T1070.004]] — ODAgent → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3485 - uses|C0058 uses T1074.001]] — SharePoint ToolShell Exploitation → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3486 - uses|G0099 uses T1683.002]] — APT-C-36 → Audio-Visual Content
+- [[07 ATT&CK Relationships/ATTACK-REL-3487 - uses|S0455 uses T1033]] — Metamorfo → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3488 - uses|G1017 uses S0075]] — Volt Typhoon → Reg
+- [[07 ATT&CK Relationships/ATTACK-REL-3489 - uses|S0457 uses T1055.001]] — Netwalker → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3490 - uses|S1147 uses T1053.005]] — Nightdoor → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3491 - uses|S0447 uses T1564.001]] — Lokibot → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-3492 - uses|S0266 uses T1543.003]] — TrickBot → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3493 - uses|S0228 uses T1027.013]] — NanHaiShu → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3494 - uses|S0143 uses T1218.011]] — Flame → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3495 - uses|G0007 uses S0410]] — APT28 → Fysbis
+- [[07 ATT&CK Relationships/ATTACK-REL-3496 - uses|G1017 uses T1074]] — Volt Typhoon → Data Staged
+- [[07 ATT&CK Relationships/ATTACK-REL-3497 - uses|S0487 uses T1105]] — Kessel → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3498 - uses|S0468 uses T1496.001]] — Skidmap → Compute Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-3499 - uses|S0197 uses T1005]] — PUNCHTRACK → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3500 - uses|G0096 uses T1030]] — APT41 → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-3501 - uses|S1109 uses T1083]] — PACEMAKER → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3502 - uses|S0528 uses T1555.003]] — Javali → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-3503 - uses|S1183 uses T1614.001]] — StrelaStealer → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3504 - uses|C0045 uses T1588.002]] — ShadowRay → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3505 - uses|S0093 uses T1105]] — Backdoor.Oldrea → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3506 - uses|G0091 uses T1125]] — Silence → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3507 - uses|S0056 uses T1003.001]] — Net Crawler → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-3508 - uses|S0608 uses T1490]] — Conficker → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3509 - uses|S0245 uses T1082]] — BADCALL → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3510 - uses|S0032 uses T1132.001]] — gh0st RAT → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3511 - uses|S0649 uses T1102]] — SMOKEDHAM → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3512 - uses|S0331 uses T1124]] — Agent Tesla → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3513 - uses|S0647 uses T1033]] — Turian → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3514 - uses|S9010 uses T1539]] — GlassWorm → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-3515 - uses|S0365 uses T1003.001]] — Olympic Destroyer → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-3516 - uses|S0437 uses T1083]] — Kivars → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3517 - uses|S1017 uses T1041]] — OutSteel → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3518 - uses|S0140 uses T1112]] — Shamoon → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3519 - uses|S0279 uses T1056.001]] — Proton → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3520 - uses|G0035 uses T1686]] — Dragonfly → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-3521 - uses|C0022 uses T1608.002]] — Operation Dream Job → Upload Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3522 - uses|C0018 uses S0633]] — C0018 → Sliver
+- [[07 ATT&CK Relationships/ATTACK-REL-3523 - uses|S1213 uses T1547.001]] — Lumma Stealer → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3524 - uses|G1003 uses T1003.002]] — Ember Bear → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-3525 - uses|G1041 uses T1199]] — Sea Turtle → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-3526 - uses|S1150 uses T1489]] — ROADSWEEP → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-3527 - uses|S0115 uses T1112]] — Crimson → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3528 - uses|S0125 uses T1033]] — Remsec → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3529 - uses|S0039 uses T1007]] — Net → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3530 - uses|S0453 uses T1059.003]] — Pony → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3531 - uses|G0114 uses T1074.001]] — Chimera → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3532 - uses|S1028 uses T1033]] — Action RAT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3533 - uses|G1016 uses T1547.001]] — FIN13 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3534 - uses|S1044 uses T1119]] — FunnyDream → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3535 - uses|S0610 uses T1132.001]] — SideTwist → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3536 - uses|G1016 uses T1074.001]] — FIN13 → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3537 - uses|G0064 uses T1132.001]] — APT33 → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3538 - uses|S1239 uses T1106]] — TONESHELL → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3539 - uses|G1017 uses T1056.001]] — Volt Typhoon → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3540 - uses|S0083 uses T1005]] — Misdat → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3541 - uses|S0496 uses T1105]] — REvil → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3542 - uses|G0082 uses S0002]] — APT38 → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-3543 - uses|S0246 uses T1090]] — HARDRAIN → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3544 - uses|G0006 uses T1588.002]] — APT1 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3545 - uses|S0391 uses T1033]] — HAWKBALL → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3546 - uses|S1219 uses T1095]] — REPTILE → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3547 - uses|S0153 uses T1555.003]] — RedLeaves → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-3548 - uses|S1227 uses T1573.001]] — StarProxy → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3549 - uses|S0211 uses T1083]] — Linfo → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3550 - uses|S0559 uses T1070.009]] — SUNBURST → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-3551 - uses|S1234 uses T1082]] — SplatCloak → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3552 - uses|S0442 uses T1105]] — VBShower → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3553 - uses|G0038 uses T1047]] — Stealth Falcon → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-3554 - uses|G0090 uses T1566.002]] — WIRTE → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3555 - uses|S1138 uses T1584.001]] — Gootloader → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-3556 - uses|G0030 uses T1016.001]] — Lotus Blossom → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3557 - uses|G0037 uses T1059.001]] — FIN6 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3558 - uses|S0162 uses T1564.001]] — Komplex → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-3559 - uses|S1059 uses T1071.001]] — metaMain → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3560 - uses|S0180 uses T1049]] — Volgmer → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3561 - uses|S9017 uses T1056.001]] — DCRAT → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3562 - uses|G0004 uses T1071.004]] — Ke3chang → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-3563 - uses|G1052 uses T1059.006]] — Contagious Interview → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-3564 - uses|S0666 uses T1106]] — Gelsemium → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3565 - uses|S0530 uses T1027.002]] — Melcoz → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-3566 - uses|S0674 uses T1132.001]] — CharmPower → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3567 - uses|G1052 uses T1059.003]] — Contagious Interview → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3568 - uses|G0035 uses T1598.002]] — Dragonfly → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3569 - uses|S0483 uses T1135]] — IcedID → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3570 - uses|G1003 uses T1021]] — Ember Bear → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-3571 - uses|S0603 uses T1518.001]] — Stuxnet → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3572 - uses|G0035 uses T1598.003]] — Dragonfly → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3573 - uses|G0006 uses T1550.002]] — APT1 → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-3574 - uses|S0670 uses T1041]] — WarzoneRAT → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3575 - uses|S0586 uses T1018]] — TAINTEDSCRIBE → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3576 - uses|G0082 uses T1690]] — APT38 → Prevent Command History Logging
+- [[07 ATT&CK Relationships/ATTACK-REL-3577 - uses|S0066 uses T1573.001]] — 3PARA RAT → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3578 - uses|C0058 uses T1190]] — SharePoint ToolShell Exploitation → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-3579 - uses|G0032 uses S0174]] — Lazarus Group → Responder
+- [[07 ATT&CK Relationships/ATTACK-REL-3580 - uses|S0650 uses T1059.001]] — QakBot → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3581 - uses|G1032 uses T1657]] — INC Ransom → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-3582 - uses|S0276 uses T1036.006]] — Keydnap → Space after Filename
+- [[07 ATT&CK Relationships/ATTACK-REL-3583 - uses|S1199 uses T1070.004]] — LockBit 2.0 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3584 - uses|S0247 uses T1059.003]] — NavRAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3585 - uses|G1021 uses S1096]] — Cinnamon Tempest → Cheerscrypt
+- [[07 ATT&CK Relationships/ATTACK-REL-3586 - uses|G0069 uses T1559.001]] — MuddyWater → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-3587 - uses|G0034 uses S1010]] — Sandworm Team → VPNFilter
+- [[07 ATT&CK Relationships/ATTACK-REL-3588 - uses|G0125 uses T1016]] — HAFNIUM → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3589 - uses|S1065 uses T1033]] — Woody RAT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3590 - uses|S1034 uses T1573.001]] — StrifeWater → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3591 - uses|S0330 uses T1105]] — Zeus Panda → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3592 - uses|S0367 uses T1059.003]] — Emotet → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3593 - uses|C0002 uses T1588.001]] — Night Dragon → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-3594 - uses|G0032 uses S0593]] — Lazarus Group → ECCENTRICBANDWAGON
+- [[07 ATT&CK Relationships/ATTACK-REL-3595 - uses|C0021 uses T1218.011]] — C0021 → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3596 - uses|S0330 uses T1070.004]] — Zeus Panda → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3597 - uses|S0336 uses T1573.001]] — NanoCore → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3598 - uses|S0618 uses T1490]] — FIVEHANDS → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3599 - uses|S1240 uses T1614]] — RedLine Stealer → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3600 - uses|S1068 uses T1033]] — BlackCat → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3601 - uses|G1030 uses T1505.003]] — Agrius → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3602 - uses|S1018 uses T1548.002]] — Saint Bot → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-3603 - uses|S0699 uses T1573.002]] — Mythic → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3604 - uses|G0010 uses T1027.011]] — Turla → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3605 - uses|S0438 uses T1056.001]] — Attor → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3606 - uses|G0037 uses T1573.002]] — FIN6 → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3607 - uses|S9024 uses T1480.002]] — SPAWNCHIMERA → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-3608 - uses|S0625 uses T1083]] — Cuba → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3609 - uses|S0332 uses T1115]] — Remcos → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-3610 - uses|S0650 uses T1069.001]] — QakBot → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-3611 - uses|S1013 uses T1053.005]] — ZxxZ → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3612 - uses|G1048 uses T1560.003]] — UNC3886 → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-3613 - uses|G1032 uses S0183]] — INC Ransom → Tor
+- [[07 ATT&CK Relationships/ATTACK-REL-3614 - uses|S0266 uses T1083]] — TrickBot → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3615 - uses|S1130 uses T1218.007]] — Raspberry Robin → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-3616 - uses|S0337 uses T1071.001]] — BadPatch → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3617 - uses|G0034 uses T1070.004]] — Sandworm Team → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3618 - uses|S0659 uses T1018]] — Diavol → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3619 - uses|G1040 uses T1518.001]] — Play → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3620 - uses|C0045 uses T1027.013]] — ShadowRay → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3621 - uses|S1065 uses T1113]] — Woody RAT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3622 - uses|G0135 uses T1095]] — BackdoorDiplomacy → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3623 - uses|S0141 uses T1548.002]] — Winnti for Windows → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-3624 - uses|G0010 uses S0029]] — Turla → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-3625 - uses|S0467 uses T1123]] — TajMahal → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3626 - uses|S1146 uses T1123]] — MgBot → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3627 - uses|S1013 uses T1106]] — ZxxZ → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3628 - uses|S0045 uses T1120]] — ADVSTORESHELL → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3629 - uses|S0189 uses T1027]] — ISMInjector → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3630 - uses|S0237 uses T1571]] — GravityRAT → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-3631 - uses|S0137 uses T1680]] — CORESHELL → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3632 - uses|S0533 uses T1082]] — SLOTHFULMEDIA → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3633 - uses|G0094 uses T1059.007]] — Kimsuky → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-3634 - uses|S1130 uses T1685]] — Raspberry Robin → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-3635 - uses|S1122 uses T1041]] — Mispadu → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3636 - uses|S0155 uses T1095]] — WINDSHIELD → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3637 - uses|S0641 uses T1048]] — Kobalos → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3638 - uses|S0596 uses T1132.002]] — ShadowPad → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3639 - uses|S0352 uses T1222.002]] — OSX_OCEANLOTUS.D → Linux and Mac Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-3640 - uses|G0092 uses T1106]] — TA505 → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3641 - uses|S0339 uses T1056.001]] — Micropsia → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3642 - uses|S0673 uses T1005]] — DarkWatchman → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3643 - uses|S0461 uses T1070]] — SDBbot → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-3644 - uses|S0650 uses T1574.001]] — QakBot → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-3645 - uses|S0515 uses T1005]] — WellMail → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3646 - uses|S1156 uses T1041]] — Manjusaka → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3647 - uses|S1028 uses T1005]] — Action RAT → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3648 - uses|G0082 uses T1218.011]] — APT38 → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3649 - uses|G0064 uses T1110.003]] — APT33 → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-3650 - uses|G0108 uses T1218.010]] — Blue Mockingbird → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-3651 - uses|S0264 uses T1027]] — OopsIE → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3652 - uses|S0579 uses T1106]] — Waterbear → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3653 - uses|S0484 uses T1685]] — Carberp → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-3654 - uses|S0447 uses T1105]] — Lokibot → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3655 - uses|S1018 uses T1053.005]] — Saint Bot → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3656 - uses|S0396 uses T1124]] — EvilBunny → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3657 - uses|G0035 uses T1221]] — Dragonfly → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3658 - uses|S0373 uses T1564.004]] — Astaroth → NTFS File Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-3659 - uses|S0258 uses T1140]] — RGDoor → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3660 - uses|G0090 uses S1040]] — WIRTE → Rclone
+- [[07 ATT&CK Relationships/ATTACK-REL-3661 - uses|S1112 uses T1140]] — STEADYPULSE → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3662 - uses|C0014 uses T1560.001]] — Operation Wocao → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-3663 - uses|S0431 uses T1106]] — HotCroissant → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3664 - uses|S1179 uses T1497.001]] — Exbyte → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3665 - uses|S0276 uses T1071.001]] — Keydnap → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3666 - uses|G0069 uses S1035]] — MuddyWater → Small Sieve
+- [[07 ATT&CK Relationships/ATTACK-REL-3667 - uses|G0034 uses T1053.005]] — Sandworm Team → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3668 - uses|G0125 uses T1016.001]] — HAFNIUM → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3669 - uses|S0473 uses T1027.003]] — Avenger → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-3670 - uses|S0623 uses T1071]] — Siloscape → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3671 - uses|S0589 uses T1140]] — Sibot → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3672 - uses|G0067 uses T1547.001]] — APT37 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3673 - uses|S1149 uses T1518.001]] — CHIMNEYSWEEP → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3674 - uses|G0052 uses T1560.001]] — CopyKittens → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-3675 - uses|G0045 uses T1218.004]] — menuPass → InstallUtil
+- [[07 ATT&CK Relationships/ATTACK-REL-3676 - uses|S9001 uses T1053.005]] — SystemBC → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3677 - uses|G1038 uses S0483]] — TA578 → IcedID
+- [[07 ATT&CK Relationships/ATTACK-REL-3678 - uses|S0023 uses T1083]] — CHOPSTICK → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3679 - uses|G1011 uses T1597]] — EXOTIC LILY → Search Closed Sources
+- [[07 ATT&CK Relationships/ATTACK-REL-3680 - uses|S1018 uses T1497.001]] — Saint Bot → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3681 - uses|G0037 uses T1119]] — FIN6 → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3682 - uses|G0119 uses T1021.004]] — Indrik Spider → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-3683 - uses|S1229 uses T1090]] — Havoc → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3684 - uses|S0471 uses T1036.004]] — build_downer → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3685 - uses|S0223 uses T1029]] — POWERSTATS → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3686 - uses|S0607 uses T1027]] — KillDisk → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3687 - uses|G1024 uses T1567.002]] — Akira → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3688 - uses|G0131 uses S0002]] — Tonto Team → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-3689 - uses|G1004 uses T1621]] — LAPSUS$ → Multi-Factor Authentication Request Generation
+- [[07 ATT&CK Relationships/ATTACK-REL-3690 - uses|G1057 uses T1583.001]] — ShinyHunters → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-3691 - uses|S0279 uses T1070.004]] — Proton → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3692 - uses|G0117 uses T1572]] — Fox Kitten → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-3693 - uses|S0428 uses T1048.003]] — PoetRAT → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3694 - uses|S0588 uses T1059.003]] — GoldMax → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3695 - uses|S1207 uses T1027.013]] — XLoader → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3696 - uses|G0129 uses S1238]] — Mustang Panda → STATICPLUGIN
+- [[07 ATT&CK Relationships/ATTACK-REL-3697 - uses|S0697 uses T1553.002]] — HermeticWiper → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-3698 - uses|S1015 uses T1105]] — Milan → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3699 - uses|S1226 uses T1112]] — BOOKWORM → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3700 - uses|S0431 uses T1007]] — HotCroissant → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3701 - uses|G0096 uses T1070.004]] — APT41 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3702 - uses|C0048 uses T1190]] — Operation MidnightEclipse → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-3703 - uses|S0501 uses T1016]] — PipeMon → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3704 - uses|G0030 uses S0082]] — Lotus Blossom → Emissary
+- [[07 ATT&CK Relationships/ATTACK-REL-3705 - uses|S1198 uses T1071.001]] — Gomir → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3706 - uses|S0668 uses T1573.002]] — TinyTurla → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3707 - uses|C0025 uses T1059.005]] — 2016 Ukraine Electric Power Attack → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-3708 - uses|S0559 uses T1218.011]] — SUNBURST → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3709 - uses|G0030 uses T1049]] — Lotus Blossom → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3710 - uses|G0049 uses T1588.002]] — OilRig → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3711 - uses|S1087 uses T1564.003]] — AsyncRAT → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-3712 - uses|G0092 uses S0521]] — TA505 → BloodHound
+- [[07 ATT&CK Relationships/ATTACK-REL-3713 - uses|G0007 uses T1595.002]] — APT28 → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-3714 - uses|S0690 uses T1543.001]] — Green Lambert → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-3715 - uses|S1031 uses T1132.001]] — PingPull → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3716 - uses|G0099 uses T1204.002]] — APT-C-36 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-3717 - uses|G0012 uses T1547.001]] — Darkhotel → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3718 - uses|S0634 uses T1218.011]] — EnvyScout → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3719 - uses|C0005 uses T1566.002]] — Operation Spalax → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3720 - uses|G1053 uses S0057]] — Storm-0501 → Tasklist
+- [[07 ATT&CK Relationships/ATTACK-REL-3721 - uses|S0260 uses T1059.007]] — InvisiMole → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-3722 - uses|S1064 uses T1497.001]] — SVCReady → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3723 - uses|S0386 uses T1112]] — Ursnif → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3724 - uses|S0049 uses T1071.001]] — GeminiDuke → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3725 - uses|G0125 uses S1155]] — HAFNIUM → Covenant
+- [[07 ATT&CK Relationships/ATTACK-REL-3726 - uses|S0501 uses T1027.011]] — PipeMon → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3727 - uses|S0038 uses T1074.001]] — Duqu → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3728 - uses|S0666 uses T1071.001]] — Gelsemium → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3729 - uses|S0088 uses T1059.003]] — Kasidet → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3730 - uses|G0007 uses T1498]] — APT28 → Network Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3731 - uses|C0022 uses T1684.001]] — Operation Dream Job → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-3732 - uses|G0087 uses T1547.001]] — APT39 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3733 - uses|C0018 uses S0154]] — C0018 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-3734 - uses|S9036 uses T1134.001]] — LP-Notes → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-3735 - uses|S0664 uses T1055]] — Pandora → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3736 - uses|S1221 uses T1102]] — MOPSLED → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3737 - uses|S9036 uses T1140]] — LP-Notes → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3738 - uses|S0518 uses T1140]] — PolyglotDuke → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3739 - uses|S0531 uses T1112]] — Grandoreiro → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3740 - uses|S9031 uses T1041]] — AshTag → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3741 - uses|S1138 uses T1614.001]] — Gootloader → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3742 - uses|G0125 uses T1567.002]] — HAFNIUM → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3743 - uses|S1198 uses T1070.004]] — Gomir → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3744 - uses|S9017 uses T1573.002]] — DCRAT → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3745 - uses|S0631 uses T1059.003]] — Chaes → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3746 - uses|C0051 uses T1561.001]] — APT28 Nearest Neighbor Campaign → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-3747 - uses|G1048 uses T1059.001]] — UNC3886 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3748 - uses|S0125 uses T1027.013]] — Remsec → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3749 - uses|S0689 uses T1071.001]] — WhisperGate → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3750 - uses|G0119 uses S0002]] — Indrik Spider → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-3751 - uses|S0215 uses T1102.002]] — KARAE → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-3752 - uses|G0081 uses T1132.001]] — Tropic Trooper → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3753 - uses|G1037 uses T1204.001]] — TA577 → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3754 - uses|S0452 uses T1018]] — USBferry → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3755 - uses|G0082 uses T1218.007]] — APT38 → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-3756 - uses|G1017 uses T1218]] — Volt Typhoon → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-3757 - uses|S0491 uses T1036.005]] — StrongPity → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-3758 - uses|S0154 uses T1112]] — Cobalt Strike → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3759 - uses|S0378 uses T1016]] — PoshC2 → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3760 - uses|G0093 uses S0020]] — GALLIUM → China Chopper
+- [[07 ATT&CK Relationships/ATTACK-REL-3761 - uses|S0203 uses T1005]] — Hydraq → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3762 - uses|G1006 uses T1583.006]] — Earth Lusca → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-3763 - uses|G1051 uses T1218.014]] — Medusa Group → MMC
+- [[07 ATT&CK Relationships/ATTACK-REL-3764 - uses|S0232 uses T1003]] — HOMEFRY → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-3765 - uses|S1050 uses T1112]] — PcShare → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3766 - uses|S0229 uses T1057]] — Orz → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3767 - uses|S0261 uses T1112]] — Catchamas → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3768 - uses|S0382 uses T1136.001]] — ServHelper → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-3769 - uses|C0007 uses T1016]] — FunnyDream → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3770 - uses|S0683 uses T1078.004]] — Peirates → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3771 - uses|G0049 uses T1036.005]] — OilRig → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-3772 - uses|S0282 uses T1056.001]] — MacSpy → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3773 - uses|G1003 uses T1567.002]] — Ember Bear → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3774 - uses|G0003 uses T1588.002]] — Cleaver → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3775 - uses|G0004 uses T1105]] — Ke3chang → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3776 - uses|G0094 uses T1205]] — Kimsuky → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-3777 - uses|G0037 uses T1074.002]] — FIN6 → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3778 - uses|G0065 uses T1003.001]] — Leviathan → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-3779 - uses|S0603 uses T1570]] — Stuxnet → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3780 - uses|S0201 uses T1222.001]] — JPIN → Windows Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-3781 - uses|S0005 uses T1003.001]] — Windows Credential Editor → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-3782 - uses|S0412 uses T1090]] — ZxShell → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3783 - uses|S0375 uses T1113]] — Remexi → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3784 - uses|S0697 uses T1543.003]] — HermeticWiper → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3785 - uses|G0032 uses T1574.013]] — Lazarus Group → KernelCallbackTable
+- [[07 ATT&CK Relationships/ATTACK-REL-3786 - uses|S0274 uses T1074.001]] — Calisto → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3787 - uses|S1187 uses T1021.004]] — reGeorg → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-3788 - uses|G0139 uses T1613]] — TeamTNT → Container and Resource Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3789 - uses|G0016 uses T1078.004]] — APT29 → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-3790 - uses|G0064 uses S0363]] — APT33 → Empire
+- [[07 ATT&CK Relationships/ATTACK-REL-3791 - uses|C0024 uses T1190]] — SolarWinds Compromise → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-3792 - uses|G0019 uses T1047]] — Naikon → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-3793 - uses|S0268 uses T1218.011]] — Bisonal → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3794 - uses|S0339 uses T1123]] — Micropsia → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3795 - uses|G0069 uses T1571]] — MuddyWater → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-3796 - uses|G0108 uses T1218.011]] — Blue Mockingbird → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-3797 - uses|G0114 uses T1135]] — Chimera → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3798 - uses|S0461 uses T1016]] — SDBbot → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3799 - uses|S1145 uses T1027.003]] — Pikabot → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-3800 - uses|C0017 uses T1003.002]] — C0017 → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-3801 - uses|G1052 uses T1571]] — Contagious Interview → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-3802 - uses|S0487 uses T1132.001]] — Kessel → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-3803 - uses|C0023 uses T1102.002]] — Operation Ghost → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-3804 - uses|S9041 uses T1546.016]] — TeamPCP Cloud Stealer → Installer Packages
+- [[07 ATT&CK Relationships/ATTACK-REL-3805 - uses|S1110 uses T1074.001]] — SLIGHTPULSE → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3806 - uses|G0087 uses T1071.001]] — APT39 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3807 - uses|G0055 uses S0176]] — NEODYMIUM → Wingbird
+- [[07 ATT&CK Relationships/ATTACK-REL-3808 - uses|G1055 uses T1552.002]] — VOID MANTICORE → Credentials in Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3809 - uses|S0060 uses T1033]] — Sys10 → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3810 - uses|G1009 uses T1016]] — Moses Staff → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3811 - uses|S0455 uses T1102.003]] — Metamorfo → One-Way Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-3812 - uses|G0133 uses T1204.002]] — Nomadic Octopus → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-3813 - uses|S0650 uses T1572]] — QakBot → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-3814 - uses|G0080 uses T1218.010]] — Cobalt Group → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-3815 - uses|S0662 uses T1033]] — RCSession → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3816 - uses|S0367 uses T1135]] — Emotet → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3817 - uses|S0238 uses T1124]] — Proxysvc → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3818 - uses|S1037 uses T1074.001]] — STARWHALE → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3819 - uses|S1124 uses T1016]] — SocGholish → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3820 - uses|G0114 uses T1217]] — Chimera → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3821 - uses|G0140 uses T1547.001]] — LazyScripter → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3822 - uses|G0034 uses T1036.005]] — Sandworm Team → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-3823 - uses|S0449 uses T1036.004]] — Maze → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3824 - uses|S0689 uses T1542.003]] — WhisperGate → Bootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-3825 - uses|G1016 uses T1036]] — FIN13 → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-3826 - uses|S0435 uses T1071.001]] — PLEAD → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3827 - uses|G0082 uses T1112]] — APT38 → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3828 - uses|G0087 uses T1074.001]] — APT39 → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3829 - uses|C0015 uses T1567.002]] — C0015 → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3830 - uses|G0071 uses S0236]] — Orangeworm → Kwampirs
+- [[07 ATT&CK Relationships/ATTACK-REL-3831 - uses|S0449 uses T1218.007]] — Maze → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-3832 - uses|S1239 uses T1518.001]] — TONESHELL → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3833 - uses|S0128 uses T1059.003]] — BADNEWS → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3834 - uses|S1198 uses T1573]] — Gomir → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3835 - uses|S0476 uses T1047]] — Valak → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-3836 - uses|G0046 uses T1190]] — FIN7 → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-3837 - uses|G0046 uses T1543.003]] — FIN7 → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3838 - uses|S0435 uses T1090]] — PLEAD → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3839 - uses|S0211 uses T1070.004]] — Linfo → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3840 - uses|S0282 uses T1070.004]] — MacSpy → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3841 - uses|G0073 uses T1588.002]] — APT19 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-3842 - uses|G0026 uses T1105]] — APT18 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3843 - uses|G0053 uses T1133]] — FIN5 → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-3844 - uses|G0102 uses T1059.001]] — Wizard Spider → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3845 - uses|S0266 uses T1016]] — TrickBot → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3846 - uses|S0436 uses T1083]] — TSCookie → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3847 - uses|S1190 uses T1053.005]] — Kapeka → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3848 - uses|G0082 uses T1059.005]] — APT38 → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-3849 - uses|G0129 uses S0662]] — Mustang Panda → RCSession
+- [[07 ATT&CK Relationships/ATTACK-REL-3850 - uses|G0121 uses T1074.001]] — Sidewinder → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3851 - uses|G0089 uses T1124]] — The White Company → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3852 - uses|G0119 uses S0570]] — Indrik Spider → BitPaymer
+- [[07 ATT&CK Relationships/ATTACK-REL-3853 - uses|S0572 uses T1112]] — Caterpillar WebShell → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3854 - uses|S1030 uses T1027.002]] — Squirrelwaffle → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-3855 - uses|G0027 uses T1140]] — Threat Group-3390 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3856 - uses|S0386 uses T1082]] — Ursnif → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3857 - uses|G0130 uses T1566.001]] — Ajax Security Team → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3858 - uses|S0334 uses T1059]] — DarkComet → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-3859 - uses|S0452 uses T1059.003]] — USBferry → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3860 - uses|S1086 uses T1059.005]] — Snip3 → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-3861 - uses|S0400 uses T1070.005]] — RobbinHood → Network Share Connection Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-3862 - uses|G1043 uses T1016]] — BlackByte → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3863 - uses|S1200 uses T1559]] — StealBit → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-3864 - uses|C0057 uses T1071.001]] — 3CX Supply Chain Attack → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3865 - uses|S0356 uses T1041]] — KONNI → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3866 - uses|S0260 uses T1105]] — InvisiMole → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3867 - uses|G0071 uses T1021.002]] — Orangeworm → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-3868 - uses|G1006 uses T1189]] — Earth Lusca → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-3869 - uses|G1054 uses S0154]] — MirrorFace → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-3870 - uses|G0035 uses T1113]] — Dragonfly → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3871 - uses|G1016 uses T1590.004]] — FIN13 → Network Topology
+- [[07 ATT&CK Relationships/ATTACK-REL-3872 - uses|C0046 uses T1587.003]] — ArcaneDoor → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-3873 - uses|G1052 uses T1090]] — Contagious Interview → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3874 - uses|G0061 uses S0097]] — FIN8 → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-3875 - uses|G0049 uses T1053.005]] — OilRig → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-3876 - uses|S9042 uses T1070.004]] — CanisterWorm → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3877 - uses|S1170 uses T1106]] — ODAgent → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3878 - uses|S0349 uses T1555.001]] — LaZagne → Keychain
+- [[07 ATT&CK Relationships/ATTACK-REL-3879 - uses|S1149 uses T1056.001]] — CHIMNEYSWEEP → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-3880 - uses|S0661 uses T1036]] — FoggyWeb → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-3881 - uses|S1040 uses T1030]] — Rclone → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-3882 - uses|G0003 uses T1003.001]] — Cleaver → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-3883 - uses|S1025 uses T1082]] — Amadey → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3884 - uses|C0049 uses T1615]] — Leviathan Australian Intrusions → Group Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3885 - uses|G0080 uses T1218.003]] — Cobalt Group → CMSTP
+- [[07 ATT&CK Relationships/ATTACK-REL-3886 - uses|S1089 uses T1071.002]] — SharpDisco → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3887 - uses|S0265 uses T1082]] — Kazuar → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3888 - uses|S9010 uses T1213.006]] — GlassWorm → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-3889 - uses|C0063 uses T1584.008]] — 2025 Poland Wiper Attacks → Network Devices
+- [[07 ATT&CK Relationships/ATTACK-REL-3890 - uses|S0496 uses T1112]] — REvil → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3891 - uses|S0428 uses T1027.010]] — PoetRAT → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-3892 - uses|S0698 uses T1218.010]] — HermeticWizard → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-3893 - uses|S1158 uses T1140]] — DUSTPAN → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3894 - uses|S0570 uses T1480]] — BitPaymer → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-3895 - uses|S0596 uses T1055.001]] — ShadowPad → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3896 - uses|S0128 uses T1119]] — BADNEWS → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3897 - uses|S0216 uses T1189]] — POORAIM → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-3898 - uses|S9019 uses T1547.001]] — PureCrypter → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-3899 - uses|S0531 uses T1105]] — Grandoreiro → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3900 - uses|S0265 uses T1069.001]] — Kazuar → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-3901 - uses|G0049 uses T1071.004]] — OilRig → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-3902 - uses|G0084 uses T1027]] — Gallmaker → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3903 - uses|G0062 uses T1059.001]] — TA459 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3904 - uses|S1060 uses T1016]] — Mafalda → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3905 - uses|G0099 uses T1574.001]] — APT-C-36 → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-3906 - uses|G0046 uses T1027.010]] — FIN7 → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-3907 - uses|S0172 uses T1016]] — Reaver → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3908 - uses|S0196 uses T1140]] — PUNCHBUGGY → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3909 - uses|S0238 uses T1005]] — Proxysvc → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3910 - uses|G0139 uses T1027.002]] — TeamTNT → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-3911 - uses|G0100 uses T1218.010]] — Inception → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-3912 - uses|S0203 uses T1082]] — Hydraq → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3913 - uses|S9019 uses T1055]] — PureCrypter → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3914 - uses|G0022 uses S0166]] — APT3 → RemoteCMD
+- [[07 ATT&CK Relationships/ATTACK-REL-3915 - uses|S1196 uses T1027.002]] — Troll Stealer → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-3916 - uses|S0234 uses T1123]] — Bandook → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3917 - uses|S0615 uses T1564.010]] — SombRAT → Process Argument Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-3918 - uses|S0633 uses T1027.013]] — Sliver → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3919 - uses|G1001 uses T1518]] — HEXANE → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3920 - uses|G0035 uses T1595.002]] — Dragonfly → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-3921 - uses|S0015 uses T1564.001]] — Ixeshe → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-3922 - uses|G1030 uses S1137]] — Agrius → Moneybird
+- [[07 ATT&CK Relationships/ATTACK-REL-3923 - uses|S0679 uses T1120]] — Ferocious → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3924 - uses|S0630 uses T1106]] — Nebulae → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3925 - uses|G0099 uses T1583.001]] — APT-C-36 → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-3926 - uses|G1015 uses T1114]] — Scattered Spider → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3927 - uses|S0354 uses T1059.001]] — Denis → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-3928 - uses|S0662 uses T1548.002]] — RCSession → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-3929 - uses|S0606 uses T1106]] — Bad Rabbit → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-3930 - uses|G0106 uses T1102]] — Rocke → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3931 - uses|G0106 uses T1021.004]] — Rocke → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-3932 - uses|S0630 uses T1005]] — Nebulae → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3933 - uses|S0641 uses T1554]] — Kobalos → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-3934 - uses|S0201 uses T1055]] — JPIN → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-3935 - uses|C0016 uses S0032]] — Operation Dust Storm → gh0st RAT
+- [[07 ATT&CK Relationships/ATTACK-REL-3936 - uses|C0012 uses T1003.002]] — Operation CuckooBees → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-3937 - uses|S0205 uses T1016]] — Naid → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3938 - uses|S0629 uses T1059.003]] — RainyDay → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3939 - uses|G0139 uses T1057]] — TeamTNT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3940 - uses|S9026 uses T1480]] — ROAMINGHOUSE → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-3941 - uses|S9038 uses T1485]] — DynoWiper → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-3942 - uses|S0267 uses T1105]] — FELIXROOT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3943 - uses|C0012 uses S0096]] — Operation CuckooBees → Systeminfo
+- [[07 ATT&CK Relationships/ATTACK-REL-3944 - uses|G1057 uses T1213.006]] — ShinyHunters → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-3945 - uses|S0663 uses T1027.011]] — SysUpdate → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-3946 - uses|S1229 uses T1005]] — Havoc → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-3947 - uses|S0267 uses T1027.013]] — FELIXROOT → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-3948 - uses|G0047 uses T1218.005]] — Gamaredon Group → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-3949 - uses|S0380 uses T1047]] — StoneDrill → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-3950 - uses|S9038 uses T1083]] — DynoWiper → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3951 - uses|S0497 uses T1036]] — Dacls → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-3952 - uses|S1227 uses T1140]] — StarProxy → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3953 - uses|S1124 uses T1048.003]] — SocGholish → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-3954 - uses|S0606 uses T1210]] — Bad Rabbit → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-3955 - uses|S0283 uses T1059.003]] — jRAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3956 - uses|G0060 uses S0596]] — BRONZE BUTLER → ShadowPad
+- [[07 ATT&CK Relationships/ATTACK-REL-3957 - uses|S0660 uses T1574.001]] — Clambling → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-3958 - uses|S0629 uses T1105]] — RainyDay → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3959 - uses|S9029 uses T1071.001]] — IronWind → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3960 - uses|S0253 uses T1685.005]] — RunningRAT → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-3961 - uses|G0060 uses T1059.003]] — BRONZE BUTLER → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-3962 - uses|G0065 uses T1197]] — Leviathan → BITS Jobs
+- [[07 ATT&CK Relationships/ATTACK-REL-3963 - uses|S0239 uses T1041]] — Bankshot → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3964 - uses|G1006 uses T1204.001]] — Earth Lusca → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-3965 - uses|S0148 uses T1070.009]] — RTM → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-3966 - uses|S0373 uses T1074.001]] — Astaroth → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-3967 - uses|G1026 uses T1566.001]] — Malteiro → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-3968 - uses|S0686 uses T1105]] — QuietSieve → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-3969 - uses|S0251 uses T1083]] — Zebrocy → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3970 - uses|C0014 uses T1119]] — Operation Wocao → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3971 - uses|S0445 uses T1119]] — ShimRatReporter → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-3972 - uses|S1059 uses T1546.003]] — metaMain → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-3973 - uses|S0603 uses T1560.003]] — Stuxnet → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-3974 - uses|G0059 uses S0096]] — Magic Hound → Systeminfo
+- [[07 ATT&CK Relationships/ATTACK-REL-3975 - uses|C0060 uses S1087]] — Operation AkaiRyū → AsyncRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-3976 - uses|G0102 uses S1071]] — Wizard Spider → Rubeus
+- [[07 ATT&CK Relationships/ATTACK-REL-3977 - uses|S0447 uses T1497.003]] — Lokibot → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-3978 - uses|S0513 uses T1012]] — LiteDuke → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-3979 - uses|S0441 uses T1016]] — PowerShower → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3980 - uses|G0064 uses T1204.002]] — APT33 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-3981 - uses|S9002 uses T1082]] — Diskpart → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3982 - uses|S1173 uses T1041]] — PowerExchange → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-3983 - uses|S0147 uses T1059.005]] — Pteranodon → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-3984 - uses|S1099 uses T1027]] — Samurai → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-3985 - uses|S0279 uses T1113]] — Proton → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3986 - uses|G0102 uses T1489]] — Wizard Spider → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-3987 - uses|S0650 uses T1090.002]] — QakBot → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-3988 - uses|S0233 uses T1070.004]] — MURKYTOP → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-3989 - uses|S1213 uses T1573.002]] — Lumma Stealer → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-3990 - uses|S1111 uses T1124]] — DarkGate → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3991 - uses|S0677 uses T1606.002]] — AADInternals → SAML Tokens
+- [[07 ATT&CK Relationships/ATTACK-REL-3992 - uses|S0603 uses T1008]] — Stuxnet → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-3993 - uses|G1001 uses T1069.001]] — HEXANE → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-3994 - uses|S0148 uses T1113]] — RTM → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-3995 - uses|S0136 uses T1120]] — USBStealer → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-3996 - uses|S0206 uses T1543.003]] — Wiarp → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-3997 - uses|G1043 uses T1071.001]] — BlackByte → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-3998 - uses|S9010 uses T1027.018]] — GlassWorm → Invisible Unicode
+- [[07 ATT&CK Relationships/ATTACK-REL-3999 - uses|S0154 uses T1573.001]] — Cobalt Strike → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4000 - uses|S0458 uses T1005]] — Ramsay → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4001 - uses|C0062 uses T1087]] — Anthropic AI-orchestrated Campaign → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4002 - uses|S0622 uses T1071.001]] — AppleSeed → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4003 - uses|S0646 uses T1082]] — SpicyOmelette → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4004 - uses|S0603 uses T1553.002]] — Stuxnet → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-4005 - uses|S0444 uses T1546.011]] — ShimRat → Application Shimming
+- [[07 ATT&CK Relationships/ATTACK-REL-4006 - uses|S0661 uses T1083]] — FoggyWeb → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4007 - uses|S0173 uses T1572]] — FLIPSIDE → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-4008 - uses|S0368 uses T1569.002]] — NotPetya → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4009 - uses|S1060 uses T1041]] — Mafalda → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4010 - uses|S0500 uses T1036.005]] — MCMD → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4011 - uses|S1156 uses T1132.001]] — Manjusaka → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4012 - uses|G0009 uses S0074]] — Deep Panda → Sakula
+- [[07 ATT&CK Relationships/ATTACK-REL-4013 - uses|S0234 uses T1059.001]] — Bandook → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4014 - uses|G0126 uses T1574.001]] — Higaisa → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4015 - uses|S0461 uses T1090]] — SDBbot → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4016 - uses|S0260 uses T1027]] — InvisiMole → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4017 - uses|S0265 uses T1057]] — Kazuar → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4018 - uses|S1149 uses T1059.005]] — CHIMNEYSWEEP → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-4019 - uses|S1111 uses T1055.012]] — DarkGate → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-4020 - uses|C0040 uses T1593.002]] — APT41 DUST → Search Engines
+- [[07 ATT&CK Relationships/ATTACK-REL-4021 - uses|S1122 uses T1082]] — Mispadu → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4022 - uses|G1003 uses T1550.002]] — Ember Bear → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-4023 - uses|S0250 uses T1005]] — Koadic → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4024 - uses|S0610 uses T1041]] — SideTwist → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4025 - uses|G0060 uses T1102.001]] — BRONZE BUTLER → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-4026 - uses|S0622 uses T1119]] — AppleSeed → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-4027 - uses|S0595 uses T1059.002]] — ThiefQuest → AppleScript
+- [[07 ATT&CK Relationships/ATTACK-REL-4028 - uses|S0641 uses T1090.003]] — Kobalos → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4029 - uses|S0526 uses T1518]] — KGH_SPY → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4030 - uses|S0454 uses T1010]] — Cadelspy → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4031 - uses|S0647 uses T1074.001]] — Turian → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-4032 - uses|G0064 uses T1078.004]] — APT33 → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4033 - uses|S0266 uses T1552.002]] — TrickBot → Credentials in Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4034 - uses|S1150 uses T1027.013]] — ROADSWEEP → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4035 - uses|S9042 uses T1614.001]] — CanisterWorm → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4036 - uses|S0279 uses T1021.005]] — Proton → VNC
+- [[07 ATT&CK Relationships/ATTACK-REL-4037 - uses|G0059 uses T1218.011]] — Magic Hound → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4038 - uses|G1015 uses T1538]] — Scattered Spider → Cloud Service Dashboard
+- [[07 ATT&CK Relationships/ATTACK-REL-4039 - uses|G0045 uses S0160]] — menuPass → certutil
+- [[07 ATT&CK Relationships/ATTACK-REL-4040 - uses|G0040 uses T1036.005]] — Patchwork → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4041 - uses|S1084 uses T1090.002]] — QUIETEXIT → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4042 - uses|S0266 uses T1132.001]] — TrickBot → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4043 - uses|G0137 uses T1036.002]] — Ferocious Kitten → Right-to-Left Override
+- [[07 ATT&CK Relationships/ATTACK-REL-4044 - uses|S0632 uses T1105]] — GrimAgent → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4045 - uses|S0226 uses T1140]] — Smoke Loader → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4046 - uses|S9023 uses T1573.002]] — HiddenFace → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4047 - uses|S0154 uses T1027]] — Cobalt Strike → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4048 - uses|S0439 uses T1003.005]] — Okrum → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-4049 - uses|S0492 uses T1059.006]] — CookieMiner → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-4050 - uses|S1139 uses T1566]] — INC Ransomware → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-4051 - uses|S0531 uses T1686.002]] — Grandoreiro → Network Device Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-4052 - uses|S1202 uses T1057]] — LockBit 3.0 → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4053 - uses|G0081 uses T1221]] — Tropic Trooper → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4054 - uses|S9043 uses T1497]] — Mini Shai-Hulud → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-4055 - uses|S1196 uses T1071.001]] — Troll Stealer → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4056 - uses|S9024 uses T1070.006]] — SPAWNCHIMERA → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-4057 - uses|S0629 uses T1005]] — RainyDay → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4058 - uses|S0618 uses T1135]] — FIVEHANDS → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4059 - uses|S0378 uses T1090]] — PoshC2 → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4060 - uses|S1186 uses T1082]] — Line Dancer → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4061 - uses|S0236 uses T1036.004]] — Kwampirs → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4062 - uses|S0430 uses T1027.013]] — Winnti for Linux → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4063 - uses|G0001 uses T1190]] — Axiom → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-4064 - uses|S0253 uses T1115]] — RunningRAT → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-4065 - uses|S0186 uses T1059.001]] — DownPaper → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4066 - uses|G1024 uses S0349]] — Akira → LaZagne
+- [[07 ATT&CK Relationships/ATTACK-REL-4067 - uses|S0470 uses T1027.003]] — BBK → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-4068 - uses|S0266 uses T1027.013]] — TrickBot → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4069 - uses|S1245 uses T1219]] — InvisibleFerret → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-4070 - uses|S0140 uses T1561.002]] — Shamoon → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-4071 - uses|G1014 uses T1564.001]] — LuminousMoth → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-4072 - uses|C0059 uses T1090.003]] — Salesforce Data Exfiltration → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4073 - uses|S0458 uses T1027.003]] — Ramsay → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-4074 - uses|S9018 uses T1055.012]] — HeartCrypt → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-4075 - uses|S1152 uses T1053.005]] — IMAPLoader → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4076 - uses|S0591 uses T1059.001]] — ConnectWise → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4077 - uses|S9014 uses T1685.003]] — PHASEJAM → Modify or Spoof Tool UI
+- [[07 ATT&CK Relationships/ATTACK-REL-4078 - uses|G0050 uses S0002]] — APT32 → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-4079 - uses|G0115 uses T1059.001]] — GOLD SOUTHFIELD → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4080 - uses|S1178 uses T1124]] — ShrinkLocker → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4081 - uses|G0007 uses T1199]] — APT28 → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-4082 - uses|S0632 uses T1132.001]] — GrimAgent → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4083 - uses|G0022 uses T1546.008]] — APT3 → Accessibility Features
+- [[07 ATT&CK Relationships/ATTACK-REL-4084 - uses|S0630 uses T1036.005]] — Nebulae → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4085 - uses|G0010 uses S0587]] — Turla → Penquin
+- [[07 ATT&CK Relationships/ATTACK-REL-4086 - uses|S0692 uses T1518.001]] — SILENTTRINITY → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4087 - uses|S0530 uses T1555.003]] — Melcoz → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-4088 - uses|C0012 uses T1133]] — Operation CuckooBees → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4089 - uses|C0002 uses T1190]] — Night Dragon → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-4090 - uses|S0250 uses T1059.005]] — Koadic → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-4091 - uses|G0059 uses T1589.002]] — Magic Hound → Email Addresses
+- [[07 ATT&CK Relationships/ATTACK-REL-4092 - uses|S0333 uses T1497.001]] — UBoatRAT → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-4093 - uses|S0513 uses T1027.003]] — LiteDuke → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-4094 - uses|G0004 uses T1140]] — Ke3chang → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4095 - uses|G1034 uses S0190]] — Daggerfly → BITSAdmin
+- [[07 ATT&CK Relationships/ATTACK-REL-4096 - uses|G0059 uses S0029]] — Magic Hound → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-4097 - uses|S0646 uses T1553.002]] — SpicyOmelette → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-4098 - uses|G0032 uses T1010]] — Lazarus Group → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4099 - uses|S0013 uses T1033]] — PlugX → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4100 - uses|G1041 uses T1690]] — Sea Turtle → Prevent Command History Logging
+- [[07 ATT&CK Relationships/ATTACK-REL-4101 - uses|S0081 uses T1055.001]] — Elise → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4102 - uses|C0028 uses T1685]] — 2015 Ukraine Electric Power Attack → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-4103 - uses|S1089 uses T1053.005]] — SharpDisco → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4104 - uses|S0516 uses T1027]] — SoreFang → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4105 - uses|S9001 uses T1071.004]] — SystemBC → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-4106 - uses|S0284 uses T1033]] — More_eggs → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4107 - uses|G1036 uses T1608.001]] — Moonstone Sleet → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-4108 - uses|G0046 uses T1547.001]] — FIN7 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4109 - uses|S1120 uses T1001.003]] — FRAMESTING → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-4110 - uses|S0669 uses T1036.005]] — KOCTOPUS → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4111 - uses|S0674 uses T1082]] — CharmPower → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4112 - uses|S0593 uses T1056.001]] — ECCENTRICBANDWAGON → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-4113 - uses|S0661 uses T1041]] — FoggyWeb → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4114 - uses|S9042 uses T1529]] — CanisterWorm → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-4115 - uses|S1141 uses T1573.002]] — LunarWeb → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4116 - uses|G1053 uses T1580]] — Storm-0501 → Cloud Infrastructure Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4117 - uses|G0094 uses T1218.011]] — Kimsuky → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4118 - uses|S1099 uses T1573.001]] — Samurai → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4119 - uses|G0027 uses T1555.005]] — Threat Group-3390 → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-4120 - uses|S0666 uses T1140]] — Gelsemium → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4121 - uses|S0334 uses T1686.003]] — DarkComet → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-4122 - uses|S0004 uses T1685]] — TinyZBot → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-4123 - uses|S1023 uses T1005]] — CreepyDrive → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4124 - uses|S0625 uses T1680]] — Cuba → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4125 - uses|S1247 uses T1480.002]] — Embargo → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-4126 - uses|S0547 uses T1614.001]] — DropBook → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4127 - uses|G0069 uses T1560.001]] — MuddyWater → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-4128 - uses|S1183 uses T1027.015]] — StrelaStealer → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-4129 - uses|G0012 uses T1124]] — Darkhotel → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4130 - uses|G0139 uses T1608.001]] — TeamTNT → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-4131 - uses|S0228 uses T1071.004]] — NanHaiShu → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-4132 - uses|S0265 uses T1033]] — Kazuar → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4133 - uses|S9044 uses T1683.001]] — Kali365 → Written Content
+- [[07 ATT&CK Relationships/ATTACK-REL-4134 - uses|G0049 uses S0269]] — OilRig → QUADAGENT
+- [[07 ATT&CK Relationships/ATTACK-REL-4135 - uses|S0011 uses T1057]] — Taidoor → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4136 - uses|S1097 uses T1685]] — HUI Loader → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-4137 - uses|G0117 uses T1190]] — Fox Kitten → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-4138 - uses|S9008 uses T1593.003]] — Shai-Hulud → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-4139 - uses|G0016 uses S0049]] — APT29 → GeminiDuke
+- [[07 ATT&CK Relationships/ATTACK-REL-4140 - uses|C0056 uses T1090]] — RedPenguin → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4141 - uses|C0028 uses T1071.001]] — 2015 Ukraine Electric Power Attack → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4142 - uses|S0022 uses T1105]] — Uroburos → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4143 - uses|G0069 uses T1049]] — MuddyWater → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4144 - uses|G1048 uses S1222]] — UNC3886 → RIFLESPINE
+- [[07 ATT&CK Relationships/ATTACK-REL-4145 - uses|S0569 uses T1115]] — Explosive → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-4146 - uses|S1245 uses T1555.003]] — InvisibleFerret → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-4147 - uses|G1030 uses T1543.003]] — Agrius → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4148 - uses|S0332 uses T1491.001]] — Remcos → Internal Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-4149 - uses|S0264 uses T1053.005]] — OopsIE → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4150 - uses|G0064 uses T1547.001]] — APT33 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4151 - uses|S1065 uses T1071.001]] — Woody RAT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4152 - uses|G0114 uses T1071.001]] — Chimera → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4153 - uses|C0012 uses T1547.006]] — Operation CuckooBees → Kernel Modules and Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-4154 - uses|S0125 uses T1025]] — Remsec → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-4155 - uses|S0633 uses T1016]] — Sliver → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4156 - uses|C0007 uses T1588.001]] — FunnyDream → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-4157 - uses|G0032 uses T1583.006]] — Lazarus Group → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4158 - uses|C0007 uses T1583.001]] — FunnyDream → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-4159 - uses|G0006 uses T1005]] — APT1 → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4160 - uses|G1043 uses T1078]] — BlackByte → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4161 - uses|S0559 uses T1001.002]] — SUNBURST → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-4162 - uses|S0428 uses T1566.001]] — PoetRAT → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-4163 - uses|G1017 uses T1087.002]] — Volt Typhoon → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4164 - uses|S0582 uses T1095]] — LookBack → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4165 - uses|C0014 uses T1552.004]] — Operation Wocao → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-4166 - uses|S0114 uses T1564.005]] — BOOTRASH → Hidden File System
+- [[07 ATT&CK Relationships/ATTACK-REL-4167 - uses|G0117 uses T1018]] — Fox Kitten → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4168 - uses|S0537 uses T1112]] — HyperStack → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4169 - uses|G0027 uses T1087.001]] — Threat Group-3390 → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4170 - uses|G1036 uses T1587]] — Moonstone Sleet → Develop Capabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-4171 - uses|S1235 uses T1543.003]] — CorKLOG → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4172 - uses|G0140 uses S0669]] — LazyScripter → KOCTOPUS
+- [[07 ATT&CK Relationships/ATTACK-REL-4173 - uses|G0128 uses T1016]] — ZIRCONIUM → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4174 - uses|G0060 uses S0106]] — BRONZE BUTLER → cmd
+- [[07 ATT&CK Relationships/ATTACK-REL-4175 - uses|S0444 uses T1106]] — ShimRat → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4176 - uses|G0060 uses T1560.001]] — BRONZE BUTLER → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-4177 - uses|G0019 uses T1036.005]] — Naikon → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4178 - uses|G0010 uses T1553.006]] — Turla → Code Signing Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-4179 - uses|S0380 uses T1082]] — StoneDrill → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4180 - uses|G0119 uses T1136.001]] — Indrik Spider → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4181 - uses|G0019 uses T1018]] — Naikon → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4182 - uses|S0253 uses T1547.001]] — RunningRAT → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4183 - uses|S0583 uses T1046]] — Pysa → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4184 - uses|S1088 uses T1053.005]] — Disco → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4185 - uses|C0046 uses T1070.004]] — ArcaneDoor → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4186 - uses|S0623 uses T1059.003]] — Siloscape → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4187 - uses|S0534 uses T1573.001]] — Bazar → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4188 - uses|S1236 uses T1027.007]] — CLAIMLOADER → Dynamic API Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-4189 - uses|S1205 uses T1561.001]] — cipher.exe → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-4190 - uses|S0376 uses T1082]] — HOPLIGHT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4191 - uses|S0039 uses T1201]] — Net → Password Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4192 - uses|S9042 uses T1569.003]] — CanisterWorm → Systemctl
+- [[07 ATT&CK Relationships/ATTACK-REL-4193 - uses|S1185 uses T1518]] — LightSpy → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4194 - uses|S9007 uses T1071.001]] — HTTPTroy → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4195 - uses|S0665 uses T1204.002]] — ThreatNeedle → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4196 - uses|S0473 uses T1055]] — Avenger → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4197 - uses|G0096 uses T1018]] — APT41 → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4198 - uses|G1052 uses S1248]] — Contagious Interview → XORIndex Loader
+- [[07 ATT&CK Relationships/ATTACK-REL-4199 - uses|G0102 uses T1555.004]] — Wizard Spider → Windows Credential Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-4200 - uses|G0140 uses S0262]] — LazyScripter → QuasarRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-4201 - uses|S0339 uses T1119]] — Micropsia → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-4202 - uses|S1242 uses T1570]] — Qilin → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4203 - uses|G1052 uses T1583.006]] — Contagious Interview → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4204 - uses|S9041 uses T1003.007]] — TeamPCP Cloud Stealer → Proc Filesystem
+- [[07 ATT&CK Relationships/ATTACK-REL-4205 - uses|G0046 uses T1195.002]] — FIN7 → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-4206 - uses|S0226 uses T1083]] — Smoke Loader → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4207 - uses|G0064 uses T1566.002]] — APT33 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4208 - uses|S1105 uses T1083]] — COATHANGER → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4209 - uses|S0530 uses T1565.002]] — Melcoz → Transmitted Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-4210 - uses|G0099 uses T1568]] — APT-C-36 → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-4211 - uses|S0384 uses T1082]] — Dridex → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4212 - uses|G0129 uses T1218.004]] — Mustang Panda → InstallUtil
+- [[07 ATT&CK Relationships/ATTACK-REL-4213 - uses|S0149 uses T1070.004]] — MoonWind → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4214 - uses|S1153 uses T1555.001]] — Cuckoo Stealer → Keychain
+- [[07 ATT&CK Relationships/ATTACK-REL-4215 - uses|S0184 uses T1087.002]] — POWRUNER → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4216 - uses|S0263 uses T1090]] — TYPEFRAME → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4217 - uses|C0061 uses S0097]] — Operation Digital Eye → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-4218 - uses|G0032 uses T1046]] — Lazarus Group → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4219 - uses|S0681 uses T1055.001]] — Lizar → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4220 - uses|S0230 uses T1082]] — ZeroT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4221 - uses|G0102 uses S0659]] — Wizard Spider → Diavol
+- [[07 ATT&CK Relationships/ATTACK-REL-4222 - uses|G0026 uses T1133]] — APT18 → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4223 - uses|S0345 uses T1547.001]] — Seasalt → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4224 - uses|G0094 uses T1070.006]] — Kimsuky → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-4225 - uses|G0032 uses T1560.002]] — Lazarus Group → Archive via Library
+- [[07 ATT&CK Relationships/ATTACK-REL-4226 - uses|S0695 uses T1027.002]] — Donut → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-4227 - uses|G0032 uses T1027.013]] — Lazarus Group → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4228 - uses|S0576 uses T1531]] — MegaCortex → Account Access Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-4229 - uses|S1142 uses T1095]] — LunarMail → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4230 - uses|G0030 uses T1539]] — Lotus Blossom → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-4231 - uses|S0264 uses T1071.001]] — OopsIE → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4232 - uses|G0034 uses T1190]] — Sandworm Team → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-4233 - uses|S0394 uses T1014]] — HiddenWasp → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-4234 - uses|S0572 uses T1069.001]] — Caterpillar WebShell → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-4235 - uses|S1014 uses T1070.004]] — DanBot → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4236 - uses|S0332 uses T1112]] — Remcos → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4237 - uses|S0376 uses T1083]] — HOPLIGHT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4238 - uses|S0665 uses T1083]] — ThreatNeedle → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4239 - uses|G0139 uses T1547.001]] — TeamTNT → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4240 - uses|S0593 uses T1059.003]] — ECCENTRICBANDWAGON → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4241 - uses|S0230 uses T1027.016]] — ZeroT → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-4242 - uses|S0377 uses T1129]] — Ebury → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-4243 - uses|G1001 uses T1049]] — HEXANE → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4244 - uses|S1206 uses T1104]] — JumbledPath → Multi-Stage Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-4245 - uses|S9019 uses T1622]] — PureCrypter → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-4246 - uses|G0094 uses T1053.005]] — Kimsuky → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4247 - uses|S0483 uses T1082]] — IcedID → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4248 - uses|S0081 uses T1070.006]] — Elise → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-4249 - uses|S1014 uses T1204.002]] — DanBot → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4250 - uses|S0543 uses T1071.001]] — Spark → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4251 - uses|S0182 uses T1547.001]] — FinFisher → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4252 - uses|S0662 uses T1573]] — RCSession → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4253 - uses|G0039 uses T1059.003]] — Suckfly → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4254 - uses|S0252 uses T1685]] — Brave Prince → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-4255 - uses|G0050 uses T1041]] — APT32 → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4256 - uses|S0273 uses T1090]] — Socksbot → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4257 - uses|S0393 uses T1057]] — PowerStallion → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4258 - uses|S0450 uses T1124]] — SHARPSTATS → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4259 - uses|C0014 uses T1036.005]] — Operation Wocao → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4260 - uses|S0570 uses T1106]] — BitPaymer → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4261 - uses|S0483 uses T1087.002]] — IcedID → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4262 - uses|S0663 uses T1027.013]] — SysUpdate → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4263 - uses|G1033 uses T1585.002]] — Star Blizzard → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4264 - uses|C0002 uses T1033]] — Night Dragon → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4265 - uses|S1207 uses T1566.001]] — XLoader → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-4266 - uses|C0015 uses T1083]] — C0015 → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4267 - uses|G0106 uses T1055.002]] — Rocke → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4268 - uses|G1053 uses T1486]] — Storm-0501 → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-4269 - uses|S0562 uses T1480]] — SUNSPOT → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-4270 - uses|S0681 uses T1003.001]] — Lizar → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-4271 - uses|S0401 uses T1070.004]] — Exaramel for Linux → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4272 - uses|G1055 uses T1651]] — VOID MANTICORE → Cloud Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-4273 - uses|G1023 uses T1059.003]] — APT5 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4274 - uses|S0414 uses T1070.004]] — BabyShark → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4275 - uses|C0038 uses T1003.001]] — HomeLand Justice → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-4276 - uses|S1142 uses T1041]] — LunarMail → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4277 - uses|S0363 uses T1102.002]] — Empire → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-4278 - uses|G0032 uses T1620]] — Lazarus Group → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-4279 - uses|G1046 uses T1033]] — Storm-1811 → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4280 - uses|S1013 uses T1036.004]] — ZxxZ → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4281 - uses|S1130 uses T1036.008]] — Raspberry Robin → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-4282 - uses|S1086 uses T1497.001]] — Snip3 → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-4283 - uses|S9032 uses T1106]] — MuddyViper → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4284 - uses|S0629 uses T1036.004]] — RainyDay → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4285 - uses|G1012 uses T1048.002]] — CURIUM → Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4286 - uses|S1132 uses T1070]] — IPsec Helper → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-4287 - uses|S0076 uses T1001.003]] — FakeM → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-4288 - uses|G0007 uses T1546.015]] — APT28 → Component Object Model Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-4289 - uses|C0018 uses T1588.002]] — C0018 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-4290 - uses|S1149 uses T1120]] — CHIMNEYSWEEP → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4291 - uses|S0385 uses T1106]] — njRAT → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4292 - uses|S0024 uses T1082]] — Dyre → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4293 - uses|S0349 uses T1003.001]] — LaZagne → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-4294 - uses|G0049 uses T1587.001]] — OilRig → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-4295 - uses|S0250 uses T1033]] — Koadic → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4296 - uses|S0669 uses T1204.002]] — KOCTOPUS → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4297 - uses|S0608 uses T1547.001]] — Conficker → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4298 - uses|S0234 uses T1204.002]] — Bandook → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4299 - uses|G0114 uses T1036.005]] — Chimera → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4300 - uses|G0050 uses T1589]] — APT32 → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4301 - uses|S0538 uses T1008]] — Crutch → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-4302 - uses|G0018 uses T1069.001]] — admin@338 → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-4303 - uses|G1032 uses S1139]] — INC Ransom → INC Ransomware
+- [[07 ATT&CK Relationships/ATTACK-REL-4304 - uses|S0451 uses T1027.013]] — LoudMiner → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4305 - uses|G0122 uses T1583.001]] — Silent Librarian → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-4306 - uses|S0572 uses T1046]] — Caterpillar WebShell → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4307 - uses|C0006 uses S0075]] — Operation Honeybee → Reg
+- [[07 ATT&CK Relationships/ATTACK-REL-4308 - uses|G1040 uses T1560.001]] — Play → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-4309 - uses|G0032 uses S0584]] — Lazarus Group → AppleJeus
+- [[07 ATT&CK Relationships/ATTACK-REL-4310 - uses|S0385 uses T1132.001]] — njRAT → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4311 - uses|S0261 uses T1543.003]] — Catchamas → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4312 - uses|S0196 uses T1560.001]] — PUNCHBUGGY → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-4313 - uses|G0103 uses T1204.002]] — Mofang → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4314 - uses|S1140 uses T1560]] — Spica → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-4315 - uses|G0032 uses T1005]] — Lazarus Group → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4316 - uses|S1043 uses T1074.001]] — ccf32 → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-4317 - uses|G0092 uses T1071.001]] — TA505 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4318 - uses|G0125 uses S0020]] — HAFNIUM → China Chopper
+- [[07 ATT&CK Relationships/ATTACK-REL-4319 - uses|S1111 uses T1680]] — DarkGate → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4320 - uses|S0687 uses T1571]] — Cyclops Blink → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-4321 - uses|S0458 uses T1074.001]] — Ramsay → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-4322 - uses|C0014 uses T1555.005]] — Operation Wocao → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-4323 - uses|S0385 uses T1125]] — njRAT → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4324 - uses|S0667 uses T1027.013]] — Chrommme → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4325 - uses|S1239 uses T1105]] — TONESHELL → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4326 - uses|S1144 uses T1572]] — FRP → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-4327 - uses|G0067 uses S0247]] — APT37 → NavRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-4328 - uses|G1038 uses S1160]] — TA578 → Latrodectus
+- [[07 ATT&CK Relationships/ATTACK-REL-4329 - uses|G1032 uses T1036.005]] — INC Ransom → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4330 - uses|G1054 uses S9022]] — MirrorFace → MirrorStealer
+- [[07 ATT&CK Relationships/ATTACK-REL-4331 - uses|G0079 uses T1187]] — DarkHydrus → Forced Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-4332 - uses|G1053 uses S0677]] — Storm-0501 → AADInternals
+- [[07 ATT&CK Relationships/ATTACK-REL-4333 - uses|S0180 uses T1036.004]] — Volgmer → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4334 - uses|G1015 uses T1021.004]] — Scattered Spider → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-4335 - uses|S0083 uses T1082]] — Misdat → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4336 - uses|S1130 uses T1548.002]] — Raspberry Robin → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-4337 - uses|G0096 uses T1547.001]] — APT41 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4338 - uses|S0409 uses T1059.006]] — Machete → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-4339 - uses|S0022 uses T1071.001]] — Uroburos → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4340 - uses|S0674 uses T1083]] — CharmPower → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4341 - uses|C0014 uses T1106]] — Operation Wocao → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4342 - uses|G0035 uses T1136.001]] — Dragonfly → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4343 - uses|S1019 uses T1036.005]] — Shark → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4344 - uses|S0439 uses T1132.001]] — Okrum → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4345 - uses|S0386 uses T1090.003]] — Ursnif → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4346 - uses|S0275 uses T1574.001]] — UPPERCUT → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4347 - uses|S9014 uses T1027.010]] — PHASEJAM → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-4348 - uses|G0094 uses T1082]] — Kimsuky → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4349 - uses|C0024 uses T1685]] — SolarWinds Compromise → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-4350 - uses|S0534 uses T1204.001]] — Bazar → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4351 - uses|C0014 uses T1078.002]] — Operation Wocao → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4352 - uses|G0017 uses S0013]] — DragonOK → PlugX
+- [[07 ATT&CK Relationships/ATTACK-REL-4353 - uses|S0584 uses T1564.001]] — AppleJeus → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-4354 - uses|G0094 uses T1566.002]] — Kimsuky → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4355 - uses|S0564 uses T1059.003]] — BlackMould → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4356 - uses|G0131 uses S0008]] — Tonto Team → gsecdump
+- [[07 ATT&CK Relationships/ATTACK-REL-4357 - uses|S9003 uses T1090.002]] — evilginx2 → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4358 - uses|S1170 uses T1083]] — ODAgent → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4359 - uses|S0106 uses T1059.003]] — cmd → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4360 - uses|S0043 uses T1082]] — BUBBLEWRAP → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4361 - uses|S0598 uses T1046]] — P.A.S. Webshell → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4362 - uses|G0004 uses T1059.003]] — Ke3chang → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4363 - uses|S0453 uses T1204.001]] — Pony → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4364 - uses|G0022 uses S0165]] — APT3 → OSInfo
+- [[07 ATT&CK Relationships/ATTACK-REL-4365 - uses|S1206 uses T1040]] — JumbledPath → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-4366 - uses|S9042 uses T1140]] — CanisterWorm → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4367 - uses|G1030 uses T1140]] — Agrius → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4368 - uses|C0005 uses T1218.011]] — Operation Spalax → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4369 - uses|S1039 uses T1204.001]] — Bumblebee → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4370 - uses|S0036 uses T1005]] — FLASHFLOOD → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4371 - uses|S0098 uses T1124]] — T9000 → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4372 - uses|S0374 uses T1046]] — SpeakUp → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4373 - uses|S0086 uses T1560.002]] — ZLib → Archive via Library
+- [[07 ATT&CK Relationships/ATTACK-REL-4374 - uses|G1052 uses T1573.001]] — Contagious Interview → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4375 - uses|S0260 uses T1068]] — InvisiMole → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-4376 - uses|G0073 uses T1204.002]] — APT19 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4377 - uses|S9037 uses T1573.001]] — RustyWater → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4378 - uses|S0141 uses T1106]] — Winnti for Windows → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4379 - uses|S0337 uses T1518.001]] — BadPatch → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4380 - uses|G0016 uses S0565]] — APT29 → Raindrop
+- [[07 ATT&CK Relationships/ATTACK-REL-4381 - uses|S0607 uses T1106]] — KillDisk → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4382 - uses|G0050 uses S1078]] — APT32 → RotaJakiro
+- [[07 ATT&CK Relationships/ATTACK-REL-4383 - uses|S0410 uses T1132.001]] — Fysbis → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4384 - uses|S1152 uses T1564.003]] — IMAPLoader → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-4385 - uses|G1003 uses T1036]] — Ember Bear → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-4386 - uses|S0603 uses T1129]] — Stuxnet → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-4387 - uses|G0050 uses T1049]] — APT32 → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4388 - uses|G1051 uses T1505.003]] — Medusa Group → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4389 - uses|S0603 uses T1124]] — Stuxnet → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4390 - uses|G0112 uses S0466]] — Windshift → WindTail
+- [[07 ATT&CK Relationships/ATTACK-REL-4391 - uses|G1047 uses T1047]] — Velvet Ant → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-4392 - uses|C0032 uses T1546.012]] — C0032 → Image File Execution Options Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4393 - uses|S0587 uses T1059.004]] — Penquin → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4394 - uses|S0266 uses T1041]] — TrickBot → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4395 - uses|S0331 uses T1555]] — Agent Tesla → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-4396 - uses|S0434 uses T1106]] — Imminent Monitor → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4397 - uses|S0374 uses T1105]] — SpeakUp → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4398 - uses|S0373 uses T1129]] — Astaroth → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-4399 - uses|S0449 uses T1529]] — Maze → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-4400 - uses|G0094 uses S1198]] — Kimsuky → Gomir
+- [[07 ATT&CK Relationships/ATTACK-REL-4401 - uses|S0050 uses T1113]] — CosmicDuke → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4402 - uses|G0096 uses T1599]] — APT41 → Network Boundary Bridging
+- [[07 ATT&CK Relationships/ATTACK-REL-4403 - uses|S0634 uses T1027.013]] — EnvyScout → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4404 - uses|G0037 uses T1003.003]] — FIN6 → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-4405 - uses|G0117 uses T1552.001]] — Fox Kitten → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-4406 - uses|S1081 uses T1018]] — BADHATCH → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4407 - uses|S0339 uses T1047]] — Micropsia → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-4408 - uses|S0011 uses T1005]] — Taidoor → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4409 - uses|S0363 uses T1087.002]] — Empire → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4410 - uses|S0012 uses T1005]] — PoisonIvy → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4411 - uses|S1141 uses T1082]] — LunarWeb → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4412 - uses|G0108 uses T1027.013]] — Blue Mockingbird → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4413 - uses|G0007 uses T1134.001]] — APT28 → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-4414 - uses|G0136 uses T1586.002]] — IndigoZebra → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4415 - uses|S1161 uses T1480.002]] — BPFDoor → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-4416 - uses|S0589 uses T1071.001]] — Sibot → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4417 - uses|G0007 uses S0351]] — APT28 → Cannon
+- [[07 ATT&CK Relationships/ATTACK-REL-4418 - uses|S0677 uses T1590.001]] — AADInternals → Domain Properties
+- [[07 ATT&CK Relationships/ATTACK-REL-4419 - uses|S0073 uses T1505.003]] — ASPXSpy → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4420 - uses|G1040 uses T1003.001]] — Play → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-4421 - uses|S0184 uses T1071.004]] — POWRUNER → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-4422 - uses|S1124 uses T1036.005]] — SocGholish → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4423 - uses|C0029 uses T1027.013]] — Cutting Edge → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4424 - uses|S1105 uses T1140]] — COATHANGER → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4425 - uses|G0102 uses T1550.002]] — Wizard Spider → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-4426 - uses|S0337 uses T1083]] — BadPatch → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4427 - uses|C0025 uses T1027.002]] — 2016 Ukraine Electric Power Attack → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-4428 - uses|G0126 uses T1220]] — Higaisa → XSL Script Processing
+- [[07 ATT&CK Relationships/ATTACK-REL-4429 - uses|G0060 uses T1203]] — BRONZE BUTLER → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4430 - uses|S0464 uses T1059.003]] — SYSCON → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4431 - uses|S0332 uses T1082]] — Remcos → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4432 - uses|S0438 uses T1218.011]] — Attor → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4433 - uses|C0062 uses T1049]] — Anthropic AI-orchestrated Campaign → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4434 - uses|G0125 uses T1583.006]] — HAFNIUM → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4435 - uses|S1144 uses T1046]] — FRP → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4436 - uses|S0234 uses T1105]] — Bandook → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4437 - uses|S1210 uses T1480]] — Sagerunex → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-4438 - uses|G1022 uses T1074.002]] — ToddyCat → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-4439 - uses|S1240 uses T1105]] — RedLine Stealer → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4440 - uses|S1149 uses T1105]] — CHIMNEYSWEEP → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4441 - uses|G0007 uses S0191]] — APT28 → Winexe
+- [[07 ATT&CK Relationships/ATTACK-REL-4442 - uses|G0094 uses T1111]] — Kimsuky → Multi-Factor Authentication Interception
+- [[07 ATT&CK Relationships/ATTACK-REL-4443 - uses|G0081 uses T1518]] — Tropic Trooper → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4444 - uses|S1076 uses T1012]] — QUIETCANARY → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4445 - uses|S0567 uses T1059.003]] — Dtrack → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4446 - uses|G1015 uses T1598.004]] — Scattered Spider → Spearphishing Voice
+- [[07 ATT&CK Relationships/ATTACK-REL-4447 - uses|S0368 uses T1218.011]] — NotPetya → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4448 - uses|G0032 uses T1036.003]] — Lazarus Group → Rename Legitimate Utilities
+- [[07 ATT&CK Relationships/ATTACK-REL-4449 - uses|G1001 uses S0100]] — HEXANE → ipconfig
+- [[07 ATT&CK Relationships/ATTACK-REL-4450 - uses|S0198 uses T1083]] — NETWIRE → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4451 - uses|S0150 uses T1546.003]] — POSHSPY → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-4452 - uses|S0085 uses T1547.009]] — S-Type → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-4453 - uses|S1159 uses T1070.005]] — DUSTTRAP → Network Share Connection Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-4454 - uses|S0344 uses T1057]] — Azorult → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4455 - uses|G0130 uses S0225]] — Ajax Security Team → sqlmap
+- [[07 ATT&CK Relationships/ATTACK-REL-4456 - uses|S0138 uses T1027]] — OLDBAIT → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4457 - uses|S0672 uses T1057]] — Zox → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4458 - uses|G1017 uses T1584.008]] — Volt Typhoon → Network Devices
+- [[07 ATT&CK Relationships/ATTACK-REL-4459 - uses|S1063 uses T1105]] — Brute Ratel C4 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4460 - uses|S0469 uses T1027.003]] — ABK → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-4461 - uses|G0040 uses T1083]] — Patchwork → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4462 - uses|S0030 uses T1012]] — Carbanak → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4463 - uses|S0491 uses T1573.002]] — StrongPity → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4464 - uses|G0096 uses S0021]] — APT41 → Derusbi
+- [[07 ATT&CK Relationships/ATTACK-REL-4465 - uses|S0680 uses T1113]] — LitePower → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4466 - uses|S0438 uses T1083]] — Attor → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4467 - uses|S9007 uses T1573.001]] — HTTPTroy → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4468 - uses|S0154 uses T1685]] — Cobalt Strike → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-4469 - uses|S0458 uses T1574.001]] — Ramsay → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4470 - uses|S0192 uses T1125]] — Pupy → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4471 - uses|C0002 uses T1584.004]] — Night Dragon → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-4472 - uses|S0013 uses T1095]] — PlugX → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4473 - uses|S1034 uses T1059.003]] — StrifeWater → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4474 - uses|S0484 uses T1518.001]] — Carberp → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4475 - uses|G0096 uses T1069]] — APT41 → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4476 - uses|S0334 uses T1057]] — DarkComet → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4477 - uses|G0037 uses T1078]] — FIN6 → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4478 - uses|S1017 uses T1059.010]] — OutSteel → AutoHotKey & AutoIT
+- [[07 ATT&CK Relationships/ATTACK-REL-4479 - uses|S1183 uses T1036.008]] — StrelaStealer → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-4480 - uses|S0180 uses T1112]] — Volgmer → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4481 - uses|S0647 uses T1059.006]] — Turian → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-4482 - uses|S0625 uses T1027]] — Cuba → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4483 - uses|S1229 uses T1497.003]] — Havoc → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-4484 - uses|G0096 uses S0225]] — APT41 → sqlmap
+- [[07 ATT&CK Relationships/ATTACK-REL-4485 - uses|S9021 uses T1140]] — DOWNIISSA → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4486 - uses|S0528 uses T1566.001]] — Javali → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-4487 - uses|S0439 uses T1124]] — Okrum → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4488 - uses|G1018 uses T1055.012]] — TA2541 → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-4489 - uses|S0332 uses T1566.001]] — Remcos → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-4490 - uses|S0467 uses T1518.001]] — TajMahal → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4491 - uses|G0085 uses T1056.001]] — FIN4 → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-4492 - uses|S1081 uses T1027.015]] — BADHATCH → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-4493 - uses|G0065 uses T1140]] — Leviathan → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4494 - uses|S1141 uses T1559]] — LunarWeb → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-4495 - uses|G0114 uses T1070.006]] — Chimera → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-4496 - uses|G0066 uses S0205]] — Elderwood → Naid
+- [[07 ATT&CK Relationships/ATTACK-REL-4497 - uses|G0005 uses S0040]] — APT12 → HTRAN
+- [[07 ATT&CK Relationships/ATTACK-REL-4498 - uses|G1038 uses T1594]] — TA578 → Search Victim-Owned Websites
+- [[07 ATT&CK Relationships/ATTACK-REL-4499 - uses|G1037 uses S1145]] — TA577 → Pikabot
+- [[07 ATT&CK Relationships/ATTACK-REL-4500 - uses|S0031 uses T1090.001]] — BACKSPACE → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4501 - uses|G0050 uses T1070.006]] — APT32 → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-4502 - uses|G0035 uses T1685.005]] — Dragonfly → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-4503 - uses|G0067 uses T1555.003]] — APT37 → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-4504 - uses|S0570 uses T1112]] — BitPaymer → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4505 - uses|S0559 uses T1083]] — SUNBURST → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4506 - uses|S1229 uses T1204.002]] — Havoc → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4507 - uses|S0428 uses T1559.002]] — PoetRAT → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-4508 - uses|S0534 uses T1568.002]] — Bazar → Domain Generation Algorithms
+- [[07 ATT&CK Relationships/ATTACK-REL-4509 - uses|G1056 uses T1176.002]] — TeamPCP → IDE Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-4510 - uses|S0255 uses T1083]] — DDKONG → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4511 - uses|S9027 uses T1027]] — ANELLDR → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4512 - uses|C0049 uses T1594]] — Leviathan Australian Intrusions → Search Victim-Owned Websites
+- [[07 ATT&CK Relationships/ATTACK-REL-4513 - uses|S1019 uses T1029]] — Shark → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4514 - uses|C0055 uses T1059.004]] — Quad7 Activity → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4515 - uses|S0134 uses T1001.001]] — Downdelph → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-4516 - uses|G1021 uses T1190]] — Cinnamon Tempest → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-4517 - uses|G0007 uses T1218.011]] — APT28 → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4518 - uses|S0692 uses T1564.003]] — SILENTTRINITY → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-4519 - uses|G0117 uses T1210]] — Fox Kitten → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4520 - uses|G0059 uses T1113]] — Magic Hound → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4521 - uses|S0369 uses T1553.001]] — CoinTicker → Gatekeeper Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-4522 - uses|S0363 uses T1134.005]] — Empire → SID-History Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4523 - uses|S0412 uses T1569.002]] — ZxShell → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4524 - uses|G0096 uses T1588.002]] — APT41 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-4525 - uses|S1070 uses T1497]] — Black Basta → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-4526 - uses|G0119 uses T1489]] — Indrik Spider → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-4527 - uses|G0050 uses S0099]] — APT32 → Arp
+- [[07 ATT&CK Relationships/ATTACK-REL-4528 - uses|S1044 uses T1113]] — FunnyDream → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4529 - uses|G0092 uses T1087.003]] — TA505 → Email Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4530 - uses|S0369 uses T1059.004]] — CoinTicker → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4531 - uses|C0017 uses T1036.005]] — C0017 → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4532 - uses|G0126 uses T1016]] — Higaisa → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4533 - uses|G0010 uses T1059.006]] — Turla → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-4534 - uses|G0007 uses T1036.005]] — APT28 → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4535 - uses|S9012 uses T1055.012]] — TRAILBLAZE → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-4536 - uses|G0142 uses T1221]] — Confucius → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4537 - uses|S1060 uses T1095]] — Mafalda → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4538 - uses|S1146 uses T1087.002]] — MgBot → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4539 - uses|S0363 uses T1068]] — Empire → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-4540 - uses|S0115 uses T1125]] — Crimson → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4541 - uses|S1160 uses T1218.011]] — Latrodectus → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4542 - uses|S0650 uses T1027.002]] — QakBot → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-4543 - uses|S0491 uses T1518.001]] — StrongPity → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4544 - uses|G0094 uses S0249]] — Kimsuky → Gold Dragon
+- [[07 ATT&CK Relationships/ATTACK-REL-4545 - uses|C0005 uses T1140]] — Operation Spalax → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4546 - uses|S0450 uses T1027.010]] — SHARPSTATS → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-4547 - uses|S1132 uses T1059.003]] — IPsec Helper → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4548 - uses|S0499 uses T1566.002]] — Hancitor → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4549 - uses|S1160 uses T1053.005]] — Latrodectus → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4550 - uses|S1148 uses T1113]] — Raccoon Stealer → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4551 - uses|S0283 uses T1029]] — jRAT → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4552 - uses|G1013 uses T1059.003]] — Metador → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4553 - uses|S0128 uses T1574.001]] — BADNEWS → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4554 - uses|G0117 uses S0029]] — Fox Kitten → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-4555 - uses|G1020 uses T1105]] — Mustard Tempest → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4556 - uses|S1081 uses T1027.009]] — BADHATCH → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-4557 - uses|S0194 uses T1053.005]] — PowerSploit → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4558 - uses|S9021 uses T1106]] — DOWNIISSA → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4559 - uses|S0567 uses T1056.001]] — Dtrack → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-4560 - uses|S1070 uses T1036.004]] — Black Basta → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4561 - uses|S1227 uses T1124]] — StarProxy → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4562 - uses|S0527 uses T1204.002]] — CSPY Downloader → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4563 - uses|S0105 uses T1082]] — dsquery → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4564 - uses|S0271 uses T1680]] — KEYMARBLE → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4565 - uses|G1055 uses T1125]] — VOID MANTICORE → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4566 - uses|S0369 uses T1105]] — CoinTicker → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4567 - uses|S0469 uses T1071.001]] — ABK → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4568 - uses|G1034 uses S1016]] — Daggerfly → MacMa
+- [[07 ATT&CK Relationships/ATTACK-REL-4569 - uses|S9008 uses T1071.001]] — Shai-Hulud → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4570 - uses|S0417 uses T1113]] — GRIFFON → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4571 - uses|S0275 uses T1548.002]] — UPPERCUT → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-4572 - uses|S0198 uses T1564.001]] — NETWIRE → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-4573 - uses|G0049 uses T1033]] — OilRig → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4574 - uses|S0124 uses T1016]] — Pisloader → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4575 - uses|S0650 uses T1210]] — QakBot → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4576 - uses|S0572 uses T1014]] — Caterpillar WebShell → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-4577 - uses|S0504 uses T1059.004]] — Anchor → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4578 - uses|S1078 uses T1546.004]] — RotaJakiro → Unix Shell Configuration Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-4579 - uses|C0027 uses T1684.001]] — C0027 → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-4580 - uses|C0032 uses T1133]] — C0032 → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4581 - uses|G0032 uses T1574.001]] — Lazarus Group → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4582 - uses|G0006 uses T1566.002]] — APT1 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4583 - uses|C0058 uses T1486]] — SharePoint ToolShell Exploitation → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-4584 - uses|C0034 uses T1572]] — 2022 Ukraine Electric Power Attack → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-4585 - uses|G0129 uses T1622]] — Mustang Panda → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-4586 - uses|G0064 uses S0039]] — APT33 → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-4587 - uses|S0599 uses T1496.001]] — Kinsing → Compute Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-4588 - uses|G0100 uses T1005]] — Inception → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4589 - uses|G1037 uses T1566.002]] — TA577 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4590 - uses|S0268 uses T1132.001]] — Bisonal → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4591 - uses|S1066 uses T1204.002]] — DarkTortilla → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4592 - uses|S0572 uses T1041]] — Caterpillar WebShell → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4593 - uses|S0431 uses T1082]] — HotCroissant → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4594 - uses|S0579 uses T1012]] — Waterbear → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4595 - uses|G0091 uses T1059.005]] — Silence → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-4596 - uses|S9014 uses T1036.003]] — PHASEJAM → Rename Legitimate Utilities
+- [[07 ATT&CK Relationships/ATTACK-REL-4597 - uses|G0045 uses T1016]] — menuPass → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4598 - uses|S0622 uses T1567]] — AppleSeed → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4599 - uses|G1046 uses T1021.002]] — Storm-1811 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-4600 - uses|G1004 uses T1583.003]] — LAPSUS$ → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-4601 - uses|G0007 uses T1189]] — APT28 → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-4602 - uses|S9042 uses T1083]] — CanisterWorm → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4603 - uses|S0126 uses T1053.005]] — ComRAT → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4604 - uses|S0265 uses T1680]] — Kazuar → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4605 - uses|S0242 uses T1497.001]] — SynAck → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-4606 - uses|S1147 uses T1033]] — Nightdoor → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4607 - uses|S0543 uses T1614.001]] — Spark → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4608 - uses|S0263 uses T1059.005]] — TYPEFRAME → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-4609 - uses|S0170 uses T1132.001]] — Helminth → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4610 - uses|S1159 uses T1027.013]] — DUSTTRAP → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4611 - uses|S0475 uses T1059.003]] — BackConfig → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4612 - uses|S1041 uses T1574.001]] — Chinoxy → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4613 - uses|S1236 uses T1053.005]] — CLAIMLOADER → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4614 - uses|S0084 uses T1095]] — Mis-Type → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4615 - uses|C0049 uses T1078]] — Leviathan Australian Intrusions → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4616 - uses|S0671 uses T1568]] — Tomiris → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-4617 - uses|S0482 uses T1564]] — Bundlore → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-4618 - uses|G1042 uses T1071.001]] — RedEcho → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4619 - uses|C0049 uses T1213.006]] — Leviathan Australian Intrusions → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-4620 - uses|S0382 uses T1547.001]] — ServHelper → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4621 - uses|G0076 uses T1219.002]] — Thrip → Remote Desktop Software
+- [[07 ATT&CK Relationships/ATTACK-REL-4622 - uses|S0488 uses T1003.003]] — CrackMapExec → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-4623 - uses|S1228 uses T1027]] — PUBLOAD → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4624 - uses|S0023 uses T1092]] — CHOPSTICK → Communication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-4625 - uses|S0441 uses T1564.003]] — PowerShower → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-4626 - uses|G1018 uses T1583.006]] — TA2541 → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4627 - uses|S0491 uses T1571]] — StrongPity → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-4628 - uses|S0230 uses T1574.001]] — ZeroT → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4629 - uses|S0611 uses T1112]] — Clop → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4630 - uses|S0247 uses T1055]] — NavRAT → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4631 - uses|S1081 uses T1059.001]] — BADHATCH → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4632 - uses|S0532 uses T1498]] — Lucifer → Network Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4633 - uses|G0096 uses S0160]] — APT41 → certutil
+- [[07 ATT&CK Relationships/ATTACK-REL-4634 - uses|S1221 uses T1027.013]] — MOPSLED → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4635 - uses|S0650 uses T1027.010]] — QakBot → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-4636 - uses|S1087 uses T1053.005]] — AsyncRAT → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4637 - uses|S0070 uses T1105]] — HTTPBrowser → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4638 - uses|S0512 uses T1106]] — FatDuke → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4639 - uses|S0461 uses T1021.001]] — SDBbot → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4640 - uses|S0395 uses T1114.002]] — LightNeuron → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-4641 - uses|G0131 uses T1090.002]] — Tonto Team → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4642 - uses|S0453 uses T1070.004]] — Pony → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4643 - uses|S0632 uses T1071.001]] — GrimAgent → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4644 - uses|G0046 uses S0145]] — FIN7 → POWERSOURCE
+- [[07 ATT&CK Relationships/ATTACK-REL-4645 - uses|S1146 uses T1003]] — MgBot → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-4646 - uses|S0357 uses T1570]] — Impacket → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4647 - uses|G0094 uses T1555.003]] — Kimsuky → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-4648 - uses|S0260 uses T1686]] — InvisiMole → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-4649 - uses|G0040 uses T1588.002]] — Patchwork → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-4650 - uses|G0059 uses S0674]] — Magic Hound → CharmPower
+- [[07 ATT&CK Relationships/ATTACK-REL-4651 - uses|G1016 uses T1134.003]] — FIN13 → Make and Impersonate Token
+- [[07 ATT&CK Relationships/ATTACK-REL-4652 - uses|G0007 uses S0044]] — APT28 → JHUHUGIT
+- [[07 ATT&CK Relationships/ATTACK-REL-4653 - uses|G0119 uses T1059.007]] — Indrik Spider → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-4654 - uses|S0113 uses T1120]] — Prikormka → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4655 - uses|S0240 uses T1567.002]] — ROKRAT → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-4656 - uses|S9020 uses T1204.002]] — LODEINFO → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4657 - uses|S9031 uses T1678]] — AshTag → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4658 - uses|S0331 uses T1056.001]] — Agent Tesla → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-4659 - uses|S0186 uses T1071.001]] — DownPaper → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4660 - uses|S0381 uses T1033]] — FlawedAmmyy → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4661 - uses|S0378 uses T1548.002]] — PoshC2 → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-4662 - uses|S0378 uses T1210]] — PoshC2 → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4663 - uses|S0611 uses T1059.003]] — Clop → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4664 - uses|G1006 uses T1584.004]] — Earth Lusca → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-4665 - uses|S0629 uses T1140]] — RainyDay → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4666 - uses|S0532 uses T1012]] — Lucifer → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4667 - uses|S0587 uses T1041]] — Penquin → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4668 - uses|G1014 uses T1091]] — LuminousMoth → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-4669 - uses|S0554 uses T1033]] — Egregor → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4670 - uses|G0094 uses T1594]] — Kimsuky → Search Victim-Owned Websites
+- [[07 ATT&CK Relationships/ATTACK-REL-4671 - uses|S0356 uses T1016]] — KONNI → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4672 - uses|G0067 uses T1059.006]] — APT37 → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-4673 - uses|C0011 uses T1608.001]] — C0011 → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-4674 - uses|S0332 uses T1568]] — Remcos → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-4675 - uses|G0019 uses T1137.006]] — Naikon → Add-ins
+- [[07 ATT&CK Relationships/ATTACK-REL-4676 - uses|S0033 uses T1010]] — NetTraveler → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4677 - uses|S0569 uses T1573.001]] — Explosive → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4678 - uses|G0059 uses T1585.001]] — Magic Hound → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4679 - uses|S0497 uses T1543.001]] — Dacls → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-4680 - uses|G0106 uses T1222.002]] — Rocke → Linux and Mac Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-4681 - uses|S0284 uses T1059.003]] — More_eggs → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4682 - uses|G0096 uses T1016]] — APT41 → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4683 - uses|S1239 uses T1543.003]] — TONESHELL → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4684 - uses|S0468 uses T1518.001]] — Skidmap → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4685 - uses|G1052 uses T1480]] — Contagious Interview → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-4686 - uses|S0455 uses T1083]] — Metamorfo → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4687 - uses|G0006 uses T1585.002]] — APT1 → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4688 - uses|S0475 uses T1053.005]] — BackConfig → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4689 - uses|S1228 uses T1082]] — PUBLOAD → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4690 - uses|G1046 uses T1219.002]] — Storm-1811 → Remote Desktop Software
+- [[07 ATT&CK Relationships/ATTACK-REL-4691 - uses|S1091 uses T1619]] — Pacu → Cloud Storage Object Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4692 - uses|S1247 uses T1490]] — Embargo → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4693 - uses|C0024 uses T1057]] — SolarWinds Compromise → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4694 - uses|S0058 uses T1547.001]] — SslMM → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4695 - uses|S0692 uses T1559.001]] — SILENTTRINITY → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-4696 - uses|S0260 uses T1046]] — InvisiMole → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4697 - uses|G0050 uses S0154]] — APT32 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-4698 - uses|S0622 uses T1204.002]] — AppleSeed → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4699 - uses|S1039 uses T1012]] — Bumblebee → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4700 - uses|S0615 uses T1033]] — SombRAT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4701 - uses|G0090 uses S0680]] — WIRTE → LitePower
+- [[07 ATT&CK Relationships/ATTACK-REL-4702 - uses|S0572 uses T1082]] — Caterpillar WebShell → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4703 - uses|G0087 uses T1110]] — APT39 → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-4704 - uses|S0444 uses T1547.001]] — ShimRat → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4705 - uses|S0447 uses T1059.003]] — Lokibot → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4706 - uses|S0045 uses T1573.002]] — ADVSTORESHELL → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4707 - uses|G0010 uses S0393]] — Turla → PowerStallion
+- [[07 ATT&CK Relationships/ATTACK-REL-4708 - uses|S0066 uses T1070.006]] — 3PARA RAT → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-4709 - uses|C0015 uses T1486]] — C0015 → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-4710 - uses|C0027 uses T1588.002]] — C0027 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-4711 - uses|S1017 uses T1071.001]] — OutSteel → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4712 - uses|S0352 uses T1095]] — OSX_OCEANLOTUS.D → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4713 - uses|S0125 uses T1046]] — Remsec → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4714 - uses|S0635 uses T1082]] — BoomBox → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4715 - uses|S0147 uses T1497]] — Pteranodon → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-4716 - uses|S0630 uses T1105]] — Nebulae → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4717 - uses|S0482 uses T1027]] — Bundlore → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4718 - uses|S0439 uses T1569.002]] — Okrum → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4719 - uses|S0113 uses T1025]] — Prikormka → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-4720 - uses|S1199 uses T1685.005]] — LockBit 2.0 → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-4721 - uses|S0147 uses T1083]] — Pteranodon → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4722 - uses|S0159 uses T1547.001]] — SNUGRIDE → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4723 - uses|S1111 uses T1561.001]] — DarkGate → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-4724 - uses|S0118 uses T1105]] — Nidiran → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4725 - uses|G0092 uses T1486]] — TA505 → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-4726 - uses|G0087 uses T1021.002]] — APT39 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-4727 - uses|S1114 uses T1205]] — ZIPLINE → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-4728 - uses|S0650 uses T1564.001]] — QakBot → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-4729 - uses|S0496 uses T1489]] — REvil → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-4730 - uses|G0082 uses T1569.002]] — APT38 → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4731 - uses|C0047 uses T1027.013]] — RedDelta Modified PlugX Infection Chain Operations → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4732 - uses|C0024 uses T1552.004]] — SolarWinds Compromise → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-4733 - uses|G0007 uses T1040]] — APT28 → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-4734 - uses|G0102 uses T1071.001]] — Wizard Spider → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4735 - uses|S1100 uses T1082]] — Ninja → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4736 - uses|S9035 uses T1007]] — LAMEHUG → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4737 - uses|S1130 uses T1204]] — Raspberry Robin → User Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4738 - uses|S0467 uses T1083]] — TajMahal → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4739 - uses|S0182 uses T1027]] — FinFisher → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4740 - uses|S0357 uses T1557.001]] — Impacket → Name Resolution Poisoning and SMB Relay
+- [[07 ATT&CK Relationships/ATTACK-REL-4741 - uses|G1043 uses T1482]] — BlackByte → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4742 - uses|S1050 uses T1140]] — PcShare → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4743 - uses|G0038 uses T1053.005]] — Stealth Falcon → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4744 - uses|G0047 uses T1016.001]] — Gamaredon Group → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4745 - uses|S1078 uses T1559]] — RotaJakiro → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-4746 - uses|G1039 uses T1039]] — RedCurl → Data from Network Shared Drive
+- [[07 ATT&CK Relationships/ATTACK-REL-4747 - uses|G0096 uses T1595.003]] — APT41 → Wordlist Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-4748 - uses|G0021 uses S0546]] — Molerats → SharpStage
+- [[07 ATT&CK Relationships/ATTACK-REL-4749 - uses|S0022 uses T1095]] — Uroburos → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4750 - uses|G0034 uses S1058]] — Sandworm Team → Prestige
+- [[07 ATT&CK Relationships/ATTACK-REL-4751 - uses|S0086 uses T1105]] — ZLib → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4752 - uses|S0194 uses T1574.007]] — PowerSploit → Path Interception by PATH Environment Variable
+- [[07 ATT&CK Relationships/ATTACK-REL-4753 - uses|C0051 uses T1003.003]] — APT28 Nearest Neighbor Campaign → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-4754 - uses|S1044 uses T1047]] — FunnyDream → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-4755 - uses|S0165 uses T1087.001]] — OSInfo → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4756 - uses|G0026 uses T1071.001]] — APT18 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4757 - uses|S1152 uses T1047]] — IMAPLoader → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-4758 - uses|S0044 uses T1057]] — JHUHUGIT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4759 - uses|G1004 uses T1586.002]] — LAPSUS$ → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4760 - uses|S1179 uses T1070.004]] — Exbyte → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4761 - uses|S1202 uses T1218.003]] — LockBit 3.0 → CMSTP
+- [[07 ATT&CK Relationships/ATTACK-REL-4762 - uses|S1142 uses T1070.008]] — LunarMail → Clear Mailbox Data
+- [[07 ATT&CK Relationships/ATTACK-REL-4763 - uses|S9035 uses T1069.002]] — LAMEHUG → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-4764 - uses|C0051 uses T1074.001]] — APT28 Nearest Neighbor Campaign → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-4765 - uses|S0150 uses T1070.006]] — POSHSPY → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-4766 - uses|G0094 uses T1564.003]] — Kimsuky → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-4767 - uses|S1085 uses T1016]] — Sardonic → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4768 - uses|C0032 uses T1036.005]] — C0032 → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-4769 - uses|S0496 uses T1480.002]] — REvil → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-4770 - uses|G0140 uses T1566.001]] — LazyScripter → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-4771 - uses|S0445 uses T1082]] — ShimRatReporter → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4772 - uses|S9023 uses T1572]] — HiddenFace → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-4773 - uses|S9019 uses T1573.001]] — PureCrypter → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4774 - uses|G0006 uses T1114.001]] — APT1 → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-4775 - uses|G1018 uses T1566.002]] — TA2541 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4776 - uses|S0148 uses T1083]] — RTM → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4777 - uses|G0013 uses S0036]] — APT30 → FLASHFLOOD
+- [[07 ATT&CK Relationships/ATTACK-REL-4778 - uses|S1213 uses T1518.001]] — Lumma Stealer → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4779 - uses|S1245 uses T1105]] — InvisibleFerret → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4780 - uses|G0129 uses S1227]] — Mustang Panda → StarProxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4781 - uses|S0067 uses T1070.004]] — pngdowner → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4782 - uses|S0603 uses T1047]] — Stuxnet → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-4783 - uses|S0517 uses T1070.004]] — Pillowmint → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4784 - uses|S9029 uses T1033]] — IronWind → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4785 - uses|G0065 uses S0194]] — Leviathan → PowerSploit
+- [[07 ATT&CK Relationships/ATTACK-REL-4786 - uses|S0684 uses T1069.003]] — ROADTools → Cloud Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-4787 - uses|S0022 uses T1083]] — Uroburos → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4788 - uses|S0094 uses T1027]] — Trojan.Karagany → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4789 - uses|G0081 uses T1082]] — Tropic Trooper → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4790 - uses|G0060 uses T1059.001]] — BRONZE BUTLER → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4791 - uses|C0012 uses T1005]] — Operation CuckooBees → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4792 - uses|C0046 uses S1186]] — ArcaneDoor → Line Dancer
+- [[07 ATT&CK Relationships/ATTACK-REL-4793 - uses|S1064 uses T1059.005]] — SVCReady → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-4794 - uses|S9028 uses T1105]] — PHPsert → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4795 - uses|S0491 uses T1020]] — StrongPity → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-4796 - uses|G0139 uses T1105]] — TeamTNT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4797 - uses|S0650 uses T1027.006]] — QakBot → HTML Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-4798 - uses|S0532 uses T1110.001]] — Lucifer → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-4799 - uses|G1044 uses T1111]] — APT42 → Multi-Factor Authentication Interception
+- [[07 ATT&CK Relationships/ATTACK-REL-4800 - uses|S0491 uses T1553.002]] — StrongPity → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-4801 - uses|S0201 uses T1007]] — JPIN → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4802 - uses|S0197 uses T1027]] — PUNCHTRACK → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4803 - uses|S0455 uses T1204.002]] — Metamorfo → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4804 - uses|S0149 uses T1074.001]] — MoonWind → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-4805 - uses|G1018 uses T1027.015]] — TA2541 → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-4806 - uses|G1051 uses T1070.003]] — Medusa Group → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-4807 - uses|G0049 uses T1140]] — OilRig → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4808 - uses|S1245 uses T1056]] — InvisibleFerret → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4809 - uses|S0459 uses T1041]] — MechaFlounder → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4810 - uses|C0042 uses T1217]] — Outer Space → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4811 - uses|S0498 uses T1573]] — Cryptoistic → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4812 - uses|S0237 uses T1005]] — GravityRAT → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4813 - uses|C0061 uses T1018]] — Operation Digital Eye → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4814 - uses|G0114 uses S0002]] — Chimera → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-4815 - uses|G1015 uses T1074]] — Scattered Spider → Data Staged
+- [[07 ATT&CK Relationships/ATTACK-REL-4816 - uses|S0363 uses T1020]] — Empire → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-4817 - uses|S0483 uses T1189]] — IcedID → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-4818 - uses|S0475 uses T1070.004]] — BackConfig → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4819 - uses|G0045 uses T1568.001]] — menuPass → Fast Flux DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-4820 - uses|S0632 uses T1070.004]] — GrimAgent → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4821 - uses|S0538 uses T1074.001]] — Crutch → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-4822 - uses|S0257 uses T1140]] — VERMIN → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4823 - uses|C0062 uses T1082]] — Anthropic AI-orchestrated Campaign → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4824 - uses|G0102 uses T1027.010]] — Wizard Spider → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-4825 - uses|S1086 uses T1189]] — Snip3 → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-4826 - uses|S9019 uses T1480]] — PureCrypter → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-4827 - uses|G0045 uses S0628]] — menuPass → FYAnti
+- [[07 ATT&CK Relationships/ATTACK-REL-4828 - uses|G0114 uses T1041]] — Chimera → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4829 - uses|S0148 uses T1119]] — RTM → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-4830 - uses|S0194 uses T1055.001]] — PowerSploit → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-4831 - uses|S0226 uses T1059.005]] — Smoke Loader → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-4832 - uses|S0379 uses T1125]] — Revenge RAT → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4833 - uses|S0157 uses T1112]] — SOUNDBITE → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4834 - uses|S1075 uses T1057]] — KOPILUWAK → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4835 - uses|G0035 uses T1021.001]] — Dragonfly → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4836 - uses|S0279 uses T1685.006]] — Proton → Clear Linux or Mac System Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-4837 - uses|C0022 uses T1497.003]] — Operation Dream Job → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-4838 - uses|S0458 uses T1559.001]] — Ramsay → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-4839 - uses|S0600 uses T1057]] — Doki → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4840 - uses|S0579 uses T1027.013]] — Waterbear → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-4841 - uses|G0082 uses T1059.001]] — APT38 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4842 - uses|G0094 uses T1070.004]] — Kimsuky → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4843 - uses|S0396 uses T1106]] — EvilBunny → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-4844 - uses|S0678 uses T1573.001]] — Torisma → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-4845 - uses|S0622 uses T1124]] — AppleSeed → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4846 - uses|G0131 uses T1105]] — Tonto Team → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4847 - uses|C0060 uses T1204.001]] — Operation AkaiRyū → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4848 - uses|S0692 uses T1547.001]] — SILENTTRINITY → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-4849 - uses|S0663 uses T1005]] — SysUpdate → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4850 - uses|S0017 uses T1059.003]] — BISCUIT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4851 - uses|S0650 uses T1497.001]] — QakBot → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-4852 - uses|S1044 uses T1018]] — FunnyDream → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4853 - uses|S0438 uses T1129]] — Attor → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-4854 - uses|G0040 uses T1203]] — Patchwork → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4855 - uses|G0129 uses T1574.001]] — Mustang Panda → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4856 - uses|C0002 uses T1003.002]] — Night Dragon → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-4857 - uses|S0396 uses T1070.004]] — EvilBunny → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4858 - uses|S0237 uses T1071.001]] — GravityRAT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4859 - uses|S1072 uses T1057]] — Industroyer2 → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4860 - uses|S0266 uses T1566.001]] — TrickBot → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-4861 - uses|G0046 uses T1053.005]] — FIN7 → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4862 - uses|G0087 uses T1005]] — APT39 → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4863 - uses|G0046 uses S0417]] — FIN7 → GRIFFON
+- [[07 ATT&CK Relationships/ATTACK-REL-4864 - uses|S0395 uses T1016]] — LightNeuron → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4865 - uses|S0331 uses T1555.003]] — Agent Tesla → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-4866 - uses|S0249 uses T1033]] — Gold Dragon → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4867 - uses|S0198 uses T1010]] — NETWIRE → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4868 - uses|S0213 uses T1105]] — DOGCALL → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4869 - uses|S0332 uses T1070.004]] — Remcos → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4870 - uses|S0477 uses T1071.003]] — Goopy → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4871 - uses|S0032 uses T1057]] — gh0st RAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4872 - uses|S0531 uses T1555.003]] — Grandoreiro → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-4873 - uses|C0058 uses T1071.001]] — SharePoint ToolShell Exploitation → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4874 - uses|C0025 uses T1021.002]] — 2016 Ukraine Electric Power Attack → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-4875 - uses|S0562 uses T1027]] — SUNSPOT → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4876 - uses|G1051 uses T1650]] — Medusa Group → Acquire Access
+- [[07 ATT&CK Relationships/ATTACK-REL-4877 - uses|G0010 uses S0363]] — Turla → Empire
+- [[07 ATT&CK Relationships/ATTACK-REL-4878 - uses|S0520 uses T1041]] — BLINDINGCAN → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4879 - uses|S1053 uses T1564.003]] — AvosLocker → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-4880 - uses|S0434 uses T1041]] — Imminent Monitor → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4881 - uses|G0046 uses T1486]] — FIN7 → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-4882 - uses|S1185 uses T1113]] — LightSpy → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-4883 - uses|S0264 uses T1027.002]] — OopsIE → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-4884 - uses|S0486 uses T1554]] — Bonadan → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-4885 - uses|G1017 uses T1560.001]] — Volt Typhoon → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-4886 - uses|G0050 uses T1218.011]] — APT32 → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4887 - uses|S1026 uses T1120]] — Mongall → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4888 - uses|S0351 uses T1124]] — Cannon → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4889 - uses|S1147 uses T1102]] — Nightdoor → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4890 - uses|S0520 uses T1027.002]] — BLINDINGCAN → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-4891 - uses|S0046 uses T1082]] — CozyCar → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4892 - uses|G0045 uses T1210]] — menuPass → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-4893 - uses|S0385 uses T1033]] — njRAT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4894 - uses|S0453 uses T1027.016]] — Pony → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-4895 - uses|S0650 uses T1539]] — QakBot → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-4896 - uses|G0012 uses T1105]] — Darkhotel → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4897 - uses|C0029 uses T1021.002]] — Cutting Edge → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-4898 - uses|S0345 uses T1105]] — Seasalt → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4899 - uses|S1200 uses T1030]] — StealBit → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-4900 - uses|S1111 uses T1010]] — DarkGate → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4901 - uses|S0660 uses T1057]] — Clambling → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4902 - uses|C0047 uses T1553.002]] — RedDelta Modified PlugX Infection Chain Operations → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-4903 - uses|S1111 uses T1529]] — DarkGate → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-4904 - uses|S1064 uses T1124]] — SVCReady → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4905 - uses|G1057 uses T1083]] — ShinyHunters → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4906 - uses|S0351 uses T1041]] — Cannon → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-4907 - uses|S0532 uses T1027.002]] — Lucifer → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-4908 - uses|S0534 uses T1053.005]] — Bazar → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4909 - uses|S0013 uses T1049]] — PlugX → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4910 - uses|S1145 uses T1016]] — Pikabot → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4911 - uses|C0063 uses T1587.001]] — 2025 Poland Wiper Attacks → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-4912 - uses|S1167 uses T1529]] — AcidPour → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-4913 - uses|S0172 uses T1012]] — Reaver → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-4914 - uses|S1120 uses T1505.003]] — FRAMESTING → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4915 - uses|S0534 uses T1036.007]] — Bazar → Double File Extension
+- [[07 ATT&CK Relationships/ATTACK-REL-4916 - uses|G1044 uses T1071.001]] — APT42 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4917 - uses|S0196 uses T1105]] — PUNCHBUGGY → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4918 - uses|S0397 uses T1014]] — LoJax → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-4919 - uses|G1015 uses T1059.001]] — Scattered Spider → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4920 - uses|S0089 uses T1685.005]] — BlackEnergy → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-4921 - uses|S0447 uses T1070.004]] — Lokibot → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4922 - uses|G0037 uses T1685]] — FIN6 → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-4923 - uses|S1044 uses T1090]] — FunnyDream → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4924 - uses|S1073 uses T1095]] — Royal → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-4925 - uses|S0212 uses T1083]] — CORALDECK → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4926 - uses|S9008 uses T1550.001]] — Shai-Hulud → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-4927 - uses|G0038 uses T1071.001]] — Stealth Falcon → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4928 - uses|C0006 uses T1083]] — Operation Honeybee → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4929 - uses|S0013 uses T1497.001]] — PlugX → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-4930 - uses|G0032 uses T1036.004]] — Lazarus Group → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4931 - uses|C0038 uses T1078.001]] — HomeLand Justice → Default Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4932 - uses|G1048 uses T1205]] — UNC3886 → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-4933 - uses|G0045 uses S0404]] — menuPass → esentutl
+- [[07 ATT&CK Relationships/ATTACK-REL-4934 - uses|G0061 uses T1546.003]] — FIN8 → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-4935 - uses|S0467 uses T1124]] — TajMahal → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4936 - uses|S0356 uses T1547.009]] — KONNI → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-4937 - uses|S0130 uses T1082]] — Unknown Logger → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4938 - uses|S0201 uses T1518.001]] — JPIN → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4939 - uses|G1018 uses S0198]] — TA2541 → NETWIRE
+- [[07 ATT&CK Relationships/ATTACK-REL-4940 - uses|S0605 uses T1486]] — EKANS → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-4941 - uses|S0363 uses T1049]] — Empire → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4942 - uses|S0124 uses T1105]] — Pisloader → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-4943 - uses|C0032 uses T1070.004]] — C0032 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-4944 - uses|S0386 uses T1090]] — Ursnif → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-4945 - uses|S0022 uses T1132.002]] — Uroburos → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-4946 - uses|S1091 uses T1530]] — Pacu → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-4947 - uses|G1036 uses T1585.001]] — Moonstone Sleet → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4948 - uses|C0029 uses S1114]] — Cutting Edge → ZIPLINE
+- [[07 ATT&CK Relationships/ATTACK-REL-4949 - uses|G0143 uses S0385]] — Aquatic Panda → njRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-4950 - uses|G0094 uses S1201]] — Kimsuky → TRANSLATEXT
+- [[07 ATT&CK Relationships/ATTACK-REL-4951 - uses|S1226 uses T1140]] — BOOKWORM → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4952 - uses|S0238 uses T1016]] — Proxysvc → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4953 - uses|S1022 uses T1087.002]] — IceApple → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-4954 - uses|S0237 uses T1053.005]] — GravityRAT → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-4955 - uses|G1053 uses T1614.001]] — Storm-0501 → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4956 - uses|G0102 uses T1218.011]] — Wizard Spider → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-4957 - uses|G1003 uses T1195]] — Ember Bear → Supply Chain Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-4958 - uses|G0021 uses S0547]] — Molerats → DropBook
+- [[07 ATT&CK Relationships/ATTACK-REL-4959 - uses|S1222 uses T1082]] — RIFLESPINE → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4960 - uses|G0108 uses T1047]] — Blue Mockingbird → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-4961 - uses|S1233 uses T1553.002]] — PAKLOG → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-4962 - uses|S1020 uses T1005]] — Kevin → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4963 - uses|S1180 uses T1021.002]] — BlackByte Ransomware → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-4964 - uses|S1227 uses T1574.001]] — StarProxy → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-4965 - uses|S0013 uses T1571]] — PlugX → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-4966 - uses|S0354 uses T1140]] — Denis → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-4967 - uses|G1016 uses T1021.004]] — FIN13 → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-4968 - uses|S0691 uses T1016]] — Neoichor → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4969 - uses|S0269 uses T1016]] — QUADAGENT → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4970 - uses|G0087 uses T1083]] — APT39 → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4971 - uses|S1230 uses T1678]] — HIUPAN → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4972 - uses|S0382 uses T1059.001]] — ServHelper → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4973 - uses|G1023 uses T1021.004]] — APT5 → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-4974 - uses|S1081 uses T1124]] — BADHATCH → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4975 - uses|S1063 uses T1204.002]] — Brute Ratel C4 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-4976 - uses|S1245 uses T1005]] — InvisibleFerret → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-4977 - uses|S0022 uses T1027.011]] — Uroburos → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-4978 - uses|G0117 uses T1555.005]] — Fox Kitten → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-4979 - uses|G0027 uses T1588.003]] — Threat Group-3390 → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-4980 - uses|S0651 uses T1059.003]] — BoxCaon → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-4981 - uses|S9019 uses T1102]] — PureCrypter → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-4982 - uses|S9008 uses T1213.003]] — Shai-Hulud → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-4983 - uses|C0029 uses T1003.003]] — Cutting Edge → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-4984 - uses|G0060 uses S0110]] — BRONZE BUTLER → at
+- [[07 ATT&CK Relationships/ATTACK-REL-4985 - uses|G1048 uses T1560.001]] — UNC3886 → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-4986 - uses|S1183 uses T1036.003]] — StrelaStealer → Rename Legitimate Utilities
+- [[07 ATT&CK Relationships/ATTACK-REL-4987 - uses|G0050 uses T1059.001]] — APT32 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-4988 - uses|G1020 uses T1204.001]] — Mustard Tempest → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-4989 - uses|S1239 uses T1071.001]] — TONESHELL → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-4990 - uses|S0213 uses T1102.002]] — DOGCALL → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-4991 - uses|C0060 uses T1137.001]] — Operation AkaiRyū → Office Template Macros
+- [[07 ATT&CK Relationships/ATTACK-REL-4992 - uses|S0367 uses T1027.002]] — Emotet → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-4993 - uses|S0234 uses T1566.001]] — Bandook → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-4994 - uses|S0330 uses T1027.010]] — Zeus Panda → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-4995 - uses|S1142 uses T1082]] — LunarMail → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-4996 - uses|S9042 uses T1677]] — CanisterWorm → Poisoned Pipeline Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-4997 - uses|G1041 uses T1213.006]] — Sea Turtle → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-4998 - uses|G0050 uses T1078.003]] — APT32 → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-4999 - uses|S1059 uses T1082]] — metaMain → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-5000 - uses|G0037 uses T1087.002]] — FIN6 → Domain Account
+
+
+## Weitere 5.000 Beziehungen
+
+- [[07 ATT&CK Relationships/Index - Additional 5000|Index der zusätzlichen 5.000 ATT&CK-Beziehungen]]

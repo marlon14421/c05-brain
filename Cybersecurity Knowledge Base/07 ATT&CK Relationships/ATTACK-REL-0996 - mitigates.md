@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "mitigates"
+source_object: "M1037"
+target_object: "T1071.001"
+stix_relationship_id: "relationship--e8358b5c-392c-4abd-a81d-cdf615718276"
+---
+# Relationship 0996: M1037 — mitigates → T1071.001
+
+**Source object:** [[01 ATT&CK/M1037 - Filter Network Traffic|M1037: Filter Network Traffic]]  
+**Relationship:** `mitigates`  
+**Target object:** [[01 ATT&CK/T1071.001 - Web Protocols|T1071.001: Web Protocols]]
+
+## Meaning for defensive analysis
+
+Links a defensive mitigation to the behavior it is intended to reduce. Check implementation details and local constraints before applying it.
+
+## Source description
+
+Restrict and monitor outbound web traffic (HTTP/HTTPS) from critical servers to only approved destinations. Limiting the ability to initiate outbound HTTP/HTTPS connections, especially from public-facing servers, can prevent attackers from using tools like curl or wget to communicate with external C2 servers or download malicious payloads.
+
+## How an AI should use this fact
+
+Retrieve this edge together with both linked records. Preserve its direction and relationship label, cite the source object identifiers, and avoid upgrading a catalog association into an incident claim. For operational recommendations, inspect the linked records and corroborate against current telemetry and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK STIX Enterprise dataset](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--e8358b5c-392c-4abd-a81d-cdf615718276`.

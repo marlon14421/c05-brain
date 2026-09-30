@@ -1,0 +1,24 @@
+---
+type: "Attack Pattern"
+source: "MITRE CAPEC"
+id: "CAPEC-621"
+status: "Draft"
+---
+# CAPEC-621: Analysis of Packet Timing and Sizes
+
+**Abstraction:** Detailed  
+**Catalog severity:** Low  
+**Catalog likelihood:** Not stated
+
+## Description
+
+An attacker may intercept and log encrypted transmissions for the purpose of analyzing metadata such as packet timing and sizes. Although the actual data may be encrypted, this metadata may reveal valuable information to an attacker. Note that this attack is applicable to VOIP data as well as application data, especially for interactive apps that require precise timing and low-latency (e.g. thin-clients).
+
+## Defensive interpretation
+
+This catalog entry describes an attack pattern for threat modeling and defensive analysis. Map the conditions to assets, entry points, and controls in your own environment. Prioritize prevention, safe validation, logging, and incident response; this summary is not an execution guide and does not prove an active threat.
+
+## Source
+
+- [CAPEC-621 on capec.mitre.org](https://capec.mitre.org/data/definitions/621.html)
+- Dataset: [MITRE CAPEC catalog](https://capec.mitre.org/data/downloads.html), version 3.9 (retrieved 2026-09-30).

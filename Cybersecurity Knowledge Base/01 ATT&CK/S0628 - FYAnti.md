@@ -1,0 +1,29 @@
+---
+type: "Malware"
+source: MITRE ATT&CK
+id: "S0628"
+source_url: "https://attack.mitre.org/software/S0628"
+created: "2021-06-22"
+modified: "2025-04-25"
+---
+# S0628: FYAnti
+
+> **Defensive knowledge record.** Use this entry to support detection, prevention, incident response, and security education. Descriptions summarize the source; validate decisions against current systems and threat context.
+
+**Class:** Malware  
+**ATT&CK ID:** S0628  
+**Platforms:** Windows  
+**Tactics:** Not specified
+
+## Source description
+
+[FYAnti](https://attack.mitre.org/software/S0628) is a loader that has been used by [menuPass](https://attack.mitre.org/groups/G0045) since at least 2020, including to deploy [QuasarRAT](https://attack.mitre.org/software/S0262).(Citation: Securelist APT10 March 2021)
+
+## Defensive use
+
+Use this record as a prompt for threat modeling and defensive review. Identify relevant assets and trust boundaries, determine whether the behavior is applicable to the environment, then consult detection and mitigation references before acting. A technique or tool listing alone is not evidence that an incident occurred.
+
+## Source
+
+- [MITRE ATT&CK: S0628](https://attack.mitre.org/software/S0628)
+- Dataset: [MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot retrieved 2026-09-30.

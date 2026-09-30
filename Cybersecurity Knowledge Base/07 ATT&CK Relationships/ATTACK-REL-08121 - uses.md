@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "uses"
+source_object: "S9015"
+target_object: "T1070.004"
+stix_relationship_id: "relationship--87e46e75-28de-4b86-b909-fa284c487edc"
+---
+# Relationship 8121: S9015 — uses → T1070.004
+
+**Source object:** [[01 ATT&CK/S9015 - BRICKSTORM|S9015: BRICKSTORM]]  
+**Relationship:** `uses`  
+**Target object:** [[01 ATT&CK/T1070.004 - File Deletion|T1070.004: File Deletion]]
+
+## Defensive meaning
+
+Records a catalog association between the source object and something it uses. This is not evidence that the behavior is active in a particular environment.
+
+## Source description
+
+[BRICKSTORM](https://attack.mitre.org/software/S9015) has the ability to delete files and directories.(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026) [BRICKSTORM](https://attack.mitre.org/software/S9015) also has deleted installer files after execution to reduce detection.(Citation: Picus Security BRICKSTORM UNC5221 October 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: NVISO BRICKSTORM April 2025)
+
+## AI use
+
+Retrieve this edge with both endpoint records. Preserve direction and type, cite the identifiers, and distinguish catalog information from observed events. Verify recommendations against current environment evidence and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--87e46e75-28de-4b86-b909-fa284c487edc`.

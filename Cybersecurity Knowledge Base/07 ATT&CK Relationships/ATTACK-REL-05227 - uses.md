@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "uses"
+source_object: "S1124"
+target_object: "T1074.001"
+stix_relationship_id: "relationship--e0fdf36c-02e5-4100-b0f2-a1fb28fdd674"
+---
+# Relationship 5227: S1124 — uses → T1074.001
+
+**Source object:** [[01 ATT&CK/S1124 - SocGholish|S1124: SocGholish]]  
+**Relationship:** `uses`  
+**Target object:** [[01 ATT&CK/T1074.001 - Local Data Staging|T1074.001: Local Data Staging]]
+
+## Defensive meaning
+
+Records a catalog association between the source object and something it uses. This is not evidence that the behavior is active in a particular environment.
+
+## Source description
+
+[SocGholish](https://attack.mitre.org/software/S1124) can send output from `whoami` to a local temp file using the naming convention `rad .tmp`.(Citation: Red Canary SocGholish March 2024)
+
+## AI use
+
+Retrieve this edge with both endpoint records. Preserve direction and type, cite the identifiers, and distinguish catalog information from observed events. Verify recommendations against current environment evidence and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--e0fdf36c-02e5-4100-b0f2-a1fb28fdd674`.

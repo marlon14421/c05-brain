@@ -1,0 +1,34 @@
+---
+type: "Weakness"
+source: "MITRE CWE"
+id: "CWE-337"
+status: "Draft"
+---
+# CWE-337: Predictable Seed in Pseudo-Random Number Generator (PRNG)
+
+**Abstraction:** Variant  
+**Status in catalog:** Draft  
+**Applicable platforms:** Not Language-Specific
+
+## Description
+
+A Pseudo-Random Number Generator (PRNG) is initialized from a predictable seed, such as the process ID or system time.
+
+## Defensive relevance
+
+Use this weakness as a review and classification aid. Confirm the vulnerable condition in code or configuration, assess reachability and impact, and select a fix appropriate to the affected product. Catalog membership by itself does not establish exploitability.
+
+## Mitigations in the catalog
+
+- **Mitigation:** Use non-predictable inputs for seed generation.
+- **Architecture and Design:** Use products or modules that conform to FIPS 140-2 [REF-267] to avoid obvious entropy problems, or use the more recent FIPS 140-3 [REF-1192] if possible.
+- **Implementation:** Use a PRNG that periodically re-seeds itself using input from high-quality sources, such as hardware devices with high entropy. However, do not re-seed too frequently, or else the entropy source might block.
+
+## Related weaknesses
+
+- CWE-335 (ChildOf)
+
+## Source
+
+- [CWE-337 on cwe.mitre.org](https://cwe.mitre.org/data/definitions/337.html)
+- Dataset: [MITRE CWE catalog](https://cwe.mitre.org/data/downloads.html), version 4.20 (retrieved 2026-09-30).

@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "mitigates"
+source_object: "M1045"
+target_object: "T1059.002"
+stix_relationship_id: "relationship--256ce066-f81e-4cc4-bd5e-d83f7881f109"
+---
+# Relationship 0440: M1045 — mitigates → T1059.002
+
+**Source object:** [[01 ATT&CK/M1045 - Code Signing|M1045: Code Signing]]  
+**Relationship:** `mitigates`  
+**Target object:** [[01 ATT&CK/T1059.002 - AppleScript|T1059.002: AppleScript]]
+
+## Meaning for defensive analysis
+
+Links a defensive mitigation to the behavior it is intended to reduce. Check implementation details and local constraints before applying it.
+
+## Source description
+
+Require that all AppleScript be signed by a trusted developer ID before being executed - this will prevent random AppleScript code from executing.(Citation: applescript signing) This subjects AppleScript code to the same scrutiny as other .app files passing through Gatekeeper.
+
+## How an AI should use this fact
+
+Retrieve this edge together with both linked records. Preserve its direction and relationship label, cite the source object identifiers, and avoid upgrading a catalog association into an incident claim. For operational recommendations, inspect the linked records and corroborate against current telemetry and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK STIX Enterprise dataset](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--256ce066-f81e-4cc4-bd5e-d83f7881f109`.

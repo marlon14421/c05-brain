@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "mitigates"
+source_object: "M1047"
+target_object: "T1070.008"
+stix_relationship_id: "relationship--80e1e1e0-a60e-4ba6-a19a-4bc7a94f1cc6"
+---
+# Relationship 1314: M1047 — mitigates → T1070.008
+
+**Source object:** [[01 ATT&CK/M1047 - Audit|M1047: Audit]]  
+**Relationship:** `mitigates`  
+**Target object:** [[01 ATT&CK/T1070.008 - Clear Mailbox Data|T1070.008: Clear Mailbox Data]]
+
+## Meaning for defensive analysis
+
+Links a defensive mitigation to the behavior it is intended to reduce. Check implementation details and local constraints before applying it.
+
+## Source description
+
+In an Exchange environment, Administrators can use `Get-TransportRule` / `Remove-TransportRule` to discover and remove potentially malicious transport rules.(Citation: Microsoft Manage Mail Flow Rules 2023)
+
+## How an AI should use this fact
+
+Retrieve this edge together with both linked records. Preserve its direction and relationship label, cite the source object identifiers, and avoid upgrading a catalog association into an incident claim. For operational recommendations, inspect the linked records and corroborate against current telemetry and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK STIX Enterprise dataset](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--80e1e1e0-a60e-4ba6-a19a-4bc7a94f1cc6`.

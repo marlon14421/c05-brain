@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "uses"
+source_object: "S1198"
+target_object: "T1016"
+stix_relationship_id: "relationship--c6b5a499-a6d6-4b6c-b24f-93844630f84d"
+---
+# Relationship 7891: S1198 — uses → T1016
+
+**Source object:** [[01 ATT&CK/S1198 - Gomir|S1198: Gomir]]  
+**Relationship:** `uses`  
+**Target object:** [[01 ATT&CK/T1016 - System Network Configuration Discovery|T1016: System Network Configuration Discovery]]
+
+## Defensive meaning
+
+Records a catalog association between the source object and something it uses. This is not evidence that the behavior is active in a particular environment.
+
+## Source description
+
+[Gomir](https://attack.mitre.org/software/S1198) collects network information on infected systems such as listing interface names, MAC and IP addresses, and IPv6 addresses.(Citation: Symantec Troll Stealer 2024)
+
+## AI use
+
+Retrieve this edge with both endpoint records. Preserve direction and type, cite the identifiers, and distinguish catalog information from observed events. Verify recommendations against current environment evidence and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--c6b5a499-a6d6-4b6c-b24f-93844630f84d`.

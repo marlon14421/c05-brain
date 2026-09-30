@@ -1,0 +1,5018 @@
+# ATT&CK Relationship Index: Additional 5,000
+
+These are 5,000 additional unique directed relationships, beyond the first 5,000. Each card records both endpoints, relationship type, STIX ID, and source provenance.
+
+## Mitigations
+
+
+## Detection links
+
+
+## Technique hierarchy
+
+
+## Attribution links
+
+
+## Uses relationships
+
+- [[07 ATT&CK Relationships/ATTACK-REL-05001 - uses|G0049 uses T1505.003]] — OilRig → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05002 - uses|S1044 uses T1033]] — FunnyDream → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05003 - uses|S0663 uses T1047]] — SysUpdate → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-05004 - uses|C0004 uses T1046]] — CostaRicto → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05005 - uses|G0012 uses T1518.001]] — Darkhotel → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05006 - uses|S0194 uses T1123]] — PowerSploit → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05007 - uses|S1059 uses T1560.003]] — metaMain → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-05008 - uses|S0148 uses T1102.001]] — RTM → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-05009 - uses|G1003 uses T1588.001]] — Ember Bear → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-05010 - uses|C0058 uses T1105]] — SharePoint ToolShell Exploitation → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05011 - uses|G1040 uses S0029]] — Play → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-05012 - uses|S0504 uses T1564.004]] — Anchor → NTFS File Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-05013 - uses|S1222 uses T1102.002]] — RIFLESPINE → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-05014 - uses|G1032 uses T1074]] — INC Ransom → Data Staged
+- [[07 ATT&CK Relationships/ATTACK-REL-05015 - uses|S1100 uses T1566.003]] — Ninja → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05016 - uses|S1078 uses T1037]] — RotaJakiro → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-05017 - uses|S0045 uses T1112]] — ADVSTORESHELL → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05018 - uses|S0492 uses T1518.001]] — CookieMiner → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05019 - uses|G0117 uses T1021.005]] — Fox Kitten → VNC
+- [[07 ATT&CK Relationships/ATTACK-REL-05020 - uses|S0379 uses T1123]] — Revenge RAT → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05021 - uses|S0260 uses T1055.002]] — InvisiMole → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05022 - uses|G0027 uses T1210]] — Threat Group-3390 → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-05023 - uses|S0226 uses T1055.012]] — Smoke Loader → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-05024 - uses|S0044 uses T1547.001]] — JHUHUGIT → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05025 - uses|G0069 uses T1583.006]] — MuddyWater → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-05026 - uses|S0265 uses T1008]] — Kazuar → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-05027 - uses|S1182 uses T1070.004]] — MagicRAT → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05028 - uses|G1040 uses S0521]] — Play → BloodHound
+- [[07 ATT&CK Relationships/ATTACK-REL-05029 - uses|S1242 uses T1135]] — Qilin → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05030 - uses|G0004 uses S0104]] — Ke3chang → netstat
+- [[07 ATT&CK Relationships/ATTACK-REL-05031 - uses|S9024 uses T1040]] — SPAWNCHIMERA → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-05032 - uses|S0266 uses T1106]] — TrickBot → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05033 - uses|S9015 uses T1543]] — BRICKSTORM → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-05034 - uses|C0063 uses T1608.002]] — 2025 Poland Wiper Attacks → Upload Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-05035 - uses|S1212 uses T1486]] — RansomHub → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-05036 - uses|S0467 uses T1041]] — TajMahal → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-05037 - uses|S0038 uses T1053.005]] — Duqu → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-05038 - uses|S0229 uses T1218.010]] — Orz → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-05039 - uses|S1244 uses T1082]] — Medusa Ransomware → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05040 - uses|G0046 uses S0681]] — FIN7 → Lizar
+- [[07 ATT&CK Relationships/ATTACK-REL-05041 - uses|G0082 uses T1588.002]] — APT38 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-05042 - uses|S0674 uses T1057]] — CharmPower → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05043 - uses|S0495 uses T1008]] — RDAT → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-05044 - uses|G0107 uses S0002]] — Whitefly → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-05045 - uses|C0063 uses T1485]] — 2025 Poland Wiper Attacks → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-05046 - uses|S0198 uses T1543.001]] — NETWIRE → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-05047 - uses|S1060 uses T1205.001]] — Mafalda → Port Knocking
+- [[07 ATT&CK Relationships/ATTACK-REL-05048 - uses|G0007 uses T1021.002]] — APT28 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-05049 - uses|G0047 uses T1082]] — Gamaredon Group → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05050 - uses|G1017 uses T1555.003]] — Volt Typhoon → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-05051 - uses|S0386 uses T1105]] — Ursnif → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05052 - uses|S0631 uses T1059.007]] — Chaes → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-05053 - uses|G0035 uses T1083]] — Dragonfly → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05054 - uses|G0096 uses S1158]] — APT41 → DUSTPAN
+- [[07 ATT&CK Relationships/ATTACK-REL-05055 - uses|S1075 uses T1059.007]] — KOPILUWAK → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-05056 - uses|G0035 uses S0093]] — Dragonfly → Backdoor.Oldrea
+- [[07 ATT&CK Relationships/ATTACK-REL-05057 - uses|S0434 uses T1056.001]] — Imminent Monitor → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05058 - uses|G0090 uses S9030]] — WIRTE → SameCoin
+- [[07 ATT&CK Relationships/ATTACK-REL-05059 - uses|S0579 uses T1055]] — Waterbear → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05060 - uses|G1054 uses S0057]] — MirrorFace → Tasklist
+- [[07 ATT&CK Relationships/ATTACK-REL-05061 - uses|S0263 uses T1105]] — TYPEFRAME → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05062 - uses|S0677 uses T1566.002]] — AADInternals → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-05063 - uses|S0022 uses T1573.002]] — Uroburos → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05064 - uses|S0330 uses T1518.001]] — Zeus Panda → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05065 - uses|G0135 uses T1036.004]] — BackdoorDiplomacy → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05066 - uses|S0636 uses T1105]] — VaporRage → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05067 - uses|G0102 uses T1112]] — Wizard Spider → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05068 - uses|S0666 uses T1059.003]] — Gelsemium → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05069 - uses|G1018 uses T1588.001]] — TA2541 → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-05070 - uses|S0363 uses T1135]] — Empire → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05071 - uses|G1033 uses T1566.001]] — Star Blizzard → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05072 - uses|S0661 uses T1552.004]] — FoggyWeb → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-05073 - uses|S0012 uses T1014]] — PoisonIvy → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-05074 - uses|G0117 uses T1217]] — Fox Kitten → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05075 - uses|S0154 uses T1090.001]] — Cobalt Strike → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05076 - uses|S0502 uses T1140]] — Drovorub → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05077 - uses|S0355 uses T1057]] — Final1stspy → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05078 - uses|G1055 uses T1003.001]] — VOID MANTICORE → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-05079 - uses|S0283 uses T1113]] — jRAT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05080 - uses|S0581 uses T1059.006]] — IronNetInjector → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-05081 - uses|S0444 uses T1543.003]] — ShimRat → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05082 - uses|G1054 uses S9026]] — MirrorFace → ROAMINGHOUSE
+- [[07 ATT&CK Relationships/ATTACK-REL-05083 - uses|S0127 uses T1071.001]] — BBSRAT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05084 - uses|G0012 uses T1140]] — Darkhotel → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05085 - uses|S0002 uses T1558.001]] — Mimikatz → Golden Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-05086 - uses|G0035 uses T1114.002]] — Dragonfly → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-05087 - uses|S0688 uses T1059.001]] — Meteor → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05088 - uses|S0659 uses T1685]] — Diavol → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-05089 - uses|S0398 uses T1007]] — HyperBro → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05090 - uses|S0546 uses T1102]] — SharpStage → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05091 - uses|S0332 uses T1560.001]] — Remcos → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-05092 - uses|G0112 uses T1057]] — Windshift → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05093 - uses|S0466 uses T1036]] — WindTail → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-05094 - uses|S0659 uses T1491.001]] — Diavol → Internal Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-05095 - uses|S0534 uses T1482]] — Bazar → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05096 - uses|S0493 uses T1083]] — GoldenSpy → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05097 - uses|S0377 uses T1071.004]] — Ebury → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-05098 - uses|S0379 uses T1082]] — Revenge RAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05099 - uses|C0005 uses T1583.001]] — Operation Spalax → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-05100 - uses|S0374 uses T1016]] — SpeakUp → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05101 - uses|G0069 uses T1685]] — MuddyWater → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-05102 - uses|S0515 uses T1573.002]] — WellMail → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05103 - uses|S0180 uses T1012]] — Volgmer → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05104 - uses|S0194 uses T1482]] — PowerSploit → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05105 - uses|S0018 uses T1007]] — Sykipot → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05106 - uses|S0011 uses T1012]] — Taidoor → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05107 - uses|C0022 uses T1583.006]] — Operation Dream Job → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-05108 - uses|S0266 uses T1497.003]] — TrickBot → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-05109 - uses|G1039 uses T1114.001]] — RedCurl → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-05110 - uses|G1053 uses T1021.007]] — Storm-0501 → Cloud Services
+- [[07 ATT&CK Relationships/ATTACK-REL-05111 - uses|S0138 uses T1071.003]] — OLDBAIT → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05112 - uses|S1065 uses T1204.002]] — Woody RAT → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05113 - uses|C0005 uses T1027.013]] — Operation Spalax → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05114 - uses|S0154 uses T1140]] — Cobalt Strike → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05115 - uses|C0029 uses T1205]] — Cutting Edge → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-05116 - uses|G0119 uses S0612]] — Indrik Spider → WastedLocker
+- [[07 ATT&CK Relationships/ATTACK-REL-05117 - uses|G0077 uses T1189]] — Leafminer → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-05118 - uses|S0204 uses T1543.003]] — Briba → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05119 - uses|S0530 uses T1115]] — Melcoz → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-05120 - uses|S0677 uses T1003.004]] — AADInternals → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-05121 - uses|S9020 uses T1124]] — LODEINFO → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05122 - uses|S0697 uses T1561.002]] — HermeticWiper → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-05123 - uses|S0668 uses T1059.003]] — TinyTurla → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05124 - uses|G1033 uses T1539]] — Star Blizzard → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-05125 - uses|G0027 uses T1030]] — Threat Group-3390 → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-05126 - uses|G1053 uses T1490]] — Storm-0501 → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05127 - uses|S0341 uses T1203]] — Xbash → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-05128 - uses|C0032 uses T1505.003]] — C0032 → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05129 - uses|G0046 uses T1005]] — FIN7 → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-05130 - uses|S0592 uses T1218.007]] — RemoteUtilities → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-05131 - uses|G0049 uses T1012]] — OilRig → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05132 - uses|S0283 uses T1070.004]] — jRAT → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05133 - uses|S0663 uses T1071.004]] — SysUpdate → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-05134 - uses|G0049 uses T1069.002]] — OilRig → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-05135 - uses|C0005 uses T1027.003]] — Operation Spalax → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-05136 - uses|G0082 uses T1189]] — APT38 → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-05137 - uses|S0444 uses T1105]] — ShimRat → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05138 - uses|S1016 uses T1555.001]] — MacMa → Keychain
+- [[07 ATT&CK Relationships/ATTACK-REL-05139 - uses|C0038 uses T1114.002]] — HomeLand Justice → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-05140 - uses|S0658 uses T1098.004]] — XCSSET → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-05141 - uses|G0129 uses T1572]] — Mustang Panda → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-05142 - uses|S0240 uses T1010]] — ROKRAT → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05143 - uses|G0102 uses T1041]] — Wizard Spider → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-05144 - uses|S0344 uses T1573.001]] — Azorult → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05145 - uses|S0657 uses T1082]] — BLUELIGHT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05146 - uses|S0032 uses T1112]] — gh0st RAT → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05147 - uses|S0140 uses T1134.001]] — Shamoon → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-05148 - uses|S0244 uses T1016]] — Comnie → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05149 - uses|G0050 uses S0039]] — APT32 → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-05150 - uses|S0431 uses T1070.004]] — HotCroissant → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05151 - uses|S0143 uses T1011.001]] — Flame → Exfiltration Over Bluetooth
+- [[07 ATT&CK Relationships/ATTACK-REL-05152 - uses|G1003 uses T1203]] — Ember Bear → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-05153 - uses|S0115 uses T1033]] — Crimson → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05154 - uses|S0045 uses T1071.001]] — ADVSTORESHELL → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05155 - uses|G0069 uses T1057]] — MuddyWater → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05156 - uses|S1217 uses T1675]] — VIRTUALPITA → ESXi Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-05157 - uses|S1111 uses T1657]] — DarkGate → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-05158 - uses|S1202 uses T1688]] — LockBit 3.0 → Safe Mode Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-05159 - uses|C0022 uses T1071.001]] — Operation Dream Job → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05160 - uses|S0098 uses T1113]] — T9000 → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05161 - uses|C0016 uses T1204.002]] — Operation Dust Storm → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05162 - uses|C0035 uses T1059.004]] — KV Botnet Activity → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05163 - uses|G0047 uses T1102.003]] — Gamaredon Group → One-Way Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-05164 - uses|C0001 uses T1082]] — Frankenstein → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05165 - uses|G0121 uses T1566.002]] — Sidewinder → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-05166 - uses|S0632 uses T1106]] — GrimAgent → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05167 - uses|S0148 uses T1571]] — RTM → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-05168 - uses|S0055 uses T1055.001]] — RARSTONE → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05169 - uses|S0449 uses T1568]] — Maze → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-05170 - uses|G0061 uses T1566.001]] — FIN8 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05171 - uses|S9044 uses T1059.007]] — Kali365 → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-05172 - uses|S0242 uses T1106]] — SynAck → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05173 - uses|S0447 uses T1566.001]] — Lokibot → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05174 - uses|C0016 uses T1518]] — Operation Dust Storm → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05175 - uses|S1122 uses T1614.001]] — Mispadu → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05176 - uses|S1070 uses T1106]] — Black Basta → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05177 - uses|S0109 uses T1059.003]] — WEBC2 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05178 - uses|S1105 uses T1059.004]] — COATHANGER → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05179 - uses|G0121 uses T1518.001]] — Sidewinder → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05180 - uses|G0046 uses T1087.002]] — FIN7 → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-05181 - uses|G0129 uses T1588.004]] — Mustang Panda → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-05182 - uses|C0027 uses T1530]] — C0027 → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-05183 - uses|G0108 uses T1190]] — Blue Mockingbird → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-05184 - uses|S1044 uses T1120]] — FunnyDream → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05185 - uses|G0059 uses T1059.001]] — Magic Hound → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05186 - uses|S0660 uses T1113]] — Clambling → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05187 - uses|S1122 uses T1518.001]] — Mispadu → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05188 - uses|G0094 uses T1083]] — Kimsuky → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05189 - uses|S0456 uses T1083]] — Aria-body → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05190 - uses|S0673 uses T1010]] — DarkWatchman → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05191 - uses|G0030 uses T1560.003]] — Lotus Blossom → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-05192 - uses|S0496 uses T1012]] — REvil → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05193 - uses|S1226 uses T1564.003]] — BOOKWORM → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-05194 - uses|C0055 uses T1665]] — Quad7 Activity → Hide Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-05195 - uses|G0020 uses T1480.001]] — Equation → Environmental Keying
+- [[07 ATT&CK Relationships/ATTACK-REL-05196 - uses|S1020 uses T1106]] — Kevin → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05197 - uses|G0119 uses T1007]] — Indrik Spider → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05198 - uses|S1173 uses T1071.003]] — PowerExchange → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05199 - uses|G0087 uses T1021.001]] — APT39 → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-05200 - uses|C0035 uses T1571]] — KV Botnet Activity → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-05201 - uses|S0579 uses T1027.005]] — Waterbear → Indicator Removal from Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-05202 - uses|S0388 uses T1082]] — YAHOYAH → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05203 - uses|S0053 uses T1550.003]] — SeaDuke → Pass the Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-05204 - uses|S1141 uses T1560.002]] — LunarWeb → Archive via Library
+- [[07 ATT&CK Relationships/ATTACK-REL-05205 - uses|G1032 uses T1049]] — INC Ransom → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05206 - uses|S0283 uses T1057]] — jRAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05207 - uses|G0065 uses T1074.002]] — Leviathan → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-05208 - uses|G1055 uses T1589]] — VOID MANTICORE → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05209 - uses|S0347 uses T1105]] — AuditCred → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05210 - uses|S0197 uses T1074.001]] — PUNCHTRACK → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-05211 - uses|S1199 uses T1484.001]] — LockBit 2.0 → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-05212 - uses|S0379 uses T1003]] — Revenge RAT → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-05213 - uses|S0515 uses T1560]] — WellMail → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-05214 - uses|S0653 uses T1105]] — xCaon → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05215 - uses|S0445 uses T1027]] — ShimRatReporter → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05216 - uses|G1052 uses T1083]] — Contagious Interview → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05217 - uses|G0060 uses T1070.004]] — BRONZE BUTLER → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05218 - uses|S1015 uses T1005]] — Milan → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-05219 - uses|S0168 uses T1053.005]] — Gazer → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-05220 - uses|S0213 uses T1056.001]] — DOGCALL → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05221 - uses|S9041 uses T1059.004]] — TeamPCP Cloud Stealer → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05222 - uses|S0128 uses T1102.002]] — BADNEWS → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-05223 - uses|S1155 uses T1218.004]] — Covenant → InstallUtil
+- [[07 ATT&CK Relationships/ATTACK-REL-05224 - uses|G0027 uses S0073]] — Threat Group-3390 → ASPXSpy
+- [[07 ATT&CK Relationships/ATTACK-REL-05225 - uses|S1111 uses T1036.007]] — DarkGate → Double File Extension
+- [[07 ATT&CK Relationships/ATTACK-REL-05226 - uses|G0018 uses S0039]] — admin@338 → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-05227 - uses|S1124 uses T1074.001]] — SocGholish → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-05228 - uses|S0603 uses T1068]] — Stuxnet → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-05229 - uses|G1040 uses T1083]] — Play → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05230 - uses|S0448 uses T1070]] — Rising Sun → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-05231 - uses|S0198 uses T1113]] — NETWIRE → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05232 - uses|S1075 uses T1566.001]] — KOPILUWAK → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05233 - uses|S0013 uses T1140]] — PlugX → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05234 - uses|C0061 uses T1087.001]] — Operation Digital Eye → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-05235 - uses|G0091 uses S0363]] — Silence → Empire
+- [[07 ATT&CK Relationships/ATTACK-REL-05236 - uses|S0219 uses T1083]] — WINERACK → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05237 - uses|S0674 uses T1008]] — CharmPower → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-05238 - uses|S1039 uses T1102]] — Bumblebee → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05239 - uses|G1023 uses T1049]] — APT5 → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05240 - uses|G0046 uses T1608.004]] — FIN7 → Drive-by Target
+- [[07 ATT&CK Relationships/ATTACK-REL-05241 - uses|S0658 uses T1068]] — XCSSET → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-05242 - uses|S1151 uses T1561.002]] — ZeroCleare → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-05243 - uses|G0094 uses T1040]] — Kimsuky → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-05244 - uses|C0061 uses S9028]] — Operation Digital Eye → PHPsert
+- [[07 ATT&CK Relationships/ATTACK-REL-05245 - uses|G1003 uses S0174]] — Ember Bear → Responder
+- [[07 ATT&CK Relationships/ATTACK-REL-05246 - uses|G0004 uses T1114.002]] — Ke3chang → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-05247 - uses|G0094 uses T1587.001]] — Kimsuky → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-05248 - uses|S0562 uses T1134]] — SUNSPOT → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-05249 - uses|S1240 uses T1102]] — RedLine Stealer → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05250 - uses|S0234 uses T1120]] — Bandook → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05251 - uses|S0652 uses T1518]] — MarkiRAT → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05252 - uses|S0278 uses T1560.001]] — iKitten → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-05253 - uses|S9035 uses T1033]] — LAMEHUG → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05254 - uses|G0045 uses T1018]] — menuPass → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05255 - uses|S1234 uses T1036.001]] — SplatCloak → Invalid Code Signature
+- [[07 ATT&CK Relationships/ATTACK-REL-05256 - uses|S0692 uses T1558.003]] — SILENTTRINITY → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-05257 - uses|G0046 uses T1021.004]] — FIN7 → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-05258 - uses|G0137 uses T1204.002]] — Ferocious Kitten → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05259 - uses|S0608 uses T1105]] — Conficker → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05260 - uses|S0338 uses T1113]] — Cobian RAT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05261 - uses|S9035 uses T1071.001]] — LAMEHUG → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05262 - uses|S0127 uses T1083]] — BBSRAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05263 - uses|S0472 uses T1105]] — down_new → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05264 - uses|G1046 uses T1486]] — Storm-1811 → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-05265 - uses|S0513 uses T1071.001]] — LiteDuke → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05266 - uses|G0037 uses T1547.001]] — FIN6 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05267 - uses|S0046 uses T1036.003]] — CozyCar → Rename Legitimate Utilities
+- [[07 ATT&CK Relationships/ATTACK-REL-05268 - uses|C0047 uses T1090]] — RedDelta Modified PlugX Infection Chain Operations → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05269 - uses|G0034 uses T1588.002]] — Sandworm Team → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-05270 - uses|S0414 uses T1033]] — BabyShark → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05271 - uses|S1200 uses T1480]] — StealBit → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-05272 - uses|S0353 uses T1036.005]] — NOKKI → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05273 - uses|S0266 uses T1553.002]] — TrickBot → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-05274 - uses|G0007 uses T1001.001]] — APT28 → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-05275 - uses|C0059 uses T1585.002]] — Salesforce Data Exfiltration → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05276 - uses|G0139 uses T1204.003]] — TeamTNT → Malicious Image
+- [[07 ATT&CK Relationships/ATTACK-REL-05277 - uses|C0024 uses T1018]] — SolarWinds Compromise → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05278 - uses|S1124 uses T1566.002]] — SocGholish → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-05279 - uses|S1240 uses T1036]] — RedLine Stealer → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-05280 - uses|S0498 uses T1095]] — Cryptoistic → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-05281 - uses|S1063 uses T1113]] — Brute Ratel C4 → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05282 - uses|S0689 uses T1140]] — WhisperGate → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05283 - uses|S1149 uses T1112]] — CHIMNEYSWEEP → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05284 - uses|S1192 uses T1105]] — NICECURL → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05285 - uses|C0016 uses T1583.001]] — Operation Dust Storm → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-05286 - uses|S0154 uses T1105]] — Cobalt Strike → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05287 - uses|C0059 uses T1083]] — Salesforce Data Exfiltration → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05288 - uses|S0688 uses T1070.004]] — Meteor → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05289 - uses|S1016 uses T1106]] — MacMa → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05290 - uses|S0059 uses T1082]] — WinMM → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05291 - uses|C0059 uses T1608.005]] — Salesforce Data Exfiltration → Link Target
+- [[07 ATT&CK Relationships/ATTACK-REL-05292 - uses|S1043 uses T1564.001]] — ccf32 → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-05293 - uses|G0127 uses T1059.003]] — TA551 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05294 - uses|S1141 uses T1059.001]] — LunarWeb → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05295 - uses|S0223 uses T1033]] — POWERSTATS → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05296 - uses|S1156 uses T1071.001]] — Manjusaka → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05297 - uses|S0259 uses T1059.003]] — InnaputRAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05298 - uses|S0228 uses T1059.007]] — NanHaiShu → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-05299 - uses|S0608 uses T1091]] — Conficker → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-05300 - uses|G0028 uses T1078.002]] — Threat Group-1314 → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05301 - uses|S0674 uses T1112]] — CharmPower → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05302 - uses|G1015 uses T1078]] — Scattered Spider → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05303 - uses|G1024 uses T1036.005]] — Akira → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05304 - uses|S0623 uses T1518]] — Siloscape → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05305 - uses|S1044 uses T1560.003]] — FunnyDream → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-05306 - uses|S0468 uses T1057]] — Skidmap → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05307 - uses|S0457 uses T1059.003]] — Netwalker → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05308 - uses|S1239 uses T1480.001]] — TONESHELL → Environmental Keying
+- [[07 ATT&CK Relationships/ATTACK-REL-05309 - uses|G0006 uses S0029]] — APT1 → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-05310 - uses|G0125 uses T1105]] — HAFNIUM → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05311 - uses|S0268 uses T1059.003]] — Bisonal → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05312 - uses|G0030 uses T1134]] — Lotus Blossom → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-05313 - uses|S0593 uses T1113]] — ECCENTRICBANDWAGON → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05314 - uses|G0138 uses T1592.002]] — Andariel → Software
+- [[07 ATT&CK Relationships/ATTACK-REL-05315 - uses|C0057 uses T1195.002]] — 3CX Supply Chain Attack → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-05316 - uses|S0606 uses T1036.005]] — Bad Rabbit → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05317 - uses|S0348 uses T1071.001]] — Cardinal RAT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05318 - uses|S0358 uses T1137.004]] — Ruler → Outlook Home Page
+- [[07 ATT&CK Relationships/ATTACK-REL-05319 - uses|S0283 uses T1027.002]] — jRAT → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-05320 - uses|S0145 uses T1105]] — POWERSOURCE → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05321 - uses|G0007 uses T1059.003]] — APT28 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05322 - uses|S0561 uses T1102]] — GuLoader → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05323 - uses|G0032 uses T1059.005]] — Lazarus Group → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-05324 - uses|G0032 uses T1083]] — Lazarus Group → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05325 - uses|S0048 uses T1003]] — PinchDuke → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-05326 - uses|G0073 uses T1112]] — APT19 → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05327 - uses|G0034 uses T1036]] — Sandworm Team → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-05328 - uses|S0362 uses T1110.003]] — Linux Rabbit → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-05329 - uses|S9041 uses T1613]] — TeamPCP Cloud Stealer → Container and Resource Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05330 - uses|S0673 uses T1568.002]] — DarkWatchman → Domain Generation Algorithms
+- [[07 ATT&CK Relationships/ATTACK-REL-05331 - uses|C0006 uses T1553.002]] — Operation Honeybee → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-05332 - uses|G0094 uses S0414]] — Kimsuky → BabyShark
+- [[07 ATT&CK Relationships/ATTACK-REL-05333 - uses|S1136 uses T1561.002]] — BFG Agonizer → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-05334 - uses|C0042 uses T1585.003]] — Outer Space → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05335 - uses|S1041 uses T1027.013]] — Chinoxy → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05336 - uses|S0591 uses T1125]] — ConnectWise → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05337 - uses|S0091 uses T1083]] — Epic → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05338 - uses|S0140 uses T1018]] — Shamoon → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05339 - uses|S0070 uses T1056.001]] — HTTPBrowser → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05340 - uses|C0002 uses T1078.002]] — Night Dragon → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05341 - uses|S1046 uses T1036]] — PowGoop → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-05342 - uses|S0691 uses T1033]] — Neoichor → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05343 - uses|G0078 uses T1547.009]] — Gorgon Group → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-05344 - uses|G1051 uses S0160]] — Medusa Group → certutil
+- [[07 ATT&CK Relationships/ATTACK-REL-05345 - uses|S0632 uses T1497.003]] — GrimAgent → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-05346 - uses|S0053 uses T1078]] — SeaDuke → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05347 - uses|G0066 uses T1203]] — Elderwood → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-05348 - uses|S1096 uses T1083]] — Cheerscrypt → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05349 - uses|S0083 uses T1083]] — Misdat → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05350 - uses|S0582 uses T1007]] — LookBack → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05351 - uses|G0115 uses T1195.002]] — GOLD SOUTHFIELD → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-05352 - uses|G1039 uses T1046]] — RedCurl → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05353 - uses|S9037 uses T1566.001]] — RustyWater → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05354 - uses|C0022 uses T1587.002]] — Operation Dream Job → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-05355 - uses|G0044 uses T1553.002]] — Winnti Group → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-05356 - uses|S1183 uses T1480.002]] — StrelaStealer → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-05357 - uses|G0094 uses S9007]] — Kimsuky → HTTPTroy
+- [[07 ATT&CK Relationships/ATTACK-REL-05358 - uses|S1085 uses T1132.001]] — Sardonic → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-05359 - uses|G0121 uses T1020]] — Sidewinder → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-05360 - uses|S0393 uses T1102.002]] — PowerStallion → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-05361 - uses|G0060 uses T1053.005]] — BRONZE BUTLER → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-05362 - uses|S1037 uses T1204.002]] — STARWHALE → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05363 - uses|S1030 uses T1027.013]] — Squirrelwaffle → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05364 - uses|S1068 uses T1570]] — BlackCat → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05365 - uses|S0684 uses T1526]] — ROADTools → Cloud Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05366 - uses|S9041 uses T1528]] — TeamPCP Cloud Stealer → Steal Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-05367 - uses|G1051 uses T1490]] — Medusa Group → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05368 - uses|G1048 uses T1083]] — UNC3886 → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05369 - uses|G0121 uses T1218.005]] — Sidewinder → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-05370 - uses|S1201 uses T1059.001]] — TRANSLATEXT → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05371 - uses|S1217 uses T1059.006]] — VIRTUALPITA → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-05372 - uses|S1107 uses T1057]] — NKAbuse → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05373 - uses|S1183 uses T1218.011]] — StrelaStealer → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-05374 - uses|S0431 uses T1518]] — HotCroissant → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05375 - uses|S0647 uses T1120]] — Turian → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05376 - uses|S0254 uses T1057]] — PLAINTEE → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05377 - uses|G0016 uses S0512]] — APT29 → FatDuke
+- [[07 ATT&CK Relationships/ATTACK-REL-05378 - uses|G0114 uses S0521]] — Chimera → BloodHound
+- [[07 ATT&CK Relationships/ATTACK-REL-05379 - uses|G0019 uses T1518.001]] — Naikon → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05380 - uses|S0180 uses T1027.013]] — Volgmer → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05381 - uses|G0067 uses T1106]] — APT37 → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05382 - uses|S0667 uses T1033]] — Chrommme → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05383 - uses|S0331 uses T1033]] — Agent Tesla → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05384 - uses|S1229 uses T1059.001]] — Havoc → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05385 - uses|G0007 uses T1210]] — APT28 → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-05386 - uses|G1020 uses T1608.001]] — Mustard Tempest → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-05387 - uses|C0007 uses S1050]] — FunnyDream → PcShare
+- [[07 ATT&CK Relationships/ATTACK-REL-05388 - uses|S0678 uses T1027.013]] — Torisma → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05389 - uses|S0356 uses T1543.003]] — KONNI → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05390 - uses|S0612 uses T1548.002]] — WastedLocker → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-05391 - uses|S0367 uses T1114]] — Emotet → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-05392 - uses|S0120 uses T1003.002]] — Fgdump → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-05393 - uses|G0139 uses T1685.006]] — TeamTNT → Clear Linux or Mac System Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-05394 - uses|G1017 uses T1003.001]] — Volt Typhoon → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-05395 - uses|S0260 uses T1123]] — InvisiMole → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05396 - uses|S0374 uses T1059.006]] — SpeakUp → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-05397 - uses|S0444 uses T1112]] — ShimRat → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05398 - uses|G1051 uses T1489]] — Medusa Group → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-05399 - uses|G1014 uses T1567.002]] — LuminousMoth → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-05400 - uses|S0554 uses T1082]] — Egregor → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05401 - uses|S1089 uses T1059.003]] — SharpDisco → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05402 - uses|S0032 uses T1574.001]] — gh0st RAT → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-05403 - uses|S0250 uses T1083]] — Koadic → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05404 - uses|G1033 uses T1059.007]] — Star Blizzard → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-05405 - uses|G0119 uses T1112]] — Indrik Spider → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05406 - uses|G0060 uses S0187]] — BRONZE BUTLER → Daserf
+- [[07 ATT&CK Relationships/ATTACK-REL-05407 - uses|S0576 uses T1055.001]] — MegaCortex → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05408 - uses|S1113 uses T1005]] — RAPIDPULSE → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-05409 - uses|G0117 uses T1027.010]] — Fox Kitten → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-05410 - uses|S1188 uses T1505.003]] — Line Runner → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05411 - uses|G1043 uses S0029]] — BlackByte → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-05412 - uses|G0082 uses T1583.001]] — APT38 → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-05413 - uses|S0126 uses T1564.005]] — ComRAT → Hidden File System
+- [[07 ATT&CK Relationships/ATTACK-REL-05414 - uses|S1245 uses T1027.013]] — InvisibleFerret → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05415 - uses|G0091 uses T1113]] — Silence → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05416 - uses|S0356 uses T1027.013]] — KONNI → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05417 - uses|G0059 uses T1112]] — Magic Hound → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05418 - uses|S0269 uses T1033]] — QUADAGENT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05419 - uses|S9010 uses T1105]] — GlassWorm → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05420 - uses|S0172 uses T1543.003]] — Reaver → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05421 - uses|C0014 uses S0645]] — Operation Wocao → Wevtutil
+- [[07 ATT&CK Relationships/ATTACK-REL-05422 - uses|S0554 uses T1039]] — Egregor → Data from Network Shared Drive
+- [[07 ATT&CK Relationships/ATTACK-REL-05423 - uses|G0099 uses T1027.016]] — APT-C-36 → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-05424 - uses|S0154 uses T1070.006]] — Cobalt Strike → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-05425 - uses|G0096 uses T1685.005]] — APT41 → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-05426 - uses|G1039 uses T1080]] — RedCurl → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-05427 - uses|G0032 uses T1561.001]] — Lazarus Group → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-05428 - uses|S1097 uses T1140]] — HUI Loader → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05429 - uses|G0049 uses S1171]] — OilRig → OilCheck
+- [[07 ATT&CK Relationships/ATTACK-REL-05430 - uses|G1046 uses T1583.001]] — Storm-1811 → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-05431 - uses|S0279 uses T1555.001]] — Proton → Keychain
+- [[07 ATT&CK Relationships/ATTACK-REL-05432 - uses|G1055 uses T1204.002]] — VOID MANTICORE → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05433 - uses|S0660 uses T1083]] — Clambling → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05434 - uses|S0565 uses T1140]] — Raindrop → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05435 - uses|S0048 uses T1555.003]] — PinchDuke → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-05436 - uses|C0046 uses T1014]] — ArcaneDoor → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-05437 - uses|S0575 uses T1083]] — Conti → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05438 - uses|C0006 uses T1569.002]] — Operation Honeybee → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-05439 - uses|S1111 uses T1574]] — DarkGate → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-05440 - uses|G0107 uses T1204.002]] — Whitefly → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05441 - uses|S0514 uses T1573.001]] — WellMess → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05442 - uses|S0139 uses T1547.001]] — PowerDuke → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05443 - uses|G0059 uses T1114]] — Magic Hound → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-05444 - uses|S0584 uses T1041]] — AppleJeus → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-05445 - uses|S0363 uses T1053.005]] — Empire → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-05446 - uses|S0234 uses T1553.002]] — Bandook → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-05447 - uses|S9030 uses T1614]] — SameCoin → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05448 - uses|S1039 uses T1055]] — Bumblebee → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05449 - uses|G0120 uses T1059.007]] — Evilnum → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-05450 - uses|S0514 uses T1140]] — WellMess → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05451 - uses|G1001 uses T1204.002]] — HEXANE → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05452 - uses|S1101 uses T1083]] — LoFiSe → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05453 - uses|G0129 uses S0154]] — Mustang Panda → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-05454 - uses|S1085 uses T1057]] — Sardonic → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05455 - uses|S0198 uses T1057]] — NETWIRE → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05456 - uses|S0569 uses T1016]] — Explosive → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05457 - uses|S0401 uses T1008]] — Exaramel for Linux → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-05458 - uses|S0441 uses T1059.005]] — PowerShower → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-05459 - uses|S1034 uses T1083]] — StrifeWater → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05460 - uses|S1173 uses T1105]] — PowerExchange → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05461 - uses|C0051 uses T1686.003]] — APT28 Nearest Neighbor Campaign → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-05462 - uses|S0260 uses T1125]] — InvisiMole → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05463 - uses|S9041 uses T1020]] — TeamPCP Cloud Stealer → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-05464 - uses|C0040 uses T1573.002]] — APT41 DUST → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05465 - uses|S0371 uses T1071.001]] — POWERTON → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05466 - uses|G0019 uses S0058]] — Naikon → SslMM
+- [[07 ATT&CK Relationships/ATTACK-REL-05467 - uses|S1150 uses T1486]] — ROADSWEEP → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-05468 - uses|S0136 uses T1025]] — USBStealer → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-05469 - uses|C0060 uses T1219.001]] — Operation AkaiRyū → IDE Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-05470 - uses|S0603 uses T1071.001]] — Stuxnet → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05471 - uses|S0076 uses T1056.001]] — FakeM → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05472 - uses|S0387 uses T1070.006]] — KeyBoy → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-05473 - uses|S0145 uses T1071.004]] — POWERSOURCE → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-05474 - uses|S0342 uses T1071.001]] — GreyEnergy → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05475 - uses|G1003 uses T1090.003]] — Ember Bear → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05476 - uses|S0263 uses T1083]] — TYPEFRAME → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05477 - uses|S0373 uses T1132.001]] — Astaroth → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-05478 - uses|S0692 uses T1134.001]] — SILENTTRINITY → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-05479 - uses|C0063 uses T1102.002]] — 2025 Poland Wiper Attacks → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-05480 - uses|S0244 uses T1518.001]] — Comnie → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05481 - uses|S0039 uses T1569.002]] — Net → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-05482 - uses|S0021 uses T1056.001]] — Derusbi → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05483 - uses|S0353 uses T1016]] — NOKKI → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05484 - uses|S9008 uses T1059.004]] — Shai-Hulud → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05485 - uses|S9024 uses T1518.001]] — SPAWNCHIMERA → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05486 - uses|S0376 uses T1003.002]] — HOPLIGHT → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-05487 - uses|C0001 uses T1027.010]] — Frankenstein → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-05488 - uses|G0129 uses T1036.008]] — Mustang Panda → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-05489 - uses|S1187 uses T1505.003]] — reGeorg → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05490 - uses|S1239 uses T1070.004]] — TONESHELL → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05491 - uses|S1203 uses T1016]] — J-magic → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05492 - uses|G0094 uses T1588.003]] — Kimsuky → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-05493 - uses|S0357 uses T1003.002]] — Impacket → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-05494 - uses|G0094 uses T1534]] — Kimsuky → Internal Spearphishing
+- [[07 ATT&CK Relationships/ATTACK-REL-05495 - uses|S0140 uses T1485]] — Shamoon → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-05496 - uses|G0090 uses T1106]] — WIRTE → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05497 - uses|G0106 uses T1082]] — Rocke → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05498 - uses|S9043 uses T1124]] — Mini Shai-Hulud → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05499 - uses|G0027 uses T1027.015]] — Threat Group-3390 → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-05500 - uses|G1018 uses T1016.001]] — TA2541 → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05501 - uses|S0012 uses T1573.001]] — PoisonIvy → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05502 - uses|G0030 uses T1018]] — Lotus Blossom → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05503 - uses|S0386 uses T1185]] — Ursnif → Browser Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-05504 - uses|S0283 uses T1552.001]] — jRAT → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-05505 - uses|S0446 uses T1106]] — Ryuk → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05506 - uses|G1053 uses T1555.006]] — Storm-0501 → Cloud Secrets Management Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-05507 - uses|G1015 uses T1556.006]] — Scattered Spider → Multi-Factor Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-05508 - uses|G0125 uses T1583.005]] — HAFNIUM → Botnet
+- [[07 ATT&CK Relationships/ATTACK-REL-05509 - uses|S0069 uses T1102.001]] — BLACKCOFFEE → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-05510 - uses|S1145 uses T1622]] — Pikabot → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-05511 - uses|S0638 uses T1027.002]] — Babuk → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-05512 - uses|S1181 uses T1068]] — BlackByte 2.0 Ransomware → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-05513 - uses|G0143 uses T1543.003]] — Aquatic Panda → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05514 - uses|S0650 uses T1059.005]] — QakBot → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-05515 - uses|G0032 uses T1001.003]] — Lazarus Group → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-05516 - uses|S1196 uses T1070.004]] — Troll Stealer → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05517 - uses|S0520 uses T1059.003]] — BLINDINGCAN → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05518 - uses|G0069 uses T1204.001]] — MuddyWater → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-05519 - uses|S0517 uses T1140]] — Pillowmint → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05520 - uses|G0081 uses S0387]] — Tropic Trooper → KeyBoy
+- [[07 ATT&CK Relationships/ATTACK-REL-05521 - uses|S0271 uses T1112]] — KEYMARBLE → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05522 - uses|S0663 uses T1543.002]] — SysUpdate → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05523 - uses|S1043 uses T1560.001]] — ccf32 → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-05524 - uses|S0601 uses T1068]] — Hildegard → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-05525 - uses|S0182 uses T1548.002]] — FinFisher → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-05526 - uses|G1057 uses T1588.007]] — ShinyHunters → Artificial Intelligence
+- [[07 ATT&CK Relationships/ATTACK-REL-05527 - uses|S1226 uses T1070.006]] — BOOKWORM → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-05528 - uses|S0667 uses T1680]] — Chrommme → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05529 - uses|S1200 uses T1106]] — StealBit → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05530 - uses|S0455 uses T1553.002]] — Metamorfo → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-05531 - uses|S0113 uses T1555]] — Prikormka → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-05532 - uses|S0455 uses T1566.001]] — Metamorfo → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05533 - uses|G0094 uses T1583.001]] — Kimsuky → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-05534 - uses|S0238 uses T1485]] — Proxysvc → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-05535 - uses|S1169 uses T1685]] — Mango → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-05536 - uses|S0074 uses T1547.001]] — Sakula → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05537 - uses|S0276 uses T1543.001]] — Keydnap → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-05538 - uses|G0094 uses T1102.001]] — Kimsuky → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-05539 - uses|S1112 uses T1132.001]] — STEADYPULSE → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-05540 - uses|S1130 uses T1497]] — Raspberry Robin → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-05541 - uses|S0547 uses T1059.003]] — DropBook → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05542 - uses|G1018 uses T1573.002]] — TA2541 → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05543 - uses|S1212 uses T1083]] — RansomHub → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05544 - uses|G0051 uses T1588.002]] — FIN10 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-05545 - uses|S0603 uses T1134.001]] — Stuxnet → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-05546 - uses|S0670 uses T1573.001]] — WarzoneRAT → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05547 - uses|S1202 uses T1548.002]] — LockBit 3.0 → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-05548 - uses|S0188 uses T1036.005]] — Starloader → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05549 - uses|G1021 uses T1078]] — Cinnamon Tempest → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05550 - uses|G0016 uses S0562]] — APT29 → SUNSPOT
+- [[07 ATT&CK Relationships/ATTACK-REL-05551 - uses|G0050 uses S0477]] — APT32 → Goopy
+- [[07 ATT&CK Relationships/ATTACK-REL-05552 - uses|G1001 uses S1014]] — HEXANE → DanBot
+- [[07 ATT&CK Relationships/ATTACK-REL-05553 - uses|S9010 uses T1082]] — GlassWorm → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05554 - uses|S1199 uses T1685]] — LockBit 2.0 → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-05555 - uses|S0144 uses T1082]] — ChChes → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05556 - uses|S0200 uses T1547.004]] — Dipsind → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-05557 - uses|S0448 uses T1680]] — Rising Sun → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05558 - uses|S0185 uses T1505.003]] — SEASHARPEE → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05559 - uses|S1185 uses T1057]] — LightSpy → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05560 - uses|G0034 uses T1213.006]] — Sandworm Team → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-05561 - uses|S0170 uses T1057]] — Helminth → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05562 - uses|C0006 uses T1583.001]] — Operation Honeybee → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-05563 - uses|S0192 uses T1497.001]] — Pupy → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-05564 - uses|G1048 uses S1221]] — UNC3886 → MOPSLED
+- [[07 ATT&CK Relationships/ATTACK-REL-05565 - uses|S0159 uses T1059.003]] — SNUGRIDE → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05566 - uses|S0237 uses T1049]] — GravityRAT → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05567 - uses|G0117 uses T1021.001]] — Fox Kitten → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-05568 - uses|G0091 uses S0191]] — Silence → Winexe
+- [[07 ATT&CK Relationships/ATTACK-REL-05569 - uses|S0198 uses T1090]] — NETWIRE → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05570 - uses|S0412 uses T1046]] — ZxShell → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05571 - uses|S1068 uses T1561.001]] — BlackCat → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-05572 - uses|S1085 uses T1082]] — Sardonic → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05573 - uses|G0094 uses T1190]] — Kimsuky → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-05574 - uses|S0385 uses T1018]] — njRAT → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05575 - uses|S1245 uses T1048.003]] — InvisibleFerret → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-05576 - uses|G1047 uses T1133]] — Velvet Ant → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-05577 - uses|G1023 uses S0012]] — APT5 → PoisonIvy
+- [[07 ATT&CK Relationships/ATTACK-REL-05578 - uses|S9010 uses T1678]] — GlassWorm → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-05579 - uses|G0045 uses S0097]] — menuPass → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-05580 - uses|S0201 uses T1197]] — JPIN → BITS Jobs
+- [[07 ATT&CK Relationships/ATTACK-REL-05581 - uses|G0139 uses T1496.001]] — TeamTNT → Compute Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-05582 - uses|G0059 uses T1583.001]] — Magic Hound → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-05583 - uses|G0090 uses S9029]] — WIRTE → IronWind
+- [[07 ATT&CK Relationships/ATTACK-REL-05584 - uses|S1105 uses T1071.001]] — COATHANGER → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05585 - uses|S0654 uses T1047]] — ProLock → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-05586 - uses|C0062 uses T1552.001]] — Anthropic AI-orchestrated Campaign → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-05587 - uses|S0247 uses T1082]] — NavRAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05588 - uses|S0241 uses T1059.001]] — RATANKBA → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05589 - uses|S1102 uses T1567.002]] — Pcexter → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-05590 - uses|S0576 uses T1486]] — MegaCortex → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-05591 - uses|S0260 uses T1140]] — InvisiMole → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05592 - uses|S0530 uses T1105]] — Melcoz → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05593 - uses|G0022 uses T1203]] — APT3 → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-05594 - uses|S1142 uses T1113]] — LunarMail → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05595 - uses|S1245 uses T1041]] — InvisibleFerret → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-05596 - uses|S0687 uses T1071.001]] — Cyclops Blink → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05597 - uses|S1099 uses T1543.003]] — Samurai → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05598 - uses|C0030 uses T1595]] — Triton Safety Instrumented System Attack → Active Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-05599 - uses|G1044 uses T1059.005]] — APT42 → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-05600 - uses|G1041 uses T1584.002]] — Sea Turtle → DNS Server
+- [[07 ATT&CK Relationships/ATTACK-REL-05601 - uses|S1202 uses T1070.004]] — LockBit 3.0 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05602 - uses|S0260 uses T1547.009]] — InvisiMole → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-05603 - uses|G1021 uses T1078.002]] — Cinnamon Tempest → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05604 - uses|S0208 uses T1070.004]] — Pasam → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05605 - uses|S1149 uses T1102]] — CHIMNEYSWEEP → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05606 - uses|G0061 uses T1082]] — FIN8 → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05607 - uses|S1037 uses T1033]] — STARWHALE → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05608 - uses|G0131 uses T1003]] — Tonto Team → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-05609 - uses|G0043 uses T1113]] — Group5 → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05610 - uses|S1105 uses T1574.006]] — COATHANGER → Dynamic Linker Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-05611 - uses|S0409 uses T1016.002]] — Machete → Wi-Fi Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05612 - uses|G0059 uses T1571]] — Magic Hound → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-05613 - uses|C0007 uses T1105]] — FunnyDream → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05614 - uses|S0283 uses T1037.005]] — jRAT → Startup Items
+- [[07 ATT&CK Relationships/ATTACK-REL-05615 - uses|C0030 uses T1587.001]] — Triton Safety Instrumented System Attack → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-05616 - uses|G1007 uses T1083]] — Aoqin Dragon → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05617 - uses|S1019 uses T1005]] — Shark → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-05618 - uses|S1138 uses T1132.001]] — Gootloader → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-05619 - uses|S9028 uses T1140]] — PHPsert → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05620 - uses|S0352 uses T1027.013]] — OSX_OCEANLOTUS.D → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05621 - uses|G0016 uses T1651]] — APT29 → Cloud Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-05622 - uses|S0598 uses T1110.001]] — P.A.S. Webshell → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-05623 - uses|G1006 uses T1482]] — Earth Lusca → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05624 - uses|S0154 uses T1001.003]] — Cobalt Strike → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-05625 - uses|G1048 uses T1673]] — UNC3886 → Virtual Machine Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05626 - uses|G0100 uses T1566.001]] — Inception → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05627 - uses|S0071 uses T1543.003]] — hcdLoader → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05628 - uses|S0335 uses T1140]] — Carbon → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05629 - uses|G1048 uses T1037.004]] — UNC3886 → RC Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-05630 - uses|S0198 uses T1027.002]] — NETWIRE → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-05631 - uses|S1240 uses T1657]] — RedLine Stealer → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-05632 - uses|S1148 uses T1071.001]] — Raccoon Stealer → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05633 - uses|G1006 uses T1595.002]] — Earth Lusca → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-05634 - uses|S0233 uses T1053.002]] — MURKYTOP → At
+- [[07 ATT&CK Relationships/ATTACK-REL-05635 - uses|G0085 uses T1566.001]] — FIN4 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05636 - uses|S0332 uses T1010]] — Remcos → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05637 - uses|G0075 uses T1566.001]] — Rancor → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05638 - uses|S0624 uses T1553.002]] — Ecipekac → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-05639 - uses|S0473 uses T1027.013]] — Avenger → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05640 - uses|S1085 uses T1005]] — Sardonic → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-05641 - uses|S0611 uses T1489]] — Clop → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-05642 - uses|G0035 uses T1070.004]] — Dragonfly → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05643 - uses|S1089 uses T1680]] — SharpDisco → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05644 - uses|G0094 uses T1078.003]] — Kimsuky → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05645 - uses|G1014 uses T1587.001]] — LuminousMoth → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-05646 - uses|G1002 uses T1566.001]] — BITTER → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05647 - uses|S0673 uses T1071.001]] — DarkWatchman → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05648 - uses|G0070 uses T1566.003]] — Dark Caracal → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05649 - uses|S1123 uses T1140]] — PITSTOP → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05650 - uses|S0038 uses T1572]] — Duqu → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-05651 - uses|S1148 uses T1539]] — Raccoon Stealer → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-05652 - uses|S0538 uses T1071.001]] — Crutch → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05653 - uses|S0250 uses T1055.001]] — Koadic → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05654 - uses|G0033 uses T1087.002]] — Poseidon Group → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-05655 - uses|S0260 uses T1132.002]] — InvisiMole → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-05656 - uses|S0496 uses T1047]] — REvil → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-05657 - uses|S0457 uses T1112]] — Netwalker → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05658 - uses|S1091 uses T1686.001]] — Pacu → Cloud Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-05659 - uses|G0046 uses T1047]] — FIN7 → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-05660 - uses|S1227 uses T1095]] — StarProxy → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-05661 - uses|G0117 uses T1027.013]] — Fox Kitten → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-05662 - uses|S0089 uses T1113]] — BlackEnergy → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05663 - uses|G0004 uses T1558.001]] — Ke3chang → Golden Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-05664 - uses|S1145 uses T1055.002]] — Pikabot → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05665 - uses|S0093 uses T1033]] — Backdoor.Oldrea → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05666 - uses|S1087 uses T1113]] — AsyncRAT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05667 - uses|G0035 uses T1187]] — Dragonfly → Forced Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-05668 - uses|S0002 uses T1555]] — Mimikatz → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-05669 - uses|G1004 uses T1591.004]] — LAPSUS$ → Identify Roles
+- [[07 ATT&CK Relationships/ATTACK-REL-05670 - uses|S9030 uses T1036.005]] — SameCoin → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05671 - uses|S1047 uses T1140]] — Mori → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05672 - uses|S1124 uses T1102]] — SocGholish → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05673 - uses|G0016 uses T1621]] — APT29 → Multi-Factor Authentication Request Generation
+- [[07 ATT&CK Relationships/ATTACK-REL-05674 - uses|S1141 uses T1573.001]] — LunarWeb → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05675 - uses|G0096 uses S0002]] — APT41 → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-05676 - uses|S1155 uses T1059.003]] — Covenant → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05677 - uses|S1190 uses T1090]] — Kapeka → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05678 - uses|G0064 uses T1048.003]] — APT33 → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-05679 - uses|S1148 uses T1033]] — Raccoon Stealer → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05680 - uses|G0004 uses S0057]] — Ke3chang → Tasklist
+- [[07 ATT&CK Relationships/ATTACK-REL-05681 - uses|S0219 uses T1057]] — WINERACK → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05682 - uses|S0598 uses T1140]] — P.A.S. Webshell → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05683 - uses|G1015 uses S1148]] — Scattered Spider → Raccoon Stealer
+- [[07 ATT&CK Relationships/ATTACK-REL-05684 - uses|G0059 uses T1070.004]] — Magic Hound → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05685 - uses|S1240 uses T1217]] — RedLine Stealer → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05686 - uses|S0381 uses T1047]] — FlawedAmmyy → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-05687 - uses|G0099 uses T1586.003]] — APT-C-36 → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05688 - uses|S1200 uses T1083]] — StealBit → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05689 - uses|G0016 uses S0511]] — APT29 → RegDuke
+- [[07 ATT&CK Relationships/ATTACK-REL-05690 - uses|S0398 uses T1070.004]] — HyperBro → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05691 - uses|S0340 uses T1105]] — Octopus → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05692 - uses|S0184 uses T1053.005]] — POWRUNER → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-05693 - uses|S0691 uses T1614.001]] — Neoichor → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05694 - uses|S0520 uses T1573.001]] — BLINDINGCAN → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05695 - uses|G0096 uses T1021.002]] — APT41 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-05696 - uses|G1054 uses T1083]] — MirrorFace → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05697 - uses|G1054 uses S9020]] — MirrorFace → LODEINFO
+- [[07 ATT&CK Relationships/ATTACK-REL-05698 - uses|S0430 uses T1573.001]] — Winnti for Linux → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05699 - uses|G0060 uses S0470]] — BRONZE BUTLER → BBK
+- [[07 ATT&CK Relationships/ATTACK-REL-05700 - uses|G0010 uses S0126]] — Turla → ComRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-05701 - uses|S1028 uses T1082]] — Action RAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05702 - uses|S9010 uses T1124]] — GlassWorm → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05703 - uses|G0053 uses T1119]] — FIN5 → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-05704 - uses|S0377 uses T1008]] — Ebury → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-05705 - uses|S1160 uses T1140]] — Latrodectus → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05706 - uses|G0096 uses S1051]] — APT41 → KEYPLUG
+- [[07 ATT&CK Relationships/ATTACK-REL-05707 - uses|S1196 uses T1218.011]] — Troll Stealer → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-05708 - uses|S0521 uses T1106]] — BloodHound → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05709 - uses|G0004 uses T1041]] — Ke3chang → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-05710 - uses|S0521 uses T1033]] — BloodHound → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05711 - uses|C0062 uses T1078]] — Anthropic AI-orchestrated Campaign → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05712 - uses|G0007 uses T1684.001]] — APT28 → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-05713 - uses|G0107 uses T1588.002]] — Whitefly → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-05714 - uses|S0552 uses T1016]] — AdFind → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05715 - uses|S9015 uses T1574.007]] — BRICKSTORM → Path Interception by PATH Environment Variable
+- [[07 ATT&CK Relationships/ATTACK-REL-05716 - uses|S0670 uses T1105]] — WarzoneRAT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05717 - uses|S0237 uses T1033]] — GravityRAT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05718 - uses|S9043 uses T1552.001]] — Mini Shai-Hulud → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-05719 - uses|S1204 uses T1016]] — cd00r → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05720 - uses|S0595 uses T1543.001]] — ThiefQuest → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-05721 - uses|G0081 uses T1083]] — Tropic Trooper → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05722 - uses|S0629 uses T1090]] — RainyDay → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05723 - uses|C0029 uses S1117]] — Cutting Edge → GLASSTOKEN
+- [[07 ATT&CK Relationships/ATTACK-REL-05724 - uses|S0435 uses T1010]] — PLEAD → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05725 - uses|S0363 uses T1046]] — Empire → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05726 - uses|S0249 uses T1082]] — Gold Dragon → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05727 - uses|G0114 uses S0039]] — Chimera → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-05728 - uses|S0595 uses T1071.001]] — ThiefQuest → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05729 - uses|G1014 uses T1041]] — LuminousMoth → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-05730 - uses|G1021 uses T1140]] — Cinnamon Tempest → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05731 - uses|G0129 uses S1239]] — Mustang Panda → TONESHELL
+- [[07 ATT&CK Relationships/ATTACK-REL-05732 - uses|S1085 uses T1620]] — Sardonic → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-05733 - uses|G0035 uses S0075]] — Dragonfly → Reg
+- [[07 ATT&CK Relationships/ATTACK-REL-05734 - uses|S0456 uses T1106]] — Aria-body → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-05735 - uses|S0032 uses T1082]] — gh0st RAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05736 - uses|S0692 uses T1007]] — SILENTTRINITY → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05737 - uses|G0106 uses T1071.001]] — Rocke → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05738 - uses|G0143 uses T1654]] — Aquatic Panda → Log Enumeration
+- [[07 ATT&CK Relationships/ATTACK-REL-05739 - uses|S0062 uses T1091]] — DustySky → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-05740 - uses|S1111 uses T1547.001]] — DarkGate → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05741 - uses|S1160 uses T1204.001]] — Latrodectus → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-05742 - uses|C0012 uses T1059.005]] — Operation CuckooBees → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-05743 - uses|S0439 uses T1056.001]] — Okrum → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05744 - uses|S0409 uses T1547.001]] — Machete → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05745 - uses|S0596 uses T1124]] — ShadowPad → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05746 - uses|C0044 uses T1132.001]] — Juicy Mix → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-05747 - uses|G0046 uses T1113]] — FIN7 → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05748 - uses|S0373 uses T1102.001]] — Astaroth → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-05749 - uses|S0601 uses T1082]] — Hildegard → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05750 - uses|S0651 uses T1567.002]] — BoxCaon → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-05751 - uses|G0066 uses T1105]] — Elderwood → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05752 - uses|S0154 uses T1069.002]] — Cobalt Strike → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-05753 - uses|S0601 uses T1613]] — Hildegard → Container and Resource Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05754 - uses|S9020 uses T1486]] — LODEINFO → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-05755 - uses|G1044 uses T1539]] — APT42 → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-05756 - uses|S1180 uses T1614.001]] — BlackByte Ransomware → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05757 - uses|S0471 uses T1124]] — build_downer → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05758 - uses|S1147 uses T1059.003]] — Nightdoor → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05759 - uses|G0092 uses S0383]] — TA505 → FlawedGrace
+- [[07 ATT&CK Relationships/ATTACK-REL-05760 - uses|G0010 uses T1124]] — Turla → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05761 - uses|S9021 uses T1055]] — DOWNIISSA → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05762 - uses|S9022 uses T1552.006]] — MirrorStealer → Group Policy Preferences
+- [[07 ATT&CK Relationships/ATTACK-REL-05763 - uses|G0102 uses T1003.003]] — Wizard Spider → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-05764 - uses|G0117 uses T1083]] — Fox Kitten → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05765 - uses|G0065 uses S0021]] — Leviathan → Derusbi
+- [[07 ATT&CK Relationships/ATTACK-REL-05766 - uses|G0087 uses S0029]] — APT39 → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-05767 - uses|S1184 uses T1190]] — BOLDMOVE → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-05768 - uses|S0354 uses T1082]] — Denis → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05769 - uses|S0377 uses T1059.004]] — Ebury → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05770 - uses|S0450 uses T1082]] — SHARPSTATS → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05771 - uses|G0018 uses T1204.002]] — admin@338 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05772 - uses|G0092 uses T1027.010]] — TA505 → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-05773 - uses|G0016 uses T1595.002]] — APT29 → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-05774 - uses|S0660 uses T1564.001]] — Clambling → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-05775 - uses|G0137 uses T1583.001]] — Ferocious Kitten → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-05776 - uses|S0143 uses T1136.001]] — Flame → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-05777 - uses|G0027 uses S0160]] — Threat Group-3390 → certutil
+- [[07 ATT&CK Relationships/ATTACK-REL-05778 - uses|S1050 uses T1057]] — PcShare → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05779 - uses|S0601 uses T1070.003]] — Hildegard → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-05780 - uses|G0006 uses T1566.001]] — APT1 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05781 - uses|G1043 uses T1070.004]] — BlackByte → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05782 - uses|G0134 uses T1568]] — Transparent Tribe → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-05783 - uses|S0254 uses T1105]] — PLAINTEE → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05784 - uses|G0087 uses T1204.002]] — APT39 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05785 - uses|S0458 uses T1016]] — Ramsay → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05786 - uses|G1048 uses S1219]] — UNC3886 → REPTILE
+- [[07 ATT&CK Relationships/ATTACK-REL-05787 - uses|S0546 uses T1059.003]] — SharpStage → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05788 - uses|S0266 uses T1219]] — TrickBot → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-05789 - uses|S0559 uses T1027.005]] — SUNBURST → Indicator Removal from Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-05790 - uses|S0650 uses T1573.001]] — QakBot → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05791 - uses|C0022 uses T1567.002]] — Operation Dream Job → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-05792 - uses|S0662 uses T1547.001]] — RCSession → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05793 - uses|C0017 uses T1574]] — C0017 → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-05794 - uses|S0373 uses T1027.010]] — Astaroth → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-05795 - uses|G0127 uses T1132.001]] — TA551 → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-05796 - uses|S0128 uses T1547.001]] — BADNEWS → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05797 - uses|G0065 uses S0154]] — Leviathan → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-05798 - uses|S0370 uses T1486]] — SamSam → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-05799 - uses|S0113 uses T1547.001]] — Prikormka → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05800 - uses|S0693 uses T1057]] — CaddyWiper → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05801 - uses|S0693 uses T1485]] — CaddyWiper → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-05802 - uses|S1053 uses T1489]] — AvosLocker → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-05803 - uses|S0376 uses T1686]] — HOPLIGHT → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-05804 - uses|G0043 uses S0385]] — Group5 → njRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-05805 - uses|G0117 uses T1021.004]] — Fox Kitten → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-05806 - uses|S0673 uses T1120]] — DarkWatchman → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05807 - uses|S0205 uses T1082]] — Naid → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05808 - uses|S0333 uses T1071.001]] — UBoatRAT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05809 - uses|C0025 uses S0604]] — 2016 Ukraine Electric Power Attack → Industroyer
+- [[07 ATT&CK Relationships/ATTACK-REL-05810 - uses|S0586 uses T1680]] — TAINTEDSCRIBE → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05811 - uses|S0553 uses T1547.001]] — MoleNet → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05812 - uses|S0382 uses T1098.007]] — ServHelper → Additional Local or Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-05813 - uses|G0135 uses S0590]] — BackdoorDiplomacy → NBTscan
+- [[07 ATT&CK Relationships/ATTACK-REL-05814 - uses|S0386 uses T1564.003]] — Ursnif → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-05815 - uses|S1148 uses T1105]] — Raccoon Stealer → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05816 - uses|G0070 uses T1113]] — Dark Caracal → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05817 - uses|S0439 uses T1027.003]] — Okrum → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-05818 - uses|S0681 uses T1027]] — Lizar → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05819 - uses|G0129 uses T1047]] — Mustang Panda → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-05820 - uses|C0024 uses T1550]] — SolarWinds Compromise → Use Alternate Authentication Material
+- [[07 ATT&CK Relationships/ATTACK-REL-05821 - uses|S0284 uses T1553.002]] — More_eggs → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-05822 - uses|S0449 uses T1070]] — Maze → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-05823 - uses|S0428 uses T1140]] — PoetRAT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05824 - uses|S0377 uses T1059.006]] — Ebury → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-05825 - uses|G1052 uses T1683.001]] — Contagious Interview → Written Content
+- [[07 ATT&CK Relationships/ATTACK-REL-05826 - uses|C0029 uses T1070.004]] — Cutting Edge → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05827 - uses|G0061 uses S0105]] — FIN8 → dsquery
+- [[07 ATT&CK Relationships/ATTACK-REL-05828 - uses|C0030 uses T1036.005]] — Triton Safety Instrumented System Attack → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05829 - uses|S0377 uses T1014]] — Ebury → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-05830 - uses|S0345 uses T1543.003]] — Seasalt → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05831 - uses|S0366 uses T1047]] — WannaCry → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-05832 - uses|G1007 uses S1027]] — Aoqin Dragon → Heyoka Backdoor
+- [[07 ATT&CK Relationships/ATTACK-REL-05833 - uses|S0363 uses T1003.001]] — Empire → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-05834 - uses|S0402 uses T1222.002]] — OSX/Shlayer → Linux and Mac Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-05835 - uses|G0009 uses T1505.003]] — Deep Panda → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05836 - uses|G1017 uses T1069.002]] — Volt Typhoon → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-05837 - uses|S0009 uses T1090.001]] — Hikit → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05838 - uses|S0623 uses T1611]] — Siloscape → Escape to Host
+- [[07 ATT&CK Relationships/ATTACK-REL-05839 - uses|S1070 uses T1486]] — Black Basta → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-05840 - uses|S1240 uses T1539]] — RedLine Stealer → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-05841 - uses|S0021 uses T1070.004]] — Derusbi → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05842 - uses|G1053 uses S1040]] — Storm-0501 → Rclone
+- [[07 ATT&CK Relationships/ATTACK-REL-05843 - uses|G0081 uses T1036.005]] — Tropic Trooper → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05844 - uses|S0092 uses T1016]] — Agent.btz → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05845 - uses|S1063 uses T1057]] — Brute Ratel C4 → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05846 - uses|G0049 uses T1204.002]] — OilRig → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05847 - uses|S9032 uses T1053.005]] — MuddyViper → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-05848 - uses|S0476 uses T1518.001]] — Valak → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05849 - uses|S0211 uses T1008]] — Linfo → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-05850 - uses|S0058 uses T1056.001]] — SslMM → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05851 - uses|S0623 uses T1190]] — Siloscape → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-05852 - uses|S1013 uses T1082]] — ZxxZ → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05853 - uses|G0065 uses T1189]] — Leviathan → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-05854 - uses|S1158 uses T1027.009]] — DUSTPAN → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-05855 - uses|S0043 uses T1071.001]] — BUBBLEWRAP → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05856 - uses|S0015 uses T1082]] — Ixeshe → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05857 - uses|C0055 uses T1027.011]] — Quad7 Activity → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-05858 - uses|G0100 uses T1203]] — Inception → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-05859 - uses|S0250 uses T1135]] — Koadic → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05860 - uses|G0010 uses S0075]] — Turla → Reg
+- [[07 ATT&CK Relationships/ATTACK-REL-05861 - uses|C0022 uses S0678]] — Operation Dream Job → Torisma
+- [[07 ATT&CK Relationships/ATTACK-REL-05862 - uses|C0015 uses T1482]] — C0015 → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05863 - uses|S0245 uses T1573.001]] — BADCALL → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05864 - uses|S0045 uses T1029]] — ADVSTORESHELL → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05865 - uses|G1044 uses T1056.001]] — APT42 → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05866 - uses|G1051 uses T1567.002]] — Medusa Group → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-05867 - uses|G0045 uses T1190]] — menuPass → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-05868 - uses|G0069 uses T1567.002]] — MuddyWater → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-05869 - uses|G0060 uses T1018]] — BRONZE BUTLER → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05870 - uses|S1060 uses T1573.001]] — Mafalda → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05871 - uses|S9026 uses T1497.002]] — ROAMINGHOUSE → User Activity Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-05872 - uses|G0050 uses T1071.001]] — APT32 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05873 - uses|S0342 uses T1553.002]] — GreyEnergy → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-05874 - uses|S0666 uses T1082]] — Gelsemium → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05875 - uses|S0373 uses T1027.002]] — Astaroth → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-05876 - uses|S0198 uses T1204.002]] — NETWIRE → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05877 - uses|G0069 uses S9032]] — MuddyWater → MuddyViper
+- [[07 ATT&CK Relationships/ATTACK-REL-05878 - uses|S1184 uses T1070.004]] — BOLDMOVE → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05879 - uses|G0102 uses T1558.003]] — Wizard Spider → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-05880 - uses|S0115 uses T1140]] — Crimson → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05881 - uses|S1031 uses T1071.001]] — PingPull → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05882 - uses|S9031 uses T1036.005]] — AshTag → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05883 - uses|G0098 uses S0579]] — BlackTech → Waterbear
+- [[07 ATT&CK Relationships/ATTACK-REL-05884 - uses|S1100 uses T1027.015]] — Ninja → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-05885 - uses|S0697 uses T1490]] — HermeticWiper → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05886 - uses|G1023 uses T1036.005]] — APT5 → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05887 - uses|G1001 uses T1589]] — HEXANE → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05888 - uses|G0069 uses T1083]] — MuddyWater → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05889 - uses|S0668 uses T1005]] — TinyTurla → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-05890 - uses|S0168 uses T1573.001]] — Gazer → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05891 - uses|S1228 uses T1048.003]] — PUBLOAD → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-05892 - uses|S0094 uses T1555.003]] — Trojan.Karagany → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-05893 - uses|S0010 uses T1573.001]] — Lurid → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05894 - uses|S0377 uses T1554]] — Ebury → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-05895 - uses|S9043 uses T1082]] — Mini Shai-Hulud → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05896 - uses|S1059 uses T1497.003]] — metaMain → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-05897 - uses|G1014 uses T1588.001]] — LuminousMoth → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-05898 - uses|S1090 uses T1036.005]] — NightClub → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05899 - uses|S0546 uses T1614.001]] — SharpStage → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05900 - uses|G0010 uses T1016.001]] — Turla → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05901 - uses|S0439 uses T1070.004]] — Okrum → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05902 - uses|S1161 uses T1690]] — BPFDoor → Prevent Command History Logging
+- [[07 ATT&CK Relationships/ATTACK-REL-05903 - uses|G0115 uses T1113]] — GOLD SOUTHFIELD → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-05904 - uses|S0552 uses T1087.002]] — AdFind → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-05905 - uses|G0032 uses T1686.003]] — Lazarus Group → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-05906 - uses|G0094 uses T1114.002]] — Kimsuky → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-05907 - uses|G0008 uses T1543.003]] — Carbanak → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05908 - uses|S9041 uses T1552.003]] — TeamPCP Cloud Stealer → Shell History
+- [[07 ATT&CK Relationships/ATTACK-REL-05909 - uses|S0672 uses T1680]] — Zox → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05910 - uses|S0461 uses T1055.001]] — SDBbot → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-05911 - uses|G0040 uses S0128]] — Patchwork → BADNEWS
+- [[07 ATT&CK Relationships/ATTACK-REL-05912 - uses|S1111 uses T1083]] — DarkGate → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05913 - uses|S0350 uses T1021.002]] — zwShell → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-05914 - uses|G0016 uses T1090.002]] — APT29 → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05915 - uses|S0677 uses T1556.006]] — AADInternals → Multi-Factor Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-05916 - uses|G1039 uses T1003.001]] — RedCurl → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-05917 - uses|G0034 uses S0089]] — Sandworm Team → BlackEnergy
+- [[07 ATT&CK Relationships/ATTACK-REL-05918 - uses|S0240 uses T1033]] — ROKRAT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05919 - uses|G1022 uses T1053.005]] — ToddyCat → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-05920 - uses|S0366 uses T1570]] — WannaCry → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05921 - uses|S0219 uses T1059]] — WINERACK → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-05922 - uses|G0046 uses T1620]] — FIN7 → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-05923 - uses|S0640 uses T1057]] — Avaddon → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05924 - uses|G0065 uses S0228]] — Leviathan → NanHaiShu
+- [[07 ATT&CK Relationships/ATTACK-REL-05925 - uses|G0045 uses S0039]] — menuPass → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-05926 - uses|G0090 uses T1566.001]] — WIRTE → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-05927 - uses|G0129 uses T1547.001]] — Mustang Panda → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05928 - uses|S1089 uses T1041]] — SharpDisco → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-05929 - uses|S0332 uses T1059.005]] — Remcos → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-05930 - uses|S1238 uses T1204.002]] — STATICPLUGIN → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-05931 - uses|G0094 uses T1552.004]] — Kimsuky → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-05932 - uses|S9016 uses T1105]] — Caminho → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05933 - uses|C0013 uses T1059.005]] — Operation Sharpshooter → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-05934 - uses|S0337 uses T1105]] — BadPatch → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05935 - uses|S0491 uses T1560.003]] — StrongPity → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-05936 - uses|G0007 uses S0039]] — APT28 → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-05937 - uses|S1071 uses T1558.003]] — Rubeus → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-05938 - uses|S0653 uses T1071.001]] — xCaon → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05939 - uses|S9014 uses T1505.003]] — PHASEJAM → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05940 - uses|S1021 uses T1071.004]] — DnsSystem → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-05941 - uses|S0094 uses T1105]] — Trojan.Karagany → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05942 - uses|S0034 uses T1071]] — NETEAGLE → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-05943 - uses|S0633 uses T1573.001]] — Sliver → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-05944 - uses|S0053 uses T1059.003]] — SeaDuke → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-05945 - uses|G0119 uses T1685.005]] — Indrik Spider → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-05946 - uses|S0673 uses T1132.001]] — DarkWatchman → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-05947 - uses|S0650 uses T1071.001]] — QakBot → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05948 - uses|S0578 uses T1036.005]] — SUPERNOVA → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-05949 - uses|S0356 uses T1555.003]] — KONNI → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-05950 - uses|C0046 uses T1690]] — ArcaneDoor → Prevent Command History Logging
+- [[07 ATT&CK Relationships/ATTACK-REL-05951 - uses|S0139 uses T1105]] — PowerDuke → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-05952 - uses|S9041 uses T1213.003]] — TeamPCP Cloud Stealer → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-05953 - uses|S0476 uses T1071.001]] — Valak → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05954 - uses|S0179 uses T1003.007]] — MimiPenguin → Proc Filesystem
+- [[07 ATT&CK Relationships/ATTACK-REL-05955 - uses|S0401 uses T1543]] — Exaramel for Linux → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-05956 - uses|G1014 uses T1574.001]] — LuminousMoth → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-05957 - uses|G1054 uses T1003.001]] — MirrorFace → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-05958 - uses|S1201 uses T1539]] — TRANSLATEXT → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-05959 - uses|C0014 uses S0002]] — Operation Wocao → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-05960 - uses|S1182 uses T1016]] — MagicRAT → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05961 - uses|G0010 uses S1142]] — Turla → LunarMail
+- [[07 ATT&CK Relationships/ATTACK-REL-05962 - uses|S0244 uses T1218.011]] — Comnie → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-05963 - uses|S0148 uses T1568]] — RTM → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-05964 - uses|S1046 uses T1140]] — PowGoop → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-05965 - uses|S1122 uses T1555]] — Mispadu → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-05966 - uses|S0154 uses T1059.001]] — Cobalt Strike → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05967 - uses|S0108 uses T1090]] — netsh → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-05968 - uses|S0677 uses T1069.003]] — AADInternals → Cloud Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-05969 - uses|G1057 uses T1110]] — ShinyHunters → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-05970 - uses|G0026 uses T1078]] — APT18 → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-05971 - uses|S1183 uses T1027.002]] — StrelaStealer → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-05972 - uses|G1001 uses T1082]] — HEXANE → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05973 - uses|G0082 uses T1565.003]] — APT38 → Runtime Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-05974 - uses|S0244 uses T1547.001]] — Comnie → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-05975 - uses|S0532 uses T1497.001]] — Lucifer → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-05976 - uses|G0034 uses S0687]] — Sandworm Team → Cyclops Blink
+- [[07 ATT&CK Relationships/ATTACK-REL-05977 - uses|S0238 uses T1041]] — Proxysvc → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-05978 - uses|G0049 uses T1566.003]] — OilRig → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05979 - uses|S1064 uses T1036.004]] — SVCReady → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-05980 - uses|G0050 uses T1046]] — APT32 → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05981 - uses|S0636 uses T1071.001]] — VaporRage → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-05982 - uses|S0670 uses T1056.001]] — WarzoneRAT → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-05983 - uses|G1018 uses T1608.001]] — TA2541 → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-05984 - uses|S0475 uses T1137.001]] — BackConfig → Office Template Macros
+- [[07 ATT&CK Relationships/ATTACK-REL-05985 - uses|S0252 uses T1012]] — Brave Prince → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-05986 - uses|G1022 uses T1059.001]] — ToddyCat → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05987 - uses|S0015 uses T1033]] — Ixeshe → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-05988 - uses|S0069 uses T1070.004]] — BLACKCOFFEE → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-05989 - uses|S9043 uses T1555.005]] — Mini Shai-Hulud → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-05990 - uses|G0139 uses T1219]] — TeamTNT → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-05991 - uses|S0354 uses T1574]] — Denis → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-05992 - uses|S9027 uses T1027.016]] — ANELLDR → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-05993 - uses|G0096 uses T1218.011]] — APT41 → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-05994 - uses|S1154 uses T1129]] — VersaMem → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-05995 - uses|G0092 uses T1568.001]] — TA505 → Fast Flux DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-05996 - uses|S0658 uses T1497.003]] — XCSSET → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-05997 - uses|S0689 uses T1059.001]] — WhisperGate → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-05998 - uses|S0532 uses T1496.001]] — Lucifer → Compute Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-05999 - uses|G1001 uses T1555.003]] — HEXANE → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-06000 - uses|S1086 uses T1059.001]] — Snip3 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06001 - uses|S0087 uses T1218.010]] — Hi-Zor → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-06002 - uses|S0341 uses T1059.001]] — Xbash → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06003 - uses|S9018 uses T1027.013]] — HeartCrypt → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06004 - uses|S0674 uses T1012]] — CharmPower → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06005 - uses|S0171 uses T1016]] — Felismus → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06006 - uses|S1085 uses T1059.001]] — Sardonic → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06007 - uses|S0592 uses T1105]] — RemoteUtilities → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06008 - uses|C0063 uses S1071]] — 2025 Poland Wiper Attacks → Rubeus
+- [[07 ATT&CK Relationships/ATTACK-REL-06009 - uses|S1117 uses T1132.001]] — GLASSTOKEN → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-06010 - uses|S1149 uses T1027]] — CHIMNEYSWEEP → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06011 - uses|S0357 uses T1003.003]] — Impacket → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-06012 - uses|S0230 uses T1543.003]] — ZeroT → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06013 - uses|C0026 uses S0104]] — C0026 → netstat
+- [[07 ATT&CK Relationships/ATTACK-REL-06014 - uses|G1003 uses T1047]] — Ember Bear → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06015 - uses|S0266 uses T1573.001]] — TrickBot → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06016 - uses|S0434 uses T1496.001]] — Imminent Monitor → Compute Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-06017 - uses|S0673 uses T1140]] — DarkWatchman → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06018 - uses|G0126 uses S0013]] — Higaisa → PlugX
+- [[07 ATT&CK Relationships/ATTACK-REL-06019 - uses|G0114 uses T1047]] — Chimera → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06020 - uses|S0663 uses T1132.001]] — SysUpdate → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-06021 - uses|G0103 uses T1027.015]] — Mofang → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-06022 - uses|G0082 uses T1059.003]] — APT38 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06023 - uses|S1247 uses T1068]] — Embargo → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-06024 - uses|G0094 uses T1583]] — Kimsuky → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-06025 - uses|S0221 uses T1059.003]] — Umbreon → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06026 - uses|S0634 uses T1027.006]] — EnvyScout → HTML Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-06027 - uses|G1055 uses T1585.001]] — VOID MANTICORE → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06028 - uses|S0336 uses T1016]] — NanoCore → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06029 - uses|C0060 uses T1685.005]] — Operation AkaiRyū → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-06030 - uses|G0059 uses T1078.002]] — Magic Hound → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06031 - uses|S0283 uses T1125]] — jRAT → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06032 - uses|S0182 uses T1574.013]] — FinFisher → KernelCallbackTable
+- [[07 ATT&CK Relationships/ATTACK-REL-06033 - uses|S1213 uses T1217]] — Lumma Stealer → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06034 - uses|C0013 uses T1587.001]] — Operation Sharpshooter → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-06035 - uses|S0143 uses T1123]] — Flame → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06036 - uses|G0065 uses S0642]] — Leviathan → BADFLICK
+- [[07 ATT&CK Relationships/ATTACK-REL-06037 - uses|S0665 uses T1027.013]] — ThreatNeedle → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06038 - uses|S1060 uses T1622]] — Mafalda → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-06039 - uses|S0128 uses T1025]] — BADNEWS → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-06040 - uses|G1006 uses S0160]] — Earth Lusca → certutil
+- [[07 ATT&CK Relationships/ATTACK-REL-06041 - uses|S1037 uses T1543.003]] — STARWHALE → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06042 - uses|G0091 uses T1059.003]] — Silence → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06043 - uses|S0363 uses T1615]] — Empire → Group Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06044 - uses|S0625 uses T1059.001]] — Cuba → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06045 - uses|G1032 uses T1105]] — INC Ransom → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06046 - uses|S1201 uses T1112]] — TRANSLATEXT → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06047 - uses|S0456 uses T1070.004]] — Aria-body → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06048 - uses|C0035 uses T1583.003]] — KV Botnet Activity → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-06049 - uses|S0394 uses T1037.004]] — HiddenWasp → RC Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-06050 - uses|S1026 uses T1071.001]] — Mongall → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06051 - uses|S0239 uses T1087.001]] — Bankshot → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06052 - uses|S0255 uses T1218.011]] — DDKONG → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-06053 - uses|G1016 uses T1053.005]] — FIN13 → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06054 - uses|C0005 uses T1204.002]] — Operation Spalax → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-06055 - uses|S0699 uses T1119]] — Mythic → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-06056 - uses|G0121 uses T1566.001]] — Sidewinder → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-06057 - uses|S0356 uses T1113]] — KONNI → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06058 - uses|G0069 uses T1203]] — MuddyWater → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06059 - uses|S1068 uses T1490]] — BlackCat → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06060 - uses|S0447 uses T1053.005]] — Lokibot → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06061 - uses|S1073 uses T1057]] — Royal → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06062 - uses|S0211 uses T1005]] — Linfo → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06063 - uses|C0006 uses S0057]] — Operation Honeybee → Tasklist
+- [[07 ATT&CK Relationships/ATTACK-REL-06064 - uses|S0260 uses T1056.001]] — InvisiMole → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06065 - uses|S1202 uses T1106]] — LockBit 3.0 → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06066 - uses|G0059 uses T1685]] — Magic Hound → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06067 - uses|G1015 uses T1598.003]] — Scattered Spider → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06068 - uses|S9027 uses T1140]] — ANELLDR → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06069 - uses|G0038 uses T1012]] — Stealth Falcon → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06070 - uses|S1044 uses T1057]] — FunnyDream → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06071 - uses|S1156 uses T1083]] — Manjusaka → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06072 - uses|C0028 uses T1055]] — 2015 Ukraine Electric Power Attack → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-06073 - uses|G0099 uses T1027.013]] — APT-C-36 → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06074 - uses|G1017 uses T1036.005]] — Volt Typhoon → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-06075 - uses|S0385 uses T1012]] — njRAT → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06076 - uses|C0043 uses S0596]] — Indian Critical Infrastructure Intrusions → ShadowPad
+- [[07 ATT&CK Relationships/ATTACK-REL-06077 - uses|S0106 uses T1082]] — cmd → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06078 - uses|S1101 uses T1005]] — LoFiSe → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06079 - uses|G0080 uses T1547.001]] — Cobalt Group → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06080 - uses|S0483 uses T1071.001]] — IcedID → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06081 - uses|S9015 uses T1027]] — BRICKSTORM → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06082 - uses|G0123 uses T1595.002]] — Volatile Cedar → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-06083 - uses|S9016 uses T1140]] — Caminho → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06084 - uses|C0014 uses T1112]] — Operation Wocao → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06085 - uses|G0094 uses T1546.001]] — Kimsuky → Change Default File Association
+- [[07 ATT&CK Relationships/ATTACK-REL-06086 - uses|G0067 uses T1036.001]] — APT37 → Invalid Code Signature
+- [[07 ATT&CK Relationships/ATTACK-REL-06087 - uses|S1011 uses T1036.005]] — Tarrask → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-06088 - uses|S0381 uses T1218.007]] — FlawedAmmyy → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-06089 - uses|S0124 uses T1547.001]] — Pisloader → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06090 - uses|S1223 uses T1140]] — THINCRUST → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06091 - uses|S0378 uses T1560.001]] — PoshC2 → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-06092 - uses|G0065 uses T1059.005]] — Leviathan → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-06093 - uses|G1056 uses T1555.006]] — TeamPCP → Cloud Secrets Management Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-06094 - uses|S1178 uses T1071.001]] — ShrinkLocker → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06095 - uses|G0021 uses T1553.002]] — Molerats → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-06096 - uses|S1022 uses T1560.001]] — IceApple → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-06097 - uses|S0622 uses T1083]] — AppleSeed → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06098 - uses|C0010 uses T1584.001]] — C0010 → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-06099 - uses|G0098 uses T1106]] — BlackTech → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06100 - uses|S0105 uses T1069.002]] — dsquery → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-06101 - uses|C0056 uses T1571]] — RedPenguin → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-06102 - uses|S1066 uses T1566.001]] — DarkTortilla → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-06103 - uses|S0216 uses T1113]] — POORAIM → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06104 - uses|S0266 uses T1482]] — TrickBot → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06105 - uses|G0127 uses T1027.003]] — TA551 → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-06106 - uses|S0184 uses T1057]] — POWRUNER → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06107 - uses|S0080 uses T1003.002]] — Mivast → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-06108 - uses|G0050 uses T1583.006]] — APT32 → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-06109 - uses|S0331 uses T1497]] — Agent Tesla → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-06110 - uses|S0119 uses T1003.005]] — Cachedump → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-06111 - uses|G0007 uses T1211]] — APT28 → Exploitation for Stealth
+- [[07 ATT&CK Relationships/ATTACK-REL-06112 - uses|G1004 uses T1003.006]] — LAPSUS$ → DCSync
+- [[07 ATT&CK Relationships/ATTACK-REL-06113 - uses|G1033 uses T1583]] — Star Blizzard → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-06114 - uses|G0139 uses T1014]] — TeamTNT → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-06115 - uses|S1199 uses T1490]] — LockBit 2.0 → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06116 - uses|S1135 uses T1685]] — MultiLayer Wiper → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06117 - uses|G0035 uses S0094]] — Dragonfly → Trojan.Karagany
+- [[07 ATT&CK Relationships/ATTACK-REL-06118 - uses|S1026 uses T1573.001]] — Mongall → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06119 - uses|S0107 uses T1048.003]] — Cherry Picker → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06120 - uses|S1242 uses T1018]] — Qilin → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06121 - uses|S0526 uses T1041]] — KGH_SPY → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06122 - uses|G0010 uses T1090]] — Turla → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-06123 - uses|S0239 uses T1680]] — Bankshot → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06124 - uses|S1180 uses T1112]] — BlackByte Ransomware → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06125 - uses|S1160 uses T1016]] — Latrodectus → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06126 - uses|G0119 uses T1074.001]] — Indrik Spider → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06127 - uses|C0060 uses T1585.003]] — Operation AkaiRyū → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06128 - uses|S0194 uses T1574.001]] — PowerSploit → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-06129 - uses|S1176 uses T1564.001]] — attrib → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-06130 - uses|S9042 uses T1124]] — CanisterWorm → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06131 - uses|S1100 uses T1029]] — Ninja → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06132 - uses|S1200 uses T1614.001]] — StealBit → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06133 - uses|G1018 uses T1059.001]] — TA2541 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06134 - uses|S1218 uses T1570]] — VIRTUALPIE → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06135 - uses|S0348 uses T1083]] — Cardinal RAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06136 - uses|G0138 uses T1049]] — Andariel → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06137 - uses|G0087 uses T1569.002]] — APT39 → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06138 - uses|S0152 uses T1125]] — EvilGrab → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06139 - uses|C0012 uses T1543.003]] — Operation CuckooBees → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06140 - uses|G1048 uses T1037]] — UNC3886 → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-06141 - uses|S0082 uses T1105]] — Emissary → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06142 - uses|S0385 uses T1071.001]] — njRAT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06143 - uses|C0022 uses T1566.001]] — Operation Dream Job → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-06144 - uses|S1248 uses T1027.010]] — XORIndex Loader → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-06145 - uses|S0338 uses T1125]] — Cobian RAT → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06146 - uses|S0147 uses T1070.004]] — Pteranodon → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06147 - uses|G0064 uses S0358]] — APT33 → Ruler
+- [[07 ATT&CK Relationships/ATTACK-REL-06148 - uses|C0049 uses T1505.003]] — Leviathan Australian Intrusions → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06149 - uses|G0067 uses T1566.001]] — APT37 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-06150 - uses|C0029 uses S1118]] — Cutting Edge → BUSHWALK
+- [[07 ATT&CK Relationships/ATTACK-REL-06151 - uses|G0089 uses T1566.001]] — The White Company → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-06152 - uses|S0136 uses T1036.005]] — USBStealer → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-06153 - uses|S0089 uses T1021.002]] — BlackEnergy → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-06154 - uses|S0409 uses T1217]] — Machete → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06155 - uses|S0380 uses T1518.001]] — StoneDrill → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06156 - uses|S0534 uses T1033]] — Bazar → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06157 - uses|G1053 uses T1059.009]] — Storm-0501 → Cloud API
+- [[07 ATT&CK Relationships/ATTACK-REL-06158 - uses|S0517 uses T1106]] — Pillowmint → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06159 - uses|S1028 uses T1027]] — Action RAT → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06160 - uses|G0016 uses S0597]] — APT29 → GoldFinder
+- [[07 ATT&CK Relationships/ATTACK-REL-06161 - uses|G1046 uses S0650]] — Storm-1811 → QakBot
+- [[07 ATT&CK Relationships/ATTACK-REL-06162 - uses|G0010 uses T1547.004]] — Turla → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-06163 - uses|S0666 uses T1070.004]] — Gelsemium → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06164 - uses|S0251 uses T1573.002]] — Zebrocy → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06165 - uses|G1015 uses T1585.001]] — Scattered Spider → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06166 - uses|S1039 uses T1041]] — Bumblebee → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06167 - uses|G0034 uses T1595.002]] — Sandworm Team → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-06168 - uses|S0546 uses T1047]] — SharpStage → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06169 - uses|G1057 uses T1598]] — ShinyHunters → Phishing for Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06170 - uses|S0531 uses T1036.005]] — Grandoreiro → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-06171 - uses|S0495 uses T1030]] — RDAT → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-06172 - uses|S0622 uses T1560.001]] — AppleSeed → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-06173 - uses|G0080 uses T1220]] — Cobalt Group → XSL Script Processing
+- [[07 ATT&CK Relationships/ATTACK-REL-06174 - uses|G0046 uses S0415]] — FIN7 → BOOSTWRITE
+- [[07 ATT&CK Relationships/ATTACK-REL-06175 - uses|C0017 uses T1505.003]] — C0017 → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06176 - uses|G0129 uses T1087.002]] — Mustang Panda → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06177 - uses|G0099 uses T1593]] — APT-C-36 → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-06178 - uses|G0010 uses T1587.001]] — Turla → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-06179 - uses|G1055 uses T1123]] — VOID MANTICORE → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06180 - uses|G1052 uses T1204.005]] — Contagious Interview → Malicious Library
+- [[07 ATT&CK Relationships/ATTACK-REL-06181 - uses|G0080 uses T1046]] — Cobalt Group → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06182 - uses|S0199 uses T1547.001]] — TURNEDUP → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06183 - uses|G0019 uses S0055]] — Naikon → RARSTONE
+- [[07 ATT&CK Relationships/ATTACK-REL-06184 - uses|G1015 uses T1098]] — Scattered Spider → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-06185 - uses|S1190 uses T1036.008]] — Kapeka → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-06186 - uses|S0147 uses T1218.011]] — Pteranodon → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-06187 - uses|S1242 uses T1688]] — Qilin → Safe Mode Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-06188 - uses|S0447 uses T1083]] — Lokibot → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06189 - uses|G0094 uses T1608.001]] — Kimsuky → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-06190 - uses|G0037 uses T1021.001]] — FIN6 → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06191 - uses|G0032 uses T1573.001]] — Lazarus Group → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06192 - uses|G0050 uses S0157]] — APT32 → SOUNDBITE
+- [[07 ATT&CK Relationships/ATTACK-REL-06193 - uses|G0007 uses T1014]] — APT28 → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-06194 - uses|S0434 uses T1140]] — Imminent Monitor → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06195 - uses|S0002 uses T1098]] — Mimikatz → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-06196 - uses|S0650 uses T1027.011]] — QakBot → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-06197 - uses|S1212 uses T1497.003]] — RansomHub → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-06198 - uses|S1178 uses T1486]] — ShrinkLocker → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-06199 - uses|S1065 uses T1027.013]] — Woody RAT → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06200 - uses|C0022 uses T1588.003]] — Operation Dream Job → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-06201 - uses|S0219 uses T1010]] — WINERACK → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06202 - uses|S0130 uses T1091]] — Unknown Logger → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-06203 - uses|S0582 uses T1070.004]] — LookBack → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06204 - uses|S1232 uses T1140]] — SplatDropper → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06205 - uses|G0046 uses T1078]] — FIN7 → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06206 - uses|S0543 uses T1033]] — Spark → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06207 - uses|C0062 uses T1567]] — Anthropic AI-orchestrated Campaign → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06208 - uses|S0089 uses T1548.002]] — BlackEnergy → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-06209 - uses|G0049 uses T1059.001]] — OilRig → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06210 - uses|S1159 uses T1059.003]] — DUSTTRAP → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06211 - uses|G1056 uses S9042]] — TeamPCP → CanisterWorm
+- [[07 ATT&CK Relationships/ATTACK-REL-06212 - uses|S0595 uses T1622]] — ThiefQuest → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-06213 - uses|S0269 uses T1059.005]] — QUADAGENT → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-06214 - uses|G0105 uses T1059.001]] — DarkVishnya → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06215 - uses|S1053 uses T1547.001]] — AvosLocker → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06216 - uses|G0045 uses T1074.002]] — menuPass → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06217 - uses|S0455 uses T1056.001]] — Metamorfo → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06218 - uses|G1048 uses T1212]] — UNC3886 → Exploitation for Credential Access
+- [[07 ATT&CK Relationships/ATTACK-REL-06219 - uses|G1051 uses T1027.010]] — Medusa Group → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-06220 - uses|S0366 uses T1563.002]] — WannaCry → RDP Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-06221 - uses|S1078 uses T1082]] — RotaJakiro → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06222 - uses|G0010 uses S0099]] — Turla → Arp
+- [[07 ATT&CK Relationships/ATTACK-REL-06223 - uses|G1023 uses T1070.003]] — APT5 → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-06224 - uses|G0027 uses T1005]] — Threat Group-3390 → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06225 - uses|S0629 uses T1543.003]] — RainyDay → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06226 - uses|S0022 uses T1071.003]] — Uroburos → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06227 - uses|S0391 uses T1559.002]] — HAWKBALL → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-06228 - uses|G0040 uses T1074.001]] — Patchwork → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06229 - uses|S0171 uses T1518.001]] — Felismus → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06230 - uses|G0065 uses S0183]] — Leviathan → Tor
+- [[07 ATT&CK Relationships/ATTACK-REL-06231 - uses|S0154 uses T1620]] — Cobalt Strike → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-06232 - uses|G0049 uses T1218.001]] — OilRig → Compiled HTML File
+- [[07 ATT&CK Relationships/ATTACK-REL-06233 - uses|G0012 uses T1497.002]] — Darkhotel → User Activity Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-06234 - uses|S0650 uses T1070.004]] — QakBot → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06235 - uses|G0102 uses T1021]] — Wizard Spider → Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-06236 - uses|G0082 uses T1070.006]] — APT38 → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-06237 - uses|G1015 uses T1484.002]] — Scattered Spider → Trust Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-06238 - uses|S1199 uses T1680]] — LockBit 2.0 → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06239 - uses|G0049 uses S0360]] — OilRig → BONDUPDATER
+- [[07 ATT&CK Relationships/ATTACK-REL-06240 - uses|G1016 uses T1565]] — FIN13 → Data Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-06241 - uses|G0046 uses S0146]] — FIN7 → TEXTMATE
+- [[07 ATT&CK Relationships/ATTACK-REL-06242 - uses|S0246 uses T1001.003]] — HARDRAIN → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-06243 - uses|G0007 uses T1505.003]] — APT28 → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06244 - uses|S0015 uses T1070.004]] — Ixeshe → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06245 - uses|S9010 uses T1555.001]] — GlassWorm → Keychain
+- [[07 ATT&CK Relationships/ATTACK-REL-06246 - uses|S0125 uses T1686.003]] — Remsec → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-06247 - uses|S1066 uses T1007]] — DarkTortilla → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06248 - uses|S0369 uses T1564.001]] — CoinTicker → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-06249 - uses|S1112 uses T1505.003]] — STEADYPULSE → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06250 - uses|S0639 uses T1486]] — Seth-Locker → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-06251 - uses|S0467 uses T1020]] — TajMahal → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-06252 - uses|S0641 uses T1074]] — Kobalos → Data Staged
+- [[07 ATT&CK Relationships/ATTACK-REL-06253 - uses|C0049 uses T1018]] — Leviathan Australian Intrusions → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06254 - uses|S0604 uses T1485]] — Industroyer → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-06255 - uses|S0083 uses T1070.004]] — Misdat → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06256 - uses|S0374 uses T1053.003]] — SpeakUp → Cron
+- [[07 ATT&CK Relationships/ATTACK-REL-06257 - uses|S0668 uses T1036.004]] — TinyTurla → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06258 - uses|G0077 uses T1555]] — Leafminer → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-06259 - uses|C0044 uses T1082]] — Juicy Mix → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06260 - uses|S1139 uses T1047]] — INC Ransomware → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06261 - uses|S0559 uses T1070]] — SUNBURST → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-06262 - uses|S0607 uses T1134]] — KillDisk → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-06263 - uses|C0002 uses T1071.001]] — Night Dragon → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06264 - uses|S0172 uses T1095]] — Reaver → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06265 - uses|S1220 uses T1027.013]] — MEDUSA → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06266 - uses|G1003 uses T1588.005]] — Ember Bear → Exploits
+- [[07 ATT&CK Relationships/ATTACK-REL-06267 - uses|S9025 uses T1070.004]] — NOOPLDR → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06268 - uses|S0483 uses T1027.003]] — IcedID → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-06269 - uses|S0375 uses T1053.005]] — Remexi → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06270 - uses|S0567 uses T1016]] — Dtrack → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06271 - uses|G1044 uses T1082]] — APT42 → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06272 - uses|S0038 uses T1055.001]] — Duqu → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-06273 - uses|S1037 uses T1132.001]] — STARWHALE → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-06274 - uses|S0373 uses T1059.003]] — Astaroth → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06275 - uses|G0078 uses T1140]] — Gorgon Group → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06276 - uses|S0554 uses T1069.002]] — Egregor → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-06277 - uses|S0203 uses T1007]] — Hydraq → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06278 - uses|S0128 uses T1132]] — BADNEWS → Data Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-06279 - uses|G1012 uses T1059.001]] — CURIUM → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06280 - uses|G0049 uses T1049]] — OilRig → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06281 - uses|S1147 uses T1016]] — Nightdoor → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06282 - uses|S0598 uses T1059]] — P.A.S. Webshell → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-06283 - uses|G0069 uses T1548.002]] — MuddyWater → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-06284 - uses|G0040 uses T1059.003]] — Patchwork → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06285 - uses|S0012 uses T1055.001]] — PoisonIvy → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-06286 - uses|S0586 uses T1560]] — TAINTEDSCRIBE → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-06287 - uses|S0002 uses T1003.002]] — Mimikatz → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-06288 - uses|S0652 uses T1005]] — MarkiRAT → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06289 - uses|S0496 uses T1041]] — REvil → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06290 - uses|S0681 uses T1620]] — Lizar → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-06291 - uses|G0121 uses T1204.001]] — Sidewinder → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06292 - uses|S0334 uses T1033]] — DarkComet → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06293 - uses|S1107 uses T1016.001]] — NKAbuse → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06294 - uses|S0456 uses T1090]] — Aria-body → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-06295 - uses|S0567 uses T1543.003]] — Dtrack → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06296 - uses|G1014 uses T1539]] — LuminousMoth → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-06297 - uses|S0136 uses T1074.001]] — USBStealer → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06298 - uses|S0531 uses T1016]] — Grandoreiro → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06299 - uses|S9023 uses T1033]] — HiddenFace → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06300 - uses|G1054 uses T1021.001]] — MirrorFace → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06301 - uses|S0060 uses T1573.001]] — Sys10 → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06302 - uses|C0014 uses T1018]] — Operation Wocao → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06303 - uses|S1065 uses T1140]] — Woody RAT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06304 - uses|S0115 uses T1057]] — Crimson → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06305 - uses|G0093 uses T1588.002]] — GALLIUM → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-06306 - uses|S1233 uses T1574.001]] — PAKLOG → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-06307 - uses|G1046 uses S0154]] — Storm-1811 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-06308 - uses|S0491 uses T1204.002]] — StrongPity → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-06309 - uses|C0063 uses T1059.004]] — 2025 Poland Wiper Attacks → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06310 - uses|S0200 uses T1573.001]] — Dipsind → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06311 - uses|S0039 uses T1136.002]] — Net → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06312 - uses|S1190 uses T1218.011]] — Kapeka → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-06313 - uses|S0148 uses T1218.011]] — RTM → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-06314 - uses|S0632 uses T1140]] — GrimAgent → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06315 - uses|S0634 uses T1059.007]] — EnvyScout → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-06316 - uses|S0381 uses T1059.001]] — FlawedAmmyy → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06317 - uses|S0410 uses T1083]] — Fysbis → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06318 - uses|S1109 uses T1074.001]] — PACEMAKER → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06319 - uses|C0032 uses T1074.001]] — C0032 → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06320 - uses|S0370 uses T1027.013]] — SamSam → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06321 - uses|G0081 uses T1071.004]] — Tropic Trooper → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-06322 - uses|G0117 uses T1102]] — Fox Kitten → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06323 - uses|S0683 uses T1530]] — Peirates → Data from Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-06324 - uses|S0348 uses T1573.001]] — Cardinal RAT → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06325 - uses|S0409 uses T1555.003]] — Machete → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-06326 - uses|G0096 uses T1071.002]] — APT41 → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06327 - uses|S0560 uses T1012]] — TEARDROP → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06328 - uses|G0053 uses S0005]] — FIN5 → Windows Credential Editor
+- [[07 ATT&CK Relationships/ATTACK-REL-06329 - uses|S0342 uses T1105]] — GreyEnergy → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06330 - uses|S1245 uses T1057]] — InvisibleFerret → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06331 - uses|S0615 uses T1083]] — SombRAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06332 - uses|C0004 uses S0614]] — CostaRicto → CostaBricks
+- [[07 ATT&CK Relationships/ATTACK-REL-06333 - uses|S0362 uses T1033]] — Linux Rabbit → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06334 - uses|S9032 uses T1056.002]] — MuddyViper → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06335 - uses|G0105 uses S0191]] — DarkVishnya → Winexe
+- [[07 ATT&CK Relationships/ATTACK-REL-06336 - uses|S0584 uses T1204.002]] — AppleJeus → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-06337 - uses|S9023 uses T1005]] — HiddenFace → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06338 - uses|S9043 uses T1027.013]] — Mini Shai-Hulud → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06339 - uses|G0032 uses T1203]] — Lazarus Group → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06340 - uses|S1085 uses T1546.003]] — Sardonic → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-06341 - uses|G1004 uses T1078.004]] — LAPSUS$ → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06342 - uses|S0192 uses T1003.001]] — Pupy → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-06343 - uses|S0125 uses T1087.001]] — Remsec → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06344 - uses|S0615 uses T1573.001]] — SombRAT → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06345 - uses|G1046 uses T1074.001]] — Storm-1811 → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06346 - uses|S0472 uses T1071.001]] — down_new → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06347 - uses|G0004 uses S0002]] — Ke3chang → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-06348 - uses|S0060 uses T1071.001]] — Sys10 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06349 - uses|G0035 uses S0029]] — Dragonfly → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-06350 - uses|G0035 uses T1189]] — Dragonfly → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-06351 - uses|S0475 uses T1071.001]] — BackConfig → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06352 - uses|S0439 uses T1547.001]] — Okrum → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06353 - uses|G0081 uses T1052.001]] — Tropic Trooper → Exfiltration over USB
+- [[07 ATT&CK Relationships/ATTACK-REL-06354 - uses|S1247 uses T1489]] — Embargo → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-06355 - uses|G0112 uses T1518]] — Windshift → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06356 - uses|G0125 uses T1078.003]] — HAFNIUM → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06357 - uses|G0120 uses S0284]] — Evilnum → More_eggs
+- [[07 ATT&CK Relationships/ATTACK-REL-06358 - uses|G1009 uses T1587.001]] — Moses Staff → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-06359 - uses|G1055 uses T1547.001]] — VOID MANTICORE → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06360 - uses|S0428 uses T1112]] — PoetRAT → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06361 - uses|G0143 uses T1059.001]] — Aquatic Panda → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06362 - uses|S0493 uses T1543.003]] — GoldenSpy → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06363 - uses|S0457 uses T1489]] — Netwalker → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-06364 - uses|S0611 uses T1083]] — Clop → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06365 - uses|S0154 uses T1134.004]] — Cobalt Strike → Parent PID Spoofing
+- [[07 ATT&CK Relationships/ATTACK-REL-06366 - uses|C0015 uses T1069.001]] — C0015 → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-06367 - uses|S0575 uses T1057]] — Conti → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06368 - uses|S1108 uses T1132.001]] — PULSECHECK → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-06369 - uses|S0038 uses T1560.003]] — Duqu → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-06370 - uses|G1015 uses T1059.004]] — Scattered Spider → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06371 - uses|S1081 uses T1046]] — BADHATCH → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06372 - uses|S9032 uses T1547.001]] — MuddyViper → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06373 - uses|G0049 uses T1069.001]] — OilRig → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-06374 - uses|G0065 uses T1190]] — Leviathan → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-06375 - uses|S0673 uses T1047]] — DarkWatchman → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06376 - uses|S0089 uses T1083]] — BlackEnergy → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06377 - uses|S0477 uses T1574.001]] — Goopy → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-06378 - uses|S0023 uses T1090.001]] — CHOPSTICK → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-06379 - uses|S0599 uses T1105]] — Kinsing → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06380 - uses|S0113 uses T1082]] — Prikormka → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06381 - uses|G0030 uses S0590]] — Lotus Blossom → NBTscan
+- [[07 ATT&CK Relationships/ATTACK-REL-06382 - uses|G0059 uses T1003.001]] — Magic Hound → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-06383 - uses|C0014 uses T1012]] — Operation Wocao → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06384 - uses|S0660 uses T1059.003]] — Clambling → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06385 - uses|C0018 uses T1105]] — C0018 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06386 - uses|G0046 uses T1059.005]] — FIN7 → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-06387 - uses|G0032 uses T1543.003]] — Lazarus Group → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06388 - uses|S1107 uses T1059.004]] — NKAbuse → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06389 - uses|S0585 uses T1566.001]] — Kerrdown → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-06390 - uses|S0699 uses T1071.002]] — Mythic → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06391 - uses|S9041 uses T1573.001]] — TeamPCP Cloud Stealer → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06392 - uses|G1017 uses S0002]] — Volt Typhoon → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-06393 - uses|S1016 uses T1113]] — MacMa → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06394 - uses|S0365 uses T1555.003]] — Olympic Destroyer → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-06395 - uses|G1003 uses S0357]] — Ember Bear → Impacket
+- [[07 ATT&CK Relationships/ATTACK-REL-06396 - uses|S1172 uses T1564.003]] — OilBooster → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-06397 - uses|S0220 uses T1110]] — Chaos → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-06398 - uses|S0466 uses T1124]] — WindTail → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06399 - uses|C0038 uses T1059.001]] — HomeLand Justice → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06400 - uses|S1203 uses T1070.003]] — J-magic → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-06401 - uses|S9009 uses T1552.005]] — TruffleHog → Cloud Instance Metadata API
+- [[07 ATT&CK Relationships/ATTACK-REL-06402 - uses|G0094 uses T1588.005]] — Kimsuky → Exploits
+- [[07 ATT&CK Relationships/ATTACK-REL-06403 - uses|S0504 uses T1027]] — Anchor → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06404 - uses|G1003 uses T1210]] — Ember Bear → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-06405 - uses|G1007 uses S1026]] — Aoqin Dragon → Mongall
+- [[07 ATT&CK Relationships/ATTACK-REL-06406 - uses|S0589 uses T1070.004]] — Sibot → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06407 - uses|S1217 uses T1673]] — VIRTUALPITA → Virtual Machine Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06408 - uses|C0042 uses T1105]] — Outer Space → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06409 - uses|G0064 uses T1555.003]] — APT33 → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-06410 - uses|S0498 uses T1070.004]] — Cryptoistic → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06411 - uses|G1032 uses T1537]] — INC Ransom → Transfer Data to Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06412 - uses|S0521 uses T1615]] — BloodHound → Group Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06413 - uses|S0331 uses T1564.001]] — Agent Tesla → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-06414 - uses|C0040 uses T1070.004]] — APT41 DUST → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06415 - uses|C0058 uses S0029]] — SharePoint ToolShell Exploitation → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-06416 - uses|S0444 uses T1059.003]] — ShimRat → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06417 - uses|C0010 uses S1042]] — C0010 → SUGARDUMP
+- [[07 ATT&CK Relationships/ATTACK-REL-06418 - uses|G0092 uses T1140]] — TA505 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06419 - uses|G0022 uses T1090.002]] — APT3 → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-06420 - uses|S1125 uses T1485]] — AcidRain → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-06421 - uses|C0001 uses T1041]] — Frankenstein → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06422 - uses|S1149 uses T1218.003]] — CHIMNEYSWEEP → CMSTP
+- [[07 ATT&CK Relationships/ATTACK-REL-06423 - uses|S0363 uses T1041]] — Empire → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06424 - uses|G0049 uses S1168]] — OilRig → SampleCheck5000
+- [[07 ATT&CK Relationships/ATTACK-REL-06425 - uses|S0368 uses T1083]] — NotPetya → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06426 - uses|S1081 uses T1573.002]] — BADHATCH → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06427 - uses|S0078 uses T1041]] — Psylo → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06428 - uses|G0081 uses T1078.003]] — Tropic Trooper → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06429 - uses|S0622 uses T1025]] — AppleSeed → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-06430 - uses|S0630 uses T1070.004]] — Nebulae → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06431 - uses|G1053 uses T1552.004]] — Storm-0501 → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-06432 - uses|S0438 uses T1543.003]] — Attor → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06433 - uses|G0024 uses T1547.001]] — Putter Panda → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06434 - uses|S0251 uses T1070.004]] — Zebrocy → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06435 - uses|G1017 uses T1614]] — Volt Typhoon → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06436 - uses|S0020 uses T1070.006]] — China Chopper → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-06437 - uses|G0039 uses T1003]] — Suckfly → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-06438 - uses|S9036 uses T1078]] — LP-Notes → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06439 - uses|S0168 uses T1055.003]] — Gazer → Thread Execution Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-06440 - uses|S9007 uses T1106]] — HTTPTroy → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06441 - uses|S0131 uses T1083]] — TINYTYPHON → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06442 - uses|G0070 uses T1027.013]] — Dark Caracal → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06443 - uses|G0001 uses T1021.001]] — Axiom → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06444 - uses|S0579 uses T1685]] — Waterbear → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06445 - uses|S0659 uses T1057]] — Diavol → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06446 - uses|S0635 uses T1480]] — BoomBox → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-06447 - uses|S0438 uses T1113]] — Attor → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06448 - uses|C0024 uses T1195.002]] — SolarWinds Compromise → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-06449 - uses|S1042 uses T1217]] — SUGARDUMP → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06450 - uses|S0635 uses T1218.011]] — BoomBox → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-06451 - uses|G1034 uses T1053.005]] — Daggerfly → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06452 - uses|S0644 uses T1027.003]] — ObliqueRAT → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-06453 - uses|S1172 uses T1074.001]] — OilBooster → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06454 - uses|S0532 uses T1021.002]] — Lucifer → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-06455 - uses|S0262 uses T1016]] — QuasarRAT → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06456 - uses|S9013 uses T1056.001]] — DRYHOOK → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06457 - uses|S1035 uses T1033]] — Small Sieve → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06458 - uses|G0102 uses T1048.003]] — Wizard Spider → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06459 - uses|S0660 uses T1071.001]] — Clambling → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06460 - uses|S1073 uses T1059.012]] — Royal → Hypervisor CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-06461 - uses|S0141 uses T1573.001]] — Winnti for Windows → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06462 - uses|S0526 uses T1680]] — KGH_SPY → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06463 - uses|S0451 uses T1059.003]] — LoudMiner → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06464 - uses|G0136 uses S0651]] — IndigoZebra → BoxCaon
+- [[07 ATT&CK Relationships/ATTACK-REL-06465 - uses|S0428 uses T1125]] — PoetRAT → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06466 - uses|S0039 uses T1018]] — Net → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06467 - uses|S1065 uses T1059.001]] — Woody RAT → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06468 - uses|G0046 uses T1608.005]] — FIN7 → Link Target
+- [[07 ATT&CK Relationships/ATTACK-REL-06469 - uses|S0660 uses T1135]] — Clambling → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06470 - uses|G0064 uses T1571]] — APT33 → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-06471 - uses|G0019 uses T1547.001]] — Naikon → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06472 - uses|G1022 uses T1518.001]] — ToddyCat → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06473 - uses|S0492 uses T1555.003]] — CookieMiner → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-06474 - uses|S0089 uses T1552.001]] — BlackEnergy → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-06475 - uses|G1011 uses T1566.002]] — EXOTIC LILY → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06476 - uses|S1245 uses T1560.001]] — InvisibleFerret → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-06477 - uses|S0596 uses T1033]] — ShadowPad → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06478 - uses|S0613 uses T1140]] — PS1 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06479 - uses|S0444 uses T1574]] — ShimRat → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-06480 - uses|S1081 uses T1069.002]] — BADHATCH → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-06481 - uses|S0086 uses T1543.003]] — ZLib → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06482 - uses|G0007 uses T1070.004]] — APT28 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06483 - uses|S1063 uses T1569.002]] — Brute Ratel C4 → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06484 - uses|S0526 uses T1059.003]] — KGH_SPY → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06485 - uses|G0016 uses T1087.004]] — APT29 → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06486 - uses|G1024 uses T1027.001]] — Akira → Binary Padding
+- [[07 ATT&CK Relationships/ATTACK-REL-06487 - uses|G0069 uses T1059.005]] — MuddyWater → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-06488 - uses|S9010 uses T1071.001]] — GlassWorm → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06489 - uses|S0022 uses T1055.001]] — Uroburos → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-06490 - uses|G0139 uses T1027.013]] — TeamTNT → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06491 - uses|G1006 uses T1059.001]] — Earth Lusca → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06492 - uses|S9041 uses T1016]] — TeamPCP Cloud Stealer → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06493 - uses|G0007 uses T1598.003]] — APT28 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06494 - uses|G0059 uses T1560.001]] — Magic Hound → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-06495 - uses|G0135 uses T1190]] — BackdoorDiplomacy → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-06496 - uses|S9037 uses T1082]] — RustyWater → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06497 - uses|S0697 uses T1561.001]] — HermeticWiper → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-06498 - uses|S0113 uses T1555.003]] — Prikormka → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-06499 - uses|C0030 uses S0002]] — Triton Safety Instrumented System Attack → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-06500 - uses|C0060 uses T1566.002]] — Operation AkaiRyū → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06501 - uses|S0451 uses T1027.010]] — LoudMiner → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-06502 - uses|S1245 uses T1056.001]] — InvisibleFerret → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06503 - uses|G0010 uses T1555.004]] — Turla → Windows Credential Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-06504 - uses|G0052 uses T1564.003]] — CopyKittens → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-06505 - uses|G0081 uses T1505.003]] — Tropic Trooper → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06506 - uses|G0079 uses T1059.001]] — DarkHydrus → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06507 - uses|S0574 uses T1001.001]] — BendyBear → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-06508 - uses|G1022 uses T1059.003]] — ToddyCat → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06509 - uses|S1144 uses T1071.001]] — FRP → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06510 - uses|S0414 uses T1218.005]] — BabyShark → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-06511 - uses|C0047 uses T1095]] — RedDelta Modified PlugX Infection Chain Operations → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06512 - uses|S1060 uses T1027.013]] — Mafalda → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06513 - uses|S1196 uses T1036.005]] — Troll Stealer → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-06514 - uses|S0633 uses T1083]] — Sliver → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06515 - uses|S9015 uses T1140]] — BRICKSTORM → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06516 - uses|G0134 uses T1189]] — Transparent Tribe → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-06517 - uses|S0434 uses T1123]] — Imminent Monitor → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06518 - uses|S0050 uses T1543.003]] — CosmicDuke → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06519 - uses|S0455 uses T1571]] — Metamorfo → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-06520 - uses|G1030 uses S1132]] — Agrius → IPsec Helper
+- [[07 ATT&CK Relationships/ATTACK-REL-06521 - uses|S0456 uses T1016]] — Aria-body → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06522 - uses|S1154 uses T1070.004]] — VersaMem → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06523 - uses|S0582 uses T1547.001]] — LookBack → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06524 - uses|G0001 uses T1583.003]] — Axiom → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-06525 - uses|S0260 uses T1210]] — InvisiMole → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-06526 - uses|C0058 uses T1090]] — SharePoint ToolShell Exploitation → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-06527 - uses|S1235 uses T1053.005]] — CorKLOG → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06528 - uses|S0088 uses T1082]] — Kasidet → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06529 - uses|G1003 uses T1505.003]] — Ember Bear → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06530 - uses|S9015 uses T1102]] — BRICKSTORM → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06531 - uses|G1001 uses S0363]] — HEXANE → Empire
+- [[07 ATT&CK Relationships/ATTACK-REL-06532 - uses|S9035 uses T1041]] — LAMEHUG → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06533 - uses|S0581 uses T1036.004]] — IronNetInjector → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06534 - uses|G0105 uses S0029]] — DarkVishnya → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-06535 - uses|C0051 uses T1140]] — APT28 Nearest Neighbor Campaign → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06536 - uses|S0192 uses T1057]] — Pupy → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06537 - uses|G0099 uses T1105]] — APT-C-36 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06538 - uses|S0646 uses T1105]] — SpicyOmelette → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06539 - uses|S0363 uses T1217]] — Empire → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06540 - uses|S0603 uses T1014]] — Stuxnet → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-06541 - uses|S1100 uses T1071.001]] — Ninja → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06542 - uses|G0121 uses T1016]] — Sidewinder → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06543 - uses|G1053 uses T1003]] — Storm-0501 → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-06544 - uses|G1043 uses T1021.001]] — BlackByte → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06545 - uses|S0574 uses T1027.013]] — BendyBear → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06546 - uses|G0081 uses T1564.001]] — Tropic Trooper → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-06547 - uses|S0192 uses T1557.001]] — Pupy → Name Resolution Poisoning and SMB Relay
+- [[07 ATT&CK Relationships/ATTACK-REL-06548 - uses|S0610 uses T1082]] — SideTwist → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06549 - uses|G1039 uses T1573.002]] — RedCurl → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06550 - uses|S0266 uses T1564.003]] — TrickBot → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-06551 - uses|S0443 uses T1074.001]] — MESSAGETAP → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06552 - uses|S1194 uses T1083]] — Akira _v2 → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06553 - uses|S0410 uses T1082]] — Fysbis → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06554 - uses|S0458 uses T1039]] — Ramsay → Data from Network Shared Drive
+- [[07 ATT&CK Relationships/ATTACK-REL-06555 - uses|G1053 uses T1526]] — Storm-0501 → Cloud Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06556 - uses|S1129 uses T1082]] — Akira → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06557 - uses|G0004 uses T1027]] — Ke3chang → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06558 - uses|C0024 uses T1686]] — SolarWinds Compromise → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-06559 - uses|G0140 uses T1059.001]] — LazyScripter → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06560 - uses|S0465 uses T1027]] — CARROTBALL → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06561 - uses|S0053 uses T1071.001]] — SeaDuke → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06562 - uses|S0517 uses T1546.011]] — Pillowmint → Application Shimming
+- [[07 ATT&CK Relationships/ATTACK-REL-06563 - uses|G0049 uses S0095]] — OilRig → ftp
+- [[07 ATT&CK Relationships/ATTACK-REL-06564 - uses|S0699 uses T1132]] — Mythic → Data Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-06565 - uses|S1016 uses T1057]] — MacMa → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06566 - uses|G0010 uses S0160]] — Turla → certutil
+- [[07 ATT&CK Relationships/ATTACK-REL-06567 - uses|S0662 uses T1055.012]] — RCSession → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-06568 - uses|S1033 uses T1106]] — DCSrv → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06569 - uses|S0263 uses T1027.013]] — TYPEFRAME → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06570 - uses|S1015 uses T1082]] — Milan → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06571 - uses|G1051 uses T1003.003]] — Medusa Group → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-06572 - uses|S0194 uses T1543.003]] — PowerSploit → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06573 - uses|S0698 uses T1570]] — HermeticWizard → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06574 - uses|S0598 uses T1083]] — P.A.S. Webshell → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06575 - uses|S0352 uses T1059.005]] — OSX_OCEANLOTUS.D → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-06576 - uses|S0031 uses T1059.003]] — BACKSPACE → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06577 - uses|C0001 uses T1140]] — Frankenstein → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06578 - uses|G0080 uses T1071.001]] — Cobalt Group → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06579 - uses|S9026 uses T1047]] — ROAMINGHOUSE → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06580 - uses|C0047 uses T1480]] — RedDelta Modified PlugX Infection Chain Operations → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-06581 - uses|G0094 uses T1027.013]] — Kimsuky → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06582 - uses|S1063 uses T1021.002]] — Brute Ratel C4 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-06583 - uses|S0531 uses T1106]] — Grandoreiro → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06584 - uses|G1046 uses T1056]] — Storm-1811 → Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06585 - uses|G0011 uses S0002]] — PittyTiger → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-06586 - uses|S1050 uses T1041]] — PcShare → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06587 - uses|S0644 uses T1125]] — ObliqueRAT → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06588 - uses|S0038 uses T1218.007]] — Duqu → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-06589 - uses|S0241 uses T1105]] — RATANKBA → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06590 - uses|S1060 uses T1012]] — Mafalda → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06591 - uses|G0047 uses T1204.001]] — Gamaredon Group → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06592 - uses|S0034 uses T1008]] — NETEAGLE → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-06593 - uses|G0117 uses T1059.001]] — Fox Kitten → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06594 - uses|G1034 uses T1105]] — Daggerfly → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06595 - uses|G0059 uses T1589.001]] — Magic Hound → Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-06596 - uses|G1017 uses T1070.007]] — Volt Typhoon → Clear Network Connection History and Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-06597 - uses|S0518 uses T1105]] — PolyglotDuke → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06598 - uses|S0635 uses T1036]] — BoomBox → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-06599 - uses|C0018 uses T1570]] — C0018 → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06600 - uses|S1139 uses T1680]] — INC Ransomware → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06601 - uses|S0521 uses T1482]] — BloodHound → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06602 - uses|G0119 uses T1078.002]] — Indrik Spider → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06603 - uses|S0181 uses T1680]] — FALLCHILL → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06604 - uses|S0260 uses T1036.004]] — InvisiMole → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06605 - uses|G1020 uses T1608.006]] — Mustard Tempest → SEO Poisoning
+- [[07 ATT&CK Relationships/ATTACK-REL-06606 - uses|S0687 uses T1573.002]] — Cyclops Blink → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06607 - uses|S9001 uses T1001]] — SystemBC → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-06608 - uses|S0182 uses T1055.001]] — FinFisher → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-06609 - uses|G1041 uses T1557]] — Sea Turtle → Adversary-in-the-Middle
+- [[07 ATT&CK Relationships/ATTACK-REL-06610 - uses|S1030 uses T1218.011]] — Squirrelwaffle → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-06611 - uses|S0600 uses T1071.001]] — Doki → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06612 - uses|G1037 uses T1586.002]] — TA577 → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06613 - uses|S0192 uses T1548.002]] — Pupy → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-06614 - uses|G1053 uses T1578.003]] — Storm-0501 → Delete Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-06615 - uses|S0194 uses T1574.008]] — PowerSploit → Path Interception by Search Order Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-06616 - uses|S1139 uses T1120]] — INC Ransomware → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06617 - uses|G0093 uses S0110]] — GALLIUM → at
+- [[07 ATT&CK Relationships/ATTACK-REL-06618 - uses|G0022 uses T1087.001]] — APT3 → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06619 - uses|G1056 uses T1583.001]] — TeamPCP → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-06620 - uses|G0065 uses T1041]] — Leviathan → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06621 - uses|G0064 uses S0380]] — APT33 → StoneDrill
+- [[07 ATT&CK Relationships/ATTACK-REL-06622 - uses|C0024 uses T1140]] — SolarWinds Compromise → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06623 - uses|S0475 uses T1105]] — BackConfig → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06624 - uses|C0058 uses T1569.002]] — SharePoint ToolShell Exploitation → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06625 - uses|S0081 uses T1543.003]] — Elise → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06626 - uses|S0666 uses T1036.001]] — Gelsemium → Invalid Code Signature
+- [[07 ATT&CK Relationships/ATTACK-REL-06627 - uses|S1199 uses T1614.001]] — LockBit 2.0 → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06628 - uses|S0458 uses T1080]] — Ramsay → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-06629 - uses|S0604 uses T1018]] — Industroyer → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06630 - uses|G1045 uses T1110.002]] — Salt Typhoon → Password Cracking
+- [[07 ATT&CK Relationships/ATTACK-REL-06631 - uses|S0194 uses T1620]] — PowerSploit → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-06632 - uses|G0060 uses T1080]] — BRONZE BUTLER → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-06633 - uses|S1019 uses T1071.004]] — Shark → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-06634 - uses|G0032 uses T1218]] — Lazarus Group → System Binary Proxy Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06635 - uses|S0234 uses T1005]] — Bandook → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06636 - uses|S0674 uses T1041]] — CharmPower → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06637 - uses|S1116 uses T1554]] — WARPWIRE → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-06638 - uses|S0650 uses T1059.003]] — QakBot → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06639 - uses|S0386 uses T1106]] — Ursnif → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06640 - uses|G1003 uses S0521]] — Ember Bear → BloodHound
+- [[07 ATT&CK Relationships/ATTACK-REL-06641 - uses|G1003 uses T1114]] — Ember Bear → Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-06642 - uses|G1053 uses T1518.001]] — Storm-0501 → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06643 - uses|S1248 uses T1140]] — XORIndex Loader → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06644 - uses|S0484 uses T1071.001]] — Carberp → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06645 - uses|S1161 uses T1686]] — BPFDoor → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-06646 - uses|S1161 uses T1564.011]] — BPFDoor → Ignore Process Interrupts
+- [[07 ATT&CK Relationships/ATTACK-REL-06647 - uses|S0595 uses T1105]] — ThiefQuest → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06648 - uses|C0060 uses S9027]] — Operation AkaiRyū → ANELLDR
+- [[07 ATT&CK Relationships/ATTACK-REL-06649 - uses|G0010 uses T1189]] — Turla → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-06650 - uses|C0053 uses T1090.003]] — FLORAHOX Activity → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-06651 - uses|S1087 uses T1124]] — AsyncRAT → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06652 - uses|S1030 uses T1218.010]] — Squirrelwaffle → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-06653 - uses|G1034 uses T1584.004]] — Daggerfly → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-06654 - uses|S0038 uses T1056.001]] — Duqu → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06655 - uses|S0332 uses T1059.003]] — Remcos → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06656 - uses|S0667 uses T1140]] — Chrommme → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06657 - uses|G0093 uses S0590]] — GALLIUM → NBTscan
+- [[07 ATT&CK Relationships/ATTACK-REL-06658 - uses|S0409 uses T1008]] — Machete → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-06659 - uses|S0397 uses T1112]] — LoJax → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06660 - uses|S0153 uses T1573.001]] — RedLeaves → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06661 - uses|S1202 uses T1140]] — LockBit 3.0 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06662 - uses|S0266 uses T1071.001]] — TrickBot → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06663 - uses|S0072 uses T1071.001]] — OwaAuth → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06664 - uses|S1087 uses T1057]] — AsyncRAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06665 - uses|S0449 uses T1490]] — Maze → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06666 - uses|S0600 uses T1573.002]] — Doki → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06667 - uses|S1228 uses T1205]] — PUBLOAD → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-06668 - uses|G0027 uses T1070.004]] — Threat Group-3390 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06669 - uses|G1031 uses T1204.002]] — Saint Bear → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-06670 - uses|G0007 uses S0136]] — APT28 → USBStealer
+- [[07 ATT&CK Relationships/ATTACK-REL-06671 - uses|S1184 uses T1480]] — BOLDMOVE → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-06672 - uses|S0372 uses T1553.002]] — LockerGoga → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-06673 - uses|S0477 uses T1071.004]] — Goopy → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-06674 - uses|G0034 uses T1608.001]] — Sandworm Team → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-06675 - uses|S1147 uses T1497.001]] — Nightdoor → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-06676 - uses|S1091 uses T1580]] — Pacu → Cloud Infrastructure Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06677 - uses|S0488 uses T1087.002]] — CrackMapExec → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06678 - uses|G0016 uses T1027.006]] — APT29 → HTML Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-06679 - uses|S1091 uses T1059.009]] — Pacu → Cloud API
+- [[07 ATT&CK Relationships/ATTACK-REL-06680 - uses|S1141 uses T1135]] — LunarWeb → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06681 - uses|S0280 uses T1082]] — MirageFox → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06682 - uses|S0666 uses T1005]] — Gelsemium → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06683 - uses|S0264 uses T1059.005]] — OopsIE → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-06684 - uses|G1048 uses T1548]] — UNC3886 → Abuse Elevation Control Mechanism
+- [[07 ATT&CK Relationships/ATTACK-REL-06685 - uses|S0030 uses T1003]] — Carbanak → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-06686 - uses|G1006 uses T1588.001]] — Earth Lusca → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-06687 - uses|S1030 uses T1497]] — Squirrelwaffle → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-06688 - uses|S0262 uses T1105]] — QuasarRAT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06689 - uses|G0087 uses T1059.005]] — APT39 → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-06690 - uses|S0521 uses T1087.002]] — BloodHound → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06691 - uses|S0428 uses T1564.001]] — PoetRAT → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-06692 - uses|G0069 uses T1547.001]] — MuddyWater → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06693 - uses|G1016 uses T1098.007]] — FIN13 → Additional Local or Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-06694 - uses|S0270 uses T1113]] — RogueRobin → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06695 - uses|G1043 uses T1219]] — BlackByte → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06696 - uses|S0216 uses T1057]] — POORAIM → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06697 - uses|S0412 uses T1059.003]] — ZxShell → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06698 - uses|G0093 uses T1583.004]] — GALLIUM → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-06699 - uses|G1017 uses T1078.002]] — Volt Typhoon → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06700 - uses|S1240 uses T1497]] — RedLine Stealer → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-06701 - uses|G0037 uses T1569.002]] — FIN6 → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06702 - uses|S0526 uses T1027.013]] — KGH_SPY → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06703 - uses|C0035 uses T1518.001]] — KV Botnet Activity → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06704 - uses|G0016 uses T1218.005]] — APT29 → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-06705 - uses|S1133 uses T1529]] — Apostle → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-06706 - uses|G0069 uses T1003.005]] — MuddyWater → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-06707 - uses|G1009 uses T1588.002]] — Moses Staff → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-06708 - uses|S0604 uses T1046]] — Industroyer → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06709 - uses|G1047 uses T1570]] — Velvet Ant → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06710 - uses|S0352 uses T1543.001]] — OSX_OCEANLOTUS.D → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-06711 - uses|S1018 uses T1218.004]] — Saint Bot → InstallUtil
+- [[07 ATT&CK Relationships/ATTACK-REL-06712 - uses|S0375 uses T1047]] — Remexi → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06713 - uses|S0150 uses T1105]] — POSHSPY → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06714 - uses|S0137 uses T1082]] — CORESHELL → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06715 - uses|C0002 uses T1083]] — Night Dragon → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06716 - uses|S0665 uses T1112]] — ThreatNeedle → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06717 - uses|S0598 uses T1505.003]] — P.A.S. Webshell → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06718 - uses|S0256 uses T1059.001]] — Mosquito → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06719 - uses|S1105 uses T1095]] — COATHANGER → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06720 - uses|S0344 uses T1113]] — Azorult → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06721 - uses|S1198 uses T1573.002]] — Gomir → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06722 - uses|G0059 uses T1583.006]] — Magic Hound → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-06723 - uses|G0122 uses T1114.003]] — Silent Librarian → Email Forwarding Rule
+- [[07 ATT&CK Relationships/ATTACK-REL-06724 - uses|S1015 uses T1070.004]] — Milan → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06725 - uses|G1043 uses T1112]] — BlackByte → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06726 - uses|S0203 uses T1048]] — Hydraq → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06727 - uses|S1245 uses T1074.001]] — InvisibleFerret → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-06728 - uses|S0579 uses T1112]] — Waterbear → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06729 - uses|S0242 uses T1614.001]] — SynAck → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06730 - uses|S0625 uses T1057]] — Cuba → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06731 - uses|G0059 uses T1584.001]] — Magic Hound → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-06732 - uses|S0603 uses T1053.005]] — Stuxnet → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06733 - uses|S0125 uses T1071.003]] — Remsec → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06734 - uses|G0004 uses S0691]] — Ke3chang → Neoichor
+- [[07 ATT&CK Relationships/ATTACK-REL-06735 - uses|G1057 uses T1016]] — ShinyHunters → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06736 - uses|S0013 uses T1106]] — PlugX → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06737 - uses|S0284 uses T1140]] — More_eggs → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06738 - uses|S0458 uses T1135]] — Ramsay → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06739 - uses|S0251 uses T1056.004]] — Zebrocy → Credential API Hooking
+- [[07 ATT&CK Relationships/ATTACK-REL-06740 - uses|S0455 uses T1218.005]] — Metamorfo → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-06741 - uses|S1019 uses T1140]] — Shark → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06742 - uses|S0376 uses T1652]] — HOPLIGHT → Device Driver Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06743 - uses|S0570 uses T1027.013]] — BitPaymer → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06744 - uses|S0144 uses T1547.001]] — ChChes → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06745 - uses|S0226 uses T1055]] — Smoke Loader → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-06746 - uses|S0017 uses T1573.002]] — BISCUIT → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06747 - uses|S0373 uses T1082]] — Astaroth → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06748 - uses|G0008 uses S0029]] — Carbanak → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-06749 - uses|S1029 uses T1033]] — AuTo Stealer → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06750 - uses|S0342 uses T1090.003]] — GreyEnergy → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-06751 - uses|S9008 uses T1485]] — Shai-Hulud → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-06752 - uses|C0001 uses T1127.001]] — Frankenstein → MSBuild
+- [[07 ATT&CK Relationships/ATTACK-REL-06753 - uses|S1017 uses T1059.003]] — OutSteel → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06754 - uses|S0203 uses T1134]] — Hydraq → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-06755 - uses|G1033 uses T1593]] — Star Blizzard → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-06756 - uses|C0035 uses T1055.009]] — KV Botnet Activity → Proc Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-06757 - uses|G1055 uses T1583.004]] — VOID MANTICORE → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-06758 - uses|S0280 uses T1059.003]] — MirageFox → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06759 - uses|S0156 uses T1082]] — KOMPROGO → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06760 - uses|S9041 uses T1480]] — TeamPCP Cloud Stealer → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-06761 - uses|S0234 uses T1059.005]] — Bandook → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-06762 - uses|S1081 uses T1059.003]] — BADHATCH → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06763 - uses|C0035 uses T1584.008]] — KV Botnet Activity → Network Devices
+- [[07 ATT&CK Relationships/ATTACK-REL-06764 - uses|G1054 uses T1591]] — MirrorFace → Gather Victim Org Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06765 - uses|G0024 uses S0065]] — Putter Panda → 4H RAT
+- [[07 ATT&CK Relationships/ATTACK-REL-06766 - uses|S0176 uses T1082]] — Wingbird → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06767 - uses|S1086 uses T1027]] — Snip3 → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06768 - uses|S1172 uses T1041]] — OilBooster → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06769 - uses|G0004 uses T1569.002]] — Ke3chang → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06770 - uses|S0332 uses T1529]] — Remcos → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-06771 - uses|S0192 uses T1003.005]] — Pupy → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-06772 - uses|S0148 uses T1027.015]] — RTM → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-06773 - uses|G0065 uses T1027.015]] — Leviathan → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-06774 - uses|S0504 uses T1016]] — Anchor → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06775 - uses|S1218 uses T1059.006]] — VIRTUALPIE → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-06776 - uses|S0032 uses T1218.011]] — gh0st RAT → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-06777 - uses|S0262 uses T1010]] — QuasarRAT → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06778 - uses|G0049 uses S0104]] — OilRig → netstat
+- [[07 ATT&CK Relationships/ATTACK-REL-06779 - uses|S0669 uses T1204.001]] — KOCTOPUS → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06780 - uses|G0019 uses T1574.001]] — Naikon → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-06781 - uses|S0153 uses T1113]] — RedLeaves → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06782 - uses|S0239 uses T1571]] — Bankshot → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-06783 - uses|G0102 uses T1567.002]] — Wizard Spider → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-06784 - uses|S0232 uses T1059.003]] — HOMEFRY → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06785 - uses|C0027 uses T1190]] — C0027 → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-06786 - uses|S0356 uses T1547.001]] — KONNI → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06787 - uses|S0281 uses T1553.004]] — Dok → Install Root Certificate
+- [[07 ATT&CK Relationships/ATTACK-REL-06788 - uses|S0181 uses T1016]] — FALLCHILL → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06789 - uses|S0381 uses T1041]] — FlawedAmmyy → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06790 - uses|S1209 uses T1113]] — Quick Assist → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06791 - uses|C0038 uses T1098.002]] — HomeLand Justice → Additional Email Delegate Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-06792 - uses|S1144 uses T1095]] — FRP → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06793 - uses|G0033 uses T1087.001]] — Poseidon Group → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06794 - uses|S0347 uses T1083]] — AuditCred → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06795 - uses|S1060 uses T1057]] — Mafalda → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06796 - uses|S1235 uses T1553.002]] — CorKLOG → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-06797 - uses|S0248 uses T1056.001]] — yty → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06798 - uses|G0034 uses T1588.006]] — Sandworm Team → Vulnerabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-06799 - uses|C0049 uses T1078.002]] — Leviathan Australian Intrusions → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06800 - uses|G0010 uses S0581]] — Turla → IronNetInjector
+- [[07 ATT&CK Relationships/ATTACK-REL-06801 - uses|S0375 uses T1115]] — Remexi → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-06802 - uses|S0223 uses T1036.004]] — POWERSTATS → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06803 - uses|S0386 uses T1056.004]] — Ursnif → Credential API Hooking
+- [[07 ATT&CK Relationships/ATTACK-REL-06804 - uses|G0082 uses T1518.001]] — APT38 → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06805 - uses|S1039 uses T1566.001]] — Bumblebee → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-06806 - uses|S0644 uses T1057]] — ObliqueRAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06807 - uses|S0046 uses T1497]] — CozyCar → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-06808 - uses|S1115 uses T1071.001]] — WIREFIRE → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06809 - uses|S9009 uses T1528]] — TruffleHog → Steal Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-06810 - uses|S0215 uses T1105]] — KARAE → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06811 - uses|S0156 uses T1047]] — KOMPROGO → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06812 - uses|S1081 uses T1071.001]] — BADHATCH → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06813 - uses|C0062 uses T1083]] — Anthropic AI-orchestrated Campaign → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06814 - uses|G0078 uses T1105]] — Gorgon Group → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06815 - uses|S0412 uses T1113]] — ZxShell → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06816 - uses|S0143 uses T1036.010]] — Flame → Masquerade Account Name
+- [[07 ATT&CK Relationships/ATTACK-REL-06817 - uses|S0187 uses T1036.005]] — Daserf → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-06818 - uses|S0428 uses T1573.002]] — PoetRAT → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06819 - uses|S0250 uses T1547.001]] — Koadic → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-06820 - uses|S0024 uses T1053.005]] — Dyre → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06821 - uses|G0061 uses T1518.001]] — FIN8 → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06822 - uses|G1048 uses T1588.001]] — UNC3886 → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-06823 - uses|S0458 uses T1560.001]] — Ramsay → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-06824 - uses|G1030 uses T1021.001]] — Agrius → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06825 - uses|S0603 uses T1480]] — Stuxnet → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-06826 - uses|S9023 uses T1082]] — HiddenFace → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06827 - uses|G1043 uses T1055.012]] — BlackByte → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-06828 - uses|G0032 uses S0376]] — Lazarus Group → HOPLIGHT
+- [[07 ATT&CK Relationships/ATTACK-REL-06829 - uses|S1202 uses T1489]] — LockBit 3.0 → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-06830 - uses|C0027 uses T1102]] — C0027 → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06831 - uses|C0014 uses T1095]] — Operation Wocao → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-06832 - uses|S0062 uses T1518]] — DustySky → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06833 - uses|G0096 uses T1003.003]] — APT41 → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-06834 - uses|S0461 uses T1105]] — SDBbot → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06835 - uses|S1130 uses T1583.001]] — Raspberry Robin → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-06836 - uses|S1016 uses T1083]] — MacMa → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06837 - uses|S0218 uses T1102.002]] — SLOWDRIFT → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-06838 - uses|G0064 uses S0002]] — APT33 → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-06839 - uses|S1150 uses T1480]] — ROADSWEEP → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-06840 - uses|S0664 uses T1068]] — Pandora → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-06841 - uses|S0681 uses T1555.003]] — Lizar → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-06842 - uses|S0266 uses T1055.012]] — TrickBot → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-06843 - uses|G1057 uses T1550.001]] — ShinyHunters → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-06844 - uses|S0330 uses T1056.004]] — Zeus Panda → Credential API Hooking
+- [[07 ATT&CK Relationships/ATTACK-REL-06845 - uses|C0048 uses T1003.003]] — Operation MidnightEclipse → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-06846 - uses|G0007 uses T1027.013]] — APT28 → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06847 - uses|G0075 uses S0255]] — Rancor → DDKONG
+- [[07 ATT&CK Relationships/ATTACK-REL-06848 - uses|G0081 uses S0190]] — Tropic Trooper → BITSAdmin
+- [[07 ATT&CK Relationships/ATTACK-REL-06849 - uses|S0233 uses T1059.003]] — MURKYTOP → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06850 - uses|G0129 uses T1505.003]] — Mustang Panda → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06851 - uses|S0368 uses T1003.001]] — NotPetya → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-06852 - uses|G0032 uses T1189]] — Lazarus Group → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-06853 - uses|S1060 uses T1059.001]] — Mafalda → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06854 - uses|S0534 uses T1036.005]] — Bazar → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-06855 - uses|S0462 uses T1105]] — CARROTBAT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06856 - uses|G0069 uses T1059.006]] — MuddyWater → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-06857 - uses|S0546 uses T1053.005]] — SharpStage → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06858 - uses|G0128 uses T1059.003]] — ZIRCONIUM → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06859 - uses|S0559 uses T1071.001]] — SUNBURST → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06860 - uses|G0007 uses S0250]] — APT28 → Koadic
+- [[07 ATT&CK Relationships/ATTACK-REL-06861 - uses|G1035 uses T1036.004]] — Winter Vivern → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06862 - uses|S9010 uses T1518]] — GlassWorm → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06863 - uses|C0061 uses T1569.002]] — Operation Digital Eye → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06864 - uses|S0238 uses T1071.001]] — Proxysvc → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06865 - uses|G0018 uses T1082]] — admin@338 → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06866 - uses|S0098 uses T1119]] — T9000 → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-06867 - uses|S0261 uses T1056.001]] — Catchamas → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06868 - uses|S1149 uses T1140]] — CHIMNEYSWEEP → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06869 - uses|C0014 uses T1003.001]] — Operation Wocao → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-06870 - uses|S1023 uses T1083]] — CreepyDrive → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06871 - uses|S0244 uses T1573.001]] — Comnie → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06872 - uses|C0024 uses T1087.002]] — SolarWinds Compromise → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06873 - uses|S0367 uses T1078.003]] — Emotet → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06874 - uses|S1016 uses T1070.004]] — MacMa → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-06875 - uses|S0417 uses T1059.001]] — GRIFFON → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06876 - uses|G0081 uses T1140]] — Tropic Trooper → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06877 - uses|C0022 uses T1027.013]] — Operation Dream Job → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06878 - uses|S0376 uses T1112]] — HOPLIGHT → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06879 - uses|S0168 uses T1105]] — Gazer → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06880 - uses|G1040 uses T1685]] — Play → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06881 - uses|S0575 uses T1135]] — Conti → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06882 - uses|S0192 uses T1113]] — Pupy → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06883 - uses|S0568 uses T1112]] — EVILNUM → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06884 - uses|G1004 uses T1588.001]] — LAPSUS$ → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-06885 - uses|S0178 uses T1036.004]] — Truvasys → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06886 - uses|G0142 uses T1680]] — Confucius → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06887 - uses|S1111 uses T1480]] — DarkGate → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-06888 - uses|S1223 uses T1071.001]] — THINCRUST → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06889 - uses|S0596 uses T1140]] — ShadowPad → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06890 - uses|S0065 uses T1573.001]] — 4H RAT → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06891 - uses|G0028 uses T1072]] — Threat Group-1314 → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06892 - uses|G0100 uses T1069.002]] — Inception → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-06893 - uses|S0402 uses T1564.009]] — OSX/Shlayer → Resource Forking
+- [[07 ATT&CK Relationships/ATTACK-REL-06894 - uses|S0260 uses T1135]] — InvisiMole → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06895 - uses|S0148 uses T1219]] — RTM → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06896 - uses|G0087 uses T1018]] — APT39 → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06897 - uses|G0123 uses T1190]] — Volatile Cedar → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-06898 - uses|S0635 uses T1087.002]] — BoomBox → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06899 - uses|S1024 uses T1059.001]] — CreepySnail → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06900 - uses|S0230 uses T1027.013]] — ZeroT → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06901 - uses|S0113 uses T1016]] — Prikormka → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06902 - uses|S1203 uses T1040]] — J-magic → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-06903 - uses|S0547 uses T1102]] — DropBook → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06904 - uses|G0008 uses T1078]] — Carbanak → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06905 - uses|S0250 uses T1548.002]] — Koadic → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-06906 - uses|G0013 uses S0031]] — APT30 → BACKSPACE
+- [[07 ATT&CK Relationships/ATTACK-REL-06907 - uses|S1060 uses T1083]] — Mafalda → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06908 - uses|G1036 uses T1027]] — Moonstone Sleet → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06909 - uses|S0366 uses T1222.001]] — WannaCry → Windows Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-06910 - uses|G0090 uses T1574.001]] — WIRTE → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-06911 - uses|S0022 uses T1057]] — Uroburos → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06912 - uses|S0273 uses T1059.001]] — Socksbot → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06913 - uses|S0031 uses T1071.001]] — BACKSPACE → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06914 - uses|S1197 uses T1036.005]] — GoBear → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-06915 - uses|S1052 uses T1480]] — DEADEYE → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-06916 - uses|G0067 uses S0355]] — APT37 → Final1stspy
+- [[07 ATT&CK Relationships/ATTACK-REL-06917 - uses|S1013 uses T1105]] — ZxxZ → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06918 - uses|G0047 uses T1001]] — Gamaredon Group → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-06919 - uses|S0668 uses T1569.002]] — TinyTurla → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-06920 - uses|S9038 uses T1036]] — DynoWiper → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-06921 - uses|C0014 uses T1135]] — Operation Wocao → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06922 - uses|S0601 uses T1685]] — Hildegard → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06923 - uses|S0149 uses T1083]] — MoonWind → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06924 - uses|G0046 uses T1674]] — FIN7 → Input Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-06925 - uses|S1185 uses T1129]] — LightSpy → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-06926 - uses|S0002 uses T1134.005]] — Mimikatz → SID-History Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-06927 - uses|S0052 uses T1499]] — OnionDuke → Endpoint Denial of Service
+- [[07 ATT&CK Relationships/ATTACK-REL-06928 - uses|G0065 uses T1090.003]] — Leviathan → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-06929 - uses|S0284 uses T1573.001]] — More_eggs → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-06930 - uses|G0046 uses S0390]] — FIN7 → SQLRat
+- [[07 ATT&CK Relationships/ATTACK-REL-06931 - uses|S0533 uses T1005]] — SLOTHFULMEDIA → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06932 - uses|G0005 uses S0015]] — APT12 → Ixeshe
+- [[07 ATT&CK Relationships/ATTACK-REL-06933 - uses|S0268 uses T1137.006]] — Bisonal → Add-ins
+- [[07 ATT&CK Relationships/ATTACK-REL-06934 - uses|S0586 uses T1124]] — TAINTEDSCRIBE → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06935 - uses|C0006 uses T1105]] — Operation Honeybee → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06936 - uses|S0356 uses T1082]] — KONNI → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06937 - uses|S9027 uses T1106]] — ANELLDR → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06938 - uses|S1014 uses T1071.001]] — DanBot → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06939 - uses|S0649 uses T1041]] — SMOKEDHAM → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06940 - uses|G0007 uses T1542.003]] — APT28 → Bootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-06941 - uses|S1113 uses T1140]] — RAPIDPULSE → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06942 - uses|S0428 uses T1056.001]] — PoetRAT → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06943 - uses|S9034 uses T1195.001]] — Tsundere Botnet → Compromise Software Dependencies and Development Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06944 - uses|G0099 uses T1047]] — APT-C-36 → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-06945 - uses|S0330 uses T1056.001]] — Zeus Panda → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-06946 - uses|S0455 uses T1056.002]] — Metamorfo → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06947 - uses|S0375 uses T1547.004]] — Remexi → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-06948 - uses|S0086 uses T1071.001]] — ZLib → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06949 - uses|S0685 uses T1059.001]] — PowerPunch → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-06950 - uses|S0629 uses T1113]] — RainyDay → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-06951 - uses|S1025 uses T1112]] — Amadey → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06952 - uses|S0589 uses T1053.005]] — Sibot → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-06953 - uses|S0280 uses T1033]] — MirageFox → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06954 - uses|S9031 uses T1614]] — AshTag → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06955 - uses|S0030 uses T1136.001]] — Carbanak → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06956 - uses|G0050 uses S0585]] — APT32 → Kerrdown
+- [[07 ATT&CK Relationships/ATTACK-REL-06957 - uses|S0612 uses T1112]] — WastedLocker → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-06958 - uses|G0070 uses T1005]] — Dark Caracal → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-06959 - uses|S0417 uses T1124]] — GRIFFON → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06960 - uses|S0385 uses T1571]] — njRAT → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-06961 - uses|G1015 uses T1213.005]] — Scattered Spider → Messaging Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-06962 - uses|G0081 uses T1105]] — Tropic Trooper → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06963 - uses|C0063 uses S0183]] — 2025 Poland Wiper Attacks → Tor
+- [[07 ATT&CK Relationships/ATTACK-REL-06964 - uses|S0694 uses T1027]] — DRATzarus → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06965 - uses|S0144 uses T1071.001]] — ChChes → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-06966 - uses|S0470 uses T1106]] — BBK → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06967 - uses|G0125 uses T1593.003]] — HAFNIUM → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-06968 - uses|S9020 uses T1041]] — LODEINFO → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-06969 - uses|G0009 uses S0021]] — Deep Panda → Derusbi
+- [[07 ATT&CK Relationships/ATTACK-REL-06970 - uses|C0037 uses T1204.001]] — Water Curupira Pikabot Distribution → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06971 - uses|G0094 uses T1564.002]] — Kimsuky → Hidden Users
+- [[07 ATT&CK Relationships/ATTACK-REL-06972 - uses|S1018 uses T1614]] — Saint Bot → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06973 - uses|S0438 uses T1055.004]] — Attor → Asynchronous Procedure Call
+- [[07 ATT&CK Relationships/ATTACK-REL-06974 - uses|S0390 uses T1140]] — SQLRat → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-06975 - uses|S1159 uses T1087.001]] — DUSTTRAP → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-06976 - uses|S0149 uses T1124]] — MoonWind → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06977 - uses|S0363 uses T1016]] — Empire → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06978 - uses|G1033 uses S1140]] — Star Blizzard → Spica
+- [[07 ATT&CK Relationships/ATTACK-REL-06979 - uses|G1056 uses T1190]] — TeamPCP → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-06980 - uses|G0107 uses T1027.013]] — Whitefly → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-06981 - uses|S9003 uses T1185]] — evilginx2 → Browser Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-06982 - uses|G1035 uses T1033]] — Winter Vivern → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06983 - uses|G0102 uses T1490]] — Wizard Spider → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06984 - uses|S9034 uses T1082]] — Tsundere Botnet → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06985 - uses|C0024 uses T1003.006]] — SolarWinds Compromise → DCSync
+- [[07 ATT&CK Relationships/ATTACK-REL-06986 - uses|S0332 uses T1057]] — Remcos → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06987 - uses|G0128 uses T1598.003]] — ZIRCONIUM → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-06988 - uses|S0661 uses T1040]] — FoggyWeb → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-06989 - uses|S1043 uses T1059.003]] — ccf32 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-06990 - uses|S0230 uses T1016]] — ZeroT → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06991 - uses|G0037 uses T1059]] — FIN6 → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-06992 - uses|S0662 uses T1106]] — RCSession → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-06993 - uses|G1015 uses T1016]] — Scattered Spider → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06994 - uses|S9041 uses T1033]] — TeamPCP Cloud Stealer → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-06995 - uses|G0096 uses T1003.002]] — APT41 → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-06996 - uses|G0035 uses T1078]] — Dragonfly → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-06997 - uses|S0501 uses T1105]] — PipeMon → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-06998 - uses|G1018 uses T1685]] — TA2541 → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-06999 - uses|S0223 uses T1053.005]] — POWERSTATS → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07000 - uses|S9020 uses T1547.001]] — LODEINFO → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07001 - uses|S0576 uses T1134]] — MegaCortex → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-07002 - uses|S0202 uses T1059.003]] — adbupd → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07003 - uses|G1006 uses T1003.001]] — Earth Lusca → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-07004 - uses|S0032 uses T1056.001]] — gh0st RAT → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-07005 - uses|G1017 uses T1005]] — Volt Typhoon → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07006 - uses|S0045 uses T1041]] — ADVSTORESHELL → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07007 - uses|S0265 uses T1029]] — Kazuar → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07008 - uses|G1030 uses T1036]] — Agrius → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-07009 - uses|S0151 uses T1057]] — HALFBAKED → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07010 - uses|S0445 uses T1105]] — ShimRatReporter → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07011 - uses|G0050 uses S0155]] — APT32 → WINDSHIELD
+- [[07 ATT&CK Relationships/ATTACK-REL-07012 - uses|G1043 uses T1686]] — BlackByte → Disable or Modify System Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-07013 - uses|S0336 uses T1056.001]] — NanoCore → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-07014 - uses|S0267 uses T1680]] — FELIXROOT → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07015 - uses|S0622 uses T1059.001]] — AppleSeed → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07016 - uses|S1199 uses T1135]] — LockBit 2.0 → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07017 - uses|S0458 uses T1091]] — Ramsay → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-07018 - uses|G0117 uses T1036.005]] — Fox Kitten → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07019 - uses|S0512 uses T1071.001]] — FatDuke → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07020 - uses|S1100 uses T1543.003]] — Ninja → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07021 - uses|S0653 uses T1547]] — xCaon → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07022 - uses|S9043 uses T1195.001]] — Mini Shai-Hulud → Compromise Software Dependencies and Development Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07023 - uses|S1180 uses T1685]] — BlackByte Ransomware → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07024 - uses|G0143 uses S0430]] — Aquatic Panda → Winnti for Linux
+- [[07 ATT&CK Relationships/ATTACK-REL-07025 - uses|S0660 uses T1102.002]] — Clambling → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-07026 - uses|G1052 uses T1547.001]] — Contagious Interview → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07027 - uses|S1063 uses T1087.002]] — Brute Ratel C4 → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07028 - uses|S0149 uses T1120]] — MoonWind → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07029 - uses|G0010 uses T1071.003]] — Turla → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07030 - uses|G1011 uses T1589.002]] — EXOTIC LILY → Email Addresses
+- [[07 ATT&CK Relationships/ATTACK-REL-07031 - uses|S0565 uses T1027.002]] — Raindrop → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-07032 - uses|S1178 uses T1047]] — ShrinkLocker → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-07033 - uses|S1137 uses T1486]] — Moneybird → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-07034 - uses|G0069 uses S0250]] — MuddyWater → Koadic
+- [[07 ATT&CK Relationships/ATTACK-REL-07035 - uses|G1015 uses S0349]] — Scattered Spider → LaZagne
+- [[07 ATT&CK Relationships/ATTACK-REL-07036 - uses|S0244 uses T1007]] — Comnie → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07037 - uses|S0386 uses T1091]] — Ursnif → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-07038 - uses|C0017 uses T1048.003]] — C0017 → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-07039 - uses|S1207 uses T1203]] — XLoader → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07040 - uses|G0021 uses T1059.007]] — Molerats → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-07041 - uses|G0083 uses T1071.003]] — SilverTerrier → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07042 - uses|S9032 uses T1678]] — MuddyViper → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07043 - uses|S0689 uses T1070.004]] — WhisperGate → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07044 - uses|G0027 uses T1608.004]] — Threat Group-3390 → Drive-by Target
+- [[07 ATT&CK Relationships/ATTACK-REL-07045 - uses|G0046 uses T1008]] — FIN7 → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-07046 - uses|S0192 uses T1136.002]] — Pupy → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07047 - uses|C0034 uses T1485]] — 2022 Ukraine Electric Power Attack → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-07048 - uses|S1071 uses T1558.002]] — Rubeus → Silver Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-07049 - uses|C0014 uses T1133]] — Operation Wocao → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07050 - uses|G0010 uses T1102.002]] — Turla → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-07051 - uses|S0262 uses T1555]] — QuasarRAT → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-07052 - uses|S0634 uses T1036]] — EnvyScout → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-07053 - uses|S0339 uses T1560.001]] — Micropsia → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-07054 - uses|S0102 uses T1049]] — nbtstat → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07055 - uses|G0112 uses T1033]] — Windshift → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07056 - uses|G0016 uses T1203]] — APT29 → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07057 - uses|G0016 uses T1037.004]] — APT29 → RC Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-07058 - uses|G1055 uses T1114.002]] — VOID MANTICORE → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-07059 - uses|G0040 uses T1559.002]] — Patchwork → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-07060 - uses|C0015 uses T1059.005]] — C0015 → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-07061 - uses|S0207 uses T1090]] — Vasport → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07062 - uses|S1110 uses T1005]] — SLIGHTPULSE → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07063 - uses|S0482 uses T1048]] — Bundlore → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-07064 - uses|S0385 uses T1027.013]] — njRAT → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07065 - uses|G1023 uses T1055]] — APT5 → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-07066 - uses|C0013 uses T1036.005]] — Operation Sharpshooter → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07067 - uses|S1066 uses T1057]] — DarkTortilla → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07068 - uses|S1245 uses T1489]] — InvisibleFerret → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-07069 - uses|G1002 uses T1568]] — BITTER → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-07070 - uses|S0554 uses T1484.001]] — Egregor → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-07071 - uses|S0625 uses T1489]] — Cuba → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-07072 - uses|S0492 uses T1059.004]] — CookieMiner → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07073 - uses|S0519 uses T1601.001]] — SYNful Knock → Patch System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-07074 - uses|G0139 uses T1552.005]] — TeamTNT → Cloud Instance Metadata API
+- [[07 ATT&CK Relationships/ATTACK-REL-07075 - uses|S0049 uses T1057]] — GeminiDuke → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07076 - uses|S0250 uses T1573.002]] — Koadic → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07077 - uses|G1032 uses T1569.002]] — INC Ransom → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07078 - uses|G0046 uses T1218.005]] — FIN7 → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-07079 - uses|S0238 uses T1680]] — Proxysvc → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07080 - uses|S0516 uses T1087.002]] — SoreFang → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07081 - uses|S0570 uses T1012]] — BitPaymer → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07082 - uses|S0258 uses T1059.003]] — RGDoor → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07083 - uses|S1041 uses T1140]] — Chinoxy → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07084 - uses|G0124 uses T1059]] — Windigo → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-07085 - uses|S0467 uses T1119]] — TajMahal → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-07086 - uses|S0696 uses T1071.001]] — Flagpro → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07087 - uses|S0593 uses T1070.004]] — ECCENTRICBANDWAGON → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07088 - uses|S0147 uses T1218.005]] — Pteranodon → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-07089 - uses|S9027 uses T1574.001]] — ANELLDR → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07090 - uses|G0012 uses T1204.002]] — Darkhotel → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07091 - uses|S9037 uses T1559.001]] — RustyWater → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-07092 - uses|G0092 uses S0384]] — TA505 → Dridex
+- [[07 ATT&CK Relationships/ATTACK-REL-07093 - uses|S0182 uses T1083]] — FinFisher → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07094 - uses|G0096 uses S0385]] — APT41 → njRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-07095 - uses|S1150 uses T1140]] — ROADSWEEP → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07096 - uses|S0148 uses T1070.004]] — RTM → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07097 - uses|C0057 uses T1027.013]] — 3CX Supply Chain Attack → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07098 - uses|S0586 uses T1105]] — TAINTEDSCRIBE → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07099 - uses|S0187 uses T1132.001]] — Daserf → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07100 - uses|S0434 uses T1027]] — Imminent Monitor → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07101 - uses|G0129 uses T1059.001]] — Mustang Panda → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07102 - uses|G1056 uses T1583.006]] — TeamPCP → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07103 - uses|G0032 uses T1078]] — Lazarus Group → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07104 - uses|S0236 uses T1016]] — Kwampirs → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07105 - uses|G1057 uses T1059.007]] — ShinyHunters → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-07106 - uses|G1048 uses T1059.006]] — UNC3886 → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-07107 - uses|G0019 uses S0456]] — Naikon → Aria-body
+- [[07 ATT&CK Relationships/ATTACK-REL-07108 - uses|S9044 uses T1550.001]] — Kali365 → Application Access Token
+- [[07 ATT&CK Relationships/ATTACK-REL-07109 - uses|S0669 uses T1112]] — KOCTOPUS → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07110 - uses|G0007 uses T1098.002]] — APT28 → Additional Email Delegate Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-07111 - uses|S0090 uses T1083]] — Rover → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07112 - uses|G0035 uses T1112]] — Dragonfly → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07113 - uses|G0047 uses T1608.001]] — Gamaredon Group → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-07114 - uses|G0082 uses T1106]] — APT38 → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07115 - uses|C0022 uses T1221]] — Operation Dream Job → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-07116 - uses|S1172 uses T1106]] — OilBooster → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07117 - uses|G0040 uses T1204.001]] — Patchwork → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07118 - uses|G0061 uses T1204.001]] — FIN8 → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07119 - uses|S0534 uses T1027.013]] — Bazar → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07120 - uses|S0610 uses T1071.001]] — SideTwist → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07121 - uses|C0030 uses T1053.005]] — Triton Safety Instrumented System Attack → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07122 - uses|G0047 uses T1080]] — Gamaredon Group → Taint Shared Content
+- [[07 ATT&CK Relationships/ATTACK-REL-07123 - uses|G0040 uses T1518.001]] — Patchwork → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07124 - uses|S0688 uses T1484.001]] — Meteor → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-07125 - uses|S0070 uses T1574.001]] — HTTPBrowser → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07126 - uses|S0068 uses T1573.001]] — httpclient → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07127 - uses|G1048 uses T1218.011]] — UNC3886 → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-07128 - uses|S0445 uses T1020]] — ShimRatReporter → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-07129 - uses|S1170 uses T1059.003]] — ODAgent → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07130 - uses|S0194 uses T1552.002]] — PowerSploit → Credentials in Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07131 - uses|G1015 uses T1588.001]] — Scattered Spider → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-07132 - uses|G1046 uses T1021.004]] — Storm-1811 → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-07133 - uses|S1193 uses T1047]] — TAMECAT → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-07134 - uses|S0646 uses T1059.007]] — SpicyOmelette → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-07135 - uses|S9024 uses T1553.002]] — SPAWNCHIMERA → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-07136 - uses|S0552 uses T1018]] — AdFind → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07137 - uses|S0161 uses T1071.002]] — XAgentOSX → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07138 - uses|S0415 uses T1129]] — BOOSTWRITE → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-07139 - uses|S9035 uses T1059.003]] — LAMEHUG → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07140 - uses|S0409 uses T1036.004]] — Machete → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07141 - uses|S1111 uses T1614]] — DarkGate → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07142 - uses|C0012 uses T1588.002]] — Operation CuckooBees → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-07143 - uses|S1240 uses T1027.013]] — RedLine Stealer → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07144 - uses|S1196 uses T1217]] — Troll Stealer → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07145 - uses|S0531 uses T1547.001]] — Grandoreiro → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07146 - uses|G1034 uses T1082]] — Daggerfly → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07147 - uses|G0030 uses T1090.001]] — Lotus Blossom → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07148 - uses|S0345 uses T1057]] — Seasalt → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07149 - uses|S1149 uses T1132.002]] — CHIMNEYSWEEP → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07150 - uses|G0032 uses T1016]] — Lazarus Group → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07151 - uses|G0045 uses S0357]] — menuPass → Impacket
+- [[07 ATT&CK Relationships/ATTACK-REL-07152 - uses|C0057 uses T1078]] — 3CX Supply Chain Attack → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07153 - uses|S0240 uses T1115]] — ROKRAT → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-07154 - uses|S0445 uses T1069]] — ShimRatReporter → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07155 - uses|S0683 uses T1609]] — Peirates → Container Administration Command
+- [[07 ATT&CK Relationships/ATTACK-REL-07156 - uses|S0271 uses T1113]] — KEYMARBLE → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07157 - uses|C0024 uses T1047]] — SolarWinds Compromise → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-07158 - uses|S0038 uses T1049]] — Duqu → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07159 - uses|S0148 uses T1204.002]] — RTM → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07160 - uses|S0259 uses T1543.003]] — InnaputRAT → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07161 - uses|S0045 uses T1070.004]] — ADVSTORESHELL → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07162 - uses|S1202 uses T1685.005]] — LockBit 3.0 → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-07163 - uses|G0092 uses T1204.002]] — TA505 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07164 - uses|G0027 uses T1505.003]] — Threat Group-3390 → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07165 - uses|S0534 uses T1018]] — Bazar → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07166 - uses|S0586 uses T1573.001]] — TAINTEDSCRIBE → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07167 - uses|S0271 uses T1083]] — KEYMARBLE → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07168 - uses|S1018 uses T1036.005]] — Saint Bot → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07169 - uses|S0172 uses T1680]] — Reaver → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07170 - uses|G0114 uses T1110.004]] — Chimera → Credential Stuffing
+- [[07 ATT&CK Relationships/ATTACK-REL-07171 - uses|G0032 uses T1033]] — Lazarus Group → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07172 - uses|S9003 uses T1001]] — evilginx2 → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-07173 - uses|G0060 uses T1550.003]] — BRONZE BUTLER → Pass the Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-07174 - uses|S0670 uses T1564.003]] — WarzoneRAT → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-07175 - uses|S0044 uses T1115]] — JHUHUGIT → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-07176 - uses|C0013 uses T1204.002]] — Operation Sharpshooter → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07177 - uses|G0022 uses T1018]] — APT3 → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07178 - uses|S0115 uses T1012]] — Crimson → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07179 - uses|S0201 uses T1685]] — JPIN → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07180 - uses|G1057 uses T1588.002]] — ShinyHunters → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-07181 - uses|G1021 uses T1574.001]] — Cinnamon Tempest → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07182 - uses|S0612 uses T1569.002]] — WastedLocker → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07183 - uses|S1081 uses T1047]] — BADHATCH → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-07184 - uses|S0611 uses T1497.003]] — Clop → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-07185 - uses|S1183 uses T1119]] — StrelaStealer → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-07186 - uses|G0096 uses S1221]] — APT41 → MOPSLED
+- [[07 ATT&CK Relationships/ATTACK-REL-07187 - uses|S0154 uses T1553.002]] — Cobalt Strike → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-07188 - uses|S1081 uses T1033]] — BADHATCH → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07189 - uses|S0369 uses T1059.006]] — CoinTicker → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-07190 - uses|S1244 uses T1518.001]] — Medusa Ransomware → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07191 - uses|S9001 uses T1480]] — SystemBC → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-07192 - uses|S0461 uses T1083]] — SDBbot → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07193 - uses|G1053 uses T1027.002]] — Storm-0501 → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-07194 - uses|G0032 uses S0497]] — Lazarus Group → Dacls
+- [[07 ATT&CK Relationships/ATTACK-REL-07195 - uses|S0268 uses T1012]] — Bisonal → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07196 - uses|S0611 uses T1135]] — Clop → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07197 - uses|S1091 uses T1087.004]] — Pacu → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07198 - uses|S0341 uses T1046]] — Xbash → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07199 - uses|C0027 uses T1105]] — C0027 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07200 - uses|S1153 uses T1518]] — Cuckoo Stealer → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07201 - uses|S0412 uses T1071.002]] — ZxShell → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07202 - uses|S0465 uses T1071.002]] — CARROTBALL → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07203 - uses|G0047 uses T1120]] — Gamaredon Group → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07204 - uses|S0438 uses T1012]] — Attor → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07205 - uses|G1044 uses T1070]] — APT42 → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-07206 - uses|S0346 uses T1057]] — OceanSalt → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07207 - uses|S0050 uses T1555.003]] — CosmicDuke → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-07208 - uses|S1110 uses T1132.001]] — SLIGHTPULSE → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07209 - uses|S0559 uses T1027.015]] — SUNBURST → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-07210 - uses|G0090 uses S0363]] — WIRTE → Empire
+- [[07 ATT&CK Relationships/ATTACK-REL-07211 - uses|S1025 uses T1553.005]] — Amadey → Mark-of-the-Web Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-07212 - uses|G0128 uses T1036.004]] — ZIRCONIUM → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07213 - uses|S0333 uses T1059.003]] — UBoatRAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07214 - uses|G0035 uses T1591.002]] — Dragonfly → Business Relationships
+- [[07 ATT&CK Relationships/ATTACK-REL-07215 - uses|G1043 uses T1505.003]] — BlackByte → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07216 - uses|G0007 uses S0045]] — APT28 → ADVSTORESHELL
+- [[07 ATT&CK Relationships/ATTACK-REL-07217 - uses|G0035 uses T1012]] — Dragonfly → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07218 - uses|S0625 uses T1036.005]] — Cuba → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07219 - uses|G0093 uses T1074.001]] — GALLIUM → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07220 - uses|S0677 uses T1112]] — AADInternals → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07221 - uses|S0447 uses T1055.012]] — Lokibot → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-07222 - uses|G0056 uses S0178]] — PROMETHIUM → Truvasys
+- [[07 ATT&CK Relationships/ATTACK-REL-07223 - uses|S9020 uses T1574.001]] — LODEINFO → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07224 - uses|S0154 uses T1029]] — Cobalt Strike → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07225 - uses|S0175 uses T1090.004]] — meek → Domain Fronting
+- [[07 ATT&CK Relationships/ATTACK-REL-07226 - uses|S0011 uses T1124]] — Taidoor → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07227 - uses|S0347 uses T1027.013]] — AuditCred → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07228 - uses|S1076 uses T1573.001]] — QUIETCANARY → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07229 - uses|C0022 uses T1584.001]] — Operation Dream Job → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-07230 - uses|S1081 uses T1105]] — BADHATCH → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07231 - uses|G0087 uses T1505.003]] — APT39 → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07232 - uses|G0100 uses T1059.001]] — Inception → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07233 - uses|G1051 uses T1190]] — Medusa Group → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-07234 - uses|G0027 uses S0663]] — Threat Group-3390 → SysUpdate
+- [[07 ATT&CK Relationships/ATTACK-REL-07235 - uses|G1052 uses T1204.004]] — Contagious Interview → Malicious Copy and Paste
+- [[07 ATT&CK Relationships/ATTACK-REL-07236 - uses|G0106 uses T1552.004]] — Rocke → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-07237 - uses|C0035 uses T1564.013]] — KV Botnet Activity → Bind Mounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07238 - uses|G0085 uses T1056.002]] — FIN4 → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07239 - uses|S9023 uses T1008]] — HiddenFace → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-07240 - uses|S1106 uses T1033]] — NGLite → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07241 - uses|S1063 uses T1140]] — Brute Ratel C4 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07242 - uses|G0035 uses T1588.002]] — Dragonfly → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-07243 - uses|G1036 uses T1027.013]] — Moonstone Sleet → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07244 - uses|S0484 uses T1555.003]] — Carberp → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-07245 - uses|S0330 uses T1614.001]] — Zeus Panda → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07246 - uses|S1129 uses T1490]] — Akira → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07247 - uses|G0056 uses S0491]] — PROMETHIUM → StrongPity
+- [[07 ATT&CK Relationships/ATTACK-REL-07248 - uses|S0581 uses T1057]] — IronNetInjector → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07249 - uses|S0579 uses T1049]] — Waterbear → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07250 - uses|C0024 uses T1078.003]] — SolarWinds Compromise → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07251 - uses|S1159 uses T1018]] — DUSTTRAP → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07252 - uses|S1242 uses T1112]] — Qilin → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07253 - uses|S1240 uses T1059.011]] — RedLine Stealer → Lua
+- [[07 ATT&CK Relationships/ATTACK-REL-07254 - uses|S0048 uses T1005]] — PinchDuke → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07255 - uses|S1011 uses T1564]] — Tarrask → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-07256 - uses|G0047 uses T1547.001]] — Gamaredon Group → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07257 - uses|G0035 uses T1016]] — Dragonfly → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07258 - uses|S0363 uses T1558.002]] — Empire → Silver Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-07259 - uses|G0091 uses T1112]] — Silence → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07260 - uses|C0012 uses T1016]] — Operation CuckooBees → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07261 - uses|S0070 uses T1071.004]] — HTTPBrowser → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-07262 - uses|S0444 uses T1071.001]] — ShimRat → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07263 - uses|S1066 uses T1047]] — DarkTortilla → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-07264 - uses|S0129 uses T1132.001]] — AutoIt backdoor → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07265 - uses|S0556 uses T1489]] — Pay2Key → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-07266 - uses|S1159 uses T1615]] — DUSTTRAP → Group Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07267 - uses|S0088 uses T1518.001]] — Kasidet → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07268 - uses|G1022 uses T1083]] — ToddyCat → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07269 - uses|G0010 uses S0590]] — Turla → NBTscan
+- [[07 ATT&CK Relationships/ATTACK-REL-07270 - uses|S0263 uses T1140]] — TYPEFRAME → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07271 - uses|G0039 uses T1046]] — Suckfly → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07272 - uses|G0018 uses T1059.003]] — admin@338 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07273 - uses|S0612 uses T1543.003]] — WastedLocker → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07274 - uses|S0402 uses T1176.001]] — OSX/Shlayer → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-07275 - uses|S0091 uses T1573.001]] — Epic → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07276 - uses|S1110 uses T1573.001]] — SLIGHTPULSE → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07277 - uses|S1146 uses T1482]] — MgBot → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07278 - uses|G0007 uses T1092]] — APT28 → Communication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-07279 - uses|S0534 uses T1059.001]] — Bazar → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07280 - uses|S1042 uses T1041]] — SUGARDUMP → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07281 - uses|S0496 uses T1688]] — REvil → Safe Mode Boot
+- [[07 ATT&CK Relationships/ATTACK-REL-07282 - uses|C0040 uses S1158]] — APT41 DUST → DUSTPAN
+- [[07 ATT&CK Relationships/ATTACK-REL-07283 - uses|G0032 uses S0567]] — Lazarus Group → Dtrack
+- [[07 ATT&CK Relationships/ATTACK-REL-07284 - uses|S1087 uses T1566.001]] — AsyncRAT → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-07285 - uses|S0624 uses T1027]] — Ecipekac → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07286 - uses|G0025 uses S0069]] — APT17 → BLACKCOFFEE
+- [[07 ATT&CK Relationships/ATTACK-REL-07287 - uses|G1044 uses T1583.001]] — APT42 → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-07288 - uses|S0456 uses T1010]] — Aria-body → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07289 - uses|G0049 uses S1170]] — OilRig → ODAgent
+- [[07 ATT&CK Relationships/ATTACK-REL-07290 - uses|S0124 uses T1132.001]] — Pisloader → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07291 - uses|G1023 uses S1110]] — APT5 → SLIGHTPULSE
+- [[07 ATT&CK Relationships/ATTACK-REL-07292 - uses|G0077 uses T1588.002]] — Leafminer → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-07293 - uses|S0234 uses T1016]] — Bandook → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07294 - uses|G0032 uses T1070]] — Lazarus Group → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-07295 - uses|G1003 uses T1110.003]] — Ember Bear → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-07296 - uses|S0238 uses T1569.002]] — Proxysvc → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07297 - uses|S0694 uses T1497.003]] — DRATzarus → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-07298 - uses|S1153 uses T1059.004]] — Cuckoo Stealer → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07299 - uses|C0024 uses T1016.001]] — SolarWinds Compromise → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07300 - uses|S0476 uses T1087.001]] — Valak → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07301 - uses|C0063 uses T1113]] — 2025 Poland Wiper Attacks → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07302 - uses|G0094 uses T1684.001]] — Kimsuky → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-07303 - uses|S0575 uses T1140]] — Conti → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07304 - uses|G0100 uses T1083]] — Inception → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07305 - uses|S1159 uses T1057]] — DUSTTRAP → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07306 - uses|G0016 uses T1110.003]] — APT29 → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-07307 - uses|G1023 uses T1505.003]] — APT5 → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07308 - uses|C0030 uses T1573]] — Triton Safety Instrumented System Attack → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07309 - uses|S0228 uses T1685]] — NanHaiShu → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07310 - uses|G1017 uses S0359]] — Volt Typhoon → Nltest
+- [[07 ATT&CK Relationships/ATTACK-REL-07311 - uses|G1053 uses T1057]] — Storm-0501 → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07312 - uses|S0565 uses T1497.003]] — Raindrop → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-07313 - uses|S1190 uses T1132.001]] — Kapeka → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07314 - uses|S0482 uses T1082]] — Bundlore → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07315 - uses|G0098 uses T1588.002]] — BlackTech → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-07316 - uses|G1017 uses T1584.005]] — Volt Typhoon → Botnet
+- [[07 ATT&CK Relationships/ATTACK-REL-07317 - uses|G0022 uses T1543.003]] — APT3 → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07318 - uses|G0091 uses T1553.002]] — Silence → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-07319 - uses|S0242 uses T1486]] — SynAck → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-07320 - uses|S1014 uses T1059.005]] — DanBot → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-07321 - uses|G1016 uses S0160]] — FIN13 → certutil
+- [[07 ATT&CK Relationships/ATTACK-REL-07322 - uses|G0079 uses S0002]] — DarkHydrus → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-07323 - uses|G0046 uses T1102.002]] — FIN7 → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-07324 - uses|C0014 uses T1021.002]] — Operation Wocao → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-07325 - uses|G0059 uses T1047]] — Magic Hound → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-07326 - uses|S0615 uses T1140]] — SombRAT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07327 - uses|G1024 uses S1129]] — Akira → Akira
+- [[07 ATT&CK Relationships/ATTACK-REL-07328 - uses|G1022 uses S0020]] — ToddyCat → China Chopper
+- [[07 ATT&CK Relationships/ATTACK-REL-07329 - uses|S0567 uses T1074.001]] — Dtrack → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07330 - uses|S1193 uses T1059.005]] — TAMECAT → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-07331 - uses|G0010 uses T1584.003]] — Turla → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-07332 - uses|G0139 uses T1136.001]] — TeamTNT → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07333 - uses|S0387 uses T1555.003]] — KeyBoy → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-07334 - uses|G0078 uses S0385]] — Gorgon Group → njRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-07335 - uses|S0251 uses T1132.001]] — Zebrocy → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07336 - uses|S0180 uses T1016]] — Volgmer → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07337 - uses|G0082 uses T1070.004]] — APT38 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07338 - uses|S0356 uses T1573.001]] — KONNI → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07339 - uses|S1068 uses T1486]] — BlackCat → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-07340 - uses|S0168 uses T1547.001]] — Gazer → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07341 - uses|G0114 uses T1070.004]] — Chimera → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07342 - uses|S0651 uses T1106]] — BoxCaon → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07343 - uses|S0021 uses T1012]] — Derusbi → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07344 - uses|G0130 uses T1555.003]] — Ajax Security Team → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-07345 - uses|S0629 uses T1007]] — RainyDay → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07346 - uses|G0016 uses T1586.003]] — APT29 → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07347 - uses|S1086 uses T1027.001]] — Snip3 → Binary Padding
+- [[07 ATT&CK Relationships/ATTACK-REL-07348 - uses|G0143 uses S0645]] — Aquatic Panda → Wevtutil
+- [[07 ATT&CK Relationships/ATTACK-REL-07349 - uses|S0194 uses T1574.009]] — PowerSploit → Path Interception by Unquoted Path
+- [[07 ATT&CK Relationships/ATTACK-REL-07350 - uses|S0379 uses T1547.004]] — Revenge RAT → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07351 - uses|G0108 uses T1059.001]] — Blue Mockingbird → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07352 - uses|S0382 uses T1071.001]] — ServHelper → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07353 - uses|S1172 uses T1573.002]] — OilBooster → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07354 - uses|G0016 uses S0513]] — APT29 → LiteDuke
+- [[07 ATT&CK Relationships/ATTACK-REL-07355 - uses|G0090 uses T1140]] — WIRTE → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07356 - uses|S0168 uses T1055]] — Gazer → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-07357 - uses|G1039 uses T1560.001]] — RedCurl → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-07358 - uses|S0601 uses T1071]] — Hildegard → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-07359 - uses|G0037 uses T1070.004]] — FIN6 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07360 - uses|S0365 uses T1021.002]] — Olympic Destroyer → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-07361 - uses|S0276 uses T1555.002]] — Keydnap → Securityd Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-07362 - uses|S1041 uses T1036.005]] — Chinoxy → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07363 - uses|S0547 uses T1083]] — DropBook → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07364 - uses|S0500 uses T1547.001]] — MCMD → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07365 - uses|S0476 uses T1041]] — Valak → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07366 - uses|S0646 uses T1005]] — SpicyOmelette → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07367 - uses|S1185 uses T1480]] — LightSpy → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-07368 - uses|S0446 uses T1490]] — Ryuk → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07369 - uses|S0172 uses T1082]] — Reaver → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07370 - uses|G1052 uses T1684.001]] — Contagious Interview → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-07371 - uses|S1169 uses T1041]] — Mango → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07372 - uses|S0496 uses T1485]] — REvil → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-07373 - uses|S0695 uses T1059.006]] — Donut → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-07374 - uses|S0013 uses T1124]] — PlugX → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07375 - uses|G0037 uses S0552]] — FIN6 → AdFind
+- [[07 ATT&CK Relationships/ATTACK-REL-07376 - uses|G0094 uses T1585.001]] — Kimsuky → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07377 - uses|S9014 uses T1059.008]] — PHASEJAM → Network Device CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-07378 - uses|G0009 uses S0142]] — Deep Panda → StreamEx
+- [[07 ATT&CK Relationships/ATTACK-REL-07379 - uses|S0364 uses T1561.002]] — RawDisk → Disk Structure Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-07380 - uses|G1018 uses T1105]] — TA2541 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07381 - uses|S1202 uses T1135]] — LockBit 3.0 → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07382 - uses|S1081 uses T1090]] — BADHATCH → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07383 - uses|S1130 uses T1036.004]] — Raspberry Robin → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07384 - uses|S0662 uses T1574.001]] — RCSession → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07385 - uses|S0335 uses T1102]] — Carbon → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07386 - uses|G1018 uses T1053.005]] — TA2541 → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07387 - uses|S1168 uses T1059.003]] — SampleCheck5000 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07388 - uses|C0047 uses T1036.004]] — RedDelta Modified PlugX Infection Chain Operations → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07389 - uses|G0121 uses S0250]] — Sidewinder → Koadic
+- [[07 ATT&CK Relationships/ATTACK-REL-07390 - uses|S0695 uses T1059.001]] — Donut → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07391 - uses|S0665 uses T1027.011]] — ThreatNeedle → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-07392 - uses|G0087 uses T1105]] — APT39 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07393 - uses|S1224 uses T1005]] — CASTLETAP → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07394 - uses|S0340 uses T1041]] — Octopus → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07395 - uses|S1213 uses T1074.001]] — Lumma Stealer → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07396 - uses|G0007 uses T1119]] — APT28 → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-07397 - uses|G1053 uses T1059.001]] — Storm-0501 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07398 - uses|G0099 uses T1027]] — APT-C-36 → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07399 - uses|G0016 uses S0100]] — APT29 → ipconfig
+- [[07 ATT&CK Relationships/ATTACK-REL-07400 - uses|S0128 uses T1120]] — BADNEWS → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07401 - uses|S1032 uses T1036.005]] — PyDCrypt → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07402 - uses|S0486 uses T1082]] — Bonadan → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07403 - uses|C0007 uses T1018]] — FunnyDream → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07404 - uses|S0398 uses T1569.002]] — HyperBro → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07405 - uses|S0449 uses T1055.001]] — Maze → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-07406 - uses|G0012 uses T1203]] — Darkhotel → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07407 - uses|G1024 uses S0029]] — Akira → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-07408 - uses|G0010 uses T1069.001]] — Turla → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-07409 - uses|S1146 uses T1018]] — MgBot → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07410 - uses|G0096 uses T1105]] — APT41 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07411 - uses|G0016 uses T1583.006]] — APT29 → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07412 - uses|S0115 uses T1123]] — Crimson → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07413 - uses|S0140 uses T1078.002]] — Shamoon → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07414 - uses|S0438 uses T1041]] — Attor → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07415 - uses|G0129 uses T1583.001]] — Mustang Panda → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-07416 - uses|G1055 uses T1583.001]] — VOID MANTICORE → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-07417 - uses|S0441 uses T1547.001]] — PowerShower → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07418 - uses|G0134 uses S0334]] — Transparent Tribe → DarkComet
+- [[07 ATT&CK Relationships/ATTACK-REL-07419 - uses|G0117 uses T1087.002]] — Fox Kitten → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07420 - uses|G1017 uses T1590.006]] — Volt Typhoon → Network Security Appliances
+- [[07 ATT&CK Relationships/ATTACK-REL-07421 - uses|S0502 uses T1105]] — Drovorub → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07422 - uses|S0613 uses T1027.013]] — PS1 → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07423 - uses|S0501 uses T1057]] — PipeMon → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07424 - uses|S1246 uses T1657]] — BeaverTail → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-07425 - uses|G0034 uses T1590.001]] — Sandworm Team → Domain Properties
+- [[07 ATT&CK Relationships/ATTACK-REL-07426 - uses|S0267 uses T1124]] — FELIXROOT → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07427 - uses|S1207 uses T1497]] — XLoader → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-07428 - uses|S0603 uses T1106]] — Stuxnet → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07429 - uses|G0093 uses T1133]] — GALLIUM → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07430 - uses|S0147 uses T1074.001]] — Pteranodon → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07431 - uses|S0690 uses T1555.001]] — Green Lambert → Keychain
+- [[07 ATT&CK Relationships/ATTACK-REL-07432 - uses|S0268 uses T1041]] — Bisonal → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07433 - uses|G0022 uses T1095]] — APT3 → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-07434 - uses|S0379 uses T1102.002]] — Revenge RAT → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-07435 - uses|S0649 uses T1082]] — SMOKEDHAM → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07436 - uses|S0256 uses T1547.001]] — Mosquito → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07437 - uses|S0461 uses T1027]] — SDBbot → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07438 - uses|S0597 uses T1071.001]] — GoldFinder → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07439 - uses|S1031 uses T1059.003]] — PingPull → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07440 - uses|S0200 uses T1105]] — Dipsind → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07441 - uses|G0102 uses T1133]] — Wizard Spider → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07442 - uses|G0087 uses T1021.004]] — APT39 → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-07443 - uses|S0634 uses T1140]] — EnvyScout → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07444 - uses|S1073 uses T1082]] — Royal → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07445 - uses|S1063 uses T1558.003]] — Brute Ratel C4 → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-07446 - uses|G0108 uses T1021.002]] — Blue Mockingbird → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-07447 - uses|S0622 uses T1106]] — AppleSeed → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07448 - uses|G1023 uses T1685]] — APT5 → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07449 - uses|G1017 uses T1570]] — Volt Typhoon → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07450 - uses|S9007 uses T1070.004]] — HTTPTroy → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07451 - uses|C0036 uses T1566.002]] — Pikabot Distribution February 2024 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07452 - uses|G1054 uses S0190]] — MirrorFace → BITSAdmin
+- [[07 ATT&CK Relationships/ATTACK-REL-07453 - uses|S0662 uses T1105]] — RCSession → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07454 - uses|G0128 uses T1090.003]] — ZIRCONIUM → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07455 - uses|G0045 uses T1047]] — menuPass → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-07456 - uses|S1039 uses T1008]] — Bumblebee → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-07457 - uses|S0496 uses T1685]] — REvil → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07458 - uses|G1020 uses T1608.004]] — Mustard Tempest → Drive-by Target
+- [[07 ATT&CK Relationships/ATTACK-REL-07459 - uses|G1004 uses T1598.004]] — LAPSUS$ → Spearphishing Voice
+- [[07 ATT&CK Relationships/ATTACK-REL-07460 - uses|S0002 uses T1003.001]] — Mimikatz → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-07461 - uses|S9023 uses T1112]] — HiddenFace → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07462 - uses|G0115 uses T1566]] — GOLD SOUTHFIELD → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-07463 - uses|S0483 uses T1055.012]] — IcedID → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-07464 - uses|S0409 uses T1056.001]] — Machete → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-07465 - uses|S1063 uses T1620]] — Brute Ratel C4 → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-07466 - uses|S0409 uses T1036.005]] — Machete → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07467 - uses|G0081 uses T1135]] — Tropic Trooper → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07468 - uses|S0140 uses T1486]] — Shamoon → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-07469 - uses|G0016 uses S0175]] — APT29 → meek
+- [[07 ATT&CK Relationships/ATTACK-REL-07470 - uses|S0615 uses T1036]] — SombRAT → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-07471 - uses|S9008 uses T1677]] — Shai-Hulud → Poisoned Pipeline Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07472 - uses|G1051 uses T1087.001]] — Medusa Group → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07473 - uses|S0343 uses T1112]] — Exaramel for Windows → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07474 - uses|S1070 uses T1036.005]] — Black Basta → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07475 - uses|S0214 uses T1105]] — HAPPYWORK → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07476 - uses|G0010 uses T1567.002]] — Turla → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-07477 - uses|G1022 uses T1005]] — ToddyCat → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07478 - uses|G0060 uses T1204.002]] — BRONZE BUTLER → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07479 - uses|S0635 uses T1105]] — BoomBox → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07480 - uses|S0534 uses T1070.004]] — Bazar → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07481 - uses|S0395 uses T1071.003]] — LightNeuron → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07482 - uses|G1017 uses S0097]] — Volt Typhoon → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-07483 - uses|G0049 uses S0057]] — OilRig → Tasklist
+- [[07 ATT&CK Relationships/ATTACK-REL-07484 - uses|G0049 uses T1566.002]] — OilRig → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07485 - uses|S0013 uses T1083]] — PlugX → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07486 - uses|G0059 uses T1204.001]] — Magic Hound → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07487 - uses|S0335 uses T1018]] — Carbon → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07488 - uses|S0092 uses T1033]] — Agent.btz → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07489 - uses|C0014 uses T1016.001]] — Operation Wocao → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07490 - uses|S0565 uses T1036.005]] — Raindrop → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07491 - uses|C0061 uses S0225]] — Operation Digital Eye → sqlmap
+- [[07 ATT&CK Relationships/ATTACK-REL-07492 - uses|G0046 uses T1218.011]] — FIN7 → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-07493 - uses|S0241 uses T1057]] — RATANKBA → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07494 - uses|C0006 uses T1560.001]] — Operation Honeybee → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-07495 - uses|S1075 uses T1041]] — KOPILUWAK → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07496 - uses|S9001 uses T1573.001]] — SystemBC → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07497 - uses|S0670 uses T1057]] — WarzoneRAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07498 - uses|S0353 uses T1124]] — NOKKI → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07499 - uses|S1065 uses T1566.001]] — Woody RAT → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-07500 - uses|S0170 uses T1030]] — Helminth → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-07501 - uses|G0069 uses S1040]] — MuddyWater → Rclone
+- [[07 ATT&CK Relationships/ATTACK-REL-07502 - uses|S0331 uses T1113]] — Agent Tesla → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07503 - uses|S0230 uses T1105]] — ZeroT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07504 - uses|G0139 uses T1098.004]] — TeamTNT → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-07505 - uses|S0443 uses T1140]] — MESSAGETAP → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07506 - uses|S1199 uses T1053.005]] — LockBit 2.0 → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07507 - uses|S0234 uses T1106]] — Bandook → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07508 - uses|S0148 uses T1106]] — RTM → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07509 - uses|S0082 uses T1082]] — Emissary → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07510 - uses|S0340 uses T1567.002]] — Octopus → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-07511 - uses|S0093 uses T1070.004]] — Backdoor.Oldrea → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07512 - uses|G1011 uses T1102]] — EXOTIC LILY → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07513 - uses|G1055 uses T1560.001]] — VOID MANTICORE → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-07514 - uses|G0034 uses T1539]] — Sandworm Team → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-07515 - uses|G0070 uses T1027.002]] — Dark Caracal → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-07516 - uses|S0502 uses T1041]] — Drovorub → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07517 - uses|G0007 uses T1074.002]] — APT28 → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07518 - uses|S9037 uses T1027]] — RustyWater → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07519 - uses|S1130 uses T1083]] — Raspberry Robin → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07520 - uses|G1006 uses T1059.006]] — Earth Lusca → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-07521 - uses|S0673 uses T1217]] — DarkWatchman → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07522 - uses|S9015 uses T1105]] — BRICKSTORM → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07523 - uses|S0050 uses T1083]] — CosmicDuke → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07524 - uses|S1146 uses T1005]] — MgBot → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07525 - uses|S0603 uses T1082]] — Stuxnet → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07526 - uses|S0456 uses T1134.002]] — Aria-body → Create Process with Token
+- [[07 ATT&CK Relationships/ATTACK-REL-07527 - uses|G0052 uses T1553.002]] — CopyKittens → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-07528 - uses|G0125 uses S0357]] — HAFNIUM → Impacket
+- [[07 ATT&CK Relationships/ATTACK-REL-07529 - uses|C0058 uses T1053.005]] — SharePoint ToolShell Exploitation → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07530 - uses|S0023 uses T1012]] — CHOPSTICK → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07531 - uses|G1047 uses T1040]] — Velvet Ant → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-07532 - uses|G0047 uses T1027]] — Gamaredon Group → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07533 - uses|G0083 uses S0447]] — SilverTerrier → Lokibot
+- [[07 ATT&CK Relationships/ATTACK-REL-07534 - uses|S0531 uses T1573.002]] — Grandoreiro → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07535 - uses|S0363 uses T1056.001]] — Empire → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-07536 - uses|G0091 uses T1021.001]] — Silence → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-07537 - uses|S9034 uses T1218.007]] — Tsundere Botnet → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-07538 - uses|S1198 uses T1132.001]] — Gomir → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07539 - uses|S0640 uses T1548.002]] — Avaddon → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-07540 - uses|G0066 uses S0207]] — Elderwood → Vasport
+- [[07 ATT&CK Relationships/ATTACK-REL-07541 - uses|S0154 uses T1518]] — Cobalt Strike → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07542 - uses|C0025 uses T1059.001]] — 2016 Ukraine Electric Power Attack → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07543 - uses|G1030 uses S0590]] — Agrius → NBTscan
+- [[07 ATT&CK Relationships/ATTACK-REL-07544 - uses|S0599 uses T1110]] — Kinsing → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-07545 - uses|S0367 uses T1059.001]] — Emotet → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07546 - uses|G0045 uses S0154]] — menuPass → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-07547 - uses|S1087 uses T1125]] — AsyncRAT → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07548 - uses|G1004 uses T1578.003]] — LAPSUS$ → Delete Cloud Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-07549 - uses|S0152 uses T1113]] — EvilGrab → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07550 - uses|G0143 uses S0154]] — Aquatic Panda → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-07551 - uses|S0625 uses T1620]] — Cuba → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-07552 - uses|G1054 uses T1074.002]] — MirrorFace → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07553 - uses|S9031 uses T1574.001]] — AshTag → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07554 - uses|G0035 uses T1195.002]] — Dragonfly → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-07555 - uses|G1019 uses T1659]] — MoustachedBouncer → Content Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-07556 - uses|S0531 uses T1685]] — Grandoreiro → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07557 - uses|S0031 uses T1012]] — BACKSPACE → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07558 - uses|S1142 uses T1074.001]] — LunarMail → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07559 - uses|G0080 uses T1070.004]] — Cobalt Group → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07560 - uses|S0389 uses T1204.002]] — JCry → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07561 - uses|S1091 uses T1685.002]] — Pacu → Disable or Modify Cloud Log
+- [[07 ATT&CK Relationships/ATTACK-REL-07562 - uses|G1003 uses S0488]] — Ember Bear → CrackMapExec
+- [[07 ATT&CK Relationships/ATTACK-REL-07563 - uses|G1030 uses T1046]] — Agrius → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07564 - uses|S0153 uses T1547.009]] — RedLeaves → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-07565 - uses|G0096 uses T1087.002]] — APT41 → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07566 - uses|S1039 uses T1132.001]] — Bumblebee → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07567 - uses|S0395 uses T1106]] — LightNeuron → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07568 - uses|S0154 uses T1021.002]] — Cobalt Strike → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-07569 - uses|G0027 uses T1033]] — Threat Group-3390 → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07570 - uses|S1015 uses T1033]] — Milan → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07571 - uses|S0339 uses T1059.003]] — Micropsia → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07572 - uses|S1111 uses T1204.002]] — DarkGate → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07573 - uses|G0016 uses S0048]] — APT29 → PinchDuke
+- [[07 ATT&CK Relationships/ATTACK-REL-07574 - uses|S0279 uses T1685]] — Proton → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07575 - uses|G0102 uses T1588.002]] — Wizard Spider → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-07576 - uses|G0129 uses T1566.001]] — Mustang Panda → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-07577 - uses|G1016 uses T1021.002]] — FIN13 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-07578 - uses|S0409 uses T1573.001]] — Machete → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07579 - uses|G0004 uses T1087.001]] — Ke3chang → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07580 - uses|G1016 uses T1105]] — FIN13 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07581 - uses|S0527 uses T1548.002]] — CSPY Downloader → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-07582 - uses|S1021 uses T1033]] — DnsSystem → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07583 - uses|S0350 uses T1070.004]] — zwShell → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07584 - uses|G1003 uses T1112]] — Ember Bear → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07585 - uses|S0402 uses T1082]] — OSX/Shlayer → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07586 - uses|G1031 uses T1685]] — Saint Bear → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07587 - uses|S0147 uses T1041]] — Pteranodon → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07588 - uses|S0581 uses T1027.013]] — IronNetInjector → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07589 - uses|S0677 uses T1649]] — AADInternals → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-07590 - uses|S1070 uses T1680]] — Black Basta → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07591 - uses|G0082 uses T1083]] — APT38 → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07592 - uses|S1065 uses T1057]] — Woody RAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07593 - uses|S0574 uses T1140]] — BendyBear → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07594 - uses|G0001 uses T1583.002]] — Axiom → DNS Server
+- [[07 ATT&CK Relationships/ATTACK-REL-07595 - uses|S0543 uses T1027.002]] — Spark → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-07596 - uses|S0023 uses T1027.011]] — CHOPSTICK → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-07597 - uses|G0082 uses S0334]] — APT38 → DarkComet
+- [[07 ATT&CK Relationships/ATTACK-REL-07598 - uses|G0034 uses S0357]] — Sandworm Team → Impacket
+- [[07 ATT&CK Relationships/ATTACK-REL-07599 - uses|G0096 uses T1213.003]] — APT41 → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-07600 - uses|C0063 uses T1003.003]] — 2025 Poland Wiper Attacks → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-07601 - uses|S0413 uses T1110.003]] — MailSniper → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-07602 - uses|G0007 uses T1071.001]] — APT28 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07603 - uses|G0050 uses T1204.001]] — APT32 → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07604 - uses|S0627 uses T1497.003]] — SodaMaster → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-07605 - uses|G0034 uses T1049]] — Sandworm Team → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07606 - uses|G0081 uses T1049]] — Tropic Trooper → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07607 - uses|S0023 uses T1071.001]] — CHOPSTICK → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07608 - uses|S1029 uses T1082]] — AuTo Stealer → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07609 - uses|G0019 uses T1036.004]] — Naikon → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07610 - uses|G1008 uses T1218.005]] — SideCopy → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-07611 - uses|G0050 uses T1560]] — APT32 → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-07612 - uses|S1034 uses T1497.003]] — StrifeWater → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-07613 - uses|G1023 uses S0104]] — APT5 → netstat
+- [[07 ATT&CK Relationships/ATTACK-REL-07614 - uses|S1031 uses T1070.006]] — PingPull → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-07615 - uses|G0059 uses T1033]] — Magic Hound → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07616 - uses|S0353 uses T1027]] — NOKKI → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07617 - uses|S1020 uses T1027.013]] — Kevin → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07618 - uses|S1217 uses T1105]] — VIRTUALPITA → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07619 - uses|G0045 uses T1090.002]] — menuPass → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07620 - uses|G0065 uses S0069]] — Leviathan → BLACKCOFFEE
+- [[07 ATT&CK Relationships/ATTACK-REL-07621 - uses|S0272 uses T1033]] — NDiskMonitor → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07622 - uses|S0436 uses T1059.003]] — TSCookie → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07623 - uses|G1047 uses T1037.004]] — Velvet Ant → RC Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-07624 - uses|S0386 uses T1041]] — Ursnif → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07625 - uses|G1048 uses T1505.006]] — UNC3886 → vSphere Installation Bundles
+- [[07 ATT&CK Relationships/ATTACK-REL-07626 - uses|S0148 uses T1548.002]] — RTM → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-07627 - uses|S0085 uses T1136.001]] — S-Type → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07628 - uses|S1248 uses T1614]] — XORIndex Loader → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07629 - uses|G0096 uses S0006]] — APT41 → pwdump
+- [[07 ATT&CK Relationships/ATTACK-REL-07630 - uses|S0205 uses T1112]] — Naid → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07631 - uses|S0088 uses T1105]] — Kasidet → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07632 - uses|C0015 uses S0575]] — C0015 → Conti
+- [[07 ATT&CK Relationships/ATTACK-REL-07633 - uses|S0386 uses T1055.005]] — Ursnif → Thread Local Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-07634 - uses|G0053 uses T1070.004]] — FIN5 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07635 - uses|S1213 uses T1204.002]] — Lumma Stealer → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07636 - uses|G1003 uses T1595.002]] — Ember Bear → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-07637 - uses|S1058 uses T1486]] — Prestige → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-07638 - uses|S1218 uses T1505.006]] — VIRTUALPIE → vSphere Installation Bundles
+- [[07 ATT&CK Relationships/ATTACK-REL-07639 - uses|C0024 uses T1584.001]] — SolarWinds Compromise → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-07640 - uses|S1183 uses T1020]] — StrelaStealer → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-07641 - uses|G1016 uses T1003.002]] — FIN13 → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-07642 - uses|S0679 uses T1546.015]] — Ferocious → Component Object Model Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-07643 - uses|G0121 uses T1559.002]] — Sidewinder → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-07644 - uses|S9008 uses T1078.004]] — Shai-Hulud → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07645 - uses|S0689 uses T1106]] — WhisperGate → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07646 - uses|S1121 uses T1083]] — LITTLELAMB.WOOLTEA → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07647 - uses|C0058 uses T1552.001]] — SharePoint ToolShell Exploitation → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-07648 - uses|S0492 uses T1105]] — CookieMiner → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07649 - uses|G1039 uses T1005]] — RedCurl → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07650 - uses|S1185 uses T1046]] — LightSpy → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07651 - uses|S0631 uses T1112]] — Chaes → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07652 - uses|C0044 uses T1059.001]] — Juicy Mix → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07653 - uses|G0047 uses T1027.010]] — Gamaredon Group → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-07654 - uses|S0697 uses T1083]] — HermeticWiper → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07655 - uses|S0125 uses T1083]] — Remsec → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07656 - uses|S0612 uses T1059.003]] — WastedLocker → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07657 - uses|G1054 uses T1553.002]] — MirrorFace → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-07658 - uses|S1139 uses T1486]] — INC Ransomware → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-07659 - uses|S0015 uses T1059.003]] — Ixeshe → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07660 - uses|S0206 uses T1055]] — Wiarp → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-07661 - uses|S0182 uses T1685.005]] — FinFisher → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-07662 - uses|G0098 uses T1204.002]] — BlackTech → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07663 - uses|G0102 uses S0632]] — Wizard Spider → GrimAgent
+- [[07 ATT&CK Relationships/ATTACK-REL-07664 - uses|S0220 uses T1573.001]] — Chaos → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07665 - uses|S1229 uses T1082]] — Havoc → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07666 - uses|G1031 uses T1059.003]] — Saint Bear → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07667 - uses|G1016 uses T1036.005]] — FIN13 → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07668 - uses|S0250 uses T1003.002]] — Koadic → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-07669 - uses|G0049 uses S1173]] — OilRig → PowerExchange
+- [[07 ATT&CK Relationships/ATTACK-REL-07670 - uses|S0482 uses T1059.007]] — Bundlore → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-07671 - uses|S0456 uses T1057]] — Aria-body → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07672 - uses|S0483 uses T1518.001]] — IcedID → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07673 - uses|S0622 uses T1041]] — AppleSeed → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07674 - uses|G0016 uses S0183]] — APT29 → Tor
+- [[07 ATT&CK Relationships/ATTACK-REL-07675 - uses|G0026 uses T1071.004]] — APT18 → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-07676 - uses|G0037 uses T1102]] — FIN6 → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07677 - uses|S1031 uses T1016]] — PingPull → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07678 - uses|S9042 uses T1027.009]] — CanisterWorm → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-07679 - uses|S9037 uses T1684.001]] — RustyWater → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-07680 - uses|G1031 uses T1684.001]] — Saint Bear → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-07681 - uses|S0631 uses T1132.001]] — Chaes → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07682 - uses|S0035 uses T1083]] — SPACESHIP → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07683 - uses|S0431 uses T1016]] — HotCroissant → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07684 - uses|S1059 uses T1574.001]] — metaMain → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07685 - uses|G0077 uses S0413]] — Leafminer → MailSniper
+- [[07 ATT&CK Relationships/ATTACK-REL-07686 - uses|G0065 uses S0233]] — Leviathan → MURKYTOP
+- [[07 ATT&CK Relationships/ATTACK-REL-07687 - uses|G0027 uses T1003.004]] — Threat Group-3390 → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-07688 - uses|G0027 uses T1078]] — Threat Group-3390 → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07689 - uses|G1030 uses T1078.002]] — Agrius → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07690 - uses|S0332 uses T1564.003]] — Remcos → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-07691 - uses|G0059 uses T1105]] — Magic Hound → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07692 - uses|S0079 uses T1041]] — MobileOrder → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07693 - uses|S0633 uses T1134]] — Sliver → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-07694 - uses|C0022 uses T1587.001]] — Operation Dream Job → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-07695 - uses|S0546 uses T1059.001]] — SharpStage → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07696 - uses|S1122 uses T1115]] — Mispadu → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-07697 - uses|C0027 uses T1078.004]] — C0027 → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07698 - uses|S0514 uses T1069.002]] — WellMess → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-07699 - uses|G1018 uses S0670]] — TA2541 → WarzoneRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-07700 - uses|G0035 uses T1547.001]] — Dragonfly → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07701 - uses|S0631 uses T1071.001]] — Chaes → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07702 - uses|S1020 uses T1041]] — Kevin → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07703 - uses|G0034 uses T1589.003]] — Sandworm Team → Employee Names
+- [[07 ATT&CK Relationships/ATTACK-REL-07704 - uses|G0007 uses S0135]] — APT28 → HIDEDRV
+- [[07 ATT&CK Relationships/ATTACK-REL-07705 - uses|S1134 uses T1140]] — DEADWOOD → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07706 - uses|S1060 uses T1132.001]] — Mafalda → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07707 - uses|S1020 uses T1008]] — Kevin → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-07708 - uses|S0642 uses T1204.002]] — BADFLICK → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07709 - uses|S0229 uses T1016]] — Orz → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07710 - uses|G1055 uses T1686.003]] — VOID MANTICORE → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-07711 - uses|S0673 uses T1082]] — DarkWatchman → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07712 - uses|S0538 uses T1025]] — Crutch → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-07713 - uses|S1213 uses T1055.012]] — Lumma Stealer → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-07714 - uses|S0625 uses T1106]] — Cuba → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07715 - uses|S1078 uses T1571]] — RotaJakiro → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-07716 - uses|G0067 uses T1059.003]] — APT37 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07717 - uses|S0499 uses T1547.001]] — Hancitor → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07718 - uses|C0012 uses T1033]] — Operation CuckooBees → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07719 - uses|C0018 uses T1486]] — C0018 → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-07720 - uses|S0367 uses T1057]] — Emotet → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07721 - uses|S0039 uses T1069.001]] — Net → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-07722 - uses|G0010 uses S0096]] — Turla → Systeminfo
+- [[07 ATT&CK Relationships/ATTACK-REL-07723 - uses|G0007 uses T1113]] — APT28 → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07724 - uses|G1052 uses T1059.004]] — Contagious Interview → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07725 - uses|S0276 uses T1564.009]] — Keydnap → Resource Forking
+- [[07 ATT&CK Relationships/ATTACK-REL-07726 - uses|S1012 uses T1059.001]] — PowerLess → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07727 - uses|S1226 uses T1115]] — BOOKWORM → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-07728 - uses|C0062 uses T1584.004]] — Anthropic AI-orchestrated Campaign → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-07729 - uses|S1134 uses T1561.001]] — DEADWOOD → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-07730 - uses|S0331 uses T1218.009]] — Agent Tesla → Regsvcs/Regasm
+- [[07 ATT&CK Relationships/ATTACK-REL-07731 - uses|G0115 uses T1133]] — GOLD SOUTHFIELD → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07732 - uses|G1021 uses T1059.003]] — Cinnamon Tempest → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07733 - uses|S0377 uses T1574.006]] — Ebury → Dynamic Linker Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-07734 - uses|S1042 uses T1071.001]] — SUGARDUMP → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07735 - uses|S0647 uses T1113]] — Turian → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07736 - uses|G1004 uses T1555.005]] — LAPSUS$ → Password Managers
+- [[07 ATT&CK Relationships/ATTACK-REL-07737 - uses|S0180 uses T1140]] — Volgmer → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07738 - uses|S1071 uses T1482]] — Rubeus → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07739 - uses|S0657 uses T1518.001]] — BLUELIGHT → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07740 - uses|S0671 uses T1053.005]] — Tomiris → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07741 - uses|S0230 uses T1071.001]] — ZeroT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07742 - uses|S0038 uses T1078]] — Duqu → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07743 - uses|G1022 uses T1564.003]] — ToddyCat → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-07744 - uses|G0046 uses S0030]] — FIN7 → Carbanak
+- [[07 ATT&CK Relationships/ATTACK-REL-07745 - uses|S1242 uses T1547.004]] — Qilin → Winlogon Helper DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07746 - uses|S0650 uses T1518.001]] — QakBot → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07747 - uses|S0268 uses T1497.003]] — Bisonal → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-07748 - uses|G0094 uses T1005]] — Kimsuky → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07749 - uses|G1035 uses T1113]] — Winter Vivern → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07750 - uses|S0692 uses T1548.002]] — SILENTTRINITY → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-07751 - uses|G1023 uses S1050]] — APT5 → PcShare
+- [[07 ATT&CK Relationships/ATTACK-REL-07752 - uses|S0455 uses T1057]] — Metamorfo → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07753 - uses|S9022 uses T1555.003]] — MirrorStealer → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-07754 - uses|G0129 uses S1233]] — Mustang Panda → PAKLOG
+- [[07 ATT&CK Relationships/ATTACK-REL-07755 - uses|S9013 uses T1556.004]] — DRYHOOK → Network Device Authentication
+- [[07 ATT&CK Relationships/ATTACK-REL-07756 - uses|S1200 uses T1070.004]] — StealBit → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07757 - uses|G0034 uses T1105]] — Sandworm Team → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07758 - uses|G0016 uses S0661]] — APT29 → FoggyWeb
+- [[07 ATT&CK Relationships/ATTACK-REL-07759 - uses|S1060 uses T1112]] — Mafalda → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07760 - uses|S0087 uses T1573.001]] — Hi-Zor → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07761 - uses|S9038 uses T1678]] — DynoWiper → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07762 - uses|S0266 uses T1036]] — TrickBot → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-07763 - uses|S0493 uses T1497.003]] — GoldenSpy → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-07764 - uses|S0334 uses T1056.001]] — DarkComet → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-07765 - uses|S0531 uses T1102.001]] — Grandoreiro → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-07766 - uses|S1026 uses T1132.001]] — Mongall → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07767 - uses|S0431 uses T1027.002]] — HotCroissant → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-07768 - uses|S0476 uses T1204.002]] — Valak → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07769 - uses|S0481 uses T1564.006]] — Ragnar Locker → Run Virtual Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-07770 - uses|S0467 uses T1056.001]] — TajMahal → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-07771 - uses|G0066 uses T1204.002]] — Elderwood → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07772 - uses|G0047 uses S0097]] — Gamaredon Group → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-07773 - uses|S1193 uses T1105]] — TAMECAT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07774 - uses|S0022 uses T1572]] — Uroburos → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-07775 - uses|S0663 uses T1016.001]] — SysUpdate → Internet Connection Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07776 - uses|S0612 uses T1564.004]] — WastedLocker → NTFS File Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-07777 - uses|G0049 uses T1005]] — OilRig → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07778 - uses|G1047 uses T1574.001]] — Velvet Ant → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07779 - uses|S1063 uses T1482]] — Brute Ratel C4 → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07780 - uses|C0056 uses T1090.003]] — RedPenguin → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07781 - uses|S0699 uses T1071.001]] — Mythic → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07782 - uses|S1199 uses T1140]] — LockBit 2.0 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07783 - uses|G0139 uses T1587.001]] — TeamTNT → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-07784 - uses|G1031 uses T1204.001]] — Saint Bear → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07785 - uses|S0434 uses T1070.004]] — Imminent Monitor → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07786 - uses|S0336 uses T1059.005]] — NanoCore → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-07787 - uses|G0045 uses T1119]] — menuPass → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-07788 - uses|C0032 uses T1053.005]] — C0032 → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07789 - uses|S0093 uses T1046]] — Backdoor.Oldrea → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07790 - uses|S0643 uses T1113]] — Peppy → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07791 - uses|S1160 uses T1036.005]] — Latrodectus → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07792 - uses|C0024 uses T1555]] — SolarWinds Compromise → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-07793 - uses|S0458 uses T1106]] — Ramsay → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07794 - uses|S0348 uses T1008]] — Cardinal RAT → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-07795 - uses|S1139 uses T1057]] — INC Ransomware → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07796 - uses|C0014 uses T1090.003]] — Operation Wocao → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07797 - uses|S1201 uses T1102.001]] — TRANSLATEXT → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-07798 - uses|S0584 uses T1569.001]] — AppleJeus → Launchctl
+- [[07 ATT&CK Relationships/ATTACK-REL-07799 - uses|G0102 uses T1018]] — Wizard Spider → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07800 - uses|S1203 uses T1205]] — J-magic → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-07801 - uses|S0021 uses T1083]] — Derusbi → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07802 - uses|S0396 uses T1203]] — EvilBunny → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07803 - uses|S1200 uses T1071.001]] — StealBit → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07804 - uses|S0677 uses T1552.004]] — AADInternals → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-07805 - uses|S0265 uses T1010]] — Kazuar → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07806 - uses|G0128 uses T1105]] — ZIRCONIUM → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07807 - uses|G0102 uses T1003.001]] — Wizard Spider → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-07808 - uses|S1022 uses T1005]] — IceApple → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07809 - uses|G0038 uses T1573.001]] — Stealth Falcon → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-07810 - uses|G0092 uses S0154]] — TA505 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-07811 - uses|S1060 uses T1074.001]] — Mafalda → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07812 - uses|G0129 uses T1059.007]] — Mustang Panda → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-07813 - uses|S0382 uses T1053.005]] — ServHelper → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07814 - uses|G0010 uses T1560.001]] — Turla → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-07815 - uses|G0016 uses S0677]] — APT29 → AADInternals
+- [[07 ATT&CK Relationships/ATTACK-REL-07816 - uses|S0658 uses T1518]] — XCSSET → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07817 - uses|G0125 uses T1132.001]] — HAFNIUM → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-07818 - uses|S0125 uses T1049]] — Remsec → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07819 - uses|G0096 uses T1546.008]] — APT41 → Accessibility Features
+- [[07 ATT&CK Relationships/ATTACK-REL-07820 - uses|S1086 uses T1204.002]] — Snip3 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07821 - uses|S0663 uses T1057]] — SysUpdate → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07822 - uses|S0151 uses T1059.001]] — HALFBAKED → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07823 - uses|S0638 uses T1083]] — Babuk → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07824 - uses|S0172 uses T1560.003]] — Reaver → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-07825 - uses|S0670 uses T1112]] — WarzoneRAT → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07826 - uses|S1099 uses T1090]] — Samurai → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07827 - uses|S0683 uses T1610]] — Peirates → Deploy Container
+- [[07 ATT&CK Relationships/ATTACK-REL-07828 - uses|G1046 uses T1105]] — Storm-1811 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07829 - uses|S1202 uses T1027.002]] — LockBit 3.0 → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-07830 - uses|S0681 uses T1217]] — Lizar → Browser Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07831 - uses|G0071 uses S0103]] — Orangeworm → route
+- [[07 ATT&CK Relationships/ATTACK-REL-07832 - uses|S0125 uses T1059.011]] — Remsec → Lua
+- [[07 ATT&CK Relationships/ATTACK-REL-07833 - uses|S0688 uses T1106]] — Meteor → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07834 - uses|S0049 uses T1016]] — GeminiDuke → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07835 - uses|S1202 uses T1484.001]] — LockBit 3.0 → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-07836 - uses|G0040 uses T1027.010]] — Patchwork → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-07837 - uses|S0531 uses T1059.005]] — Grandoreiro → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-07838 - uses|S0455 uses T1027.013]] — Metamorfo → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07839 - uses|S0242 uses T1007]] — SynAck → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07840 - uses|S0194 uses T1027.005]] — PowerSploit → Indicator Removal from Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07841 - uses|G0095 uses T1204.001]] — Machete → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07842 - uses|S1168 uses T1140]] — SampleCheck5000 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07843 - uses|G1019 uses T1068]] — MoustachedBouncer → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-07844 - uses|S1030 uses T1016]] — Squirrelwaffle → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07845 - uses|S0673 uses T1059.003]] — DarkWatchman → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07846 - uses|S1035 uses T1027]] — Small Sieve → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07847 - uses|S0240 uses T1555.004]] — ROKRAT → Windows Credential Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-07848 - uses|S9019 uses T1105]] — PureCrypter → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07849 - uses|S0013 uses T1036.004]] — PlugX → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07850 - uses|S0445 uses T1041]] — ShimRatReporter → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07851 - uses|G1032 uses T1219]] — INC Ransom → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07852 - uses|S9043 uses T1560]] — Mini Shai-Hulud → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-07853 - uses|G0096 uses T1059.003]] — APT41 → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07854 - uses|S0596 uses T1105]] — ShadowPad → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07855 - uses|S0039 uses T1087.001]] — Net → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07856 - uses|S0664 uses T1205]] — Pandora → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-07857 - uses|S0260 uses T1564.001]] — InvisiMole → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-07858 - uses|C0040 uses T1071.001]] — APT41 DUST → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-07859 - uses|S0657 uses T1016]] — BLUELIGHT → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07860 - uses|G0030 uses T1560.001]] — Lotus Blossom → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-07861 - uses|S0281 uses T1048.003]] — Dok → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-07862 - uses|S0681 uses T1106]] — Lizar → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07863 - uses|G0098 uses T1574.001]] — BlackTech → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-07864 - uses|G1035 uses T1584.006]] — Winter Vivern → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07865 - uses|S1042 uses T1518]] — SUGARDUMP → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07866 - uses|S0512 uses T1082]] — FatDuke → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07867 - uses|S0090 uses T1112]] — Rover → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07868 - uses|G0034 uses T1090]] — Sandworm Team → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07869 - uses|G1004 uses T1068]] — LAPSUS$ → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-07870 - uses|S0277 uses T1113]] — FruitFly → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07871 - uses|G1052 uses T1683.002]] — Contagious Interview → Audio-Visual Content
+- [[07 ATT&CK Relationships/ATTACK-REL-07872 - uses|S0201 uses T1056.001]] — JPIN → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-07873 - uses|S1203 uses T1059.004]] — J-magic → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07874 - uses|S0663 uses T1140]] — SysUpdate → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07875 - uses|S9008 uses T1098]] — Shai-Hulud → Account Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-07876 - uses|G0139 uses T1543.002]] — TeamTNT → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07877 - uses|S0131 uses T1027.013]] — TINYTYPHON → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07878 - uses|G1017 uses T1046]] — Volt Typhoon → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07879 - uses|G0090 uses T1684.001]] — WIRTE → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-07880 - uses|G0062 uses T1203]] — TA459 → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07881 - uses|S0650 uses T1566.001]] — QakBot → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-07882 - uses|S0483 uses T1027.013]] — IcedID → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-07883 - uses|S1130 uses T1547.001]] — Raspberry Robin → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07884 - uses|S0380 uses T1561.001]] — StoneDrill → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-07885 - uses|S0681 uses T1057]] — Lizar → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07886 - uses|S0402 uses T1204.002]] — OSX/Shlayer → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-07887 - uses|S1249 uses T1140]] — HexEval Loader → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07888 - uses|G0004 uses S0039]] — Ke3chang → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-07889 - uses|G1054 uses T1114.001]] — MirrorFace → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-07890 - uses|S0094 uses T1049]] — Trojan.Karagany → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07891 - uses|S1198 uses T1016]] — Gomir → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07892 - uses|G1046 uses T1585.003]] — Storm-1811 → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07893 - uses|S0527 uses T1053.005]] — CSPY Downloader → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-07894 - uses|S0572 uses T1007]] — Caterpillar WebShell → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07895 - uses|S1133 uses T1480]] — Apostle → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-07896 - uses|S1179 uses T1518.001]] — Exbyte → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07897 - uses|G0021 uses T1218.007]] — Molerats → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-07898 - uses|S0476 uses T1112]] — Valak → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07899 - uses|S1060 uses T1005]] — Mafalda → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07900 - uses|S0531 uses T1010]] — Grandoreiro → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07901 - uses|S0239 uses T1070.006]] — Bankshot → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-07902 - uses|S1162 uses T1490]] — Playcrypt → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07903 - uses|S0498 uses T1033]] — Cryptoistic → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07904 - uses|G0096 uses S0154]] — APT41 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-07905 - uses|S0696 uses T1105]] — Flagpro → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07906 - uses|S9034 uses T1059.007]] — Tsundere Botnet → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-07907 - uses|G1015 uses T1580]] — Scattered Spider → Cloud Infrastructure Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07908 - uses|G0131 uses T1210]] — Tonto Team → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07909 - uses|S1076 uses T1074]] — QUIETCANARY → Data Staged
+- [[07 ATT&CK Relationships/ATTACK-REL-07910 - uses|S0631 uses T1036.005]] — Chaes → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07911 - uses|G1051 uses T1072]] — Medusa Group → Software Deployment Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-07912 - uses|C0047 uses T1564.001]] — RedDelta Modified PlugX Infection Chain Operations → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-07913 - uses|S0044 uses T1113]] — JHUHUGIT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07914 - uses|S0389 uses T1059.001]] — JCry → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07915 - uses|S0696 uses T1018]] — Flagpro → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07916 - uses|G0105 uses T1040]] — DarkVishnya → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-07917 - uses|G0121 uses T1598.002]] — Sidewinder → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-07918 - uses|S0520 uses T1680]] — BLINDINGCAN → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07919 - uses|S0462 uses T1027.010]] — CARROTBAT → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-07920 - uses|S0692 uses T1056.002]] — SILENTTRINITY → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07921 - uses|S0695 uses T1059.007]] — Donut → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-07922 - uses|S0690 uses T1037.004]] — Green Lambert → RC Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-07923 - uses|G1003 uses S1018]] — Ember Bear → Saint Bot
+- [[07 ATT&CK Relationships/ATTACK-REL-07924 - uses|S0077 uses T1105]] — CallMe → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07925 - uses|S0256 uses T1059.003]] — Mosquito → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07926 - uses|G0050 uses T1112]] — APT32 → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-07927 - uses|G1051 uses T1529]] — Medusa Group → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-07928 - uses|G1057 uses T1657]] — ShinyHunters → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-07929 - uses|G1015 uses T1684.001]] — Scattered Spider → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-07930 - uses|C0061 uses T1106]] — Operation Digital Eye → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-07931 - uses|S1099 uses T1027.004]] — Samurai → Compile After Delivery
+- [[07 ATT&CK Relationships/ATTACK-REL-07932 - uses|G0049 uses S0185]] — OilRig → SEASHARPEE
+- [[07 ATT&CK Relationships/ATTACK-REL-07933 - uses|S1111 uses T1574.007]] — DarkGate → Path Interception by PATH Environment Variable
+- [[07 ATT&CK Relationships/ATTACK-REL-07934 - uses|S0340 uses T1680]] — Octopus → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07935 - uses|S1033 uses T1486]] — DCSrv → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-07936 - uses|C0039 uses T1095]] — Versa Director Zero Day Exploitation → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-07937 - uses|G0077 uses T1018]] — Leafminer → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07938 - uses|G0022 uses T1059.001]] — APT3 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-07939 - uses|S0599 uses T1610]] — Kinsing → Deploy Container
+- [[07 ATT&CK Relationships/ATTACK-REL-07940 - uses|G0094 uses T1105]] — Kimsuky → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07941 - uses|S0124 uses T1059.003]] — Pisloader → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-07942 - uses|S0032 uses T1055]] — gh0st RAT → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-07943 - uses|S0395 uses T1070.004]] — LightNeuron → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07944 - uses|S0372 uses T1070.004]] — LockerGoga → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07945 - uses|S1140 uses T1105]] — Spica → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07946 - uses|S0353 uses T1074.001]] — NOKKI → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-07947 - uses|G0099 uses T1055.012]] — APT-C-36 → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-07948 - uses|S0622 uses T1113]] — AppleSeed → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07949 - uses|S0091 uses T1082]] — Epic → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07950 - uses|S0339 uses T1113]] — Micropsia → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07951 - uses|S0416 uses T1056.004]] — RDFSNIFFER → Credential API Hooking
+- [[07 ATT&CK Relationships/ATTACK-REL-07952 - uses|G0016 uses T1005]] — APT29 → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-07953 - uses|S0533 uses T1543.003]] — SLOTHFULMEDIA → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07954 - uses|C0056 uses T1041]] — RedPenguin → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-07955 - uses|S0476 uses T1555.004]] — Valak → Windows Credential Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-07956 - uses|S1198 uses T1018]] — Gomir → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07957 - uses|S0141 uses T1105]] — Winnti for Windows → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-07958 - uses|C0026 uses T1030]] — C0026 → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-07959 - uses|G0128 uses T1583.006]] — ZIRCONIUM → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-07960 - uses|S0260 uses T1490]] — InvisiMole → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07961 - uses|G1039 uses T1552.001]] — RedCurl → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-07962 - uses|C0014 uses T1587.001]] — Operation Wocao → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-07963 - uses|G1048 uses T1078]] — UNC3886 → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-07964 - uses|S0266 uses T1566.002]] — TrickBot → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07965 - uses|S0196 uses T1087.001]] — PUNCHBUGGY → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-07966 - uses|G0037 uses T1059.007]] — FIN6 → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-07967 - uses|S0434 uses T1555.003]] — Imminent Monitor → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-07968 - uses|S9025 uses T1027]] — NOOPLDR → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07969 - uses|G0099 uses T1584.005]] — APT-C-36 → Botnet
+- [[07 ATT&CK Relationships/ATTACK-REL-07970 - uses|G0007 uses T1090.003]] — APT28 → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-07971 - uses|S0404 uses T1003.003]] — esentutl → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-07972 - uses|S0520 uses T1036.005]] — BLINDINGCAN → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07973 - uses|S0139 uses T1564.004]] — PowerDuke → NTFS File Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-07974 - uses|S0652 uses T1113]] — MarkiRAT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07975 - uses|S1139 uses T1135]] — INC Ransomware → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07976 - uses|S1236 uses T1140]] — CLAIMLOADER → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07977 - uses|S0632 uses T1480.002]] — GrimAgent → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-07978 - uses|G1052 uses T1566.003]] — Contagious Interview → Spearphishing via Service
+- [[07 ATT&CK Relationships/ATTACK-REL-07979 - uses|C0022 uses T1070.004]] — Operation Dream Job → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-07980 - uses|G0140 uses S0363]] — LazyScripter → Empire
+- [[07 ATT&CK Relationships/ATTACK-REL-07981 - uses|S0669 uses T1027.010]] — KOCTOPUS → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-07982 - uses|G0102 uses S9001]] — Wizard Spider → SystemBC
+- [[07 ATT&CK Relationships/ATTACK-REL-07983 - uses|S1167 uses T1082]] — AcidPour → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07984 - uses|G0069 uses T1534]] — MuddyWater → Internal Spearphishing
+- [[07 ATT&CK Relationships/ATTACK-REL-07985 - uses|S0436 uses T1204.001]] — TSCookie → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-07986 - uses|S0458 uses T1203]] — Ramsay → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-07987 - uses|G1039 uses T1547.001]] — RedCurl → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-07988 - uses|S0437 uses T1564.003]] — Kivars → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-07989 - uses|S0141 uses T1036.005]] — Winnti for Windows → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-07990 - uses|S0161 uses T1113]] — XAgentOSX → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-07991 - uses|S0531 uses T1082]] — Grandoreiro → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07992 - uses|G0046 uses S0648]] — FIN7 → JSS Loader
+- [[07 ATT&CK Relationships/ATTACK-REL-07993 - uses|S0534 uses T1614.001]] — Bazar → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-07994 - uses|S1141 uses T1560.001]] — LunarWeb → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-07995 - uses|C0021 uses T1140]] — C0021 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-07996 - uses|G0065 uses T1546.003]] — Leviathan → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-07997 - uses|G0078 uses T1055.012]] — Gorgon Group → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-07998 - uses|S0367 uses T1218.010]] — Emotet → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-07999 - uses|S0115 uses T1041]] — Crimson → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08000 - uses|S9018 uses T1140]] — HeartCrypt → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08001 - uses|S0532 uses T1016]] — Lucifer → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08002 - uses|G0106 uses T1027.004]] — Rocke → Compile After Delivery
+- [[07 ATT&CK Relationships/ATTACK-REL-08003 - uses|S0144 uses T1573.001]] — ChChes → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08004 - uses|S1043 uses T1124]] — ccf32 → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08005 - uses|G0035 uses T1190]] — Dragonfly → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-08006 - uses|S0127 uses T1070.004]] — BBSRAT → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08007 - uses|S0611 uses T1486]] — Clop → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-08008 - uses|S0117 uses T1046]] — XTunnel → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08009 - uses|G0027 uses T1204.002]] — Threat Group-3390 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08010 - uses|G0093 uses S0097]] — GALLIUM → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-08011 - uses|S0483 uses T1105]] — IcedID → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08012 - uses|S1044 uses T1012]] — FunnyDream → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08013 - uses|G1053 uses T1087.004]] — Storm-0501 → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08014 - uses|G0032 uses S0181]] — Lazarus Group → FALLCHILL
+- [[07 ATT&CK Relationships/ATTACK-REL-08015 - uses|S0342 uses T1070.004]] — GreyEnergy → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08016 - uses|S0261 uses T1016]] — Catchamas → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08017 - uses|S0050 uses T1005]] — CosmicDuke → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08018 - uses|S0476 uses T1564.004]] — Valak → NTFS File Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-08019 - uses|S0626 uses T1105]] — P8RAT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08020 - uses|S0356 uses T1057]] — KONNI → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08021 - uses|C0013 uses T1559.002]] — Operation Sharpshooter → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-08022 - uses|G0061 uses S0357]] — FIN8 → Impacket
+- [[07 ATT&CK Relationships/ATTACK-REL-08023 - uses|S1111 uses T1548.002]] — DarkGate → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-08024 - uses|S0666 uses T1559.001]] — Gelsemium → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-08025 - uses|S0660 uses T1033]] — Clambling → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08026 - uses|C0024 uses T1036.004]] — SolarWinds Compromise → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08027 - uses|S0265 uses T1027]] — Kazuar → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08028 - uses|S0381 uses T1082]] — FlawedAmmyy → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08029 - uses|S0176 uses T1569.002]] — Wingbird → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08030 - uses|C0025 uses T1036.005]] — 2016 Ukraine Electric Power Attack → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08031 - uses|C0024 uses S0002]] — SolarWinds Compromise → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-08032 - uses|S0531 uses T1033]] — Grandoreiro → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08033 - uses|S9021 uses T1218.007]] — DOWNIISSA → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-08034 - uses|G0019 uses T1053.005]] — Naikon → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08035 - uses|S0604 uses T1572]] — Industroyer → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-08036 - uses|G1032 uses S1040]] — INC Ransom → Rclone
+- [[07 ATT&CK Relationships/ATTACK-REL-08037 - uses|S1075 uses T1074.001]] — KOPILUWAK → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08038 - uses|G0129 uses T1573.001]] — Mustang Panda → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08039 - uses|G0129 uses T1001.003]] — Mustang Panda → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-08040 - uses|S1091 uses T1578.001]] — Pacu → Create Snapshot
+- [[07 ATT&CK Relationships/ATTACK-REL-08041 - uses|G1041 uses T1685.006]] — Sea Turtle → Clear Linux or Mac System Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-08042 - uses|S0350 uses T1082]] — zwShell → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08043 - uses|S1151 uses T1059]] — ZeroCleare → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-08044 - uses|G0016 uses T1649]] — APT29 → Steal or Forge Authentication Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-08045 - uses|G0139 uses S0349]] — TeamTNT → LaZagne
+- [[07 ATT&CK Relationships/ATTACK-REL-08046 - uses|S1027 uses T1083]] — Heyoka Backdoor → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08047 - uses|G0099 uses T1564.003]] — APT-C-36 → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-08048 - uses|G0090 uses T1027.015]] — WIRTE → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-08049 - uses|G0128 uses T1036]] — ZIRCONIUM → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-08050 - uses|S0495 uses T1027.003]] — RDAT → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-08051 - uses|G0143 uses T1003.001]] — Aquatic Panda → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-08052 - uses|S0367 uses T1106]] — Emotet → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08053 - uses|S1182 uses T1547.001]] — MagicRAT → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08054 - uses|G0004 uses T1018]] — Ke3chang → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08055 - uses|C0034 uses T1570]] — 2022 Ukraine Electric Power Attack → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08056 - uses|S1106 uses T1090.003]] — NGLite → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08057 - uses|G0071 uses T1071.001]] — Orangeworm → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08058 - uses|G0047 uses T1059.003]] — Gamaredon Group → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08059 - uses|G0080 uses T1588.002]] — Cobalt Group → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08060 - uses|S0690 uses T1090]] — Green Lambert → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08061 - uses|G0060 uses T1573.001]] — BRONZE BUTLER → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08062 - uses|S0604 uses T1140]] — Industroyer → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08063 - uses|S1111 uses T1569.002]] — DarkGate → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08064 - uses|G1051 uses T1018]] — Medusa Group → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08065 - uses|S0514 uses T1071.004]] — WellMess → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-08066 - uses|C0017 uses T1059.007]] — C0017 → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-08067 - uses|G0054 uses S0171]] — Sowbug → Felismus
+- [[07 ATT&CK Relationships/ATTACK-REL-08068 - uses|S9037 uses T1678]] — RustyWater → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08069 - uses|S0377 uses T1685]] — Ebury → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-08070 - uses|S0347 uses T1055]] — AuditCred → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08071 - uses|S0681 uses T1560]] — Lizar → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-08072 - uses|G0069 uses T1090]] — MuddyWater → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08073 - uses|S0667 uses T1041]] — Chrommme → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08074 - uses|G0071 uses S0104]] — Orangeworm → netstat
+- [[07 ATT&CK Relationships/ATTACK-REL-08075 - uses|S0560 uses T1543.003]] — TEARDROP → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08076 - uses|S0127 uses T1560.002]] — BBSRAT → Archive via Library
+- [[07 ATT&CK Relationships/ATTACK-REL-08077 - uses|S0373 uses T1204.002]] — Astaroth → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08078 - uses|S1048 uses T1059.002]] — macOS.OSAMiner → AppleScript
+- [[07 ATT&CK Relationships/ATTACK-REL-08079 - uses|C0004 uses T1090.003]] — CostaRicto → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08080 - uses|S1196 uses T1082]] — Troll Stealer → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08081 - uses|G1004 uses T1589.001]] — LAPSUS$ → Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-08082 - uses|S0284 uses T1105]] — More_eggs → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08083 - uses|S0484 uses T1564.001]] — Carberp → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-08084 - uses|S0167 uses T1055.001]] — Matryoshka → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08085 - uses|G0068 uses T1036]] — PLATINUM → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-08086 - uses|G0045 uses T1078]] — menuPass → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08087 - uses|S0115 uses T1497.003]] — Crimson → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08088 - uses|G0022 uses T1105]] — APT3 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08089 - uses|S0567 uses T1129]] — Dtrack → Shared Modules
+- [[07 ATT&CK Relationships/ATTACK-REL-08090 - uses|S0256 uses T1027.013]] — Mosquito → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08091 - uses|S0654 uses T1197]] — ProLock → BITS Jobs
+- [[07 ATT&CK Relationships/ATTACK-REL-08092 - uses|S0053 uses T1560.002]] — SeaDuke → Archive via Library
+- [[07 ATT&CK Relationships/ATTACK-REL-08093 - uses|S0627 uses T1573.001]] — SodaMaster → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08094 - uses|G0065 uses T1078]] — Leviathan → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08095 - uses|G1015 uses T1486]] — Scattered Spider → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-08096 - uses|G0034 uses T1082]] — Sandworm Team → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08097 - uses|S9042 uses T1033]] — CanisterWorm → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08098 - uses|C0022 uses T1588.002]] — Operation Dream Job → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08099 - uses|G1015 uses T1552.001]] — Scattered Spider → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-08100 - uses|G0040 uses T1566.002]] — Patchwork → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-08101 - uses|G0065 uses T1055.001]] — Leviathan → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08102 - uses|S0455 uses T1106]] — Metamorfo → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08103 - uses|G0040 uses T1102.001]] — Patchwork → Dead Drop Resolver
+- [[07 ATT&CK Relationships/ATTACK-REL-08104 - uses|S0363 uses T1550.002]] — Empire → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-08105 - uses|S1020 uses T1030]] — Kevin → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-08106 - uses|S0194 uses T1057]] — PowerSploit → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08107 - uses|S0496 uses T1007]] — REvil → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08108 - uses|S0501 uses T1106]] — PipeMon → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08109 - uses|S1085 uses T1049]] — Sardonic → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08110 - uses|S0345 uses T1027.013]] — Seasalt → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08111 - uses|S1107 uses T1090.003]] — NKAbuse → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08112 - uses|G0098 uses T1204.001]] — BlackTech → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-08113 - uses|G0085 uses T1564.008]] — FIN4 → Email Hiding Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-08114 - uses|S0532 uses T1033]] — Lucifer → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08115 - uses|S0021 uses T1057]] — Derusbi → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08116 - uses|G1023 uses T1136.001]] — APT5 → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08117 - uses|S0378 uses T1555]] — PoshC2 → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-08118 - uses|S0470 uses T1140]] — BBK → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08119 - uses|G1024 uses T1560.001]] — Akira → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-08120 - uses|S0458 uses T1059.005]] — Ramsay → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08121 - uses|S9015 uses T1070.004]] — BRICKSTORM → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08122 - uses|S1239 uses T1559]] — TONESHELL → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-08123 - uses|G0138 uses T1189]] — Andariel → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-08124 - uses|G0108 uses T1569.002]] — Blue Mockingbird → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08125 - uses|G0128 uses T1027.002]] — ZIRCONIUM → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-08126 - uses|S1172 uses T1105]] — OilBooster → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08127 - uses|S0673 uses T1059.007]] — DarkWatchman → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-08128 - uses|G1022 uses S1102]] — ToddyCat → Pcexter
+- [[07 ATT&CK Relationships/ATTACK-REL-08129 - uses|S0412 uses T1190]] — ZxShell → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-08130 - uses|G1014 uses T1553.002]] — LuminousMoth → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-08131 - uses|S1025 uses T1041]] — Amadey → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08132 - uses|S1114 uses T1090]] — ZIPLINE → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08133 - uses|G0094 uses T1552.001]] — Kimsuky → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-08134 - uses|S1132 uses T1027.013]] — IPsec Helper → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08135 - uses|S0585 uses T1082]] — Kerrdown → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08136 - uses|G0011 uses S0012]] — PittyTiger → PoisonIvy
+- [[07 ATT&CK Relationships/ATTACK-REL-08137 - uses|S0694 uses T1071.001]] — DRATzarus → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08138 - uses|G0066 uses S0210]] — Elderwood → Nerex
+- [[07 ATT&CK Relationships/ATTACK-REL-08139 - uses|G0096 uses T1218.001]] — APT41 → Compiled HTML File
+- [[07 ATT&CK Relationships/ATTACK-REL-08140 - uses|S0449 uses T1564.006]] — Maze → Run Virtual Instance
+- [[07 ATT&CK Relationships/ATTACK-REL-08141 - uses|G0004 uses T1021.002]] — Ke3chang → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-08142 - uses|S0058 uses T1033]] — SslMM → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08143 - uses|S0346 uses T1083]] — OceanSalt → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08144 - uses|S0248 uses T1082]] — yty → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08145 - uses|S0148 uses T1056.001]] — RTM → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08146 - uses|G1018 uses S0283]] — TA2541 → jRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-08147 - uses|G0106 uses T1057]] — Rocke → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08148 - uses|S0039 uses T1136.001]] — Net → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08149 - uses|S0412 uses T1056.004]] — ZxShell → Credential API Hooking
+- [[07 ATT&CK Relationships/ATTACK-REL-08150 - uses|S9041 uses T1567.001]] — TeamPCP Cloud Stealer → Exfiltration to Code Repository
+- [[07 ATT&CK Relationships/ATTACK-REL-08151 - uses|S0608 uses T1568.002]] — Conficker → Domain Generation Algorithms
+- [[07 ATT&CK Relationships/ATTACK-REL-08152 - uses|S0698 uses T1110.001]] — HermeticWizard → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-08153 - uses|G0007 uses T1584.008]] — APT28 → Network Devices
+- [[07 ATT&CK Relationships/ATTACK-REL-08154 - uses|G1055 uses T1110]] — VOID MANTICORE → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-08155 - uses|S1155 uses T1082]] — Covenant → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08156 - uses|S0461 uses T1546.011]] — SDBbot → Application Shimming
+- [[07 ATT&CK Relationships/ATTACK-REL-08157 - uses|S0496 uses T1070.004]] — REvil → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08158 - uses|G1021 uses S0013]] — Cinnamon Tempest → PlugX
+- [[07 ATT&CK Relationships/ATTACK-REL-08159 - uses|S1207 uses T1059.010]] — XLoader → AutoHotKey & AutoIT
+- [[07 ATT&CK Relationships/ATTACK-REL-08160 - uses|S1051 uses T1140]] — KEYPLUG → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08161 - uses|S1189 uses T1572]] — Neo-reGeorg → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-08162 - uses|G0007 uses T1110.003]] — APT28 → Password Spraying
+- [[07 ATT&CK Relationships/ATTACK-REL-08163 - uses|S0398 uses T1027.002]] — HyperBro → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-08164 - uses|S0141 uses T1057]] — Winnti for Windows → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08165 - uses|G0049 uses T1025]] — OilRig → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-08166 - uses|G0096 uses T1550.002]] — APT41 → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-08167 - uses|G0050 uses T1027.011]] — APT32 → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-08168 - uses|G0045 uses T1056.001]] — menuPass → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08169 - uses|C0029 uses T1070]] — Cutting Edge → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-08170 - uses|G0121 uses T1204.002]] — Sidewinder → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08171 - uses|G0129 uses T1049]] — Mustang Panda → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08172 - uses|S0428 uses T1497.001]] — PoetRAT → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08173 - uses|S1242 uses T1106]] — Qilin → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08174 - uses|S1121 uses T1090]] — LITTLELAMB.WOOLTEA → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08175 - uses|S0064 uses T1057]] — ELMER → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08176 - uses|S1183 uses T1036.005]] — StrelaStealer → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08177 - uses|C0023 uses T1078.002]] — Operation Ghost → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08178 - uses|G0069 uses T1102.002]] — MuddyWater → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-08179 - uses|S0165 uses T1049]] — OSInfo → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08180 - uses|C0044 uses T1584.004]] — Juicy Mix → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-08181 - uses|C0029 uses S0488]] — Cutting Edge → CrackMapExec
+- [[07 ATT&CK Relationships/ATTACK-REL-08182 - uses|G0092 uses T1204.001]] — TA505 → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-08183 - uses|G0096 uses T1059.001]] — APT41 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08184 - uses|S1154 uses T1056.004]] — VersaMem → Credential API Hooking
+- [[07 ATT&CK Relationships/ATTACK-REL-08185 - uses|C0055 uses T1071.002]] — Quad7 Activity → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08186 - uses|G0129 uses S0012]] — Mustang Panda → PoisonIvy
+- [[07 ATT&CK Relationships/ATTACK-REL-08187 - uses|G0045 uses T1070.004]] — menuPass → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08188 - uses|S0587 uses T1016]] — Penquin → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08189 - uses|S0263 uses T1543.003]] — TYPEFRAME → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08190 - uses|S0468 uses T1547.006]] — Skidmap → Kernel Modules and Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-08191 - uses|S0283 uses T1016]] — jRAT → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08192 - uses|G0007 uses T1056.001]] — APT28 → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08193 - uses|S1185 uses T1027.013]] — LightSpy → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08194 - uses|G0126 uses T1090.001]] — Higaisa → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08195 - uses|S0260 uses T1680]] — InvisiMole → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08196 - uses|G0129 uses T1070]] — Mustang Panda → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-08197 - uses|S0650 uses T1082]] — QakBot → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08198 - uses|G0070 uses T1083]] — Dark Caracal → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08199 - uses|S0484 uses T1497]] — Carberp → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-08200 - uses|C0047 uses T1204.002]] — RedDelta Modified PlugX Infection Chain Operations → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08201 - uses|G0016 uses T1003.004]] — APT29 → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-08202 - uses|S0089 uses T1553.006]] — BlackEnergy → Code Signing Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-08203 - uses|S1194 uses T1654]] — Akira _v2 → Log Enumeration
+- [[07 ATT&CK Relationships/ATTACK-REL-08204 - uses|G1051 uses T1047]] — Medusa Group → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-08205 - uses|G0047 uses S0686]] — Gamaredon Group → QuietSieve
+- [[07 ATT&CK Relationships/ATTACK-REL-08206 - uses|S0203 uses T1083]] — Hydraq → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08207 - uses|S0559 uses T1047]] — SUNBURST → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-08208 - uses|S0239 uses T1012]] — Bankshot → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08209 - uses|C0056 uses T1059.008]] — RedPenguin → Network Device CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-08210 - uses|G0047 uses T1057]] — Gamaredon Group → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08211 - uses|G0010 uses T1140]] — Turla → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08212 - uses|S0593 uses T1027]] — ECCENTRICBANDWAGON → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08213 - uses|S1111 uses T1518.001]] — DarkGate → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08214 - uses|S1229 uses T1574.001]] — Havoc → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-08215 - uses|S0157 uses T1071.004]] — SOUNDBITE → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-08216 - uses|G1044 uses T1547]] — APT42 → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08217 - uses|G0100 uses S0442]] — Inception → VBShower
+- [[07 ATT&CK Relationships/ATTACK-REL-08218 - uses|C0029 uses T1105]] — Cutting Edge → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08219 - uses|G1035 uses T1082]] — Winter Vivern → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08220 - uses|C0044 uses T1555.003]] — Juicy Mix → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-08221 - uses|S0009 uses T1105]] — Hikit → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08222 - uses|S0453 uses T1110.001]] — Pony → Password Guessing
+- [[07 ATT&CK Relationships/ATTACK-REL-08223 - uses|C0051 uses T1016.002]] — APT28 Nearest Neighbor Campaign → Wi-Fi Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08224 - uses|G0069 uses T1210]] — MuddyWater → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-08225 - uses|S0674 uses T1016]] — CharmPower → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08226 - uses|S0260 uses T1074.001]] — InvisiMole → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08227 - uses|S0376 uses T1124]] — HOPLIGHT → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08228 - uses|S0640 uses T1027]] — Avaddon → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08229 - uses|G0054 uses T1082]] — Sowbug → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08230 - uses|S0172 uses T1547.001]] — Reaver → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08231 - uses|S0471 uses T1027.003]] — build_downer → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-08232 - uses|S0417 uses T1053.005]] — GRIFFON → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08233 - uses|S0030 uses T1113]] — Carbanak → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08234 - uses|S0192 uses T1055.001]] — Pupy → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08235 - uses|S0638 uses T1135]] — Babuk → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08236 - uses|G0065 uses T1059.001]] — Leviathan → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08237 - uses|S1059 uses T1095]] — metaMain → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08238 - uses|S1025 uses T1106]] — Amadey → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08239 - uses|S1065 uses T1083]] — Woody RAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08240 - uses|S1091 uses T1526]] — Pacu → Cloud Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08241 - uses|S0439 uses T1090.002]] — Okrum → External Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08242 - uses|G0018 uses T1036.005]] — admin@338 → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08243 - uses|S1089 uses T1083]] — SharpDisco → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08244 - uses|S9035 uses T1082]] — LAMEHUG → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08245 - uses|G0125 uses T1033]] — HAFNIUM → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08246 - uses|G0034 uses T1591.002]] — Sandworm Team → Business Relationships
+- [[07 ATT&CK Relationships/ATTACK-REL-08247 - uses|G1051 uses T1090.003]] — Medusa Group → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08248 - uses|S1212 uses T1685.005]] — RansomHub → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-08249 - uses|S0332 uses T1056.001]] — Remcos → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08250 - uses|G0046 uses S0154]] — FIN7 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-08251 - uses|S1199 uses T1083]] — LockBit 2.0 → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08252 - uses|S9027 uses T1622]] — ANELLDR → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-08253 - uses|G0060 uses T1105]] — BRONZE BUTLER → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08254 - uses|G1055 uses T1078.002]] — VOID MANTICORE → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08255 - uses|G0096 uses T1484.001]] — APT41 → Group Policy Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-08256 - uses|S0194 uses T1558.003]] — PowerSploit → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-08257 - uses|S0601 uses T1059.004]] — Hildegard → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08258 - uses|S0013 uses T1074.001]] — PlugX → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08259 - uses|S1212 uses T1090]] — RansomHub → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08260 - uses|S0512 uses T1059.001]] — FatDuke → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08261 - uses|S1035 uses T1547.001]] — Small Sieve → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08262 - uses|S0475 uses T1059.005]] — BackConfig → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08263 - uses|S0139 uses T1016]] — PowerDuke → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08264 - uses|S1044 uses T1025]] — FunnyDream → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-08265 - uses|S0049 uses T1087.001]] — GeminiDuke → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08266 - uses|G0125 uses T1059.001]] — HAFNIUM → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08267 - uses|S0071 uses T1059.003]] — hcdLoader → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08268 - uses|G0114 uses T1018]] — Chimera → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08269 - uses|G0037 uses S0029]] — FIN6 → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-08270 - uses|S0061 uses T1046]] — HDoor → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08271 - uses|S0338 uses T1059.003]] — Cobian RAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08272 - uses|G0030 uses T1588.002]] — Lotus Blossom → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08273 - uses|G1021 uses T1021.002]] — Cinnamon Tempest → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-08274 - uses|G0047 uses T1041]] — Gamaredon Group → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08275 - uses|G1053 uses T1588.006]] — Storm-0501 → Vulnerabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-08276 - uses|S1248 uses T1105]] — XORIndex Loader → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08277 - uses|S1233 uses T1057]] — PAKLOG → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08278 - uses|G1005 uses T1567.002]] — POLONIUM → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-08279 - uses|G0008 uses T1218.011]] — Carbanak → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-08280 - uses|S0582 uses T1140]] — LookBack → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08281 - uses|S0017 uses T1057]] — BISCUIT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08282 - uses|G1013 uses T1071.001]] — Metador → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08283 - uses|G0035 uses S0488]] — Dragonfly → CrackMapExec
+- [[07 ATT&CK Relationships/ATTACK-REL-08284 - uses|S0453 uses T1566.001]] — Pony → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-08285 - uses|S1065 uses T1012]] — Woody RAT → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08286 - uses|S1044 uses T1572]] — FunnyDream → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-08287 - uses|S0409 uses T1074.001]] — Machete → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08288 - uses|G0106 uses T1070.004]] — Rocke → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08289 - uses|G0080 uses T1204.002]] — Cobalt Group → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08290 - uses|G0035 uses T1583.003]] — Dragonfly → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-08291 - uses|S9041 uses T1071.001]] — TeamPCP Cloud Stealer → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08292 - uses|G0089 uses T1518.001]] — The White Company → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08293 - uses|G1015 uses T1583.001]] — Scattered Spider → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-08294 - uses|S1213 uses T1059.010]] — Lumma Stealer → AutoHotKey & AutoIT
+- [[07 ATT&CK Relationships/ATTACK-REL-08295 - uses|S0269 uses T1112]] — QUADAGENT → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08296 - uses|S9025 uses T1574.001]] — NOOPLDR → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-08297 - uses|G1012 uses T1585.001]] — CURIUM → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08298 - uses|S0691 uses T1105]] — Neoichor → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08299 - uses|S1180 uses T1570]] — BlackByte Ransomware → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08300 - uses|S0572 uses T1059.003]] — Caterpillar WebShell → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08301 - uses|G0033 uses T1007]] — Poseidon Group → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08302 - uses|S9007 uses T1113]] — HTTPTroy → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08303 - uses|G0007 uses T1003.001]] — APT28 → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-08304 - uses|G1030 uses T1018]] — Agrius → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08305 - uses|S0694 uses T1033]] — DRATzarus → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08306 - uses|S0223 uses T1070.004]] — POWERSTATS → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08307 - uses|G0106 uses T1018]] — Rocke → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08308 - uses|S0240 uses T1070.004]] — ROKRAT → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08309 - uses|C0046 uses T1685]] — ArcaneDoor → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-08310 - uses|S1202 uses T1480]] — LockBit 3.0 → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-08311 - uses|C0030 uses T1056.003]] — Triton Safety Instrumented System Attack → Web Portal Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08312 - uses|S0661 uses T1620]] — FoggyWeb → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-08313 - uses|S0249 uses T1071.001]] — Gold Dragon → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08314 - uses|S0194 uses T1113]] — PowerSploit → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08315 - uses|S0163 uses T1113]] — Janicab → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08316 - uses|S1086 uses T1566.002]] — Snip3 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-08317 - uses|S0692 uses T1021.006]] — SILENTTRINITY → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-08318 - uses|G0040 uses T1547.001]] — Patchwork → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08319 - uses|S0356 uses T1059.001]] — KONNI → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08320 - uses|G1048 uses S1223]] — UNC3886 → THINCRUST
+- [[07 ATT&CK Relationships/ATTACK-REL-08321 - uses|S0367 uses T1055.001]] — Emotet → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08322 - uses|S0568 uses T1218.010]] — EVILNUM → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-08323 - uses|S0467 uses T1518]] — TajMahal → Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08324 - uses|G1008 uses T1059.005]] — SideCopy → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08325 - uses|G0061 uses T1588.002]] — FIN8 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08326 - uses|S0137 uses T1218.011]] — CORESHELL → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-08327 - uses|S0690 uses T1070.004]] — Green Lambert → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08328 - uses|S0658 uses T1486]] — XCSSET → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-08329 - uses|G1040 uses T1078.003]] — Play → Local Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08330 - uses|G1003 uses T1560]] — Ember Bear → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-08331 - uses|S0439 uses T1001]] — Okrum → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-08332 - uses|S0629 uses T1070.004]] — RainyDay → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08333 - uses|S1017 uses T1119]] — OutSteel → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08334 - uses|G0094 uses T1057]] — Kimsuky → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08335 - uses|S9020 uses T1480]] — LODEINFO → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-08336 - uses|S1239 uses T1047]] — TONESHELL → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-08337 - uses|G0069 uses T1053.005]] — MuddyWater → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08338 - uses|G0027 uses T1003.002]] — Threat Group-3390 → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-08339 - uses|S1154 uses T1074.001]] — VersaMem → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08340 - uses|S0277 uses T1083]] — FruitFly → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08341 - uses|S0534 uses T1027.002]] — Bazar → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-08342 - uses|S0439 uses T1041]] — Okrum → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08343 - uses|S1059 uses T1105]] — metaMain → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08344 - uses|C0014 uses S0104]] — Operation Wocao → netstat
+- [[07 ATT&CK Relationships/ATTACK-REL-08345 - uses|S0198 uses T1016]] — NETWIRE → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08346 - uses|C0063 uses S0099]] — 2025 Poland Wiper Attacks → Arp
+- [[07 ATT&CK Relationships/ATTACK-REL-08347 - uses|S0670 uses T1140]] — WarzoneRAT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08348 - uses|G0122 uses T1588.002]] — Silent Librarian → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08349 - uses|G0094 uses T1113]] — Kimsuky → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08350 - uses|S0348 uses T1057]] — Cardinal RAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08351 - uses|S1101 uses T1074.001]] — LoFiSe → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08352 - uses|G1006 uses T1547.012]] — Earth Lusca → Print Processors
+- [[07 ATT&CK Relationships/ATTACK-REL-08353 - uses|G0046 uses T1546.011]] — FIN7 → Application Shimming
+- [[07 ATT&CK Relationships/ATTACK-REL-08354 - uses|S1247 uses T1657]] — Embargo → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-08355 - uses|S1111 uses T1555]] — DarkGate → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-08356 - uses|G0021 uses T1204.002]] — Molerats → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08357 - uses|S0658 uses T1027.013]] — XCSSET → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08358 - uses|G0081 uses T1059.003]] — Tropic Trooper → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08359 - uses|G0006 uses S0057]] — APT1 → Tasklist
+- [[07 ATT&CK Relationships/ATTACK-REL-08360 - uses|G0129 uses T1678]] — Mustang Panda → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08361 - uses|G1054 uses S9025]] — MirrorFace → NOOPLDR
+- [[07 ATT&CK Relationships/ATTACK-REL-08362 - uses|S0696 uses T1041]] — Flagpro → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08363 - uses|G0046 uses T1059.007]] — FIN7 → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-08364 - uses|G1007 uses T1587.001]] — Aoqin Dragon → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-08365 - uses|S1149 uses T1083]] — CHIMNEYSWEEP → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08366 - uses|S0154 uses T1016]] — Cobalt Strike → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08367 - uses|G0053 uses T1685.005]] — FIN5 → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-08368 - uses|G1053 uses T1053.005]] — Storm-0501 → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08369 - uses|S9042 uses T1036.004]] — CanisterWorm → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08370 - uses|S0335 uses T1016]] — Carbon → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08371 - uses|S0696 uses T1029]] — Flagpro → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08372 - uses|S0633 uses T1071.004]] — Sliver → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-08373 - uses|S0615 uses T1105]] — SombRAT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08374 - uses|S0182 uses T1027.002]] — FinFisher → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-08375 - uses|G0114 uses T1569.002]] — Chimera → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08376 - uses|S1086 uses T1547.001]] — Snip3 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08377 - uses|S1017 uses T1566.001]] — OutSteel → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-08378 - uses|G1055 uses T1199]] — VOID MANTICORE → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-08379 - uses|G0030 uses S0097]] — Lotus Blossom → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-08380 - uses|S0271 uses T1573.001]] — KEYMARBLE → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08381 - uses|G0010 uses S0091]] — Turla → Epic
+- [[07 ATT&CK Relationships/ATTACK-REL-08382 - uses|G0027 uses T1566.001]] — Threat Group-3390 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-08383 - uses|G1017 uses T1059.004]] — Volt Typhoon → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08384 - uses|S0240 uses T1012]] — ROKRAT → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08385 - uses|S0018 uses T1055.001]] — Sykipot → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08386 - uses|S9025 uses T1564]] — NOOPLDR → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-08387 - uses|S9015 uses T1027.013]] — BRICKSTORM → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08388 - uses|G0024 uses S0067]] — Putter Panda → pngdowner
+- [[07 ATT&CK Relationships/ATTACK-REL-08389 - uses|G0083 uses T1071.001]] — SilverTerrier → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08390 - uses|G0129 uses T1003.001]] — Mustang Panda → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-08391 - uses|C0041 uses T1689]] — FrostyGoop Incident → Downgrade Attack
+- [[07 ATT&CK Relationships/ATTACK-REL-08392 - uses|G0060 uses T1087.002]] — BRONZE BUTLER → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08393 - uses|G0018 uses S0043]] — admin@338 → BUBBLEWRAP
+- [[07 ATT&CK Relationships/ATTACK-REL-08394 - uses|S1023 uses T1567.002]] — CreepyDrive → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-08395 - uses|G1043 uses T1486]] — BlackByte → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-08396 - uses|G0047 uses T1027.004]] — Gamaredon Group → Compile After Delivery
+- [[07 ATT&CK Relationships/ATTACK-REL-08397 - uses|S1170 uses T1567.002]] — ODAgent → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-08398 - uses|S0264 uses T1070.004]] — OopsIE → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08399 - uses|S0623 uses T1068]] — Siloscape → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-08400 - uses|G0030 uses T1012]] — Lotus Blossom → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08401 - uses|S0482 uses T1057]] — Bundlore → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08402 - uses|G0004 uses T1069.002]] — Ke3chang → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-08403 - uses|S0673 uses T1027.010]] — DarkWatchman → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-08404 - uses|S0650 uses T1114.001]] — QakBot → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08405 - uses|G0050 uses T1588.002]] — APT32 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08406 - uses|S9013 uses T1074.001]] — DRYHOOK → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08407 - uses|S1242 uses T1685.005]] — Qilin → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-08408 - uses|G1018 uses S0385]] — TA2541 → njRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-08409 - uses|S0375 uses T1010]] — Remexi → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08410 - uses|C0058 uses T1685]] — SharePoint ToolShell Exploitation → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-08411 - uses|G0050 uses S0354]] — APT32 → Denis
+- [[07 ATT&CK Relationships/ATTACK-REL-08412 - uses|G0071 uses S0099]] — Orangeworm → Arp
+- [[07 ATT&CK Relationships/ATTACK-REL-08413 - uses|G0007 uses S0183]] — APT28 → Tor
+- [[07 ATT&CK Relationships/ATTACK-REL-08414 - uses|S1059 uses T1027.013]] — metaMain → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08415 - uses|S0658 uses T1560]] — XCSSET → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-08416 - uses|S0476 uses T1059.007]] — Valak → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-08417 - uses|S0229 uses T1070]] — Orz → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-08418 - uses|S1051 uses T1573.002]] — KEYPLUG → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08419 - uses|S0652 uses T1071.001]] — MarkiRAT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08420 - uses|S0268 uses T1005]] — Bisonal → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08421 - uses|S0438 uses T1070.004]] — Attor → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08422 - uses|G0049 uses S0184]] — OilRig → POWRUNER
+- [[07 ATT&CK Relationships/ATTACK-REL-08423 - uses|S0333 uses T1057]] — UBoatRAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08424 - uses|S9010 uses T1213.003]] — GlassWorm → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-08425 - uses|S0488 uses T1003.002]] — CrackMapExec → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-08426 - uses|G0080 uses T1566.001]] — Cobalt Group → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-08427 - uses|C0006 uses T1106]] — Operation Honeybee → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08428 - uses|S0090 uses T1025]] — Rover → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-08429 - uses|G0119 uses T1558.003]] — Indrik Spider → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-08430 - uses|G1040 uses T1078]] — Play → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08431 - uses|S9031 uses T1071.001]] — AshTag → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08432 - uses|G1014 uses S0013]] — LuminousMoth → PlugX
+- [[07 ATT&CK Relationships/ATTACK-REL-08433 - uses|G0094 uses T1620]] — Kimsuky → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-08434 - uses|G0059 uses T1136.001]] — Magic Hound → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08435 - uses|S0182 uses T1497.001]] — FinFisher → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08436 - uses|G0096 uses S0013]] — APT41 → PlugX
+- [[07 ATT&CK Relationships/ATTACK-REL-08437 - uses|S0020 uses T1071.001]] — China Chopper → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08438 - uses|G0050 uses T1059]] — APT32 → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-08439 - uses|S0354 uses T1016]] — Denis → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08440 - uses|S0414 uses T1056.001]] — BabyShark → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08441 - uses|S0622 uses T1008]] — AppleSeed → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-08442 - uses|C0004 uses T1588.002]] — CostaRicto → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08443 - uses|S1119 uses T1140]] — LIGHTWIRE → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08444 - uses|S0428 uses T1547.001]] — PoetRAT → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08445 - uses|S0430 uses T1140]] — Winnti for Linux → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08446 - uses|S0488 uses T1047]] — CrackMapExec → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-08447 - uses|S0048 uses T1555]] — PinchDuke → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-08448 - uses|G0040 uses T1555.003]] — Patchwork → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-08449 - uses|G0045 uses T1553.002]] — menuPass → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-08450 - uses|G0094 uses T1027.007]] — Kimsuky → Dynamic API Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-08451 - uses|C0022 uses T1591]] — Operation Dream Job → Gather Victim Org Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08452 - uses|S9041 uses T1070.004]] — TeamPCP Cloud Stealer → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08453 - uses|G1042 uses T1571]] — RedEcho → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-08454 - uses|G0034 uses T1485]] — Sandworm Team → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-08455 - uses|S0132 uses T1490]] — H1N1 → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08456 - uses|S9018 uses T1055.004]] — HeartCrypt → Asynchronous Procedure Call
+- [[07 ATT&CK Relationships/ATTACK-REL-08457 - uses|S0642 uses T1082]] — BADFLICK → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08458 - uses|S1075 uses T1005]] — KOPILUWAK → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08459 - uses|G0006 uses T1087.001]] — APT1 → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08460 - uses|G1015 uses T1087.002]] — Scattered Spider → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08461 - uses|S1060 uses T1082]] — Mafalda → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08462 - uses|G0032 uses T1529]] — Lazarus Group → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-08463 - uses|G0065 uses T1021.001]] — Leviathan → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08464 - uses|G1046 uses T1087.002]] — Storm-1811 → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08465 - uses|S0358 uses T1137.005]] — Ruler → Outlook Rules
+- [[07 ATT&CK Relationships/ATTACK-REL-08466 - uses|G1006 uses T1090]] — Earth Lusca → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08467 - uses|C0040 uses T1596.005]] — APT41 DUST → Scan Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-08468 - uses|S0252 uses T1083]] — Brave Prince → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08469 - uses|S0600 uses T1611]] — Doki → Escape to Host
+- [[07 ATT&CK Relationships/ATTACK-REL-08470 - uses|S0692 uses T1055]] — SILENTTRINITY → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08471 - uses|S1100 uses T1057]] — Ninja → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08472 - uses|S1018 uses T1012]] — Saint Bot → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08473 - uses|G0094 uses T1059.005]] — Kimsuky → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08474 - uses|G0078 uses T1059.001]] — Gorgon Group → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08475 - uses|S0089 uses T1547.001]] — BlackEnergy → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08476 - uses|S9035 uses T1482]] — LAMEHUG → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08477 - uses|S0125 uses T1070.004]] — Remsec → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08478 - uses|S1183 uses T1059.003]] — StrelaStealer → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08479 - uses|S0373 uses T1555]] — Astaroth → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-08480 - uses|S0391 uses T1041]] — HAWKBALL → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08481 - uses|G0056 uses T1205.001]] — PROMETHIUM → Port Knocking
+- [[07 ATT&CK Relationships/ATTACK-REL-08482 - uses|S0584 uses T1548.002]] — AppleJeus → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-08483 - uses|C0028 uses T1105]] — 2015 Ukraine Electric Power Attack → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08484 - uses|G1022 uses S0154]] — ToddyCat → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-08485 - uses|G1024 uses S0552]] — Akira → AdFind
+- [[07 ATT&CK Relationships/ATTACK-REL-08486 - uses|S1249 uses T1059.007]] — HexEval Loader → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-08487 - uses|S0165 uses T1016]] — OSInfo → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08488 - uses|G0027 uses T1071.001]] — Threat Group-3390 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08489 - uses|S1049 uses T1543.003]] — SUGARUSH → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08490 - uses|G0123 uses T1505.003]] — Volatile Cedar → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08491 - uses|S0107 uses T1546.010]] — Cherry Picker → AppInit DLLs
+- [[07 ATT&CK Relationships/ATTACK-REL-08492 - uses|S0579 uses T1518.001]] — Waterbear → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08493 - uses|S0085 uses T1016]] — S-Type → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08494 - uses|S0011 uses T1106]] — Taidoor → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08495 - uses|S9035 uses T1119]] — LAMEHUG → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08496 - uses|G1024 uses T1078]] — Akira → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08497 - uses|G1003 uses S0029]] — Ember Bear → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-08498 - uses|G0139 uses T1595.002]] — TeamTNT → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-08499 - uses|S9035 uses T1102.002]] — LAMEHUG → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-08500 - uses|G0034 uses S0343]] — Sandworm Team → Exaramel for Windows
+- [[07 ATT&CK Relationships/ATTACK-REL-08501 - uses|G0005 uses T1102.002]] — APT12 → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-08502 - uses|S0455 uses T1497]] — Metamorfo → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-08503 - uses|S0161 uses T1033]] — XAgentOSX → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08504 - uses|G0128 uses T1218.007]] — ZIRCONIUM → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-08505 - uses|S1015 uses T1559.001]] — Milan → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-08506 - uses|S0640 uses T1489]] — Avaddon → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-08507 - uses|S0083 uses T1547]] — Misdat → Boot or Logon Autostart Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08508 - uses|S9034 uses T1480]] — Tsundere Botnet → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-08509 - uses|S0148 uses T1547.001]] — RTM → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08510 - uses|S0143 uses T1547.002]] — Flame → Authentication Package
+- [[07 ATT&CK Relationships/ATTACK-REL-08511 - uses|S0235 uses T1547.013]] — CrossRAT → XDG Autostart Entries
+- [[07 ATT&CK Relationships/ATTACK-REL-08512 - uses|S0640 uses T1059.007]] — Avaddon → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-08513 - uses|S0198 uses T1082]] — NETWIRE → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08514 - uses|G0090 uses T1027.010]] — WIRTE → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-08515 - uses|C0062 uses T1592.002]] — Anthropic AI-orchestrated Campaign → Software
+- [[07 ATT&CK Relationships/ATTACK-REL-08516 - uses|S0019 uses T1040]] — Regin → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-08517 - uses|G1041 uses T1588.004]] — Sea Turtle → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-08518 - uses|G0026 uses T1070.004]] — APT18 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08519 - uses|G0006 uses S0345]] — APT1 → Seasalt
+- [[07 ATT&CK Relationships/ATTACK-REL-08520 - uses|S1184 uses T1543]] — BOLDMOVE → Create or Modify System Process
+- [[07 ATT&CK Relationships/ATTACK-REL-08521 - uses|S0409 uses T1027.010]] — Machete → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-08522 - uses|C0063 uses T1571]] — 2025 Poland Wiper Attacks → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-08523 - uses|S1135 uses T1070.006]] — MultiLayer Wiper → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-08524 - uses|S1084 uses T1008]] — QUIETEXIT → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-08525 - uses|S0050 uses T1048.003]] — CosmicDuke → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08526 - uses|G0027 uses S0013]] — Threat Group-3390 → PlugX
+- [[07 ATT&CK Relationships/ATTACK-REL-08527 - uses|S1244 uses T1543.003]] — Medusa Ransomware → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08528 - uses|S0395 uses T1029]] — LightNeuron → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08529 - uses|S1039 uses T1027]] — Bumblebee → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08530 - uses|G1039 uses T1056.002]] — RedCurl → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08531 - uses|S1111 uses T1027]] — DarkGate → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08532 - uses|S1159 uses T1027.009]] — DUSTTRAP → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-08533 - uses|S1244 uses T1559]] — Medusa Ransomware → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-08534 - uses|S0637 uses T1204.002]] — NativeZone → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08535 - uses|G0094 uses T1593.001]] — Kimsuky → Social Media
+- [[07 ATT&CK Relationships/ATTACK-REL-08536 - uses|S1141 uses T1083]] — LunarWeb → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08537 - uses|G1048 uses T1554]] — UNC3886 → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-08538 - uses|S0526 uses T1056.001]] — KGH_SPY → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08539 - uses|G0021 uses S0553]] — Molerats → MoleNet
+- [[07 ATT&CK Relationships/ATTACK-REL-08540 - uses|S0590 uses T1018]] — NBTscan → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08541 - uses|S0642 uses T1566.001]] — BADFLICK → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-08542 - uses|S1120 uses T1140]] — FRAMESTING → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08543 - uses|G1043 uses T1583.003]] — BlackByte → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-08544 - uses|G0010 uses T1083]] — Turla → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08545 - uses|S0176 uses T1070.004]] — Wingbird → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08546 - uses|S0575 uses T1018]] — Conti → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08547 - uses|S0126 uses T1059.001]] — ComRAT → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08548 - uses|G1040 uses S0002]] — Play → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-08549 - uses|S1048 uses T1057]] — macOS.OSAMiner → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08550 - uses|S0400 uses T1489]] — RobbinHood → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-08551 - uses|S0380 uses T1113]] — StoneDrill → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08552 - uses|S0352 uses T1571]] — OSX_OCEANLOTUS.D → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-08553 - uses|C0014 uses T1046]] — Operation Wocao → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08554 - uses|G0119 uses T1486]] — Indrik Spider → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-08555 - uses|G0056 uses T1587.003]] — PROMETHIUM → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-08556 - uses|G1003 uses T1595.001]] — Ember Bear → Scanning IP Blocks
+- [[07 ATT&CK Relationships/ATTACK-REL-08557 - uses|S0546 uses T1082]] — SharpStage → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08558 - uses|S0395 uses T1041]] — LightNeuron → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08559 - uses|S0366 uses T1018]] — WannaCry → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08560 - uses|G0027 uses T1070.005]] — Threat Group-3390 → Network Share Connection Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-08561 - uses|S0576 uses T1497.001]] — MegaCortex → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08562 - uses|G0061 uses S0196]] — FIN8 → PUNCHBUGGY
+- [[07 ATT&CK Relationships/ATTACK-REL-08563 - uses|S1090 uses T1057]] — NightClub → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08564 - uses|S0248 uses T1057]] — yty → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08565 - uses|G1054 uses T1090]] — MirrorFace → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08566 - uses|G1017 uses T1057]] — Volt Typhoon → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08567 - uses|G0139 uses T1102]] — TeamTNT → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08568 - uses|G1051 uses T1105]] — Medusa Group → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08569 - uses|C0024 uses T1048.002]] — SolarWinds Compromise → Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08570 - uses|G0108 uses T1090]] — Blue Mockingbird → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08571 - uses|S1242 uses T1134]] — Qilin → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-08572 - uses|G0061 uses T1588.003]] — FIN8 → Code Signing Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-08573 - uses|C0014 uses S0029]] — Operation Wocao → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-08574 - uses|G0032 uses T1553.002]] — Lazarus Group → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-08575 - uses|S1123 uses T1059.004]] — PITSTOP → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08576 - uses|S0595 uses T1057]] — ThiefQuest → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08577 - uses|S0269 uses T1027.010]] — QUADAGENT → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-08578 - uses|S0437 uses T1070.004]] — Kivars → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08579 - uses|G0016 uses T1204.002]] — APT29 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08580 - uses|S0431 uses T1033]] — HotCroissant → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08581 - uses|G0059 uses T1046]] — Magic Hound → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08582 - uses|S9037 uses T1204.002]] — RustyWater → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08583 - uses|G1035 uses T1059.001]] — Winter Vivern → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08584 - uses|S1136 uses T1554]] — BFG Agonizer → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-08585 - uses|S0504 uses T1021.002]] — Anchor → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-08586 - uses|G0106 uses T1027.002]] — Rocke → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-08587 - uses|S0513 uses T1497.003]] — LiteDuke → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08588 - uses|S9008 uses T1543.002]] — Shai-Hulud → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08589 - uses|S1017 uses T1020]] — OutSteel → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-08590 - uses|G1022 uses T1047]] — ToddyCat → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-08591 - uses|S0259 uses T1027]] — InnaputRAT → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08592 - uses|S0496 uses T1083]] — REvil → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08593 - uses|C0002 uses T1583.004]] — Night Dragon → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-08594 - uses|S1018 uses T1204.001]] — Saint Bot → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-08595 - uses|S0662 uses T1095]] — RCSession → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08596 - uses|C0048 uses T1021.006]] — Operation MidnightEclipse → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-08597 - uses|S0355 uses T1547.001]] — Final1stspy → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08598 - uses|S0670 uses T1082]] — WarzoneRAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08599 - uses|G1033 uses T1684.001]] — Star Blizzard → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-08600 - uses|S0527 uses T1112]] — CSPY Downloader → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08601 - uses|S1111 uses T1665]] — DarkGate → Hide Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-08602 - uses|S0335 uses T1573.002]] — Carbon → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08603 - uses|S0627 uses T1057]] — SodaMaster → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08604 - uses|S0482 uses T1098.004]] — Bundlore → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-08605 - uses|G1054 uses T1221]] — MirrorFace → Template Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08606 - uses|G0050 uses T1059.005]] — APT32 → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08607 - uses|S1149 uses T1106]] — CHIMNEYSWEEP → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08608 - uses|G0108 uses T1021.001]] — Blue Mockingbird → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08609 - uses|S1218 uses T1059.012]] — VIRTUALPIE → Hypervisor CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-08610 - uses|S0472 uses T1573.001]] — down_new → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08611 - uses|S0644 uses T1025]] — ObliqueRAT → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-08612 - uses|S0020 uses T1046]] — China Chopper → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08613 - uses|S0388 uses T1071.001]] — YAHOYAH → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08614 - uses|S9042 uses T1552.004]] — CanisterWorm → Private Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-08615 - uses|S0139 uses T1485]] — PowerDuke → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-08616 - uses|G0080 uses S0002]] — Cobalt Group → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-08617 - uses|S0610 uses T1005]] — SideTwist → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08618 - uses|S0089 uses T1070]] — BlackEnergy → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-08619 - uses|S9041 uses T1140]] — TeamPCP Cloud Stealer → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08620 - uses|S0021 uses T1123]] — Derusbi → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08621 - uses|G0143 uses T1021.002]] — Aquatic Panda → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-08622 - uses|S1014 uses T1105]] — DanBot → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08623 - uses|G0096 uses T1071.004]] — APT41 → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-08624 - uses|S1224 uses T1573.001]] — CASTLETAP → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08625 - uses|S1130 uses T1218.010]] — Raspberry Robin → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-08626 - uses|S1247 uses T1140]] — Embargo → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08627 - uses|S1086 uses T1102]] — Snip3 → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08628 - uses|G0069 uses T1204.002]] — MuddyWater → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08629 - uses|C0022 uses T1047]] — Operation Dream Job → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-08630 - uses|S0568 uses T1539]] — EVILNUM → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-08631 - uses|S1078 uses T1106]] — RotaJakiro → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08632 - uses|S0053 uses T1105]] — SeaDuke → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08633 - uses|S1211 uses T1543.003]] — Hannotog → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08634 - uses|S0269 uses T1059.003]] — QUADAGENT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08635 - uses|S1237 uses T1027.007]] — CANONSTAGER → Dynamic API Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-08636 - uses|S0198 uses T1036.005]] — NETWIRE → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08637 - uses|S9041 uses T1105]] — TeamPCP Cloud Stealer → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08638 - uses|S0632 uses T1070.009]] — GrimAgent → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-08639 - uses|C0059 uses T1587.001]] — Salesforce Data Exfiltration → Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-08640 - uses|S0452 uses T1049]] — USBferry → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08641 - uses|G0119 uses T1105]] — Indrik Spider → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08642 - uses|G0065 uses S0005]] — Leviathan → Windows Credential Editor
+- [[07 ATT&CK Relationships/ATTACK-REL-08643 - uses|S0184 uses T1105]] — POWRUNER → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08644 - uses|G1030 uses S1133]] — Agrius → Apostle
+- [[07 ATT&CK Relationships/ATTACK-REL-08645 - uses|S0162 uses T1071.001]] — Komplex → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08646 - uses|G1006 uses T1543.003]] — Earth Lusca → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08647 - uses|S1240 uses T1113]] — RedLine Stealer → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08648 - uses|G0129 uses T1553.002]] — Mustang Panda → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-08649 - uses|S0668 uses T1106]] — TinyTurla → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08650 - uses|G0019 uses T1046]] — Naikon → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08651 - uses|S0266 uses T1087.001]] — TrickBot → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08652 - uses|G1016 uses T1082]] — FIN13 → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08653 - uses|S0062 uses T1082]] — DustySky → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08654 - uses|S0394 uses T1573.001]] — HiddenWasp → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08655 - uses|S0139 uses T1218.011]] — PowerDuke → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-08656 - uses|S1066 uses T1574.012]] — DarkTortilla → COR_PROFILER
+- [[07 ATT&CK Relationships/ATTACK-REL-08657 - uses|C0049 uses T1588.006]] — Leviathan Australian Intrusions → Vulnerabilities
+- [[07 ATT&CK Relationships/ATTACK-REL-08658 - uses|S0601 uses T1496.001]] — Hildegard → Compute Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-08659 - uses|S0384 uses T1090.003]] — Dridex → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08660 - uses|G0004 uses T1007]] — Ke3chang → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08661 - uses|G0034 uses T1003.003]] — Sandworm Team → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-08662 - uses|S0045 uses T1082]] — ADVSTORESHELL → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08663 - uses|S9035 uses T1057]] — LAMEHUG → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08664 - uses|C0022 uses T1560.001]] — Operation Dream Job → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-08665 - uses|S0062 uses T1071.001]] — DustySky → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08666 - uses|S0154 uses T1134.001]] — Cobalt Strike → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-08667 - uses|G0096 uses T1098.007]] — APT41 → Additional Local or Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-08668 - uses|S0198 uses T1555]] — NETWIRE → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-08669 - uses|S0395 uses T1020]] — LightNeuron → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-08670 - uses|S0615 uses T1560.003]] — SombRAT → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-08671 - uses|S0681 uses T1016]] — Lizar → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08672 - uses|G0119 uses T1204.002]] — Indrik Spider → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-08673 - uses|S1181 uses T1490]] — BlackByte 2.0 Ransomware → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08674 - uses|S1111 uses T1082]] — DarkGate → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08675 - uses|S1244 uses T1124]] — Medusa Ransomware → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08676 - uses|S0269 uses T1053.005]] — QUADAGENT → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08677 - uses|G1054 uses T1047]] — MirrorFace → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-08678 - uses|G0054 uses T1059.003]] — Sowbug → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08679 - uses|G0085 uses T1090.003]] — FIN4 → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08680 - uses|C0021 uses T1027.009]] — C0021 → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-08681 - uses|S9007 uses T1041]] — HTTPTroy → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08682 - uses|S1115 uses T1505.003]] — WIREFIRE → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08683 - uses|G0087 uses T1204.001]] — APT39 → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-08684 - uses|S0264 uses T1140]] — OopsIE → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08685 - uses|S1066 uses T1071.001]] — DarkTortilla → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08686 - uses|S0201 uses T1016]] — JPIN → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08687 - uses|S0370 uses T1027.016]] — SamSam → Junk Code Insertion
+- [[07 ATT&CK Relationships/ATTACK-REL-08688 - uses|S9043 uses T1485]] — Mini Shai-Hulud → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-08689 - uses|G0069 uses T1041]] — MuddyWater → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08690 - uses|G1057 uses T1593.003]] — ShinyHunters → Code Repositories
+- [[07 ATT&CK Relationships/ATTACK-REL-08691 - uses|S1027 uses T1071.004]] — Heyoka Backdoor → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-08692 - uses|S1100 uses T1016]] — Ninja → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08693 - uses|S0614 uses T1027.001]] — CostaBricks → Binary Padding
+- [[07 ATT&CK Relationships/ATTACK-REL-08694 - uses|S0350 uses T1021.001]] — zwShell → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08695 - uses|S1247 uses T1083]] — Embargo → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08696 - uses|G0032 uses T1070.003]] — Lazarus Group → Clear Command History
+- [[07 ATT&CK Relationships/ATTACK-REL-08697 - uses|S0635 uses T1033]] — BoomBox → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08698 - uses|S9010 uses T1074.001]] — GlassWorm → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08699 - uses|S0627 uses T1105]] — SodaMaster → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08700 - uses|G0059 uses T1036.004]] — Magic Hound → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08701 - uses|S1018 uses T1059.001]] — Saint Bot → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08702 - uses|S9032 uses T1560]] — MuddyViper → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-08703 - uses|G0140 uses T1059.003]] — LazyScripter → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08704 - uses|S0136 uses T1119]] — USBStealer → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08705 - uses|G0046 uses T1558.003]] — FIN7 → Kerberoasting
+- [[07 ATT&CK Relationships/ATTACK-REL-08706 - uses|S0236 uses T1027.001]] — Kwampirs → Binary Padding
+- [[07 ATT&CK Relationships/ATTACK-REL-08707 - uses|G0027 uses T1046]] — Threat Group-3390 → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08708 - uses|G0100 uses T1090.003]] — Inception → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08709 - uses|S0192 uses T1555.003]] — Pupy → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-08710 - uses|S0681 uses T1113]] — Lizar → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08711 - uses|S0622 uses T1036.005]] — AppleSeed → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08712 - uses|G1043 uses T1046]] — BlackByte → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08713 - uses|S0085 uses T1070.004]] — S-Type → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08714 - uses|G0092 uses T1588.002]] — TA505 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08715 - uses|S0089 uses T1071.001]] — BlackEnergy → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08716 - uses|S1111 uses T1059.010]] — DarkGate → AutoHotKey & AutoIT
+- [[07 ATT&CK Relationships/ATTACK-REL-08717 - uses|S0588 uses T1053.005]] — GoldMax → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08718 - uses|S1219 uses T1573.002]] — REPTILE → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08719 - uses|G0006 uses S0008]] — APT1 → gsecdump
+- [[07 ATT&CK Relationships/ATTACK-REL-08720 - uses|C0017 uses T1005]] — C0017 → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08721 - uses|G1036 uses T1195.002]] — Moonstone Sleet → Compromise Software Supply Chain
+- [[07 ATT&CK Relationships/ATTACK-REL-08722 - uses|S0461 uses T1095]] — SDBbot → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08723 - uses|G0064 uses T1059.001]] — APT33 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-08724 - uses|S0538 uses T1119]] — Crutch → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08725 - uses|G0049 uses T1003.005]] — OilRig → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-08726 - uses|S0457 uses T1105]] — Netwalker → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08727 - uses|S0678 uses T1049]] — Torisma → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08728 - uses|S0572 uses T1105]] — Caterpillar WebShell → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08729 - uses|C0058 uses T1041]] — SharePoint ToolShell Exploitation → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08730 - uses|S9013 uses T1601]] — DRYHOOK → Modify System Image
+- [[07 ATT&CK Relationships/ATTACK-REL-08731 - uses|S0690 uses T1082]] — Green Lambert → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08732 - uses|S0356 uses T1566.001]] — KONNI → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-08733 - uses|S1159 uses T1056.001]] — DUSTTRAP → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08734 - uses|S1026 uses T1005]] — Mongall → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08735 - uses|C0049 uses T1212]] — Leviathan Australian Intrusions → Exploitation for Credential Access
+- [[07 ATT&CK Relationships/ATTACK-REL-08736 - uses|S0013 uses T1056.001]] — PlugX → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08737 - uses|S0543 uses T1140]] — Spark → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08738 - uses|G1015 uses T1021.007]] — Scattered Spider → Cloud Services
+- [[07 ATT&CK Relationships/ATTACK-REL-08739 - uses|S0612 uses T1574.001]] — WastedLocker → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-08740 - uses|G1057 uses T1598.003]] — ShinyHunters → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-08741 - uses|G0049 uses T1071.001]] — OilRig → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08742 - uses|C0044 uses S1169]] — Juicy Mix → Mango
+- [[07 ATT&CK Relationships/ATTACK-REL-08743 - uses|S0543 uses T1497.002]] — Spark → User Activity Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08744 - uses|S0521 uses T1018]] — BloodHound → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08745 - uses|S0475 uses T1027.010]] — BackConfig → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-08746 - uses|G0010 uses T1105]] — Turla → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08747 - uses|S0164 uses T1059.003]] — TDTESS → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08748 - uses|S9010 uses T1059.002]] — GlassWorm → AppleScript
+- [[07 ATT&CK Relationships/ATTACK-REL-08749 - uses|S1066 uses T1564]] — DarkTortilla → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-08750 - uses|G0034 uses T1585.002]] — Sandworm Team → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08751 - uses|G1041 uses T1114.001]] — Sea Turtle → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08752 - uses|S0659 uses T1485]] — Diavol → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-08753 - uses|S0674 uses T1573.001]] — CharmPower → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08754 - uses|G0006 uses S0025]] — APT1 → CALENDAR
+- [[07 ATT&CK Relationships/ATTACK-REL-08755 - uses|S0396 uses T1518.001]] — EvilBunny → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08756 - uses|G0087 uses T1140]] — APT39 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08757 - uses|G0010 uses S0265]] — Turla → Kazuar
+- [[07 ATT&CK Relationships/ATTACK-REL-08758 - uses|S1239 uses T1036.005]] — TONESHELL → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08759 - uses|S1210 uses T1074.001]] — Sagerunex → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08760 - uses|G0049 uses S1166]] — OilRig → Solar
+- [[07 ATT&CK Relationships/ATTACK-REL-08761 - uses|G1023 uses T1554]] — APT5 → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-08762 - uses|S1236 uses T1036.005]] — CLAIMLOADER → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08763 - uses|G0026 uses S0124]] — APT18 → Pisloader
+- [[07 ATT&CK Relationships/ATTACK-REL-08764 - uses|S0584 uses T1053.005]] — AppleJeus → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08765 - uses|G0126 uses T1124]] — Higaisa → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08766 - uses|S1187 uses T1059.006]] — reGeorg → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-08767 - uses|S0500 uses T1053.005]] — MCMD → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08768 - uses|S0170 uses T1059.005]] — Helminth → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08769 - uses|S0349 uses T1003.005]] — LaZagne → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-08770 - uses|S1233 uses T1074.001]] — PAKLOG → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08771 - uses|S0256 uses T1546.015]] — Mosquito → Component Object Model Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-08772 - uses|S0438 uses T1497.001]] — Attor → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08773 - uses|G0034 uses T1102.002]] — Sandworm Team → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-08774 - uses|S0034 uses T1573.001]] — NETEAGLE → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08775 - uses|S0084 uses T1074.001]] — Mis-Type → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08776 - uses|G0117 uses T1053.005]] — Fox Kitten → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08777 - uses|S0604 uses T1078]] — Industroyer → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08778 - uses|G0138 uses S0032]] — Andariel → gh0st RAT
+- [[07 ATT&CK Relationships/ATTACK-REL-08779 - uses|S1042 uses T1074.001]] — SUGARDUMP → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08780 - uses|G1033 uses T1588.002]] — Star Blizzard → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08781 - uses|S1184 uses T1082]] — BOLDMOVE → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08782 - uses|S1245 uses T1614]] — InvisibleFerret → System Location Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08783 - uses|S0055 uses T1095]] — RARSTONE → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08784 - uses|S1021 uses T1059.003]] — DnsSystem → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08785 - uses|S1052 uses T1016]] — DEADEYE → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08786 - uses|C0002 uses S0110]] — Night Dragon → at
+- [[07 ATT&CK Relationships/ATTACK-REL-08787 - uses|S1020 uses T1546.003]] — Kevin → Windows Management Instrumentation Event Subscription
+- [[07 ATT&CK Relationships/ATTACK-REL-08788 - uses|S0603 uses T1685]] — Stuxnet → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-08789 - uses|C0028 uses T1056.001]] — 2015 Ukraine Electric Power Attack → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08790 - uses|S1239 uses T1132.002]] — TONESHELL → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-08791 - uses|G0094 uses S0262]] — Kimsuky → QuasarRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-08792 - uses|G0018 uses T1203]] — admin@338 → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-08793 - uses|G0010 uses T1036.005]] — Turla → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08794 - uses|S0631 uses T1105]] — Chaes → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08795 - uses|S1119 uses T1573.001]] — LIGHTWIRE → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08796 - uses|S0628 uses T1083]] — FYAnti → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08797 - uses|G0035 uses T1087.002]] — Dragonfly → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08798 - uses|G0121 uses T1119]] — Sidewinder → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08799 - uses|S1228 uses T1012]] — PUBLOAD → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08800 - uses|G1041 uses T1588.002]] — Sea Turtle → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08801 - uses|S1184 uses T1573.002]] — BOLDMOVE → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08802 - uses|C0015 uses T1566.001]] — C0015 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-08803 - uses|S0584 uses T1218.007]] — AppleJeus → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-08804 - uses|G0092 uses S0194]] — TA505 → PowerSploit
+- [[07 ATT&CK Relationships/ATTACK-REL-08805 - uses|G0066 uses S0206]] — Elderwood → Wiarp
+- [[07 ATT&CK Relationships/ATTACK-REL-08806 - uses|G0049 uses T1137.004]] — OilRig → Outlook Home Page
+- [[07 ATT&CK Relationships/ATTACK-REL-08807 - uses|S1229 uses T1106]] — Havoc → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08808 - uses|S0581 uses T1053.005]] — IronNetInjector → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08809 - uses|S9035 uses T1074.001]] — LAMEHUG → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08810 - uses|G0114 uses T1053.005]] — Chimera → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08811 - uses|S9041 uses T1543.002]] — TeamPCP Cloud Stealer → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08812 - uses|S1207 uses T1053.005]] — XLoader → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08813 - uses|S1240 uses T1005]] — RedLine Stealer → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08814 - uses|G1033 uses T1078]] — Star Blizzard → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08815 - uses|S0663 uses T1070.004]] — SysUpdate → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08816 - uses|S0692 uses T1543.003]] — SILENTTRINITY → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08817 - uses|G0094 uses T1124]] — Kimsuky → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08818 - uses|G0102 uses S0367]] — Wizard Spider → Emotet
+- [[07 ATT&CK Relationships/ATTACK-REL-08819 - uses|S0698 uses T1046]] — HermeticWizard → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08820 - uses|S0356 uses T1056.001]] — KONNI → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08821 - uses|S1141 uses T1090]] — LunarWeb → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08822 - uses|G0080 uses S0029]] — Cobalt Group → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-08823 - uses|C0010 uses T1588.002]] — C0010 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08824 - uses|S9015 uses T1041]] — BRICKSTORM → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08825 - uses|S0192 uses T1003.004]] — Pupy → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-08826 - uses|S0696 uses T1069.001]] — Flagpro → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-08827 - uses|C0001 uses T1105]] — Frankenstein → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08828 - uses|S0273 uses T1113]] — Socksbot → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08829 - uses|G0126 uses T1547.001]] — Higaisa → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08830 - uses|S0615 uses T1055.001]] — SombRAT → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08831 - uses|S1148 uses T1124]] — Raccoon Stealer → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08832 - uses|S0526 uses T1140]] — KGH_SPY → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08833 - uses|S0013 uses T1053.005]] — PlugX → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08834 - uses|S1065 uses T1005]] — Woody RAT → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08835 - uses|S0515 uses T1105]] — WellMail → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08836 - uses|S0487 uses T1560]] — Kessel → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-08837 - uses|S1046 uses T1574.001]] — PowGoop → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-08838 - uses|C0042 uses S1166]] — Outer Space → Solar
+- [[07 ATT&CK Relationships/ATTACK-REL-08839 - uses|G1056 uses T1583]] — TeamPCP → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-08840 - uses|G0006 uses T1036.005]] — APT1 → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08841 - uses|G1044 uses T1585.002]] — APT42 → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08842 - uses|S1021 uses T1041]] — DnsSystem → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08843 - uses|S1125 uses T1083]] — AcidRain → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08844 - uses|S0616 uses T1680]] — DEATHRANSOM → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08845 - uses|S0495 uses T1059.003]] — RDAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08846 - uses|C0051 uses T1560.001]] — APT28 Nearest Neighbor Campaign → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-08847 - uses|S0622 uses T1036]] — AppleSeed → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-08848 - uses|S1063 uses T1102]] — Brute Ratel C4 → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08849 - uses|S0113 uses T1218.011]] — Prikormka → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-08850 - uses|S0154 uses T1068]] — Cobalt Strike → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-08851 - uses|S0256 uses T1106]] — Mosquito → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08852 - uses|S0375 uses T1041]] — Remexi → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-08853 - uses|G0003 uses S0002]] — Cleaver → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-08854 - uses|S0366 uses T1083]] — WannaCry → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08855 - uses|S0444 uses T1029]] — ShimRat → Scheduled Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08856 - uses|G0124 uses T1082]] — Windigo → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08857 - uses|S1122 uses T1055]] — Mispadu → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08858 - uses|G0010 uses S0002]] — Turla → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-08859 - uses|G1054 uses T1007]] — MirrorFace → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08860 - uses|G0001 uses T1584.005]] — Axiom → Botnet
+- [[07 ATT&CK Relationships/ATTACK-REL-08861 - uses|S9020 uses T1614.001]] — LODEINFO → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08862 - uses|C0043 uses T1071.001]] — Indian Critical Infrastructure Intrusions → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08863 - uses|G0050 uses T1018]] — APT32 → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08864 - uses|S9024 uses T1574]] — SPAWNCHIMERA → Hijack Execution Flow
+- [[07 ATT&CK Relationships/ATTACK-REL-08865 - uses|G0100 uses T1082]] — Inception → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08866 - uses|S0206 uses T1059.003]] — Wiarp → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08867 - uses|S0663 uses T1106]] — SysUpdate → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08868 - uses|S0466 uses T1119]] — WindTail → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08869 - uses|C0038 uses T1486]] — HomeLand Justice → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-08870 - uses|S0475 uses T1140]] — BackConfig → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08871 - uses|S1044 uses T1036.004]] — FunnyDream → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08872 - uses|S0597 uses T1119]] — GoldFinder → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-08873 - uses|S0499 uses T1027]] — Hancitor → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08874 - uses|S0641 uses T1573.002]] — Kobalos → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08875 - uses|S0565 uses T1027.013]] — Raindrop → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08876 - uses|S0050 uses T1039]] — CosmicDuke → Data from Network Shared Drive
+- [[07 ATT&CK Relationships/ATTACK-REL-08877 - uses|C0015 uses T1030]] — C0015 → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-08878 - uses|S9007 uses T1132.002]] — HTTPTroy → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-08879 - uses|G0082 uses T1685.005]] — APT38 → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-08880 - uses|S1135 uses T1059.003]] — MultiLayer Wiper → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08881 - uses|G1035 uses T1020]] — Winter Vivern → Automated Exfiltration
+- [[07 ATT&CK Relationships/ATTACK-REL-08882 - uses|C0026 uses S0099]] — C0026 → Arp
+- [[07 ATT&CK Relationships/ATTACK-REL-08883 - uses|G1006 uses S0596]] — Earth Lusca → ShadowPad
+- [[07 ATT&CK Relationships/ATTACK-REL-08884 - uses|G0088 uses S0029]] — TEMP.Veles → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-08885 - uses|G1018 uses T1218.005]] — TA2541 → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-08886 - uses|G0038 uses T1555.003]] — Stealth Falcon → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-08887 - uses|G0094 uses T1133]] — Kimsuky → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-08888 - uses|S0642 uses T1560.002]] — BADFLICK → Archive via Library
+- [[07 ATT&CK Relationships/ATTACK-REL-08889 - uses|S0192 uses T1049]] — Pupy → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08890 - uses|S0601 uses T1014]] — Hildegard → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-08891 - uses|C0016 uses T1059.005]] — Operation Dust Storm → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08892 - uses|S1146 uses T1056.001]] — MgBot → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08893 - uses|S0098 uses T1546.010]] — T9000 → AppInit DLLs
+- [[07 ATT&CK Relationships/ATTACK-REL-08894 - uses|C0051 uses T1090.001]] — APT28 Nearest Neighbor Campaign → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-08895 - uses|S0192 uses T1134.001]] — Pupy → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-08896 - uses|S1213 uses T1539]] — Lumma Stealer → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-08897 - uses|G1021 uses T1567.002]] — Cinnamon Tempest → Exfiltration to Cloud Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-08898 - uses|S0260 uses T1010]] — InvisiMole → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08899 - uses|S0493 uses T1070.004]] — GoldenSpy → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08900 - uses|S0689 uses T1059.005]] — WhisperGate → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08901 - uses|G0006 uses T1583.001]] — APT1 → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-08902 - uses|S0061 uses T1685]] — HDoor → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-08903 - uses|S1212 uses T1057]] — RansomHub → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08904 - uses|G0126 uses T1027.015]] — Higaisa → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-08905 - uses|S0585 uses T1027.015]] — Kerrdown → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-08906 - uses|G0108 uses T1588.002]] — Blue Mockingbird → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08907 - uses|S1043 uses T1074.002]] — ccf32 → Remote Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-08908 - uses|G0061 uses S0029]] — FIN8 → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-08909 - uses|S1044 uses T1059.003]] — FunnyDream → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08910 - uses|G1054 uses S0097]] — MirrorFace → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-08911 - uses|S1178 uses T1102]] — ShrinkLocker → Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08912 - uses|S0428 uses T1105]] — PoetRAT → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08913 - uses|S9023 uses T1497.003]] — HiddenFace → Time Based Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08914 - uses|S0662 uses T1057]] — RCSession → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08915 - uses|S0585 uses T1059.005]] — Kerrdown → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-08916 - uses|G0049 uses S0189]] — OilRig → ISMInjector
+- [[07 ATT&CK Relationships/ATTACK-REL-08917 - uses|G0095 uses T1059.006]] — Machete → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-08918 - uses|S0363 uses T1083]] — Empire → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08919 - uses|S0657 uses T1033]] — BLUELIGHT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08920 - uses|S0447 uses T1140]] — Lokibot → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08921 - uses|G0090 uses T1571]] — WIRTE → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-08922 - uses|S0022 uses T1059.003]] — Uroburos → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08923 - uses|S9037 uses T1055.002]] — RustyWater → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-08924 - uses|S1207 uses T1622]] — XLoader → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-08925 - uses|G1055 uses T1190]] — VOID MANTICORE → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-08926 - uses|G0120 uses T1566.002]] — Evilnum → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-08927 - uses|S0244 uses T1027.001]] — Comnie → Binary Padding
+- [[07 ATT&CK Relationships/ATTACK-REL-08928 - uses|G1048 uses T1685]] — UNC3886 → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-08929 - uses|S0257 uses T1027.002]] — VERMIN → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-08930 - uses|G0069 uses S1047]] — MuddyWater → Mori
+- [[07 ATT&CK Relationships/ATTACK-REL-08931 - uses|S0533 uses T1105]] — SLOTHFULMEDIA → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08932 - uses|S0015 uses T1083]] — Ixeshe → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08933 - uses|G0037 uses T1095]] — FIN6 → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08934 - uses|S0363 uses T1136.002]] — Empire → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08935 - uses|G0008 uses T1036.005]] — Carbanak → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-08936 - uses|S1160 uses T1047]] — Latrodectus → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-08937 - uses|G0126 uses T1071.001]] — Higaisa → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08938 - uses|S0414 uses T1105]] — BabyShark → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08939 - uses|S0491 uses T1685]] — StrongPity → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-08940 - uses|S1167 uses T1083]] — AcidPour → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08941 - uses|C0024 uses T1560.001]] — SolarWinds Compromise → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-08942 - uses|C0061 uses T1003.001]] — Operation Digital Eye → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-08943 - uses|S0520 uses T1027.013]] — BLINDINGCAN → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08944 - uses|S1035 uses T1132.002]] — Small Sieve → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-08945 - uses|G0065 uses T1133]] — Leviathan → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-08946 - uses|S0521 uses T1087.001]] — BloodHound → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-08947 - uses|S0667 uses T1106]] — Chrommme → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08948 - uses|S1022 uses T1620]] — IceApple → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-08949 - uses|C0061 uses S0002]] — Operation Digital Eye → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-08950 - uses|G0040 uses T1132.001]] — Patchwork → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-08951 - uses|S0532 uses T1053.005]] — Lucifer → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-08952 - uses|S0376 uses T1008]] — HOPLIGHT → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-08953 - uses|S0354 uses T1012]] — Denis → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08954 - uses|S1016 uses T1056.001]] — MacMa → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-08955 - uses|G0035 uses S0357]] — Dragonfly → Impacket
+- [[07 ATT&CK Relationships/ATTACK-REL-08956 - uses|S0250 uses T1059.003]] — Koadic → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-08957 - uses|S0192 uses T1123]] — Pupy → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-08958 - uses|S9027 uses T1027.013]] — ANELLDR → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08959 - uses|S0065 uses T1083]] — 4H RAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08960 - uses|S0517 uses T1112]] — Pillowmint → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-08961 - uses|C0063 uses T1046]] — 2025 Poland Wiper Attacks → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08962 - uses|C0037 uses T1105]] — Water Curupira Pikabot Distribution → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08963 - uses|S1111 uses T1496.001]] — DarkGate → Compute Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-08964 - uses|C0027 uses T1021.007]] — C0027 → Cloud Services
+- [[07 ATT&CK Relationships/ATTACK-REL-08965 - uses|S0449 uses T1614.001]] — Maze → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08966 - uses|G1048 uses T1190]] — UNC3886 → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-08967 - uses|S0026 uses T1102.002]] — GLOOXMAIL → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-08968 - uses|S1189 uses T1071.001]] — Neo-reGeorg → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08969 - uses|S0167 uses T1547.001]] — Matryoshka → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-08970 - uses|S0449 uses T1486]] — Maze → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-08971 - uses|S0695 uses T1070]] — Donut → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-08972 - uses|G0142 uses T1566.001]] — Confucius → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-08973 - uses|S1186 uses T1140]] — Line Dancer → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-08974 - uses|G1018 uses T1588.002]] — TA2541 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-08975 - uses|S9041 uses T1213.006]] — TeamPCP Cloud Stealer → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-08976 - uses|G0102 uses T1210]] — Wizard Spider → Exploitation of Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-08977 - uses|G0119 uses T1078]] — Indrik Spider → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-08978 - uses|S1164 uses T1070.004]] — UPSTYLE → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-08979 - uses|G0034 uses T1570]] — Sandworm Team → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08980 - uses|S0332 uses T1083]] — Remcos → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08981 - uses|G0047 uses T1027.015]] — Gamaredon Group → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-08982 - uses|S0081 uses T1027.013]] — Elise → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-08983 - uses|S0252 uses T1057]] — Brave Prince → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08984 - uses|S0382 uses T1218.011]] — ServHelper → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-08985 - uses|S0687 uses T1105]] — Cyclops Blink → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-08986 - uses|G0082 uses T1218.001]] — APT38 → Compiled HTML File
+- [[07 ATT&CK Relationships/ATTACK-REL-08987 - uses|S0363 uses T1106]] — Empire → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-08988 - uses|G0009 uses S0039]] — Deep Panda → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-08989 - uses|S0457 uses T1082]] — Netwalker → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08990 - uses|G0094 uses T1071.003]] — Kimsuky → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08991 - uses|G0016 uses S0560]] — APT29 → TEARDROP
+- [[07 ATT&CK Relationships/ATTACK-REL-08992 - uses|G1039 uses T1573.001]] — RedCurl → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-08993 - uses|S0451 uses T1543.003]] — LoudMiner → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-08994 - uses|G0139 uses T1083]] — TeamTNT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-08995 - uses|G0059 uses T1021.001]] — Magic Hound → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-08996 - uses|S0094 uses T1497.001]] — Trojan.Karagany → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-08997 - uses|S0282 uses T1071.001]] — MacSpy → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-08998 - uses|S0386 uses T1005]] — Ursnif → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-08999 - uses|G0133 uses T1036]] — Nomadic Octopus → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-09000 - uses|S0153 uses T1071.001]] — RedLeaves → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09001 - uses|G0049 uses T1204.001]] — OilRig → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09002 - uses|S0267 uses T1547.009]] — FELIXROOT → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-09003 - uses|S0442 uses T1070.004]] — VBShower → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09004 - uses|S0352 uses T1082]] — OSX_OCEANLOTUS.D → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09005 - uses|C0050 uses T1036.005]] — J-magic Campaign → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09006 - uses|S1149 uses T1027.009]] — CHIMNEYSWEEP → Embedded Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-09007 - uses|S0250 uses T1047]] — Koadic → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09008 - uses|S0330 uses T1027.013]] — Zeus Panda → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09009 - uses|C0055 uses T1090.003]] — Quad7 Activity → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09010 - uses|S0037 uses T1573.001]] — HAMMERTOSS → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09011 - uses|S0482 uses T1059.006]] — Bundlore → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-09012 - uses|S0241 uses T1059.003]] — RATANKBA → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09013 - uses|S0260 uses T1005]] — InvisiMole → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09014 - uses|S0387 uses T1016]] — KeyBoy → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09015 - uses|S1060 uses T1049]] — Mafalda → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09016 - uses|C0029 uses T1005]] — Cutting Edge → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09017 - uses|S0350 uses T1053.005]] — zwShell → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-09018 - uses|S1111 uses T1486]] — DarkGate → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-09019 - uses|S0015 uses T1057]] — Ixeshe → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09020 - uses|S0236 uses T1027.013]] — Kwampirs → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09021 - uses|S0682 uses T1071.001]] — TrailBlazer → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09022 - uses|G1054 uses T1057]] — MirrorFace → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09023 - uses|C0048 uses S1164]] — Operation MidnightEclipse → UPSTYLE
+- [[07 ATT&CK Relationships/ATTACK-REL-09024 - uses|S0618 uses T1083]] — FIVEHANDS → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09025 - uses|S0596 uses T1055]] — ShadowPad → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09026 - uses|S0031 uses T1132.002]] — BACKSPACE → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09027 - uses|S0694 uses T1622]] — DRATzarus → Debugger Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-09028 - uses|G0022 uses T1021.001]] — APT3 → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09029 - uses|G1020 uses T1566.002]] — Mustard Tempest → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09030 - uses|S0386 uses T1559.001]] — Ursnif → Component Object Model
+- [[07 ATT&CK Relationships/ATTACK-REL-09031 - uses|S0567 uses T1083]] — Dtrack → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09032 - uses|S0472 uses T1680]] — down_new → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09033 - uses|G0094 uses T1021.001]] — Kimsuky → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09034 - uses|S0677 uses T1136.003]] — AADInternals → Cloud Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09035 - uses|G0129 uses S0590]] — Mustang Panda → NBTscan
+- [[07 ATT&CK Relationships/ATTACK-REL-09036 - uses|S0013 uses T1564.001]] — PlugX → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-09037 - uses|C0048 uses T1071.001]] — Operation MidnightEclipse → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09038 - uses|G0112 uses T1204.002]] — Windshift → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09039 - uses|G0010 uses T1016]] — Turla → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09040 - uses|S0654 uses T1027.003]] — ProLock → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-09041 - uses|G0061 uses T1078]] — FIN8 → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09042 - uses|S1170 uses T1102.002]] — ODAgent → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-09043 - uses|G1052 uses T1543.001]] — Contagious Interview → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-09044 - uses|S1238 uses T1036.005]] — STATICPLUGIN → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09045 - uses|S0151 uses T1082]] — HALFBAKED → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09046 - uses|S0078 uses T1070.006]] — Psylo → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-09047 - uses|S1081 uses T1113]] — BADHATCH → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09048 - uses|S0034 uses T1057]] — NETEAGLE → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09049 - uses|S0400 uses T1486]] — RobbinHood → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-09050 - uses|S0483 uses T1573.002]] — IcedID → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09051 - uses|S1237 uses T1055.005]] — CANONSTAGER → Thread Local Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-09052 - uses|S1106 uses T1016]] — NGLite → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09053 - uses|S0453 uses T1027.015]] — Pony → Compression
+- [[07 ATT&CK Relationships/ATTACK-REL-09054 - uses|G0135 uses T1027]] — BackdoorDiplomacy → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09055 - uses|G1020 uses S0154]] — Mustard Tempest → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-09056 - uses|S0242 uses T1055.013]] — SynAck → Process Doppelgänging
+- [[07 ATT&CK Relationships/ATTACK-REL-09057 - uses|G0064 uses S0129]] — APT33 → AutoIt backdoor
+- [[07 ATT&CK Relationships/ATTACK-REL-09058 - uses|S9042 uses T1555.006]] — CanisterWorm → Cloud Secrets Management Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-09059 - uses|G0092 uses T1105]] — TA505 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09060 - uses|G1021 uses T1047]] — Cinnamon Tempest → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09061 - uses|G0129 uses T1027.012]] — Mustang Panda → LNK Icon Smuggling
+- [[07 ATT&CK Relationships/ATTACK-REL-09062 - uses|S1187 uses T1095]] — reGeorg → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09063 - uses|S0278 uses T1564.001]] — iKitten → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-09064 - uses|S0570 uses T1018]] — BitPaymer → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09065 - uses|S0663 uses T1564.001]] — SysUpdate → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-09066 - uses|S1217 uses T1036.004]] — VIRTUALPITA → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09067 - uses|C0038 uses T1087.003]] — HomeLand Justice → Email Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09068 - uses|G0108 uses T1082]] — Blue Mockingbird → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09069 - uses|S0267 uses T1112]] — FELIXROOT → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09070 - uses|C0029 uses T1071.004]] — Cutting Edge → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-09071 - uses|G0035 uses T1203]] — Dragonfly → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09072 - uses|C0062 uses T1592.004]] — Anthropic AI-orchestrated Campaign → Client Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-09073 - uses|G0037 uses T1555.003]] — FIN6 → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-09074 - uses|S9037 uses T1132.001]] — RustyWater → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09075 - uses|S9010 uses T1059.007]] — GlassWorm → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-09076 - uses|G1041 uses T1203]] — Sea Turtle → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09077 - uses|S1040 uses T1048.002]] — Rclone → Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09078 - uses|S1183 uses T1497]] — StrelaStealer → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-09079 - uses|S0673 uses T1027.011]] — DarkWatchman → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-09080 - uses|S0402 uses T1036.005]] — OSX/Shlayer → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09081 - uses|C0038 uses T1041]] — HomeLand Justice → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-09082 - uses|C0026 uses T1105]] — C0026 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09083 - uses|S0262 uses T1564.003]] — QuasarRAT → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-09084 - uses|G1009 uses T1027.013]] — Moses Staff → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09085 - uses|C0042 uses T1059.005]] — Outer Space → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-09086 - uses|C0038 uses T1047]] — HomeLand Justice → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09087 - uses|S0363 uses T1105]] — Empire → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09088 - uses|C0024 uses T1069.002]] — SolarWinds Compromise → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-09089 - uses|S0640 uses T1083]] — Avaddon → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09090 - uses|S1027 uses T1547.001]] — Heyoka Backdoor → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09091 - uses|G0049 uses T1203]] — OilRig → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09092 - uses|G0026 uses T1027.013]] — APT18 → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09093 - uses|S1160 uses T1083]] — Latrodectus → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09094 - uses|S0247 uses T1056.001]] — NavRAT → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-09095 - uses|C0063 uses T1059.003]] — 2025 Poland Wiper Attacks → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09096 - uses|G0022 uses T1003.001]] — APT3 → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-09097 - uses|G0047 uses T1587.003]] — Gamaredon Group → Digital Certificates
+- [[07 ATT&CK Relationships/ATTACK-REL-09098 - uses|S1086 uses T1105]] — Snip3 → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09099 - uses|S1116 uses T1056.003]] — WARPWIRE → Web Portal Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09100 - uses|S1242 uses T1070.004]] — Qilin → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09101 - uses|G0034 uses T1087.002]] — Sandworm Team → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09102 - uses|G0112 uses T1027]] — Windshift → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09103 - uses|G0120 uses T1105]] — Evilnum → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09104 - uses|G1052 uses T1593]] — Contagious Interview → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-09105 - uses|S0364 uses T1561.001]] — RawDisk → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-09106 - uses|G0033 uses T1003]] — Poseidon Group → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-09107 - uses|S9010 uses T1554]] — GlassWorm → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-09108 - uses|S0632 uses T1059.003]] — GrimAgent → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09109 - uses|S0045 uses T1546.015]] — ADVSTORESHELL → Component Object Model Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-09110 - uses|C0032 uses T1003.001]] — C0032 → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-09111 - uses|G1054 uses S0102]] — MirrorFace → nbtstat
+- [[07 ATT&CK Relationships/ATTACK-REL-09112 - uses|S0583 uses T1685]] — Pysa → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-09113 - uses|G0106 uses T1564.001]] — Rocke → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-09114 - uses|G0094 uses T1568]] — Kimsuky → Dynamic Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-09115 - uses|G0102 uses T1543.003]] — Wizard Spider → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09116 - uses|G0010 uses T1018]] — Turla → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09117 - uses|C0062 uses T1588.007]] — Anthropic AI-orchestrated Campaign → Artificial Intelligence
+- [[07 ATT&CK Relationships/ATTACK-REL-09118 - uses|G0032 uses S0364]] — Lazarus Group → RawDisk
+- [[07 ATT&CK Relationships/ATTACK-REL-09119 - uses|G0001 uses S0032]] — Axiom → gh0st RAT
+- [[07 ATT&CK Relationships/ATTACK-REL-09120 - uses|S0247 uses T1057]] — NavRAT → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09121 - uses|S0673 uses T1059.001]] — DarkWatchman → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09122 - uses|G0093 uses T1027.002]] — GALLIUM → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-09123 - uses|S0622 uses T1074.001]] — AppleSeed → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-09124 - uses|S0113 uses T1113]] — Prikormka → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09125 - uses|S1202 uses T1120]] — LockBit 3.0 → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09126 - uses|G0027 uses S0154]] — Threat Group-3390 → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-09127 - uses|G0004 uses T1003.003]] — Ke3chang → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-09128 - uses|S0277 uses T1057]] — FruitFly → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09129 - uses|S0168 uses T1027.013]] — Gazer → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09130 - uses|G1044 uses T1070.008]] — APT42 → Clear Mailbox Data
+- [[07 ATT&CK Relationships/ATTACK-REL-09131 - uses|S0084 uses T1071.001]] — Mis-Type → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09132 - uses|S0044 uses T1070.004]] — JHUHUGIT → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09133 - uses|G1043 uses S0099]] — BlackByte → Arp
+- [[07 ATT&CK Relationships/ATTACK-REL-09134 - uses|G0093 uses T1105]] — GALLIUM → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09135 - uses|G0016 uses T1059.001]] — APT29 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09136 - uses|G1051 uses S0002]] — Medusa Group → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-09137 - uses|S0622 uses T1016]] — AppleSeed → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09138 - uses|G0034 uses T1078.002]] — Sandworm Team → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09139 - uses|S0493 uses T1082]] — GoldenSpy → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09140 - uses|S0599 uses T1071.001]] — Kinsing → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09141 - uses|S0086 uses T1059.003]] — ZLib → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09142 - uses|S1242 uses T1021.004]] — Qilin → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-09143 - uses|S0401 uses T1105]] — Exaramel for Linux → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09144 - uses|S0378 uses T1569.002]] — PoshC2 → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09145 - uses|C0037 uses T1218.011]] — Water Curupira Pikabot Distribution → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-09146 - uses|G0070 uses T1204.002]] — Dark Caracal → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09147 - uses|S0483 uses T1036.005]] — IcedID → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09148 - uses|S0673 uses T1033]] — DarkWatchman → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09149 - uses|S1044 uses T1106]] — FunnyDream → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09150 - uses|G1036 uses T1598.003]] — Moonstone Sleet → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09151 - uses|G0080 uses S0154]] — Cobalt Group → Cobalt Strike
+- [[07 ATT&CK Relationships/ATTACK-REL-09152 - uses|G0123 uses S0569]] — Volatile Cedar → Explosive
+- [[07 ATT&CK Relationships/ATTACK-REL-09153 - uses|S0184 uses T1049]] — POWRUNER → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09154 - uses|G0010 uses T1007]] — Turla → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09155 - uses|S0083 uses T1059.003]] — Misdat → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09156 - uses|G0051 uses T1547.001]] — FIN10 → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09157 - uses|S9020 uses T1083]] — LODEINFO → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09158 - uses|G0112 uses T1566.001]] — Windshift → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09159 - uses|S1209 uses T1125]] — Quick Assist → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09160 - uses|S0488 uses T1016]] — CrackMapExec → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09161 - uses|S0428 uses T1071.002]] — PoetRAT → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09162 - uses|S0669 uses T1106]] — KOCTOPUS → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09163 - uses|C0004 uses S0615]] — CostaRicto → SombRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-09164 - uses|S0254 uses T1548.002]] — PLAINTEE → Bypass User Account Control
+- [[07 ATT&CK Relationships/ATTACK-REL-09165 - uses|S0093 uses T1082]] — Backdoor.Oldrea → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09166 - uses|C0026 uses S1075]] — C0026 → KOPILUWAK
+- [[07 ATT&CK Relationships/ATTACK-REL-09167 - uses|G0069 uses T1518.001]] — MuddyWater → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09168 - uses|S0447 uses T1053]] — Lokibot → Scheduled Task/Job
+- [[07 ATT&CK Relationships/ATTACK-REL-09169 - uses|S0483 uses T1055.004]] — IcedID → Asynchronous Procedure Call
+- [[07 ATT&CK Relationships/ATTACK-REL-09170 - uses|G0059 uses T1204.002]] — Magic Hound → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09171 - uses|S0458 uses T1547.001]] — Ramsay → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09172 - uses|S0657 uses T1027.013]] — BLUELIGHT → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09173 - uses|G1011 uses T1204.002]] — EXOTIC LILY → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09174 - uses|G0069 uses T1552.001]] — MuddyWater → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-09175 - uses|C0047 uses T1547.001]] — RedDelta Modified PlugX Infection Chain Operations → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09176 - uses|G0115 uses S0496]] — GOLD SOUTHFIELD → REvil
+- [[07 ATT&CK Relationships/ATTACK-REL-09177 - uses|G0078 uses T1685]] — Gorgon Group → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-09178 - uses|S0669 uses T1070.009]] — KOCTOPUS → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-09179 - uses|G0027 uses S0398]] — Threat Group-3390 → HyperBro
+- [[07 ATT&CK Relationships/ATTACK-REL-09180 - uses|G0060 uses T1059.006]] — BRONZE BUTLER → Python
+- [[07 ATT&CK Relationships/ATTACK-REL-09181 - uses|S1012 uses T1140]] — PowerLess → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09182 - uses|S0483 uses T1482]] — IcedID → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09183 - uses|G1004 uses T1485]] — LAPSUS$ → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-09184 - uses|S0611 uses T1140]] — Clop → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09185 - uses|S0517 uses T1005]] — Pillowmint → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09186 - uses|S0584 uses T1071.001]] — AppleJeus → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09187 - uses|S0520 uses T1553.002]] — BLINDINGCAN → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-09188 - uses|G0006 uses S0100]] — APT1 → ipconfig
+- [[07 ATT&CK Relationships/ATTACK-REL-09189 - uses|S0203 uses T1113]] — Hydraq → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09190 - uses|G0094 uses T1071.002]] — Kimsuky → File Transfer Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09191 - uses|S0350 uses T1016]] — zwShell → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09192 - uses|S0650 uses T1027]] — QakBot → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09193 - uses|C0029 uses T1003.001]] — Cutting Edge → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-09194 - uses|S0081 uses T1547.001]] — Elise → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09195 - uses|S0458 uses T1014]] — Ramsay → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-09196 - uses|C0038 uses T1685.001]] — HomeLand Justice → Disable or Modify Windows Event Log
+- [[07 ATT&CK Relationships/ATTACK-REL-09197 - uses|S0332 uses T1564]] — Remcos → Hide Artifacts
+- [[07 ATT&CK Relationships/ATTACK-REL-09198 - uses|C0056 uses S1219]] — RedPenguin → REPTILE
+- [[07 ATT&CK Relationships/ATTACK-REL-09199 - uses|G0034 uses S1167]] — Sandworm Team → AcidPour
+- [[07 ATT&CK Relationships/ATTACK-REL-09200 - uses|G1057 uses T1069.003]] — ShinyHunters → Cloud Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-09201 - uses|S0436 uses T1105]] — TSCookie → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09202 - uses|S0513 uses T1033]] — LiteDuke → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09203 - uses|G0135 uses S0002]] — BackdoorDiplomacy → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-09204 - uses|S1189 uses T1095]] — Neo-reGeorg → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09205 - uses|G1054 uses T1685.005]] — MirrorFace → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-09206 - uses|G0059 uses T1482]] — Magic Hound → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09207 - uses|S1013 uses T1140]] — ZxxZ → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09208 - uses|S9008 uses T1082]] — Shai-Hulud → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09209 - uses|S0276 uses T1548.001]] — Keydnap → Setuid and Setgid
+- [[07 ATT&CK Relationships/ATTACK-REL-09210 - uses|S0532 uses T1071]] — Lucifer → Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09211 - uses|C0024 uses T1555.003]] — SolarWinds Compromise → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-09212 - uses|S0468 uses T1027.013]] — Skidmap → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09213 - uses|C0016 uses T1027.013]] — Operation Dust Storm → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09214 - uses|S0144 uses T1057]] — ChChes → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09215 - uses|S9042 uses T1195.001]] — CanisterWorm → Compromise Software Dependencies and Development Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-09216 - uses|C0001 uses T1573.001]] — Frankenstein → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09217 - uses|S0097 uses T1018]] — Ping → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09218 - uses|S1182 uses T1041]] — MagicRAT → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-09219 - uses|S0697 uses T1489]] — HermeticWiper → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-09220 - uses|G0128 uses T1547.001]] — ZIRCONIUM → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09221 - uses|S0692 uses T1046]] — SILENTTRINITY → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09222 - uses|S0147 uses T1547.001]] — Pteranodon → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09223 - uses|G0134 uses T1608.004]] — Transparent Tribe → Drive-by Target
+- [[07 ATT&CK Relationships/ATTACK-REL-09224 - uses|G1054 uses S9021]] — MirrorFace → DOWNIISSA
+- [[07 ATT&CK Relationships/ATTACK-REL-09225 - uses|S0018 uses T1056.001]] — Sykipot → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-09226 - uses|S0385 uses T1082]] — njRAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09227 - uses|G1031 uses T1059.001]] — Saint Bear → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09228 - uses|S0275 uses T1678]] — UPPERCUT → Delay Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09229 - uses|S0412 uses T1055.001]] — ZxShell → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09230 - uses|C0046 uses T1082]] — ArcaneDoor → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09231 - uses|C0012 uses T1027.011]] — Operation CuckooBees → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-09232 - uses|S1021 uses T1005]] — DnsSystem → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09233 - uses|S0208 uses T1680]] — Pasam → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09234 - uses|S1122 uses T1056.002]] — Mispadu → GUI Input Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09235 - uses|S1245 uses T1016]] — InvisibleFerret → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09236 - uses|S1154 uses T1040]] — VersaMem → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-09237 - uses|G0010 uses T1071.001]] — Turla → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09238 - uses|C0038 uses S0364]] — HomeLand Justice → RawDisk
+- [[07 ATT&CK Relationships/ATTACK-REL-09239 - uses|S0094 uses T1010]] — Trojan.Karagany → Application Window Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09240 - uses|G1012 uses T1585.002]] — CURIUM → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09241 - uses|S0527 uses T1027.002]] — CSPY Downloader → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-09242 - uses|G0078 uses T1055.002]] — Gorgon Group → Portable Executable Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09243 - uses|S0516 uses T1071.001]] — SoreFang → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09244 - uses|G0135 uses T1574.001]] — BackdoorDiplomacy → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-09245 - uses|S1111 uses T1056.001]] — DarkGate → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-09246 - uses|S0335 uses T1049]] — Carbon → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09247 - uses|G1017 uses T1090.001]] — Volt Typhoon → Internal Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09248 - uses|S0604 uses T1489]] — Industroyer → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-09249 - uses|S0458 uses T1053.005]] — Ramsay → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-09250 - uses|S1168 uses T1071.001]] — SampleCheck5000 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09251 - uses|S0171 uses T1573.001]] — Felismus → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09252 - uses|C0012 uses T1087.001]] — Operation CuckooBees → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09253 - uses|G0040 uses T1566.001]] — Patchwork → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09254 - uses|S0332 uses T1059.007]] — Remcos → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-09255 - uses|S1075 uses T1680]] — KOPILUWAK → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09256 - uses|S1141 uses T1572]] — LunarWeb → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-09257 - uses|S0198 uses T1036.001]] — NETWIRE → Invalid Code Signature
+- [[07 ATT&CK Relationships/ATTACK-REL-09258 - uses|G1040 uses T1027.010]] — Play → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-09259 - uses|S0677 uses T1098.005]] — AADInternals → Device Registration
+- [[07 ATT&CK Relationships/ATTACK-REL-09260 - uses|S9035 uses T1566.001]] — LAMEHUG → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09261 - uses|S1115 uses T1105]] — WIREFIRE → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09262 - uses|S1030 uses T1059.003]] — Squirrelwaffle → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09263 - uses|G0142 uses T1053.005]] — Confucius → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-09264 - uses|S0356 uses T1027.002]] — KONNI → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-09265 - uses|S0245 uses T1001.003]] — BADCALL → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-09266 - uses|S0666 uses T1008]] — Gelsemium → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-09267 - uses|S0030 uses T1057]] — Carbanak → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09268 - uses|S0238 uses T1119]] — Proxysvc → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-09269 - uses|G0016 uses T1204.001]] — APT29 → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09270 - uses|G1040 uses T1657]] — Play → Financial Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-09271 - uses|S9001 uses T1059.005]] — SystemBC → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-09272 - uses|S0084 uses T1136.001]] — Mis-Type → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09273 - uses|S1240 uses T1016]] — RedLine Stealer → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09274 - uses|S0564 uses T1071.001]] — BlackMould → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09275 - uses|S0252 uses T1082]] — Brave Prince → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09276 - uses|S0201 uses T1033]] — JPIN → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09277 - uses|S0640 uses T1140]] — Avaddon → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09278 - uses|S0365 uses T1529]] — Olympic Destroyer → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-09279 - uses|G1030 uses S1134]] — Agrius → DEADWOOD
+- [[07 ATT&CK Relationships/ATTACK-REL-09280 - uses|G0081 uses T1518.001]] — Tropic Trooper → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09281 - uses|S0257 uses T1105]] — VERMIN → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09282 - uses|G0034 uses S0365]] — Sandworm Team → Olympic Destroyer
+- [[07 ATT&CK Relationships/ATTACK-REL-09283 - uses|G0073 uses T1033]] — APT19 → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09284 - uses|G0028 uses T1021.002]] — Threat Group-1314 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-09285 - uses|G0034 uses T1132.001]] — Sandworm Team → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09286 - uses|S0379 uses T1132.001]] — Revenge RAT → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09287 - uses|G0059 uses T1589]] — Magic Hound → Gather Victim Identity Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09288 - uses|S1028 uses T1140]] — Action RAT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09289 - uses|G0060 uses T1007]] — BRONZE BUTLER → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09290 - uses|S0596 uses T1071.004]] — ShadowPad → DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-09291 - uses|S0126 uses T1106]] — ComRAT → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09292 - uses|S1068 uses T1059.003]] — BlackCat → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09293 - uses|S0098 uses T1123]] — T9000 → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09294 - uses|C0035 uses T1546]] — KV Botnet Activity → Event Triggered Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09295 - uses|S0568 uses T1070]] — EVILNUM → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-09296 - uses|S1039 uses T1082]] — Bumblebee → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09297 - uses|S0341 uses T1218.010]] — Xbash → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-09298 - uses|S0251 uses T1057]] — Zebrocy → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09299 - uses|S9009 uses T1555.006]] — TruffleHog → Cloud Secrets Management Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-09300 - uses|S0698 uses T1569.002]] — HermeticWizard → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09301 - uses|G0005 uses T1568.003]] — APT12 → DNS Calculation
+- [[07 ATT&CK Relationships/ATTACK-REL-09302 - uses|C0052 uses T1588.002]] — SPACEHOP Activity → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-09303 - uses|C0052 uses T1090.003]] — SPACEHOP Activity → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09304 - uses|G0102 uses T1560.001]] — Wizard Spider → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-09305 - uses|S0132 uses T1027]] — H1N1 → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09306 - uses|G1033 uses T1114.002]] — Star Blizzard → Remote Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-09307 - uses|S0482 uses T1176.001]] — Bundlore → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-09308 - uses|S1212 uses T1059.001]] — RansomHub → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09309 - uses|S0570 uses T1135]] — BitPaymer → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09310 - uses|S9024 uses T1559]] — SPAWNCHIMERA → Inter-Process Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-09311 - uses|S0331 uses T1564.003]] — Agent Tesla → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-09312 - uses|S0372 uses T1486]] — LockerGoga → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-09313 - uses|S0057 uses T1007]] — Tasklist → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09314 - uses|S0588 uses T1573.002]] — GoldMax → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09315 - uses|S0586 uses T1001.003]] — TAINTEDSCRIBE → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-09316 - uses|S0213 uses T1123]] — DOGCALL → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09317 - uses|G0129 uses S1232]] — Mustang Panda → SplatDropper
+- [[07 ATT&CK Relationships/ATTACK-REL-09318 - uses|S0652 uses T1518.001]] — MarkiRAT → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09319 - uses|C0063 uses S0097]] — 2025 Poland Wiper Attacks → Ping
+- [[07 ATT&CK Relationships/ATTACK-REL-09320 - uses|G0034 uses S0604]] — Sandworm Team → Industroyer
+- [[07 ATT&CK Relationships/ATTACK-REL-09321 - uses|S0335 uses T1124]] — Carbon → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09322 - uses|S1059 uses T1005]] — metaMain → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09323 - uses|S0653 uses T1573.001]] — xCaon → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09324 - uses|S1081 uses T1027.010]] — BADHATCH → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-09325 - uses|G0129 uses S0002]] — Mustang Panda → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-09326 - uses|G1055 uses T1036.004]] — VOID MANTICORE → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09327 - uses|S1027 uses T1680]] — Heyoka Backdoor → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09328 - uses|S0260 uses T1053.005]] — InvisiMole → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-09329 - uses|S0261 uses T1036.004]] — Catchamas → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09330 - uses|G0016 uses T1586.002]] — APT29 → Email Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09331 - uses|S0595 uses T1036.005]] — ThiefQuest → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09332 - uses|S0352 uses T1573.001]] — OSX_OCEANLOTUS.D → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09333 - uses|S0465 uses T1204.002]] — CARROTBALL → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09334 - uses|C0063 uses T1003.002]] — 2025 Poland Wiper Attacks → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-09335 - uses|S0629 uses T1095]] — RainyDay → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09336 - uses|S0534 uses T1140]] — Bazar → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09337 - uses|G0066 uses S0204]] — Elderwood → Briba
+- [[07 ATT&CK Relationships/ATTACK-REL-09338 - uses|S0265 uses T1102.002]] — Kazuar → Bidirectional Communication
+- [[07 ATT&CK Relationships/ATTACK-REL-09339 - uses|G1046 uses S0190]] — Storm-1811 → BITSAdmin
+- [[07 ATT&CK Relationships/ATTACK-REL-09340 - uses|S0387 uses T1543.003]] — KeyBoy → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09341 - uses|S1031 uses T1095]] — PingPull → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09342 - uses|G0114 uses T1057]] — Chimera → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09343 - uses|C0017 uses T1027.002]] — C0017 → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-09344 - uses|G0125 uses T1592.004]] — HAFNIUM → Client Configurations
+- [[07 ATT&CK Relationships/ATTACK-REL-09345 - uses|S0002 uses T1003.004]] — Mimikatz → LSA Secrets
+- [[07 ATT&CK Relationships/ATTACK-REL-09346 - uses|G0056 uses T1547.001]] — PROMETHIUM → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09347 - uses|S0467 uses T1539]] — TajMahal → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-09348 - uses|S0532 uses T1046]] — Lucifer → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09349 - uses|S0491 uses T1119]] — StrongPity → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-09350 - uses|S0384 uses T1219]] — Dridex → Remote Access Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-09351 - uses|S0504 uses T1105]] — Anchor → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09352 - uses|G1052 uses T1583]] — Contagious Interview → Acquire Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-09353 - uses|G0085 uses T1204.001]] — FIN4 → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09354 - uses|S0396 uses T1497.001]] — EvilBunny → System Checks
+- [[07 ATT&CK Relationships/ATTACK-REL-09355 - uses|S0661 uses T1560.002]] — FoggyWeb → Archive via Library
+- [[07 ATT&CK Relationships/ATTACK-REL-09356 - uses|G0100 uses T1573.001]] — Inception → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09357 - uses|G1032 uses T1570]] — INC Ransom → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09358 - uses|G1015 uses T1069]] — Scattered Spider → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09359 - uses|G0064 uses T1003.005]] — APT33 → Cached Domain Credentials
+- [[07 ATT&CK Relationships/ATTACK-REL-09360 - uses|G1014 uses T1547.001]] — LuminousMoth → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09361 - uses|S1015 uses T1036.007]] — Milan → Double File Extension
+- [[07 ATT&CK Relationships/ATTACK-REL-09362 - uses|G1055 uses T1078.004]] — VOID MANTICORE → Cloud Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09363 - uses|S0198 uses T1573.001]] — NETWIRE → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09364 - uses|S0682 uses T1001]] — TrailBlazer → Data Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-09365 - uses|S0658 uses T1539]] — XCSSET → Steal Web Session Cookie
+- [[07 ATT&CK Relationships/ATTACK-REL-09366 - uses|G0009 uses T1047]] — Deep Panda → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09367 - uses|G1055 uses T1684.001]] — VOID MANTICORE → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-09368 - uses|S0196 uses T1518.001]] — PUNCHBUGGY → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09369 - uses|G1032 uses T1135]] — INC Ransom → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09370 - uses|G1039 uses T1036.005]] — RedCurl → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09371 - uses|G0012 uses T1189]] — Darkhotel → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-09372 - uses|S0182 uses T1012]] — FinFisher → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09373 - uses|G0027 uses T1021.006]] — Threat Group-3390 → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-09374 - uses|S0018 uses T1573.002]] — Sykipot → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09375 - uses|G0061 uses T1566.002]] — FIN8 → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09376 - uses|S0631 uses T1185]] — Chaes → Browser Session Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-09377 - uses|S0527 uses T1105]] — CSPY Downloader → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09378 - uses|S1191 uses T1057]] — Megazord → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09379 - uses|S0280 uses T1140]] — MirageFox → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09380 - uses|G0004 uses T1560.001]] — Ke3chang → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-09381 - uses|G1055 uses T1572]] — VOID MANTICORE → Protocol Tunneling
+- [[07 ATT&CK Relationships/ATTACK-REL-09382 - uses|S0385 uses T1686.003]] — njRAT → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-09383 - uses|S0476 uses T1132.001]] — Valak → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09384 - uses|G0123 uses T1105]] — Volatile Cedar → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09385 - uses|S0340 uses T1082]] — Octopus → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09386 - uses|G0046 uses T1559.002]] — FIN7 → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-09387 - uses|S0233 uses T1069]] — MURKYTOP → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09388 - uses|C0056 uses T1095]] — RedPenguin → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09389 - uses|S0155 uses T1012]] — WINDSHIELD → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09390 - uses|G1016 uses T1136.001]] — FIN13 → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09391 - uses|S1141 uses T1047]] — LunarWeb → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09392 - uses|S1142 uses T1071.003]] — LunarMail → Mail Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09393 - uses|S1207 uses T1140]] — XLoader → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09394 - uses|G0092 uses T1559.002]] — TA505 → Dynamic Data Exchange
+- [[07 ATT&CK Relationships/ATTACK-REL-09395 - uses|S0245 uses T1112]] — BADCALL → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09396 - uses|S0644 uses T1033]] — ObliqueRAT → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09397 - uses|G0102 uses T1021.006]] — Wizard Spider → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-09398 - uses|S0692 uses T1070]] — SILENTTRINITY → Indicator Removal
+- [[07 ATT&CK Relationships/ATTACK-REL-09399 - uses|S0611 uses T1614.001]] — Clop → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09400 - uses|S0251 uses T1105]] — Zebrocy → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09401 - uses|G0049 uses S0258]] — OilRig → RGDoor
+- [[07 ATT&CK Relationships/ATTACK-REL-09402 - uses|S0154 uses T1550.002]] — Cobalt Strike → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-09403 - uses|S1153 uses T1027.008]] — Cuckoo Stealer → Stripped Payloads
+- [[07 ATT&CK Relationships/ATTACK-REL-09404 - uses|S0189 uses T1055.012]] — ISMInjector → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-09405 - uses|S0030 uses T1030]] — Carbanak → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-09406 - uses|S1164 uses T1665]] — UPSTYLE → Hide Infrastructure
+- [[07 ATT&CK Relationships/ATTACK-REL-09407 - uses|S0688 uses T1036.004]] — Meteor → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09408 - uses|C0053 uses T1059]] — FLORAHOX Activity → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-09409 - uses|G0143 uses T1595.002]] — Aquatic Panda → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-09410 - uses|G0035 uses T1003.003]] — Dragonfly → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-09411 - uses|G0134 uses S0385]] — Transparent Tribe → njRAT
+- [[07 ATT&CK Relationships/ATTACK-REL-09412 - uses|S0680 uses T1071.001]] — LitePower → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09413 - uses|G1015 uses T1114.003]] — Scattered Spider → Email Forwarding Rule
+- [[07 ATT&CK Relationships/ATTACK-REL-09414 - uses|S0687 uses T1036.005]] — Cyclops Blink → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09415 - uses|S0168 uses T1480.002]] — Gazer → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-09416 - uses|C0028 uses S0607]] — 2015 Ukraine Electric Power Attack → KillDisk
+- [[07 ATT&CK Relationships/ATTACK-REL-09417 - uses|S0368 uses T1529]] — NotPetya → System Shutdown/Reboot
+- [[07 ATT&CK Relationships/ATTACK-REL-09418 - uses|G0050 uses T1550.002]] — APT32 → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-09419 - uses|S0531 uses T1087.003]] — Grandoreiro → Email Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09420 - uses|G0092 uses T1055.001]] — TA505 → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09421 - uses|C0037 uses T1204.002]] — Water Curupira Pikabot Distribution → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09422 - uses|S1210 uses T1041]] — Sagerunex → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-09423 - uses|S0650 uses T1095]] — QakBot → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09424 - uses|G0087 uses T1190]] — APT39 → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-09425 - uses|G0049 uses T1555.004]] — OilRig → Windows Credential Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-09426 - uses|S0476 uses T1087.002]] — Valak → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09427 - uses|S0374 uses T1059]] — SpeakUp → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-09428 - uses|S0517 uses T1560]] — Pillowmint → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-09429 - uses|G0139 uses T1140]] — TeamTNT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09430 - uses|S0459 uses T1036.005]] — MechaFlounder → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09431 - uses|S0045 uses T1560.003]] — ADVSTORESHELL → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-09432 - uses|C0053 uses T1584.008]] — FLORAHOX Activity → Network Devices
+- [[07 ATT&CK Relationships/ATTACK-REL-09433 - uses|S0646 uses T1204.001]] — SpicyOmelette → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09434 - uses|S1066 uses T1140]] — DarkTortilla → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09435 - uses|S0089 uses T1485]] — BlackEnergy → Data Destruction
+- [[07 ATT&CK Relationships/ATTACK-REL-09436 - uses|S0641 uses T1027]] — Kobalos → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09437 - uses|C0021 uses T1608.001]] — C0021 → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-09438 - uses|G0032 uses T1104]] — Lazarus Group → Multi-Stage Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-09439 - uses|G0094 uses T1059.001]] — Kimsuky → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09440 - uses|G1003 uses T1133]] — Ember Bear → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-09441 - uses|S0488 uses T1110]] — CrackMapExec → Brute Force
+- [[07 ATT&CK Relationships/ATTACK-REL-09442 - uses|S1081 uses T1070.004]] — BADHATCH → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09443 - uses|S0001 uses T1542.001]] — Trojan.Mebromi → System Firmware
+- [[07 ATT&CK Relationships/ATTACK-REL-09444 - uses|G1017 uses T1593]] — Volt Typhoon → Search Open Websites/Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-09445 - uses|S0649 uses T1598.003]] — SMOKEDHAM → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09446 - uses|S1242 uses T1003.001]] — Qilin → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-09447 - uses|S0447 uses T1056.001]] — Lokibot → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-09448 - uses|G0094 uses T1550.002]] — Kimsuky → Pass the Hash
+- [[07 ATT&CK Relationships/ATTACK-REL-09449 - uses|S0482 uses T1059.002]] — Bundlore → AppleScript
+- [[07 ATT&CK Relationships/ATTACK-REL-09450 - uses|S0428 uses T1048]] — PoetRAT → Exfiltration Over Alternative Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09451 - uses|S0513 uses T1070.004]] — LiteDuke → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09452 - uses|S0568 uses T1082]] — EVILNUM → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09453 - uses|S0486 uses T1105]] — Bonadan → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09454 - uses|G0010 uses T1201]] — Turla → Password Policy Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09455 - uses|S0496 uses T1082]] — REvil → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09456 - uses|S0491 uses T1090.003]] — StrongPity → Multi-hop Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09457 - uses|S1050 uses T1036.005]] — PcShare → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09458 - uses|S0349 uses T1555]] — LaZagne → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-09459 - uses|S0473 uses T1105]] — Avenger → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09460 - uses|S1221 uses T1140]] — MOPSLED → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09461 - uses|S0596 uses T1027.011]] — ShadowPad → Fileless Storage
+- [[07 ATT&CK Relationships/ATTACK-REL-09462 - uses|G1052 uses T1070.004]] — Contagious Interview → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09463 - uses|S0584 uses T1553.002]] — AppleJeus → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-09464 - uses|S0481 uses T1218.010]] — Ragnar Locker → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-09465 - uses|S0275 uses T1573.001]] — UPPERCUT → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09466 - uses|C0004 uses T1005]] — CostaRicto → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09467 - uses|S0477 uses T1005]] — Goopy → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09468 - uses|G1019 uses T1027.002]] — MoustachedBouncer → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-09469 - uses|G1032 uses T1560.001]] — INC Ransom → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-09470 - uses|G0016 uses T1505.003]] — APT29 → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09471 - uses|C0012 uses T1053.005]] — Operation CuckooBees → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-09472 - uses|C0048 uses T1090]] — Operation MidnightEclipse → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09473 - uses|S0260 uses T1112]] — InvisiMole → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09474 - uses|S0575 uses T1490]] — Conti → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09475 - uses|G0050 uses T1564.004]] — APT32 → NTFS File Attributes
+- [[07 ATT&CK Relationships/ATTACK-REL-09476 - uses|G0049 uses S0100]] — OilRig → ipconfig
+- [[07 ATT&CK Relationships/ATTACK-REL-09477 - uses|S0622 uses T1070.004]] — AppleSeed → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09478 - uses|S0353 uses T1680]] — NOKKI → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09479 - uses|G0089 uses S0379]] — The White Company → Revenge RAT
+- [[07 ATT&CK Relationships/ATTACK-REL-09480 - uses|S1104 uses T1027]] — SLOWPULSE → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09481 - uses|S1244 uses T1135]] — Medusa Ransomware → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09482 - uses|G0093 uses T1016]] — GALLIUM → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09483 - uses|G0016 uses T1098.005]] — APT29 → Device Registration
+- [[07 ATT&CK Relationships/ATTACK-REL-09484 - uses|C0018 uses T1190]] — C0018 → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-09485 - uses|S1213 uses T1566.002]] — Lumma Stealer → Spearphishing Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09486 - uses|S0354 uses T1132.001]] — Denis → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09487 - uses|G0100 uses T1588.002]] — Inception → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-09488 - uses|G0049 uses S1172]] — OilRig → OilBooster
+- [[07 ATT&CK Relationships/ATTACK-REL-09489 - uses|G0102 uses S0002]] — Wizard Spider → Mimikatz
+- [[07 ATT&CK Relationships/ATTACK-REL-09490 - uses|S0487 uses T1090]] — Kessel → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09491 - uses|G1040 uses S0359]] — Play → Nltest
+- [[07 ATT&CK Relationships/ATTACK-REL-09492 - uses|S1155 uses T1071.001]] — Covenant → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09493 - uses|C0025 uses T1003.001]] — 2016 Ukraine Electric Power Attack → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-09494 - uses|S0500 uses T1070.009]] — MCMD → Clear Persistence
+- [[07 ATT&CK Relationships/ATTACK-REL-09495 - uses|S1203 uses T1095]] — J-magic → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09496 - uses|S0461 uses T1218.011]] — SDBbot → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-09497 - uses|S1153 uses T1083]] — Cuckoo Stealer → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09498 - uses|G0047 uses T1119]] — Gamaredon Group → Automated Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-09499 - uses|S0376 uses T1090]] — HOPLIGHT → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09500 - uses|S0387 uses T1113]] — KeyBoy → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09501 - uses|S0192 uses T1041]] — Pupy → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-09502 - uses|S0491 uses T1564.003]] — StrongPity → Hidden Window
+- [[07 ATT&CK Relationships/ATTACK-REL-09503 - uses|S1053 uses T1027.007]] — AvosLocker → Dynamic API Resolution
+- [[07 ATT&CK Relationships/ATTACK-REL-09504 - uses|S0053 uses T1070.004]] — SeaDuke → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09505 - uses|G1050 uses T1585.001]] — Water Galura → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09506 - uses|S1228 uses T1053.005]] — PUBLOAD → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-09507 - uses|C0063 uses T1059.008]] — 2025 Poland Wiper Attacks → Network Device CLI
+- [[07 ATT&CK Relationships/ATTACK-REL-09508 - uses|G0064 uses T1203]] — APT33 → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09509 - uses|S0532 uses T1047]] — Lucifer → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09510 - uses|S0170 uses T1547.009]] — Helminth → Shortcut Modification
+- [[07 ATT&CK Relationships/ATTACK-REL-09511 - uses|S0363 uses T1134]] — Empire → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-09512 - uses|S0118 uses T1543.003]] — Nidiran → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09513 - uses|G0106 uses T1059.004]] — Rocke → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09514 - uses|S1085 uses T1095]] — Sardonic → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09515 - uses|S0476 uses T1566.001]] — Valak → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09516 - uses|S0236 uses T1069.001]] — Kwampirs → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-09517 - uses|S1044 uses T1070.004]] — FunnyDream → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09518 - uses|S9001 uses T1095]] — SystemBC → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09519 - uses|G1054 uses T1021.002]] — MirrorFace → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-09520 - uses|S1016 uses T1016]] — MacMa → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09521 - uses|C0017 uses T1036.004]] — C0017 → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09522 - uses|S1242 uses T1069.002]] — Qilin → Domain Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-09523 - uses|G0114 uses T1069.001]] — Chimera → Local Groups
+- [[07 ATT&CK Relationships/ATTACK-REL-09524 - uses|C0058 uses T1027.010]] — SharePoint ToolShell Exploitation → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-09525 - uses|C0060 uses T1082]] — Operation AkaiRyū → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09526 - uses|G0106 uses T1037]] — Rocke → Boot or Logon Initialization Scripts
+- [[07 ATT&CK Relationships/ATTACK-REL-09527 - uses|S0186 uses T1033]] — DownPaper → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09528 - uses|S1016 uses T1123]] — MacMa → Audio Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09529 - uses|G0046 uses T1553.002]] — FIN7 → Code Signing
+- [[07 ATT&CK Relationships/ATTACK-REL-09530 - uses|S1068 uses T1047]] — BlackCat → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09531 - uses|G0108 uses T1574.012]] — Blue Mockingbird → COR_PROFILER
+- [[07 ATT&CK Relationships/ATTACK-REL-09532 - uses|S0445 uses T1087]] — ShimRatReporter → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09533 - uses|C0062 uses T1595.002]] — Anthropic AI-orchestrated Campaign → Vulnerability Scanning
+- [[07 ATT&CK Relationships/ATTACK-REL-09534 - uses|C0023 uses S0029]] — Operation Ghost → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-09535 - uses|C0012 uses T1027.010]] — Operation CuckooBees → Command Obfuscation
+- [[07 ATT&CK Relationships/ATTACK-REL-09536 - uses|G0040 uses T1033]] — Patchwork → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09537 - uses|S0221 uses T1095]] — Umbreon → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09538 - uses|S0032 uses T1095]] — gh0st RAT → Non-Application Layer Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09539 - uses|S1240 uses T1041]] — RedLine Stealer → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-09540 - uses|S0618 uses T1047]] — FIVEHANDS → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09541 - uses|S0003 uses T1573.001]] — RIPTIDE → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09542 - uses|C0011 uses T1566.001]] — C0011 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09543 - uses|G0049 uses T1566.001]] — OilRig → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09544 - uses|S0241 uses T1087.001]] — RATANKBA → Local Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09545 - uses|S0501 uses T1055.001]] — PipeMon → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09546 - uses|S0641 uses T1059.004]] — Kobalos → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09547 - uses|S0398 uses T1140]] — HyperBro → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09548 - uses|S0385 uses T1120]] — njRAT → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09549 - uses|S0520 uses T1204.002]] — BLINDINGCAN → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09550 - uses|S0699 uses T1090.004]] — Mythic → Domain Fronting
+- [[07 ATT&CK Relationships/ATTACK-REL-09551 - uses|G0044 uses T1014]] — Winnti Group → Rootkit
+- [[07 ATT&CK Relationships/ATTACK-REL-09552 - uses|S0607 uses T1057]] — KillDisk → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09553 - uses|S0410 uses T1543.002]] — Fysbis → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09554 - uses|G0094 uses T1204.001]] — Kimsuky → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09555 - uses|S0251 uses T1033]] — Zebrocy → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09556 - uses|S0154 uses T1003.002]] — Cobalt Strike → Security Account Manager
+- [[07 ATT&CK Relationships/ATTACK-REL-09557 - uses|S0021 uses T1218.010]] — Derusbi → Regsvr32
+- [[07 ATT&CK Relationships/ATTACK-REL-09558 - uses|S0142 uses T1083]] — StreamEx → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09559 - uses|S0262 uses T1056.001]] — QuasarRAT → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-09560 - uses|G0102 uses T1570]] — Wizard Spider → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09561 - uses|C0034 uses T1505.003]] — 2022 Ukraine Electric Power Attack → Web Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09562 - uses|S1153 uses T1553.001]] — Cuckoo Stealer → Gatekeeper Bypass
+- [[07 ATT&CK Relationships/ATTACK-REL-09563 - uses|S0627 uses T1012]] — SodaMaster → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09564 - uses|S0154 uses T1203]] — Cobalt Strike → Exploitation for Client Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09565 - uses|S0098 uses T1574.001]] — T9000 → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-09566 - uses|G0059 uses T1036.010]] — Magic Hound → Masquerade Account Name
+- [[07 ATT&CK Relationships/ATTACK-REL-09567 - uses|S1248 uses T1027.013]] — XORIndex Loader → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09568 - uses|G0016 uses S0052]] — APT29 → OnionDuke
+- [[07 ATT&CK Relationships/ATTACK-REL-09569 - uses|S0332 uses T1090]] — Remcos → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09570 - uses|S1122 uses T1113]] — Mispadu → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09571 - uses|C0017 uses T1033]] — C0017 → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09572 - uses|S0228 uses T1016]] — NanHaiShu → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09573 - uses|S1247 uses T1135]] — Embargo → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09574 - uses|S1213 uses T1218.015]] — Lumma Stealer → Electron Applications
+- [[07 ATT&CK Relationships/ATTACK-REL-09575 - uses|S0385 uses T1113]] — njRAT → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09576 - uses|S0652 uses T1547.001]] — MarkiRAT → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09577 - uses|S0603 uses T1070.004]] — Stuxnet → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09578 - uses|S1124 uses T1082]] — SocGholish → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09579 - uses|S0169 uses T1005]] — RawPOS → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09580 - uses|G0007 uses T1137.002]] — APT28 → Office Test
+- [[07 ATT&CK Relationships/ATTACK-REL-09581 - uses|G0129 uses T1003]] — Mustang Panda → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-09582 - uses|C0002 uses T1078]] — Night Dragon → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09583 - uses|G1019 uses T1090]] — MoustachedBouncer → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09584 - uses|S0554 uses T1574.001]] — Egregor → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-09585 - uses|G1047 uses T1049]] — Velvet Ant → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09586 - uses|G0129 uses T1059.003]] — Mustang Panda → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09587 - uses|G0126 uses T1140]] — Higaisa → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09588 - uses|S0608 uses T1124]] — Conficker → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09589 - uses|S0022 uses T1001.003]] — Uroburos → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-09590 - uses|S1228 uses T1033]] — PUBLOAD → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09591 - uses|S0434 uses T1059]] — Imminent Monitor → Command and Scripting Interpreter
+- [[07 ATT&CK Relationships/ATTACK-REL-09592 - uses|S0640 uses T1547.001]] — Avaddon → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09593 - uses|G0044 uses T1057]] — Winnti Group → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09594 - uses|G0033 uses T1059.001]] — Poseidon Group → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09595 - uses|C0046 uses T1556]] — ArcaneDoor → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-09596 - uses|S1222 uses T1059.004]] — RIFLESPINE → Unix Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09597 - uses|G0140 uses T1608.001]] — LazyScripter → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-09598 - uses|S9015 uses T1573.002]] — BRICKSTORM → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09599 - uses|S0695 uses T1071.001]] — Donut → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09600 - uses|S0628 uses T1105]] — FYAnti → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09601 - uses|G0129 uses S0552]] — Mustang Panda → AdFind
+- [[07 ATT&CK Relationships/ATTACK-REL-09602 - uses|S0638 uses T1057]] — Babuk → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09603 - uses|S0069 uses T1083]] — BLACKCOFFEE → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09604 - uses|S0416 uses T1070.004]] — RDFSNIFFER → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09605 - uses|G1016 uses T1071.001]] — FIN13 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09606 - uses|G0006 uses S0017]] — APT1 → BISCUIT
+- [[07 ATT&CK Relationships/ATTACK-REL-09607 - uses|G0034 uses S0342]] — Sandworm Team → GreyEnergy
+- [[07 ATT&CK Relationships/ATTACK-REL-09608 - uses|S1130 uses T1218.011]] — Raspberry Robin → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-09609 - uses|G0100 uses S0349]] — Inception → LaZagne
+- [[07 ATT&CK Relationships/ATTACK-REL-09610 - uses|S0466 uses T1036.001]] — WindTail → Invalid Code Signature
+- [[07 ATT&CK Relationships/ATTACK-REL-09611 - uses|S9007 uses T1105]] — HTTPTroy → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09612 - uses|S1199 uses T1021.002]] — LockBit 2.0 → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-09613 - uses|S0265 uses T1016]] — Kazuar → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09614 - uses|C0056 uses T1205]] — RedPenguin → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-09615 - uses|S0598 uses T1213.006]] — P.A.S. Webshell → Databases
+- [[07 ATT&CK Relationships/ATTACK-REL-09616 - uses|S0184 uses T1518.001]] — POWRUNER → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09617 - uses|G0034 uses T1585.001]] — Sandworm Team → Social Media Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09618 - uses|G0047 uses T1070.004]] — Gamaredon Group → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09619 - uses|S0373 uses T1059.005]] — Astaroth → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-09620 - uses|S0035 uses T1560.003]] — SPACESHIP → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-09621 - uses|S0128 uses T1573.001]] — BADNEWS → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09622 - uses|G1048 uses S1224]] — UNC3886 → CASTLETAP
+- [[07 ATT&CK Relationships/ATTACK-REL-09623 - uses|S0601 uses T1133]] — Hildegard → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-09624 - uses|S0379 uses T1202]] — Revenge RAT → Indirect Command Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09625 - uses|S0475 uses T1083]] — BackConfig → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09626 - uses|S0067 uses T1552.001]] — pngdowner → Credentials In Files
+- [[07 ATT&CK Relationships/ATTACK-REL-09627 - uses|G0049 uses T1078.002]] — OilRig → Domain Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09628 - uses|C0024 uses T1078]] — SolarWinds Compromise → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09629 - uses|S0517 uses T1027]] — Pillowmint → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09630 - uses|S1182 uses T1082]] — MagicRAT → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09631 - uses|S0013 uses T1036.005]] — PlugX → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09632 - uses|S1143 uses T1137.006]] — LunarLoader → Add-ins
+- [[07 ATT&CK Relationships/ATTACK-REL-09633 - uses|S1035 uses T1071.001]] — Small Sieve → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09634 - uses|S0615 uses T1005]] — SombRAT → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09635 - uses|G0033 uses T1057]] — Poseidon Group → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09636 - uses|S0511 uses T1027]] — RegDuke → Obfuscated Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09637 - uses|S9013 uses T1489]] — DRYHOOK → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-09638 - uses|S1031 uses T1573.001]] — PingPull → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09639 - uses|S1228 uses T1518.001]] — PUBLOAD → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09640 - uses|S0022 uses T1001.001]] — Uroburos → Junk Data
+- [[07 ATT&CK Relationships/ATTACK-REL-09641 - uses|S1141 uses T1057]] — LunarWeb → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09642 - uses|C0061 uses T1098.004]] — Operation Digital Eye → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-09643 - uses|S0603 uses T1091]] — Stuxnet → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-09644 - uses|S1048 uses T1105]] — macOS.OSAMiner → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09645 - uses|S0031 uses T1083]] — BACKSPACE → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09646 - uses|S0650 uses T1053.005]] — QakBot → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-09647 - uses|C0025 uses T1554]] — 2016 Ukraine Electric Power Attack → Compromise Host Software Binary
+- [[07 ATT&CK Relationships/ATTACK-REL-09648 - uses|S0447 uses T1555.003]] — Lokibot → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-09649 - uses|G1045 uses T1190]] — Salt Typhoon → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-09650 - uses|S0330 uses T1547.001]] — Zeus Panda → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09651 - uses|S0409 uses T1113]] — Machete → Screen Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09652 - uses|S0452 uses T1057]] — USBferry → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09653 - uses|S9023 uses T1686.003]] — HiddenFace → Windows Host Firewall
+- [[07 ATT&CK Relationships/ATTACK-REL-09654 - uses|G1003 uses T1018]] — Ember Bear → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09655 - uses|G0092 uses S0266]] — TA505 → TrickBot
+- [[07 ATT&CK Relationships/ATTACK-REL-09656 - uses|S0579 uses T1105]] — Waterbear → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09657 - uses|G0128 uses T1082]] — ZIRCONIUM → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09658 - uses|S1060 uses T1680]] — Mafalda → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09659 - uses|G1002 uses T1068]] — BITTER → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-09660 - uses|G0050 uses T1070.004]] — APT32 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09661 - uses|S1043 uses T1070.004]] — ccf32 → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09662 - uses|G1039 uses T1087.003]] — RedCurl → Email Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09663 - uses|S0085 uses T1036.005]] — S-Type → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09664 - uses|S0670 uses T1090]] — WarzoneRAT → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09665 - uses|S0697 uses T1112]] — HermeticWiper → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09666 - uses|G0010 uses T1059.005]] — Turla → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-09667 - uses|G0045 uses T1059.003]] — menuPass → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09668 - uses|S0467 uses T1125]] — TajMahal → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09669 - uses|G1054 uses T1082]] — MirrorFace → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09670 - uses|S0126 uses T1140]] — ComRAT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09671 - uses|S1209 uses T1071.001]] — Quick Assist → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09672 - uses|S0367 uses T1134.001]] — Emotet → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-09673 - uses|G0099 uses T1480]] — APT-C-36 → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-09674 - uses|G0143 uses S0141]] — Aquatic Panda → Winnti for Windows
+- [[07 ATT&CK Relationships/ATTACK-REL-09675 - uses|S0347 uses T1090]] — AuditCred → Proxy
+- [[07 ATT&CK Relationships/ATTACK-REL-09676 - uses|G0094 uses T1566.001]] — Kimsuky → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09677 - uses|S1186 uses T1071.001]] — Line Dancer → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09678 - uses|G0102 uses T1136.002]] — Wizard Spider → Domain Account
+- [[07 ATT&CK Relationships/ATTACK-REL-09679 - uses|G1007 uses T1091]] — Aoqin Dragon → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-09680 - uses|S0015 uses T1547.001]] — Ixeshe → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09681 - uses|S0279 uses T1560]] — Proton → Archive Collected Data
+- [[07 ATT&CK Relationships/ATTACK-REL-09682 - uses|C0053 uses T1190]] — FLORAHOX Activity → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-09683 - uses|S0452 uses T1120]] — USBferry → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09684 - uses|S0002 uses T1555.003]] — Mimikatz → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-09685 - uses|S1178 uses T1059.005]] — ShrinkLocker → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-09686 - uses|S9025 uses T1127.001]] — NOOPLDR → MSBuild
+- [[07 ATT&CK Relationships/ATTACK-REL-09687 - uses|S0376 uses T1055]] — HOPLIGHT → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09688 - uses|G0140 uses S0332]] — LazyScripter → Remcos
+- [[07 ATT&CK Relationships/ATTACK-REL-09689 - uses|S0696 uses T1547.001]] — Flagpro → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09690 - uses|G0036 uses T1021.004]] — GCMAN → SSH
+- [[07 ATT&CK Relationships/ATTACK-REL-09691 - uses|G0022 uses T1218.011]] — APT3 → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-09692 - uses|S1138 uses T1204.001]] — Gootloader → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09693 - uses|S0690 uses T1124]] — Green Lambert → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09694 - uses|C0056 uses T1016]] — RedPenguin → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09695 - uses|G1019 uses S1090]] — MoustachedBouncer → NightClub
+- [[07 ATT&CK Relationships/ATTACK-REL-09696 - uses|S0268 uses T1497]] — Bisonal → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-09697 - uses|G1003 uses T1570]] — Ember Bear → Lateral Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09698 - uses|S0002 uses T1550.003]] — Mimikatz → Pass the Ticket
+- [[07 ATT&CK Relationships/ATTACK-REL-09699 - uses|S1044 uses T1680]] — FunnyDream → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09700 - uses|C0021 uses T1583.001]] — C0021 → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-09701 - uses|G0056 uses T1543.003]] — PROMETHIUM → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09702 - uses|S0439 uses T1560.001]] — Okrum → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-09703 - uses|G0030 uses T1543.003]] — Lotus Blossom → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09704 - uses|S0695 uses T1055]] — Donut → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09705 - uses|G0081 uses T1091]] — Tropic Trooper → Replication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-09706 - uses|S1066 uses T1059.003]] — DarkTortilla → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09707 - uses|S0223 uses T1218.005]] — POWERSTATS → Mshta
+- [[07 ATT&CK Relationships/ATTACK-REL-09708 - uses|G0129 uses T1052.001]] — Mustang Panda → Exfiltration over USB
+- [[07 ATT&CK Relationships/ATTACK-REL-09709 - uses|S0385 uses T1083]] — njRAT → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09710 - uses|S1085 uses T1571]] — Sardonic → Non-Standard Port
+- [[07 ATT&CK Relationships/ATTACK-REL-09711 - uses|G0032 uses T1070.004]] — Lazarus Group → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09712 - uses|S0456 uses T1071.001]] — Aria-body → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09713 - uses|G0061 uses T1482]] — FIN8 → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09714 - uses|S0434 uses T1125]] — Imminent Monitor → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09715 - uses|S0694 uses T1005]] — DRATzarus → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09716 - uses|S0386 uses T1568.002]] — Ursnif → Domain Generation Algorithms
+- [[07 ATT&CK Relationships/ATTACK-REL-09717 - uses|S0030 uses T1021.001]] — Carbanak → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09718 - uses|S0208 uses T1005]] — Pasam → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09719 - uses|C0027 uses T1133]] — C0027 → External Remote Services
+- [[07 ATT&CK Relationships/ATTACK-REL-09720 - uses|S1100 uses T1574.001]] — Ninja → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-09721 - uses|S0251 uses T1124]] — Zebrocy → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09722 - uses|S1229 uses T1083]] — Havoc → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09723 - uses|S0601 uses T1046]] — Hildegard → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09724 - uses|S1053 uses T1124]] — AvosLocker → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09725 - uses|S0165 uses T1018]] — OSInfo → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09726 - uses|G1001 uses T1588.002]] — HEXANE → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-09727 - uses|G1054 uses T1684.001]] — MirrorFace → Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-09728 - uses|G0094 uses T1012]] — Kimsuky → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09729 - uses|G0129 uses T1204.002]] — Mustang Panda → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09730 - uses|G0051 uses T1078]] — FIN10 → Valid Accounts
+- [[07 ATT&CK Relationships/ATTACK-REL-09731 - uses|S0091 uses T1680]] — Epic → Local Storage Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09732 - uses|G0129 uses T1219.002]] — Mustang Panda → Remote Desktop Software
+- [[07 ATT&CK Relationships/ATTACK-REL-09733 - uses|S0149 uses T1059.003]] — MoonWind → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09734 - uses|G0139 uses T1036]] — TeamTNT → Masquerading
+- [[07 ATT&CK Relationships/ATTACK-REL-09735 - uses|C0058 uses T1620]] — SharePoint ToolShell Exploitation → Reflective Code Loading
+- [[07 ATT&CK Relationships/ATTACK-REL-09736 - uses|G1003 uses T1036.005]] — Ember Bear → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09737 - uses|S1111 uses T1115]] — DarkGate → Clipboard Data
+- [[07 ATT&CK Relationships/ATTACK-REL-09738 - uses|G0004 uses T1016]] — Ke3chang → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09739 - uses|G1051 uses T1083]] — Medusa Group → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09740 - uses|G1023 uses T1003.001]] — APT5 → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-09741 - uses|S1139 uses T1489]] — INC Ransomware → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-09742 - uses|S1145 uses T1482]] — Pikabot → Domain Trust Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09743 - uses|C0038 uses T1134.001]] — HomeLand Justice → Token Impersonation/Theft
+- [[07 ATT&CK Relationships/ATTACK-REL-09744 - uses|S0678 uses T1016]] — Torisma → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09745 - uses|S0532 uses T1105]] — Lucifer → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09746 - uses|S0250 uses T1218.011]] — Koadic → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-09747 - uses|S0264 uses T1030]] — OopsIE → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-09748 - uses|S1122 uses T1140]] — Mispadu → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09749 - uses|G1054 uses T1036.008]] — MirrorFace → Masquerade File Type
+- [[07 ATT&CK Relationships/ATTACK-REL-09750 - uses|G0059 uses T1573]] — Magic Hound → Encrypted Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-09751 - uses|C0021 uses T1059.001]] — C0021 → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09752 - uses|G0048 uses T1574.001]] — RTM → DLL
+- [[07 ATT&CK Relationships/ATTACK-REL-09753 - uses|S1164 uses T1070.006]] — UPSTYLE → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-09754 - uses|S1020 uses T1071.001]] — Kevin → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09755 - uses|S0038 uses T1001.002]] — Duqu → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-09756 - uses|C0007 uses S0096]] — FunnyDream → Systeminfo
+- [[07 ATT&CK Relationships/ATTACK-REL-09757 - uses|G0129 uses T1564.001]] — Mustang Panda → Hidden Files and Directories
+- [[07 ATT&CK Relationships/ATTACK-REL-09758 - uses|S0158 uses T1059.003]] — PHOREAL → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09759 - uses|S1212 uses T1082]] — RansomHub → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09760 - uses|S0365 uses T1569.002]] — Olympic Destroyer → Service Execution
+- [[07 ATT&CK Relationships/ATTACK-REL-09761 - uses|S1050 uses T1027.013]] — PcShare → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09762 - uses|C0034 uses T1036.004]] — 2022 Ukraine Electric Power Attack → Masquerade Task or Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09763 - uses|S1050 uses T1218.011]] — PcShare → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-09764 - uses|G1019 uses T1059.007]] — MoustachedBouncer → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-09765 - uses|G0127 uses T1566.001]] — TA551 → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09766 - uses|G0069 uses S0591]] — MuddyWater → ConnectWise
+- [[07 ATT&CK Relationships/ATTACK-REL-09767 - uses|G0094 uses T1132.002]] — Kimsuky → Non-Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09768 - uses|G0138 uses T1105]] — Andariel → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09769 - uses|G0053 uses S0029]] — FIN5 → PsExec
+- [[07 ATT&CK Relationships/ATTACK-REL-09770 - uses|G0037 uses S0372]] — FIN6 → LockerGoga
+- [[07 ATT&CK Relationships/ATTACK-REL-09771 - uses|S0128 uses T1105]] — BADNEWS → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09772 - uses|S0050 uses T1025]] — CosmicDuke → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-09773 - uses|G0045 uses S0153]] — menuPass → RedLeaves
+- [[07 ATT&CK Relationships/ATTACK-REL-09774 - uses|S0370 uses T1059.003]] — SamSam → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09775 - uses|S1096 uses T1673]] — Cheerscrypt → Virtual Machine Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09776 - uses|S0066 uses T1071.001]] — 3PARA RAT → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09777 - uses|C0038 uses T1046]] — HomeLand Justice → Network Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09778 - uses|G1016 uses T1140]] — FIN13 → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09779 - uses|G1047 uses T1083]] — Velvet Ant → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09780 - uses|G0047 uses S0332]] — Gamaredon Group → Remcos
+- [[07 ATT&CK Relationships/ATTACK-REL-09781 - uses|S1240 uses T1012]] — RedLine Stealer → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09782 - uses|S9021 uses T1105]] — DOWNIISSA → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09783 - uses|S1212 uses T1070.004]] — RansomHub → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09784 - uses|S0659 uses T1021.002]] — Diavol → SMB/Windows Admin Shares
+- [[07 ATT&CK Relationships/ATTACK-REL-09785 - uses|S0252 uses T1016]] — Brave Prince → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09786 - uses|S0590 uses T1033]] — NBTscan → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09787 - uses|G0061 uses S1085]] — FIN8 → Sardonic
+- [[07 ATT&CK Relationships/ATTACK-REL-09788 - uses|S1037 uses T1016]] — STARWHALE → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09789 - uses|S0697 uses T1082]] — HermeticWiper → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09790 - uses|S0083 uses T1106]] — Misdat → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09791 - uses|G1017 uses S0645]] — Volt Typhoon → Wevtutil
+- [[07 ATT&CK Relationships/ATTACK-REL-09792 - uses|S1142 uses T1137.006]] — LunarMail → Add-ins
+- [[07 ATT&CK Relationships/ATTACK-REL-09793 - uses|S0115 uses T1025]] — Crimson → Data from Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-09794 - uses|S1196 uses T1074.001]] — Troll Stealer → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-09795 - uses|S1028 uses T1059.003]] — Action RAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09796 - uses|S0165 uses T1135]] — OSInfo → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09797 - uses|C0016 uses T1140]] — Operation Dust Storm → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09798 - uses|S1022 uses T1140]] — IceApple → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09799 - uses|S1246 uses T1070.004]] — BeaverTail → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09800 - uses|S1167 uses T1561.001]] — AcidPour → Disk Content Wipe
+- [[07 ATT&CK Relationships/ATTACK-REL-09801 - uses|S9008 uses T1608.001]] — Shai-Hulud → Upload Malware
+- [[07 ATT&CK Relationships/ATTACK-REL-09802 - uses|S0192 uses T1016]] — Pupy → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09803 - uses|S1141 uses T1027.013]] — LunarWeb → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09804 - uses|G1055 uses T1679]] — VOID MANTICORE → Selective Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-09805 - uses|G0054 uses T1039]] — Sowbug → Data from Network Shared Drive
+- [[07 ATT&CK Relationships/ATTACK-REL-09806 - uses|S1025 uses T1568.001]] — Amadey → Fast Flux DNS
+- [[07 ATT&CK Relationships/ATTACK-REL-09807 - uses|S0013 uses T1057]] — PlugX → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09808 - uses|S0022 uses T1008]] — Uroburos → Fallback Channels
+- [[07 ATT&CK Relationships/ATTACK-REL-09809 - uses|S1229 uses T1087]] — Havoc → Account Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09810 - uses|S0366 uses T1490]] — WannaCry → Inhibit System Recovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09811 - uses|C0024 uses T1069]] — SolarWinds Compromise → Permission Groups Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09812 - uses|S0692 uses T1018]] — SILENTTRINITY → Remote System Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09813 - uses|G1016 uses T1556]] — FIN13 → Modify Authentication Process
+- [[07 ATT&CK Relationships/ATTACK-REL-09814 - uses|S0136 uses T1092]] — USBStealer → Communication Through Removable Media
+- [[07 ATT&CK Relationships/ATTACK-REL-09815 - uses|G1005 uses T1199]] — POLONIUM → Trusted Relationship
+- [[07 ATT&CK Relationships/ATTACK-REL-09816 - uses|G0073 uses T1016]] — APT19 → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09817 - uses|S0260 uses T1071.001]] — InvisiMole → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09818 - uses|S0363 uses T1543.003]] — Empire → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09819 - uses|S0589 uses T1218.011]] — Sibot → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-09820 - uses|G0115 uses S0591]] — GOLD SOUTHFIELD → ConnectWise
+- [[07 ATT&CK Relationships/ATTACK-REL-09821 - uses|S0612 uses T1140]] — WastedLocker → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09822 - uses|C0028 uses T1040]] — 2015 Ukraine Electric Power Attack → Network Sniffing
+- [[07 ATT&CK Relationships/ATTACK-REL-09823 - uses|S0547 uses T1567]] — DropBook → Exfiltration Over Web Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09824 - uses|S0021 uses T1055.001]] — Derusbi → Dynamic-link Library Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09825 - uses|S0231 uses T1027.003]] — Invoke-PSImage → Steganography
+- [[07 ATT&CK Relationships/ATTACK-REL-09826 - uses|S0606 uses T1218.011]] — Bad Rabbit → Rundll32
+- [[07 ATT&CK Relationships/ATTACK-REL-09827 - uses|S0446 uses T1083]] — Ryuk → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09828 - uses|C0058 uses T1047]] — SharePoint ToolShell Exploitation → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09829 - uses|S0049 uses T1083]] — GeminiDuke → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09830 - uses|S1183 uses T1552.002]] — StrelaStealer → Credentials in Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09831 - uses|G0082 uses T1071.001]] — APT38 → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09832 - uses|S1242 uses T1566.001]] — Qilin → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09833 - uses|S0606 uses T1057]] — Bad Rabbit → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09834 - uses|S0458 uses T1049]] — Ramsay → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09835 - uses|S1236 uses T1106]] — CLAIMLOADER → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09836 - uses|G0049 uses T1583.001]] — OilRig → Domains
+- [[07 ATT&CK Relationships/ATTACK-REL-09837 - uses|G0126 uses S0032]] — Higaisa → gh0st RAT
+- [[07 ATT&CK Relationships/ATTACK-REL-09838 - uses|S0345 uses T1071.001]] — Seasalt → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09839 - uses|G0046 uses T1204.002]] — FIN7 → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09840 - uses|G0067 uses S0216]] — APT37 → POORAIM
+- [[07 ATT&CK Relationships/ATTACK-REL-09841 - uses|S0353 uses T1033]] — NOKKI → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09842 - uses|G0082 uses S0039]] — APT38 → Net
+- [[07 ATT&CK Relationships/ATTACK-REL-09843 - uses|S0365 uses T1016]] — Olympic Destroyer → System Network Configuration Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09844 - uses|S1012 uses T1005]] — PowerLess → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09845 - uses|S0622 uses T1134]] — AppleSeed → Access Token Manipulation
+- [[07 ATT&CK Relationships/ATTACK-REL-09846 - uses|S1122 uses T1059.005]] — Mispadu → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-09847 - uses|S0013 uses T1135]] — PlugX → Network Share Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09848 - uses|G1035 uses T1583.003]] — Winter Vivern → Virtual Private Server
+- [[07 ATT&CK Relationships/ATTACK-REL-09849 - uses|S9043 uses T1053.006]] — Mini Shai-Hulud → Systemd Timers
+- [[07 ATT&CK Relationships/ATTACK-REL-09850 - uses|S9020 uses T1573.001]] — LODEINFO → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09851 - uses|S9019 uses T1480.002]] — PureCrypter → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-09852 - uses|S0082 uses T1027.001]] — Emissary → Binary Padding
+- [[07 ATT&CK Relationships/ATTACK-REL-09853 - uses|G0059 uses S0192]] — Magic Hound → Pupy
+- [[07 ATT&CK Relationships/ATTACK-REL-09854 - uses|S0281 uses T1543.001]] — Dok → Launch Agent
+- [[07 ATT&CK Relationships/ATTACK-REL-09855 - uses|S1182 uses T1027.013]] — MagicRAT → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09856 - uses|G0041 uses S0125]] — Strider → Remsec
+- [[07 ATT&CK Relationships/ATTACK-REL-09857 - uses|S0015 uses T1007]] — Ixeshe → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09858 - uses|G0117 uses T1003.001]] — Fox Kitten → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-09859 - uses|S0229 uses T1055.012]] — Orz → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-09860 - uses|C0047 uses T1082]] — RedDelta Modified PlugX Infection Chain Operations → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09861 - uses|S0638 uses T1489]] — Babuk → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-09862 - uses|G0005 uses S0003]] — APT12 → RIPTIDE
+- [[07 ATT&CK Relationships/ATTACK-REL-09863 - uses|S0487 uses T1048.003]] — Kessel → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09864 - uses|S0031 uses T1057]] — BACKSPACE → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09865 - uses|G1032 uses T1486]] — INC Ransom → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-09866 - uses|G0094 uses T1480.002]] — Kimsuky → Mutual Exclusion
+- [[07 ATT&CK Relationships/ATTACK-REL-09867 - uses|S0576 uses T1106]] — MegaCortex → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09868 - uses|G0096 uses S0032]] — APT41 → gh0st RAT
+- [[07 ATT&CK Relationships/ATTACK-REL-09869 - uses|S0240 uses T1140]] — ROKRAT → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09870 - uses|S0074 uses T1543.003]] — Sakula → Windows Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09871 - uses|C0015 uses S0534]] — C0015 → Bazar
+- [[07 ATT&CK Relationships/ATTACK-REL-09872 - uses|G0052 uses T1560.003]] — CopyKittens → Archive via Custom Method
+- [[07 ATT&CK Relationships/ATTACK-REL-09873 - uses|G0001 uses S0412]] — Axiom → ZxShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09874 - uses|S1213 uses T1176.001]] — Lumma Stealer → Browser Extensions
+- [[07 ATT&CK Relationships/ATTACK-REL-09875 - uses|G1055 uses T1583.006]] — VOID MANTICORE → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-09876 - uses|S0457 uses T1106]] — Netwalker → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09877 - uses|S0011 uses T1105]] — Taidoor → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09878 - uses|S0657 uses T1555.003]] — BLUELIGHT → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-09879 - uses|G0094 uses T1583.006]] — Kimsuky → Web Services
+- [[07 ATT&CK Relationships/ATTACK-REL-09880 - uses|S1149 uses T1057]] — CHIMNEYSWEEP → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09881 - uses|S1190 uses T1140]] — Kapeka → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09882 - uses|G1017 uses S0104]] — Volt Typhoon → netstat
+- [[07 ATT&CK Relationships/ATTACK-REL-09883 - uses|S0348 uses T1027.004]] — Cardinal RAT → Compile After Delivery
+- [[07 ATT&CK Relationships/ATTACK-REL-09884 - uses|S0594 uses T1114.001]] — Out1 → Local Email Collection
+- [[07 ATT&CK Relationships/ATTACK-REL-09885 - uses|G0007 uses T1039]] — APT28 → Data from Network Shared Drive
+- [[07 ATT&CK Relationships/ATTACK-REL-09886 - uses|S1219 uses T1205.001]] — REPTILE → Port Knocking
+- [[07 ATT&CK Relationships/ATTACK-REL-09887 - uses|S9024 uses T1574.006]] — SPAWNCHIMERA → Dynamic Linker Hijacking
+- [[07 ATT&CK Relationships/ATTACK-REL-09888 - uses|C0017 uses T1041]] — C0017 → Exfiltration Over C2 Channel
+- [[07 ATT&CK Relationships/ATTACK-REL-09889 - uses|S0386 uses T1132]] — Ursnif → Data Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09890 - uses|S0640 uses T1685]] — Avaddon → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-09891 - uses|S0622 uses T1056.001]] — AppleSeed → Keylogging
+- [[07 ATT&CK Relationships/ATTACK-REL-09892 - uses|S0186 uses T1082]] — DownPaper → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09893 - uses|G1054 uses T1204.002]] — MirrorFace → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09894 - uses|G0076 uses T1048.003]] — Thrip → Exfiltration Over Unencrypted Non-C2 Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09895 - uses|G1044 uses T1555.003]] — APT42 → Credentials from Web Browsers
+- [[07 ATT&CK Relationships/ATTACK-REL-09896 - uses|S9019 uses T1673]] — PureCrypter → Virtual Machine Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09897 - uses|S1202 uses T1614.001]] — LockBit 3.0 → System Language Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09898 - uses|G1006 uses T1059.005]] — Earth Lusca → Visual Basic
+- [[07 ATT&CK Relationships/ATTACK-REL-09899 - uses|S0176 uses T1068]] — Wingbird → Exploitation for Privilege Escalation
+- [[07 ATT&CK Relationships/ATTACK-REL-09900 - uses|S9011 uses T1205]] — BRUSHFIRE → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-09901 - uses|S0587 uses T1205]] — Penquin → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-09902 - uses|S0572 uses T1033]] — Caterpillar WebShell → System Owner/User Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09903 - uses|S1059 uses T1070.006]] — metaMain → Timestomp
+- [[07 ATT&CK Relationships/ATTACK-REL-09904 - uses|S9010 uses T1547.001]] — GlassWorm → Registry Run Keys / Startup Folder
+- [[07 ATT&CK Relationships/ATTACK-REL-09905 - uses|G0001 uses T1189]] — Axiom → Drive-by Compromise
+- [[07 ATT&CK Relationships/ATTACK-REL-09906 - uses|G0007 uses T1003.003]] — APT28 → NTDS
+- [[07 ATT&CK Relationships/ATTACK-REL-09907 - uses|S1099 uses T1106]] — Samurai → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09908 - uses|S0154 uses T1059.003]] — Cobalt Strike → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09909 - uses|G0007 uses T1030]] — APT28 → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-09910 - uses|S0373 uses T1027.013]] — Astaroth → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09911 - uses|S0553 uses T1105]] — MoleNet → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09912 - uses|G0108 uses T1059.003]] — Blue Mockingbird → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09913 - uses|S1100 uses T1055]] — Ninja → Process Injection
+- [[07 ATT&CK Relationships/ATTACK-REL-09914 - uses|S9018 uses T1027.002]] — HeartCrypt → Software Packing
+- [[07 ATT&CK Relationships/ATTACK-REL-09915 - uses|S0193 uses T1005]] — Forfiles → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09916 - uses|G0128 uses T1140]] — ZIRCONIUM → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09917 - uses|G1056 uses T1583.004]] — TeamPCP → Server
+- [[07 ATT&CK Relationships/ATTACK-REL-09918 - uses|S1240 uses T1685]] — RedLine Stealer → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-09919 - uses|S9019 uses T1573.002]] — PureCrypter → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09920 - uses|S0137 uses T1573.001]] — CORESHELL → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09921 - uses|S0081 uses T1036.005]] — Elise → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09922 - uses|G1046 uses T1588.002]] — Storm-1811 → Tool
+- [[07 ATT&CK Relationships/ATTACK-REL-09923 - uses|S0074 uses T1573.001]] — Sakula → Symmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09924 - uses|G1024 uses S1040]] — Akira → Rclone
+- [[07 ATT&CK Relationships/ATTACK-REL-09925 - uses|S0184 uses T1012]] — POWRUNER → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09926 - uses|G1003 uses T1003]] — Ember Bear → OS Credential Dumping
+- [[07 ATT&CK Relationships/ATTACK-REL-09927 - uses|G0135 uses T1036.005]] — BackdoorDiplomacy → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09928 - uses|G1017 uses T1012]] — Volt Typhoon → Query Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09929 - uses|S0180 uses T1057]] — Volgmer → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09930 - uses|S0075 uses T1112]] — Reg → Modify Registry
+- [[07 ATT&CK Relationships/ATTACK-REL-09931 - uses|S1169 uses T1132.001]] — Mango → Standard Encoding
+- [[07 ATT&CK Relationships/ATTACK-REL-09932 - uses|C0060 uses T1070.004]] — Operation AkaiRyū → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09933 - uses|G0027 uses T1190]] — Threat Group-3390 → Exploit Public-Facing Application
+- [[07 ATT&CK Relationships/ATTACK-REL-09934 - uses|G1003 uses T1125]] — Ember Bear → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09935 - uses|S0139 uses T1083]] — PowerDuke → File and Directory Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09936 - uses|S0576 uses T1685]] — MegaCortex → Disable or Modify Tools
+- [[07 ATT&CK Relationships/ATTACK-REL-09937 - uses|G0120 uses T1555]] — Evilnum → Credentials from Password Stores
+- [[07 ATT&CK Relationships/ATTACK-REL-09938 - uses|S0412 uses T1125]] — ZxShell → Video Capture
+- [[07 ATT&CK Relationships/ATTACK-REL-09939 - uses|G0125 uses T1685.005]] — HAFNIUM → Clear Windows Event Logs
+- [[07 ATT&CK Relationships/ATTACK-REL-09940 - uses|G1035 uses T1566.001]] — Winter Vivern → Spearphishing Attachment
+- [[07 ATT&CK Relationships/ATTACK-REL-09941 - uses|S9043 uses T1205]] — Mini Shai-Hulud → Traffic Signaling
+- [[07 ATT&CK Relationships/ATTACK-REL-09942 - uses|G0047 uses T1518.001]] — Gamaredon Group → Security Software Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09943 - uses|G1051 uses T1059.001]] — Medusa Group → PowerShell
+- [[07 ATT&CK Relationships/ATTACK-REL-09944 - uses|G1055 uses T1566]] — VOID MANTICORE → Phishing
+- [[07 ATT&CK Relationships/ATTACK-REL-09945 - uses|C0038 uses S1149]] — HomeLand Justice → CHIMNEYSWEEP
+- [[07 ATT&CK Relationships/ATTACK-REL-09946 - uses|S0441 uses T1071.001]] — PowerShower → Web Protocols
+- [[07 ATT&CK Relationships/ATTACK-REL-09947 - uses|S0689 uses T1218.004]] — WhisperGate → InstallUtil
+- [[07 ATT&CK Relationships/ATTACK-REL-09948 - uses|S0595 uses T1486]] — ThiefQuest → Data Encrypted for Impact
+- [[07 ATT&CK Relationships/ATTACK-REL-09949 - uses|S1228 uses T1560.001]] — PUBLOAD → Archive via Utility
+- [[07 ATT&CK Relationships/ATTACK-REL-09950 - uses|S1227 uses T1001.003]] — StarProxy → Protocol or Service Impersonation
+- [[07 ATT&CK Relationships/ATTACK-REL-09951 - uses|G0016 uses S0589]] — APT29 → Sibot
+- [[07 ATT&CK Relationships/ATTACK-REL-09952 - uses|S1039 uses T1497]] — Bumblebee → Virtualization/Sandbox Evasion
+- [[07 ATT&CK Relationships/ATTACK-REL-09953 - uses|S0344 uses T1070.004]] — Azorult → File Deletion
+- [[07 ATT&CK Relationships/ATTACK-REL-09954 - uses|S0677 uses T1556.007]] — AADInternals → Hybrid Identity
+- [[07 ATT&CK Relationships/ATTACK-REL-09955 - uses|S1240 uses T1082]] — RedLine Stealer → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09956 - uses|S0272 uses T1082]] — NDiskMonitor → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09957 - uses|S0644 uses T1030]] — ObliqueRAT → Data Transfer Size Limits
+- [[07 ATT&CK Relationships/ATTACK-REL-09958 - uses|S0154 uses T1021.006]] — Cobalt Strike → Windows Remote Management
+- [[07 ATT&CK Relationships/ATTACK-REL-09959 - uses|G1022 uses T1057]] — ToddyCat → Process Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09960 - uses|G0010 uses S0104]] — Turla → netstat
+- [[07 ATT&CK Relationships/ATTACK-REL-09961 - uses|G0095 uses T1218.007]] — Machete → Msiexec
+- [[07 ATT&CK Relationships/ATTACK-REL-09962 - uses|G0047 uses T1491.001]] — Gamaredon Group → Internal Defacement
+- [[07 ATT&CK Relationships/ATTACK-REL-09963 - uses|S0242 uses T1082]] — SynAck → System Information Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09964 - uses|S0386 uses T1055.012]] — Ursnif → Process Hollowing
+- [[07 ATT&CK Relationships/ATTACK-REL-09965 - uses|G0117 uses T1546.008]] — Fox Kitten → Accessibility Features
+- [[07 ATT&CK Relationships/ATTACK-REL-09966 - uses|S0344 uses T1134.002]] — Azorult → Create Process with Token
+- [[07 ATT&CK Relationships/ATTACK-REL-09967 - uses|S1199 uses T1480]] — LockBit 2.0 → Execution Guardrails
+- [[07 ATT&CK Relationships/ATTACK-REL-09968 - uses|G1008 uses T1105]] — SideCopy → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09969 - uses|G0045 uses S0552]] — menuPass → AdFind
+- [[07 ATT&CK Relationships/ATTACK-REL-09970 - uses|S0065 uses T1059.003]] — 4H RAT → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09971 - uses|G0114 uses T1105]] — Chimera → Ingress Tool Transfer
+- [[07 ATT&CK Relationships/ATTACK-REL-09972 - uses|S0692 uses T1059.003]] — SILENTTRINITY → Windows Command Shell
+- [[07 ATT&CK Relationships/ATTACK-REL-09973 - uses|S0482 uses T1222.002]] — Bundlore → Linux and Mac Permissions
+- [[07 ATT&CK Relationships/ATTACK-REL-09974 - uses|S0331 uses T1204.002]] — Agent Tesla → Malicious File
+- [[07 ATT&CK Relationships/ATTACK-REL-09975 - uses|S1181 uses T1489]] — BlackByte 2.0 Ransomware → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-09976 - uses|G0045 uses T1021.001]] — menuPass → Remote Desktop Protocol
+- [[07 ATT&CK Relationships/ATTACK-REL-09977 - uses|S0082 uses T1007]] — Emissary → System Service Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09978 - uses|C0059 uses T1598.004]] — Salesforce Data Exfiltration → Spearphishing Voice
+- [[07 ATT&CK Relationships/ATTACK-REL-09979 - uses|S0533 uses T1489]] — SLOTHFULMEDIA → Service Stop
+- [[07 ATT&CK Relationships/ATTACK-REL-09980 - uses|S1247 uses T1053.005]] — Embargo → Scheduled Task
+- [[07 ATT&CK Relationships/ATTACK-REL-09981 - uses|S0554 uses T1049]] — Egregor → System Network Connections Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09982 - uses|S9011 uses T1140]] — BRUSHFIRE → Deobfuscate/Decode Files or Information
+- [[07 ATT&CK Relationships/ATTACK-REL-09983 - uses|S0568 uses T1047]] — EVILNUM → Windows Management Instrumentation
+- [[07 ATT&CK Relationships/ATTACK-REL-09984 - uses|S0015 uses T1036.005]] — Ixeshe → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-09985 - uses|G0128 uses T1124]] — ZIRCONIUM → System Time Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09986 - uses|S1222 uses T1543.002]] — RIFLESPINE → Systemd Service
+- [[07 ATT&CK Relationships/ATTACK-REL-09987 - uses|C0058 uses T1003.001]] — SharePoint ToolShell Exploitation → LSASS Memory
+- [[07 ATT&CK Relationships/ATTACK-REL-09988 - uses|S1018 uses T1106]] — Saint Bot → Native API
+- [[07 ATT&CK Relationships/ATTACK-REL-09989 - uses|C0014 uses T1005]] — Operation Wocao → Data from Local System
+- [[07 ATT&CK Relationships/ATTACK-REL-09990 - uses|G1017 uses T1074.001]] — Volt Typhoon → Local Data Staging
+- [[07 ATT&CK Relationships/ATTACK-REL-09991 - uses|S0468 uses T1098.004]] — Skidmap → SSH Authorized Keys
+- [[07 ATT&CK Relationships/ATTACK-REL-09992 - uses|G1023 uses S1104]] — APT5 → SLOWPULSE
+- [[07 ATT&CK Relationships/ATTACK-REL-09993 - uses|S9036 uses T1027.013]] — LP-Notes → Encrypted/Encoded File
+- [[07 ATT&CK Relationships/ATTACK-REL-09994 - uses|G1034 uses T1204.001]] — Daggerfly → Malicious Link
+- [[07 ATT&CK Relationships/ATTACK-REL-09995 - uses|S0366 uses T1573.002]] — WannaCry → Asymmetric Cryptography
+- [[07 ATT&CK Relationships/ATTACK-REL-09996 - uses|S1089 uses T1120]] — SharpDisco → Peripheral Device Discovery
+- [[07 ATT&CK Relationships/ATTACK-REL-09997 - uses|S1180 uses T1059.007]] — BlackByte Ransomware → JavaScript
+- [[07 ATT&CK Relationships/ATTACK-REL-09998 - uses|S0274 uses T1569.001]] — Calisto → Launchctl
+- [[07 ATT&CK Relationships/ATTACK-REL-09999 - uses|G1022 uses T1036.005]] — ToddyCat → Match Legitimate Resource Name or Location
+- [[07 ATT&CK Relationships/ATTACK-REL-10000 - uses|S0262 uses T1053.005]] — QuasarRAT → Scheduled Task

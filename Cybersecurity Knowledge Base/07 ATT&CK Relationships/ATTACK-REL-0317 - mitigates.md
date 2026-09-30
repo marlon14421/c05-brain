@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "mitigates"
+source_object: "M1018"
+target_object: "T1609"
+stix_relationship_id: "relationship--4d98988c-bac6-48da-9bc8-6e4375317fd4"
+---
+# Relationship 0317: M1018 — mitigates → T1609
+
+**Source object:** [[01 ATT&CK/M1018 - User Account Management|M1018: User Account Management]]  
+**Relationship:** `mitigates`  
+**Target object:** [[01 ATT&CK/T1609 - Container Administration Command|T1609: Container Administration Command]]
+
+## Meaning for defensive analysis
+
+Links a defensive mitigation to the behavior it is intended to reduce. Check implementation details and local constraints before applying it.
+
+## Source description
+
+Enforce authentication and role-based access control on the container service to restrict users to the least privileges required.(Citation: Kubernetes Hardening Guide) When using Kubernetes, avoid giving users wildcard permissions or adding users to the `system:masters` group, and use `RoleBindings` rather than `ClusterRoleBindings` to limit user privileges to specific namespaces.(Citation: Kubernetes RBAC)
+
+## How an AI should use this fact
+
+Retrieve this edge together with both linked records. Preserve its direction and relationship label, cite the source object identifiers, and avoid upgrading a catalog association into an incident claim. For operational recommendations, inspect the linked records and corroborate against current telemetry and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK STIX Enterprise dataset](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--4d98988c-bac6-48da-9bc8-6e4375317fd4`.

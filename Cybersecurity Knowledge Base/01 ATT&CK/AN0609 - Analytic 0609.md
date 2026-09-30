@@ -1,0 +1,29 @@
+---
+type: "Detection Analytic"
+source: MITRE ATT&CK
+id: "AN0609"
+source_url: "https://attack.mitre.org/detectionstrategies/DET0218#AN0609"
+created: "2025-10-21"
+modified: "2025-10-21"
+---
+# AN0609: Analytic 0609
+
+> **Defensive knowledge record.** Use this entry to support detection, prevention, incident response, and security education. Descriptions summarize the source; validate decisions against current systems and threat context.
+
+**Class:** Detection Analytic  
+**ATT&CK ID:** AN0609  
+**Platforms:** Windows  
+**Tactics:** Not specified
+
+## Source description
+
+Unusual modifications to service binary paths, registry keys, or DLL load paths resulting in alternate execution flow. Defender observes registry key modifications, suspicious file writes into system directories, and processes loading libraries from abnormal paths.
+
+## Defensive use
+
+Use this record as a prompt for threat modeling and defensive review. Identify relevant assets and trust boundaries, determine whether the behavior is applicable to the environment, then consult detection and mitigation references before acting. A technique or tool listing alone is not evidence that an incident occurred.
+
+## Source
+
+- [MITRE ATT&CK: AN0609](https://attack.mitre.org/detectionstrategies/DET0218#AN0609)
+- Dataset: [MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot retrieved 2026-09-30.

@@ -1,0 +1,34 @@
+---
+type: "Weakness"
+source: "MITRE CWE"
+id: "CWE-843"
+status: "Incomplete"
+---
+# CWE-843: Access of Resource Using Incompatible Type ('Type Confusion')
+
+**Abstraction:** Base  
+**Status in catalog:** Incomplete  
+**Applicable platforms:** C, C++
+
+## Description
+
+The product allocates or initializes a resource such as a pointer, object, or variable using one type, but it later accesses that resource using a type that is incompatible with the original type.
+
+## Defensive relevance
+
+Use this weakness as a review and classification aid. Confirm the vulnerable condition in code or configuration, assess reachability and impact, and select a fix appropriate to the affected product. Catalog membership by itself does not establish exploitability.
+
+## Mitigations in the catalog
+
+No mitigation text was provided in this record. Consult the linked CWE page and platform-specific secure development guidance.
+
+## Related weaknesses
+
+- CWE-704 (ChildOf)
+- CWE-704 (ChildOf)
+- CWE-119 (CanPrecede)
+
+## Source
+
+- [CWE-843 on cwe.mitre.org](https://cwe.mitre.org/data/definitions/843.html)
+- Dataset: [MITRE CWE catalog](https://cwe.mitre.org/data/downloads.html), version 4.20 (retrieved 2026-09-30).

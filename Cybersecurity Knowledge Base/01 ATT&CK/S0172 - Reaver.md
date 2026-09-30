@@ -1,0 +1,29 @@
+---
+type: "Malware"
+source: MITRE ATT&CK
+id: "S0172"
+source_url: "https://attack.mitre.org/software/S0172"
+created: "2018-01-16"
+modified: "2025-10-22"
+---
+# S0172: Reaver
+
+> **Defensive knowledge record.** Use this entry to support detection, prevention, incident response, and security education. Descriptions summarize the source; validate decisions against current systems and threat context.
+
+**Class:** Malware  
+**ATT&CK ID:** S0172  
+**Platforms:** Windows  
+**Tactics:** Not specified
+
+## Source description
+
+[Reaver](https://attack.mitre.org/software/S0172) is a malware family that has been in the wild since at least late 2016. Reporting indicates victims have primarily been associated with the "Five Poisons," which are movements the Chinese government considers dangerous. The type of malware is rare due to its final payload being in the form of [Control Panel](https://attack.mitre.org/techniques/T1218/002) items.(Citation: Palo Alto Reaver Nov 2017)
+
+## Defensive use
+
+Use this record as a prompt for threat modeling and defensive review. Identify relevant assets and trust boundaries, determine whether the behavior is applicable to the environment, then consult detection and mitigation references before acting. A technique or tool listing alone is not evidence that an incident occurred.
+
+## Source
+
+- [MITRE ATT&CK: S0172](https://attack.mitre.org/software/S0172)
+- Dataset: [MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot retrieved 2026-09-30.

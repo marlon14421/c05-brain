@@ -1,0 +1,24 @@
+---
+type: "Attack Pattern"
+source: "MITRE CAPEC"
+id: "CAPEC-162"
+status: "Draft"
+---
+# CAPEC-162: Manipulating Hidden Fields
+
+**Abstraction:** Detailed  
+**Catalog severity:** High  
+**Catalog likelihood:** Not stated
+
+## Description
+
+An adversary exploits a weakness in the server's trust of client-side processing by modifying data on the client-side, such as price information, and then submitting this data to the server, which processes the modified data. For example, eShoplifting is a data manipulation attack against an on-line merchant during a purchasing transaction. The manipulation of price, discount or quantity fields in the transaction message allows the adversary to acquire items at a lower cost than the merchant intended. The adversary performs a normal purchasing transaction but edits hidden fields within the HTML form response that store price or other information to give themselves a better deal. The merchant then uses the modified pricing information in calculating the cost of the selected items.
+
+## Defensive interpretation
+
+This catalog entry describes an attack pattern for threat modeling and defensive analysis. Map the conditions to assets, entry points, and controls in your own environment. Prioritize prevention, safe validation, logging, and incident response; this summary is not an execution guide and does not prove an active threat.
+
+## Source
+
+- [CAPEC-162 on capec.mitre.org](https://capec.mitre.org/data/definitions/162.html)
+- Dataset: [MITRE CAPEC catalog](https://capec.mitre.org/data/downloads.html), version 3.9 (retrieved 2026-09-30).

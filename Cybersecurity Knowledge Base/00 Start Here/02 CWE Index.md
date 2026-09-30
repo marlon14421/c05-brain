@@ -1,0 +1,973 @@
+# CWE Index
+
+Einträge: 969. Quelle und Datensatzstand stehen in jeder Einzelnote.
+
+- [[02 Weaknesses CWE/CWE-1004 - Sensitive Cookie Without 'HttpOnly' Flag|CWE-1004: Sensitive Cookie Without 'HttpOnly' Flag]] — Weakness
+- [[02 Weaknesses CWE/CWE-1007 - Insufficient Visual Distinction of Homoglyphs Presented to User|CWE-1007: Insufficient Visual Distinction of Homoglyphs Presented to User]] — Weakness
+- [[02 Weaknesses CWE/CWE-102 - Struts- Duplicate Validation Forms|CWE-102: Struts: Duplicate Validation Forms]] — Weakness
+- [[02 Weaknesses CWE/CWE-1021 - Improper Restriction of Rendered UI Layers or Frames|CWE-1021: Improper Restriction of Rendered UI Layers or Frames]] — Weakness
+- [[02 Weaknesses CWE/CWE-1022 - Use of Web Link to Untrusted Target with window.opener Access|CWE-1022: Use of Web Link to Untrusted Target with window.opener Access]] — Weakness
+- [[02 Weaknesses CWE/CWE-1023 - Incomplete Comparison with Missing Factors|CWE-1023: Incomplete Comparison with Missing Factors]] — Weakness
+- [[02 Weaknesses CWE/CWE-1024 - Comparison of Incompatible Types|CWE-1024: Comparison of Incompatible Types]] — Weakness
+- [[02 Weaknesses CWE/CWE-1025 - Comparison Using Wrong Factors|CWE-1025: Comparison Using Wrong Factors]] — Weakness
+- [[02 Weaknesses CWE/CWE-103 - Struts- Incomplete validate() Method Definition|CWE-103: Struts: Incomplete validate() Method Definition]] — Weakness
+- [[02 Weaknesses CWE/CWE-1037 - Processor Optimization Removal or Modification of Security-critical Code|CWE-1037: Processor Optimization Removal or Modification of Security-critical Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1038 - Insecure Automated Optimizations|CWE-1038: Insecure Automated Optimizations]] — Weakness
+- [[02 Weaknesses CWE/CWE-1039 - Inadequate Detection or Handling of Adversarial Input Perturbations in Automated Recognition Mechani|CWE-1039: Inadequate Detection or Handling of Adversarial Input Perturbations in Automated Recognition Mechanism]] — Weakness
+- [[02 Weaknesses CWE/CWE-104 - Struts- Form Bean Does Not Extend Validation Class|CWE-104: Struts: Form Bean Does Not Extend Validation Class]] — Weakness
+- [[02 Weaknesses CWE/CWE-1041 - Use of Redundant Code|CWE-1041: Use of Redundant Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1042 - Static Member Data Element outside of a Singleton Class Element|CWE-1042: Static Member Data Element outside of a Singleton Class Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-1043 - Data Element Aggregating an Excessively Large Number of Non-Primitive Elements|CWE-1043: Data Element Aggregating an Excessively Large Number of Non-Primitive Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-1044 - Architecture with Number of Horizontal Layers Outside of Expected Range|CWE-1044: Architecture with Number of Horizontal Layers Outside of Expected Range]] — Weakness
+- [[02 Weaknesses CWE/CWE-1045 - Parent Class with a Virtual Destructor and a Child Class without a Virtual Destructor|CWE-1045: Parent Class with a Virtual Destructor and a Child Class without a Virtual Destructor]] — Weakness
+- [[02 Weaknesses CWE/CWE-1046 - Creation of Immutable Text Using String Concatenation|CWE-1046: Creation of Immutable Text Using String Concatenation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1047 - Modules with Circular Dependencies|CWE-1047: Modules with Circular Dependencies]] — Weakness
+- [[02 Weaknesses CWE/CWE-1048 - Invokable Control Element with Large Number of Outward Calls|CWE-1048: Invokable Control Element with Large Number of Outward Calls]] — Weakness
+- [[02 Weaknesses CWE/CWE-1049 - Excessive Data Query Operations in a Large Data Table|CWE-1049: Excessive Data Query Operations in a Large Data Table]] — Weakness
+- [[02 Weaknesses CWE/CWE-105 - Struts- Form Field Without Validator|CWE-105: Struts: Form Field Without Validator]] — Weakness
+- [[02 Weaknesses CWE/CWE-1050 - Excessive Platform Resource Consumption within a Loop|CWE-1050: Excessive Platform Resource Consumption within a Loop]] — Weakness
+- [[02 Weaknesses CWE/CWE-1051 - Initialization with Hard-Coded Network Resource Configuration Data|CWE-1051: Initialization with Hard-Coded Network Resource Configuration Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-1052 - Excessive Use of Hard-Coded Literals in Initialization|CWE-1052: Excessive Use of Hard-Coded Literals in Initialization]] — Weakness
+- [[02 Weaknesses CWE/CWE-1053 - Missing Documentation for Design|CWE-1053: Missing Documentation for Design]] — Weakness
+- [[02 Weaknesses CWE/CWE-1054 - Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer|CWE-1054: Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer]] — Weakness
+- [[02 Weaknesses CWE/CWE-1055 - Multiple Inheritance from Concrete Classes|CWE-1055: Multiple Inheritance from Concrete Classes]] — Weakness
+- [[02 Weaknesses CWE/CWE-1056 - Invokable Control Element with Variadic Parameters|CWE-1056: Invokable Control Element with Variadic Parameters]] — Weakness
+- [[02 Weaknesses CWE/CWE-1057 - Data Access Operations Outside of Expected Data Manager Component|CWE-1057: Data Access Operations Outside of Expected Data Manager Component]] — Weakness
+- [[02 Weaknesses CWE/CWE-1058 - Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element|CWE-1058: Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-1059 - Insufficient Technical Documentation|CWE-1059: Insufficient Technical Documentation]] — Weakness
+- [[02 Weaknesses CWE/CWE-106 - Struts- Plug-in Framework not in Use|CWE-106: Struts: Plug-in Framework not in Use]] — Weakness
+- [[02 Weaknesses CWE/CWE-1060 - Excessive Number of Inefficient Server-Side Data Accesses|CWE-1060: Excessive Number of Inefficient Server-Side Data Accesses]] — Weakness
+- [[02 Weaknesses CWE/CWE-1061 - Insufficient Encapsulation|CWE-1061: Insufficient Encapsulation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1062 - Parent Class with References to Child Class|CWE-1062: Parent Class with References to Child Class]] — Weakness
+- [[02 Weaknesses CWE/CWE-1063 - Creation of Class Instance within a Static Code Block|CWE-1063: Creation of Class Instance within a Static Code Block]] — Weakness
+- [[02 Weaknesses CWE/CWE-1064 - Invokable Control Element with Signature Containing an Excessive Number of Parameters|CWE-1064: Invokable Control Element with Signature Containing an Excessive Number of Parameters]] — Weakness
+- [[02 Weaknesses CWE/CWE-1065 - Runtime Resource Management Control Element in a Component Built to Run on Application Servers|CWE-1065: Runtime Resource Management Control Element in a Component Built to Run on Application Servers]] — Weakness
+- [[02 Weaknesses CWE/CWE-1066 - Missing Serialization Control Element|CWE-1066: Missing Serialization Control Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-1067 - Excessive Execution of Sequential Searches of Data Resource|CWE-1067: Excessive Execution of Sequential Searches of Data Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-1068 - Inconsistency Between Implementation and Documented Design|CWE-1068: Inconsistency Between Implementation and Documented Design]] — Weakness
+- [[02 Weaknesses CWE/CWE-1069 - Empty Exception Block|CWE-1069: Empty Exception Block]] — Weakness
+- [[02 Weaknesses CWE/CWE-107 - Struts- Unused Validation Form|CWE-107: Struts: Unused Validation Form]] — Weakness
+- [[02 Weaknesses CWE/CWE-1070 - Serializable Data Element Containing non-Serializable Item Elements|CWE-1070: Serializable Data Element Containing non-Serializable Item Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-1071 - Empty Code Block|CWE-1071: Empty Code Block]] — Weakness
+- [[02 Weaknesses CWE/CWE-1072 - Data Resource Access without Use of Connection Pooling|CWE-1072: Data Resource Access without Use of Connection Pooling]] — Weakness
+- [[02 Weaknesses CWE/CWE-1073 - Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses|CWE-1073: Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses]] — Weakness
+- [[02 Weaknesses CWE/CWE-1074 - Class with Excessively Deep Inheritance|CWE-1074: Class with Excessively Deep Inheritance]] — Weakness
+- [[02 Weaknesses CWE/CWE-1075 - Unconditional Control Flow Transfer outside of Switch Block|CWE-1075: Unconditional Control Flow Transfer outside of Switch Block]] — Weakness
+- [[02 Weaknesses CWE/CWE-1076 - Insufficient Adherence to Expected Conventions|CWE-1076: Insufficient Adherence to Expected Conventions]] — Weakness
+- [[02 Weaknesses CWE/CWE-1077 - Floating Point Comparison with Incorrect Operator|CWE-1077: Floating Point Comparison with Incorrect Operator]] — Weakness
+- [[02 Weaknesses CWE/CWE-1078 - Inappropriate Source Code Style or Formatting|CWE-1078: Inappropriate Source Code Style or Formatting]] — Weakness
+- [[02 Weaknesses CWE/CWE-1079 - Parent Class without Virtual Destructor Method|CWE-1079: Parent Class without Virtual Destructor Method]] — Weakness
+- [[02 Weaknesses CWE/CWE-108 - Struts- Unvalidated Action Form|CWE-108: Struts: Unvalidated Action Form]] — Weakness
+- [[02 Weaknesses CWE/CWE-1080 - Source Code File with Excessive Number of Lines of Code|CWE-1080: Source Code File with Excessive Number of Lines of Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1082 - Class Instance Self Destruction Control Element|CWE-1082: Class Instance Self Destruction Control Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-1083 - Data Access from Outside Expected Data Manager Component|CWE-1083: Data Access from Outside Expected Data Manager Component]] — Weakness
+- [[02 Weaknesses CWE/CWE-1084 - Invokable Control Element with Excessive File or Data Access Operations|CWE-1084: Invokable Control Element with Excessive File or Data Access Operations]] — Weakness
+- [[02 Weaknesses CWE/CWE-1085 - Invokable Control Element with Excessive Volume of Commented-out Code|CWE-1085: Invokable Control Element with Excessive Volume of Commented-out Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1086 - Class with Excessive Number of Child Classes|CWE-1086: Class with Excessive Number of Child Classes]] — Weakness
+- [[02 Weaknesses CWE/CWE-1087 - Class with Virtual Method without a Virtual Destructor|CWE-1087: Class with Virtual Method without a Virtual Destructor]] — Weakness
+- [[02 Weaknesses CWE/CWE-1088 - Synchronous Access of Remote Resource without Timeout|CWE-1088: Synchronous Access of Remote Resource without Timeout]] — Weakness
+- [[02 Weaknesses CWE/CWE-1089 - Large Data Table with Excessive Number of Indices|CWE-1089: Large Data Table with Excessive Number of Indices]] — Weakness
+- [[02 Weaknesses CWE/CWE-109 - Struts- Validator Turned Off|CWE-109: Struts: Validator Turned Off]] — Weakness
+- [[02 Weaknesses CWE/CWE-1090 - Method Containing Access of a Member Element from Another Class|CWE-1090: Method Containing Access of a Member Element from Another Class]] — Weakness
+- [[02 Weaknesses CWE/CWE-1091 - Use of Object without Invoking Destructor Method|CWE-1091: Use of Object without Invoking Destructor Method]] — Weakness
+- [[02 Weaknesses CWE/CWE-1092 - Use of Same Invokable Control Element in Multiple Architectural Layers|CWE-1092: Use of Same Invokable Control Element in Multiple Architectural Layers]] — Weakness
+- [[02 Weaknesses CWE/CWE-1093 - Excessively Complex Data Representation|CWE-1093: Excessively Complex Data Representation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1094 - Excessive Index Range Scan for a Data Resource|CWE-1094: Excessive Index Range Scan for a Data Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-1095 - Loop Condition Value Update within the Loop|CWE-1095: Loop Condition Value Update within the Loop]] — Weakness
+- [[02 Weaknesses CWE/CWE-1096 - Singleton Class Instance Creation without Proper Locking or Synchronization|CWE-1096: Singleton Class Instance Creation without Proper Locking or Synchronization]] — Weakness
+- [[02 Weaknesses CWE/CWE-1097 - Persistent Storable Data Element without Associated Comparison Control Element|CWE-1097: Persistent Storable Data Element without Associated Comparison Control Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-1098 - Data Element containing Pointer Item without Proper Copy Control Element|CWE-1098: Data Element containing Pointer Item without Proper Copy Control Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-1099 - Inconsistent Naming Conventions for Identifiers|CWE-1099: Inconsistent Naming Conventions for Identifiers]] — Weakness
+- [[02 Weaknesses CWE/CWE-11 - ASP.NET Misconfiguration- Creating Debug Binary|CWE-11: ASP.NET Misconfiguration: Creating Debug Binary]] — Weakness
+- [[02 Weaknesses CWE/CWE-110 - Struts- Validator Without Form Field|CWE-110: Struts: Validator Without Form Field]] — Weakness
+- [[02 Weaknesses CWE/CWE-1100 - Insufficient Isolation of System-Dependent Functions|CWE-1100: Insufficient Isolation of System-Dependent Functions]] — Weakness
+- [[02 Weaknesses CWE/CWE-1101 - Reliance on Runtime Component in Generated Code|CWE-1101: Reliance on Runtime Component in Generated Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1102 - Reliance on Machine-Dependent Data Representation|CWE-1102: Reliance on Machine-Dependent Data Representation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1103 - Use of Platform-Dependent Third Party Components|CWE-1103: Use of Platform-Dependent Third Party Components]] — Weakness
+- [[02 Weaknesses CWE/CWE-1104 - Use of Unmaintained Third Party Components|CWE-1104: Use of Unmaintained Third Party Components]] — Weakness
+- [[02 Weaknesses CWE/CWE-1105 - Insufficient Encapsulation of Machine-Dependent Functionality|CWE-1105: Insufficient Encapsulation of Machine-Dependent Functionality]] — Weakness
+- [[02 Weaknesses CWE/CWE-1106 - Insufficient Use of Symbolic Constants|CWE-1106: Insufficient Use of Symbolic Constants]] — Weakness
+- [[02 Weaknesses CWE/CWE-1107 - Insufficient Isolation of Symbolic Constant Definitions|CWE-1107: Insufficient Isolation of Symbolic Constant Definitions]] — Weakness
+- [[02 Weaknesses CWE/CWE-1108 - Excessive Reliance on Global Variables|CWE-1108: Excessive Reliance on Global Variables]] — Weakness
+- [[02 Weaknesses CWE/CWE-1109 - Use of Same Variable for Multiple Purposes|CWE-1109: Use of Same Variable for Multiple Purposes]] — Weakness
+- [[02 Weaknesses CWE/CWE-111 - Direct Use of Unsafe JNI|CWE-111: Direct Use of Unsafe JNI]] — Weakness
+- [[02 Weaknesses CWE/CWE-1110 - Incomplete Design Documentation|CWE-1110: Incomplete Design Documentation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1111 - Incomplete I-O Documentation|CWE-1111: Incomplete I/O Documentation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1112 - Incomplete Documentation of Program Execution|CWE-1112: Incomplete Documentation of Program Execution]] — Weakness
+- [[02 Weaknesses CWE/CWE-1113 - Inappropriate Comment Style|CWE-1113: Inappropriate Comment Style]] — Weakness
+- [[02 Weaknesses CWE/CWE-1114 - Inappropriate Whitespace Style|CWE-1114: Inappropriate Whitespace Style]] — Weakness
+- [[02 Weaknesses CWE/CWE-1115 - Source Code Element without Standard Prologue|CWE-1115: Source Code Element without Standard Prologue]] — Weakness
+- [[02 Weaknesses CWE/CWE-1116 - Inaccurate Source Code Comments|CWE-1116: Inaccurate Source Code Comments]] — Weakness
+- [[02 Weaknesses CWE/CWE-1117 - Callable with Insufficient Behavioral Summary|CWE-1117: Callable with Insufficient Behavioral Summary]] — Weakness
+- [[02 Weaknesses CWE/CWE-1118 - Insufficient Documentation of Error Handling Techniques|CWE-1118: Insufficient Documentation of Error Handling Techniques]] — Weakness
+- [[02 Weaknesses CWE/CWE-1119 - Excessive Use of Unconditional Branching|CWE-1119: Excessive Use of Unconditional Branching]] — Weakness
+- [[02 Weaknesses CWE/CWE-112 - Missing XML Validation|CWE-112: Missing XML Validation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1120 - Excessive Code Complexity|CWE-1120: Excessive Code Complexity]] — Weakness
+- [[02 Weaknesses CWE/CWE-1121 - Excessive McCabe Cyclomatic Complexity|CWE-1121: Excessive McCabe Cyclomatic Complexity]] — Weakness
+- [[02 Weaknesses CWE/CWE-1122 - Excessive Halstead Complexity|CWE-1122: Excessive Halstead Complexity]] — Weakness
+- [[02 Weaknesses CWE/CWE-1123 - Excessive Use of Self-Modifying Code|CWE-1123: Excessive Use of Self-Modifying Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1124 - Excessively Deep Nesting|CWE-1124: Excessively Deep Nesting]] — Weakness
+- [[02 Weaknesses CWE/CWE-1125 - Excessive Attack Surface|CWE-1125: Excessive Attack Surface]] — Weakness
+- [[02 Weaknesses CWE/CWE-1126 - Declaration of Variable with Unnecessarily Wide Scope|CWE-1126: Declaration of Variable with Unnecessarily Wide Scope]] — Weakness
+- [[02 Weaknesses CWE/CWE-1127 - Compilation with Insufficient Warnings or Errors|CWE-1127: Compilation with Insufficient Warnings or Errors]] — Weakness
+- [[02 Weaknesses CWE/CWE-113 - Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request-Response Splitting')|CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting')]] — Weakness
+- [[02 Weaknesses CWE/CWE-114 - Process Control|CWE-114: Process Control]] — Weakness
+- [[02 Weaknesses CWE/CWE-115 - Misinterpretation of Input|CWE-115: Misinterpretation of Input]] — Weakness
+- [[02 Weaknesses CWE/CWE-116 - Improper Encoding or Escaping of Output|CWE-116: Improper Encoding or Escaping of Output]] — Weakness
+- [[02 Weaknesses CWE/CWE-1164 - Irrelevant Code|CWE-1164: Irrelevant Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-117 - Improper Output Neutralization for Logs|CWE-117: Improper Output Neutralization for Logs]] — Weakness
+- [[02 Weaknesses CWE/CWE-1173 - Improper Use of Validation Framework|CWE-1173: Improper Use of Validation Framework]] — Weakness
+- [[02 Weaknesses CWE/CWE-1174 - ASP.NET Misconfiguration- Improper Model Validation|CWE-1174: ASP.NET Misconfiguration: Improper Model Validation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1176 - Inefficient CPU Computation|CWE-1176: Inefficient CPU Computation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1177 - Use of Prohibited Code|CWE-1177: Use of Prohibited Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-118 - Incorrect Access of Indexable Resource ('Range Error')|CWE-118: Incorrect Access of Indexable Resource ('Range Error')]] — Weakness
+- [[02 Weaknesses CWE/CWE-1187 - DEPRECATED- Use of Uninitialized Resource|CWE-1187: DEPRECATED: Use of Uninitialized Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-1188 - Initialization of a Resource with an Insecure Default|CWE-1188: Initialization of a Resource with an Insecure Default]] — Weakness
+- [[02 Weaknesses CWE/CWE-1189 - Improper Isolation of Shared Resources on System-on-a-Chip (SoC)|CWE-1189: Improper Isolation of Shared Resources on System-on-a-Chip (SoC)]] — Weakness
+- [[02 Weaknesses CWE/CWE-119 - Improper Restriction of Operations within the Bounds of a Memory Buffer|CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer]] — Weakness
+- [[02 Weaknesses CWE/CWE-1190 - DMA Device Enabled Too Early in Boot Phase|CWE-1190: DMA Device Enabled Too Early in Boot Phase]] — Weakness
+- [[02 Weaknesses CWE/CWE-1191 - On-Chip Debug and Test Interface With Improper Access Control|CWE-1191: On-Chip Debug and Test Interface With Improper Access Control]] — Weakness
+- [[02 Weaknesses CWE/CWE-1192 - Improper Identifier for IP Block used in System-On-Chip (SOC)|CWE-1192: Improper Identifier for IP Block used in System-On-Chip (SOC)]] — Weakness
+- [[02 Weaknesses CWE/CWE-1193 - Power-On of Untrusted Execution Core Before Enabling Fabric Access Control|CWE-1193: Power-On of Untrusted Execution Core Before Enabling Fabric Access Control]] — Weakness
+- [[02 Weaknesses CWE/CWE-12 - ASP.NET Misconfiguration- Missing Custom Error Page|CWE-12: ASP.NET Misconfiguration: Missing Custom Error Page]] — Weakness
+- [[02 Weaknesses CWE/CWE-120 - Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')|CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')]] — Weakness
+- [[02 Weaknesses CWE/CWE-1204 - Generation of Weak Initialization Vector (IV)|CWE-1204: Generation of Weak Initialization Vector (IV)]] — Weakness
+- [[02 Weaknesses CWE/CWE-1209 - Failure to Disable Reserved Bits|CWE-1209: Failure to Disable Reserved Bits]] — Weakness
+- [[02 Weaknesses CWE/CWE-121 - Stack-based Buffer Overflow|CWE-121: Stack-based Buffer Overflow]] — Weakness
+- [[02 Weaknesses CWE/CWE-122 - Heap-based Buffer Overflow|CWE-122: Heap-based Buffer Overflow]] — Weakness
+- [[02 Weaknesses CWE/CWE-1220 - Insufficient Granularity of Access Control|CWE-1220: Insufficient Granularity of Access Control]] — Weakness
+- [[02 Weaknesses CWE/CWE-1221 - Incorrect Register Defaults or Module Parameters|CWE-1221: Incorrect Register Defaults or Module Parameters]] — Weakness
+- [[02 Weaknesses CWE/CWE-1222 - Insufficient Granularity of Address Regions Protected by Register Locks|CWE-1222: Insufficient Granularity of Address Regions Protected by Register Locks]] — Weakness
+- [[02 Weaknesses CWE/CWE-1223 - Race Condition for Write-Once Attributes|CWE-1223: Race Condition for Write-Once Attributes]] — Weakness
+- [[02 Weaknesses CWE/CWE-1224 - Improper Restriction of Write-Once Bit Fields|CWE-1224: Improper Restriction of Write-Once Bit Fields]] — Weakness
+- [[02 Weaknesses CWE/CWE-1229 - Creation of Emergent Resource|CWE-1229: Creation of Emergent Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-123 - Write-what-where Condition|CWE-123: Write-what-where Condition]] — Weakness
+- [[02 Weaknesses CWE/CWE-1230 - Exposure of Sensitive Information Through Metadata|CWE-1230: Exposure of Sensitive Information Through Metadata]] — Weakness
+- [[02 Weaknesses CWE/CWE-1231 - Improper Prevention of Lock Bit Modification|CWE-1231: Improper Prevention of Lock Bit Modification]] — Weakness
+- [[02 Weaknesses CWE/CWE-1232 - Improper Lock Behavior After Power State Transition|CWE-1232: Improper Lock Behavior After Power State Transition]] — Weakness
+- [[02 Weaknesses CWE/CWE-1233 - Security-Sensitive Hardware Controls with Missing Lock Bit Protection|CWE-1233: Security-Sensitive Hardware Controls with Missing Lock Bit Protection]] — Weakness
+- [[02 Weaknesses CWE/CWE-1234 - Hardware Internal or Debug Modes Allow Override of Locks|CWE-1234: Hardware Internal or Debug Modes Allow Override of Locks]] — Weakness
+- [[02 Weaknesses CWE/CWE-1235 - Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations|CWE-1235: Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations]] — Weakness
+- [[02 Weaknesses CWE/CWE-1236 - Improper Neutralization of Formula Elements in a CSV File|CWE-1236: Improper Neutralization of Formula Elements in a CSV File]] — Weakness
+- [[02 Weaknesses CWE/CWE-1239 - Improper Zeroization of Hardware Register|CWE-1239: Improper Zeroization of Hardware Register]] — Weakness
+- [[02 Weaknesses CWE/CWE-124 - Buffer Underwrite ('Buffer Underflow')|CWE-124: Buffer Underwrite ('Buffer Underflow')]] — Weakness
+- [[02 Weaknesses CWE/CWE-1240 - Use of a Cryptographic Primitive with a Risky Implementation|CWE-1240: Use of a Cryptographic Primitive with a Risky Implementation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1241 - Use of Predictable Algorithm in Random Number Generator|CWE-1241: Use of Predictable Algorithm in Random Number Generator]] — Weakness
+- [[02 Weaknesses CWE/CWE-1242 - Inclusion of Undocumented Features or Chicken Bits|CWE-1242: Inclusion of Undocumented Features or Chicken Bits]] — Weakness
+- [[02 Weaknesses CWE/CWE-1243 - Sensitive Non-Volatile Information Not Protected During Debug|CWE-1243: Sensitive Non-Volatile Information Not Protected During Debug]] — Weakness
+- [[02 Weaknesses CWE/CWE-1244 - Internal Asset Exposed to Unsafe Debug Access Level or State|CWE-1244: Internal Asset Exposed to Unsafe Debug Access Level or State]] — Weakness
+- [[02 Weaknesses CWE/CWE-1245 - Improper Finite State Machines (FSMs) in Hardware Logic|CWE-1245: Improper Finite State Machines (FSMs) in Hardware Logic]] — Weakness
+- [[02 Weaknesses CWE/CWE-1246 - Improper Write Handling in Limited-write Non-Volatile Memories|CWE-1246: Improper Write Handling in Limited-write Non-Volatile Memories]] — Weakness
+- [[02 Weaknesses CWE/CWE-1247 - Improper Protection Against Voltage and Clock Glitches|CWE-1247: Improper Protection Against Voltage and Clock Glitches]] — Weakness
+- [[02 Weaknesses CWE/CWE-1248 - Semiconductor Defects in Hardware Logic with Security-Sensitive Implications|CWE-1248: Semiconductor Defects in Hardware Logic with Security-Sensitive Implications]] — Weakness
+- [[02 Weaknesses CWE/CWE-1249 - Application-Level Admin Tool with Inconsistent View of Underlying Operating System|CWE-1249: Application-Level Admin Tool with Inconsistent View of Underlying Operating System]] — Weakness
+- [[02 Weaknesses CWE/CWE-125 - Out-of-bounds Read|CWE-125: Out-of-bounds Read]] — Weakness
+- [[02 Weaknesses CWE/CWE-1250 - Improper Preservation of Consistency Between Independent Representations of Shared State|CWE-1250: Improper Preservation of Consistency Between Independent Representations of Shared State]] — Weakness
+- [[02 Weaknesses CWE/CWE-1251 - Mirrored Regions with Different Values|CWE-1251: Mirrored Regions with Different Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-1252 - CPU Hardware Not Configured to Support Exclusivity of Write and Execute Operations|CWE-1252: CPU Hardware Not Configured to Support Exclusivity of Write and Execute Operations]] — Weakness
+- [[02 Weaknesses CWE/CWE-1253 - Incorrect Selection of Fuse Values|CWE-1253: Incorrect Selection of Fuse Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-1254 - Incorrect Comparison Logic Granularity|CWE-1254: Incorrect Comparison Logic Granularity]] — Weakness
+- [[02 Weaknesses CWE/CWE-1255 - Comparison Logic is Vulnerable to Power Side-Channel Attacks|CWE-1255: Comparison Logic is Vulnerable to Power Side-Channel Attacks]] — Weakness
+- [[02 Weaknesses CWE/CWE-1256 - Improper Restriction of Software Interfaces to Hardware Features|CWE-1256: Improper Restriction of Software Interfaces to Hardware Features]] — Weakness
+- [[02 Weaknesses CWE/CWE-1257 - Improper Access Control Applied to Mirrored or Aliased Memory Regions|CWE-1257: Improper Access Control Applied to Mirrored or Aliased Memory Regions]] — Weakness
+- [[02 Weaknesses CWE/CWE-1258 - Exposure of Sensitive System Information Due to Uncleared Debug Information|CWE-1258: Exposure of Sensitive System Information Due to Uncleared Debug Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-1259 - Improper Restriction of Security Token Assignment|CWE-1259: Improper Restriction of Security Token Assignment]] — Weakness
+- [[02 Weaknesses CWE/CWE-126 - Buffer Over-read|CWE-126: Buffer Over-read]] — Weakness
+- [[02 Weaknesses CWE/CWE-1260 - Improper Handling of Overlap Between Protected Memory Ranges|CWE-1260: Improper Handling of Overlap Between Protected Memory Ranges]] — Weakness
+- [[02 Weaknesses CWE/CWE-1261 - Improper Handling of Single Event Upsets|CWE-1261: Improper Handling of Single Event Upsets]] — Weakness
+- [[02 Weaknesses CWE/CWE-1262 - Improper Access Control for Register Interface|CWE-1262: Improper Access Control for Register Interface]] — Weakness
+- [[02 Weaknesses CWE/CWE-1263 - Improper Physical Access Control|CWE-1263: Improper Physical Access Control]] — Weakness
+- [[02 Weaknesses CWE/CWE-1264 - Hardware Logic with Insecure De-Synchronization between Control and Data Channels|CWE-1264: Hardware Logic with Insecure De-Synchronization between Control and Data Channels]] — Weakness
+- [[02 Weaknesses CWE/CWE-1265 - Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls|CWE-1265: Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls]] — Weakness
+- [[02 Weaknesses CWE/CWE-1266 - Improper Scrubbing of Sensitive Data from Decommissioned Device|CWE-1266: Improper Scrubbing of Sensitive Data from Decommissioned Device]] — Weakness
+- [[02 Weaknesses CWE/CWE-1267 - Policy Uses Obsolete Encoding|CWE-1267: Policy Uses Obsolete Encoding]] — Weakness
+- [[02 Weaknesses CWE/CWE-1268 - Policy Privileges are not Assigned Consistently Between Control and Data Agents|CWE-1268: Policy Privileges are not Assigned Consistently Between Control and Data Agents]] — Weakness
+- [[02 Weaknesses CWE/CWE-1269 - Product Released in Non-Release Configuration|CWE-1269: Product Released in Non-Release Configuration]] — Weakness
+- [[02 Weaknesses CWE/CWE-127 - Buffer Under-read|CWE-127: Buffer Under-read]] — Weakness
+- [[02 Weaknesses CWE/CWE-1270 - Generation of Incorrect Security Tokens|CWE-1270: Generation of Incorrect Security Tokens]] — Weakness
+- [[02 Weaknesses CWE/CWE-1271 - Uninitialized Value on Reset for Registers Holding Security Settings|CWE-1271: Uninitialized Value on Reset for Registers Holding Security Settings]] — Weakness
+- [[02 Weaknesses CWE/CWE-1272 - Sensitive Information Uncleared Before Debug-Power State Transition|CWE-1272: Sensitive Information Uncleared Before Debug/Power State Transition]] — Weakness
+- [[02 Weaknesses CWE/CWE-1273 - Device Unlock Credential Sharing|CWE-1273: Device Unlock Credential Sharing]] — Weakness
+- [[02 Weaknesses CWE/CWE-1274 - Improper Access Control for Volatile Memory Containing Boot Code|CWE-1274: Improper Access Control for Volatile Memory Containing Boot Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1275 - Sensitive Cookie with Improper SameSite Attribute|CWE-1275: Sensitive Cookie with Improper SameSite Attribute]] — Weakness
+- [[02 Weaknesses CWE/CWE-1276 - Hardware Child Block Incorrectly Connected to Parent System|CWE-1276: Hardware Child Block Incorrectly Connected to Parent System]] — Weakness
+- [[02 Weaknesses CWE/CWE-1277 - Firmware Not Updateable|CWE-1277: Firmware Not Updateable]] — Weakness
+- [[02 Weaknesses CWE/CWE-1278 - Missing Protection Against Hardware Reverse Engineering Using Integrated Circuit (IC) Imaging Techni|CWE-1278: Missing Protection Against Hardware Reverse Engineering Using Integrated Circuit (IC) Imaging Techniques]] — Weakness
+- [[02 Weaknesses CWE/CWE-1279 - Cryptographic Operations are run Before Supporting Units are Ready|CWE-1279: Cryptographic Operations are run Before Supporting Units are Ready]] — Weakness
+- [[02 Weaknesses CWE/CWE-128 - Wrap-around Error|CWE-128: Wrap-around Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-1280 - Access Control Check Implemented After Asset is Accessed|CWE-1280: Access Control Check Implemented After Asset is Accessed]] — Weakness
+- [[02 Weaknesses CWE/CWE-1281 - Sequence of Processor Instructions Leads to Unexpected Behavior|CWE-1281: Sequence of Processor Instructions Leads to Unexpected Behavior]] — Weakness
+- [[02 Weaknesses CWE/CWE-1282 - Assumed-Immutable Data is Stored in Writable Memory|CWE-1282: Assumed-Immutable Data is Stored in Writable Memory]] — Weakness
+- [[02 Weaknesses CWE/CWE-1283 - Mutable Attestation or Measurement Reporting Data|CWE-1283: Mutable Attestation or Measurement Reporting Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-1284 - Improper Validation of Specified Quantity in Input|CWE-1284: Improper Validation of Specified Quantity in Input]] — Weakness
+- [[02 Weaknesses CWE/CWE-1285 - Improper Validation of Specified Index, Position, or Offset in Input|CWE-1285: Improper Validation of Specified Index, Position, or Offset in Input]] — Weakness
+- [[02 Weaknesses CWE/CWE-1286 - Improper Validation of Syntactic Correctness of Input|CWE-1286: Improper Validation of Syntactic Correctness of Input]] — Weakness
+- [[02 Weaknesses CWE/CWE-1287 - Improper Validation of Specified Type of Input|CWE-1287: Improper Validation of Specified Type of Input]] — Weakness
+- [[02 Weaknesses CWE/CWE-1288 - Improper Validation of Consistency within Input|CWE-1288: Improper Validation of Consistency within Input]] — Weakness
+- [[02 Weaknesses CWE/CWE-1289 - Improper Validation of Unsafe Equivalence in Input|CWE-1289: Improper Validation of Unsafe Equivalence in Input]] — Weakness
+- [[02 Weaknesses CWE/CWE-129 - Improper Validation of Array Index|CWE-129: Improper Validation of Array Index]] — Weakness
+- [[02 Weaknesses CWE/CWE-1290 - Incorrect Decoding of Security Identifiers|CWE-1290: Incorrect Decoding of Security Identifiers]] — Weakness
+- [[02 Weaknesses CWE/CWE-1291 - Public Key Re-Use for Signing both Debug and Production Code|CWE-1291: Public Key Re-Use for Signing both Debug and Production Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1292 - Incorrect Conversion of Security Identifiers|CWE-1292: Incorrect Conversion of Security Identifiers]] — Weakness
+- [[02 Weaknesses CWE/CWE-1293 - Missing Source Correlation of Multiple Independent Data|CWE-1293: Missing Source Correlation of Multiple Independent Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-1294 - Insecure Security Identifier Mechanism|CWE-1294: Insecure Security Identifier Mechanism]] — Weakness
+- [[02 Weaknesses CWE/CWE-1295 - Debug Messages Revealing Unnecessary Information|CWE-1295: Debug Messages Revealing Unnecessary Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-1296 - Incorrect Chaining or Granularity of Debug Components|CWE-1296: Incorrect Chaining or Granularity of Debug Components]] — Weakness
+- [[02 Weaknesses CWE/CWE-1297 - Unprotected Confidential Information on Device is Accessible by OSAT Vendors|CWE-1297: Unprotected Confidential Information on Device is Accessible by OSAT Vendors]] — Weakness
+- [[02 Weaknesses CWE/CWE-1298 - Hardware Logic Contains Race Conditions|CWE-1298: Hardware Logic Contains Race Conditions]] — Weakness
+- [[02 Weaknesses CWE/CWE-1299 - Missing Protection Mechanism for Alternate Hardware Interface|CWE-1299: Missing Protection Mechanism for Alternate Hardware Interface]] — Weakness
+- [[02 Weaknesses CWE/CWE-13 - ASP.NET Misconfiguration- Password in Configuration File|CWE-13: ASP.NET Misconfiguration: Password in Configuration File]] — Weakness
+- [[02 Weaknesses CWE/CWE-130 - Improper Handling of Length Parameter Inconsistency|CWE-130: Improper Handling of Length Parameter Inconsistency]] — Weakness
+- [[02 Weaknesses CWE/CWE-1300 - Improper Protection of Physical Side Channels|CWE-1300: Improper Protection of Physical Side Channels]] — Weakness
+- [[02 Weaknesses CWE/CWE-1301 - Insufficient or Incomplete Data Removal within Hardware Component|CWE-1301: Insufficient or Incomplete Data Removal within Hardware Component]] — Weakness
+- [[02 Weaknesses CWE/CWE-1302 - Missing Source Identifier in Entity Transactions on a System-On-Chip (SOC)|CWE-1302: Missing Source Identifier in Entity Transactions on a System-On-Chip (SOC)]] — Weakness
+- [[02 Weaknesses CWE/CWE-1303 - Non-Transparent Sharing of Microarchitectural Resources|CWE-1303: Non-Transparent Sharing of Microarchitectural Resources]] — Weakness
+- [[02 Weaknesses CWE/CWE-1304 - Improperly Preserved Integrity of Hardware Configuration State During a Power Save-Restore Operation|CWE-1304: Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation]] — Weakness
+- [[02 Weaknesses CWE/CWE-131 - Incorrect Calculation of Buffer Size|CWE-131: Incorrect Calculation of Buffer Size]] — Weakness
+- [[02 Weaknesses CWE/CWE-1310 - Missing Ability to Patch ROM Code|CWE-1310: Missing Ability to Patch ROM Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-1311 - Improper Translation of Security Attributes by Fabric Bridge|CWE-1311: Improper Translation of Security Attributes by Fabric Bridge]] — Weakness
+- [[02 Weaknesses CWE/CWE-1312 - Missing Protection for Mirrored Regions in On-Chip Fabric Firewall|CWE-1312: Missing Protection for Mirrored Regions in On-Chip Fabric Firewall]] — Weakness
+- [[02 Weaknesses CWE/CWE-1313 - Hardware Allows Activation of Test or Debug Logic at Runtime|CWE-1313: Hardware Allows Activation of Test or Debug Logic at Runtime]] — Weakness
+- [[02 Weaknesses CWE/CWE-1314 - Missing Write Protection for Parametric Data Values|CWE-1314: Missing Write Protection for Parametric Data Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-1315 - Improper Setting of Bus Controlling Capability in Fabric End-point|CWE-1315: Improper Setting of Bus Controlling Capability in Fabric End-point]] — Weakness
+- [[02 Weaknesses CWE/CWE-1316 - Fabric-Address Map Allows Programming of Unwarranted Overlaps of Protected and Unprotected Ranges|CWE-1316: Fabric-Address Map Allows Programming of Unwarranted Overlaps of Protected and Unprotected Ranges]] — Weakness
+- [[02 Weaknesses CWE/CWE-1317 - Improper Access Control in Fabric Bridge|CWE-1317: Improper Access Control in Fabric Bridge]] — Weakness
+- [[02 Weaknesses CWE/CWE-1318 - Missing Support for Security Features in On-chip Fabrics or Buses|CWE-1318: Missing Support for Security Features in On-chip Fabrics or Buses]] — Weakness
+- [[02 Weaknesses CWE/CWE-1319 - Improper Protection against Electromagnetic Fault Injection (EM-FI)|CWE-1319: Improper Protection against Electromagnetic Fault Injection (EM-FI)]] — Weakness
+- [[02 Weaknesses CWE/CWE-132 - DEPRECATED- Miscalculated Null Termination|CWE-132: DEPRECATED: Miscalculated Null Termination]] — Weakness
+- [[02 Weaknesses CWE/CWE-1320 - Improper Protection for Outbound Error Messages and Alert Signals|CWE-1320: Improper Protection for Outbound Error Messages and Alert Signals]] — Weakness
+- [[02 Weaknesses CWE/CWE-1321 - Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')|CWE-1321: Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')]] — Weakness
+- [[02 Weaknesses CWE/CWE-1322 - Use of Blocking Code in Single-threaded, Non-blocking Context|CWE-1322: Use of Blocking Code in Single-threaded, Non-blocking Context]] — Weakness
+- [[02 Weaknesses CWE/CWE-1323 - Improper Management of Sensitive Trace Data|CWE-1323: Improper Management of Sensitive Trace Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-1324 - DEPRECATED- Sensitive Information Accessible by Physical Probing of JTAG Interface|CWE-1324: DEPRECATED: Sensitive Information Accessible by Physical Probing of JTAG Interface]] — Weakness
+- [[02 Weaknesses CWE/CWE-1325 - Improperly Controlled Sequential Memory Allocation|CWE-1325: Improperly Controlled Sequential Memory Allocation]] — Weakness
+- [[02 Weaknesses CWE/CWE-1326 - Missing Immutable Root of Trust in Hardware|CWE-1326: Missing Immutable Root of Trust in Hardware]] — Weakness
+- [[02 Weaknesses CWE/CWE-1327 - Binding to an Unrestricted IP Address|CWE-1327: Binding to an Unrestricted IP Address]] — Weakness
+- [[02 Weaknesses CWE/CWE-1328 - Security Version Number Mutable to Older Versions|CWE-1328: Security Version Number Mutable to Older Versions]] — Weakness
+- [[02 Weaknesses CWE/CWE-1329 - Reliance on Component That is Not Updateable|CWE-1329: Reliance on Component That is Not Updateable]] — Weakness
+- [[02 Weaknesses CWE/CWE-1330 - Remanent Data Readable after Memory Erase|CWE-1330: Remanent Data Readable after Memory Erase]] — Weakness
+- [[02 Weaknesses CWE/CWE-1331 - Improper Isolation of Shared Resources in Network On Chip (NoC)|CWE-1331: Improper Isolation of Shared Resources in Network On Chip (NoC)]] — Weakness
+- [[02 Weaknesses CWE/CWE-1332 - Improper Handling of Faults that Lead to Instruction Skips|CWE-1332: Improper Handling of Faults that Lead to Instruction Skips]] — Weakness
+- [[02 Weaknesses CWE/CWE-1333 - Inefficient Regular Expression Complexity|CWE-1333: Inefficient Regular Expression Complexity]] — Weakness
+- [[02 Weaknesses CWE/CWE-1334 - Unauthorized Error Injection Can Degrade Hardware Redundancy|CWE-1334: Unauthorized Error Injection Can Degrade Hardware Redundancy]] — Weakness
+- [[02 Weaknesses CWE/CWE-1335 - Incorrect Bitwise Shift of Integer|CWE-1335: Incorrect Bitwise Shift of Integer]] — Weakness
+- [[02 Weaknesses CWE/CWE-1336 - Improper Neutralization of Special Elements Used in a Template Engine|CWE-1336: Improper Neutralization of Special Elements Used in a Template Engine]] — Weakness
+- [[02 Weaknesses CWE/CWE-1338 - Improper Protections Against Hardware Overheating|CWE-1338: Improper Protections Against Hardware Overheating]] — Weakness
+- [[02 Weaknesses CWE/CWE-1339 - Insufficient Precision or Accuracy of a Real Number|CWE-1339: Insufficient Precision or Accuracy of a Real Number]] — Weakness
+- [[02 Weaknesses CWE/CWE-134 - Use of Externally-Controlled Format String|CWE-134: Use of Externally-Controlled Format String]] — Weakness
+- [[02 Weaknesses CWE/CWE-1341 - Multiple Releases of Same Resource or Handle|CWE-1341: Multiple Releases of Same Resource or Handle]] — Weakness
+- [[02 Weaknesses CWE/CWE-1342 - Information Exposure through Microarchitectural State after Transient Execution|CWE-1342: Information Exposure through Microarchitectural State after Transient Execution]] — Weakness
+- [[02 Weaknesses CWE/CWE-135 - Incorrect Calculation of Multi-Byte String Length|CWE-135: Incorrect Calculation of Multi-Byte String Length]] — Weakness
+- [[02 Weaknesses CWE/CWE-1351 - Improper Handling of Hardware Behavior in Exceptionally Cold Environments|CWE-1351: Improper Handling of Hardware Behavior in Exceptionally Cold Environments]] — Weakness
+- [[02 Weaknesses CWE/CWE-1357 - Reliance on Insufficiently Trustworthy Component|CWE-1357: Reliance on Insufficiently Trustworthy Component]] — Weakness
+- [[02 Weaknesses CWE/CWE-138 - Improper Neutralization of Special Elements|CWE-138: Improper Neutralization of Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-1384 - Improper Handling of Physical or Environmental Conditions|CWE-1384: Improper Handling of Physical or Environmental Conditions]] — Weakness
+- [[02 Weaknesses CWE/CWE-1385 - Missing Origin Validation in WebSockets|CWE-1385: Missing Origin Validation in WebSockets]] — Weakness
+- [[02 Weaknesses CWE/CWE-1386 - Insecure Operation on Windows Junction - Mount Point|CWE-1386: Insecure Operation on Windows Junction / Mount Point]] — Weakness
+- [[02 Weaknesses CWE/CWE-1389 - Incorrect Parsing of Numbers with Different Radices|CWE-1389: Incorrect Parsing of Numbers with Different Radices]] — Weakness
+- [[02 Weaknesses CWE/CWE-1390 - Weak Authentication|CWE-1390: Weak Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-1391 - Use of Weak Credentials|CWE-1391: Use of Weak Credentials]] — Weakness
+- [[02 Weaknesses CWE/CWE-1392 - Use of Default Credentials|CWE-1392: Use of Default Credentials]] — Weakness
+- [[02 Weaknesses CWE/CWE-1393 - Use of Default Password|CWE-1393: Use of Default Password]] — Weakness
+- [[02 Weaknesses CWE/CWE-1394 - Use of Default Cryptographic Key|CWE-1394: Use of Default Cryptographic Key]] — Weakness
+- [[02 Weaknesses CWE/CWE-1395 - Dependency on Vulnerable Third-Party Component|CWE-1395: Dependency on Vulnerable Third-Party Component]] — Weakness
+- [[02 Weaknesses CWE/CWE-14 - Compiler Removal of Code to Clear Buffers|CWE-14: Compiler Removal of Code to Clear Buffers]] — Weakness
+- [[02 Weaknesses CWE/CWE-140 - Improper Neutralization of Delimiters|CWE-140: Improper Neutralization of Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-141 - Improper Neutralization of Parameter-Argument Delimiters|CWE-141: Improper Neutralization of Parameter/Argument Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-1419 - Incorrect Initialization of Resource|CWE-1419: Incorrect Initialization of Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-142 - Improper Neutralization of Value Delimiters|CWE-142: Improper Neutralization of Value Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-1420 - Exposure of Sensitive Information during Transient Execution|CWE-1420: Exposure of Sensitive Information during Transient Execution]] — Weakness
+- [[02 Weaknesses CWE/CWE-1421 - Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution|CWE-1421: Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution]] — Weakness
+- [[02 Weaknesses CWE/CWE-1422 - Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution|CWE-1422: Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution]] — Weakness
+- [[02 Weaknesses CWE/CWE-1423 - Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influence|CWE-1423: Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution]] — Weakness
+- [[02 Weaknesses CWE/CWE-1426 - Improper Validation of Generative AI Output|CWE-1426: Improper Validation of Generative AI Output]] — Weakness
+- [[02 Weaknesses CWE/CWE-1427 - Improper Neutralization of Input Used for LLM Prompting|CWE-1427: Improper Neutralization of Input Used for LLM Prompting]] — Weakness
+- [[02 Weaknesses CWE/CWE-1428 - Reliance on HTTP instead of HTTPS|CWE-1428: Reliance on HTTP instead of HTTPS]] — Weakness
+- [[02 Weaknesses CWE/CWE-1429 - Missing Security-Relevant Feedback for Unexecuted Operations in Hardware Interface|CWE-1429: Missing Security-Relevant Feedback for Unexecuted Operations in Hardware Interface]] — Weakness
+- [[02 Weaknesses CWE/CWE-143 - Improper Neutralization of Record Delimiters|CWE-143: Improper Neutralization of Record Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-1431 - Driving Intermediate Cryptographic State-Results to Hardware Module Outputs|CWE-1431: Driving Intermediate Cryptographic State/Results to Hardware Module Outputs]] — Weakness
+- [[02 Weaknesses CWE/CWE-1434 - Insecure Setting of Generative AI-ML Model Inference Parameters|CWE-1434: Insecure Setting of Generative AI/ML Model Inference Parameters]] — Weakness
+- [[02 Weaknesses CWE/CWE-144 - Improper Neutralization of Line Delimiters|CWE-144: Improper Neutralization of Line Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-145 - Improper Neutralization of Section Delimiters|CWE-145: Improper Neutralization of Section Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-146 - Improper Neutralization of Expression-Command Delimiters|CWE-146: Improper Neutralization of Expression/Command Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-147 - Improper Neutralization of Input Terminators|CWE-147: Improper Neutralization of Input Terminators]] — Weakness
+- [[02 Weaknesses CWE/CWE-148 - Improper Neutralization of Input Leaders|CWE-148: Improper Neutralization of Input Leaders]] — Weakness
+- [[02 Weaknesses CWE/CWE-149 - Improper Neutralization of Quoting Syntax|CWE-149: Improper Neutralization of Quoting Syntax]] — Weakness
+- [[02 Weaknesses CWE/CWE-15 - External Control of System or Configuration Setting|CWE-15: External Control of System or Configuration Setting]] — Weakness
+- [[02 Weaknesses CWE/CWE-150 - Improper Neutralization of Escape, Meta, or Control Sequences|CWE-150: Improper Neutralization of Escape, Meta, or Control Sequences]] — Weakness
+- [[02 Weaknesses CWE/CWE-151 - Improper Neutralization of Comment Delimiters|CWE-151: Improper Neutralization of Comment Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-152 - Improper Neutralization of Macro Symbols|CWE-152: Improper Neutralization of Macro Symbols]] — Weakness
+- [[02 Weaknesses CWE/CWE-153 - Improper Neutralization of Substitution Characters|CWE-153: Improper Neutralization of Substitution Characters]] — Weakness
+- [[02 Weaknesses CWE/CWE-154 - Improper Neutralization of Variable Name Delimiters|CWE-154: Improper Neutralization of Variable Name Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-155 - Improper Neutralization of Wildcards or Matching Symbols|CWE-155: Improper Neutralization of Wildcards or Matching Symbols]] — Weakness
+- [[02 Weaknesses CWE/CWE-156 - Improper Neutralization of Whitespace|CWE-156: Improper Neutralization of Whitespace]] — Weakness
+- [[02 Weaknesses CWE/CWE-157 - Failure to Sanitize Paired Delimiters|CWE-157: Failure to Sanitize Paired Delimiters]] — Weakness
+- [[02 Weaknesses CWE/CWE-158 - Improper Neutralization of Null Byte or NUL Character|CWE-158: Improper Neutralization of Null Byte or NUL Character]] — Weakness
+- [[02 Weaknesses CWE/CWE-159 - Improper Handling of Invalid Use of Special Elements|CWE-159: Improper Handling of Invalid Use of Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-160 - Improper Neutralization of Leading Special Elements|CWE-160: Improper Neutralization of Leading Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-161 - Improper Neutralization of Multiple Leading Special Elements|CWE-161: Improper Neutralization of Multiple Leading Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-162 - Improper Neutralization of Trailing Special Elements|CWE-162: Improper Neutralization of Trailing Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-163 - Improper Neutralization of Multiple Trailing Special Elements|CWE-163: Improper Neutralization of Multiple Trailing Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-164 - Improper Neutralization of Internal Special Elements|CWE-164: Improper Neutralization of Internal Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-165 - Improper Neutralization of Multiple Internal Special Elements|CWE-165: Improper Neutralization of Multiple Internal Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-166 - Improper Handling of Missing Special Element|CWE-166: Improper Handling of Missing Special Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-167 - Improper Handling of Additional Special Element|CWE-167: Improper Handling of Additional Special Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-168 - Improper Handling of Inconsistent Special Elements|CWE-168: Improper Handling of Inconsistent Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-170 - Improper Null Termination|CWE-170: Improper Null Termination]] — Weakness
+- [[02 Weaknesses CWE/CWE-172 - Encoding Error|CWE-172: Encoding Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-173 - Improper Handling of Alternate Encoding|CWE-173: Improper Handling of Alternate Encoding]] — Weakness
+- [[02 Weaknesses CWE/CWE-174 - Double Decoding of the Same Data|CWE-174: Double Decoding of the Same Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-175 - Improper Handling of Mixed Encoding|CWE-175: Improper Handling of Mixed Encoding]] — Weakness
+- [[02 Weaknesses CWE/CWE-176 - Improper Handling of Unicode Encoding|CWE-176: Improper Handling of Unicode Encoding]] — Weakness
+- [[02 Weaknesses CWE/CWE-177 - Improper Handling of URL Encoding (Hex Encoding)|CWE-177: Improper Handling of URL Encoding (Hex Encoding)]] — Weakness
+- [[02 Weaknesses CWE/CWE-178 - Improper Handling of Case Sensitivity|CWE-178: Improper Handling of Case Sensitivity]] — Weakness
+- [[02 Weaknesses CWE/CWE-179 - Incorrect Behavior Order- Early Validation|CWE-179: Incorrect Behavior Order: Early Validation]] — Weakness
+- [[02 Weaknesses CWE/CWE-180 - Incorrect Behavior Order- Validate Before Canonicalize|CWE-180: Incorrect Behavior Order: Validate Before Canonicalize]] — Weakness
+- [[02 Weaknesses CWE/CWE-181 - Incorrect Behavior Order- Validate Before Filter|CWE-181: Incorrect Behavior Order: Validate Before Filter]] — Weakness
+- [[02 Weaknesses CWE/CWE-182 - Collapse of Data into Unsafe Value|CWE-182: Collapse of Data into Unsafe Value]] — Weakness
+- [[02 Weaknesses CWE/CWE-183 - Permissive List of Allowed Inputs|CWE-183: Permissive List of Allowed Inputs]] — Weakness
+- [[02 Weaknesses CWE/CWE-184 - Incomplete List of Disallowed Inputs|CWE-184: Incomplete List of Disallowed Inputs]] — Weakness
+- [[02 Weaknesses CWE/CWE-185 - Incorrect Regular Expression|CWE-185: Incorrect Regular Expression]] — Weakness
+- [[02 Weaknesses CWE/CWE-186 - Overly Restrictive Regular Expression|CWE-186: Overly Restrictive Regular Expression]] — Weakness
+- [[02 Weaknesses CWE/CWE-187 - Partial String Comparison|CWE-187: Partial String Comparison]] — Weakness
+- [[02 Weaknesses CWE/CWE-188 - Reliance on Data-Memory Layout|CWE-188: Reliance on Data/Memory Layout]] — Weakness
+- [[02 Weaknesses CWE/CWE-190 - Integer Overflow or Wraparound|CWE-190: Integer Overflow or Wraparound]] — Weakness
+- [[02 Weaknesses CWE/CWE-191 - Integer Underflow (Wrap or Wraparound)|CWE-191: Integer Underflow (Wrap or Wraparound)]] — Weakness
+- [[02 Weaknesses CWE/CWE-192 - Integer Coercion Error|CWE-192: Integer Coercion Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-193 - Off-by-one Error|CWE-193: Off-by-one Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-194 - Unexpected Sign Extension|CWE-194: Unexpected Sign Extension]] — Weakness
+- [[02 Weaknesses CWE/CWE-195 - Signed to Unsigned Conversion Error|CWE-195: Signed to Unsigned Conversion Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-196 - Unsigned to Signed Conversion Error|CWE-196: Unsigned to Signed Conversion Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-197 - Numeric Truncation Error|CWE-197: Numeric Truncation Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-198 - Use of Incorrect Byte Ordering|CWE-198: Use of Incorrect Byte Ordering]] — Weakness
+- [[02 Weaknesses CWE/CWE-20 - Improper Input Validation|CWE-20: Improper Input Validation]] — Weakness
+- [[02 Weaknesses CWE/CWE-200 - Exposure of Sensitive Information to an Unauthorized Actor|CWE-200: Exposure of Sensitive Information to an Unauthorized Actor]] — Weakness
+- [[02 Weaknesses CWE/CWE-201 - Insertion of Sensitive Information Into Sent Data|CWE-201: Insertion of Sensitive Information Into Sent Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-202 - Exposure of Sensitive Information Through Data Queries|CWE-202: Exposure of Sensitive Information Through Data Queries]] — Weakness
+- [[02 Weaknesses CWE/CWE-203 - Observable Discrepancy|CWE-203: Observable Discrepancy]] — Weakness
+- [[02 Weaknesses CWE/CWE-204 - Observable Response Discrepancy|CWE-204: Observable Response Discrepancy]] — Weakness
+- [[02 Weaknesses CWE/CWE-205 - Observable Behavioral Discrepancy|CWE-205: Observable Behavioral Discrepancy]] — Weakness
+- [[02 Weaknesses CWE/CWE-206 - Observable Internal Behavioral Discrepancy|CWE-206: Observable Internal Behavioral Discrepancy]] — Weakness
+- [[02 Weaknesses CWE/CWE-207 - Observable Behavioral Discrepancy With Equivalent Products|CWE-207: Observable Behavioral Discrepancy With Equivalent Products]] — Weakness
+- [[02 Weaknesses CWE/CWE-208 - Observable Timing Discrepancy|CWE-208: Observable Timing Discrepancy]] — Weakness
+- [[02 Weaknesses CWE/CWE-209 - Generation of Error Message Containing Sensitive Information|CWE-209: Generation of Error Message Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-210 - Self-generated Error Message Containing Sensitive Information|CWE-210: Self-generated Error Message Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-211 - Externally-Generated Error Message Containing Sensitive Information|CWE-211: Externally-Generated Error Message Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-212 - Improper Removal of Sensitive Information Before Storage or Transfer|CWE-212: Improper Removal of Sensitive Information Before Storage or Transfer]] — Weakness
+- [[02 Weaknesses CWE/CWE-213 - Exposure of Sensitive Information Due to Incompatible Policies|CWE-213: Exposure of Sensitive Information Due to Incompatible Policies]] — Weakness
+- [[02 Weaknesses CWE/CWE-214 - Invocation of Process Using Visible Sensitive Information|CWE-214: Invocation of Process Using Visible Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-215 - Insertion of Sensitive Information Into Debugging Code|CWE-215: Insertion of Sensitive Information Into Debugging Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-216 - DEPRECATED- Containment Errors (Container Errors)|CWE-216: DEPRECATED: Containment Errors (Container Errors)]] — Weakness
+- [[02 Weaknesses CWE/CWE-217 - DEPRECATED- Failure to Protect Stored Data from Modification|CWE-217: DEPRECATED: Failure to Protect Stored Data from Modification]] — Weakness
+- [[02 Weaknesses CWE/CWE-218 - DEPRECATED- Failure to provide confidentiality for stored data|CWE-218: DEPRECATED: Failure to provide confidentiality for stored data]] — Weakness
+- [[02 Weaknesses CWE/CWE-219 - Storage of File with Sensitive Data Under Web Root|CWE-219: Storage of File with Sensitive Data Under Web Root]] — Weakness
+- [[02 Weaknesses CWE/CWE-22 - Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')|CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]] — Weakness
+- [[02 Weaknesses CWE/CWE-220 - Storage of File With Sensitive Data Under FTP Root|CWE-220: Storage of File With Sensitive Data Under FTP Root]] — Weakness
+- [[02 Weaknesses CWE/CWE-221 - Information Loss or Omission|CWE-221: Information Loss or Omission]] — Weakness
+- [[02 Weaknesses CWE/CWE-222 - Truncation of Security-relevant Information|CWE-222: Truncation of Security-relevant Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-223 - Omission of Security-relevant Information|CWE-223: Omission of Security-relevant Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-224 - Obscured Security-relevant Information by Alternate Name|CWE-224: Obscured Security-relevant Information by Alternate Name]] — Weakness
+- [[02 Weaknesses CWE/CWE-225 - DEPRECATED- General Information Management Problems|CWE-225: DEPRECATED: General Information Management Problems]] — Weakness
+- [[02 Weaknesses CWE/CWE-226 - Sensitive Information in Resource Not Removed Before Reuse|CWE-226: Sensitive Information in Resource Not Removed Before Reuse]] — Weakness
+- [[02 Weaknesses CWE/CWE-228 - Improper Handling of Syntactically Invalid Structure|CWE-228: Improper Handling of Syntactically Invalid Structure]] — Weakness
+- [[02 Weaknesses CWE/CWE-229 - Improper Handling of Values|CWE-229: Improper Handling of Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-23 - Relative Path Traversal|CWE-23: Relative Path Traversal]] — Weakness
+- [[02 Weaknesses CWE/CWE-230 - Improper Handling of Missing Values|CWE-230: Improper Handling of Missing Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-231 - Improper Handling of Extra Values|CWE-231: Improper Handling of Extra Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-232 - Improper Handling of Undefined Values|CWE-232: Improper Handling of Undefined Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-233 - Improper Handling of Parameters|CWE-233: Improper Handling of Parameters]] — Weakness
+- [[02 Weaknesses CWE/CWE-234 - Failure to Handle Missing Parameter|CWE-234: Failure to Handle Missing Parameter]] — Weakness
+- [[02 Weaknesses CWE/CWE-235 - Improper Handling of Extra Parameters|CWE-235: Improper Handling of Extra Parameters]] — Weakness
+- [[02 Weaknesses CWE/CWE-236 - Improper Handling of Undefined Parameters|CWE-236: Improper Handling of Undefined Parameters]] — Weakness
+- [[02 Weaknesses CWE/CWE-237 - Improper Handling of Structural Elements|CWE-237: Improper Handling of Structural Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-238 - Improper Handling of Incomplete Structural Elements|CWE-238: Improper Handling of Incomplete Structural Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-239 - Failure to Handle Incomplete Element|CWE-239: Failure to Handle Incomplete Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-24 - Path Traversal- '..-filedir'|CWE-24: Path Traversal: '../filedir']] — Weakness
+- [[02 Weaknesses CWE/CWE-240 - Improper Handling of Inconsistent Structural Elements|CWE-240: Improper Handling of Inconsistent Structural Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-241 - Improper Handling of Unexpected Data Type|CWE-241: Improper Handling of Unexpected Data Type]] — Weakness
+- [[02 Weaknesses CWE/CWE-242 - Use of Inherently Dangerous Function|CWE-242: Use of Inherently Dangerous Function]] — Weakness
+- [[02 Weaknesses CWE/CWE-243 - Creation of chroot Jail Without Changing Working Directory|CWE-243: Creation of chroot Jail Without Changing Working Directory]] — Weakness
+- [[02 Weaknesses CWE/CWE-244 - Improper Clearing of Heap Memory Before Release ('Heap Inspection')|CWE-244: Improper Clearing of Heap Memory Before Release ('Heap Inspection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-245 - J2EE Bad Practices- Direct Management of Connections|CWE-245: J2EE Bad Practices: Direct Management of Connections]] — Weakness
+- [[02 Weaknesses CWE/CWE-246 - J2EE Bad Practices- Direct Use of Sockets|CWE-246: J2EE Bad Practices: Direct Use of Sockets]] — Weakness
+- [[02 Weaknesses CWE/CWE-247 - DEPRECATED- Reliance on DNS Lookups in a Security Decision|CWE-247: DEPRECATED: Reliance on DNS Lookups in a Security Decision]] — Weakness
+- [[02 Weaknesses CWE/CWE-248 - Uncaught Exception|CWE-248: Uncaught Exception]] — Weakness
+- [[02 Weaknesses CWE/CWE-249 - DEPRECATED- Often Misused- Path Manipulation|CWE-249: DEPRECATED: Often Misused: Path Manipulation]] — Weakness
+- [[02 Weaknesses CWE/CWE-25 - Path Traversal- '-..-filedir'|CWE-25: Path Traversal: '/../filedir']] — Weakness
+- [[02 Weaknesses CWE/CWE-250 - Execution with Unnecessary Privileges|CWE-250: Execution with Unnecessary Privileges]] — Weakness
+- [[02 Weaknesses CWE/CWE-252 - Unchecked Return Value|CWE-252: Unchecked Return Value]] — Weakness
+- [[02 Weaknesses CWE/CWE-253 - Incorrect Check of Function Return Value|CWE-253: Incorrect Check of Function Return Value]] — Weakness
+- [[02 Weaknesses CWE/CWE-256 - Plaintext Storage of a Password|CWE-256: Plaintext Storage of a Password]] — Weakness
+- [[02 Weaknesses CWE/CWE-257 - Storing Passwords in a Recoverable Format|CWE-257: Storing Passwords in a Recoverable Format]] — Weakness
+- [[02 Weaknesses CWE/CWE-258 - Empty Password in Configuration File|CWE-258: Empty Password in Configuration File]] — Weakness
+- [[02 Weaknesses CWE/CWE-259 - Use of Hard-coded Password|CWE-259: Use of Hard-coded Password]] — Weakness
+- [[02 Weaknesses CWE/CWE-26 - Path Traversal- '-dir-..-filename'|CWE-26: Path Traversal: '/dir/../filename']] — Weakness
+- [[02 Weaknesses CWE/CWE-260 - Password in Configuration File|CWE-260: Password in Configuration File]] — Weakness
+- [[02 Weaknesses CWE/CWE-261 - Weak Encoding for Password|CWE-261: Weak Encoding for Password]] — Weakness
+- [[02 Weaknesses CWE/CWE-262 - Not Using Password Aging|CWE-262: Not Using Password Aging]] — Weakness
+- [[02 Weaknesses CWE/CWE-263 - Password Aging with Long Expiration|CWE-263: Password Aging with Long Expiration]] — Weakness
+- [[02 Weaknesses CWE/CWE-266 - Incorrect Privilege Assignment|CWE-266: Incorrect Privilege Assignment]] — Weakness
+- [[02 Weaknesses CWE/CWE-267 - Privilege Defined With Unsafe Actions|CWE-267: Privilege Defined With Unsafe Actions]] — Weakness
+- [[02 Weaknesses CWE/CWE-268 - Privilege Chaining|CWE-268: Privilege Chaining]] — Weakness
+- [[02 Weaknesses CWE/CWE-269 - Improper Privilege Management|CWE-269: Improper Privilege Management]] — Weakness
+- [[02 Weaknesses CWE/CWE-27 - Path Traversal- 'dir-..-..-filename'|CWE-27: Path Traversal: 'dir/../../filename']] — Weakness
+- [[02 Weaknesses CWE/CWE-270 - Privilege Context Switching Error|CWE-270: Privilege Context Switching Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-271 - Privilege Dropping - Lowering Errors|CWE-271: Privilege Dropping / Lowering Errors]] — Weakness
+- [[02 Weaknesses CWE/CWE-272 - Least Privilege Violation|CWE-272: Least Privilege Violation]] — Weakness
+- [[02 Weaknesses CWE/CWE-273 - Improper Check for Dropped Privileges|CWE-273: Improper Check for Dropped Privileges]] — Weakness
+- [[02 Weaknesses CWE/CWE-274 - Improper Handling of Insufficient Privileges|CWE-274: Improper Handling of Insufficient Privileges]] — Weakness
+- [[02 Weaknesses CWE/CWE-276 - Incorrect Default Permissions|CWE-276: Incorrect Default Permissions]] — Weakness
+- [[02 Weaknesses CWE/CWE-277 - Insecure Inherited Permissions|CWE-277: Insecure Inherited Permissions]] — Weakness
+- [[02 Weaknesses CWE/CWE-278 - Insecure Preserved Inherited Permissions|CWE-278: Insecure Preserved Inherited Permissions]] — Weakness
+- [[02 Weaknesses CWE/CWE-279 - Incorrect Execution-Assigned Permissions|CWE-279: Incorrect Execution-Assigned Permissions]] — Weakness
+- [[02 Weaknesses CWE/CWE-28 - Path Traversal- '..-filedir'|CWE-28: Path Traversal: '..\filedir']] — Weakness
+- [[02 Weaknesses CWE/CWE-280 - Improper Handling of Insufficient Permissions or Privileges|CWE-280: Improper Handling of Insufficient Permissions or Privileges]] — Weakness
+- [[02 Weaknesses CWE/CWE-281 - Improper Preservation of Permissions|CWE-281: Improper Preservation of Permissions]] — Weakness
+- [[02 Weaknesses CWE/CWE-282 - Improper Ownership Management|CWE-282: Improper Ownership Management]] — Weakness
+- [[02 Weaknesses CWE/CWE-283 - Unverified Ownership|CWE-283: Unverified Ownership]] — Weakness
+- [[02 Weaknesses CWE/CWE-284 - Improper Access Control|CWE-284: Improper Access Control]] — Weakness
+- [[02 Weaknesses CWE/CWE-285 - Improper Authorization|CWE-285: Improper Authorization]] — Weakness
+- [[02 Weaknesses CWE/CWE-286 - Incorrect User Management|CWE-286: Incorrect User Management]] — Weakness
+- [[02 Weaknesses CWE/CWE-287 - Improper Authentication|CWE-287: Improper Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-288 - Authentication Bypass Using an Alternate Path or Channel|CWE-288: Authentication Bypass Using an Alternate Path or Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-289 - Authentication Bypass by Alternate Name|CWE-289: Authentication Bypass by Alternate Name]] — Weakness
+- [[02 Weaknesses CWE/CWE-29 - Path Traversal- '-..-filename'|CWE-29: Path Traversal: '\..\filename']] — Weakness
+- [[02 Weaknesses CWE/CWE-290 - Authentication Bypass by Spoofing|CWE-290: Authentication Bypass by Spoofing]] — Weakness
+- [[02 Weaknesses CWE/CWE-291 - Reliance on IP Address for Authentication|CWE-291: Reliance on IP Address for Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-292 - DEPRECATED- Trusting Self-reported DNS Name|CWE-292: DEPRECATED: Trusting Self-reported DNS Name]] — Weakness
+- [[02 Weaknesses CWE/CWE-293 - Using Referer Field for Authentication|CWE-293: Using Referer Field for Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-294 - Authentication Bypass by Capture-replay|CWE-294: Authentication Bypass by Capture-replay]] — Weakness
+- [[02 Weaknesses CWE/CWE-295 - Improper Certificate Validation|CWE-295: Improper Certificate Validation]] — Weakness
+- [[02 Weaknesses CWE/CWE-296 - Improper Following of a Certificate's Chain of Trust|CWE-296: Improper Following of a Certificate's Chain of Trust]] — Weakness
+- [[02 Weaknesses CWE/CWE-297 - Improper Validation of Certificate with Host Mismatch|CWE-297: Improper Validation of Certificate with Host Mismatch]] — Weakness
+- [[02 Weaknesses CWE/CWE-298 - Improper Validation of Certificate Expiration|CWE-298: Improper Validation of Certificate Expiration]] — Weakness
+- [[02 Weaknesses CWE/CWE-299 - Improper Check for Certificate Revocation|CWE-299: Improper Check for Certificate Revocation]] — Weakness
+- [[02 Weaknesses CWE/CWE-30 - Path Traversal- '-dir-..-filename'|CWE-30: Path Traversal: '\dir\..\filename']] — Weakness
+- [[02 Weaknesses CWE/CWE-300 - Channel Accessible by Non-Endpoint|CWE-300: Channel Accessible by Non-Endpoint]] — Weakness
+- [[02 Weaknesses CWE/CWE-301 - Reflection Attack in an Authentication Protocol|CWE-301: Reflection Attack in an Authentication Protocol]] — Weakness
+- [[02 Weaknesses CWE/CWE-302 - Authentication Bypass by Assumed-Immutable Data|CWE-302: Authentication Bypass by Assumed-Immutable Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-303 - Incorrect Implementation of Authentication Algorithm|CWE-303: Incorrect Implementation of Authentication Algorithm]] — Weakness
+- [[02 Weaknesses CWE/CWE-304 - Missing Critical Step in Authentication|CWE-304: Missing Critical Step in Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-305 - Authentication Bypass by Primary Weakness|CWE-305: Authentication Bypass by Primary Weakness]] — Weakness
+- [[02 Weaknesses CWE/CWE-306 - Missing Authentication for Critical Function|CWE-306: Missing Authentication for Critical Function]] — Weakness
+- [[02 Weaknesses CWE/CWE-307 - Improper Restriction of Excessive Authentication Attempts|CWE-307: Improper Restriction of Excessive Authentication Attempts]] — Weakness
+- [[02 Weaknesses CWE/CWE-308 - Use of Single-factor Authentication|CWE-308: Use of Single-factor Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-309 - Use of Password System for Primary Authentication|CWE-309: Use of Password System for Primary Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-31 - Path Traversal- 'dir-..-..-filename'|CWE-31: Path Traversal: 'dir\..\..\filename']] — Weakness
+- [[02 Weaknesses CWE/CWE-311 - Missing Encryption of Sensitive Data|CWE-311: Missing Encryption of Sensitive Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-312 - Cleartext Storage of Sensitive Information|CWE-312: Cleartext Storage of Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-313 - Cleartext Storage in a File or on Disk|CWE-313: Cleartext Storage in a File or on Disk]] — Weakness
+- [[02 Weaknesses CWE/CWE-314 - Cleartext Storage in the Registry|CWE-314: Cleartext Storage in the Registry]] — Weakness
+- [[02 Weaknesses CWE/CWE-315 - Cleartext Storage of Sensitive Information in a Cookie|CWE-315: Cleartext Storage of Sensitive Information in a Cookie]] — Weakness
+- [[02 Weaknesses CWE/CWE-316 - Cleartext Storage of Sensitive Information in Memory|CWE-316: Cleartext Storage of Sensitive Information in Memory]] — Weakness
+- [[02 Weaknesses CWE/CWE-317 - Cleartext Storage of Sensitive Information in GUI|CWE-317: Cleartext Storage of Sensitive Information in GUI]] — Weakness
+- [[02 Weaknesses CWE/CWE-318 - Cleartext Storage of Sensitive Information in Executable|CWE-318: Cleartext Storage of Sensitive Information in Executable]] — Weakness
+- [[02 Weaknesses CWE/CWE-319 - Cleartext Transmission of Sensitive Information|CWE-319: Cleartext Transmission of Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-32 - Path Traversal- '...' (Triple Dot)|CWE-32: Path Traversal: '...' (Triple Dot)]] — Weakness
+- [[02 Weaknesses CWE/CWE-321 - Use of Hard-coded Cryptographic Key|CWE-321: Use of Hard-coded Cryptographic Key]] — Weakness
+- [[02 Weaknesses CWE/CWE-322 - Key Exchange without Entity Authentication|CWE-322: Key Exchange without Entity Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-323 - Reusing a Nonce, Key Pair in Encryption|CWE-323: Reusing a Nonce, Key Pair in Encryption]] — Weakness
+- [[02 Weaknesses CWE/CWE-324 - Use of a Key Past its Expiration Date|CWE-324: Use of a Key Past its Expiration Date]] — Weakness
+- [[02 Weaknesses CWE/CWE-325 - Missing Cryptographic Step|CWE-325: Missing Cryptographic Step]] — Weakness
+- [[02 Weaknesses CWE/CWE-326 - Inadequate Encryption Strength|CWE-326: Inadequate Encryption Strength]] — Weakness
+- [[02 Weaknesses CWE/CWE-327 - Use of a Broken or Risky Cryptographic Algorithm|CWE-327: Use of a Broken or Risky Cryptographic Algorithm]] — Weakness
+- [[02 Weaknesses CWE/CWE-328 - Use of Weak Hash|CWE-328: Use of Weak Hash]] — Weakness
+- [[02 Weaknesses CWE/CWE-329 - Generation of Predictable IV with CBC Mode|CWE-329: Generation of Predictable IV with CBC Mode]] — Weakness
+- [[02 Weaknesses CWE/CWE-33 - Path Traversal- '....' (Multiple Dot)|CWE-33: Path Traversal: '....' (Multiple Dot)]] — Weakness
+- [[02 Weaknesses CWE/CWE-330 - Use of Insufficiently Random Values|CWE-330: Use of Insufficiently Random Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-331 - Insufficient Entropy|CWE-331: Insufficient Entropy]] — Weakness
+- [[02 Weaknesses CWE/CWE-332 - Insufficient Entropy in PRNG|CWE-332: Insufficient Entropy in PRNG]] — Weakness
+- [[02 Weaknesses CWE/CWE-333 - Improper Handling of Insufficient Entropy in TRNG|CWE-333: Improper Handling of Insufficient Entropy in TRNG]] — Weakness
+- [[02 Weaknesses CWE/CWE-334 - Small Space of Random Values|CWE-334: Small Space of Random Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-335 - Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)|CWE-335: Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)]] — Weakness
+- [[02 Weaknesses CWE/CWE-336 - Same Seed in Pseudo-Random Number Generator (PRNG)|CWE-336: Same Seed in Pseudo-Random Number Generator (PRNG)]] — Weakness
+- [[02 Weaknesses CWE/CWE-337 - Predictable Seed in Pseudo-Random Number Generator (PRNG)|CWE-337: Predictable Seed in Pseudo-Random Number Generator (PRNG)]] — Weakness
+- [[02 Weaknesses CWE/CWE-338 - Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)|CWE-338: Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)]] — Weakness
+- [[02 Weaknesses CWE/CWE-339 - Small Seed Space in PRNG|CWE-339: Small Seed Space in PRNG]] — Weakness
+- [[02 Weaknesses CWE/CWE-34 - Path Traversal- '....--'|CWE-34: Path Traversal: '....//']] — Weakness
+- [[02 Weaknesses CWE/CWE-340 - Generation of Predictable Numbers or Identifiers|CWE-340: Generation of Predictable Numbers or Identifiers]] — Weakness
+- [[02 Weaknesses CWE/CWE-341 - Predictable from Observable State|CWE-341: Predictable from Observable State]] — Weakness
+- [[02 Weaknesses CWE/CWE-342 - Predictable Exact Value from Previous Values|CWE-342: Predictable Exact Value from Previous Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-343 - Predictable Value Range from Previous Values|CWE-343: Predictable Value Range from Previous Values]] — Weakness
+- [[02 Weaknesses CWE/CWE-344 - Use of Invariant Value in Dynamically Changing Context|CWE-344: Use of Invariant Value in Dynamically Changing Context]] — Weakness
+- [[02 Weaknesses CWE/CWE-345 - Insufficient Verification of Data Authenticity|CWE-345: Insufficient Verification of Data Authenticity]] — Weakness
+- [[02 Weaknesses CWE/CWE-346 - Origin Validation Error|CWE-346: Origin Validation Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-347 - Improper Verification of Cryptographic Signature|CWE-347: Improper Verification of Cryptographic Signature]] — Weakness
+- [[02 Weaknesses CWE/CWE-348 - Use of Less Trusted Source|CWE-348: Use of Less Trusted Source]] — Weakness
+- [[02 Weaknesses CWE/CWE-349 - Acceptance of Extraneous Untrusted Data With Trusted Data|CWE-349: Acceptance of Extraneous Untrusted Data With Trusted Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-35 - Path Traversal- '...-...--'|CWE-35: Path Traversal: '.../...//']] — Weakness
+- [[02 Weaknesses CWE/CWE-350 - Reliance on Reverse DNS Resolution for a Security-Critical Action|CWE-350: Reliance on Reverse DNS Resolution for a Security-Critical Action]] — Weakness
+- [[02 Weaknesses CWE/CWE-351 - Insufficient Type Distinction|CWE-351: Insufficient Type Distinction]] — Weakness
+- [[02 Weaknesses CWE/CWE-352 - Cross-Site Request Forgery (CSRF)|CWE-352: Cross-Site Request Forgery (CSRF)]] — Weakness
+- [[02 Weaknesses CWE/CWE-353 - Missing Support for Integrity Check|CWE-353: Missing Support for Integrity Check]] — Weakness
+- [[02 Weaknesses CWE/CWE-354 - Improper Validation of Integrity Check Value|CWE-354: Improper Validation of Integrity Check Value]] — Weakness
+- [[02 Weaknesses CWE/CWE-356 - Product UI does not Warn User of Unsafe Actions|CWE-356: Product UI does not Warn User of Unsafe Actions]] — Weakness
+- [[02 Weaknesses CWE/CWE-357 - Insufficient UI Warning of Dangerous Operations|CWE-357: Insufficient UI Warning of Dangerous Operations]] — Weakness
+- [[02 Weaknesses CWE/CWE-358 - Improperly Implemented Security Check for Standard|CWE-358: Improperly Implemented Security Check for Standard]] — Weakness
+- [[02 Weaknesses CWE/CWE-359 - Exposure of Private Personal Information to an Unauthorized Actor|CWE-359: Exposure of Private Personal Information to an Unauthorized Actor]] — Weakness
+- [[02 Weaknesses CWE/CWE-36 - Absolute Path Traversal|CWE-36: Absolute Path Traversal]] — Weakness
+- [[02 Weaknesses CWE/CWE-360 - Trust of System Event Data|CWE-360: Trust of System Event Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-362 - Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')|CWE-362: Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')]] — Weakness
+- [[02 Weaknesses CWE/CWE-363 - Race Condition Enabling Link Following|CWE-363: Race Condition Enabling Link Following]] — Weakness
+- [[02 Weaknesses CWE/CWE-364 - Signal Handler Race Condition|CWE-364: Signal Handler Race Condition]] — Weakness
+- [[02 Weaknesses CWE/CWE-365 - DEPRECATED- Race Condition in Switch|CWE-365: DEPRECATED: Race Condition in Switch]] — Weakness
+- [[02 Weaknesses CWE/CWE-366 - Race Condition within a Thread|CWE-366: Race Condition within a Thread]] — Weakness
+- [[02 Weaknesses CWE/CWE-367 - Time-of-check Time-of-use (TOCTOU) Race Condition|CWE-367: Time-of-check Time-of-use (TOCTOU) Race Condition]] — Weakness
+- [[02 Weaknesses CWE/CWE-368 - Context Switching Race Condition|CWE-368: Context Switching Race Condition]] — Weakness
+- [[02 Weaknesses CWE/CWE-369 - Divide By Zero|CWE-369: Divide By Zero]] — Weakness
+- [[02 Weaknesses CWE/CWE-37 - Path Traversal- '-absolute-pathname-here'|CWE-37: Path Traversal: '/absolute/pathname/here']] — Weakness
+- [[02 Weaknesses CWE/CWE-370 - Missing Check for Certificate Revocation after Initial Check|CWE-370: Missing Check for Certificate Revocation after Initial Check]] — Weakness
+- [[02 Weaknesses CWE/CWE-372 - Incomplete Internal State Distinction|CWE-372: Incomplete Internal State Distinction]] — Weakness
+- [[02 Weaknesses CWE/CWE-373 - DEPRECATED- State Synchronization Error|CWE-373: DEPRECATED: State Synchronization Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-374 - Passing Mutable Objects to an Untrusted Method|CWE-374: Passing Mutable Objects to an Untrusted Method]] — Weakness
+- [[02 Weaknesses CWE/CWE-375 - Returning a Mutable Object to an Untrusted Caller|CWE-375: Returning a Mutable Object to an Untrusted Caller]] — Weakness
+- [[02 Weaknesses CWE/CWE-377 - Insecure Temporary File|CWE-377: Insecure Temporary File]] — Weakness
+- [[02 Weaknesses CWE/CWE-378 - Creation of Temporary File With Insecure Permissions|CWE-378: Creation of Temporary File With Insecure Permissions]] — Weakness
+- [[02 Weaknesses CWE/CWE-379 - Creation of Temporary File in Directory with Insecure Permissions|CWE-379: Creation of Temporary File in Directory with Insecure Permissions]] — Weakness
+- [[02 Weaknesses CWE/CWE-38 - Path Traversal- '-absolute-pathname-here'|CWE-38: Path Traversal: '\absolute\pathname\here']] — Weakness
+- [[02 Weaknesses CWE/CWE-382 - J2EE Bad Practices- Use of System.exit()|CWE-382: J2EE Bad Practices: Use of System.exit()]] — Weakness
+- [[02 Weaknesses CWE/CWE-383 - J2EE Bad Practices- Direct Use of Threads|CWE-383: J2EE Bad Practices: Direct Use of Threads]] — Weakness
+- [[02 Weaknesses CWE/CWE-384 - Session Fixation|CWE-384: Session Fixation]] — Weakness
+- [[02 Weaknesses CWE/CWE-385 - Covert Timing Channel|CWE-385: Covert Timing Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-386 - Symbolic Name not Mapping to Correct Object|CWE-386: Symbolic Name not Mapping to Correct Object]] — Weakness
+- [[02 Weaknesses CWE/CWE-39 - Path Traversal- 'C-dirname'|CWE-39: Path Traversal: 'C:dirname']] — Weakness
+- [[02 Weaknesses CWE/CWE-390 - Detection of Error Condition Without Action|CWE-390: Detection of Error Condition Without Action]] — Weakness
+- [[02 Weaknesses CWE/CWE-391 - Unchecked Error Condition|CWE-391: Unchecked Error Condition]] — Weakness
+- [[02 Weaknesses CWE/CWE-392 - Missing Report of Error Condition|CWE-392: Missing Report of Error Condition]] — Weakness
+- [[02 Weaknesses CWE/CWE-393 - Return of Wrong Status Code|CWE-393: Return of Wrong Status Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-394 - Unexpected Status Code or Return Value|CWE-394: Unexpected Status Code or Return Value]] — Weakness
+- [[02 Weaknesses CWE/CWE-395 - Use of NullPointerException Catch to Detect NULL Pointer Dereference|CWE-395: Use of NullPointerException Catch to Detect NULL Pointer Dereference]] — Weakness
+- [[02 Weaknesses CWE/CWE-396 - Declaration of Catch for Generic Exception|CWE-396: Declaration of Catch for Generic Exception]] — Weakness
+- [[02 Weaknesses CWE/CWE-397 - Declaration of Throws for Generic Exception|CWE-397: Declaration of Throws for Generic Exception]] — Weakness
+- [[02 Weaknesses CWE/CWE-40 - Path Traversal- '--UNC-share-name-' (Windows UNC Share)|CWE-40: Path Traversal: '\\UNC\share\name\' (Windows UNC Share)]] — Weakness
+- [[02 Weaknesses CWE/CWE-400 - Uncontrolled Resource Consumption|CWE-400: Uncontrolled Resource Consumption]] — Weakness
+- [[02 Weaknesses CWE/CWE-401 - Missing Release of Memory after Effective Lifetime|CWE-401: Missing Release of Memory after Effective Lifetime]] — Weakness
+- [[02 Weaknesses CWE/CWE-402 - Transmission of Private Resources into a New Sphere ('Resource Leak')|CWE-402: Transmission of Private Resources into a New Sphere ('Resource Leak')]] — Weakness
+- [[02 Weaknesses CWE/CWE-403 - Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak')|CWE-403: Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak')]] — Weakness
+- [[02 Weaknesses CWE/CWE-404 - Improper Resource Shutdown or Release|CWE-404: Improper Resource Shutdown or Release]] — Weakness
+- [[02 Weaknesses CWE/CWE-405 - Asymmetric Resource Consumption (Amplification)|CWE-405: Asymmetric Resource Consumption (Amplification)]] — Weakness
+- [[02 Weaknesses CWE/CWE-406 - Insufficient Control of Network Message Volume (Network Amplification)|CWE-406: Insufficient Control of Network Message Volume (Network Amplification)]] — Weakness
+- [[02 Weaknesses CWE/CWE-407 - Inefficient Algorithmic Complexity|CWE-407: Inefficient Algorithmic Complexity]] — Weakness
+- [[02 Weaknesses CWE/CWE-408 - Incorrect Behavior Order- Early Amplification|CWE-408: Incorrect Behavior Order: Early Amplification]] — Weakness
+- [[02 Weaknesses CWE/CWE-409 - Improper Handling of Highly Compressed Data (Data Amplification)|CWE-409: Improper Handling of Highly Compressed Data (Data Amplification)]] — Weakness
+- [[02 Weaknesses CWE/CWE-41 - Improper Resolution of Path Equivalence|CWE-41: Improper Resolution of Path Equivalence]] — Weakness
+- [[02 Weaknesses CWE/CWE-410 - Insufficient Resource Pool|CWE-410: Insufficient Resource Pool]] — Weakness
+- [[02 Weaknesses CWE/CWE-412 - Unrestricted Externally Accessible Lock|CWE-412: Unrestricted Externally Accessible Lock]] — Weakness
+- [[02 Weaknesses CWE/CWE-413 - Improper Resource Locking|CWE-413: Improper Resource Locking]] — Weakness
+- [[02 Weaknesses CWE/CWE-414 - Missing Lock Check|CWE-414: Missing Lock Check]] — Weakness
+- [[02 Weaknesses CWE/CWE-415 - Double Free|CWE-415: Double Free]] — Weakness
+- [[02 Weaknesses CWE/CWE-416 - Use After Free|CWE-416: Use After Free]] — Weakness
+- [[02 Weaknesses CWE/CWE-419 - Unprotected Primary Channel|CWE-419: Unprotected Primary Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-42 - Path Equivalence- 'filename.' (Trailing Dot)|CWE-42: Path Equivalence: 'filename.' (Trailing Dot)]] — Weakness
+- [[02 Weaknesses CWE/CWE-420 - Unprotected Alternate Channel|CWE-420: Unprotected Alternate Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-421 - Race Condition During Access to Alternate Channel|CWE-421: Race Condition During Access to Alternate Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-422 - Unprotected Windows Messaging Channel ('Shatter')|CWE-422: Unprotected Windows Messaging Channel ('Shatter')]] — Weakness
+- [[02 Weaknesses CWE/CWE-423 - DEPRECATED- Proxied Trusted Channel|CWE-423: DEPRECATED: Proxied Trusted Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-424 - Improper Protection of Alternate Path|CWE-424: Improper Protection of Alternate Path]] — Weakness
+- [[02 Weaknesses CWE/CWE-425 - Direct Request ('Forced Browsing')|CWE-425: Direct Request ('Forced Browsing')]] — Weakness
+- [[02 Weaknesses CWE/CWE-426 - Untrusted Search Path|CWE-426: Untrusted Search Path]] — Weakness
+- [[02 Weaknesses CWE/CWE-427 - Uncontrolled Search Path Element|CWE-427: Uncontrolled Search Path Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-428 - Unquoted Search Path or Element|CWE-428: Unquoted Search Path or Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-43 - Path Equivalence- 'filename....' (Multiple Trailing Dot)|CWE-43: Path Equivalence: 'filename....' (Multiple Trailing Dot)]] — Weakness
+- [[02 Weaknesses CWE/CWE-430 - Deployment of Wrong Handler|CWE-430: Deployment of Wrong Handler]] — Weakness
+- [[02 Weaknesses CWE/CWE-431 - Missing Handler|CWE-431: Missing Handler]] — Weakness
+- [[02 Weaknesses CWE/CWE-432 - Dangerous Signal Handler not Disabled During Sensitive Operations|CWE-432: Dangerous Signal Handler not Disabled During Sensitive Operations]] — Weakness
+- [[02 Weaknesses CWE/CWE-433 - Unparsed Raw Web Content Delivery|CWE-433: Unparsed Raw Web Content Delivery]] — Weakness
+- [[02 Weaknesses CWE/CWE-434 - Unrestricted Upload of File with Dangerous Type|CWE-434: Unrestricted Upload of File with Dangerous Type]] — Weakness
+- [[02 Weaknesses CWE/CWE-435 - Improper Interaction Between Multiple Correctly-Behaving Entities|CWE-435: Improper Interaction Between Multiple Correctly-Behaving Entities]] — Weakness
+- [[02 Weaknesses CWE/CWE-436 - Interpretation Conflict|CWE-436: Interpretation Conflict]] — Weakness
+- [[02 Weaknesses CWE/CWE-437 - Incomplete Model of Endpoint Features|CWE-437: Incomplete Model of Endpoint Features]] — Weakness
+- [[02 Weaknesses CWE/CWE-439 - Behavioral Change in New Version or Environment|CWE-439: Behavioral Change in New Version or Environment]] — Weakness
+- [[02 Weaknesses CWE/CWE-44 - Path Equivalence- 'file.name' (Internal Dot)|CWE-44: Path Equivalence: 'file.name' (Internal Dot)]] — Weakness
+- [[02 Weaknesses CWE/CWE-440 - Expected Behavior Violation|CWE-440: Expected Behavior Violation]] — Weakness
+- [[02 Weaknesses CWE/CWE-441 - Unintended Proxy or Intermediary ('Confused Deputy')|CWE-441: Unintended Proxy or Intermediary ('Confused Deputy')]] — Weakness
+- [[02 Weaknesses CWE/CWE-443 - DEPRECATED- HTTP response splitting|CWE-443: DEPRECATED: HTTP response splitting]] — Weakness
+- [[02 Weaknesses CWE/CWE-444 - Inconsistent Interpretation of HTTP Requests ('HTTP Request-Response Smuggling')|CWE-444: Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')]] — Weakness
+- [[02 Weaknesses CWE/CWE-446 - UI Discrepancy for Security Feature|CWE-446: UI Discrepancy for Security Feature]] — Weakness
+- [[02 Weaknesses CWE/CWE-447 - Unimplemented or Unsupported Feature in UI|CWE-447: Unimplemented or Unsupported Feature in UI]] — Weakness
+- [[02 Weaknesses CWE/CWE-448 - Obsolete Feature in UI|CWE-448: Obsolete Feature in UI]] — Weakness
+- [[02 Weaknesses CWE/CWE-449 - The UI Performs the Wrong Action|CWE-449: The UI Performs the Wrong Action]] — Weakness
+- [[02 Weaknesses CWE/CWE-45 - Path Equivalence- 'file...name' (Multiple Internal Dot)|CWE-45: Path Equivalence: 'file...name' (Multiple Internal Dot)]] — Weakness
+- [[02 Weaknesses CWE/CWE-450 - Multiple Interpretations of UI Input|CWE-450: Multiple Interpretations of UI Input]] — Weakness
+- [[02 Weaknesses CWE/CWE-451 - User Interface (UI) Misrepresentation of Critical Information|CWE-451: User Interface (UI) Misrepresentation of Critical Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-453 - Insecure Default Variable Initialization|CWE-453: Insecure Default Variable Initialization]] — Weakness
+- [[02 Weaknesses CWE/CWE-454 - External Initialization of Trusted Variables or Data Stores|CWE-454: External Initialization of Trusted Variables or Data Stores]] — Weakness
+- [[02 Weaknesses CWE/CWE-455 - Non-exit on Failed Initialization|CWE-455: Non-exit on Failed Initialization]] — Weakness
+- [[02 Weaknesses CWE/CWE-456 - Missing Initialization of a Variable|CWE-456: Missing Initialization of a Variable]] — Weakness
+- [[02 Weaknesses CWE/CWE-457 - Use of Uninitialized Variable|CWE-457: Use of Uninitialized Variable]] — Weakness
+- [[02 Weaknesses CWE/CWE-458 - DEPRECATED- Incorrect Initialization|CWE-458: DEPRECATED: Incorrect Initialization]] — Weakness
+- [[02 Weaknesses CWE/CWE-459 - Incomplete Cleanup|CWE-459: Incomplete Cleanup]] — Weakness
+- [[02 Weaknesses CWE/CWE-46 - Path Equivalence- 'filename ' (Trailing Space)|CWE-46: Path Equivalence: 'filename ' (Trailing Space)]] — Weakness
+- [[02 Weaknesses CWE/CWE-460 - Improper Cleanup on Thrown Exception|CWE-460: Improper Cleanup on Thrown Exception]] — Weakness
+- [[02 Weaknesses CWE/CWE-462 - Duplicate Key in Associative List (Alist)|CWE-462: Duplicate Key in Associative List (Alist)]] — Weakness
+- [[02 Weaknesses CWE/CWE-463 - Deletion of Data Structure Sentinel|CWE-463: Deletion of Data Structure Sentinel]] — Weakness
+- [[02 Weaknesses CWE/CWE-464 - Addition of Data Structure Sentinel|CWE-464: Addition of Data Structure Sentinel]] — Weakness
+- [[02 Weaknesses CWE/CWE-466 - Return of Pointer Value Outside of Expected Range|CWE-466: Return of Pointer Value Outside of Expected Range]] — Weakness
+- [[02 Weaknesses CWE/CWE-467 - Use of sizeof() on a Pointer Type|CWE-467: Use of sizeof() on a Pointer Type]] — Weakness
+- [[02 Weaknesses CWE/CWE-468 - Incorrect Pointer Scaling|CWE-468: Incorrect Pointer Scaling]] — Weakness
+- [[02 Weaknesses CWE/CWE-469 - Use of Pointer Subtraction to Determine Size|CWE-469: Use of Pointer Subtraction to Determine Size]] — Weakness
+- [[02 Weaknesses CWE/CWE-47 - Path Equivalence- ' filename' (Leading Space)|CWE-47: Path Equivalence: ' filename' (Leading Space)]] — Weakness
+- [[02 Weaknesses CWE/CWE-470 - Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')|CWE-470: Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-471 - Modification of Assumed-Immutable Data (MAID)|CWE-471: Modification of Assumed-Immutable Data (MAID)]] — Weakness
+- [[02 Weaknesses CWE/CWE-472 - External Control of Assumed-Immutable Web Parameter|CWE-472: External Control of Assumed-Immutable Web Parameter]] — Weakness
+- [[02 Weaknesses CWE/CWE-473 - PHP External Variable Modification|CWE-473: PHP External Variable Modification]] — Weakness
+- [[02 Weaknesses CWE/CWE-474 - Use of Function with Inconsistent Implementations|CWE-474: Use of Function with Inconsistent Implementations]] — Weakness
+- [[02 Weaknesses CWE/CWE-475 - Undefined Behavior for Input to API|CWE-475: Undefined Behavior for Input to API]] — Weakness
+- [[02 Weaknesses CWE/CWE-476 - NULL Pointer Dereference|CWE-476: NULL Pointer Dereference]] — Weakness
+- [[02 Weaknesses CWE/CWE-477 - Use of Obsolete Function|CWE-477: Use of Obsolete Function]] — Weakness
+- [[02 Weaknesses CWE/CWE-478 - Missing Default Case in Multiple Condition Expression|CWE-478: Missing Default Case in Multiple Condition Expression]] — Weakness
+- [[02 Weaknesses CWE/CWE-479 - Signal Handler Use of a Non-reentrant Function|CWE-479: Signal Handler Use of a Non-reentrant Function]] — Weakness
+- [[02 Weaknesses CWE/CWE-48 - Path Equivalence- 'file name' (Internal Whitespace)|CWE-48: Path Equivalence: 'file name' (Internal Whitespace)]] — Weakness
+- [[02 Weaknesses CWE/CWE-480 - Use of Incorrect Operator|CWE-480: Use of Incorrect Operator]] — Weakness
+- [[02 Weaknesses CWE/CWE-481 - Assigning instead of Comparing|CWE-481: Assigning instead of Comparing]] — Weakness
+- [[02 Weaknesses CWE/CWE-482 - Comparing instead of Assigning|CWE-482: Comparing instead of Assigning]] — Weakness
+- [[02 Weaknesses CWE/CWE-483 - Incorrect Block Delimitation|CWE-483: Incorrect Block Delimitation]] — Weakness
+- [[02 Weaknesses CWE/CWE-484 - Omitted Break Statement in Switch|CWE-484: Omitted Break Statement in Switch]] — Weakness
+- [[02 Weaknesses CWE/CWE-486 - Comparison of Classes by Name|CWE-486: Comparison of Classes by Name]] — Weakness
+- [[02 Weaknesses CWE/CWE-487 - Reliance on Package-level Scope|CWE-487: Reliance on Package-level Scope]] — Weakness
+- [[02 Weaknesses CWE/CWE-488 - Exposure of Data Element to Wrong Session|CWE-488: Exposure of Data Element to Wrong Session]] — Weakness
+- [[02 Weaknesses CWE/CWE-489 - Active Debug Code|CWE-489: Active Debug Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-49 - Path Equivalence- 'filename-' (Trailing Slash)|CWE-49: Path Equivalence: 'filename/' (Trailing Slash)]] — Weakness
+- [[02 Weaknesses CWE/CWE-491 - Public cloneable() Method Without Final ('Object Hijack')|CWE-491: Public cloneable() Method Without Final ('Object Hijack')]] — Weakness
+- [[02 Weaknesses CWE/CWE-492 - Use of Inner Class Containing Sensitive Data|CWE-492: Use of Inner Class Containing Sensitive Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-493 - Critical Public Variable Without Final Modifier|CWE-493: Critical Public Variable Without Final Modifier]] — Weakness
+- [[02 Weaknesses CWE/CWE-494 - Download of Code Without Integrity Check|CWE-494: Download of Code Without Integrity Check]] — Weakness
+- [[02 Weaknesses CWE/CWE-495 - Private Data Structure Returned From A Public Method|CWE-495: Private Data Structure Returned From A Public Method]] — Weakness
+- [[02 Weaknesses CWE/CWE-496 - Public Data Assigned to Private Array-Typed Field|CWE-496: Public Data Assigned to Private Array-Typed Field]] — Weakness
+- [[02 Weaknesses CWE/CWE-497 - Exposure of Sensitive System Information to an Unauthorized Control Sphere|CWE-497: Exposure of Sensitive System Information to an Unauthorized Control Sphere]] — Weakness
+- [[02 Weaknesses CWE/CWE-498 - Cloneable Class Containing Sensitive Information|CWE-498: Cloneable Class Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-499 - Serializable Class Containing Sensitive Data|CWE-499: Serializable Class Containing Sensitive Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-5 - J2EE Misconfiguration- Data Transmission Without Encryption|CWE-5: J2EE Misconfiguration: Data Transmission Without Encryption]] — Weakness
+- [[02 Weaknesses CWE/CWE-50 - Path Equivalence- '--multiple-leading-slash'|CWE-50: Path Equivalence: '//multiple/leading/slash']] — Weakness
+- [[02 Weaknesses CWE/CWE-500 - Public Static Field Not Marked Final|CWE-500: Public Static Field Not Marked Final]] — Weakness
+- [[02 Weaknesses CWE/CWE-501 - Trust Boundary Violation|CWE-501: Trust Boundary Violation]] — Weakness
+- [[02 Weaknesses CWE/CWE-502 - Deserialization of Untrusted Data|CWE-502: Deserialization of Untrusted Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-506 - Embedded Malicious Code|CWE-506: Embedded Malicious Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-507 - Trojan Horse|CWE-507: Trojan Horse]] — Weakness
+- [[02 Weaknesses CWE/CWE-508 - Non-Replicating Malicious Code|CWE-508: Non-Replicating Malicious Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-509 - Replicating Malicious Code (Virus or Worm)|CWE-509: Replicating Malicious Code (Virus or Worm)]] — Weakness
+- [[02 Weaknesses CWE/CWE-51 - Path Equivalence- '-multiple--internal-slash'|CWE-51: Path Equivalence: '/multiple//internal/slash']] — Weakness
+- [[02 Weaknesses CWE/CWE-510 - Trapdoor|CWE-510: Trapdoor]] — Weakness
+- [[02 Weaknesses CWE/CWE-511 - Logic-Time Bomb|CWE-511: Logic/Time Bomb]] — Weakness
+- [[02 Weaknesses CWE/CWE-512 - Spyware|CWE-512: Spyware]] — Weakness
+- [[02 Weaknesses CWE/CWE-514 - Covert Channel|CWE-514: Covert Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-515 - Covert Storage Channel|CWE-515: Covert Storage Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-516 - DEPRECATED- Covert Timing Channel|CWE-516: DEPRECATED: Covert Timing Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-52 - Path Equivalence- '-multiple-trailing-slash--'|CWE-52: Path Equivalence: '/multiple/trailing/slash//']] — Weakness
+- [[02 Weaknesses CWE/CWE-520 - NET Misconfiguration- Use of Impersonation|CWE-520: .NET Misconfiguration: Use of Impersonation]] — Weakness
+- [[02 Weaknesses CWE/CWE-521 - Weak Password Requirements|CWE-521: Weak Password Requirements]] — Weakness
+- [[02 Weaknesses CWE/CWE-522 - Insufficiently Protected Credentials|CWE-522: Insufficiently Protected Credentials]] — Weakness
+- [[02 Weaknesses CWE/CWE-523 - Unprotected Transport of Credentials|CWE-523: Unprotected Transport of Credentials]] — Weakness
+- [[02 Weaknesses CWE/CWE-524 - Use of Cache Containing Sensitive Information|CWE-524: Use of Cache Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-525 - Use of Web Browser Cache Containing Sensitive Information|CWE-525: Use of Web Browser Cache Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-526 - Cleartext Storage of Sensitive Information in an Environment Variable|CWE-526: Cleartext Storage of Sensitive Information in an Environment Variable]] — Weakness
+- [[02 Weaknesses CWE/CWE-527 - Exposure of Version-Control Repository to an Unauthorized Control Sphere|CWE-527: Exposure of Version-Control Repository to an Unauthorized Control Sphere]] — Weakness
+- [[02 Weaknesses CWE/CWE-528 - Exposure of Core Dump File to an Unauthorized Control Sphere|CWE-528: Exposure of Core Dump File to an Unauthorized Control Sphere]] — Weakness
+- [[02 Weaknesses CWE/CWE-529 - Exposure of Access Control List Files to an Unauthorized Control Sphere|CWE-529: Exposure of Access Control List Files to an Unauthorized Control Sphere]] — Weakness
+- [[02 Weaknesses CWE/CWE-53 - Path Equivalence- '-multiple--internal-backslash'|CWE-53: Path Equivalence: '\multiple\\internal\backslash']] — Weakness
+- [[02 Weaknesses CWE/CWE-530 - Exposure of Backup File to an Unauthorized Control Sphere|CWE-530: Exposure of Backup File to an Unauthorized Control Sphere]] — Weakness
+- [[02 Weaknesses CWE/CWE-531 - Inclusion of Sensitive Information in Test Code|CWE-531: Inclusion of Sensitive Information in Test Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-532 - Insertion of Sensitive Information into Log File|CWE-532: Insertion of Sensitive Information into Log File]] — Weakness
+- [[02 Weaknesses CWE/CWE-533 - DEPRECATED- Information Exposure Through Server Log Files|CWE-533: DEPRECATED: Information Exposure Through Server Log Files]] — Weakness
+- [[02 Weaknesses CWE/CWE-534 - DEPRECATED- Information Exposure Through Debug Log Files|CWE-534: DEPRECATED: Information Exposure Through Debug Log Files]] — Weakness
+- [[02 Weaknesses CWE/CWE-535 - Exposure of Information Through Shell Error Message|CWE-535: Exposure of Information Through Shell Error Message]] — Weakness
+- [[02 Weaknesses CWE/CWE-536 - Servlet Runtime Error Message Containing Sensitive Information|CWE-536: Servlet Runtime Error Message Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-537 - Java Runtime Error Message Containing Sensitive Information|CWE-537: Java Runtime Error Message Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-538 - Insertion of Sensitive Information into Externally-Accessible File or Directory|CWE-538: Insertion of Sensitive Information into Externally-Accessible File or Directory]] — Weakness
+- [[02 Weaknesses CWE/CWE-539 - Use of Persistent Cookies Containing Sensitive Information|CWE-539: Use of Persistent Cookies Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-54 - Path Equivalence- 'filedir-' (Trailing Backslash)|CWE-54: Path Equivalence: 'filedir\' (Trailing Backslash)]] — Weakness
+- [[02 Weaknesses CWE/CWE-540 - Inclusion of Sensitive Information in Source Code|CWE-540: Inclusion of Sensitive Information in Source Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-541 - Inclusion of Sensitive Information in an Include File|CWE-541: Inclusion of Sensitive Information in an Include File]] — Weakness
+- [[02 Weaknesses CWE/CWE-542 - DEPRECATED- Information Exposure Through Cleanup Log Files|CWE-542: DEPRECATED: Information Exposure Through Cleanup Log Files]] — Weakness
+- [[02 Weaknesses CWE/CWE-543 - Use of Singleton Pattern Without Synchronization in a Multithreaded Context|CWE-543: Use of Singleton Pattern Without Synchronization in a Multithreaded Context]] — Weakness
+- [[02 Weaknesses CWE/CWE-544 - Missing Standardized Error Handling Mechanism|CWE-544: Missing Standardized Error Handling Mechanism]] — Weakness
+- [[02 Weaknesses CWE/CWE-545 - DEPRECATED- Use of Dynamic Class Loading|CWE-545: DEPRECATED: Use of Dynamic Class Loading]] — Weakness
+- [[02 Weaknesses CWE/CWE-546 - Suspicious Comment|CWE-546: Suspicious Comment]] — Weakness
+- [[02 Weaknesses CWE/CWE-547 - Use of Hard-coded, Security-relevant Constants|CWE-547: Use of Hard-coded, Security-relevant Constants]] — Weakness
+- [[02 Weaknesses CWE/CWE-548 - Exposure of Information Through Directory Listing|CWE-548: Exposure of Information Through Directory Listing]] — Weakness
+- [[02 Weaknesses CWE/CWE-549 - Missing Password Field Masking|CWE-549: Missing Password Field Masking]] — Weakness
+- [[02 Weaknesses CWE/CWE-55 - Path Equivalence- '-.-' (Single Dot Directory)|CWE-55: Path Equivalence: '/./' (Single Dot Directory)]] — Weakness
+- [[02 Weaknesses CWE/CWE-550 - Server-generated Error Message Containing Sensitive Information|CWE-550: Server-generated Error Message Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-551 - Incorrect Behavior Order- Authorization Before Parsing and Canonicalization|CWE-551: Incorrect Behavior Order: Authorization Before Parsing and Canonicalization]] — Weakness
+- [[02 Weaknesses CWE/CWE-552 - Files or Directories Accessible to External Parties|CWE-552: Files or Directories Accessible to External Parties]] — Weakness
+- [[02 Weaknesses CWE/CWE-553 - Command Shell in Externally Accessible Directory|CWE-553: Command Shell in Externally Accessible Directory]] — Weakness
+- [[02 Weaknesses CWE/CWE-554 - ASP.NET Misconfiguration- Not Using Input Validation Framework|CWE-554: ASP.NET Misconfiguration: Not Using Input Validation Framework]] — Weakness
+- [[02 Weaknesses CWE/CWE-555 - J2EE Misconfiguration- Plaintext Password in Configuration File|CWE-555: J2EE Misconfiguration: Plaintext Password in Configuration File]] — Weakness
+- [[02 Weaknesses CWE/CWE-556 - ASP.NET Misconfiguration- Use of Identity Impersonation|CWE-556: ASP.NET Misconfiguration: Use of Identity Impersonation]] — Weakness
+- [[02 Weaknesses CWE/CWE-558 - Use of getlogin() in Multithreaded Application|CWE-558: Use of getlogin() in Multithreaded Application]] — Weakness
+- [[02 Weaknesses CWE/CWE-56 - Path Equivalence- 'filedir-' (Wildcard)|CWE-56: Path Equivalence: 'filedir*' (Wildcard)]] — Weakness
+- [[02 Weaknesses CWE/CWE-560 - Use of umask() with chmod-style Argument|CWE-560: Use of umask() with chmod-style Argument]] — Weakness
+- [[02 Weaknesses CWE/CWE-561 - Dead Code|CWE-561: Dead Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-562 - Return of Stack Variable Address|CWE-562: Return of Stack Variable Address]] — Weakness
+- [[02 Weaknesses CWE/CWE-563 - Assignment to Variable without Use|CWE-563: Assignment to Variable without Use]] — Weakness
+- [[02 Weaknesses CWE/CWE-564 - SQL Injection- Hibernate|CWE-564: SQL Injection: Hibernate]] — Weakness
+- [[02 Weaknesses CWE/CWE-565 - Reliance on Cookies without Validation and Integrity Checking|CWE-565: Reliance on Cookies without Validation and Integrity Checking]] — Weakness
+- [[02 Weaknesses CWE/CWE-566 - Authorization Bypass Through User-Controlled SQL Primary Key|CWE-566: Authorization Bypass Through User-Controlled SQL Primary Key]] — Weakness
+- [[02 Weaknesses CWE/CWE-567 - Unsynchronized Access to Shared Data in a Multithreaded Context|CWE-567: Unsynchronized Access to Shared Data in a Multithreaded Context]] — Weakness
+- [[02 Weaknesses CWE/CWE-568 - finalize() Method Without super.finalize()|CWE-568: finalize() Method Without super.finalize()]] — Weakness
+- [[02 Weaknesses CWE/CWE-57 - Path Equivalence- 'fakedir-..-realdir-filename'|CWE-57: Path Equivalence: 'fakedir/../realdir/filename']] — Weakness
+- [[02 Weaknesses CWE/CWE-570 - Expression is Always False|CWE-570: Expression is Always False]] — Weakness
+- [[02 Weaknesses CWE/CWE-571 - Expression is Always True|CWE-571: Expression is Always True]] — Weakness
+- [[02 Weaknesses CWE/CWE-572 - Call to Thread run() instead of start()|CWE-572: Call to Thread run() instead of start()]] — Weakness
+- [[02 Weaknesses CWE/CWE-573 - Improper Following of Specification by Caller|CWE-573: Improper Following of Specification by Caller]] — Weakness
+- [[02 Weaknesses CWE/CWE-574 - EJB Bad Practices- Use of Synchronization Primitives|CWE-574: EJB Bad Practices: Use of Synchronization Primitives]] — Weakness
+- [[02 Weaknesses CWE/CWE-575 - EJB Bad Practices- Use of AWT Swing|CWE-575: EJB Bad Practices: Use of AWT Swing]] — Weakness
+- [[02 Weaknesses CWE/CWE-576 - EJB Bad Practices- Use of Java I-O|CWE-576: EJB Bad Practices: Use of Java I/O]] — Weakness
+- [[02 Weaknesses CWE/CWE-577 - EJB Bad Practices- Use of Sockets|CWE-577: EJB Bad Practices: Use of Sockets]] — Weakness
+- [[02 Weaknesses CWE/CWE-578 - EJB Bad Practices- Use of Class Loader|CWE-578: EJB Bad Practices: Use of Class Loader]] — Weakness
+- [[02 Weaknesses CWE/CWE-579 - J2EE Bad Practices- Non-serializable Object Stored in Session|CWE-579: J2EE Bad Practices: Non-serializable Object Stored in Session]] — Weakness
+- [[02 Weaknesses CWE/CWE-58 - Path Equivalence- Windows 8.3 Filename|CWE-58: Path Equivalence: Windows 8.3 Filename]] — Weakness
+- [[02 Weaknesses CWE/CWE-580 - clone() Method Without super.clone()|CWE-580: clone() Method Without super.clone()]] — Weakness
+- [[02 Weaknesses CWE/CWE-581 - Object Model Violation- Just One of Equals and Hashcode Defined|CWE-581: Object Model Violation: Just One of Equals and Hashcode Defined]] — Weakness
+- [[02 Weaknesses CWE/CWE-582 - Array Declared Public, Final, and Static|CWE-582: Array Declared Public, Final, and Static]] — Weakness
+- [[02 Weaknesses CWE/CWE-583 - finalize() Method Declared Public|CWE-583: finalize() Method Declared Public]] — Weakness
+- [[02 Weaknesses CWE/CWE-584 - Return Inside Finally Block|CWE-584: Return Inside Finally Block]] — Weakness
+- [[02 Weaknesses CWE/CWE-585 - Empty Synchronized Block|CWE-585: Empty Synchronized Block]] — Weakness
+- [[02 Weaknesses CWE/CWE-586 - Explicit Call to Finalize()|CWE-586: Explicit Call to Finalize()]] — Weakness
+- [[02 Weaknesses CWE/CWE-587 - Assignment of a Fixed Address to a Pointer|CWE-587: Assignment of a Fixed Address to a Pointer]] — Weakness
+- [[02 Weaknesses CWE/CWE-588 - Attempt to Access Child of a Non-structure Pointer|CWE-588: Attempt to Access Child of a Non-structure Pointer]] — Weakness
+- [[02 Weaknesses CWE/CWE-589 - Call to Non-ubiquitous API|CWE-589: Call to Non-ubiquitous API]] — Weakness
+- [[02 Weaknesses CWE/CWE-59 - Improper Link Resolution Before File Access ('Link Following')|CWE-59: Improper Link Resolution Before File Access ('Link Following')]] — Weakness
+- [[02 Weaknesses CWE/CWE-590 - Free of Memory not on the Heap|CWE-590: Free of Memory not on the Heap]] — Weakness
+- [[02 Weaknesses CWE/CWE-591 - Sensitive Data Storage in Improperly Locked Memory|CWE-591: Sensitive Data Storage in Improperly Locked Memory]] — Weakness
+- [[02 Weaknesses CWE/CWE-592 - DEPRECATED- Authentication Bypass Issues|CWE-592: DEPRECATED: Authentication Bypass Issues]] — Weakness
+- [[02 Weaknesses CWE/CWE-593 - Authentication Bypass- OpenSSL CTX Object Modified after SSL Objects are Created|CWE-593: Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created]] — Weakness
+- [[02 Weaknesses CWE/CWE-594 - J2EE Framework- Saving Unserializable Objects to Disk|CWE-594: J2EE Framework: Saving Unserializable Objects to Disk]] — Weakness
+- [[02 Weaknesses CWE/CWE-595 - Comparison of Object References Instead of Object Contents|CWE-595: Comparison of Object References Instead of Object Contents]] — Weakness
+- [[02 Weaknesses CWE/CWE-596 - DEPRECATED- Incorrect Semantic Object Comparison|CWE-596: DEPRECATED: Incorrect Semantic Object Comparison]] — Weakness
+- [[02 Weaknesses CWE/CWE-597 - Use of Wrong Operator in String Comparison|CWE-597: Use of Wrong Operator in String Comparison]] — Weakness
+- [[02 Weaknesses CWE/CWE-598 - Use of HTTP Request With Sensitive Query String|CWE-598: Use of HTTP Request With Sensitive Query String]] — Weakness
+- [[02 Weaknesses CWE/CWE-599 - Missing Validation of OpenSSL Certificate|CWE-599: Missing Validation of OpenSSL Certificate]] — Weakness
+- [[02 Weaknesses CWE/CWE-6 - J2EE Misconfiguration- Insufficient Session-ID Length|CWE-6: J2EE Misconfiguration: Insufficient Session-ID Length]] — Weakness
+- [[02 Weaknesses CWE/CWE-600 - Uncaught Exception in Servlet|CWE-600: Uncaught Exception in Servlet]] — Weakness
+- [[02 Weaknesses CWE/CWE-601 - URL Redirection to Untrusted Site ('Open Redirect')|CWE-601: URL Redirection to Untrusted Site ('Open Redirect')]] — Weakness
+- [[02 Weaknesses CWE/CWE-602 - Client-Side Enforcement of Server-Side Security|CWE-602: Client-Side Enforcement of Server-Side Security]] — Weakness
+- [[02 Weaknesses CWE/CWE-603 - Use of Client-Side Authentication|CWE-603: Use of Client-Side Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-605 - Multiple Binds to the Same Port|CWE-605: Multiple Binds to the Same Port]] — Weakness
+- [[02 Weaknesses CWE/CWE-606 - Unchecked Input for Loop Condition|CWE-606: Unchecked Input for Loop Condition]] — Weakness
+- [[02 Weaknesses CWE/CWE-607 - Public Static Final Field References Mutable Object|CWE-607: Public Static Final Field References Mutable Object]] — Weakness
+- [[02 Weaknesses CWE/CWE-608 - Struts- Non-private Field in ActionForm Class|CWE-608: Struts: Non-private Field in ActionForm Class]] — Weakness
+- [[02 Weaknesses CWE/CWE-609 - Double-Checked Locking|CWE-609: Double-Checked Locking]] — Weakness
+- [[02 Weaknesses CWE/CWE-61 - UNIX Symbolic Link (Symlink) Following|CWE-61: UNIX Symbolic Link (Symlink) Following]] — Weakness
+- [[02 Weaknesses CWE/CWE-610 - Externally Controlled Reference to a Resource in Another Sphere|CWE-610: Externally Controlled Reference to a Resource in Another Sphere]] — Weakness
+- [[02 Weaknesses CWE/CWE-611 - Improper Restriction of XML External Entity Reference|CWE-611: Improper Restriction of XML External Entity Reference]] — Weakness
+- [[02 Weaknesses CWE/CWE-612 - Improper Authorization of Index Containing Sensitive Information|CWE-612: Improper Authorization of Index Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-613 - Insufficient Session Expiration|CWE-613: Insufficient Session Expiration]] — Weakness
+- [[02 Weaknesses CWE/CWE-614 - Sensitive Cookie in HTTPS Session Without 'Secure' Attribute|CWE-614: Sensitive Cookie in HTTPS Session Without 'Secure' Attribute]] — Weakness
+- [[02 Weaknesses CWE/CWE-615 - Inclusion of Sensitive Information in Source Code Comments|CWE-615: Inclusion of Sensitive Information in Source Code Comments]] — Weakness
+- [[02 Weaknesses CWE/CWE-616 - Incomplete Identification of Uploaded File Variables (PHP)|CWE-616: Incomplete Identification of Uploaded File Variables (PHP)]] — Weakness
+- [[02 Weaknesses CWE/CWE-617 - Reachable Assertion|CWE-617: Reachable Assertion]] — Weakness
+- [[02 Weaknesses CWE/CWE-618 - Exposed Unsafe ActiveX Method|CWE-618: Exposed Unsafe ActiveX Method]] — Weakness
+- [[02 Weaknesses CWE/CWE-619 - Dangling Database Cursor ('Cursor Injection')|CWE-619: Dangling Database Cursor ('Cursor Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-62 - UNIX Hard Link|CWE-62: UNIX Hard Link]] — Weakness
+- [[02 Weaknesses CWE/CWE-620 - Unverified Password Change|CWE-620: Unverified Password Change]] — Weakness
+- [[02 Weaknesses CWE/CWE-621 - Variable Extraction Error|CWE-621: Variable Extraction Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-622 - Improper Validation of Function Hook Arguments|CWE-622: Improper Validation of Function Hook Arguments]] — Weakness
+- [[02 Weaknesses CWE/CWE-623 - Unsafe ActiveX Control Marked Safe For Scripting|CWE-623: Unsafe ActiveX Control Marked Safe For Scripting]] — Weakness
+- [[02 Weaknesses CWE/CWE-624 - Executable Regular Expression Error|CWE-624: Executable Regular Expression Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-625 - Permissive Regular Expression|CWE-625: Permissive Regular Expression]] — Weakness
+- [[02 Weaknesses CWE/CWE-626 - Null Byte Interaction Error (Poison Null Byte)|CWE-626: Null Byte Interaction Error (Poison Null Byte)]] — Weakness
+- [[02 Weaknesses CWE/CWE-627 - Dynamic Variable Evaluation|CWE-627: Dynamic Variable Evaluation]] — Weakness
+- [[02 Weaknesses CWE/CWE-628 - Function Call with Incorrectly Specified Arguments|CWE-628: Function Call with Incorrectly Specified Arguments]] — Weakness
+- [[02 Weaknesses CWE/CWE-636 - Not Failing Securely ('Failing Open')|CWE-636: Not Failing Securely ('Failing Open')]] — Weakness
+- [[02 Weaknesses CWE/CWE-637 - Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')|CWE-637: Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')]] — Weakness
+- [[02 Weaknesses CWE/CWE-638 - Not Using Complete Mediation|CWE-638: Not Using Complete Mediation]] — Weakness
+- [[02 Weaknesses CWE/CWE-639 - Authorization Bypass Through User-Controlled Key|CWE-639: Authorization Bypass Through User-Controlled Key]] — Weakness
+- [[02 Weaknesses CWE/CWE-64 - Windows Shortcut Following (.LNK)|CWE-64: Windows Shortcut Following (.LNK)]] — Weakness
+- [[02 Weaknesses CWE/CWE-640 - Weak Password Recovery Mechanism for Forgotten Password|CWE-640: Weak Password Recovery Mechanism for Forgotten Password]] — Weakness
+- [[02 Weaknesses CWE/CWE-641 - Improper Restriction of Names for Files and Other Resources|CWE-641: Improper Restriction of Names for Files and Other Resources]] — Weakness
+- [[02 Weaknesses CWE/CWE-642 - External Control of Critical State Data|CWE-642: External Control of Critical State Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-643 - Improper Neutralization of Data within XPath Expressions ('XPath Injection')|CWE-643: Improper Neutralization of Data within XPath Expressions ('XPath Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-644 - Improper Neutralization of HTTP Headers for Scripting Syntax|CWE-644: Improper Neutralization of HTTP Headers for Scripting Syntax]] — Weakness
+- [[02 Weaknesses CWE/CWE-645 - Overly Restrictive Account Lockout Mechanism|CWE-645: Overly Restrictive Account Lockout Mechanism]] — Weakness
+- [[02 Weaknesses CWE/CWE-646 - Reliance on File Name or Extension of Externally-Supplied File|CWE-646: Reliance on File Name or Extension of Externally-Supplied File]] — Weakness
+- [[02 Weaknesses CWE/CWE-647 - Use of Non-Canonical URL Paths for Authorization Decisions|CWE-647: Use of Non-Canonical URL Paths for Authorization Decisions]] — Weakness
+- [[02 Weaknesses CWE/CWE-648 - Incorrect Use of Privileged APIs|CWE-648: Incorrect Use of Privileged APIs]] — Weakness
+- [[02 Weaknesses CWE/CWE-649 - Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking|CWE-649: Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking]] — Weakness
+- [[02 Weaknesses CWE/CWE-65 - Windows Hard Link|CWE-65: Windows Hard Link]] — Weakness
+- [[02 Weaknesses CWE/CWE-650 - Trusting HTTP Permission Methods on the Server Side|CWE-650: Trusting HTTP Permission Methods on the Server Side]] — Weakness
+- [[02 Weaknesses CWE/CWE-651 - Exposure of WSDL File Containing Sensitive Information|CWE-651: Exposure of WSDL File Containing Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-652 - Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')|CWE-652: Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-653 - Improper Isolation or Compartmentalization|CWE-653: Improper Isolation or Compartmentalization]] — Weakness
+- [[02 Weaknesses CWE/CWE-654 - Reliance on a Single Factor in a Security Decision|CWE-654: Reliance on a Single Factor in a Security Decision]] — Weakness
+- [[02 Weaknesses CWE/CWE-655 - Insufficient Psychological Acceptability|CWE-655: Insufficient Psychological Acceptability]] — Weakness
+- [[02 Weaknesses CWE/CWE-656 - Reliance on Security Through Obscurity|CWE-656: Reliance on Security Through Obscurity]] — Weakness
+- [[02 Weaknesses CWE/CWE-657 - Violation of Secure Design Principles|CWE-657: Violation of Secure Design Principles]] — Weakness
+- [[02 Weaknesses CWE/CWE-66 - Improper Handling of File Names that Identify Virtual Resources|CWE-66: Improper Handling of File Names that Identify Virtual Resources]] — Weakness
+- [[02 Weaknesses CWE/CWE-662 - Improper Synchronization|CWE-662: Improper Synchronization]] — Weakness
+- [[02 Weaknesses CWE/CWE-663 - Use of a Non-reentrant Function in a Concurrent Context|CWE-663: Use of a Non-reentrant Function in a Concurrent Context]] — Weakness
+- [[02 Weaknesses CWE/CWE-664 - Improper Control of a Resource Through its Lifetime|CWE-664: Improper Control of a Resource Through its Lifetime]] — Weakness
+- [[02 Weaknesses CWE/CWE-665 - Improper Initialization|CWE-665: Improper Initialization]] — Weakness
+- [[02 Weaknesses CWE/CWE-666 - Operation on Resource in Wrong Phase of Lifetime|CWE-666: Operation on Resource in Wrong Phase of Lifetime]] — Weakness
+- [[02 Weaknesses CWE/CWE-667 - Improper Locking|CWE-667: Improper Locking]] — Weakness
+- [[02 Weaknesses CWE/CWE-668 - Exposure of Resource to Wrong Sphere|CWE-668: Exposure of Resource to Wrong Sphere]] — Weakness
+- [[02 Weaknesses CWE/CWE-669 - Incorrect Resource Transfer Between Spheres|CWE-669: Incorrect Resource Transfer Between Spheres]] — Weakness
+- [[02 Weaknesses CWE/CWE-67 - Improper Handling of Windows Device Names|CWE-67: Improper Handling of Windows Device Names]] — Weakness
+- [[02 Weaknesses CWE/CWE-670 - Always-Incorrect Control Flow Implementation|CWE-670: Always-Incorrect Control Flow Implementation]] — Weakness
+- [[02 Weaknesses CWE/CWE-671 - Lack of Administrator Control over Security|CWE-671: Lack of Administrator Control over Security]] — Weakness
+- [[02 Weaknesses CWE/CWE-672 - Operation on a Resource after Expiration or Release|CWE-672: Operation on a Resource after Expiration or Release]] — Weakness
+- [[02 Weaknesses CWE/CWE-673 - External Influence of Sphere Definition|CWE-673: External Influence of Sphere Definition]] — Weakness
+- [[02 Weaknesses CWE/CWE-674 - Uncontrolled Recursion|CWE-674: Uncontrolled Recursion]] — Weakness
+- [[02 Weaknesses CWE/CWE-675 - Multiple Operations on Resource in Single-Operation Context|CWE-675: Multiple Operations on Resource in Single-Operation Context]] — Weakness
+- [[02 Weaknesses CWE/CWE-676 - Use of Potentially Dangerous Function|CWE-676: Use of Potentially Dangerous Function]] — Weakness
+- [[02 Weaknesses CWE/CWE-680 - Integer Overflow to Buffer Overflow|CWE-680: Integer Overflow to Buffer Overflow]] — Weakness
+- [[02 Weaknesses CWE/CWE-681 - Incorrect Conversion between Numeric Types|CWE-681: Incorrect Conversion between Numeric Types]] — Weakness
+- [[02 Weaknesses CWE/CWE-682 - Incorrect Calculation|CWE-682: Incorrect Calculation]] — Weakness
+- [[02 Weaknesses CWE/CWE-683 - Function Call With Incorrect Order of Arguments|CWE-683: Function Call With Incorrect Order of Arguments]] — Weakness
+- [[02 Weaknesses CWE/CWE-684 - Incorrect Provision of Specified Functionality|CWE-684: Incorrect Provision of Specified Functionality]] — Weakness
+- [[02 Weaknesses CWE/CWE-685 - Function Call With Incorrect Number of Arguments|CWE-685: Function Call With Incorrect Number of Arguments]] — Weakness
+- [[02 Weaknesses CWE/CWE-686 - Function Call With Incorrect Argument Type|CWE-686: Function Call With Incorrect Argument Type]] — Weakness
+- [[02 Weaknesses CWE/CWE-687 - Function Call With Incorrectly Specified Argument Value|CWE-687: Function Call With Incorrectly Specified Argument Value]] — Weakness
+- [[02 Weaknesses CWE/CWE-688 - Function Call With Incorrect Variable or Reference as Argument|CWE-688: Function Call With Incorrect Variable or Reference as Argument]] — Weakness
+- [[02 Weaknesses CWE/CWE-689 - Permission Race Condition During Resource Copy|CWE-689: Permission Race Condition During Resource Copy]] — Weakness
+- [[02 Weaknesses CWE/CWE-69 - Improper Handling of Windows --DATA Alternate Data Stream|CWE-69: Improper Handling of Windows ::DATA Alternate Data Stream]] — Weakness
+- [[02 Weaknesses CWE/CWE-690 - Unchecked Return Value to NULL Pointer Dereference|CWE-690: Unchecked Return Value to NULL Pointer Dereference]] — Weakness
+- [[02 Weaknesses CWE/CWE-691 - Insufficient Control Flow Management|CWE-691: Insufficient Control Flow Management]] — Weakness
+- [[02 Weaknesses CWE/CWE-692 - Incomplete Denylist to Cross-Site Scripting|CWE-692: Incomplete Denylist to Cross-Site Scripting]] — Weakness
+- [[02 Weaknesses CWE/CWE-693 - Protection Mechanism Failure|CWE-693: Protection Mechanism Failure]] — Weakness
+- [[02 Weaknesses CWE/CWE-694 - Use of Multiple Resources with Duplicate Identifier|CWE-694: Use of Multiple Resources with Duplicate Identifier]] — Weakness
+- [[02 Weaknesses CWE/CWE-695 - Use of Low-Level Functionality|CWE-695: Use of Low-Level Functionality]] — Weakness
+- [[02 Weaknesses CWE/CWE-696 - Incorrect Behavior Order|CWE-696: Incorrect Behavior Order]] — Weakness
+- [[02 Weaknesses CWE/CWE-697 - Incorrect Comparison|CWE-697: Incorrect Comparison]] — Weakness
+- [[02 Weaknesses CWE/CWE-698 - Execution After Redirect (EAR)|CWE-698: Execution After Redirect (EAR)]] — Weakness
+- [[02 Weaknesses CWE/CWE-7 - J2EE Misconfiguration- Missing Custom Error Page|CWE-7: J2EE Misconfiguration: Missing Custom Error Page]] — Weakness
+- [[02 Weaknesses CWE/CWE-703 - Improper Check or Handling of Exceptional Conditions|CWE-703: Improper Check or Handling of Exceptional Conditions]] — Weakness
+- [[02 Weaknesses CWE/CWE-704 - Incorrect Type Conversion or Cast|CWE-704: Incorrect Type Conversion or Cast]] — Weakness
+- [[02 Weaknesses CWE/CWE-705 - Incorrect Control Flow Scoping|CWE-705: Incorrect Control Flow Scoping]] — Weakness
+- [[02 Weaknesses CWE/CWE-706 - Use of Incorrectly-Resolved Name or Reference|CWE-706: Use of Incorrectly-Resolved Name or Reference]] — Weakness
+- [[02 Weaknesses CWE/CWE-707 - Improper Neutralization|CWE-707: Improper Neutralization]] — Weakness
+- [[02 Weaknesses CWE/CWE-708 - Incorrect Ownership Assignment|CWE-708: Incorrect Ownership Assignment]] — Weakness
+- [[02 Weaknesses CWE/CWE-71 - DEPRECATED- Apple '.DS_Store'|CWE-71: DEPRECATED: Apple '.DS_Store']] — Weakness
+- [[02 Weaknesses CWE/CWE-710 - Improper Adherence to Coding Standards|CWE-710: Improper Adherence to Coding Standards]] — Weakness
+- [[02 Weaknesses CWE/CWE-72 - Improper Handling of Apple HFS+ Alternate Data Stream Path|CWE-72: Improper Handling of Apple HFS+ Alternate Data Stream Path]] — Weakness
+- [[02 Weaknesses CWE/CWE-73 - External Control of File Name or Path|CWE-73: External Control of File Name or Path]] — Weakness
+- [[02 Weaknesses CWE/CWE-732 - Incorrect Permission Assignment for Critical Resource|CWE-732: Incorrect Permission Assignment for Critical Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-733 - Compiler Optimization Removal or Modification of Security-critical Code|CWE-733: Compiler Optimization Removal or Modification of Security-critical Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-74 - Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')|CWE-74: Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-749 - Exposed Dangerous Method or Function|CWE-749: Exposed Dangerous Method or Function]] — Weakness
+- [[02 Weaknesses CWE/CWE-75 - Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)|CWE-75: Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)]] — Weakness
+- [[02 Weaknesses CWE/CWE-754 - Improper Check for Unusual or Exceptional Conditions|CWE-754: Improper Check for Unusual or Exceptional Conditions]] — Weakness
+- [[02 Weaknesses CWE/CWE-755 - Improper Handling of Exceptional Conditions|CWE-755: Improper Handling of Exceptional Conditions]] — Weakness
+- [[02 Weaknesses CWE/CWE-756 - Missing Custom Error Page|CWE-756: Missing Custom Error Page]] — Weakness
+- [[02 Weaknesses CWE/CWE-757 - Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')|CWE-757: Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')]] — Weakness
+- [[02 Weaknesses CWE/CWE-758 - Reliance on Undefined, Unspecified, or Implementation-Defined Behavior|CWE-758: Reliance on Undefined, Unspecified, or Implementation-Defined Behavior]] — Weakness
+- [[02 Weaknesses CWE/CWE-759 - Use of a One-Way Hash without a Salt|CWE-759: Use of a One-Way Hash without a Salt]] — Weakness
+- [[02 Weaknesses CWE/CWE-76 - Improper Neutralization of Equivalent Special Elements|CWE-76: Improper Neutralization of Equivalent Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-760 - Use of a One-Way Hash with a Predictable Salt|CWE-760: Use of a One-Way Hash with a Predictable Salt]] — Weakness
+- [[02 Weaknesses CWE/CWE-761 - Free of Pointer not at Start of Buffer|CWE-761: Free of Pointer not at Start of Buffer]] — Weakness
+- [[02 Weaknesses CWE/CWE-762 - Mismatched Memory Management Routines|CWE-762: Mismatched Memory Management Routines]] — Weakness
+- [[02 Weaknesses CWE/CWE-763 - Release of Invalid Pointer or Reference|CWE-763: Release of Invalid Pointer or Reference]] — Weakness
+- [[02 Weaknesses CWE/CWE-764 - Multiple Locks of a Critical Resource|CWE-764: Multiple Locks of a Critical Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-765 - Multiple Unlocks of a Critical Resource|CWE-765: Multiple Unlocks of a Critical Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-766 - Critical Data Element Declared Public|CWE-766: Critical Data Element Declared Public]] — Weakness
+- [[02 Weaknesses CWE/CWE-767 - Access to Critical Private Variable via Public Method|CWE-767: Access to Critical Private Variable via Public Method]] — Weakness
+- [[02 Weaknesses CWE/CWE-768 - Incorrect Short Circuit Evaluation|CWE-768: Incorrect Short Circuit Evaluation]] — Weakness
+- [[02 Weaknesses CWE/CWE-769 - DEPRECATED- Uncontrolled File Descriptor Consumption|CWE-769: DEPRECATED: Uncontrolled File Descriptor Consumption]] — Weakness
+- [[02 Weaknesses CWE/CWE-77 - Improper Neutralization of Special Elements used in a Command ('Command Injection')|CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-770 - Allocation of Resources Without Limits or Throttling|CWE-770: Allocation of Resources Without Limits or Throttling]] — Weakness
+- [[02 Weaknesses CWE/CWE-771 - Missing Reference to Active Allocated Resource|CWE-771: Missing Reference to Active Allocated Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-772 - Missing Release of Resource after Effective Lifetime|CWE-772: Missing Release of Resource after Effective Lifetime]] — Weakness
+- [[02 Weaknesses CWE/CWE-773 - Missing Reference to Active File Descriptor or Handle|CWE-773: Missing Reference to Active File Descriptor or Handle]] — Weakness
+- [[02 Weaknesses CWE/CWE-774 - Allocation of File Descriptors or Handles Without Limits or Throttling|CWE-774: Allocation of File Descriptors or Handles Without Limits or Throttling]] — Weakness
+- [[02 Weaknesses CWE/CWE-775 - Missing Release of File Descriptor or Handle after Effective Lifetime|CWE-775: Missing Release of File Descriptor or Handle after Effective Lifetime]] — Weakness
+- [[02 Weaknesses CWE/CWE-776 - Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')|CWE-776: Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')]] — Weakness
+- [[02 Weaknesses CWE/CWE-777 - Regular Expression without Anchors|CWE-777: Regular Expression without Anchors]] — Weakness
+- [[02 Weaknesses CWE/CWE-778 - Insufficient Logging|CWE-778: Insufficient Logging]] — Weakness
+- [[02 Weaknesses CWE/CWE-779 - Logging of Excessive Data|CWE-779: Logging of Excessive Data]] — Weakness
+- [[02 Weaknesses CWE/CWE-78 - Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')|CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-780 - Use of RSA Algorithm without OAEP|CWE-780: Use of RSA Algorithm without OAEP]] — Weakness
+- [[02 Weaknesses CWE/CWE-781 - Improper Address Validation in IOCTL with METHOD_NEITHER I-O Control Code|CWE-781: Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code]] — Weakness
+- [[02 Weaknesses CWE/CWE-782 - Exposed IOCTL with Insufficient Access Control|CWE-782: Exposed IOCTL with Insufficient Access Control]] — Weakness
+- [[02 Weaknesses CWE/CWE-783 - Operator Precedence Logic Error|CWE-783: Operator Precedence Logic Error]] — Weakness
+- [[02 Weaknesses CWE/CWE-784 - Reliance on Cookies without Validation and Integrity Checking in a Security Decision|CWE-784: Reliance on Cookies without Validation and Integrity Checking in a Security Decision]] — Weakness
+- [[02 Weaknesses CWE/CWE-785 - Use of Path Manipulation Function without Maximum-sized Buffer|CWE-785: Use of Path Manipulation Function without Maximum-sized Buffer]] — Weakness
+- [[02 Weaknesses CWE/CWE-786 - Access of Memory Location Before Start of Buffer|CWE-786: Access of Memory Location Before Start of Buffer]] — Weakness
+- [[02 Weaknesses CWE/CWE-787 - Out-of-bounds Write|CWE-787: Out-of-bounds Write]] — Weakness
+- [[02 Weaknesses CWE/CWE-788 - Access of Memory Location After End of Buffer|CWE-788: Access of Memory Location After End of Buffer]] — Weakness
+- [[02 Weaknesses CWE/CWE-789 - Memory Allocation with Excessive Size Value|CWE-789: Memory Allocation with Excessive Size Value]] — Weakness
+- [[02 Weaknesses CWE/CWE-79 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')|CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')]] — Weakness
+- [[02 Weaknesses CWE/CWE-790 - Improper Filtering of Special Elements|CWE-790: Improper Filtering of Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-791 - Incomplete Filtering of Special Elements|CWE-791: Incomplete Filtering of Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-792 - Incomplete Filtering of One or More Instances of Special Elements|CWE-792: Incomplete Filtering of One or More Instances of Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-793 - Only Filtering One Instance of a Special Element|CWE-793: Only Filtering One Instance of a Special Element]] — Weakness
+- [[02 Weaknesses CWE/CWE-794 - Incomplete Filtering of Multiple Instances of Special Elements|CWE-794: Incomplete Filtering of Multiple Instances of Special Elements]] — Weakness
+- [[02 Weaknesses CWE/CWE-795 - Only Filtering Special Elements at a Specified Location|CWE-795: Only Filtering Special Elements at a Specified Location]] — Weakness
+- [[02 Weaknesses CWE/CWE-796 - Only Filtering Special Elements Relative to a Marker|CWE-796: Only Filtering Special Elements Relative to a Marker]] — Weakness
+- [[02 Weaknesses CWE/CWE-797 - Only Filtering Special Elements at an Absolute Position|CWE-797: Only Filtering Special Elements at an Absolute Position]] — Weakness
+- [[02 Weaknesses CWE/CWE-798 - Use of Hard-coded Credentials|CWE-798: Use of Hard-coded Credentials]] — Weakness
+- [[02 Weaknesses CWE/CWE-799 - Improper Control of Interaction Frequency|CWE-799: Improper Control of Interaction Frequency]] — Weakness
+- [[02 Weaknesses CWE/CWE-8 - J2EE Misconfiguration- Entity Bean Declared Remote|CWE-8: J2EE Misconfiguration: Entity Bean Declared Remote]] — Weakness
+- [[02 Weaknesses CWE/CWE-80 - Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)|CWE-80: Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)]] — Weakness
+- [[02 Weaknesses CWE/CWE-804 - Guessable CAPTCHA|CWE-804: Guessable CAPTCHA]] — Weakness
+- [[02 Weaknesses CWE/CWE-805 - Buffer Access with Incorrect Length Value|CWE-805: Buffer Access with Incorrect Length Value]] — Weakness
+- [[02 Weaknesses CWE/CWE-806 - Buffer Access Using Size of Source Buffer|CWE-806: Buffer Access Using Size of Source Buffer]] — Weakness
+- [[02 Weaknesses CWE/CWE-807 - Reliance on Untrusted Inputs in a Security Decision|CWE-807: Reliance on Untrusted Inputs in a Security Decision]] — Weakness
+- [[02 Weaknesses CWE/CWE-81 - Improper Neutralization of Script in an Error Message Web Page|CWE-81: Improper Neutralization of Script in an Error Message Web Page]] — Weakness
+- [[02 Weaknesses CWE/CWE-82 - Improper Neutralization of Script in Attributes of IMG Tags in a Web Page|CWE-82: Improper Neutralization of Script in Attributes of IMG Tags in a Web Page]] — Weakness
+- [[02 Weaknesses CWE/CWE-820 - Missing Synchronization|CWE-820: Missing Synchronization]] — Weakness
+- [[02 Weaknesses CWE/CWE-821 - Incorrect Synchronization|CWE-821: Incorrect Synchronization]] — Weakness
+- [[02 Weaknesses CWE/CWE-822 - Untrusted Pointer Dereference|CWE-822: Untrusted Pointer Dereference]] — Weakness
+- [[02 Weaknesses CWE/CWE-823 - Use of Out-of-range Pointer Offset|CWE-823: Use of Out-of-range Pointer Offset]] — Weakness
+- [[02 Weaknesses CWE/CWE-824 - Access of Uninitialized Pointer|CWE-824: Access of Uninitialized Pointer]] — Weakness
+- [[02 Weaknesses CWE/CWE-825 - Expired Pointer Dereference|CWE-825: Expired Pointer Dereference]] — Weakness
+- [[02 Weaknesses CWE/CWE-826 - Premature Release of Resource During Expected Lifetime|CWE-826: Premature Release of Resource During Expected Lifetime]] — Weakness
+- [[02 Weaknesses CWE/CWE-827 - Improper Control of Document Type Definition|CWE-827: Improper Control of Document Type Definition]] — Weakness
+- [[02 Weaknesses CWE/CWE-828 - Signal Handler with Functionality that is not Asynchronous-Safe|CWE-828: Signal Handler with Functionality that is not Asynchronous-Safe]] — Weakness
+- [[02 Weaknesses CWE/CWE-829 - Inclusion of Functionality from Untrusted Control Sphere|CWE-829: Inclusion of Functionality from Untrusted Control Sphere]] — Weakness
+- [[02 Weaknesses CWE/CWE-83 - Improper Neutralization of Script in Attributes in a Web Page|CWE-83: Improper Neutralization of Script in Attributes in a Web Page]] — Weakness
+- [[02 Weaknesses CWE/CWE-830 - Inclusion of Web Functionality from an Untrusted Source|CWE-830: Inclusion of Web Functionality from an Untrusted Source]] — Weakness
+- [[02 Weaknesses CWE/CWE-831 - Signal Handler Function Associated with Multiple Signals|CWE-831: Signal Handler Function Associated with Multiple Signals]] — Weakness
+- [[02 Weaknesses CWE/CWE-832 - Unlock of a Resource that is not Locked|CWE-832: Unlock of a Resource that is not Locked]] — Weakness
+- [[02 Weaknesses CWE/CWE-833 - Deadlock|CWE-833: Deadlock]] — Weakness
+- [[02 Weaknesses CWE/CWE-834 - Excessive Iteration|CWE-834: Excessive Iteration]] — Weakness
+- [[02 Weaknesses CWE/CWE-835 - Loop with Unreachable Exit Condition ('Infinite Loop')|CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')]] — Weakness
+- [[02 Weaknesses CWE/CWE-836 - Use of Password Hash Instead of Password for Authentication|CWE-836: Use of Password Hash Instead of Password for Authentication]] — Weakness
+- [[02 Weaknesses CWE/CWE-837 - Improper Enforcement of a Single, Unique Action|CWE-837: Improper Enforcement of a Single, Unique Action]] — Weakness
+- [[02 Weaknesses CWE/CWE-838 - Inappropriate Encoding for Output Context|CWE-838: Inappropriate Encoding for Output Context]] — Weakness
+- [[02 Weaknesses CWE/CWE-839 - Numeric Range Comparison Without Minimum Check|CWE-839: Numeric Range Comparison Without Minimum Check]] — Weakness
+- [[02 Weaknesses CWE/CWE-84 - Improper Neutralization of Encoded URI Schemes in a Web Page|CWE-84: Improper Neutralization of Encoded URI Schemes in a Web Page]] — Weakness
+- [[02 Weaknesses CWE/CWE-841 - Improper Enforcement of Behavioral Workflow|CWE-841: Improper Enforcement of Behavioral Workflow]] — Weakness
+- [[02 Weaknesses CWE/CWE-842 - Placement of User into Incorrect Group|CWE-842: Placement of User into Incorrect Group]] — Weakness
+- [[02 Weaknesses CWE/CWE-843 - Access of Resource Using Incompatible Type ('Type Confusion')|CWE-843: Access of Resource Using Incompatible Type ('Type Confusion')]] — Weakness
+- [[02 Weaknesses CWE/CWE-85 - Doubled Character XSS Manipulations|CWE-85: Doubled Character XSS Manipulations]] — Weakness
+- [[02 Weaknesses CWE/CWE-86 - Improper Neutralization of Invalid Characters in Identifiers in Web Pages|CWE-86: Improper Neutralization of Invalid Characters in Identifiers in Web Pages]] — Weakness
+- [[02 Weaknesses CWE/CWE-862 - Missing Authorization|CWE-862: Missing Authorization]] — Weakness
+- [[02 Weaknesses CWE/CWE-863 - Incorrect Authorization|CWE-863: Incorrect Authorization]] — Weakness
+- [[02 Weaknesses CWE/CWE-87 - Improper Neutralization of Alternate XSS Syntax|CWE-87: Improper Neutralization of Alternate XSS Syntax]] — Weakness
+- [[02 Weaknesses CWE/CWE-88 - Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')|CWE-88: Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-89 - Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')|CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-9 - J2EE Misconfiguration- Weak Access Permissions for EJB Methods|CWE-9: J2EE Misconfiguration: Weak Access Permissions for EJB Methods]] — Weakness
+- [[02 Weaknesses CWE/CWE-90 - Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')|CWE-90: Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-908 - Use of Uninitialized Resource|CWE-908: Use of Uninitialized Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-909 - Missing Initialization of Resource|CWE-909: Missing Initialization of Resource]] — Weakness
+- [[02 Weaknesses CWE/CWE-91 - XML Injection (aka Blind XPath Injection)|CWE-91: XML Injection (aka Blind XPath Injection)]] — Weakness
+- [[02 Weaknesses CWE/CWE-910 - Use of Expired File Descriptor|CWE-910: Use of Expired File Descriptor]] — Weakness
+- [[02 Weaknesses CWE/CWE-911 - Improper Update of Reference Count|CWE-911: Improper Update of Reference Count]] — Weakness
+- [[02 Weaknesses CWE/CWE-912 - Hidden Functionality|CWE-912: Hidden Functionality]] — Weakness
+- [[02 Weaknesses CWE/CWE-913 - Improper Control of Dynamically-Managed Code Resources|CWE-913: Improper Control of Dynamically-Managed Code Resources]] — Weakness
+- [[02 Weaknesses CWE/CWE-914 - Improper Control of Dynamically-Identified Variables|CWE-914: Improper Control of Dynamically-Identified Variables]] — Weakness
+- [[02 Weaknesses CWE/CWE-915 - Improperly Controlled Modification of Dynamically-Determined Object Attributes|CWE-915: Improperly Controlled Modification of Dynamically-Determined Object Attributes]] — Weakness
+- [[02 Weaknesses CWE/CWE-916 - Use of Password Hash With Insufficient Computational Effort|CWE-916: Use of Password Hash With Insufficient Computational Effort]] — Weakness
+- [[02 Weaknesses CWE/CWE-917 - Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression La|CWE-917: Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-918 - Server-Side Request Forgery (SSRF)|CWE-918: Server-Side Request Forgery (SSRF)]] — Weakness
+- [[02 Weaknesses CWE/CWE-92 - DEPRECATED- Improper Sanitization of Custom Special Characters|CWE-92: DEPRECATED: Improper Sanitization of Custom Special Characters]] — Weakness
+- [[02 Weaknesses CWE/CWE-920 - Improper Restriction of Power Consumption|CWE-920: Improper Restriction of Power Consumption]] — Weakness
+- [[02 Weaknesses CWE/CWE-921 - Storage of Sensitive Data in a Mechanism without Access Control|CWE-921: Storage of Sensitive Data in a Mechanism without Access Control]] — Weakness
+- [[02 Weaknesses CWE/CWE-922 - Insecure Storage of Sensitive Information|CWE-922: Insecure Storage of Sensitive Information]] — Weakness
+- [[02 Weaknesses CWE/CWE-923 - Improper Restriction of Communication Channel to Intended Endpoints|CWE-923: Improper Restriction of Communication Channel to Intended Endpoints]] — Weakness
+- [[02 Weaknesses CWE/CWE-924 - Improper Enforcement of Message Integrity During Transmission in a Communication Channel|CWE-924: Improper Enforcement of Message Integrity During Transmission in a Communication Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-925 - Improper Verification of Intent by Broadcast Receiver|CWE-925: Improper Verification of Intent by Broadcast Receiver]] — Weakness
+- [[02 Weaknesses CWE/CWE-926 - Improper Export of Android Application Components|CWE-926: Improper Export of Android Application Components]] — Weakness
+- [[02 Weaknesses CWE/CWE-927 - Use of Implicit Intent for Sensitive Communication|CWE-927: Use of Implicit Intent for Sensitive Communication]] — Weakness
+- [[02 Weaknesses CWE/CWE-93 - Improper Neutralization of CRLF Sequences ('CRLF Injection')|CWE-93: Improper Neutralization of CRLF Sequences ('CRLF Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-939 - Improper Authorization in Handler for Custom URL Scheme|CWE-939: Improper Authorization in Handler for Custom URL Scheme]] — Weakness
+- [[02 Weaknesses CWE/CWE-94 - Improper Control of Generation of Code ('Code Injection')|CWE-94: Improper Control of Generation of Code ('Code Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-940 - Improper Verification of Source of a Communication Channel|CWE-940: Improper Verification of Source of a Communication Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-941 - Incorrectly Specified Destination in a Communication Channel|CWE-941: Incorrectly Specified Destination in a Communication Channel]] — Weakness
+- [[02 Weaknesses CWE/CWE-942 - Permissive Cross-domain Security Policy with Untrusted Domains|CWE-942: Permissive Cross-domain Security Policy with Untrusted Domains]] — Weakness
+- [[02 Weaknesses CWE/CWE-943 - Improper Neutralization of Special Elements in Data Query Logic|CWE-943: Improper Neutralization of Special Elements in Data Query Logic]] — Weakness
+- [[02 Weaknesses CWE/CWE-95 - Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')|CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-96 - Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')|CWE-96: Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')]] — Weakness
+- [[02 Weaknesses CWE/CWE-97 - Improper Neutralization of Server-Side Includes (SSI) Within a Web Page|CWE-97: Improper Neutralization of Server-Side Includes (SSI) Within a Web Page]] — Weakness
+- [[02 Weaknesses CWE/CWE-98 - Improper Control of Filename for Include-Require Statement in PHP Program ('PHP Remote File Inclusio|CWE-98: Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion')]] — Weakness
+- [[02 Weaknesses CWE/CWE-99 - Improper Control of Resource Identifiers ('Resource Injection')|CWE-99: Improper Control of Resource Identifiers ('Resource Injection')]] — Weakness

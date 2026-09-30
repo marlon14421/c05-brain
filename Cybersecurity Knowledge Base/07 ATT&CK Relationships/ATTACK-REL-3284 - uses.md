@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "uses"
+source_object: "G0095"
+target_object: "T1189"
+stix_relationship_id: "relationship--bb2be1f4-f2fc-4029-8ee6-e89f52210dfd"
+---
+# Relationship 3284: G0095 — uses → T1189
+
+**Source object:** [[01 ATT&CK/G0095 - Machete|G0095: Machete]]  
+**Relationship:** `uses`  
+**Target object:** [[01 ATT&CK/T1189 - Drive-by Compromise|T1189: Drive-by Compromise]]
+
+## Meaning for defensive analysis
+
+Connects a behavior, group, campaign, or software object to something it uses. This is a catalog relationship, not proof of current activity.
+
+## Source description
+
+[Machete](https://attack.mitre.org/groups/G0095) has distributed [Machete](https://attack.mitre.org/software/S0409) through a fake blog website.(Citation: Securelist Machete Aug 2014)
+
+## How an AI should use this fact
+
+Retrieve this edge together with both linked records. Preserve its direction and relationship label, cite the source object identifiers, and avoid upgrading a catalog association into an incident claim. For operational recommendations, inspect the linked records and corroborate against current telemetry and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK STIX Enterprise dataset](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--bb2be1f4-f2fc-4029-8ee6-e89f52210dfd`.

@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "uses"
+source_object: "S1081"
+target_object: "T1071.001"
+stix_relationship_id: "relationship--52625b6a-41f0-4e87-ba03-5c037425c245"
+---
+# Relationship 6812: S1081 — uses → T1071.001
+
+**Source object:** [[01 ATT&CK/S1081 - BADHATCH|S1081: BADHATCH]]  
+**Relationship:** `uses`  
+**Target object:** [[01 ATT&CK/T1071.001 - Web Protocols|T1071.001: Web Protocols]]
+
+## Defensive meaning
+
+Records a catalog association between the source object and something it uses. This is not evidence that the behavior is active in a particular environment.
+
+## Source description
+
+[BADHATCH](https://attack.mitre.org/software/S1081) can use HTTP and HTTPS over port 443 to communicate with actor-controlled C2 servers.(Citation: Gigamon BADHATCH Jul 2019)(Citation: BitDefender BADHATCH Mar 2021)
+
+## AI use
+
+Retrieve this edge with both endpoint records. Preserve direction and type, cite the identifiers, and distinguish catalog information from observed events. Verify recommendations against current environment evidence and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--52625b6a-41f0-4e87-ba03-5c037425c245`.

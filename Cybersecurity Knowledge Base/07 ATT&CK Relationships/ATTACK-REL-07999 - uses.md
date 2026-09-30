@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "uses"
+source_object: "S0115"
+target_object: "T1041"
+stix_relationship_id: "relationship--7953c8bf-2e44-45e9-90f5-4db5da4ad8c2"
+---
+# Relationship 7999: S0115 — uses → T1041
+
+**Source object:** [[01 ATT&CK/S0115 - Crimson|S0115: Crimson]]  
+**Relationship:** `uses`  
+**Target object:** [[01 ATT&CK/T1041 - Exfiltration Over C2 Channel|T1041: Exfiltration Over C2 Channel]]
+
+## Defensive meaning
+
+Records a catalog association between the source object and something it uses. This is not evidence that the behavior is active in a particular environment.
+
+## Source description
+
+[Crimson](https://attack.mitre.org/software/S0115) can exfiltrate stolen information over its C2.(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)
+
+## AI use
+
+Retrieve this edge with both endpoint records. Preserve direction and type, cite the identifiers, and distinguish catalog information from observed events. Verify recommendations against current environment evidence and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--7953c8bf-2e44-45e9-90f5-4db5da4ad8c2`.

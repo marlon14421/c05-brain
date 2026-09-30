@@ -1,0 +1,29 @@
+---
+type: "ATT&CK Relationship"
+source: "MITRE ATT&CK Enterprise STIX"
+relationship: "uses"
+source_object: "S0236"
+target_object: "T1027.013"
+stix_relationship_id: "relationship--5550ef5e-a34c-4055-b7be-dd41d76ef7b1"
+---
+# Relationship 9020: S0236 — uses → T1027.013
+
+**Source object:** [[01 ATT&CK/S0236 - Kwampirs|S0236: Kwampirs]]  
+**Relationship:** `uses`  
+**Target object:** [[01 ATT&CK/T1027.013 - Encrypted-Encoded File|T1027.013: Encrypted/Encoded File]]
+
+## Defensive meaning
+
+Records a catalog association between the source object and something it uses. This is not evidence that the behavior is active in a particular environment.
+
+## Source description
+
+[Kwampirs](https://attack.mitre.org/software/S0236) downloads additional files that are base64-encoded and encrypted with another cipher.(Citation: Symantec Security Center Trojan.Kwampirs)
+
+## AI use
+
+Retrieve this edge with both endpoint records. Preserve direction and type, cite the identifiers, and distinguish catalog information from observed events. Verify recommendations against current environment evidence and authoritative product guidance.
+
+## Provenance
+
+[MITRE ATT&CK Enterprise STIX](https://github.com/mitre/cti/tree/master/enterprise-attack), snapshot downloaded 2026-09-30. STIX relationship ID: `relationship--5550ef5e-a34c-4055-b7be-dd41d76ef7b1`.
