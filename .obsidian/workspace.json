@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5c1dac90db3f2d1c",
+        "id": "554960b4e2aeffe2",
         "type": "tabs",
         "children": [
           {
-            "id": "1fa28f7a03628f38",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Neuer Tab"
-            }
-          }
-        ]
-      },
-      {
-        "id": "dec7ac9c681ac9fe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c373e4bc65391f62",
+            "id": "90b7df0d99009db9",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -171,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Willkommen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -198,8 +181,43 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "40cf9c876f519112",
+  "active": "90b7df0d99009db9",
   "lastOpenFiles": [
-    "Willkommen.md"
+    "README.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/Index - Additional 5000.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-10000 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09999 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09998 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09997 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09996 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09995 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09994 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09993 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09992 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09991 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09990 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09989 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09988 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09987 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09986 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09985 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09984 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09983 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09982 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09981 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09980 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09979 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09978 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships/ATTACK-REL-09977 - uses.md",
+    "Cybersecurity Knowledge Base/07 ATT&CK Relationships",
+    "Unbenannt.canvas",
+    "Cybersecurity Knowledge Base/06 Sources",
+    "Cybersecurity Knowledge Base/05 AI Training",
+    "Cybersecurity Knowledge Base/04 Defensive Playbooks",
+    "Cybersecurity Knowledge Base/03 Attack Patterns CAPEC",
+    "Cybersecurity Knowledge Base/02 Weaknesses CWE",
+    "Cybersecurity Knowledge Base/01 ATT&CK",
+    "Cybersecurity Knowledge Base/00 Start Here",
+    "Cybersecurity Knowledge Base"
   ]
 }
