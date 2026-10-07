@@ -1,25 +1,28 @@
 # Cybersecurity AI Knowledge Base
 
-Eine Obsidian-Wissensbasis als quellengebundene Referenz für Lernen, defensive Cybersecurity-Aufgaben und Retrieval-Augmented Generation (RAG).
+An Obsidian knowledge base providing a source-grounded reference for learning, defensive cybersecurity work, and retrieval-augmented generation (RAG).
 
-## Umfang
+## Scope
 
-Der Ordner [`Cybersecurity Knowledge Base/`](Cybersecurity%20Knowledge%20Base/00%20Start%20Here/Home.md) enthält mehr als 15.000 Markdown-Notizen, darunter:
+The [`Cybersecurity Knowledge Base/`](Cybersecurity%20Knowledge%20Base/00%20Start%20Here/Home.md) folder contains more than 15,000 Markdown notes, including:
 
-- MITRE ATT&CK Enterprise: Taktiken, Techniken, Software, Gruppen, Mitigations und Detection-Inhalte.
-- MITRE CWE: Schwachstellenklassen und Kataloghinweise zu Gegenmaßnahmen.
-- MITRE CAPEC: Angriffsmuster für defensives Threat Modeling.
-- 10.000 gerichtete ATT&CK-Beziehungskarten mit Typ, Endpunkten, Quell-ID und defensiver Einordnung.
-- Beispiele, Prompts, RAG- und Datenpipeline-Hinweise sowie Evaluierungsfälle für Cybersecurity-KI.
+- MITRE ATT&CK Enterprise: tactics, techniques, software, groups, mitigations, and detection content.
+- MITRE CWE: weakness classes and catalog guidance on countermeasures.
+- MITRE CAPEC: attack patterns for defensive threat modeling.
+- 10,000 directed ATT&CK relationship cards with type, endpoints, source ID, and defensive context.
+- Examples, prompts, RAG and data pipeline guidance, and evaluation cases for cybersecurity AI.
+- A practical cybersecurity handbook with 6,904 focused notes on security fundamentals, authorized assessments, network and application security, malware analysis, forensics, OT/IoT, governance, cloud, detection, security engineering, and defensive companions for 4,374 ATT&CK, 969 CWE, and 571 CAPEC records.
 
-## Einstieg
+## Getting Started
 
-Öffne `Cybersecurity Knowledge Base/` als Vault in Obsidian. Beginne bei [Home](Cybersecurity%20Knowledge%20Base/00%20Start%20Here/Home.md). Hinweise zu KI-Nutzung und Beispielen liegen unter `Cybersecurity Knowledge Base/05 AI Training/`.
+Open `Cybersecurity Knowledge Base/` as a vault in Obsidian. Start at [Home](Cybersecurity%20Knowledge%20Base/00%20Start%20Here/Home.md). Guidance on AI usage and examples is in `Cybersecurity Knowledge Base/05 AI Training/`.
+
+The [Cybersecurity Handbook](Cybersecurity%20Knowledge%20Base/08%20Cybersecurity%20Handbook/Index.md) provides a topic-by-topic learning path. Assessment guidance is for explicitly authorized systems and controlled labs.
 
 ## Quellen und Aktualität
 
-Die Notizen verweisen auf MITRE ATT&CK, CWE und CAPEC. Jeder Datensatz kann sich ändern; Abrufdatum und Quellversion stehen im Vault. Für reproduzierbare Verwendung sollten Quell-Datensätze auf eine feste Version bzw. einen Commit gepinnt und Änderungen geprüft werden. Lizenz- und Attributionsbedingungen sind vor Weiterverteilung oder Modelltraining anhand der Originalquellen zu prüfen.
+The notes reference MITRE ATT&CK, CWE, and CAPEC. Each dataset may change; retrieval dates and source versions are recorded in the vault. For reproducible use, pin source datasets to a fixed version or commit and review changes. Check the original sources for licensing and attribution requirements before redistribution or model training.
 
 ## Sichere Nutzung
 
-Diese Inhalte sind Referenzmaterial und keine alleinige Entscheidungsgrundlage. Katalogeinträge oder Beziehungen belegen für sich allein weder eine konkrete Schwachstelle in einem System noch einen Sicherheitsvorfall. Verifiziere Empfehlungen anhand aktueller Produktdokumentation und autorisierter Umgebungsevidenz. Nutze die Beispiele ausschließlich für defensive, genehmigte Arbeit.
+This content is reference material and should not be used as the sole basis for decisions. Catalog entries or relationships alone do not establish that a specific system has a vulnerability or that a security incident has occurred. Verify recommendations against current product documentation and evidence from an authorized environment. Use the examples only for defensive, authorized work.

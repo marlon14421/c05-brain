@@ -8,6 +8,7 @@ Dieses Obsidian-Wissenssystem bündelt strukturierte Primärdaten aus MITRE ATT&
 - [[02 CWE Index|CWE]] – Schwachheitstypen und katalogisierte Gegenmaßnahmen.
 - [[03 CAPEC Index|CAPEC]] – Angriffsmuster als Input für defensive Modellierung.
 - [[04 Defensive Playbooks/Defensive Playbooks|Defensive Playbooks]] – Arbeitsabläufe für sichere, nachvollziehbare Verteidigung.
+- [[08 Cybersecurity Handbook/Index|Cybersecurity Handbook]] – 6.904 praxisorientierte Lernnotizen einschließlich defensiver Begleitnotizen zu 4.374 ATT&CK-, 969 CWE- und 571 CAPEC-Einträgen.
 - [[05 AI Training/AI Training Guide|AI Training Guide]] – Kuratierung, Evaluierung und sichere Nutzung als Trainingsmaterial.
 - [[06 Sources/Source Register|Source Register]] – Herkunft, Versionen, Grenzen und Aktualisierung.
 - [[07 ATT&CK Relationships/Index|10.000 ATT&CK Relationships]] – zwei Indizes mit typisierten Quellenkanten zwischen den Datensätzen.

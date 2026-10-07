@@ -1,0 +1,49 @@
+---
+tags:
+  - cybersecurity
+  - defensive-security
+  - attack-review
+attack_id: "T1586"
+attack_type: "Technique"
+source: MITRE ATT&CK
+---
+# T1586: Compromise Accounts — Defensive Application
+
+## Source record
+
+- [[01 ATT&CK/T1586 - Compromise Accounts|T1586 source record]]
+- ATT&CK class: Technique
+- Platforms: PRE
+- Tactics: resource-development
+
+## Source context
+
+Adversaries may compromise accounts with services that can be used during targeting. For operations incorporating social engineering, the utilization of an online persona may be important. Rather than creating and cultivating accounts (i.e. [Establish Accounts](https://attack.mitre.org/techniques/T1585)), adversaries may compromise existing accounts. Utilizing an existing persona may engender a level of trust in a potential victim if they have a relationship, or knowledge of, the compromised persona. A variety of methods exist for compromising accounts, such as gathering credentials via [Phishing for Information](https://attack.mitre.org/techniques/T1598), purchasing credentials from third-party sites, brute forcing credentials (ex: password reuse from breach credential dumps), or paying employees, suppliers or business partners for access to credentials.(Citation: AnonHBGary)(Citation: Microsoft DEV-0537) Prior to compromising accounts, adversaries may conduct Reconnaissance to inform decisions about which accounts to compromise to further their operation. Personas may exist on a single site or across multiple sites (ex: Facebook, LinkedIn, Twitter, Google, etc.). Compromised accounts may require additional development, this could include filling out or modifying profile information, further developing social networks, or incorporating photos. Adversaries may directly leverage compromised email accounts for [Phishing for Information](https://attack.mitre.org/techniques/T1598) or [Phishing](https://attack.mitre.org/techniques/T1566).
+
+## Defensive focus
+
+Map the recorded behavior or objective to assets, trust boundaries, identities, and defensive controls in the local environment. ATT&CK classification alone does not establish activity or compromise.
+
+Use this record as a prompt for threat modeling and defensive review. Identify relevant assets and trust boundaries, determine whether the behavior is applicable to the environment, then consult detection and mitigation references before acting. A technique or tool listing alone is not evidence that an incident occurred.
+
+## Review checklist
+
+- Which assets, roles, platforms, and business services are actually exposed to this behavior?
+- What prevention or hardening control applies, and which owner maintains it?
+- Which telemetry source can support or refute the behavior, and what blind spots remain?
+- What legitimate administrative or software behavior could look similar?
+- What containment or recovery decision is authorized if evidence is confirmed?
+
+## Safe validation
+
+Use an isolated lab, benign simulation, or sanitized historical data. Test only owned or explicitly authorized systems; do not reproduce harmful behavior against production targets. Define written scope, test window, accounts, data boundaries, and stop conditions in advance. Preserve only the evidence required to verify the control and protect it from unauthorized access.
+
+## Evidence and response
+
+Record the source and version, environment, time range, expected behavior, observations, alternative explanations, and telemetry gaps. A catalog mapping is a lead for analysis, not an incident finding. Escalate and contain only under approved response procedures; verify remediation with a measurable retest.
+
+## Further reading
+
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [[../../04 Defensive Playbooks/Defensive Playbooks|Defensive Playbooks]]
+- [[../../06 Sources/Source Register|Source Register and dataset caveats]]

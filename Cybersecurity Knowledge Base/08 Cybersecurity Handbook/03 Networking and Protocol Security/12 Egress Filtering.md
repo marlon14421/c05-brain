@@ -1,0 +1,43 @@
+---
+tags:
+  - cybersecurity
+  - defensive-security
+  - learning-note
+section: "Networking and Protocol Security"
+---
+# Egress Filtering
+
+## Purpose
+
+This note introduces **egress filtering** as a practical security topic. Apply it only to systems, accounts, data, and environments that you own or are explicitly authorized to assess. Confirm current product behavior in the relevant vendor documentation.
+
+## Core idea
+
+A useful security review starts by stating the asset and security property at risk, identifying the relevant boundary or control, and recording evidence that can be independently checked. Separate observed facts from interpretation, state assumptions, and describe what would change the conclusion. Prefer preventive controls with monitoring and recovery paths over reliance on a single safeguard.
+
+## Review questions
+
+- What system, data, identity, or business process is in scope, and who owns it?
+- What is the expected secure behavior, and where is that expectation documented?
+- Which configuration, code path, event, or test result provides evidence?
+- What legitimate use could resemble the suspected weakness or signal?
+- What is the least disruptive way to validate and remediate the issue?
+
+## Safe practice
+
+Use a disposable local lab, synthetic data, and test identities. Define scope, time window, rate limits, stop conditions, and a contact before testing. Record the setup and expected result; change one variable at a time; preserve relevant logs; reset the lab afterward. Do not probe third-party or production systems without explicit written authorization.
+
+## Defensive outcome
+
+Document the finding with affected asset and version, preconditions, impact, evidence, uncertainty, recommended mitigation, owner, and retest criteria. Validate that the mitigation addresses the underlying cause and does not break legitimate workflows. Track residual risk when a complete fix is not immediately feasible.
+
+## Further reading
+
+- [[../../04 Defensive Playbooks/Defensive Playbooks|Defensive Playbooks]]
+- [[../../06 Sources/Source Register|Source Register and dataset caveats]]
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
+
+## Learning prompt
+
+For **egress filtering**, write a one-paragraph scenario for an owned test environment. Identify the asset, expected secure behavior, evidence to collect, a likely false positive or operational constraint, and a measurable retest condition. Keep the exercise non-destructive and within the stated scope.
