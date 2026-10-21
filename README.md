@@ -19,10 +19,10 @@ Open `Cybersecurity Knowledge Base/` as a vault in Obsidian. Start at [Home](Cyb
 
 The [Cybersecurity Handbook](Cybersecurity%20Knowledge%20Base/08%20Cybersecurity%20Handbook/Index.md) provides a topic-by-topic learning path. Assessment guidance is for explicitly authorized systems and controlled labs.
 
-## Quellen und Aktualität
+## Sources and Currency
 
 The notes reference MITRE ATT&CK, CWE, and CAPEC. Each dataset may change; retrieval dates and source versions are recorded in the vault. For reproducible use, pin source datasets to a fixed version or commit and review changes. Check the original sources for licensing and attribution requirements before redistribution or model training.
 
-## Sichere Nutzung
+## Safe Use
 
 This content is reference material and should not be used as the sole basis for decisions. Catalog entries or relationships alone do not establish that a specific system has a vulnerability or that a security incident has occurred. Verify recommendations against current product documentation and evidence from an authorized environment. Use the examples only for defensive, authorized work.
